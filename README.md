@@ -8,4 +8,4 @@ This package includes all of [AstroUXDS's](https://www.astrouxds.com/) design to
 
 ### CSS Custom Properties
 
-`@import "node_modules/@astrouxds/design-tokens/dist/css/index.css;"
+`@import "node_modules/@astrouxds/design-tokens/dist/css/index.css;`
