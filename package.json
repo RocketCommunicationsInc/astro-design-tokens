@@ -1,0 +1,29 @@
+{
+  "name": "@astrouxds/design-tokens",
+  "version": "1.0.0",
+  "description": "Astro UXDS Design Tokens",
+  "main": "index.js",
+  "dependencies": {
+    "style-dictionary": "^3"
+  },
+  "scripts": {
+    "start": "npm run build",
+    "build": "node ./build.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RocketCommunicationsInc/astro-design-tokens"
+  },
+  "author": "Rocket Communications",
+  "bugs": {
+    "url": "https://github.com/RocketCommunicationsInc/astro-design-tokens/issues"
+  },
+  "homepage": "https://www.astrouxds.com",
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "tinycolor2": "^1.4.2"
+  }
+}
