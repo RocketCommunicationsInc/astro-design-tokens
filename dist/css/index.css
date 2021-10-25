@@ -1,0 +1,4 @@
+@import 'variables';
+@import './_colors-global.css';
+@import './_colors-dark.css';
+@import './_colors-light.css';
