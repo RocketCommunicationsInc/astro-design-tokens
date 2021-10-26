@@ -1,6 +1,6 @@
 {
   "name": "@astrouxds/design-tokens",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Astro UXDS Design Tokens",
   "main": "index.js",
   "dependencies": {
