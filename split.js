@@ -2,7 +2,7 @@ const fs = require("fs");
 const data = require("./dist/json/styles.json");
 
 function splitJson(tokens) {
-  //Loop thru the data and fill in the category objs..
+  //Loop thru the data and fill in the category objs.
   let colors = {};
   let fontSize = {};
   let fontWeight = {};
@@ -38,32 +38,32 @@ function splitJson(tokens) {
   }
 
   fs.writeFileSync(
-    "./splits/colors.json",
+    "./dist/json/colors.json",
     JSON.stringify(colors, null, 2),
     "utf-8"
   );
   fs.writeFileSync(
-    "./splits/fontSize.json",
+    "./dist/json/fontSize.json",
     JSON.stringify(fontSize, null, 2),
     "utf-8"
   );
   fs.writeFileSync(
-    "./splits/fontWeight.json",
+    "./dist/json/fontWeight.json",
     JSON.stringify(fontWeight, null, 2),
     "utf-8"
   );
   fs.writeFileSync(
-    "./splits/letterSpacing.json",
+    "./dist/json/letterSpacing.json",
     JSON.stringify(letterSpacing, null, 2),
     "utf-8"
   );
   fs.writeFileSync(
-    "./splits/lineHeight.json",
+    "./dist/json/lineHeight.json",
     JSON.stringify(lineHeight, null, 2),
     "utf-8"
   );
   fs.writeFileSync(
-    "./splits/global.json",
+    "./dist/json/global.json",
     JSON.stringify(global, null, 2),
     "utf-8"
   );
