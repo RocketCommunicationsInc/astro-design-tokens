@@ -265,6 +265,7 @@ StyleDictionary.registerTransformGroup({
     "fontFamily/fallback",
     "typography/name",
     "borderRadius/name",
+    "color/rgbaRef",
   ]),
 });
 
