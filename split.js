@@ -36,37 +36,13 @@ function splitJson(tokens) {
       pariahs[key] = value;
     }
   }
-
-  fs.writeFileSync(
-    "./dist/json/colors.json",
-    JSON.stringify(colors, null, 2),
-    "utf-8"
-  );
-  fs.writeFileSync(
-    "./dist/json/fontSize.json",
-    JSON.stringify(fontSize, null, 2),
-    "utf-8"
-  );
-  fs.writeFileSync(
-    "./dist/json/fontWeight.json",
-    JSON.stringify(fontWeight, null, 2),
-    "utf-8"
-  );
-  fs.writeFileSync(
-    "./dist/json/letterSpacing.json",
-    JSON.stringify(letterSpacing, null, 2),
-    "utf-8"
-  );
-  fs.writeFileSync(
-    "./dist/json/lineHeight.json",
-    JSON.stringify(lineHeight, null, 2),
-    "utf-8"
-  );
-  fs.writeFileSync(
-    "./dist/json/global.json",
-    JSON.stringify(global, null, 2),
-    "utf-8"
-  );
+  writeJson("colors", colors);
+  writeJson("fontSize", fontSize);
+  writeJson("fontFamily", fontFamily);
+  writeJson("fontWeight", fontWeight);
+  writeJson("letterSpacing", letterSpacing);
+  writeJson("lineHeight", lineHeight);
+  writeJson("global", global);
 
   //Check that all tokens were written correctly
   const OGSize = Object.keys(tokens).length;
@@ -91,6 +67,14 @@ function splitJson(tokens) {
     console.log("Sizes are different! Here are the outliers: ");
     console.log(pariahs);
   }
+}
+
+function writeJson(fileName, obj) {
+  fs.writeFileSync(
+    `./dist/json/${fileName}.json`,
+    JSON.stringify(obj, null, 2),
+    "utf-8"
+  );
 }
 
 splitJson(data);
