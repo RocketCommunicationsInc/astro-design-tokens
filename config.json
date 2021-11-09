@@ -13,7 +13,7 @@
       "transformGroup": "custom/css",
       "buildPath": "dist/internal/css/",
       "files": [{
-        "destination": "_variables.css",
+        "destination": "_tokens.scss",
         "format": "css/variables",
         "filter": "notColor",
         "options" : {

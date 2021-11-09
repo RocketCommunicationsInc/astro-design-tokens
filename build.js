@@ -8,7 +8,7 @@ StyleDictionary.registerTransform({
   name: "size/pxToRem",
   type: "value",
   matcher: (token) => {
-    return token.attributes.category === "fontSize";
+    return token.attributes.subitem === "fontSize" || token.attributes.category === 'fontSize'
     // return token.unit === "pixel" && token.value !== 0;
   },
   transformer: (token) => {
@@ -22,7 +22,7 @@ StyleDictionary.registerTransform({
   name: "letterSpacing/percentToEm",
   type: "value",
   matcher: (token) => {
-    return token.attributes.category === "letterSpacing";
+    return token.attributes.subitem === "letterSpacing" || token.attributes.category === 'letterSpacing'
   },
   transformer: (token) => {
     const value = token.value.replace("%", "");
@@ -63,7 +63,7 @@ StyleDictionary.registerTransform({
   name: "fontFamily/fallback",
   type: "value",
   matcher: (token) => {
-    return token.attributes.category === "fontFamily";
+    return token.attributes.subitem === "fontFamily" || token.attributes.category === 'fontFamily'
   },
   transformer: (token) => {
     const serifFallback =
@@ -124,7 +124,7 @@ StyleDictionary.registerTransform({
   name: "fontWeight/cssValue",
   type: "value",
   matcher: (token) => {
-    return token.attributes.category === "fontWeight";
+    return token.attributes.subitem === "fontWeight" || token.attributes.category === 'fontWeight'
   },
   transformer: (token) => {
     const fontWeightValues = {
