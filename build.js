@@ -242,7 +242,7 @@ StyleDictionary.registerTransformGroup({
     "typography/name",
     "borderRadius/name",
     "fontWeight/cssValue",
-    "color/rgbaRef",
+    // "color/rgbaRef",
   ]),
 });
 
@@ -265,7 +265,7 @@ StyleDictionary.registerTransformGroup({
     "fontFamily/fallback",
     "typography/name",
     "borderRadius/name",
-    "color/rgbaRef",
+    // "color/rgbaRef",
   ]),
 });
 
