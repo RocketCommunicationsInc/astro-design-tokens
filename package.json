@@ -10,7 +10,7 @@
     "start": "npm run build",
     "build": "node ./build.js",
     "prepack": "npm run build",
-    "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json"
+    "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json && node preformat.js"
   },
   "files": [
     "dist"
