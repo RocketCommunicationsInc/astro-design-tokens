@@ -9,7 +9,8 @@
   "scripts": {
     "start": "npm run build",
     "build": "node ./build.js",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json"
   },
   "files": [
     "dist"
@@ -25,6 +26,7 @@
   "homepage": "https://www.astrouxds.com",
   "devDependencies": {
     "lodash": "^4.17.21",
-    "tinycolor2": "^1.4.2"
+    "tinycolor2": "^1.4.2",
+    "token-transformer": "^0.0.13"
   }
 }
