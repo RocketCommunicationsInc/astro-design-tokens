@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 09 Nov 2021 19:33:40 GMT
+// Generated on Fri, 12 Nov 2021 19:42:42 GMT
 
 $40: 40%;
 $color-background: #ececec;
@@ -47,6 +47,7 @@ $color-classification-confidential: #3d3e3f;
 $color-classification-secret: #68696a;
 $color-classification-top-secret: #abacad;
 $color-classification-top-secret-sci: #e5e6e7;
+$color-dialog-header: #f7f8fb;
 $color-global-basics-white: #ffffff;
 $color-global-basics-black: #000000;
 $color-global-status-critical-400: #ff5f60;
@@ -151,9 +152,14 @@ $color-global-quaternary-700: #7b8089;
 $color-global-quaternary-800: #51555b;
 $color-global-quaternary-900: #292a2d;
 $color-global-snowflakes-dark-surface: #1b2d3e;
-$color-global-snowflakes-light-shadow: #828181;
 $color-global-snowflakes-dark-selected: #1c3f5e;
 $color-global-snowflakes-light-selected: #cee9fc;
+$color-global-snowflakes-table-hover-dark: #deefff;
+$color-global-snowflakes-table-hover-light: #b3c8d5;
+$color-global-snowflakes-list-hover-dark: #bbc5cf;
+$color-global-snowflakes-list-hover-light: #f0f8fe;
+$color-global-snowflakes-dialog-header-dark: #172533;
+$color-global-snowflakes-dialog-header-light: #f7f8fb;
 $color-dark-background: #101923;
 $color-dark-surface: #1b2d3e;
 $color-dark-default-text: #ffffff;
@@ -166,7 +172,7 @@ $color-dark-active: #2b659b;
 $color-dark-selected: #1c3f5e;
 $color-dark-hover: #92cbff;
 $color-dark-table-hover: #92cbff;
-$color-dark-list-hover: #1c3f5e;
+$color-dark-list-hover: #bbc5cf;
 $color-dark-scrollbar-shadow: #000000;
 $color-dark-table-header-shadow: #000000;
 $color-dark-dialog-shadow1: #000000;
@@ -198,6 +204,7 @@ $color-dark-classification-confidential: #0033a0;
 $color-dark-classification-secret: #c8102e;
 $color-dark-classification-top-secret: #ff8c00;
 $color-dark-classification-top-secret-sci: #fce83a;
+$color-dark-dialog-header: #172533;
 $color-light-background: #eaeef4;
 $color-light-surface: #ffffff;
 $color-light-default-text: #292a2d;
@@ -210,8 +217,8 @@ $color-light-active: #649cbd;
 $color-light-selected: #cee9fc;
 $color-light-hover: #004872;
 $color-light-table-hover: #004872;
-$color-light-list-hover: #cee9fc;
-$color-light-scrollbar-shadow: #828181;
+$color-light-list-hover: #f0f8fe;
+$color-light-scrollbar-shadow: #000000;
 $color-light-table-header-shadow: #000000;
 $color-light-dialog-shadow1: #000000;
 $color-light-dialog-shadow2: #000000;
@@ -242,6 +249,7 @@ $color-light-classification-confidential: #0033a0;
 $color-light-classification-secret: #c8102e;
 $color-light-classification-top-secret: #ff8c00;
 $color-light-classification-top-secret-sci: #fce83a;
+$color-light-dialog-header: #f7f8fb;
 $color-wireframe-background: #ececec;
 $color-wireframe-surface: #ffffff;
 $color-wireframe-default-text: #2a2a2a;

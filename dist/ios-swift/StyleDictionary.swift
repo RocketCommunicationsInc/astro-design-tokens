@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 09 Nov 2021 19:33:40 GMT
+// Generated on Fri, 12 Nov 2021 19:42:42 GMT
 
 
 import UIKit
@@ -70,6 +70,7 @@ public class StyleDictionary {
     public static let colorDarkClassificationTopSecretSci = UIColor(red: 0.988, green: 0.910, blue: 0.227, alpha: 1)
     public static let colorDarkClassificationUnclassified = UIColor(red: 0.000, green: 0.478, blue: 0.200, alpha: 1)
     public static let colorDarkDefaultText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
+    public static let colorDarkDialogHeader = UIColor(red: 0.090, green: 0.145, blue: 0.200, alpha: 1)
     public static let colorDarkDialogShadow1 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.25098039215686274)
     public static let colorDarkDialogShadow2 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.12156862745098039)
     public static let colorDarkDialogShadow3 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.2)
@@ -78,7 +79,7 @@ public class StyleDictionary {
     public static let colorDarkGsbPrimary = UIColor(red: 0.302, green: 0.675, blue: 1.000, alpha: 1)
     public static let colorDarkHover = UIColor(red: 0.573, green: 0.796, blue: 1.000, alpha: 1)
     public static let colorDarkInverseText = UIColor(red: 0.031, green: 0.047, blue: 0.067, alpha: 1)
-    public static let colorDarkListHover = UIColor(red: 0.110, green: 0.247, blue: 0.369, alpha: 0.30196078431372547)
+    public static let colorDarkListHover = UIColor(red: 0.733, green: 0.773, blue: 0.812, alpha: 1)
     public static let colorDarkPlaceholderText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 0.6)
     public static let colorDarkPrimary = UIColor(red: 0.302, green: 0.675, blue: 1.000, alpha: 1)
     public static let colorDarkPrimaryAlt = UIColor(red: 0.227, green: 0.529, blue: 0.812, alpha: 1)
@@ -103,6 +104,7 @@ public class StyleDictionary {
     public static let colorDarkTableHeaderShadow = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)
     public static let colorDarkTableHover = UIColor(red: 0.573, green: 0.796, blue: 1.000, alpha: 0.30196078431372547)
     public static let colorDefaultText = UIColor(red: 0.165, green: 0.165, blue: 0.165, alpha: 1)
+    public static let colorDialogHeader = UIColor(red: 0.969, green: 0.973, blue: 0.984, alpha: 1)
     public static let colorDialogShadow1 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.1411764705882353)
     public static let colorDialogShadow2 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.12156862745098039)
     public static let colorDialogShadow3 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.2)
@@ -143,8 +145,13 @@ public class StyleDictionary {
     public static let colorGlobalSecondary900 = UIColor(red: 0.055, green: 0.133, blue: 0.204, alpha: 1)
     public static let colorGlobalSnowflakesDarkSelected = UIColor(red: 0.110, green: 0.247, blue: 0.369, alpha: 1)
     public static let colorGlobalSnowflakesDarkSurface = UIColor(red: 0.106, green: 0.176, blue: 0.243, alpha: 1)
+    public static let colorGlobalSnowflakesDialogHeaderDark = UIColor(red: 0.090, green: 0.145, blue: 0.200, alpha: 1)
+    public static let colorGlobalSnowflakesDialogHeaderLight = UIColor(red: 0.969, green: 0.973, blue: 0.984, alpha: 1)
     public static let colorGlobalSnowflakesLightSelected = UIColor(red: 0.808, green: 0.914, blue: 0.988, alpha: 1)
-    public static let colorGlobalSnowflakesLightShadow = UIColor(red: 0.510, green: 0.506, blue: 0.506, alpha: 1)
+    public static let colorGlobalSnowflakesListHoverDark = UIColor(red: 0.733, green: 0.773, blue: 0.812, alpha: 1)
+    public static let colorGlobalSnowflakesListHoverLight = UIColor(red: 0.941, green: 0.973, blue: 0.996, alpha: 1)
+    public static let colorGlobalSnowflakesTableHoverDark = UIColor(red: 0.871, green: 0.937, blue: 1.000, alpha: 1)
+    public static let colorGlobalSnowflakesTableHoverLight = UIColor(red: 0.702, green: 0.784, blue: 0.835, alpha: 1)
     public static let colorGlobalStatusCaution400 = UIColor(red: 0.992, green: 0.929, blue: 0.380, alpha: 1)
     public static let colorGlobalStatusCaution500 = UIColor(red: 0.988, green: 0.910, blue: 0.227, alpha: 1)
     public static let colorGlobalStatusCaution600 = UIColor(red: 0.980, green: 0.847, blue: 0.000, alpha: 1)
@@ -230,6 +237,7 @@ public class StyleDictionary {
     public static let colorLightClassificationTopSecretSci = UIColor(red: 0.988, green: 0.910, blue: 0.227, alpha: 1)
     public static let colorLightClassificationUnclassified = UIColor(red: 0.000, green: 0.478, blue: 0.200, alpha: 1)
     public static let colorLightDefaultText = UIColor(red: 0.161, green: 0.165, blue: 0.176, alpha: 1)
+    public static let colorLightDialogHeader = UIColor(red: 0.969, green: 0.973, blue: 0.984, alpha: 1)
     public static let colorLightDialogShadow1 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.1411764705882353)
     public static let colorLightDialogShadow2 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.12156862745098039)
     public static let colorLightDialogShadow3 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.2)
@@ -238,11 +246,11 @@ public class StyleDictionary {
     public static let colorLightGsbPrimary = UIColor(red: 0.302, green: 0.675, blue: 1.000, alpha: 1)
     public static let colorLightHover = UIColor(red: 0.000, green: 0.282, blue: 0.447, alpha: 1)
     public static let colorLightInverseText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
-    public static let colorLightListHover = UIColor(red: 0.808, green: 0.914, blue: 0.988, alpha: 0.30196078431372547)
+    public static let colorLightListHover = UIColor(red: 0.941, green: 0.973, blue: 0.996, alpha: 1)
     public static let colorLightPlaceholderText = UIColor(red: 0.161, green: 0.165, blue: 0.176, alpha: 0.6)
     public static let colorLightPrimary = UIColor(red: 0.000, green: 0.353, blue: 0.561, alpha: 1)
     public static let colorLightPrimaryAlt = UIColor(red: 0.184, green: 0.478, blue: 0.655, alpha: 1)
-    public static let colorLightScrollbarShadow = UIColor(red: 0.510, green: 0.506, blue: 0.506, alpha: 0.5019607843137255)
+    public static let colorLightScrollbarShadow = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.5019607843137255)
     public static let colorLightSecondaryText = UIColor(red: 0.318, green: 0.333, blue: 0.357, alpha: 1)
     public static let colorLightSelected = UIColor(red: 0.808, green: 0.914, blue: 0.988, alpha: 1)
     public static let colorLightStatusBorder = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.5019607843137255)

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 09 Nov 2021 19:33:40 GMT
+// Generated on Fri, 12 Nov 2021 19:42:42 GMT
 
 
 #import <UIKit/UIKit.h>
@@ -54,6 +54,7 @@ ColorClassificationConfidential,
 ColorClassificationSecret,
 ColorClassificationTopSecret,
 ColorClassificationTopSecretSci,
+ColorDialogHeader,
 ColorGlobalBasicsWhite,
 ColorGlobalBasicsBlack,
 ColorGlobalStatusCritical400,
@@ -158,9 +159,14 @@ ColorGlobalQuaternary700,
 ColorGlobalQuaternary800,
 ColorGlobalQuaternary900,
 ColorGlobalSnowflakesDarkSurface,
-ColorGlobalSnowflakesLightShadow,
 ColorGlobalSnowflakesDarkSelected,
 ColorGlobalSnowflakesLightSelected,
+ColorGlobalSnowflakesTableHoverDark,
+ColorGlobalSnowflakesTableHoverLight,
+ColorGlobalSnowflakesListHoverDark,
+ColorGlobalSnowflakesListHoverLight,
+ColorGlobalSnowflakesDialogHeaderDark,
+ColorGlobalSnowflakesDialogHeaderLight,
 ColorDarkBackground,
 ColorDarkSurface,
 ColorDarkDefaultText,
@@ -205,6 +211,7 @@ ColorDarkClassificationConfidential,
 ColorDarkClassificationSecret,
 ColorDarkClassificationTopSecret,
 ColorDarkClassificationTopSecretSci,
+ColorDarkDialogHeader,
 ColorLightBackground,
 ColorLightSurface,
 ColorLightDefaultText,
@@ -249,6 +256,7 @@ ColorLightClassificationConfidential,
 ColorLightClassificationSecret,
 ColorLightClassificationTopSecret,
 ColorLightClassificationTopSecretSci,
+ColorLightDialogHeader,
 ColorWireframeBackground,
 ColorWireframeSurface,
 ColorWireframeDefaultText,

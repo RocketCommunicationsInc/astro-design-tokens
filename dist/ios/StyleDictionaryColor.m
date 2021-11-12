@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 09 Nov 2021 19:33:40 GMT
+// Generated on Fri, 12 Nov 2021 19:42:42 GMT
 
 
 #import "StyleDictionaryColor.h"
@@ -65,6 +65,7 @@
 [UIColor colorWithRed:0.408f green:0.412f blue:0.416f alpha:1.000f],
 [UIColor colorWithRed:0.671f green:0.675f blue:0.678f alpha:1.000f],
 [UIColor colorWithRed:0.898f green:0.902f blue:0.906f alpha:1.000f],
+[UIColor colorWithRed:0.969f green:0.973f blue:0.984f alpha:1.000f],
 [UIColor colorWithRed:1.000f green:1.000f blue:1.000f alpha:1.000f],
 [UIColor colorWithRed:0.000f green:0.000f blue:0.000f alpha:1.000f],
 [UIColor colorWithRed:1.000f green:0.373f blue:0.376f alpha:1.000f],
@@ -169,9 +170,14 @@
 [UIColor colorWithRed:0.318f green:0.333f blue:0.357f alpha:1.000f],
 [UIColor colorWithRed:0.161f green:0.165f blue:0.176f alpha:1.000f],
 [UIColor colorWithRed:0.106f green:0.176f blue:0.243f alpha:1.000f],
-[UIColor colorWithRed:0.510f green:0.506f blue:0.506f alpha:1.000f],
 [UIColor colorWithRed:0.110f green:0.247f blue:0.369f alpha:1.000f],
 [UIColor colorWithRed:0.808f green:0.914f blue:0.988f alpha:1.000f],
+[UIColor colorWithRed:0.871f green:0.937f blue:1.000f alpha:1.000f],
+[UIColor colorWithRed:0.702f green:0.784f blue:0.835f alpha:1.000f],
+[UIColor colorWithRed:0.733f green:0.773f blue:0.812f alpha:1.000f],
+[UIColor colorWithRed:0.941f green:0.973f blue:0.996f alpha:1.000f],
+[UIColor colorWithRed:0.090f green:0.145f blue:0.200f alpha:1.000f],
+[UIColor colorWithRed:0.969f green:0.973f blue:0.984f alpha:1.000f],
 [UIColor colorWithRed:0.063f green:0.098f blue:0.137f alpha:1.000f],
 [UIColor colorWithRed:0.106f green:0.176f blue:0.243f alpha:1.000f],
 [UIColor colorWithRed:1.000f green:1.000f blue:1.000f alpha:1.000f],
@@ -184,7 +190,7 @@
 [UIColor colorWithRed:0.110f green:0.247f blue:0.369f alpha:1.000f],
 [UIColor colorWithRed:0.573f green:0.796f blue:1.000f alpha:1.000f],
 [UIColor colorWithRed:0.573f green:0.796f blue:1.000f alpha:0.302f],
-[UIColor colorWithRed:0.110f green:0.247f blue:0.369f alpha:0.302f],
+[UIColor colorWithRed:0.733f green:0.773f blue:0.812f alpha:1.000f],
 [UIColor colorWithRed:0.000f green:0.000f blue:0.000f alpha:0.502f],
 [UIColor colorWithRed:0.000f green:0.000f blue:0.000f alpha:1.000f],
 [UIColor colorWithRed:0.000f green:0.000f blue:0.000f alpha:0.251f],
@@ -216,6 +222,7 @@
 [UIColor colorWithRed:0.784f green:0.063f blue:0.180f alpha:1.000f],
 [UIColor colorWithRed:1.000f green:0.549f blue:0.000f alpha:1.000f],
 [UIColor colorWithRed:0.988f green:0.910f blue:0.227f alpha:1.000f],
+[UIColor colorWithRed:0.090f green:0.145f blue:0.200f alpha:1.000f],
 [UIColor colorWithRed:0.918f green:0.933f blue:0.957f alpha:1.000f],
 [UIColor colorWithRed:1.000f green:1.000f blue:1.000f alpha:1.000f],
 [UIColor colorWithRed:0.161f green:0.165f blue:0.176f alpha:1.000f],
@@ -228,8 +235,8 @@
 [UIColor colorWithRed:0.808f green:0.914f blue:0.988f alpha:1.000f],
 [UIColor colorWithRed:0.000f green:0.282f blue:0.447f alpha:1.000f],
 [UIColor colorWithRed:0.000f green:0.282f blue:0.447f alpha:0.302f],
-[UIColor colorWithRed:0.808f green:0.914f blue:0.988f alpha:0.302f],
-[UIColor colorWithRed:0.510f green:0.506f blue:0.506f alpha:0.502f],
+[UIColor colorWithRed:0.941f green:0.973f blue:0.996f alpha:1.000f],
+[UIColor colorWithRed:0.000f green:0.000f blue:0.000f alpha:0.502f],
 [UIColor colorWithRed:0.000f green:0.000f blue:0.000f alpha:1.000f],
 [UIColor colorWithRed:0.000f green:0.000f blue:0.000f alpha:0.141f],
 [UIColor colorWithRed:0.000f green:0.000f blue:0.000f alpha:0.122f],
@@ -260,6 +267,7 @@
 [UIColor colorWithRed:0.784f green:0.063f blue:0.180f alpha:1.000f],
 [UIColor colorWithRed:1.000f green:0.549f blue:0.000f alpha:1.000f],
 [UIColor colorWithRed:0.988f green:0.910f blue:0.227f alpha:1.000f],
+[UIColor colorWithRed:0.969f green:0.973f blue:0.984f alpha:1.000f],
 [UIColor colorWithRed:0.925f green:0.925f blue:0.925f alpha:1.000f],
 [UIColor colorWithRed:1.000f green:1.000f blue:1.000f alpha:1.000f],
 [UIColor colorWithRed:0.165f green:0.165f blue:0.165f alpha:1.000f],
