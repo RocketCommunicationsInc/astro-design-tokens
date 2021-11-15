@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 12 Nov 2021 19:42:42 GMT
+// Generated on Mon, 15 Nov 2021 16:06:46 GMT
 
 
 import UIKit
@@ -79,7 +79,7 @@ public class StyleDictionary {
     public static let colorDarkGsbPrimary = UIColor(red: 0.302, green: 0.675, blue: 1.000, alpha: 1)
     public static let colorDarkHover = UIColor(red: 0.573, green: 0.796, blue: 1.000, alpha: 1)
     public static let colorDarkInverseText = UIColor(red: 0.031, green: 0.047, blue: 0.067, alpha: 1)
-    public static let colorDarkListHover = UIColor(red: 0.733, green: 0.773, blue: 0.812, alpha: 1)
+    public static let colorDarkListHover = UIColor(red: 0.078, green: 0.141, blue: 0.208, alpha: 1)
     public static let colorDarkPlaceholderText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 0.6)
     public static let colorDarkPrimary = UIColor(red: 0.302, green: 0.675, blue: 1.000, alpha: 1)
     public static let colorDarkPrimaryAlt = UIColor(red: 0.227, green: 0.529, blue: 0.812, alpha: 1)
@@ -148,10 +148,10 @@ public class StyleDictionary {
     public static let colorGlobalSnowflakesDialogHeaderDark = UIColor(red: 0.090, green: 0.145, blue: 0.200, alpha: 1)
     public static let colorGlobalSnowflakesDialogHeaderLight = UIColor(red: 0.969, green: 0.973, blue: 0.984, alpha: 1)
     public static let colorGlobalSnowflakesLightSelected = UIColor(red: 0.808, green: 0.914, blue: 0.988, alpha: 1)
-    public static let colorGlobalSnowflakesListHoverDark = UIColor(red: 0.733, green: 0.773, blue: 0.812, alpha: 1)
-    public static let colorGlobalSnowflakesListHoverLight = UIColor(red: 0.941, green: 0.973, blue: 0.996, alpha: 1)
-    public static let colorGlobalSnowflakesTableHoverDark = UIColor(red: 0.871, green: 0.937, blue: 1.000, alpha: 1)
-    public static let colorGlobalSnowflakesTableHoverLight = UIColor(red: 0.702, green: 0.784, blue: 0.835, alpha: 1)
+    public static let colorGlobalSnowflakesListHoverDark = UIColor(red: 0.078, green: 0.141, blue: 0.208, alpha: 1)
+    public static let colorGlobalSnowflakesListHoverLight = UIColor(red: 0.886, green: 0.929, blue: 0.965, alpha: 1)
+    public static let colorGlobalSnowflakesTableHoverDark = UIColor(red: 0.216, green: 0.306, blue: 0.396, alpha: 1)
+    public static let colorGlobalSnowflakesTableHoverLight = UIColor(red: 0.643, green: 0.737, blue: 0.804, alpha: 1)
     public static let colorGlobalStatusCaution400 = UIColor(red: 0.992, green: 0.929, blue: 0.380, alpha: 1)
     public static let colorGlobalStatusCaution500 = UIColor(red: 0.988, green: 0.910, blue: 0.227, alpha: 1)
     public static let colorGlobalStatusCaution600 = UIColor(red: 0.980, green: 0.847, blue: 0.000, alpha: 1)
@@ -246,7 +246,7 @@ public class StyleDictionary {
     public static let colorLightGsbPrimary = UIColor(red: 0.302, green: 0.675, blue: 1.000, alpha: 1)
     public static let colorLightHover = UIColor(red: 0.000, green: 0.282, blue: 0.447, alpha: 1)
     public static let colorLightInverseText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
-    public static let colorLightListHover = UIColor(red: 0.941, green: 0.973, blue: 0.996, alpha: 1)
+    public static let colorLightListHover = UIColor(red: 0.886, green: 0.929, blue: 0.965, alpha: 1)
     public static let colorLightPlaceholderText = UIColor(red: 0.161, green: 0.165, blue: 0.176, alpha: 0.6)
     public static let colorLightPrimary = UIColor(red: 0.000, green: 0.353, blue: 0.561, alpha: 1)
     public static let colorLightPrimaryAlt = UIColor(red: 0.184, green: 0.478, blue: 0.655, alpha: 1)
