@@ -1,5 +1,5 @@
 const StyleDictionary = require("style-dictionary");
-const baseConfig = require("./config.json");
+const baseConfig = require("./config.js");
 var _ = require("lodash");
 const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
 var Color = require("tinycolor2");
