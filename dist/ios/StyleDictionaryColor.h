@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 15 Nov 2021 20:42:52 GMT
+// Generated on Tue, 16 Nov 2021 22:19:10 GMT
 
 
 #import <UIKit/UIKit.h>
@@ -167,6 +167,8 @@ ColorGlobalSnowflakesListHoverDark,
 ColorGlobalSnowflakesListHoverLight,
 ColorGlobalSnowflakesDialogHeaderDark,
 ColorGlobalSnowflakesDialogHeaderLight,
+ColorGlobalSnowflakesPlaceholderDark,
+ColorGlobalSnowflakesPlaceholderLight,
 ColorDarkBackground,
 ColorDarkSurface,
 ColorDarkDefaultText,
