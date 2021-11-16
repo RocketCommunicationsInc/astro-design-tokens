@@ -104,18 +104,27 @@ StyleDictionary.registerTransform({
   },
 });
 
-StyleDictionary.registerFormat({
-  name: "myCustomFormat",
-  formatter: function ({ dictionary, file, options }) {
-    const { outputReferences } = options;
-    return (
-      fileHeader({ file }) +
-      ":root {\n" +
-      formattedVariables({ format: "css", dictionary, outputReferences }) +
-      "\n}\n"
-    );
+/**
+ * Remove -dark- or -light- from the token name.
+ * **TEMPORARY** until we can get design to use separate token themes.
+ */
+StyleDictionary.registerTransform({
+  name: "color/themeName",
+  type: "name",
+  matcher: (token) => {
+    return token.attributes.category === "color"
+  },
+  transformer: (token) => {
+    if (token.attributes.type === "dark") {
+      return token.name.replace("dark-", "");
+    } else if (token.attributes.type === "light") {
+      return token.name.replace("light-", "");
+    } else {
+      return token.name
+    }
   },
 });
+
 
 /**
  * Converts typography name 'bold' to CSS value '700'
@@ -172,6 +181,41 @@ StyleDictionary.registerFilter({
     return (
       token.attributes.category === "color" && token.attributes.type === "light"
     );
+  },
+});
+StyleDictionary.registerFormat({
+  name: `darkColorFormatterSass`,
+  formatter: function (format) {
+    const dictionary = Object.assign({}, format.dictionary);
+    // Override each token's `value` with `darkValue`
+    dictionary.allProperties = dictionary.allProperties.map((token) => {
+      if (token.attributes.type === "dark") {
+        token.name = token.name.replace("dark-", "");
+        return token;
+      } else if (token.attributes.type === "light") {
+        token.name = token.name.replace("light-", "");
+        return token;
+      } else {
+        return token;
+      }
+    });
+
+    // Use the built-in format but with our customized dictionary object
+    // so it will output the darkValue instead of the value
+    return StyleDictionary.format["scss/variables"]({ ...format, dictionary });
+
+    // return dictionary.allTokens.map(token => {
+    //   let value = JSON.stringify(token.value);
+    //   if (dictionary.usesReference(token.original.value)) {
+    //     const refs = dictionary.getReferences(token.original.value);
+    //     refs.forEach(ref => {
+    //       value = value.replace(ref.value, function() {
+    //         return `${ref.name}`;
+    //       });
+    //     });
+    //   }
+    //   return `export const ${token.name} = ${value};`
+    // }).join(`\n`)
   },
 });
 
@@ -241,6 +285,7 @@ StyleDictionary.registerTransformGroup({
     "fontFamily/fallback",
     "typography/name",
     "borderRadius/name",
+    "color/themeName",
     "fontWeight/cssValue",
     // "color/rgbaRef",
   ]),
@@ -251,9 +296,11 @@ StyleDictionary.registerTransformGroup({
   transforms: StyleDictionary.transformGroup["less"].concat([
     "size/pxToRem",
     "letterSpacing/percentToEm",
+    "color/themeName",
     "fontFamily/fallback",
     "typography/name",
     "borderRadius/name",
+    "fontWeight/cssValue",
   ]),
 });
 

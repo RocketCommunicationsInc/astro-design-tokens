@@ -4,10 +4,28 @@
     "scss": {
       "transformGroup": "custom/scss",
       "buildPath": "dist/scss/",
-      "files": [{
+      "files": [
+        {
+        "destination": "_colors-dark.scss",
+        "format": "scss/variables",
+        "filter": "color/dark"
+      },
+      {
+        "destination": "_colors-light.scss",
+        "format": "scss/variables",
+        "filter": "color/light"
+      },
+      {
+        "destination": "_colors-global.scss",
+        "format": "scss/variables",
+        "filter": "color/global"
+      },
+      {
         "destination": "_variables.scss",
-        "format": "scss/variables"
-      }]
+        "format": "scss/variables",
+        "filter": "notColor"
+      }
+    ]
     },
     "internal": {
       "transformGroup": "custom/css",
@@ -23,7 +41,7 @@
       },
       {
         "destination": "_colors-dark.scss",
-        "format": "darkColorFormatter",
+        "format": "css/variables",
         "filter": "color/dark",
         "options" : {
           "selector": "@mixin root-variables",
@@ -33,7 +51,7 @@
       },
       {
         "destination": "_colors-light.css",
-        "format": "darkColorFormatter",
+        "format": "css/variables",
         "filter": "color/light",
         "options" : {
           "selector": ".light-theme",
@@ -43,7 +61,7 @@
       },
       {
         "destination": "_colors-global.css",
-        "format": "darkColorFormatter",
+        "format": "css/variables",
         "filter": "color/global",
         "options" : {
           "showFileHeader": true,
@@ -66,7 +84,7 @@
       },
       {
         "destination": "_colors-dark.css",
-        "format": "darkColorFormatter",
+        "format": "css/variables",
         "filter": "color/dark",
         "options" : {
           "showFileHeader": true,
@@ -75,7 +93,7 @@
       },
       {
         "destination": "_colors-light.css",
-        "format": "darkColorFormatter",
+        "format": "css/variables",
         "filter": "color/light",
         "options" : {
           "selector": ".light-theme",
@@ -85,7 +103,7 @@
       },
       {
         "destination": "_colors-global.css",
-        "format": "darkColorFormatter",
+        "format": "css/variables",
         "filter": "color/global",
         "options" : {
           "showFileHeader": true,
