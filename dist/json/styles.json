@@ -410,5 +410,18 @@
   "font-monospace-1-line-height": "AUTO",
   "font-monospace-1-font-size": "1.75rem",
   "font-monospace-1-letter-spacing": "0em",
-  "font-monospace-1-paragraph-spacing": 0
+  "font-monospace-1-paragraph-spacing": 0,
+  "radius-base": "3px",
+  "radius-circle": "50%",
+  "slider-radius-background-track": "1px",
+  "checkbox-radius": "2px",
+  "app-state-radius": "2px",
+  "radio-radius-inner": "4px",
+  "radio-radius-outer": "9px",
+  "switch-radius-track": "4.7px",
+  "scrollbar-radius": "4px",
+  "progress-radius-inner": "8px",
+  "progress-radius-outer": "9px",
+  "indeterminate-progress-radius-inner": "23px",
+  "indeterminate-progress-radius-outer": "30px"
 }
