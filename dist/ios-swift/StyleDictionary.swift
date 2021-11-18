@@ -4,13 +4,14 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 16 Nov 2021 22:44:18 GMT
+// Generated on Thu, 18 Nov 2021 21:46:36 GMT
 
 
 import UIKit
 
 public class StyleDictionary {
     public static let 40 = 40%
+    public static let appStateRadius = 2px
     public static let bodyBodyBody1BoldFontFamily = Roboto
     public static let bodyBodyBody1BoldFontSize = 16
     public static let bodyBodyBody1BoldFontWeight = bold
@@ -47,6 +48,7 @@ public class StyleDictionary {
     public static let bodyBodyBody3LetterSpacing = 0.5%
     public static let bodyBodyBody3LineHeight = AUTO
     public static let bodyBodyBody3ParagraphSpacing = 0
+    public static let checkboxRadius = 2px
     public static let colorActive = UIColor(red: 0.502, green: 0.506, blue: 0.510, alpha: 1)
     public static let colorBackground = UIColor(red: 0.925, green: 0.925, blue: 0.925, alpha: 1)
     public static let colorBannerClear = UIColor(red: 0.051, green: 0.051, blue: 0.051, alpha: 0.30196078431372547)
@@ -409,6 +411,8 @@ public class StyleDictionary {
     public static let headingHeadingHeading6LetterSpacing = 0%
     public static let headingHeadingHeading6LineHeight = AUTO
     public static let headingHeadingHeading6ParagraphSpacing = 0
+    public static let indeterminateProgressRadiusInner = 23px
+    public static let indeterminateProgressRadiusOuter = 30px
     public static let letterSpacing2xl = 0.5%
     public static let letterSpacingBase = 0%
     public static let letterSpacingLg = 0.15%
@@ -422,4 +426,13 @@ public class StyleDictionary {
     public static let monospaceMonospaceMonospace1LineHeight = AUTO
     public static let monospaceMonospaceMonospace1ParagraphSpacing = 0
     public static let paragraphSpacing0 = 0
+    public static let progressRadiusInner = 8px
+    public static let progressRadiusOuter = 9px
+    public static let radioRadiusInner = 4px
+    public static let radioRadiusOuter = 9px
+    public static let radiusBase = 3px
+    public static let radiusCircle = 50%
+    public static let scrollbarRadius = 4px
+    public static let sliderRadiusBackgroundTrack = 1px
+    public static let switchRadiusTrack = 4.7px
 }
