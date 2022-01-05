@@ -125,6 +125,16 @@ module.exports = {
         }
       ],
     },
+    "json-nested": {
+      transformGroup: "custom/json",
+      buildPath: "dist/json-nested/",
+      files: [
+        {
+          destination: "styles.json",
+          format: "json/nested",
+        }
+      ],
+    },
     ios: {
       transformGroup: "ios",
       buildPath: "dist/ios/",

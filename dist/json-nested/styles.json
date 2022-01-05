@@ -1,0 +1,587 @@
+{
+  "40": "40%",
+  "color": {
+    "background": "#ececec",
+    "surface": "#ffffff",
+    "default-text": "#2a2a2a",
+    "secondary-text": "#4b4b4b",
+    "placeholder-text": "rgba(38, 38, 38, 0.6)",
+    "inverse-text": "#ffffff",
+    "primary": "#3f4142",
+    "primary-alt": "#565859",
+    "active": "#808182",
+    "selected": "#dedfdf",
+    "hover": "#323334",
+    "table-hover": "rgba(50, 51, 52, 0.3)",
+    "list-hover": "rgba(222, 223, 223, 0.3)",
+    "scrollbar-shadow": "rgba(118, 118, 118, 0.5)",
+    "table-header-shadow": "#000000",
+    "dialog-shadow1": "rgba(0, 0, 0, 0.14)",
+    "dialog-shadow2": "rgba(0, 0, 0, 0.12)",
+    "dialog-shadow3": "rgba(0, 0, 0, 0.2)",
+    "banner-clear": "rgba(13, 13, 13, 0.3)",
+    "banner-text-light": "#ffffff",
+    "banner-text-dark": "#000000",
+    "gsb": {
+      "global-status-bar": "#202121",
+      "primary": "#808182",
+      "default-text": "#ffffff"
+    },
+    "status": {
+      "border": "rgba(0, 0, 0, 0.5)",
+      "critical-banner": "#98999a",
+      "critical-fill": "#84807f",
+      "serious-fill": "#a09e9c",
+      "caution-banner": "#eaecec",
+      "caution-fill": "#807f7b",
+      "normal-banner": "#dcdedf",
+      "normal-fill": "#6f736f",
+      "standby-banner": "#cecfd0",
+      "standby-fill": "#b0b2b3",
+      "standby-under-border": "#b0b2b3",
+      "off-banner": "#d4d5d6",
+      "off-fill": "#999999",
+      "off-border": "#32363a"
+    },
+    "classification": {
+      "unclassified": "#676969",
+      "cui": "#3f4040",
+      "confidential": "#3d3e3f",
+      "secret": "#68696a",
+      "top-secret": "#abacad",
+      "top-secret-sci": "#e5e6e7"
+    },
+    "dialog-header": "#f7f8fb",
+    "global": {
+      "basics": {
+        "white": "#ffffff",
+        "black": "#000000"
+      },
+      "status": {
+        "critical": {
+          "400": "#ff5f60",
+          "500": "#ff3838",
+          "600": "#ff2a04",
+          "800": "#570d01"
+        },
+        "serious": {
+          "500": "#ffb302",
+          "600": "#ffaf3d",
+          "800": "#64451a"
+        },
+        "caution": {
+          "400": "#fded61",
+          "500": "#fce83a",
+          "600": "#fad800",
+          "800": "#554900"
+        },
+        "normal": {
+          "400": "#99f666",
+          "500": "#56f000",
+          "600": "#00e200",
+          "800": "#015800"
+        },
+        "standby": {
+          "400": "#5ce2ff",
+          "500": "#2dccff",
+          "600": "#2dccff",
+          "800": "#224c58"
+        },
+        "off": {
+          "400": "#ced6e4",
+          "500": "#9ea7ad",
+          "600": "#8e9aa3",
+          "800": "#32363a"
+        }
+      },
+      "classification": {
+        "unclassified": "#007a33",
+        "cui": "#502b85",
+        "confidential": "#0033a0",
+        "secret": "#c8102e",
+        "top-secret": "#ff8c00",
+        "top-secret-sci": "#fce83a"
+      },
+      "tag": {
+        "tag1": {
+          "100": "#d0f4f4",
+          "200": "#a1e9eb",
+          "300": "#70dde0",
+          "400": "#3ed2d6",
+          "500": "#00c7cb",
+          "600": "#009fa3",
+          "700": "#00777a",
+          "800": "#035051",
+          "900": "#032828"
+        },
+        "tag2": {
+          "100": "#e4e2f7",
+          "200": "#c9c5ed",
+          "300": "#aea8e5",
+          "400": "#938bdb",
+          "500": "#786dd3",
+          "600": "#6058a8",
+          "700": "#48417f",
+          "800": "#302c54",
+          "900": "#18152b"
+        },
+        "tag3": {
+          "100": "#edcef3",
+          "200": "#da9ce7",
+          "300": "#c76ada",
+          "400": "#b534ce",
+          "500": "#a200c1",
+          "600": "#81009a",
+          "700": "#610074",
+          "800": "#41004d",
+          "900": "#200227"
+        },
+        "tag4": {
+          "100": "#f8ddd1",
+          "200": "#f0baa3",
+          "300": "#ea9875",
+          "400": "#e27545",
+          "500": "#da5309",
+          "600": "#af420a",
+          "700": "#833209",
+          "800": "#572108",
+          "900": "#2b1105"
+        }
+      },
+      "primary": {
+        "100": "#cbdee9",
+        "200": "#98bdd3",
+        "300": "#649cbd",
+        "400": "#2f7aa7",
+        "500": "#005a8f",
+        "600": "#004872",
+        "700": "#003655",
+        "800": "#002439",
+        "900": "#00121c"
+      },
+      "secondary": {
+        "100": "#daeeff",
+        "200": "#b7dcff",
+        "300": "#92cbff",
+        "400": "#6ebaff",
+        "500": "#4dacff",
+        "600": "#3a87cf",
+        "700": "#2b659b",
+        "800": "#1d4367",
+        "900": "#0e2234"
+      },
+      "tertiary": {
+        "100": "#d4d8dd",
+        "200": "#a9b2bc",
+        "300": "#7e8c9b",
+        "400": "#52667a",
+        "500": "#274059",
+        "600": "#1f3347",
+        "700": "#172635",
+        "800": "#101923",
+        "900": "#080c11"
+      },
+      "quaternary": {
+        "100": "#f5f6f9",
+        "200": "#eaeef4",
+        "300": "#e1e6ef",
+        "400": "#d7dee9",
+        "500": "#ced6e4",
+        "600": "#a4abb6",
+        "700": "#7b8089",
+        "800": "#51555b",
+        "900": "#292a2d"
+      },
+      "snowflakes": {
+        "dark-surface": "#1b2d3e",
+        "dark-selected": "#1c3f5e",
+        "light-selected": "#cee9fc",
+        "table-hover-dark": "#374e65",
+        "table-hover-light": "#a4bccd",
+        "list-hover-dark": "#142435",
+        "list-hover-light": "#e2edf6",
+        "dialog-header-dark": "#172533",
+        "dialog-header-light": "#f7f8fb",
+        "placeholder-dark": "#9fa3a7",
+        "placeholder-light": "#76787d"
+      }
+    },
+    "dark": {
+      "background": "#101923",
+      "surface": "#1b2d3e",
+      "default-text": "#ffffff",
+      "secondary-text": "#d4d8dd",
+      "placeholder-text": "#9fa3a7",
+      "inverse-text": "#080c11",
+      "primary": "#4dacff",
+      "primary-alt": "#3a87cf",
+      "active": "#2b659b",
+      "selected": "#1c3f5e",
+      "hover": "#92cbff",
+      "table-hover": "rgba(146, 203, 255, 0.3)",
+      "list-hover": "#142435",
+      "scrollbar-shadow": "rgba(0, 0, 0, 0.5)",
+      "table-header-shadow": "#000000",
+      "dialog-shadow1": "rgba(0, 0, 0, 0.25)",
+      "dialog-shadow2": "rgba(0, 0, 0, 0.12)",
+      "dialog-shadow3": "rgba(0, 0, 0, 0.2)",
+      "banner-clear": "rgba(8, 12, 17, 0.3)",
+      "banner-text-light": "#ffffff",
+      "banner-text-dark": "#000000",
+      "gsb": {
+        "global-status-bar": "#172635",
+        "primary": "#4dacff",
+        "default-text": "#ffffff"
+      },
+      "status": {
+        "critical-fill": "#ff3838",
+        "serious-fill": "#ffb302",
+        "caution-fill": "#fce83a",
+        "normal-fill": "#56f000",
+        "standby-fill": "#2dccff",
+        "off-fill": "#9ea7ad",
+        "off-border": "rgba(158, 167, 173, 0)",
+        "border": "rgba(0, 0, 0, 0)",
+        "critical-banner": "#ff5f60",
+        "caution-banner": "#fded61",
+        "normal-banner": "#99f666",
+        "standby-banner": "#5ce2ff",
+        "standby-under-border": "rgba(45, 204, 255, 0)",
+        "off-banner": "#ced6e4"
+      },
+      "classification": {
+        "unclassified": "#007a33",
+        "cui": "#502b85",
+        "confidential": "#0033a0",
+        "secret": "#c8102e",
+        "top-secret": "#ff8c00",
+        "top-secret-sci": "#fce83a"
+      },
+      "dialog-header": "#172533"
+    },
+    "light": {
+      "background": "#eaeef4",
+      "surface": "#ffffff",
+      "default-text": "#292a2d",
+      "secondary-text": "#51555b",
+      "placeholder-text": "#76787d",
+      "inverse-text": "#ffffff",
+      "primary": "#005a8f",
+      "primary-alt": "#2f7aa7",
+      "active": "#649cbd",
+      "selected": "#cee9fc",
+      "hover": "#004872",
+      "table-hover": "rgba(0, 72, 114, 0.3)",
+      "list-hover": "#e2edf6",
+      "scrollbar-shadow": "rgba(0, 0, 0, 0.5)",
+      "table-header-shadow": "#000000",
+      "dialog-shadow1": "rgba(0, 0, 0, 0.14)",
+      "dialog-shadow2": "rgba(0, 0, 0, 0.12)",
+      "dialog-shadow3": "rgba(0, 0, 0, 0.2)",
+      "banner-clear": "rgba(8, 12, 17, 0.3)",
+      "banner-text-light": "#ffffff",
+      "banner-text-dark": "#000000",
+      "gsb": {
+        "global-status-bar": "#172635",
+        "primary": "#4dacff",
+        "default-text": "#ffffff"
+      },
+      "status": {
+        "critical-fill": "#ff2a04",
+        "serious-fill": "#ffaf3d",
+        "caution-fill": "#fad800",
+        "normal-fill": "#00e200",
+        "standby-fill": "#2dccff",
+        "off-fill": "#8e9aa3",
+        "off-border": "#32363a",
+        "border": "rgba(0, 0, 0, 0.5)",
+        "critical-banner": "#ff5f60",
+        "caution-banner": "#fded61",
+        "normal-banner": "#99f666",
+        "standby-banner": "#5ce2ff",
+        "standby-under-border": "#2dccff",
+        "off-banner": "#ced6e4"
+      },
+      "classification": {
+        "unclassified": "#007a33",
+        "cui": "#502b85",
+        "confidential": "#0033a0",
+        "secret": "#c8102e",
+        "top-secret": "#ff8c00",
+        "top-secret-sci": "#fce83a"
+      },
+      "dialog-header": "#f7f8fb"
+    },
+    "wireframe": {
+      "background": "#ececec",
+      "surface": "#ffffff",
+      "default-text": "#2a2a2a",
+      "secondary-text": "#4b4b4b",
+      "placeholder-text": "rgba(38, 38, 38, 0.6)",
+      "inverse-text": "#ffffff",
+      "primary": "#3f4142",
+      "primary-alt": "#565859",
+      "active": "#808182",
+      "selected": "#dedfdf",
+      "hover": "#323334",
+      "table-hover": "rgba(50, 51, 52, 0.3)",
+      "list-hover": "rgba(222, 223, 223, 0.3)",
+      "scrollbar-shadow": "rgba(118, 118, 118, 0.5)",
+      "table-header-shadow": "#000000",
+      "dialog-shadow1": "rgba(0, 0, 0, 0.14)",
+      "dialog-shadow2": "rgba(0, 0, 0, 0.12)",
+      "dialog-shadow3": "rgba(0, 0, 0, 0.2)",
+      "banner-clear": "rgba(13, 13, 13, 0.3)",
+      "banner-text-light": "#ffffff",
+      "banner-text-dark": "#000000",
+      "gsb": {
+        "global-status-bar": "#202121",
+        "primary": "#808182",
+        "default-text": "#ffffff"
+      },
+      "status": {
+        "border": "rgba(0, 0, 0, 0.5)",
+        "critical-banner": "#98999a",
+        "critical-fill": "#84807f",
+        "serious-fill": "#a09e9c",
+        "caution-banner": "#eaecec",
+        "caution-fill": "#807f7b",
+        "normal-banner": "#dcdedf",
+        "normal-fill": "#6f736f",
+        "standby-banner": "#cecfd0",
+        "standby-fill": "#b0b2b3",
+        "standby-under-border": "#b0b2b3",
+        "off-banner": "#d4d5d6",
+        "off-fill": "#999999"
+      },
+      "classification": {
+        "unclassified": "#676969",
+        "cui": "#3f4040",
+        "confidential": "#3d3e3f",
+        "secret": "#68696a",
+        "top-secret": "#abacad",
+        "top-secret-sci": "#e5e6e7"
+      }
+    }
+  },
+  "fontFamily": {
+    "sans": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "mono": "'Roboto Mono', monospace"
+  },
+  "lineHeights": {
+    "0": "AUTO"
+  },
+  "fontWeight": {
+    "regular": "regular",
+    "bold": "bold",
+    "medium": "medium",
+    "light": "light"
+  },
+  "fontSize": {
+    "xs": "0.75rem",
+    "sm": "0.875rem",
+    "base": "1rem",
+    "lg": "1.125rem",
+    "xl": "1.25rem",
+    "2xl": "1.5rem",
+    "3xl": "1.75rem",
+    "4xl": "2.125rem",
+    "5xl": "3rem",
+    "6xl": "3.75rem"
+  },
+  "letterSpacing": {
+    "2xl": "0.005em",
+    "xl": "0.0025em",
+    "base": "0em",
+    "lg": "0.0015em",
+    "sm": "-0.005em"
+  },
+  "paragraphSpacing": {
+    "0": 0
+  },
+  "body": {
+    "body": {
+      "body-1": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "regular",
+        "lineHeight": "AUTO",
+        "fontSize": "1rem",
+        "letterSpacing": "0.005em",
+        "paragraphSpacing": 0
+      },
+      "body-1-bold": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "bold",
+        "lineHeight": "AUTO",
+        "fontSize": "1rem",
+        "letterSpacing": "0.005em",
+        "paragraphSpacing": 0
+      },
+      "body-2": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "regular",
+        "lineHeight": "AUTO",
+        "fontSize": "0.875rem",
+        "letterSpacing": "0.005em",
+        "paragraphSpacing": 0
+      },
+      "body-2-bold": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "bold",
+        "lineHeight": "AUTO",
+        "fontSize": "0.875rem",
+        "letterSpacing": "0.005em",
+        "paragraphSpacing": 0
+      },
+      "body-3": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "regular",
+        "lineHeight": "AUTO",
+        "fontSize": "0.75rem",
+        "letterSpacing": "0.005em",
+        "paragraphSpacing": 0
+      },
+      "body-3-bold": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "bold",
+        "lineHeight": "AUTO",
+        "fontSize": "0.75rem",
+        "letterSpacing": "0.005em",
+        "paragraphSpacing": 0
+      }
+    }
+  },
+  "heading": {
+    "heading": {
+      "heading-1": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "regular",
+        "lineHeight": "AUTO",
+        "fontSize": "2.125rem",
+        "letterSpacing": "0.0025em",
+        "paragraphSpacing": 0
+      },
+      "heading-1-bold": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "bold",
+        "lineHeight": "AUTO",
+        "fontSize": "2.125rem",
+        "letterSpacing": "0.0025em",
+        "paragraphSpacing": 0
+      },
+      "heading-2": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "regular",
+        "lineHeight": "AUTO",
+        "fontSize": "1.5rem",
+        "letterSpacing": "0em",
+        "paragraphSpacing": 0
+      },
+      "heading-3": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "medium",
+        "lineHeight": "AUTO",
+        "fontSize": "1.25rem",
+        "letterSpacing": "0.0015em",
+        "paragraphSpacing": 0
+      },
+      "heading-4": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "light",
+        "lineHeight": "AUTO",
+        "fontSize": "1.25rem",
+        "letterSpacing": "0.0015em",
+        "paragraphSpacing": 0
+      },
+      "heading-5": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "regular",
+        "lineHeight": "AUTO",
+        "fontSize": "1.125rem",
+        "letterSpacing": "0em",
+        "paragraphSpacing": 0
+      },
+      "heading-6": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "light",
+        "lineHeight": "AUTO",
+        "fontSize": "1.125rem",
+        "letterSpacing": "0em",
+        "paragraphSpacing": 0
+      }
+    }
+  },
+  "display": {
+    "display": {
+      "display-1": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "light",
+        "lineHeight": "AUTO",
+        "fontSize": "3.75rem",
+        "letterSpacing": "-0.005em",
+        "paragraphSpacing": 0
+      },
+      "display-2": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "regular",
+        "lineHeight": "AUTO",
+        "fontSize": "3rem",
+        "letterSpacing": "0em",
+        "paragraphSpacing": 0
+      }
+    }
+  },
+  "monospace": {
+    "monospace": {
+      "monospace-1": {
+        "fontFamily": "'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "medium",
+        "lineHeight": "AUTO",
+        "fontSize": "1.75rem",
+        "letterSpacing": "0em",
+        "paragraphSpacing": 0
+      }
+    }
+  },
+  "radius": {
+    "base": "3px",
+    "circle": "50%"
+  },
+  "slider": {
+    "radius": {
+      "background-track": "1px"
+    }
+  },
+  "checkbox": {
+    "radius": "2px"
+  },
+  "app-state": {
+    "radius": "2px"
+  },
+  "radio": {
+    "radius": {
+      "inner": "4px",
+      "outer": "9px"
+    }
+  },
+  "switch": {
+    "radius": {
+      "track": "4.7px"
+    }
+  },
+  "scrollbar": {
+    "radius": "4px"
+  },
+  "progress": {
+    "radius": {
+      "inner": "8px",
+      "outer": "9px"
+    }
+  },
+  "indeterminate-progress": {
+    "radius": {
+      "inner": "23px",
+      "outer": "30px"
+    }
+  }
+}
