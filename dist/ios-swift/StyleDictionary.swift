@@ -4,13 +4,12 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 05 Jan 2022 18:51:44 GMT
+// Generated on Wed, 26 Jan 2022 21:29:32 GMT
 
 
 import UIKit
 
 public class StyleDictionary {
-    public static let 40 = 40%
     public static let appStateRadius = 2px
     public static let bodyBodyBody1BoldFontFamily = Roboto
     public static let bodyBodyBody1BoldFontSize = 16
