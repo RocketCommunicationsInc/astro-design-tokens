@@ -574,7 +574,7 @@
   "progress": {
     "radius": {
       "inner": "8px",
-      "outer": "9px"
+      "outer": "10px"
     }
   },
   "indeterminate-progress": {

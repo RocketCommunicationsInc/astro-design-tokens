@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 26 Jan 2022 21:29:32 GMT
+// Generated on Thu, 24 Feb 2022 15:30:37 GMT
 
 
 import UIKit
@@ -426,7 +426,7 @@ public class StyleDictionary {
     public static let monospaceMonospaceMonospace1ParagraphSpacing = 0
     public static let paragraphSpacing0 = 0
     public static let progressRadiusInner = 8px
-    public static let progressRadiusOuter = 9px
+    public static let progressRadiusOuter = 10px
     public static let radioRadiusInner = 4px
     public static let radioRadiusOuter = 9px
     public static let radiusBase = 3px
