@@ -420,7 +420,7 @@
   "switch-radius-track": "4.7px",
   "scrollbar-radius": "4px",
   "progress-radius-inner": "8px",
-  "progress-radius-outer": "9px",
+  "progress-radius-outer": "10px",
   "indeterminate-progress-radius-inner": "23px",
   "indeterminate-progress-radius-outer": "30px"
 }
