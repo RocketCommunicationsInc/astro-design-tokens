@@ -8,7 +8,7 @@ module.exports = {
         {
           destination: "_colors-dark.scss",
           format: "scss/variables",
-          filter: "color/dark",
+          filter: "color/sys",
         },
         {
           destination: "_colors-light.scss",
@@ -43,7 +43,7 @@ module.exports = {
         {
           destination: "_colors-dark.scss",
           format: "css/variables",
-          filter: "color/dark",
+          filter: "color/sys",
           options: {
             selector: "@mixin root-variables",
             showFileHeader: true,
@@ -87,7 +87,7 @@ module.exports = {
         {
           destination: "_colors-dark.css",
           format: "css/variables",
-          filter: "color/dark",
+          filter: "color/sys",
           options: {
             showFileHeader: true,
             outputReferences: true,

@@ -8,7 +8,7 @@ StyleDictionary.registerTransform({
   name: "size/pxToRem",
   type: "value",
   matcher: (token) => {
-    return token.attributes.subitem === "fontSize" || token.attributes.category === 'fontSize'
+    return token.attributes.type === "fontSize" || token.attributes.subitem === 'fontSize'
     // return token.unit === "pixel" && token.value !== 0;
   },
   transformer: (token) => {
@@ -22,7 +22,7 @@ StyleDictionary.registerTransform({
   name: "letterSpacing/percentToEm",
   type: "value",
   matcher: (token) => {
-    return token.attributes.subitem === "letterSpacing" || token.attributes.category === 'letterSpacing'
+    return token.attributes.type === "letterSpacing" || token.attributes.category === 'letterSpacing'
   },
   transformer: (token) => {
     const value = token.value.replace("%", "");
@@ -133,7 +133,8 @@ StyleDictionary.registerTransform({
   name: "fontWeight/cssValue",
   type: "value",
   matcher: (token) => {
-    return token.attributes.subitem === "fontWeight" || token.attributes.category === 'fontWeight'
+    console.log('token', token);
+    return token.attributes.subitem === "fontWeight" || token.type === 'fontWeight'
   },
   transformer: (token) => {
     const fontWeightValues = {
@@ -160,8 +161,7 @@ StyleDictionary.registerFilter({
   name: "color/global",
   matcher: function (token) {
     return (
-      token.attributes.category === "color" &&
-      token.attributes.type === "global"
+      token.attributes.type === "color"
     );
   },
 });
@@ -171,6 +171,15 @@ StyleDictionary.registerFilter({
   matcher: function (token) {
     return (
       token.attributes.category === "color" && token.attributes.type === "dark"
+    );
+  },
+});
+
+StyleDictionary.registerFilter({
+  name: "color/sys",
+  matcher: function (token) {
+    return (
+      token.attributes.category === "sys" && token.attributes.type === "color"
     );
   },
 });
