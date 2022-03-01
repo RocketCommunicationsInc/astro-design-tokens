@@ -133,7 +133,6 @@ StyleDictionary.registerTransform({
   name: "fontWeight/cssValue",
   type: "value",
   matcher: (token) => {
-    console.log('token', token);
     return token.attributes.subitem === "fontWeight" || token.type === 'fontWeight'
   },
   transformer: (token) => {
@@ -153,7 +152,8 @@ StyleDictionary.registerTransform({
 StyleDictionary.registerFilter({
   name: "notColor",
   matcher: function (token) {
-    return token.attributes.category !== "color";
+    console.log('token', token);
+    return token.type !== "color";
   },
 });
 
@@ -161,7 +161,7 @@ StyleDictionary.registerFilter({
   name: "color/global",
   matcher: function (token) {
     return (
-      token.attributes.type === "color"
+      token.type === "color" && token.attributes.category === "ref"
     );
   },
 });
@@ -169,8 +169,9 @@ StyleDictionary.registerFilter({
 StyleDictionary.registerFilter({
   name: "color/dark",
   matcher: function (token) {
+    console.log('token', token);
     return (
-      token.attributes.category === "color" && token.attributes.type === "dark"
+      token.attributes.category === "sys" && token.attributes.type === "color" && token.filePath.includes('dark')
     );
   },
 });
@@ -188,7 +189,7 @@ StyleDictionary.registerFilter({
   name: "color/light",
   matcher: function (token) {
     return (
-      token.attributes.category === "color" && token.attributes.type === "light"
+      token.attributes.category === "sys" && token.attributes.type === "color" && token.filePath.includes('light')
     );
   },
 });

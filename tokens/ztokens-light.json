@@ -1,0 +1,156 @@
+{
+  "sys": {
+    "color": {
+      "background": {
+        "app": {
+          "value": "{ref.palette.grey.200}",
+          "description": "The background color of the application.",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "surface": {
+          "header": {
+            "value": "{ref.palette.grey.100}",
+            "description": "The background color of the header of surface elements, and table headers.",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "default": {
+            "value": "{ref.palette.neutral.000}",
+            "description": "The background color of surface panels.",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "hover": {
+            "value": "{ref.palette.darkblue.200}",
+            "description": "\t The background color of surface elements, like table rows or lists, when they are hovered over.",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "selected": {
+            "value": "{ref.palette.brightblue.200}",
+            "description": "The background color of surface elements, like table rows or lists, when they are selected.",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "error": {
+        "value": "{ref.palette.red.500}",
+        "description": "The default color for errors.",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "text": {
+        "primary": {
+          "value": "{ref.palette.grey.900}",
+          "description": "The primary color used for text within the application.",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "secondary": {
+          "value": "{ref.palette.grey.700}",
+          "description": "The color used for text when less emphasis is needed.",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "placeholder": {
+          "value": "{ref.palette.grey.600}",
+          "description": "The text color used for placeholder text in input and form fields.",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "inverse": {
+          "value": "{ref.palette.neutral.000}",
+          "description": "The color used for text on reversed backgrounds.",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "error": {
+          "value": "{ref.palette.red.500}",
+          "description": "The text color used for errors.",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "interactive": {
+        "default": {
+          "value": "{ref.palette.darkblue.500}",
+          "description": "\t The color used for interactive elements.",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "hover": {
+          "value": "{ref.palette.darkblue.600}",
+          "description": "The color used when hovering over interactive elements.",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "classification": {
+        "topsecretsci": {
+          "value": "{ref.palette.yellow.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "topsecret": {
+          "value": "{ref.palette.orange.700}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "secret": {
+          "value": "{ref.palette.red.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "confidential": {
+          "value": "{ref.palette.blue.800}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "cui": {
+          "value": "{ref.palette.violet.800}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "unclassified": {
+          "value": "{ref.palette.green.800}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "status": {
+        "critical": {
+          "value": "{ref.palette.red.600}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "serious": {
+          "value": "{ref.palette.orange.600}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "caution": {
+          "value": "{ref.palette.yellow.600}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "normal": {
+          "value": "{ref.palette.green.600}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "standby": {
+          "value": "{ref.palette.cyan.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "off": {
+          "value": "{ref.palette.grey.600}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      }
+    }
+  }
+}

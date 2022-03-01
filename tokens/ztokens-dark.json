@@ -1,0 +1,138 @@
+{
+  "sys": {
+    "color": {
+      "background": {
+        "app": {
+          "value": "{ref.palette.brightblue.900}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "surface": {
+          "header": {
+            "value": "{ref.palette.darkblue.900}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "default": {
+            "value": "{ref.palette.darkblue.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "hover": {
+            "value": "{ref.palette.brightblue.800}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "selected": {
+            "value": "{ref.palette.darkblue.700}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "error": {
+        "value": "{ref.palette.red.500}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "text": {
+        "primary": {
+          "value": "{ref.palette.neutral.000}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "secondary": {
+          "value": "{ref.palette.grey.300}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "placeholder": {
+          "value": "{ref.palette.grey.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "error": {
+          "value": "{ref.palette.red.500}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "interactive": {
+        "default": {
+          "value": "{ref.palette.brightblue.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "hover": {
+          "value": "{ref.palette.brightblue.400}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "classification": {
+        "topsecretsci": {
+          "value": "{ref.palette.yellow.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "topsecret": {
+          "value": "{ref.palette.orange.700}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "secret": {
+          "value": "{ref.palette.red.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "confidential": {
+          "value": "{ref.palette.blue.800}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "cui": {
+          "value": "{ref.palette.violet.800}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "unclassified": {
+          "value": "{ref.palette.green.800}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "status": {
+        "critical": {
+          "value": "{ref.palette.red.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "serious": {
+          "value": "{ref.palette.orange.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "caution": {
+          "value": "{ref.palette.yellow.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "normal": {
+          "value": "{ref.palette.green.500}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "standby": {
+          "value": "{ref.palette.cyan.600}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "off": {
+          "value": "{ref.palette.grey.500}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      }
+    }
+  }
+}

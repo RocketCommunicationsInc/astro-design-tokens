@@ -3,15 +3,14 @@
   "version": "1.4.0",
   "description": "Astro UXDS Design Tokens",
   "main": "index.js",
-  "dependencies": {
-    "style-dictionary": "^3"
-  },
   "scripts": {
     "start": "npm run build",
     "build": "node ./build.js",
     "prepack": "npm run build",
-    "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json && node preformat.js",
-    "make": "npm run transform && npm run build"
+    "transform.dark": "node_modules/.bin/token-transformer data/tokens.json tokens/ztokens-dark.json dark",
+    "transform.light": "node_modules/.bin/token-transformer data/tokens.json tokens/ztokens-light.json light",
+    "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json beta",
+    "make": "npm run transform && npm run transform.light && npm run transform.dark && node preformat.js && npm run build"
   },
   "files": [
     "dist"
@@ -28,6 +27,9 @@
   "devDependencies": {
     "lodash": "^4.17.21",
     "tinycolor2": "^1.4.2",
-    "token-transformer": "^0.0.13"
+    "token-transformer": "^0.0.19"
+  },
+  "dependencies": {
+    "style-dictionary": "^3.7.0"
   }
 }
