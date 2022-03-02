@@ -7,8 +7,8 @@
     "start": "npm run build",
     "build": "node ./build.js",
     "prepack": "npm run build",
-    "transform.dark": "node_modules/.bin/token-transformer data/tokens.json tokens/ztokens-dark.json dark",
-    "transform.light": "node_modules/.bin/token-transformer data/tokens.json tokens/ztokens-light.json light",
+    "transform.dark": "node_modules/.bin/token-transformer data/tokens.json tokens/ztokens-dark.json beta,dark",
+    "transform.light": "node_modules/.bin/token-transformer data/tokens.json tokens/ztokens-light.json beta,light",
     "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json beta",
     "make": "npm run transform && npm run transform.light && npm run transform.dark && node preformat.js && npm run build"
   },
