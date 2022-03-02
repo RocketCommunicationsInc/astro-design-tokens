@@ -1,5 +1,5 @@
 module.exports = {
-  "source": ["tokens/*.json"],
+  "source": ["tokens/tokens.json", "tokens/tokens-dark.json"],
   platforms: {
     scss: {
       transformGroup: "custom/scss",
@@ -8,12 +8,7 @@ module.exports = {
         {
           destination: "_colors-dark.scss",
           format: "scss/variables",
-          filter: "color/dark",
-        },
-        {
-          destination: "_colors-light.scss",
-          format: "scss/variables",
-          filter: "color/light",
+          filter: "color/notRef"
         },
         {
           destination: "_colors-global.scss",
@@ -43,19 +38,9 @@ module.exports = {
         {
           destination: "_colors-dark.scss",
           format: "css/variables",
-          filter: "color/dark",
+          filter: "color/notRef",
           options: {
             selector: "@mixin root-variables",
-            showFileHeader: true,
-            outputReferences: true,
-          },
-        },
-        {
-          destination: "_colors-light.css",
-          format: "css/variables",
-          filter: "color/light",
-          options: {
-            selector: ".light-theme",
             showFileHeader: true,
             outputReferences: true,
           },
@@ -87,18 +72,8 @@ module.exports = {
         {
           destination: "_colors-dark.css",
           format: "css/variables",
-          filter: "color/dark",
+          filter: "color/notRef",
           options: {
-            showFileHeader: true,
-            outputReferences: true,
-          },
-        },
-        {
-          destination: "_colors-light.css",
-          format: "css/variables",
-          filter: "color/light",
-          options: {
-            selector: ".light-theme",
             showFileHeader: true,
             outputReferences: true,
           },

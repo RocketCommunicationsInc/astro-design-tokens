@@ -1,4 +1,132 @@
 {
+  "sys": {
+    "color": {
+      "background": {
+        "app": {
+          "value": "#EAEEF4",
+          "description": "The background color of the application.",
+          "type": "color",
+          "default": {
+            "value": "#101923",
+            "type": "color"
+          }
+        },
+        "surface": {
+          "header": {
+            "value": "#F5F6F9",
+            "description": "The background color of the header of surface elements, and table headers.",
+            "type": "color"
+          },
+          "default": {
+            "value": "#FFFFFF",
+            "description": "The background color of surface panels.",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#98BDD3",
+            "description": "\t The background color of surface elements, like table rows or lists, when they are hovered over.",
+            "type": "color"
+          },
+          "selected": {
+            "value": "#CEE9FC",
+            "description": "The background color of surface elements, like table rows or lists, when they are selected.",
+            "type": "color"
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "#292A2D",
+          "description": "The primary color used for text within the application.",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "#51555B",
+          "description": "The color used for text when less emphasis is needed.",
+          "type": "color"
+        },
+        "placeholder": {
+          "value": "#7B8089",
+          "description": "The text color used for placeholder text in input and form fields.",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "#FFFFFF",
+          "description": "The color used for text on reversed backgrounds.",
+          "type": "color"
+        },
+        "error": {
+          "value": "#FF3838",
+          "description": "The text color used for errors.",
+          "type": "color"
+        }
+      },
+      "interactive": {
+        "default": {
+          "value": "#005A8F",
+          "description": "\t The color used for interactive elements.",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#004872",
+          "description": "The color used when hovering over interactive elements.",
+          "type": "color"
+        }
+      },
+      "classification": {
+        "topsecretsci": {
+          "value": "#FCE83A",
+          "type": "color"
+        },
+        "topsecret": {
+          "value": "#FF8C00",
+          "type": "color"
+        },
+        "secret": {
+          "value": "#FF3838",
+          "type": "color"
+        },
+        "confidential": {
+          "value": "#0033A0",
+          "type": "color"
+        },
+        "cui": {
+          "value": "#502B85",
+          "type": "color"
+        },
+        "unclassified": {
+          "value": "#007A33",
+          "type": "color"
+        }
+      },
+      "status": {
+        "critical": {
+          "value": "#FF2A04",
+          "type": "color"
+        },
+        "serious": {
+          "value": "#FFAF3D",
+          "type": "color"
+        },
+        "caution": {
+          "value": "#FAD800",
+          "type": "color"
+        },
+        "normal": {
+          "value": "#00E200",
+          "type": "color"
+        },
+        "standby": {
+          "value": "#64D9FF",
+          "type": "color"
+        },
+        "off": {
+          "value": "#7B8089",
+          "type": "color"
+        }
+      }
+    }
+  },
   "ref": {
     "palette": {
       "darkblue": {
@@ -971,147 +1099,33 @@
       }
     }
   },
-  "sys": {
-    "color": {
-      "background": {
-        "app": {
-          "default": {
-            "value": "#101923",
-            "type": "color"
-          }
-        },
-        "surface": {
-          "header": {
-            "value": "#172635",
-            "type": "color"
-          },
-          "default": {
-            "value": "#1B2D3E",
-            "type": "color"
-          },
-          "hover": {
-            "value": "#1C3851",
-            "type": "color"
-          },
-          "selected": {
-            "value": "#1C3F5E",
-            "type": "color"
-          }
-        }
-      },
-      "text": {
-        "primary": {
-          "value": "#FFFFFF",
-          "type": "color"
-        },
-        "secondary": {
-          "value": "#D4D8DD",
-          "type": "color"
-        },
-        "placeholder": {
-          "value": "#A4ABB6",
-          "type": "color"
-        },
-        "error": {
-          "value": "#FF3838",
-          "type": "color"
-        },
-        "inverse": {
-          "value": "#080C11",
-          "type": "color"
-        }
-      },
-      "interactive": {
-        "default": {
-          "value": "#4DACFF",
-          "type": "color"
-        },
-        "hover": {
-          "value": "#92CBFF",
-          "type": "color"
-        }
-      },
-      "classification": {
-        "topsecretsci": {
-          "value": "#FCE83A",
-          "type": "color"
-        },
-        "topsecret": {
-          "value": "#FF8C00",
-          "type": "color"
-        },
-        "secret": {
-          "value": "#FF3838",
-          "type": "color"
-        },
-        "confidential": {
-          "value": "#0033A0",
-          "type": "color"
-        },
-        "cui": {
-          "value": "#502B85",
-          "type": "color"
-        },
-        "unclassified": {
-          "value": "#007A33",
-          "type": "color"
-        }
-      },
-      "status": {
-        "critical": {
-          "value": "#FF3838",
-          "type": "color"
-        },
-        "serious": {
-          "value": "#FFB302",
-          "type": "color"
-        },
-        "caution": {
-          "value": "#FCE83A",
-          "type": "color"
-        },
-        "normal": {
-          "value": "#56F000",
-          "type": "color"
-        },
-        "standby": {
-          "value": "#2DCCFF",
-          "type": "color"
-        },
-        "off": {
-          "value": "#A4ABB6",
-          "type": "color"
-        }
-      }
-    }
-  },
   "comp": {
     "icon": {
       "status": {
         "color": {
           "fill": {
             "critical": {
-              "value": "#FF3838",
+              "value": "#FF2A04",
               "type": "color"
             },
             "serious": {
-              "value": "#FFB302",
+              "value": "#FFAF3D",
               "type": "color"
             },
             "caution": {
-              "value": "#FCE83A",
+              "value": "#FAD800",
               "type": "color"
             },
             "normal": {
-              "value": "#56F000",
+              "value": "#00E200",
               "type": "color"
             },
             "standby": {
-              "value": "#2DCCFF",
+              "value": "#64D9FF",
               "type": "color"
             },
             "off": {
-              "value": "#A4ABB6",
+              "value": "#7B8089",
               "type": "color"
             }
           },
@@ -1178,15 +1192,15 @@
       "color": {
         "text": {
           "default": {
-            "value": "#4DACFF",
+            "value": "#005A8F",
             "type": "color"
           },
           "hover": {
-            "value": "#92CBFF",
+            "value": "#004872",
             "type": "color"
           },
           "selected": {
-            "value": "#FFFFFF",
+            "value": "#292A2D",
             "type": "color"
           }
         }
@@ -1196,19 +1210,19 @@
       "color": {
         "background": {
           "default": {
-            "value": "#1B2D3E",
+            "value": "#FFFFFF",
             "type": "color"
           },
           "hover": {
-            "value": "#1C3851",
+            "value": "#98BDD3",
             "type": "color"
           },
           "selected": {
-            "value": "#1C3F5E",
+            "value": "#CEE9FC",
             "type": "color"
           },
           "header": {
-            "value": "#172635",
+            "value": "#F5F6F9",
             "type": "color"
           }
         }
@@ -1218,15 +1232,15 @@
       "color": {
         "text": {
           "default": {
-            "value": "#4DACFF",
+            "value": "#005A8F",
             "type": "color"
           },
           "hover": {
-            "value": "#92CBFF",
+            "value": "#004872",
             "type": "color"
           },
           "selected": {
-            "value": "#FFFFFF",
+            "value": "#292A2D",
             "type": "color"
           }
         }
@@ -1331,21 +1345,21 @@
         "text": {
           "primary": {
             "default": {
-              "value": "#080C11",
+              "value": "#FFFFFF",
               "type": "color"
             },
             "hover": {
-              "value": "#080C11",
+              "value": "#FFFFFF",
               "type": "color"
             }
           },
           "secondary": {
             "default": {
-              "value": "#4DACFF",
+              "value": "#005A8F",
               "type": "color"
             },
             "hover": {
-              "value": "#92CBFF",
+              "value": "#004872",
               "type": "color"
             }
           }
@@ -1353,21 +1367,21 @@
         "background": {
           "primary": {
             "default": {
-              "value": "#4DACFF",
+              "value": "#005A8F",
               "type": "color"
             },
             "hover": {
-              "value": "#92CBFF",
+              "value": "#004872",
               "type": "color"
             }
           },
           "secondary": {
             "default": {
-              "value": "#4DACFF",
+              "value": "#005A8F",
               "type": "color"
             },
             "hover": {
-              "value": "#92CBFF",
+              "value": "#004872",
               "type": "color"
             }
           }
@@ -1375,21 +1389,21 @@
         "border": {
           "primary": {
             "default": {
-              "value": "#4DACFF",
+              "value": "#005A8F",
               "type": "color"
             },
             "hover": {
-              "value": "#92CBFF",
+              "value": "#004872",
               "type": "color"
             }
           },
           "secondary": {
             "default": {
-              "value": "#4DACFF",
+              "value": "#005A8F",
               "type": "color"
             },
             "hover": {
-              "value": "#92CBFF",
+              "value": "#004872",
               "type": "color"
             }
           }
@@ -1400,11 +1414,11 @@
       "color": {
         "text": {
           "default": {
-            "value": "#4DACFF",
+            "value": "#005A8F",
             "type": "color"
           },
           "hover": {
-            "value": "#92CBFF",
+            "value": "#004872",
             "type": "color"
           }
         }

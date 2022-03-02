@@ -1,4 +1,44 @@
 {
+  "sys": {
+    "color": {
+      "background": {
+        "app": "#EAEEF4",
+        "surface": {
+          "header": "#F5F6F9",
+          "default": "#FFFFFF",
+          "hover": "#98BDD3",
+          "selected": "#CEE9FC"
+        }
+      },
+      "text": {
+        "primary": "#292A2D",
+        "secondary": "#51555B",
+        "placeholder": "#7B8089",
+        "inverse": "#FFFFFF",
+        "error": "#FF3838"
+      },
+      "interactive": {
+        "default": "#005A8F",
+        "hover": "#004872"
+      },
+      "classification": {
+        "topsecretsci": "#FCE83A",
+        "topsecret": "#FF8C00",
+        "secret": "#FF3838",
+        "confidential": "#0033A0",
+        "cui": "#502B85",
+        "unclassified": "#007A33"
+      },
+      "status": {
+        "critical": "#FF2A04",
+        "serious": "#FFAF3D",
+        "caution": "#FAD800",
+        "normal": "#00E200",
+        "standby": "#64D9FF",
+        "off": "#7B8089"
+      }
+    }
+  },
   "ref": {
     "palette": {
       "darkblue": {
@@ -308,59 +348,17 @@
       "0": 0
     }
   },
-  "sys": {
-    "color": {
-      "background": {
-        "app": {
-          "default": "#101923"
-        },
-        "surface": {
-          "header": "#172635",
-          "default": "#1B2D3E",
-          "hover": "#1C3851",
-          "selected": "#1C3F5E"
-        }
-      },
-      "text": {
-        "primary": "#FFFFFF",
-        "secondary": "#D4D8DD",
-        "placeholder": "#A4ABB6",
-        "error": "#FF3838",
-        "inverse": "#080C11"
-      },
-      "interactive": {
-        "default": "#4DACFF",
-        "hover": "#92CBFF"
-      },
-      "classification": {
-        "topsecretsci": "#FCE83A",
-        "topsecret": "#FF8C00",
-        "secret": "#FF3838",
-        "confidential": "#0033A0",
-        "cui": "#502B85",
-        "unclassified": "#007A33"
-      },
-      "status": {
-        "critical": "#FF3838",
-        "serious": "#FFB302",
-        "caution": "#FCE83A",
-        "normal": "#56F000",
-        "standby": "#2DCCFF",
-        "off": "#A4ABB6"
-      }
-    }
-  },
   "comp": {
     "icon": {
       "status": {
         "color": {
           "fill": {
-            "critical": "#FF3838",
-            "serious": "#FFB302",
-            "caution": "#FCE83A",
-            "normal": "#56F000",
-            "standby": "#2DCCFF",
-            "off": "#A4ABB6"
+            "critical": "#FF2A04",
+            "serious": "#FFAF3D",
+            "caution": "#FAD800",
+            "normal": "#00E200",
+            "standby": "#64D9FF",
+            "off": "#7B8089"
           },
           "border": {
             "critical": "#661102",
@@ -388,28 +386,28 @@
     "tab": {
       "color": {
         "text": {
-          "default": "#4DACFF",
-          "hover": "#92CBFF",
-          "selected": "#FFFFFF"
+          "default": "#005A8F",
+          "hover": "#004872",
+          "selected": "#292A2D"
         }
       }
     },
     "table-cell": {
       "color": {
         "background": {
-          "default": "#1B2D3E",
-          "hover": "#1C3851",
-          "selected": "#1C3F5E",
-          "header": "#172635"
+          "default": "#FFFFFF",
+          "hover": "#98BDD3",
+          "selected": "#CEE9FC",
+          "header": "#F5F6F9"
         }
       }
     },
     "table-header": {
       "color": {
         "text": {
-          "default": "#4DACFF",
-          "hover": "#92CBFF",
-          "selected": "#FFFFFF"
+          "default": "#005A8F",
+          "hover": "#004872",
+          "selected": "#292A2D"
         }
       }
     },
@@ -454,32 +452,32 @@
       "color": {
         "text": {
           "primary": {
-            "default": "#080C11",
-            "hover": "#080C11"
+            "default": "#FFFFFF",
+            "hover": "#FFFFFF"
           },
           "secondary": {
-            "default": "#4DACFF",
-            "hover": "#92CBFF"
+            "default": "#005A8F",
+            "hover": "#004872"
           }
         },
         "background": {
           "primary": {
-            "default": "#4DACFF",
-            "hover": "#92CBFF"
+            "default": "#005A8F",
+            "hover": "#004872"
           },
           "secondary": {
-            "default": "#4DACFF",
-            "hover": "#92CBFF"
+            "default": "#005A8F",
+            "hover": "#004872"
           }
         },
         "border": {
           "primary": {
-            "default": "#4DACFF",
-            "hover": "#92CBFF"
+            "default": "#005A8F",
+            "hover": "#004872"
           },
           "secondary": {
-            "default": "#4DACFF",
-            "hover": "#92CBFF"
+            "default": "#005A8F",
+            "hover": "#004872"
           }
         }
       }
@@ -487,8 +485,8 @@
     "link": {
       "color": {
         "text": {
-          "default": "#4DACFF",
-          "hover": "#92CBFF"
+          "default": "#005A8F",
+          "hover": "#004872"
         }
       }
     }
