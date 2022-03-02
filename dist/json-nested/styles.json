@@ -1,0 +1,496 @@
+{
+  "ref": {
+    "palette": {
+      "darkblue": {
+        "100": "#CBDEE9",
+        "200": "#98BDD3",
+        "300": "#649CBD",
+        "400": "#2F7AA7",
+        "500": "#005A8F",
+        "600": "#004872",
+        "700": "#1C3F5E",
+        "800": "#1B2D3E",
+        "900": "#172635",
+        "950": "#080C11"
+      },
+      "brightblue": {
+        "100": "#DAEEFF",
+        "200": "#CEE9FC",
+        "300": "#B7DCFF",
+        "400": "#92CBFF",
+        "500": "#4DACFF",
+        "600": "#3A87CF",
+        "700": "#2B659B",
+        "800": "#1C3851",
+        "850": "#142435",
+        "900": "#101923"
+      },
+      "grey": {
+        "100": "#F5F6F9",
+        "200": "#EAEEF4",
+        "250": "#E0E5EB",
+        "300": "#D4D8DD",
+        "400": "#BBC1C9",
+        "500": "#A4ABB6",
+        "600": "#7B8089",
+        "700": "#51555B",
+        "800": "#3C3E42",
+        "900": "#292A2D"
+      },
+      "neutral": {
+        "1000": "#000000",
+        "000": "#FFFFFF"
+      },
+      "red": {
+        "400": "#FF5F60",
+        "500": "#FF3838",
+        "600": "#FF2A04",
+        "700": "#C8102E",
+        "800": "#8B1703",
+        "900": "#661102"
+      },
+      "orange": {
+        "400": "#FFCC57",
+        "500": "#FFB302",
+        "600": "#FFAF3D",
+        "700": "#FF8C00",
+        "800": "#975F0E",
+        "900": "#664618"
+      },
+      "yellow": {
+        "400": "#FDED61",
+        "500": "#FCE83A",
+        "600": "#FAD800",
+        "700": "#C7AB00",
+        "800": "#917D01",
+        "900": "#645600"
+      },
+      "green": {
+        "400": "#99F666",
+        "500": "#56F000",
+        "600": "#00E200",
+        "700": "#00AD23",
+        "800": "#007A33",
+        "900": "#005A00"
+      },
+      "cyan": {
+        "400": "#5CE2FF",
+        "500": "#64D9FF",
+        "600": "#2DCCFF",
+        "700": "#20A9D5",
+        "800": "#35798E",
+        "900": "#285766"
+      },
+      "violet": {
+        "800": "#502B85"
+      },
+      "blue": {
+        "800": "#0033A0"
+      },
+      "teal": {
+        "100": "#D0F4F4",
+        "200": "#A1E9EB",
+        "300": "#70DDE0",
+        "400": "#3ED2D6",
+        "500": "#00C7CB",
+        "600": "#009FA3",
+        "700": "#00777A",
+        "800": "#035051",
+        "900": "#032828"
+      },
+      "purple": {
+        "100": "#E4E2F7",
+        "200": "#C9C5ED",
+        "300": "#AEA8E5",
+        "400": "#938BDB",
+        "500": "#786DD3",
+        "600": "#6058A8",
+        "700": "#48417F",
+        "800": "#302C54",
+        "900": "#18152B"
+      },
+      "pink": {
+        "100": "#EDCEF3",
+        "200": "#DA9CE7",
+        "300": "#C76ADA",
+        "400": "#B534CE",
+        "500": "#A200C1",
+        "600": "#81009A",
+        "700": "#610074",
+        "800": "#41004D",
+        "900": "#200227"
+      },
+      "hotorange": {
+        "100": "#F8DDD1",
+        "200": "#F0BAA3",
+        "300": "#EA9875",
+        "400": "#E27545",
+        "500": "#DA5309",
+        "600": "#AF420A",
+        "700": "#833209",
+        "800": "#572108",
+        "900": "#2B1105"
+      }
+    },
+    "radius": {
+      "base": "3px",
+      "circle": "50%"
+    },
+    "fontFamily": {
+      "sans": "Roboto",
+      "mono": "Roboto Mono"
+    },
+    "lineHeights": {
+      "0": "AUTO"
+    },
+    "body": {
+      "body-1": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "regular",
+        "lineHeight": "AUTO",
+        "fontSize": "1rem",
+        "letterSpacing": "0.5%",
+        "paragraphSpacing": 0
+      },
+      "body-1-bold": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "bold",
+        "lineHeight": "AUTO",
+        "fontSize": "1rem",
+        "letterSpacing": "0.5%",
+        "paragraphSpacing": 0
+      },
+      "body-2": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "regular",
+        "lineHeight": "AUTO",
+        "fontSize": "0.875rem",
+        "letterSpacing": "0.5%",
+        "paragraphSpacing": 0
+      },
+      "body-2-bold": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "bold",
+        "lineHeight": "AUTO",
+        "fontSize": "0.875rem",
+        "letterSpacing": "0.5%",
+        "paragraphSpacing": 0
+      },
+      "body-3": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "regular",
+        "lineHeight": "AUTO",
+        "fontSize": "0.75rem",
+        "letterSpacing": "0.5%",
+        "paragraphSpacing": 0
+      },
+      "body-3-bold": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "bold",
+        "lineHeight": "AUTO",
+        "fontSize": "0.75rem",
+        "letterSpacing": "0.5%",
+        "paragraphSpacing": 0
+      }
+    },
+    "heading": {
+      "heading-1": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "regular",
+        "lineHeight": "AUTO",
+        "fontSize": "2.125rem",
+        "letterSpacing": "0.25%",
+        "paragraphSpacing": 0
+      },
+      "heading-1-bold": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "bold",
+        "lineHeight": "AUTO",
+        "fontSize": "2.125rem",
+        "letterSpacing": "0.25%",
+        "paragraphSpacing": 0
+      },
+      "heading-2": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "regular",
+        "lineHeight": "AUTO",
+        "fontSize": "1.5rem",
+        "letterSpacing": "0%",
+        "paragraphSpacing": 0
+      },
+      "heading-3": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "medium",
+        "lineHeight": "AUTO",
+        "fontSize": "1.25rem",
+        "letterSpacing": "0.15%",
+        "paragraphSpacing": 0
+      },
+      "heading-4": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "light",
+        "lineHeight": "AUTO",
+        "fontSize": "1.25rem",
+        "letterSpacing": "0.15%",
+        "paragraphSpacing": 0
+      },
+      "heading-5": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "regular",
+        "lineHeight": "AUTO",
+        "fontSize": "1.125rem",
+        "letterSpacing": "0%",
+        "paragraphSpacing": 0
+      },
+      "heading-6": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "light",
+        "lineHeight": "AUTO",
+        "fontSize": "1.125rem",
+        "letterSpacing": "0%",
+        "paragraphSpacing": 0
+      }
+    },
+    "display": {
+      "display-1": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "light",
+        "lineHeight": "AUTO",
+        "fontSize": "3.75rem",
+        "letterSpacing": "-0.5%",
+        "paragraphSpacing": 0
+      },
+      "display-2": {
+        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "regular",
+        "lineHeight": "AUTO",
+        "fontSize": "3rem",
+        "letterSpacing": "0%",
+        "paragraphSpacing": 0
+      }
+    },
+    "monospace": {
+      "monospace-1": {
+        "fontFamily": "'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontWeight": "medium",
+        "lineHeight": "AUTO",
+        "fontSize": "1.75rem",
+        "letterSpacing": "0%",
+        "paragraphSpacing": 0
+      }
+    },
+    "fontWeight": {
+      "regular": "regular",
+      "bold": "bold",
+      "medium": "medium",
+      "light": "light"
+    },
+    "fontSize": {
+      "xs": "0.75rem",
+      "sm": "0.875rem",
+      "base": "1rem",
+      "lg": "1.125rem",
+      "xl": "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.75rem",
+      "4xl": "2.125rem",
+      "5xl": "3rem",
+      "6xl": "3.75rem"
+    },
+    "letterSpacing": {
+      "2xl": "0.005em",
+      "xl": "0.0025em",
+      "base": "0em",
+      "lg": "0.0015em",
+      "sm": "-0.005em"
+    },
+    "paragraphSpacing": {
+      "0": 0
+    }
+  },
+  "sys": {
+    "color": {
+      "background": {
+        "app": {
+          "default": "#101923"
+        },
+        "surface": {
+          "header": "#172635",
+          "default": "#1B2D3E",
+          "hover": "#1C3851",
+          "selected": "#1C3F5E"
+        }
+      },
+      "text": {
+        "primary": "#FFFFFF",
+        "secondary": "#D4D8DD",
+        "placeholder": "#A4ABB6",
+        "error": "#FF3838",
+        "inverse": "#080C11"
+      },
+      "interactive": {
+        "default": "#4DACFF",
+        "hover": "#92CBFF"
+      },
+      "classification": {
+        "topsecretsci": "#FCE83A",
+        "topsecret": "#FF8C00",
+        "secret": "#FF3838",
+        "confidential": "#0033A0",
+        "cui": "#502B85",
+        "unclassified": "#007A33"
+      },
+      "status": {
+        "critical": "#FF3838",
+        "serious": "#FFB302",
+        "caution": "#FCE83A",
+        "normal": "#56F000",
+        "standby": "#2DCCFF",
+        "off": "#A4ABB6"
+      }
+    }
+  },
+  "comp": {
+    "icon": {
+      "status": {
+        "color": {
+          "fill": {
+            "critical": "#FF3838",
+            "serious": "#FFB302",
+            "caution": "#FCE83A",
+            "normal": "#56F000",
+            "standby": "#2DCCFF",
+            "off": "#A4ABB6"
+          },
+          "border": {
+            "critical": "#661102",
+            "serious": "#664618",
+            "caution": "#645600",
+            "normal": "#005A00",
+            "standby": "#285766",
+            "off": "#3C3E42"
+          }
+        }
+      },
+      "banner": {
+        "color": {
+          "fill": {
+            "critical": "#8B1703",
+            "serious": "#975F0E",
+            "caution": "#917D01",
+            "normal": "#007A33",
+            "standby": "#35798E",
+            "off": "#51555B"
+          }
+        }
+      }
+    },
+    "tab": {
+      "color": {
+        "text": {
+          "default": "#4DACFF",
+          "hover": "#92CBFF",
+          "selected": "#FFFFFF"
+        }
+      }
+    },
+    "table-cell": {
+      "color": {
+        "background": {
+          "default": "#1B2D3E",
+          "hover": "#1C3851",
+          "selected": "#1C3F5E",
+          "header": "#172635"
+        }
+      }
+    },
+    "table-header": {
+      "color": {
+        "text": {
+          "default": "#4DACFF",
+          "hover": "#92CBFF",
+          "selected": "#FFFFFF"
+        }
+      }
+    },
+    "banner": {
+      "classification": {
+        "color": {
+          "background": {
+            "tssci": "#FCE83A",
+            "ts": "#FF8C00",
+            "secret": "#FF3838",
+            "conf": "#0033A0",
+            "cui": "#502B85",
+            "unclass": "#007A33"
+          },
+          "text": {
+            "tssci": "#000000",
+            "ts": "#000000",
+            "secret": "#FFFFFF",
+            "conf": "#FFFFFF",
+            "cui": "#FFFFFF",
+            "unclass": "#FFFFFF"
+          }
+        }
+      },
+      "status": {
+        "color": {
+          "background": {
+            "critical": "#FF5F60",
+            "serious": "#FFCC57",
+            "caution": "#FDED61",
+            "normal": "#99F666",
+            "standby": "#5CE2FF",
+            "off": "#BBC1C9"
+          },
+          "text": {
+            "default": "#000000"
+          }
+        }
+      }
+    },
+    "button": {
+      "color": {
+        "text": {
+          "primary": {
+            "default": "#080C11",
+            "hover": "#080C11"
+          },
+          "secondary": {
+            "default": "#4DACFF",
+            "hover": "#92CBFF"
+          }
+        },
+        "background": {
+          "primary": {
+            "default": "#4DACFF",
+            "hover": "#92CBFF"
+          },
+          "secondary": {
+            "default": "#4DACFF",
+            "hover": "#92CBFF"
+          }
+        },
+        "border": {
+          "primary": {
+            "default": "#4DACFF",
+            "hover": "#92CBFF"
+          },
+          "secondary": {
+            "default": "#4DACFF",
+            "hover": "#92CBFF"
+          }
+        }
+      }
+    },
+    "link": {
+      "color": {
+        "text": {
+          "default": "#4DACFF",
+          "hover": "#92CBFF"
+        }
+      }
+    }
+  }
+}

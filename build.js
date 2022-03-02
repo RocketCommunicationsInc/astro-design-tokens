@@ -4,6 +4,8 @@ var _ = require("lodash");
 const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
 var Color = require("tinycolor2");
 
+
+
 StyleDictionary.registerTransform({
   name: "size/pxToRem",
   type: "value",
@@ -152,8 +154,21 @@ StyleDictionary.registerTransform({
 StyleDictionary.registerFilter({
   name: "notColor",
   matcher: function (token) {
-    console.log('token', token);
     return token.type !== "color";
+  },
+});
+
+StyleDictionary.registerFilter({
+  name: "color/notRef",
+  matcher: function (token) {
+    return token.attributes.category !== "ref";
+  },
+});
+
+StyleDictionary.registerFilter({
+  name: "color/ref",
+  matcher: function (token) {
+    return token.attributes.category === "ref";
   },
 });
 
@@ -169,9 +184,8 @@ StyleDictionary.registerFilter({
 StyleDictionary.registerFilter({
   name: "color/dark",
   matcher: function (token) {
-    console.log('token', token);
     return (
-      token.attributes.category === "sys" && token.attributes.type === "color" && token.filePath.includes('dark')
+      token.attributes.type === "color" && token.filePath.includes('dark')
     );
   },
 });
@@ -189,7 +203,7 @@ StyleDictionary.registerFilter({
   name: "color/light",
   matcher: function (token) {
     return (
-      token.attributes.category === "sys" && token.attributes.type === "color" && token.filePath.includes('light')
+      token.attributes.type === "color" && token.filePath.includes('light')
     );
   },
 });
@@ -325,6 +339,76 @@ StyleDictionary.registerTransformGroup({
     // "color/rgbaRef",
   ]),
 });
+
+StyleDictionary.extend({
+  "source": ["tokens/tokens-light.json"],
+  platforms: {
+    scss: {
+      transformGroup: "custom/scss",
+      buildPath: "dist/scss/",
+      files: [
+        {
+          destination: "_colors-light.scss",
+          format: "scss/variables",
+          filter: "color/notRef",
+        }
+      ],
+    },
+    internal: {
+      transformGroup: "custom/css",
+      buildPath: "dist/internal/css/",
+      files: [
+        {
+          destination: "_colors-light.css",
+          format: "css/variables",
+          filter: "color/notRef",
+          options: {
+            selector: ".light-theme",
+            showFileHeader: true,
+            outputReferences: true,
+          },
+        },
+      ],
+    },
+    css: {
+      transformGroup: "custom/css",
+      buildPath: "dist/css/",
+      files: [
+        {
+          destination: "_colors-light.css",
+          format: "css/variables",
+          filter: "color/notRef",
+          options: {
+            selector: ".light-theme",
+            showFileHeader: true,
+            outputReferences: true,
+          },
+        },
+      ],
+    },
+
+    "json-flat": {
+      transformGroup: "custom/json",
+      buildPath: "dist/json/",
+      files: [
+        {
+          destination: "styles-light.json",
+          format: "json/flat",
+        }
+      ],
+    },
+    "json-nested": {
+      transformGroup: "custom/json",
+      buildPath: "dist/json-nested/",
+      files: [
+        {
+          destination: "styles-light.json",
+          format: "json/nested",
+        }
+      ],
+    },
+  },
+}).buildAllPlatforms()
 
 const StyleDictionaryExtended = StyleDictionary.extend(baseConfig);
 
