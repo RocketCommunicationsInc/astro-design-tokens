@@ -389,36 +389,34 @@ StyleDictionary.extend({
       }
   },
   // ...
-}).buildAllPlatforms();
- 
-// dark mode
-StyleDictionary.extend({
-  include: [
-    // this is the same as the source in light/default above
-    `tokens/**/!(*.${modes.join(`|*.`)}).json`
-  ],
-  source: [
-    // Kind of the opposite of above, this will find any files
-    // that have the file extension .dark.json5
-    `tokens/**/*.light.json`
-  ],
-  platforms: {
-    internal: {
-      transformGroup: "custom/css",
-      buildPath: "dist/internal/css/",
-      files: [
-        {
-          destination: "_colors-light.css",
-          format: "css/variables",
-          filter: "color/theme",
-          options: {
-            selector: ".light-theme",
-            showFileHeader: true,
-            outputReferences: true,
-          }
-        }
-      ],
-    }
-},
-  // ...
-}).buildAllPlatforms();
+})
+// .extend({
+//   include: [
+//     // this is the same as the source in light/default above
+//     `tokens/**/!(*.${modes.join(`|*.`)}).json`
+//   ],
+//   source: [
+//     // Kind of the opposite of above, this will find any files
+//     // that have the file extension .dark.json5
+//     `tokens/**/*.light.json`
+//   ],
+//   platforms: {
+//     internal: {
+//       transformGroup: "custom/css",
+//       buildPath: "dist/internal/css/",
+//       files: [
+//         {
+//           destination: "_colors-light.css",
+//           format: "css/variables",
+//           filter: "color/theme",
+//           options: {
+//             selector: ".light-theme",
+//             showFileHeader: true,
+//             outputReferences: true,
+//           }
+//         }
+//       ],
+//     }
+// },
+// })
+.buildAllPlatforms();
