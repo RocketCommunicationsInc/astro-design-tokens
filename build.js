@@ -159,9 +159,9 @@ StyleDictionary.registerFilter({
 });
 
 StyleDictionary.registerFilter({
-  name: "color/notRef",
+  name: "color/theme",
   matcher: function (token) {
-    return token.attributes.category !== "ref";
+    return token.type === "color" && token.attributes.type !== "palette";
   },
 });
 
@@ -176,7 +176,7 @@ StyleDictionary.registerFilter({
   name: "color/global",
   matcher: function (token) {
     return (
-      token.type === "color" && token.attributes.category === "ref"
+      token.type === "color" && token.attributes.type === "palette"
     );
   },
 });
@@ -309,7 +309,7 @@ StyleDictionary.registerTransformGroup({
     "fontFamily/fallback",
     "typography/name",
     "borderRadius/name",
-    "color/themeName",
+    // "color/themeName",
     "fontWeight/cssValue",
     // "color/rgbaRef",
   ]),
@@ -320,7 +320,7 @@ StyleDictionary.registerTransformGroup({
   transforms: StyleDictionary.transformGroup["less"].concat([
     "size/pxToRem",
     "letterSpacing/percentToEm",
-    "color/themeName",
+    // "color/themeName",
     "fontFamily/fallback",
     "typography/name",
     "borderRadius/name",
@@ -340,76 +340,91 @@ StyleDictionary.registerTransformGroup({
   ]),
 });
 
+// StyleDictionary.extend({
+//   "source": ["tokens/tokens-light.json"],
+//   platforms: {
+//     internal: {
+//       transformGroup: "custom/css",
+//       buildPath: "dist/internal/css/",
+//       files: [
+//         {
+//           destination: "_colors-light.css",
+//           format: "css/variables",
+//           options: {
+//             selector: ".light-theme",
+//             showFileHeader: true,
+//             outputReferences: true,
+//           },
+//         },
+//       ],
+//     }
+//   },
+// }).buildAllPlatforms()
+
+// StyleDictionary.extend(baseConfig).buildAllPlatforms()
+
+// const StyleDictionaryExtended = StyleDictionary.extend(baseConfig);
+
+// StyleDictionaryExtended.buildAllPlatforms();
+
+const modes = [`light`,`dark`];
+  
+// light/default mode
 StyleDictionary.extend({
-  "source": ["tokens/tokens-light.json"],
-  platforms: {
-    scss: {
-      transformGroup: "custom/scss",
-      buildPath: "dist/scss/",
-      files: [
-        {
-          destination: "_colors-light.scss",
-          format: "scss/variables",
-          filter: "color/notRef",
-        }
-      ],
-    },
-    internal: {
-      transformGroup: "custom/css",
-      buildPath: "dist/internal/css/",
-      files: [
-        {
-          destination: "_colors-light.css",
-          format: "css/variables",
-          filter: "color/notRef",
-          options: {
-            selector: ".light-theme",
-            showFileHeader: true,
-            outputReferences: true,
+  source: [
+    // this is saying find any files in the tokens folder
+    // that does not have .dark or .light, but ends in .json5
+    `tokens/**/!(*.${modes.join(`|*.`)}).json`
+  ],
+    platforms: {
+      internal: {
+        transformGroup: "custom/css",
+        buildPath: "dist/internal/css/",
+        files: [
+          {
+            destination: "_tokens.scss",
+            format: "css/variables",
+            filter: "notColor",
+            options: {
+              showFileHeader: true,
+              outputReferences: true,
+            },
           },
-        },
-      ],
-    },
-    css: {
-      transformGroup: "custom/css",
-      buildPath: "dist/css/",
-      files: [
-        {
-          destination: "_colors-light.css",
-          format: "css/variables",
-          filter: "color/notRef",
-          options: {
-            selector: ".light-theme",
-            showFileHeader: true,
-            outputReferences: true,
+          {
+            destination: "_colors-dark.scss",
+            format: "css/variables",
+            filter: "color/theme",
+            options: {
+              selector: "@mixin root-variables",
+              showFileHeader: true,
+              outputReferences: true,
+            },
           },
-        },
-      ],
-    },
-
-    "json-flat": {
-      transformGroup: "custom/json",
-      buildPath: "dist/json/",
-      files: [
-        {
-          destination: "styles-light.json",
-          format: "json/flat",
-        }
-      ],
-    },
-    "json-nested": {
-      transformGroup: "custom/json",
-      buildPath: "dist/json-nested/",
-      files: [
-        {
-          destination: "styles-light.json",
-          format: "json/nested",
-        }
-      ],
-    },
+          {
+            destination: "_colors-global.css",
+            format: "css/variables",
+            filter: "color/global",
+            options: {
+              showFileHeader: true,
+              outputReferences: true,
+            },
+          },
+        ],
+      }
   },
-}).buildAllPlatforms()
-
-const StyleDictionaryExtended = StyleDictionary.extend(baseConfig);
-
-StyleDictionaryExtended.buildAllPlatforms();
+  // ...
+}).buildAllPlatforms();
+ 
+// dark mode
+// StyleDictionary.extend({
+//   include: [
+//     // this is the same as the source in light/default above
+//     `tokens/**/!(*.${modes.join(`|*.`)}).json`
+//   ],
+//   source: [
+//     // Kind of the opposite of above, this will find any files
+//     // that have the file extension .dark.json5
+//     `tokens/**/*.light.json`
+//   ],
+//   // ...
+// }).buildAllPlatforms();
