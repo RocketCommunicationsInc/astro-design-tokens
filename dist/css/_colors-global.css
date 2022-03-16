@@ -3,7 +3,7 @@
  * Generated on Wed, 16 Mar 2022 21:17:34 GMT
  */
 
-@mixin root-variables {
+:root {
   --color-gsb-interactive-muted: #2b659b;
   --color-gsb-interactive-hover: #92cbff;
   --color-gsb-interactive-default: #4dacff;
