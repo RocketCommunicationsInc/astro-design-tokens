@@ -10,13 +10,11 @@ StyleDictionary.registerTransform({
   name: "size/pxToRem",
   type: "value",
   matcher: (token) => {
-    return token.attributes.type === "fontSize" || token.attributes.subitem === 'fontSize'
-    // return token.unit === "pixel" && token.value !== 0;
+    return token.type === "fontSizes" || token.attributes.subitem === 'fontSize'
   },
   transformer: (token) => {
     const rem = 0.0625 * token.value;
     return `${rem}rem`;
-    // return `${token.value}px`;
   },
 });
 
@@ -24,7 +22,7 @@ StyleDictionary.registerTransform({
   name: "letterSpacing/percentToEm",
   type: "value",
   matcher: (token) => {
-    return token.attributes.type === "letterSpacing" || token.attributes.category === 'letterSpacing'
+    return token.type === "letterSpacing" || token.attributes.category === 'letterSpacing'
   },
   transformer: (token) => {
     const value = token.value.replace("%", "");
@@ -107,35 +105,13 @@ StyleDictionary.registerTransform({
 });
 
 /**
- * Remove -dark- or -light- from the token name.
- * **TEMPORARY** until we can get design to use separate token themes.
- */
-StyleDictionary.registerTransform({
-  name: "color/themeName",
-  type: "name",
-  matcher: (token) => {
-    return token.attributes.category === "color"
-  },
-  transformer: (token) => {
-    if (token.attributes.type === "dark") {
-      return token.name.replace("dark-", "");
-    } else if (token.attributes.type === "light") {
-      return token.name.replace("light-", "");
-    } else {
-      return token.name
-    }
-  },
-});
-
-
-/**
  * Converts typography name 'bold' to CSS value '700'
  */
 StyleDictionary.registerTransform({
   name: "fontWeight/cssValue",
   type: "value",
   matcher: (token) => {
-    return token.attributes.subitem === "fontWeight" || token.type === 'fontWeight'
+    return token.type === 'fontWeight'
   },
   transformer: (token) => {
     const fontWeightValues = {

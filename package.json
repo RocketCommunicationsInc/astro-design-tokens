@@ -9,7 +9,7 @@
     "prepack": "npm run build",
     "transform.dark": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens-dark.json dark --expandTypography",
     "transform.light": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.light.json light --expandTypography",
-    "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json beta,dark --expandTypography",
+    "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json beta --expandTypography",
     "make": "npm run transform && npm run transform.light && node preformat.js && npm run build"
   },
   "files": [
