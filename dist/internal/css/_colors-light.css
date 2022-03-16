@@ -3,7 +3,7 @@
  * Generated on Wed, 16 Mar 2022 20:24:30 GMT
  */
 
-@mixin root-variables {
+.light-theme {
   --color-gsb-interactive-muted: #2b659b;
   --color-gsb-interactive-hover: #92cbff;
   --color-gsb-interactive-default: #4dacff;
@@ -50,12 +50,12 @@
   --color-text-placeholder: #a4abb6;
   --color-text-secondary: #d4d8dd;
   --color-text-primary: #ffffff;
-  --color-background-surface-selected: #1c3f5e;
-  --color-background-surface-hover: #1c3851;
-  --color-background-surface-header: #172635;
-  --color-background-surface-default: #1b2d3e;
-  --color-background-base-selected: #1c3f5e;
-  --color-background-base-hover: #142435;
-  --color-background-base-header: #172635;
-  --color-background-base-default: #101923;
+  --color-background-surface-selected: var(--color-palette-brightblue-200);
+  --color-background-surface-hover: var(--color-palette-darkblue-200);
+  --color-background-surface-header: var(--color-palette-grey-100);
+  --color-background-surface-default: var(--color-palette-neutral-000);
+  --color-background-base-selected: var(--color-palette-brightblue-200);
+  --color-background-base-hover: var(--color-palette-darkblue-200);
+  --color-background-base-header: var(--color-palette-grey-100);
+  --color-background-base-default: var(--color-palette-grey-200);
 }

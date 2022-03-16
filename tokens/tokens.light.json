@@ -6,21 +6,25 @@
           "value": "{color.palette.grey.200}",
           "type": "color",
           "description": "The background color of the application.",
+          "rawValue": "{color.palette.grey.200}",
           "failedToResolve": true
         },
         "header": {
           "value": "{color.palette.grey.100}",
           "type": "color",
+          "rawValue": "{color.palette.grey.100}",
           "failedToResolve": true
         },
         "hover": {
           "value": "{color.palette.darkblue.200}",
           "type": "color",
+          "rawValue": "{color.palette.darkblue.200}",
           "failedToResolve": true
         },
         "selected": {
           "value": "{color.palette.brightblue.200}",
           "type": "color",
+          "rawValue": "{color.palette.brightblue.200}",
           "failedToResolve": true
         }
       },
@@ -29,24 +33,28 @@
           "value": "{color.palette.neutral.000}",
           "type": "color",
           "description": "The background color of surface panels.",
+          "rawValue": "{color.palette.neutral.000}",
           "failedToResolve": true
         },
         "header": {
           "value": "{color.palette.grey.100}",
           "type": "color",
           "description": "The background color for the header of surface elements, including dialog and table headers.",
+          "rawValue": "{color.palette.grey.100}",
           "failedToResolve": true
         },
         "hover": {
           "value": "{color.palette.darkblue.200}",
           "type": "color",
           "description": "The background color of surface elements, like table rows or lists, when they are hovered over.",
+          "rawValue": "{color.palette.darkblue.200}",
           "failedToResolve": true
         },
         "selected": {
           "value": "{color.palette.brightblue.200}",
           "type": "color",
           "description": "The background color of surface elements, like table rows or lists, when they are selected.",
+          "rawValue": "{color.palette.brightblue.200}",
           "failedToResolve": true
         }
       }
@@ -55,54 +63,64 @@
       "primary": {
         "value": "#ffffff",
         "type": "color",
-        "description": "The primary color used for text within the application."
+        "description": "The primary color used for text within the application.",
+        "rawValue": "#ffffff"
       },
       "secondary": {
         "value": "#d4d8dd",
         "type": "color",
-        "description": "The color used for text when less emphasis is needed."
+        "description": "The color used for text when less emphasis is needed.",
+        "rawValue": "#d4d8dd"
       },
       "placeholder": {
         "value": "#a4abb6",
         "type": "color",
-        "description": "The text color used for placeholder text in input and form fields."
+        "description": "The text color used for placeholder text in input and form fields.",
+        "rawValue": "#a4abb6"
       },
       "inverse": {
         "value": "#080c11",
         "type": "color",
-        "description": "The color used for text on reversed backgrounds."
+        "description": "The color used for text on reversed backgrounds.",
+        "rawValue": "#080c11"
       },
       "error": {
         "value": "#ff3838",
         "type": "color",
-        "description": "The text color used for errors."
+        "description": "The text color used for errors.",
+        "rawValue": "#ff3838"
       },
       "white": {
         "value": "#ffffff",
         "type": "color",
-        "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes."
+        "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
+        "rawValue": "#ffffff"
       },
       "black": {
         "value": "#000000",
         "type": "color",
-        "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes."
+        "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
+        "rawValue": "#000000"
       }
     },
     "interactive": {
       "default": {
         "value": "#4dacff",
         "type": "color",
-        "description": "The primary color used for interactive elements."
+        "description": "The primary color used for interactive elements.",
+        "rawValue": "#4dacff"
       },
       "hover": {
         "value": "#92cbff",
         "type": "color",
-        "description": "The hover color used for interactive elements."
+        "description": "The hover color used for interactive elements.",
+        "rawValue": "#92cbff"
       },
       "muted": {
         "value": "#2b659b",
         "type": "color",
-        "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color."
+        "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
+        "rawValue": "#2b659b"
       }
     },
     "banner": {
@@ -111,32 +129,38 @@
           "topsecretsci": {
             "value": "#fce83a",
             "type": "color",
-            "description": "The color used to indicate the Top Secret/SCI classification."
+            "description": "The color used to indicate the Top Secret/SCI classification.",
+            "rawValue": "#fce83a"
           },
           "topsecret": {
             "value": "#ff8c00",
             "type": "color",
-            "description": "The color used to indicate the Top Secret classification."
+            "description": "The color used to indicate the Top Secret classification.",
+            "rawValue": "#ff8c00"
           },
           "secret": {
             "value": "#C8102E",
             "type": "color",
-            "description": "The color used to indicate the Secret classification."
+            "description": "The color used to indicate the Secret classification.",
+            "rawValue": "#C8102E"
           },
           "confidential": {
             "value": "#0033a0",
             "type": "color",
-            "description": "The color used to indicate the Confidential classification."
+            "description": "The color used to indicate the Confidential classification.",
+            "rawValue": "#0033a0"
           },
           "cui": {
             "value": "#502b85",
             "type": "color",
-            "description": "The color used to indicate the CUI classification."
+            "description": "The color used to indicate the CUI classification.",
+            "rawValue": "#502b85"
           },
           "unclassified": {
             "value": "#007a33",
             "type": "color",
-            "description": "The color used to indicate the Unclassified classification."
+            "description": "The color used to indicate the Unclassified classification.",
+            "rawValue": "#007a33"
           }
         }
       },
@@ -145,32 +169,38 @@
           "critical": {
             "value": "#ff5f60",
             "type": "color",
-            "description": "The color used for the background on Critical status banners."
+            "description": "The color used for the background on Critical status banners.",
+            "rawValue": "#ff5f60"
           },
           "serious": {
             "value": "#ffcc57",
             "type": "color",
-            "description": "The color used for the background on Serious status banners."
+            "description": "The color used for the background on Serious status banners.",
+            "rawValue": "#ffcc57"
           },
           "caution": {
             "value": "#fded61",
             "type": "color",
-            "description": "The color used for the background on Caution status banners."
+            "description": "The color used for the background on Caution status banners.",
+            "rawValue": "#fded61"
           },
           "normal": {
             "value": "#99f666",
             "type": "color",
-            "description": "The color used for the background on Normal status banners."
+            "description": "The color used for the background on Normal status banners.",
+            "rawValue": "#99f666"
           },
           "standby": {
             "value": "#5ce2ff",
             "type": "color",
-            "description": "The color used for the background on Standby status banners."
+            "description": "The color used for the background on Standby status banners.",
+            "rawValue": "#5ce2ff"
           },
           "off": {
             "value": "#bbc1c9",
             "type": "color",
-            "description": "The color used for the background on Off status banners."
+            "description": "The color used for the background on Off status banners.",
+            "rawValue": "#bbc1c9"
           }
         },
         "icon": {
@@ -178,32 +208,38 @@
             "critical": {
               "value": "#8b1703",
               "type": "color",
-              "description": "The color used for icons in Critical status banners."
+              "description": "The color used for icons in Critical status banners.",
+              "rawValue": "#8b1703"
             },
             "serious": {
               "value": "#975f0e",
               "type": "color",
-              "description": "The color used for icons in Serious status banners."
+              "description": "The color used for icons in Serious status banners.",
+              "rawValue": "#975f0e"
             },
             "caution": {
               "value": "#917d01",
               "type": "color",
-              "description": "The color used for icons in Caution status banners."
+              "description": "The color used for icons in Caution status banners.",
+              "rawValue": "#917d01"
             },
             "normal": {
               "value": "#007a33",
               "type": "color",
-              "description": "The color used for icons in Normal status banners."
+              "description": "The color used for icons in Normal status banners.",
+              "rawValue": "#007a33"
             },
             "standby": {
               "value": "#35798e",
               "type": "color",
-              "description": "The color used for icons in Standby status banners."
+              "description": "The color used for icons in Standby status banners.",
+              "rawValue": "#35798e"
             },
             "off": {
               "value": "#51555b",
               "type": "color",
-              "description": "The color used for icons in Off status banners."
+              "description": "The color used for icons in Off status banners.",
+              "rawValue": "#51555b"
             }
           }
         }
@@ -215,64 +251,76 @@
           "critical": {
             "value": "#ff3838",
             "type": "color",
-            "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent."
+            "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
+            "rawValue": "#ff3838"
           },
           "serious": {
             "value": "#ffb302",
             "type": "color",
-            "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention."
+            "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention.",
+            "rawValue": "#ffb302"
           },
           "caution": {
             "value": "#fce83a",
             "type": "color",
-            "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory."
+            "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
+            "rawValue": "#fce83a"
           },
           "normal": {
             "value": "#56f000",
             "type": "color",
-            "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success."
+            "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
+            "rawValue": "#56f000"
           },
           "standby": {
             "value": "#2dccff",
             "type": "color",
-            "description": "The color used to indicate items with a Standby status. Standby, available, enabled."
+            "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
+            "rawValue": "#2dccff"
           },
           "off": {
             "value": "#a4abb6",
             "type": "color",
-            "description": "The color used to indicate items with an Off status. Off, unavailable, disabled."
+            "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
+            "rawValue": "#a4abb6"
           }
         },
         "border": {
           "critical": {
             "value": "#661102",
             "type": "color",
-            "description": "The border color used for the Critical status symbol. Transparent in Dark Theme."
+            "description": "The border color used for the Critical status symbol. Transparent in Dark Theme.",
+            "rawValue": "#661102"
           },
           "serious": {
             "value": "#664618",
             "type": "color",
-            "description": "The border color used for the Serious status symbol. Transparent in Dark Theme."
+            "description": "The border color used for the Serious status symbol. Transparent in Dark Theme.",
+            "rawValue": "#664618"
           },
           "caution": {
             "value": "#645600",
             "type": "color",
-            "description": "The border color used for the Caution status symbol. Transparent in Dark Theme."
+            "description": "The border color used for the Caution status symbol. Transparent in Dark Theme.",
+            "rawValue": "#645600"
           },
           "normal": {
             "value": "#005a00",
             "type": "color",
-            "description": "The border color used for the Normal status symbol. Transparent in Dark Theme."
+            "description": "The border color used for the Normal status symbol. Transparent in Dark Theme.",
+            "rawValue": "#005a00"
           },
           "standby": {
             "value": "#285766",
             "type": "color",
-            "description": "The border color used for the Standby status symbol. Transparent in Dark Theme."
+            "description": "The border color used for the Standby status symbol. Transparent in Dark Theme.",
+            "rawValue": "#285766"
           },
           "off": {
             "value": "#3c3e42",
             "type": "color",
-            "description": "The border color used for the Off status symbol. Transparent in Dark Theme."
+            "description": "The border color used for the Off status symbol. Transparent in Dark Theme.",
+            "rawValue": "#3c3e42"
           }
         }
       }
@@ -282,36 +330,42 @@
         "default": {
           "value": "#172635",
           "type": "color",
-          "description": "The background color of the Global Status Bar component. "
+          "description": "The background color of the Global Status Bar component. ",
+          "rawValue": "#172635"
         }
       },
       "text": {
         "primary": {
           "value": "#ffffff",
           "type": "color",
-          "description": "The primary text color used within the Global Status Bar."
+          "description": "The primary text color used within the Global Status Bar.",
+          "rawValue": "#ffffff"
         },
         "secondary": {
           "value": "#d4d8dd",
           "type": "color",
-          "description": "The secondary text color used within the Global Status Bar."
+          "description": "The secondary text color used within the Global Status Bar.",
+          "rawValue": "#d4d8dd"
         }
       },
       "interactive": {
         "default": {
           "value": "#4dacff",
           "type": "color",
-          "description": "The primary color used for interactive elements in the Global Status Bar."
+          "description": "The primary color used for interactive elements in the Global Status Bar.",
+          "rawValue": "#4dacff"
         },
         "hover": {
           "value": "#92cbff",
           "type": "color",
-          "description": "The primary color used when interactive elements are hovered over in the Global Status Bar."
+          "description": "The primary color used when interactive elements are hovered over in the Global Status Bar.",
+          "rawValue": "#92cbff"
         },
         "muted": {
           "value": "#2b659b",
           "type": "color",
-          "description": "A muted version of the primary color used for interactive elements in the Global Status Bar."
+          "description": "A muted version of the primary color used for interactive elements in the Global Status Bar.",
+          "rawValue": "#2b659b"
         }
       }
     }
