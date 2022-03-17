@@ -135,31 +135,31 @@
     },
     "background": {
       "base": {
-        "default": "#101923",
-        "header": "#172635",
-        "hover": "#1c3851",
-        "selected": "#1c3f5e"
+        "default": "#eaeef4",
+        "header": "#f5f6f9",
+        "hover": "#98bdd3",
+        "selected": "#cee9fc"
       },
       "surface": {
-        "default": "#1b2d3e",
-        "header": "#172635",
-        "hover": "#142435",
-        "selected": "#1c3f5e"
+        "default": "#ffffff",
+        "header": "#f5f6f9",
+        "hover": "#daeeff",
+        "selected": "#cee9fc"
       }
     },
     "text": {
-      "primary": "#ffffff",
-      "secondary": "#d4d8dd",
-      "placeholder": "#a4abb6",
-      "inverse": "#080c11",
+      "primary": "#292a2d",
+      "secondary": "#51555b",
+      "placeholder": "#7b8089",
+      "inverse": "#ffffff",
       "error": "#ff3838",
       "white": "#ffffff",
       "black": "#000000"
     },
     "interactive": {
-      "default": "#4dacff",
-      "hover": "#92cbff",
-      "muted": "#2b659b"
+      "default": "#005a8f",
+      "hover": "#004872",
+      "muted": "#649cbd"
     },
     "banner": {
       "classification": {
@@ -169,7 +169,7 @@
           "secret": "#c8102e",
           "confidential": "#0033a0",
           "cui": "#502b85",
-          "unclassified": "#56f000"
+          "unclassified": "#007a33"
         }
       },
       "status": {
@@ -196,20 +196,20 @@
     "icon": {
       "status": {
         "fill": {
-          "critical": "#ff3838",
-          "serious": "#ffb302",
-          "caution": "#fce83a",
-          "normal": "#56f000",
-          "standby": "#2dccff",
-          "off": "#a4abb6"
+          "critical": "#ff2a04",
+          "serious": "#ffaf3d",
+          "caution": "#fad800",
+          "normal": "#00e200",
+          "standby": "#64d9ff",
+          "off": "#7b8089"
         },
         "border": {
-          "critical": "rgba(102, 17, 2, 0)",
-          "serious": "rgba(102, 70, 24, 0)",
-          "caution": "rgba(100, 86, 0, 0)",
-          "normal": "rgba(0, 90, 0, 0)",
-          "standby": "rgba(40, 87, 102, 0)",
-          "off": "rgba(60, 62, 66, 0)"
+          "critical": "#661102",
+          "serious": "#664618",
+          "caution": "#645600",
+          "normal": "#005a00",
+          "standby": "#285766",
+          "off": "#3c3e42"
         }
       }
     },

@@ -38,7 +38,7 @@
           "failedToResolve": true
         },
         "hover": {
-          "value": "{color.palette.darkblue.200}",
+          "value": "{color.palette.brightblue.100}",
           "type": "color",
           "description": "The background color of surface elements, like table rows or lists, when they are hovered over.",
           "failedToResolve": true
