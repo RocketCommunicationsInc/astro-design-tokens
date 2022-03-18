@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 17 Mar 2022 14:32:25 GMT
+ * Generated on Fri, 18 Mar 2022 15:48:11 GMT
  */
 
 :root {
@@ -131,7 +131,6 @@
   --radius-switch-track: 10px;
   --radius-radio-outer: 9px;
   --radius-radio-inner: 4px;
-  --radius-app-state: 3px;
   --radius-checkbox: 2px;
   --radius-slider-background-track: 1px;
   --radius-circle: 50%;

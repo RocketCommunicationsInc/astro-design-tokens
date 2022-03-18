@@ -158,7 +158,6 @@
   "radius-circle": "50%",
   "radius-slider-background-track": "1px",
   "radius-checkbox": "2px",
-  "radius-app-state": "3px",
   "radius-radio-inner": "4px",
   "radius-radio-outer": "9px",
   "radius-switch-track": "10px",

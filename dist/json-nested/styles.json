@@ -235,7 +235,6 @@
       "background-track": "1px"
     },
     "checkbox": "2px",
-    "app-state": "3px",
     "radio": {
       "inner": "4px",
       "outer": "9px"
