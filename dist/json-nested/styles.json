@@ -1,6 +1,119 @@
 {
-  "opacity-40": "40%",
   "color": {
+    "background": {
+      "base": {
+        "default": "#eaeef4",
+        "header": "#f5f6f9",
+        "hover": "#98bdd3",
+        "selected": "#cee9fc"
+      },
+      "surface": {
+        "default": "#ffffff",
+        "header": "#f5f6f9",
+        "hover": "#daeeff",
+        "selected": "#cee9fc"
+      },
+      "topsecretsci": "#fce83a",
+      "topsecret": "#ff8c00",
+      "secret": "#c8102e",
+      "confidential": "#0033a0",
+      "cui": "#502b85",
+      "unclassified": "#007a33",
+      "critical": "#ff5f60",
+      "serious": "#ffcc57",
+      "caution": "#fded61",
+      "normal": "#99f666",
+      "standby": "#5ce2ff",
+      "off": "#bbc1c9",
+      "interactive": {
+        "default": "#4dacff",
+        "hover": "#92cbff",
+        "muted": "#2b659b"
+      }
+    },
+    "text": {
+      "primary": "#292a2d",
+      "secondary": "#51555b",
+      "placeholder": "#7b8089",
+      "inverse": "#ffffff",
+      "error": "#ff3838",
+      "white": "#ffffff",
+      "black": "#000000",
+      "critical": "#ff3838",
+      "serious": "#ffb302",
+      "caution": "#fce83a",
+      "normal": "#56f000",
+      "standby": "#64d9ff",
+      "off": "#a4abb6",
+      "interactive": {
+        "default": "#4dacff",
+        "hover": "#92cbff",
+        "muted": "#2b659b"
+      }
+    },
+    "interactive": {
+      "default": "#005a8f",
+      "hover": "#004872",
+      "muted": "#649cbd"
+    },
+    "banner": {
+      "classification": {
+        "background": {
+          "topsecretsci": "#fce83a",
+          "topsecret": "#ff8c00",
+          "secret": "#c8102e",
+          "confidential": "#0033a0",
+          "cui": "#502b85",
+          "unclassified": "#007a33"
+        }
+      },
+      "status": {
+        "icon": {
+          "fill": {
+            "critical": "#8b1703",
+            "serious": "#975f0e",
+            "caution": "#917d01",
+            "normal": "#007a33",
+            "standby": "#35798e",
+            "off": "#51555b"
+          }
+        }
+      }
+    },
+    "icon": {
+      "status": {
+        "fill": {
+          "critical": "#ff2a04",
+          "serious": "#ffaf3d",
+          "caution": "#fad800",
+          "normal": "#00e200",
+          "standby": "#64d9ff",
+          "off": "#7b8089"
+        },
+        "border": {
+          "critical": "#661102",
+          "serious": "#664618",
+          "caution": "#645600",
+          "normal": "#005a00",
+          "standby": "#285766",
+          "off": "#3c3e42"
+        }
+      }
+    },
+    "gsb": {
+      "background": {
+        "default": "#172635"
+      },
+      "text": {
+        "primary": "#ffffff",
+        "secondary": "#d4d8dd"
+      },
+      "interactive": {
+        "default": "#4dacff",
+        "hover": "#92cbff",
+        "muted": "#2b659b"
+      }
+    },
     "palette": {
       "neutral": {
         "1000": "#000000",
@@ -133,94 +246,13 @@
         "900": "#2b1105"
       }
     },
-    "background": {
-      "base": {
-        "default": "#eaeef4",
-        "header": "#f5f6f9",
-        "hover": "#98bdd3",
-        "selected": "#cee9fc"
-      },
-      "surface": {
-        "default": "#ffffff",
-        "header": "#f5f6f9",
-        "hover": "#daeeff",
-        "selected": "#cee9fc"
-      }
-    },
-    "text": {
-      "primary": "#292a2d",
-      "secondary": "#51555b",
-      "placeholder": "#7b8089",
-      "inverse": "#ffffff",
-      "error": "#ff3838",
-      "white": "#ffffff",
-      "black": "#000000"
-    },
-    "interactive": {
-      "default": "#005a8f",
-      "hover": "#004872",
-      "muted": "#649cbd"
-    },
-    "banner": {
-      "classification": {
-        "background": {
-          "topsecretsci": "#fce83a",
-          "topsecret": "#ff8c00",
-          "secret": "#c8102e",
-          "confidential": "#0033a0",
-          "cui": "#502b85",
-          "unclassified": "#007a33"
-        }
-      },
-      "status": {
-        "background": {
-          "critical": "#ff5f60",
-          "serious": "#ffcc57",
-          "caution": "#fded61",
-          "normal": "#99f666",
-          "standby": "#5ce2ff",
-          "off": "#bbc1c9"
-        },
-        "icon": {
-          "fill": {
-            "critical": "#8b1703",
-            "serious": "#975f0e",
-            "caution": "#917d01",
-            "normal": "#007a33",
-            "standby": "#35798e",
-            "off": "#51555b"
-          }
-        }
-      }
-    },
-    "icon": {
-      "status": {
-        "fill": {
-          "critical": "#ff2a04",
-          "serious": "#ffaf3d",
-          "caution": "#fad800",
-          "normal": "#00e200",
-          "standby": "#64d9ff",
-          "off": "#7b8089"
-        },
-        "border": {
-          "critical": "#661102",
-          "serious": "#664618",
-          "caution": "#645600",
-          "normal": "#005a00",
-          "standby": "#285766",
-          "off": "#3c3e42"
-        }
-      }
-    },
-    "gsb": {
-      "background": {
-        "default": "#172635"
-      },
-      "text": {
-        "primary": "#ffffff",
-        "secondary": "#d4d8dd"
-      },
+    "border": {
+      "critical": "#ff3838",
+      "serious": "#ffb302",
+      "caution": "#fce83a",
+      "normal": "#56f000",
+      "standby": "#64d9ff",
+      "off": "#a4abb6",
       "interactive": {
         "default": "#4dacff",
         "hover": "#92cbff",
@@ -228,29 +260,81 @@
       }
     }
   },
-  "radius": {
-    "base": "3px",
-    "circle": "50%",
-    "slider": {
-      "background-track": "1px"
+  "opacity-40": "40%",
+  "notification-banner": {
+    "color": {
+      "background": {
+        "critical": "#ff5f60",
+        "serious": "#ffcc57",
+        "caution": "#fded61",
+        "normal": "#99f666",
+        "standby": "#5ce2ff",
+        "off": "#bbc1c9"
+      }
+    }
+  },
+  "status-symbol": {
+    "fill": {
+      "critical": "#ff3838",
+      "serious": "#ffb302",
+      "caution": "#fce83a",
+      "normal": "#56f000",
+      "standby": "#2dccff",
+      "off": "#a4abb6"
     },
-    "checkbox": "2px",
-    "radio": {
+    "border": {
+      "critical": "#66110200",
+      "serious": "#66461800",
+      "caution": "#64560000",
+      "normal": "#005a0000",
+      "standby": "#28576600",
+      "off": "#3c3e4200"
+    }
+  },
+  "gsb": {
+    "color": {
+      "background": "#172635",
+      "text": "#ffffff",
+      "primary": "#4dacff"
+    }
+  },
+  "slider": {
+    "radius": {
+      "background-track": "1px"
+    }
+  },
+  "checkbox": {
+    "radius": "2px"
+  },
+  "radio": {
+    "radius": {
       "inner": "4px",
       "outer": "9px"
-    },
-    "switch": {
+    }
+  },
+  "switch": {
+    "radius": {
       "track": "10px"
-    },
-    "scrollbar": "4px",
-    "progress": {
+    }
+  },
+  "scrollbar": {
+    "radius": "4px"
+  },
+  "progress": {
+    "radius": {
       "inner": "8px",
       "outer": "10px"
-    },
-    "indeterminate-progress": {
+    }
+  },
+  "indeterminate-progress": {
+    "radius": {
       "inner": "23px",
       "outer": "30px"
     }
+  },
+  "radius": {
+    "base": "3px",
+    "circle": "50%"
   },
   "fontFamily": {
     "sans": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
@@ -262,51 +346,51 @@
   "body": {
     "body": {
       "body-1": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "regular",
         "lineHeight": "AUTO",
-        "fontSize": "1rem",
-        "letterSpacing": "0.005em",
+        "fontSize": 16,
+        "letterSpacing": "0.5%",
         "paragraphSpacing": 0
       },
       "body-1-bold": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "bold",
         "lineHeight": "AUTO",
-        "fontSize": "1rem",
-        "letterSpacing": "0.005em",
+        "fontSize": 16,
+        "letterSpacing": "0.5%",
         "paragraphSpacing": 0
       },
       "body-2": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "regular",
         "lineHeight": "AUTO",
-        "fontSize": "0.875rem",
-        "letterSpacing": "0.005em",
+        "fontSize": 14,
+        "letterSpacing": "0.5%",
         "paragraphSpacing": 0
       },
       "body-2-bold": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "bold",
         "lineHeight": "AUTO",
-        "fontSize": "0.875rem",
-        "letterSpacing": "0.005em",
+        "fontSize": 14,
+        "letterSpacing": "0.5%",
         "paragraphSpacing": 0
       },
       "body-3": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "regular",
         "lineHeight": "AUTO",
-        "fontSize": "0.75rem",
-        "letterSpacing": "0.005em",
+        "fontSize": 12,
+        "letterSpacing": "0.5%",
         "paragraphSpacing": 0
       },
       "body-3-bold": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "bold",
         "lineHeight": "AUTO",
-        "fontSize": "0.75rem",
-        "letterSpacing": "0.005em",
+        "fontSize": 12,
+        "letterSpacing": "0.5%",
         "paragraphSpacing": 0
       }
     }
@@ -314,59 +398,59 @@
   "heading": {
     "heading": {
       "heading-1": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "regular",
         "lineHeight": "AUTO",
-        "fontSize": "2.125rem",
-        "letterSpacing": "0.0025em",
+        "fontSize": 34,
+        "letterSpacing": "0.25%",
         "paragraphSpacing": 0
       },
       "heading-1-bold": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "bold",
         "lineHeight": "AUTO",
-        "fontSize": "2.125rem",
-        "letterSpacing": "0.0025em",
+        "fontSize": 34,
+        "letterSpacing": "0.25%",
         "paragraphSpacing": 0
       },
       "heading-2": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "regular",
         "lineHeight": "AUTO",
-        "fontSize": "1.5rem",
-        "letterSpacing": "0em",
+        "fontSize": 24,
+        "letterSpacing": "0%",
         "paragraphSpacing": 0
       },
       "heading-3": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "medium",
         "lineHeight": "AUTO",
-        "fontSize": "1.25rem",
-        "letterSpacing": "0.0015em",
+        "fontSize": 20,
+        "letterSpacing": "0.15%",
         "paragraphSpacing": 0
       },
       "heading-4": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "light",
         "lineHeight": "AUTO",
-        "fontSize": "1.25rem",
-        "letterSpacing": "0.0015em",
+        "fontSize": 20,
+        "letterSpacing": "0.15%",
         "paragraphSpacing": 0
       },
       "heading-5": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "regular",
         "lineHeight": "AUTO",
-        "fontSize": "1.125rem",
-        "letterSpacing": "0em",
+        "fontSize": 18,
+        "letterSpacing": "0%",
         "paragraphSpacing": 0
       },
       "heading-6": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "light",
         "lineHeight": "AUTO",
-        "fontSize": "1.125rem",
-        "letterSpacing": "0em",
+        "fontSize": 18,
+        "letterSpacing": "0%",
         "paragraphSpacing": 0
       }
     }
@@ -374,19 +458,19 @@
   "display": {
     "display": {
       "display-1": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "light",
         "lineHeight": "AUTO",
-        "fontSize": "3.75rem",
-        "letterSpacing": "-0.005em",
+        "fontSize": 60,
+        "letterSpacing": "-0.5%",
         "paragraphSpacing": 0
       },
       "display-2": {
-        "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto",
         "fontWeight": "regular",
         "lineHeight": "AUTO",
-        "fontSize": "3rem",
-        "letterSpacing": "0em",
+        "fontSize": 48,
+        "letterSpacing": "0%",
         "paragraphSpacing": 0
       }
     }
@@ -394,11 +478,11 @@
   "monospace": {
     "monospace": {
       "monospace-1": {
-        "fontFamily": "'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+        "fontFamily": "Roboto Mono",
         "fontWeight": "medium",
         "lineHeight": "AUTO",
-        "fontSize": "1.75rem",
-        "letterSpacing": "0em",
+        "fontSize": 28,
+        "letterSpacing": "0%",
         "paragraphSpacing": 0
       }
     }
