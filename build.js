@@ -86,7 +86,7 @@ StyleDictionary.registerTransform({
   type: "value",
   transitive: true,
   matcher: (token) => {
-    return token.attributes.category === "color";
+    return token.type === "color";
   },
   transformer: (token) => {
     if (token.value.includes("rgba")) {
@@ -220,6 +220,63 @@ StyleDictionary.registerFormat({
 });
 
 StyleDictionary.registerFormat({
+  name: `docs`,
+  formatter: function (format) {
+    const dictionary = Object.assign({}, format.dictionary);
+    // Override each token's `value` with `darkValue`
+    dictionary.allProperties = dictionary.allProperties.map((token) => {
+      console.log(token);
+      let type = token.attributes.type
+      if (token.attributes.type === 'color') {
+        type = token.attributes.item
+      }
+      let component = null
+      if (token.attributes.category !== 'color' && token.type === 'color'){
+        component = token.attributes.category
+      }
+      return {
+          name: token.name,
+          value: token.value,
+          description: token.description,
+          property: type,
+          category: token.type,
+          component: component
+      }
+      if (token.attributes.type === "dark") {
+        token.name = token.name.replace("dark-", "");
+        return token;
+      } else if (token.attributes.type === "light") {
+        token.name = token.name.replace("light-", "");
+        return token;
+      } else {
+        return token;
+      }
+    })
+    // .join(',\n') + '\n}';
+    return JSON.stringify(dictionary.allProperties, null, 2);
+    console.log(dictionary);
+
+    // Use the built-in format but with our customized dictionary object
+    // so it will output the darkValue instead of the value
+    return dictionary
+    // return StyleDictionary.format["json/flat"]({ ...format, dictionary });
+
+    // return dictionary.allTokens.map(token => {
+    //   let value = JSON.stringify(token.value);
+    //   if (dictionary.usesReference(token.original.value)) {
+    //     const refs = dictionary.getReferences(token.original.value);
+    //     refs.forEach(ref => {
+    //       value = value.replace(ref.value, function() {
+    //         return `${ref.name}`;
+    //       });
+    //     });
+    //   }
+    //   return `export const ${token.name} = ${value};`
+    // }).join(`\n`)
+  },
+});
+
+StyleDictionary.registerFormat({
   name: `darkColorFormatter`,
   formatter: function (format) {
     const dictionary = Object.assign({}, format.dictionary);
@@ -312,6 +369,7 @@ StyleDictionary.registerTransformGroup({
     "fontFamily/fallback",
     "typography/name",
     "borderRadius/name",
+    "fontWeight/cssValue"
     // "color/rgbaRef",
   ]),
 });
@@ -460,6 +518,16 @@ StyleDictionary.extend({
             format: "json/nested",
           }
         ],
+      },
+      "docs": {
+        transformGroup: "custom/json",
+        buildPath: "dist/json/",
+        files: [
+          {
+            destination: "docs.json",
+            format: "docs",
+          }
+        ],
       }
   },
   // ...
@@ -519,6 +587,7 @@ StyleDictionary.extend({
         }
       ],
     },
+  
     "json-flat": {
       transformGroup: "custom/json",
       buildPath: "dist/json/",

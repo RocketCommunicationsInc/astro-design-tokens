@@ -107,12 +107,6 @@
         "type": "color",
         "description": "The hover color used for interactive elements.",
         "failedToResolve": true
-      },
-      "muted": {
-        "value": "{color.palette.darkblue.300}",
-        "type": "color",
-        "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
-        "failedToResolve": true
       }
     },
     "banner": {
@@ -312,11 +306,6 @@
           "value": "#92cbff",
           "type": "color",
           "description": "The primary color used when interactive elements are hovered over in the Global Status Bar."
-        },
-        "muted": {
-          "value": "#2b659b",
-          "type": "color",
-          "description": "A muted version of the primary color used for interactive elements in the Global Status Bar."
         }
       }
     }
