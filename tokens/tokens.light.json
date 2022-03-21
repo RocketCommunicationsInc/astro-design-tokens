@@ -3,10 +3,9 @@
     "background": {
       "base": {
         "default": {
-          "value": "{color.palette.grey.200}",
+          "value": "red",
           "type": "color",
-          "description": "The background color of the application.",
-          "failedToResolve": true
+          "description": "The background color of the application."
         },
         "header": {
           "value": "{color.palette.grey.100}",

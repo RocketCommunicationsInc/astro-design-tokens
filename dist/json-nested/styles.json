@@ -1,6 +1,16 @@
 {
   "opacity-40": "40%",
   "notification-banner": {
+    "icon": {
+      "fill": {
+        "critical": "#8b1703",
+        "serious": "#975f0e",
+        "caution": "#917d01",
+        "normal": "#007a33",
+        "standby": "#35798e",
+        "off": "#51555b"
+      }
+    },
     "color": {
       "background": {
         "critical": "#ff5f60",
@@ -9,6 +19,14 @@
         "normal": "#99f666",
         "standby": "#5ce2ff",
         "off": "#bbc1c9"
+      },
+      "text": {
+        "critical": "#000000",
+        "serious": "#000000",
+        "caution": "#000000",
+        "normal": "#000000",
+        "standby": "#000000",
+        "off": "#000000"
       }
     }
   },
@@ -69,6 +87,15 @@
     "radius": {
       "inner": "23px",
       "outer": "30px"
+    }
+  },
+  "table": {
+    "row": {
+      "color": {
+        "background": {
+          "hover": "#142435"
+        }
+      }
     }
   },
   "color": {
@@ -204,19 +231,19 @@
         "900": "#2b1105"
       }
     },
+    "classification": {
+      "topsecretsci": "#fce83a",
+      "topsecret": "#ff8c00",
+      "secret": "#c8102e",
+      "confidential": "#0033a0",
+      "cui": "#502b85",
+      "unclassified": "#007a33"
+    },
     "background": {
-      "base": {
-        "default": "#eaeef4",
-        "header": "#f5f6f9",
-        "hover": "#98bdd3",
-        "selected": "#cee9fc"
-      },
-      "surface": {
-        "default": "#ffffff",
-        "header": "#f5f6f9",
-        "hover": "#daeeff",
-        "selected": "#cee9fc"
-      },
+      "surface": "#1b2d3e",
+      "header": "#172635",
+      "surface-selected": "#1c3f5e",
+      "surface-hover": "#1c3851",
       "critical": "#ff5f60",
       "serious": "#ffcc57",
       "caution": "#fded61",
@@ -226,6 +253,12 @@
       "interactive": {
         "default": "#4dacff",
         "hover": "#92cbff"
+      },
+      "base": {
+        "default": "#ff0000",
+        "header": "#f5f6f9",
+        "hover": "#98bdd3",
+        "selected": "#cee9fc"
       }
     },
     "text": {
@@ -233,7 +266,6 @@
       "secondary": "#51555b",
       "placeholder": "#7b8089",
       "inverse": "#ffffff",
-      "error": "#ff3838",
       "white": "#ffffff",
       "black": "#000000",
       "critical": "#ff3838",
@@ -245,7 +277,8 @@
       "interactive": {
         "default": "#4dacff",
         "hover": "#92cbff"
-      }
+      },
+      "error": "#ff3838"
     },
     "border": {
       "critical": "#ff3838",

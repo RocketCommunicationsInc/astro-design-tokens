@@ -234,6 +234,18 @@ StyleDictionary.registerFormat({
       if (token.attributes.category !== 'color' && token.type === 'color'){
         component = token.attributes.category
       }
+
+
+      if (token.attributes.category === 'radius') {
+        type = token.attributes.type
+      }
+
+      if (token.attributes.category !== 'radius' && token.type === 'borderRadius') {
+        component = token.attributes.category
+        type = token.attributes.item
+      }
+
+
       return {
           name: token.name,
           value: token.value,
@@ -587,7 +599,16 @@ StyleDictionary.extend({
         }
       ],
     },
-  
+    "docs": {
+      transformGroup: "custom/json",
+      buildPath: "dist/json/",
+      files: [
+        {
+          destination: "docs-light.json",
+          format: "docs",
+        }
+      ],
+    },
     "json-flat": {
       transformGroup: "custom/json",
       buildPath: "dist/json/",

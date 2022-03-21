@@ -1198,8 +1198,37 @@
     "component": null
   },
   {
+    "name": "color-background-base-default",
+    "value": "#ff0000",
+    "description": "The background color of the application.",
+    "property": "background",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-background-base-header",
+    "value": "#f5f6f9",
+    "property": "background",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-background-base-hover",
+    "value": "#98bdd3",
+    "property": "background",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-background-base-selected",
+    "value": "#cee9fc",
+    "property": "background",
+    "category": "color",
+    "component": null
+  },
+  {
     "name": "color-text-primary",
-    "value": "#ffffff",
+    "value": "#292a2d",
     "description": "The primary color used for text within the application.",
     "property": "text",
     "category": "color",
@@ -1207,7 +1236,7 @@
   },
   {
     "name": "color-text-secondary",
-    "value": "#d4d8dd",
+    "value": "#51555b",
     "description": "The color used for text when less emphasis is needed.",
     "property": "text",
     "category": "color",
@@ -1215,7 +1244,7 @@
   },
   {
     "name": "color-text-placeholder",
-    "value": "#a4abb6",
+    "value": "#7b8089",
     "description": "The text color used for placeholder text in input and form fields.",
     "property": "text",
     "category": "color",
@@ -1223,7 +1252,7 @@
   },
   {
     "name": "color-text-inverse",
-    "value": "#080c11",
+    "value": "#ffffff",
     "description": "The color used for text on reversed backgrounds.",
     "property": "text",
     "category": "color",
@@ -1304,6 +1333,14 @@
     "component": null
   },
   {
+    "name": "color-text-error",
+    "value": "#ff3838",
+    "description": "The text color used for errors.",
+    "property": "text",
+    "category": "color",
+    "component": null
+  },
+  {
     "name": "color-border-critical",
     "value": "#ff3838",
     "property": "border",
@@ -1358,6 +1395,254 @@
     "value": "#92cbff",
     "description": "The hover color used for interactive elements.",
     "property": "border",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-interactive-default",
+    "value": "#005a8f",
+    "description": "The primary color used for interactive elements.",
+    "property": "interactive",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-interactive-hover",
+    "value": "#004872",
+    "description": "The hover color used for interactive elements.",
+    "property": "interactive",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-banner-classification-background-topsecretsci",
+    "value": "#fce83a",
+    "description": "The color used to indicate the Top Secret/SCI classification.",
+    "property": "banner",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-banner-classification-background-topsecret",
+    "value": "#ff8c00",
+    "description": "The color used to indicate the Top Secret classification.",
+    "property": "banner",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-banner-classification-background-secret",
+    "value": "#c8102e",
+    "description": "The color used to indicate the Secret classification.",
+    "property": "banner",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-banner-classification-background-confidential",
+    "value": "#0033a0",
+    "description": "The color used to indicate the Confidential classification.",
+    "property": "banner",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-banner-classification-background-cui",
+    "value": "#502b85",
+    "description": "The color used to indicate the CUI classification.",
+    "property": "banner",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-banner-classification-background-unclassified",
+    "value": "#007a33",
+    "description": "The color used to indicate the Unclassified classification.",
+    "property": "banner",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-banner-status-icon-fill-critical",
+    "value": "#8b1703",
+    "description": "The color used for icons in Critical status banners.",
+    "property": "banner",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-banner-status-icon-fill-serious",
+    "value": "#975f0e",
+    "description": "The color used for icons in Serious status banners.",
+    "property": "banner",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-banner-status-icon-fill-caution",
+    "value": "#917d01",
+    "description": "The color used for icons in Caution status banners.",
+    "property": "banner",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-banner-status-icon-fill-normal",
+    "value": "#007a33",
+    "description": "The color used for icons in Normal status banners.",
+    "property": "banner",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-banner-status-icon-fill-standby",
+    "value": "#35798e",
+    "description": "The color used for icons in Standby status banners.",
+    "property": "banner",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-banner-status-icon-fill-off",
+    "value": "#51555b",
+    "description": "The color used for icons in Off status banners.",
+    "property": "banner",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-icon-status-fill-critical",
+    "value": "#ff2a04",
+    "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
+    "property": "icon",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-icon-status-fill-serious",
+    "value": "#ffaf3d",
+    "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention.",
+    "property": "icon",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-icon-status-fill-caution",
+    "value": "#fad800",
+    "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
+    "property": "icon",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-icon-status-fill-normal",
+    "value": "#00e200",
+    "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
+    "property": "icon",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-icon-status-fill-standby",
+    "value": "#64d9ff",
+    "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
+    "property": "icon",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-icon-status-fill-off",
+    "value": "#7b8089",
+    "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
+    "property": "icon",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-icon-status-border-critical",
+    "value": "#661102",
+    "description": "The border color used for the Critical status symbol. Transparent in Dark Theme.",
+    "property": "icon",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-icon-status-border-serious",
+    "value": "#664618",
+    "description": "The border color used for the Serious status symbol. Transparent in Dark Theme.",
+    "property": "icon",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-icon-status-border-caution",
+    "value": "#645600",
+    "description": "The border color used for the Caution status symbol. Transparent in Dark Theme.",
+    "property": "icon",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-icon-status-border-normal",
+    "value": "#005a00",
+    "description": "The border color used for the Normal status symbol. Transparent in Dark Theme.",
+    "property": "icon",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-icon-status-border-standby",
+    "value": "#285766",
+    "description": "The border color used for the Standby status symbol. Transparent in Dark Theme.",
+    "property": "icon",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-icon-status-border-off",
+    "value": "#3c3e42",
+    "description": "The border color used for the Off status symbol. Transparent in Dark Theme.",
+    "property": "icon",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-gsb-background-default",
+    "value": "#172635",
+    "description": "The background color of the Global Status Bar component. ",
+    "property": "gsb",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-gsb-text-primary",
+    "value": "#ffffff",
+    "description": "The primary text color used within the Global Status Bar.",
+    "property": "gsb",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-gsb-text-secondary",
+    "value": "#d4d8dd",
+    "description": "The secondary text color used within the Global Status Bar.",
+    "property": "gsb",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-gsb-interactive-default",
+    "value": "#4dacff",
+    "description": "The primary color used for interactive elements in the Global Status Bar.",
+    "property": "gsb",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-gsb-interactive-hover",
+    "value": "#92cbff",
+    "description": "The primary color used when interactive elements are hovered over in the Global Status Bar.",
+    "property": "gsb",
     "category": "color",
     "component": null
   },
