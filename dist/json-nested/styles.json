@@ -49,10 +49,12 @@
     }
   },
   "gsb": {
+    "icon": {
+      "fill": "#4dacff"
+    },
     "color": {
       "background": "#172635",
-      "text": "#ffffff",
-      "primary": "#4dacff"
+      "text": "#ffffff"
     }
   },
   "slider": {
@@ -90,11 +92,9 @@
     }
   },
   "table": {
-    "row": {
-      "color": {
-        "background": {
-          "hover": "#142435"
-        }
+    "color": {
+      "background": {
+        "hover": "#142435"
       }
     }
   },
@@ -241,6 +241,7 @@
     },
     "background": {
       "surface": "#1b2d3e",
+      "base": "#101923",
       "header": "#172635",
       "surface-selected": "#1c3f5e",
       "surface-hover": "#1c3851",
@@ -253,12 +254,6 @@
       "interactive": {
         "default": "#4dacff",
         "hover": "#92cbff"
-      },
-      "base": {
-        "default": "#ff0000",
-        "header": "#f5f6f9",
-        "hover": "#98bdd3",
-        "selected": "#cee9fc"
       }
     },
     "text": {

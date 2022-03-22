@@ -246,6 +246,14 @@
     "component": "status-symbol"
   },
   {
+    "name": "gsb-icon-fill",
+    "value": "#4dacff",
+    "description": "The primary color used for interactive elements in the Global Status Bar.",
+    "property": "icon",
+    "category": "color",
+    "component": "gsb"
+  },
+  {
     "name": "gsb-color-background",
     "value": "#172635",
     "description": "The background color of the Global Status Bar component. ",
@@ -258,14 +266,6 @@
     "value": "#ffffff",
     "description": "The primary text color used within the Global Status Bar.",
     "property": "text",
-    "category": "color",
-    "component": "gsb"
-  },
-  {
-    "name": "gsb-color-primary",
-    "value": "#4dacff",
-    "description": "The primary color used for interactive elements in the Global Status Bar.",
-    "property": "primary",
     "category": "color",
     "component": "gsb"
   },
@@ -338,9 +338,9 @@
     "component": "indeterminate-progress"
   },
   {
-    "name": "table-row-color-background-hover",
+    "name": "table-color-background-hover",
     "value": "#142435",
-    "property": "row",
+    "property": "background",
     "category": "color",
     "component": "table"
   },
@@ -1116,6 +1116,14 @@
     "component": null
   },
   {
+    "name": "color-background-base",
+    "value": "#101923",
+    "description": "The background color of base elements, like the app or popup menus.",
+    "property": "background",
+    "category": "color",
+    "component": null
+  },
+  {
     "name": "color-background-header",
     "value": "#172635",
     "description": "The background color for the header of surface elements, including dialog and table headers.",
@@ -1193,35 +1201,6 @@
     "name": "color-background-interactive-hover",
     "value": "#92cbff",
     "description": "The hover color used for interactive elements.",
-    "property": "background",
-    "category": "color",
-    "component": null
-  },
-  {
-    "name": "color-background-base-default",
-    "value": "#ff0000",
-    "description": "The background color of the application.",
-    "property": "background",
-    "category": "color",
-    "component": null
-  },
-  {
-    "name": "color-background-base-header",
-    "value": "#f5f6f9",
-    "property": "background",
-    "category": "color",
-    "component": null
-  },
-  {
-    "name": "color-background-base-hover",
-    "value": "#98bdd3",
-    "property": "background",
-    "category": "color",
-    "component": null
-  },
-  {
-    "name": "color-background-base-selected",
-    "value": "#cee9fc",
     "property": "background",
     "category": "color",
     "component": null
