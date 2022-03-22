@@ -272,6 +272,7 @@
   {
     "name": "slider-radius-background-track",
     "value": "1px",
+    "description": "The background track border radius",
     "property": "background-track",
     "category": "borderRadius",
     "component": "slider"
@@ -279,12 +280,14 @@
   {
     "name": "checkbox-radius",
     "value": "2px",
+    "description": "The checkbox border radius",
     "category": "borderRadius",
     "component": "checkbox"
   },
   {
     "name": "radio-radius-inner",
     "value": "4px",
+    "description": "The inside radio border radius",
     "property": "inner",
     "category": "borderRadius",
     "component": "radio"
@@ -292,6 +295,7 @@
   {
     "name": "radio-radius-outer",
     "value": "9px",
+    "description": "The outside radio border radius",
     "property": "outer",
     "category": "borderRadius",
     "component": "radio"
@@ -299,6 +303,7 @@
   {
     "name": "switch-radius-track",
     "value": "10px",
+    "description": "The switch track's border radius",
     "property": "track",
     "category": "borderRadius",
     "component": "switch"
@@ -306,12 +311,14 @@
   {
     "name": "scrollbar-radius",
     "value": "4px",
+    "description": "The scrollbar's border radius",
     "category": "borderRadius",
     "component": "scrollbar"
   },
   {
     "name": "progress-radius-inner",
     "value": "8px",
+    "description": "The inside border radius",
     "property": "inner",
     "category": "borderRadius",
     "component": "progress"
@@ -319,6 +326,7 @@
   {
     "name": "progress-radius-outer",
     "value": "10px",
+    "description": "The outside border radius",
     "property": "outer",
     "category": "borderRadius",
     "component": "progress"
@@ -326,6 +334,7 @@
   {
     "name": "indeterminate-progress-radius-inner",
     "value": "23px",
+    "description": "The inside border radius",
     "property": "inner",
     "category": "borderRadius",
     "component": "indeterminate-progress"
@@ -333,6 +342,7 @@
   {
     "name": "indeterminate-progress-radius-outer",
     "value": "30px",
+    "description": "The outside border radius",
     "property": "outer",
     "category": "borderRadius",
     "component": "indeterminate-progress"
@@ -1150,6 +1160,7 @@
   {
     "name": "color-background-critical",
     "value": "#ff5f60",
+    "description": "Used to represent the Critical Status.",
     "property": "background",
     "category": "color",
     "component": null
@@ -1157,6 +1168,7 @@
   {
     "name": "color-background-serious",
     "value": "#ffcc57",
+    "description": "Used to represent the Serious Status.",
     "property": "background",
     "category": "color",
     "component": null
@@ -1164,6 +1176,7 @@
   {
     "name": "color-background-caution",
     "value": "#fded61",
+    "description": "Used to represent the Caution Status.",
     "property": "background",
     "category": "color",
     "component": null
@@ -1171,6 +1184,7 @@
   {
     "name": "color-background-normal",
     "value": "#99f666",
+    "description": "Used to represent the Normal Status.",
     "property": "background",
     "category": "color",
     "component": null
@@ -1178,6 +1192,7 @@
   {
     "name": "color-background-standby",
     "value": "#5ce2ff",
+    "description": "Used to represent the Standby Status.",
     "property": "background",
     "category": "color",
     "component": null
@@ -1185,6 +1200,7 @@
   {
     "name": "color-background-off",
     "value": "#bbc1c9",
+    "description": "Used to represent the Off Status.",
     "property": "background",
     "category": "color",
     "component": null
@@ -1256,6 +1272,7 @@
   {
     "name": "color-text-critical",
     "value": "#ff3838",
+    "description": "Used to represent the Critical Status.",
     "property": "text",
     "category": "color",
     "component": null
@@ -1263,6 +1280,7 @@
   {
     "name": "color-text-serious",
     "value": "#ffb302",
+    "description": "Used to represent the Serious Status.",
     "property": "text",
     "category": "color",
     "component": null
@@ -1270,6 +1288,7 @@
   {
     "name": "color-text-caution",
     "value": "#fce83a",
+    "description": "Used to represent the Caution Status.",
     "property": "text",
     "category": "color",
     "component": null
@@ -1277,6 +1296,7 @@
   {
     "name": "color-text-normal",
     "value": "#56f000",
+    "description": "Used to represent the Normal Status.",
     "property": "text",
     "category": "color",
     "component": null
@@ -1284,6 +1304,7 @@
   {
     "name": "color-text-standby",
     "value": "#64d9ff",
+    "description": "Used to represent the Standby Status.",
     "property": "text",
     "category": "color",
     "component": null
@@ -1291,6 +1312,7 @@
   {
     "name": "color-text-off",
     "value": "#a4abb6",
+    "description": "Used to represent the Off Status.",
     "property": "text",
     "category": "color",
     "component": null
@@ -1314,6 +1336,7 @@
   {
     "name": "color-border-critical",
     "value": "#ff3838",
+    "description": "Used to represent the Critical Status.",
     "property": "border",
     "category": "color",
     "component": null
@@ -1321,6 +1344,7 @@
   {
     "name": "color-border-serious",
     "value": "#ffb302",
+    "description": "Used to represent the Serious Status.",
     "property": "border",
     "category": "color",
     "component": null
@@ -1328,6 +1352,7 @@
   {
     "name": "color-border-caution",
     "value": "#fce83a",
+    "description": "Used to represent the Caution Status.",
     "property": "border",
     "category": "color",
     "component": null
@@ -1335,6 +1360,7 @@
   {
     "name": "color-border-normal",
     "value": "#56f000",
+    "description": "Used to represent the Normal Status.",
     "property": "border",
     "category": "color",
     "component": null
@@ -1342,6 +1368,7 @@
   {
     "name": "color-border-standby",
     "value": "#64d9ff",
+    "description": "Used to represent the Standby Status.",
     "property": "border",
     "category": "color",
     "component": null
@@ -1349,6 +1376,7 @@
   {
     "name": "color-border-off",
     "value": "#a4abb6",
+    "description": "Used to represent the Off Status.",
     "property": "border",
     "category": "color",
     "component": null
@@ -1372,6 +1400,7 @@
   {
     "name": "radius-base",
     "value": "3px",
+    "description": "The default base border radius",
     "property": "base",
     "category": "borderRadius",
     "component": null
@@ -1379,6 +1408,7 @@
   {
     "name": "radius-circle",
     "value": "50%",
+    "description": "A completely rounded border radius, used to create circles.",
     "property": "circle",
     "category": "borderRadius",
     "component": null

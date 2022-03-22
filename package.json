@@ -16,7 +16,7 @@
     "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json beta --expandTypography",
     "make": "npm run transform && npm run transform.light && node preformat.js && npm run build",
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:build": "yarn make && vitepress build docs",
     "docs:serve": "vitepress serve docs"
   },
   "postcss": {
