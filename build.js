@@ -225,7 +225,7 @@ StyleDictionary.registerFormat({
     const dictionary = Object.assign({}, format.dictionary);
     // Override each token's `value` with `darkValue`
     dictionary.allProperties = dictionary.allProperties.map((token) => {
-      console.log(token);
+      // console.log(token);
       let type = token.attributes.type
       if (token.attributes.type === 'color') {
         type = token.attributes.item

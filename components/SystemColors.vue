@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import newData from '../docs.json'
+import newData from '../dist/json/docs.json'
 import DesignTokenPreview from './DesignTokenPreview.vue'
 export default {
 	props: ['type'],
