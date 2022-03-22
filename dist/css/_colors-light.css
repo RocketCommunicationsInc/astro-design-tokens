@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 22 Mar 2022 14:38:58 GMT
+ * Generated on Tue, 22 Mar 2022 14:58:49 GMT
  */
 
 .light-theme {
@@ -104,9 +104,9 @@
   --color-banner-classification-background-topsecretsci: var(--color-palette-yellow-500);
   --color-interactive-hover: var(--color-palette-darkblue-600);
   --color-interactive-default: var(--color-palette-darkblue-500);
-  --color-text-error: var(--color-palette-red-500);
   --color-text-black: var(--color-palette-neutral-1000);
   --color-text-white: var(--color-palette-neutral-000);
+  --color-text-error: var(--color-palette-red-500);
   --color-text-inverse: var(--color-palette-neutral-000);
   --color-text-placeholder: var(--color-palette-grey-600);
   --color-text-secondary: var(--color-palette-grey-700);

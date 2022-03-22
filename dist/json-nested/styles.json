@@ -261,8 +261,6 @@
       "secondary": "#51555b",
       "placeholder": "#7b8089",
       "inverse": "#ffffff",
-      "white": "#ffffff",
-      "black": "#000000",
       "critical": "#ff3838",
       "serious": "#ffb302",
       "caution": "#fce83a",
@@ -273,7 +271,9 @@
         "default": "#4dacff",
         "hover": "#92cbff"
       },
-      "error": "#ff3838"
+      "error": "#ff3838",
+      "white": "#ffffff",
+      "black": "#000000"
     },
     "border": {
       "critical": "#ff3838",

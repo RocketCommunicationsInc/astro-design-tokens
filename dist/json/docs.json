@@ -350,6 +350,7 @@
   {
     "name": "table-color-background-hover",
     "value": "#142435",
+    "description": "the table row background hover color",
     "property": "background",
     "category": "color",
     "component": "table"
@@ -1249,22 +1250,6 @@
     "name": "color-text-inverse",
     "value": "#080c11",
     "description": "The color used for text on reversed backgrounds.",
-    "property": "text",
-    "category": "color",
-    "component": null
-  },
-  {
-    "name": "color-text-white",
-    "value": "#ffffff",
-    "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
-    "property": "text",
-    "category": "color",
-    "component": null
-  },
-  {
-    "name": "color-text-black",
-    "value": "#000000",
-    "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
     "property": "text",
     "category": "color",
     "component": null

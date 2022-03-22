@@ -350,6 +350,7 @@
   {
     "name": "table-color-background-hover",
     "value": "#142435",
+    "description": "the table row background hover color",
     "property": "background",
     "category": "color",
     "component": "table"
@@ -1254,22 +1255,6 @@
     "component": null
   },
   {
-    "name": "color-text-white",
-    "value": "#ffffff",
-    "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
-    "property": "text",
-    "category": "color",
-    "component": null
-  },
-  {
-    "name": "color-text-black",
-    "value": "#000000",
-    "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
-    "property": "text",
-    "category": "color",
-    "component": null
-  },
-  {
     "name": "color-text-critical",
     "value": "#ff3838",
     "description": "Used to represent the Critical Status.",
@@ -1337,6 +1322,22 @@
     "name": "color-text-error",
     "value": "#ff3838",
     "description": "The text color used for errors.",
+    "property": "text",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-text-white",
+    "value": "#ffffff",
+    "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
+    "property": "text",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-text-black",
+    "value": "#000000",
+    "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
     "property": "text",
     "category": "color",
     "component": null
