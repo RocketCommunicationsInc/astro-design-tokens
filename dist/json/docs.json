@@ -16,7 +16,7 @@
   {
     "name": "notification-banner-icon-fill-critical",
     "value": "#8b1703",
-    "description": "The color used for icons in Critical status banners.",
+    "description": "The ciolor used for icons in Critical status banners.",
     "property": "icon",
     "category": "color",
     "component": "notification-banner"

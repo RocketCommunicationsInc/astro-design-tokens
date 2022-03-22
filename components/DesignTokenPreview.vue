@@ -11,11 +11,14 @@
 		<div class="w-full">
 			<div class="flex items-center">
 				<div class="text-xl font-bold w-4/5">{{ token?.name }}</div>
-				<div class="ml-auto mr-4 flex items-center">{{ token?.value }}</div>
+				<div class="ml-auto flex items-center">{{ token?.value }}</div>
 			</div>
-			<div class="flex items-center">
-				<div class="w-4/5">
-					<p class="m-0 mt pb-2 text-gray-500 leading-snug">{{ token?.description }}</p>
+			<div class="flex ">
+				<div class="w-3/5">
+					<p class="m-0 ml-auto mt pb-2 text-gray-500 leading-snug">{{ token?.description }}</p>
+				</div>
+				<div class="ml-auto text-gray-400">
+					{{token.referenceToken}}
 				</div>
 			</div>
 		</div>
@@ -32,13 +35,6 @@ import DesignTokenPreviewRadius from './DesignTokenPreviewRadius.vue'
 export default {
 	components: { DesignTokenPreviewColorBackground, DesignTokenPreviewColorText, DesignTokenPreviewColorBorder, DesignTokenPreviewTextSize, DesignTokenPreviewTextWeight, DesignTokenPreviewRadius },
 	props: ['token', 'name', 'value', 'type'],
-	methods: {
-		getValue(value) {
-			return `var(--${value})`
-			
-		}
-	},
-
 }
 </script>
 

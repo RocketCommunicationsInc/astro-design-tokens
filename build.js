@@ -226,6 +226,7 @@ StyleDictionary.registerFormat({
     // Override each token's `value` with `darkValue`
     dictionary.allProperties = dictionary.allProperties.map((token) => {
       // console.log(token);
+
       let type = token.attributes.type
       if (token.attributes.type === 'color') {
         type = token.attributes.item
@@ -246,13 +247,19 @@ StyleDictionary.registerFormat({
       }
 
 
+      let refValue
+      const refs = dictionary.getReferences(token.original.value)[0]
+      if (refs) {
+        refValue = refs.name
+      }
       return {
           name: token.name,
           value: token.value,
           description: token.description,
           property: type,
           category: token.type,
-          component: component
+          component: component,
+          referenceToken: refValue
       }
       if (token.attributes.type === "dark") {
         token.name = token.name.replace("dark-", "");

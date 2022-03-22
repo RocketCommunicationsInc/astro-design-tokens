@@ -1,5 +1,5 @@
 <template>
-	<div class="w-16 h-16 border-2" :style="{ 'border-radius': value }"></div>
+	<div class="w-16 h-16 border-2 border-gray-500" :style="{ 'border-radius': value }"></div>
 </template>
 
 <script>
