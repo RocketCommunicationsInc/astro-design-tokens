@@ -6,38 +6,30 @@
 	</div>
 </template>
 
-<script>
-import newData from '../dist/json/docs.json'
+<script setup>
 import DesignTokenPreview from './DesignTokenPreview.vue'
-export default {
-	props: ['type'],
-	components: { DesignTokenPreview },
-	data() {
-		return {
-			tokens: newData
-		}
-	},
-	computed: {
+import { computed } from 'vue'
+import mode from '../docs/.vitepress/theme/darkMode'
+const props = defineProps({
+	type: String
+})
+const filteredTokens = computed(() => {
+	return mode.tokens.filter(token => {
+		return token.category === 'color' && token.property === props.type && !token.component
+	})
+})
 
-			filteredTokens() {
-				return newData.filter(token => {
-					return token.category === 'color' && token.property === this.type && !token.component
-				})
 
-			},
-		referenceTokens() {
 
-			const filtered = Object.fromEntries(
-				Object.entries(this.tokens).filter(
-					([key, val]) => key.startsWith('color-border')
-				)
-			);
 
-			return filtered
-		}
-	},
-	mounted() {
-	},
+// export default {
 
-}
+// 	props: ['type'],
+// 	components: { DesignTokenPreview },
+// 	computed: {
+
+// 			
+// 	},
+
+// }
 </script>

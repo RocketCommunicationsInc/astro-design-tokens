@@ -1,5 +1,12 @@
 {
   "opacity-40": "40%",
+  "table": {
+    "color": {
+      "background": {
+        "hover": "#142435"
+      }
+    }
+  },
   "notification-banner": {
     "icon": {
       "fill": {
@@ -32,20 +39,20 @@
   },
   "status-symbol": {
     "fill": {
-      "critical": "#ff3838",
-      "serious": "#ffb302",
-      "caution": "#fce83a",
-      "normal": "#56f000",
-      "standby": "#2dccff",
-      "off": "#a4abb6"
+      "critical": "#ff2a04",
+      "serious": "#ffaf3d",
+      "caution": "#fad800",
+      "normal": "#00e200",
+      "standby": "#64d9ff",
+      "off": "#7b8089"
     },
     "border": {
-      "critical": "#66110200",
-      "serious": "#66461800",
-      "caution": "#64560000",
-      "normal": "#005a0000",
-      "standby": "#28576600",
-      "off": "#3c3e4200"
+      "critical": "#661102",
+      "serious": "#664618",
+      "caution": "#645600",
+      "normal": "#005a00",
+      "standby": "#285766",
+      "off": "#3c3e42"
     }
   },
   "gsb": {
@@ -89,13 +96,6 @@
     "radius": {
       "inner": "23px",
       "outer": "30px"
-    }
-  },
-  "table": {
-    "color": {
-      "background": {
-        "hover": "#142435"
-      }
     }
   },
   "color": {
@@ -240,11 +240,11 @@
       "unclassified": "#007a33"
     },
     "background": {
-      "surface": "#1b2d3e",
-      "base": "#101923",
-      "header": "#172635",
-      "surface-selected": "#1c3f5e",
-      "surface-hover": "#1c3851",
+      "surface": "#ffffff",
+      "base": "#eaeef4",
+      "header": "#f5f6f9",
+      "surface-selected": "#cee9fc",
+      "surface-hover": "#daeeff",
       "critical": "#ff5f60",
       "serious": "#ffcc57",
       "caution": "#fded61",
@@ -252,8 +252,8 @@
       "standby": "#5ce2ff",
       "off": "#bbc1c9",
       "interactive": {
-        "default": "#4dacff",
-        "hover": "#92cbff"
+        "default": "#005a8f",
+        "hover": "#004872"
       }
     },
     "text": {
@@ -268,12 +268,9 @@
       "standby": "#64d9ff",
       "off": "#a4abb6",
       "interactive": {
-        "default": "#4dacff",
-        "hover": "#92cbff"
-      },
-      "error": "#ff3838",
-      "white": "#ffffff",
-      "black": "#000000"
+        "default": "#005a8f",
+        "hover": "#004872"
+      }
     },
     "border": {
       "critical": "#ff3838",
@@ -283,69 +280,8 @@
       "standby": "#64d9ff",
       "off": "#a4abb6",
       "interactive": {
-        "default": "#4dacff",
-        "hover": "#92cbff"
-      }
-    },
-    "interactive": {
-      "default": "#005a8f",
-      "hover": "#004872"
-    },
-    "banner": {
-      "classification": {
-        "background": {
-          "topsecretsci": "#fce83a",
-          "topsecret": "#ff8c00",
-          "secret": "#c8102e",
-          "confidential": "#0033a0",
-          "cui": "#502b85",
-          "unclassified": "#007a33"
-        }
-      },
-      "status": {
-        "icon": {
-          "fill": {
-            "critical": "#8b1703",
-            "serious": "#975f0e",
-            "caution": "#917d01",
-            "normal": "#007a33",
-            "standby": "#35798e",
-            "off": "#51555b"
-          }
-        }
-      }
-    },
-    "icon": {
-      "status": {
-        "fill": {
-          "critical": "#ff2a04",
-          "serious": "#ffaf3d",
-          "caution": "#fad800",
-          "normal": "#00e200",
-          "standby": "#64d9ff",
-          "off": "#7b8089"
-        },
-        "border": {
-          "critical": "#661102",
-          "serious": "#664618",
-          "caution": "#645600",
-          "normal": "#005a00",
-          "standby": "#285766",
-          "off": "#3c3e42"
-        }
-      }
-    },
-    "gsb": {
-      "background": {
-        "default": "#172635"
-      },
-      "text": {
-        "primary": "#ffffff",
-        "secondary": "#d4d8dd"
-      },
-      "interactive": {
-        "default": "#4dacff",
-        "hover": "#92cbff"
+        "default": "#005a8f",
+        "hover": "#004872"
       }
     }
   },

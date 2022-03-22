@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 22 Mar 2022 15:07:02 GMT
+ * Generated on Tue, 22 Mar 2022 18:45:43 GMT
  */
 
 @mixin root-variables {
@@ -43,7 +43,6 @@
   --color-classification-secret: #c8102e;
   --color-classification-topsecret: #ff8c00;
   --color-classification-topsecretsci: #fce83a;
-  --table-color-background-hover: #142435;
   --gsb-color-text: #ffffff;
   --gsb-color-background: #172635;
   --gsb-icon-fill: #4dacff;
@@ -77,4 +76,5 @@
   --notification-banner-icon-fill-caution: #917d01;
   --notification-banner-icon-fill-serious: #975f0e;
   --notification-banner-icon-fill-critical: #8b1703;
+  --table-color-background-hover: #142435;
 }

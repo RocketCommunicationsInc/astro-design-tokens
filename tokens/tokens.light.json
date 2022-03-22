@@ -1,51 +1,317 @@
 {
-  "color": {
-    "background": {
-      "base": {
-        "default": {
-          "value": "red",
-          "type": "color",
-          "description": "The background color of the application."
-        },
-        "header": {
-          "value": "{color.palette.grey.100}",
-          "type": "color",
-          "failedToResolve": true
-        },
+  "table": {
+    "color": {
+      "background": {
         "hover": {
-          "value": "{color.palette.darkblue.200}",
+          "value": "{color.palette.brightblue.850}",
           "type": "color",
+          "description": "the table row background hover color",
+          "failedToResolve": true
+        }
+      }
+    }
+  },
+  "notification-banner": {
+    "icon": {
+      "fill": {
+        "critical": {
+          "value": "{color.palette.red.800}",
+          "type": "color",
+          "description": "The color used for icons in Critical status banners.",
           "failedToResolve": true
         },
-        "selected": {
-          "value": "{color.palette.brightblue.200}",
+        "serious": {
+          "value": "{color.palette.orange.800}",
           "type": "color",
+          "description": "The color used for icons in Serious status banners.",
+          "failedToResolve": true
+        },
+        "caution": {
+          "value": "{color.palette.yellow.800}",
+          "type": "color",
+          "description": "The color used for icons in Caution status banners.",
+          "failedToResolve": true
+        },
+        "normal": {
+          "value": "{color.palette.green.800}",
+          "type": "color",
+          "description": "The color used for icons in Normal status banners.",
+          "failedToResolve": true
+        },
+        "standby": {
+          "value": "{color.palette.cyan.800}",
+          "type": "color",
+          "description": "The color used for icons in Standby status banners.",
+          "failedToResolve": true
+        },
+        "off": {
+          "value": "{color.palette.grey.700}",
+          "type": "color",
+          "description": "The color used for icons in Off status banners.",
+          "failedToResolve": true
+        }
+      }
+    },
+    "color": {
+      "background": {
+        "critical": {
+          "value": "{color.palette.red.400}",
+          "type": "color",
+          "description": "The color used for the background on Critical status banners.",
+          "failedToResolve": true
+        },
+        "serious": {
+          "value": "{color.palette.orange.400}",
+          "type": "color",
+          "description": "The color used for the background on Serious status banners.",
+          "failedToResolve": true
+        },
+        "caution": {
+          "value": "{color.palette.yellow.400}",
+          "type": "color",
+          "description": "The color used for the background on Caution status banners.",
+          "failedToResolve": true
+        },
+        "normal": {
+          "value": "{color.palette.green.400}",
+          "type": "color",
+          "description": "The color used for the background on Normal status banners.",
+          "failedToResolve": true
+        },
+        "standby": {
+          "value": "{color.palette.cyan.400}",
+          "type": "color",
+          "description": "The color used for the background on Standby status banners.",
+          "failedToResolve": true
+        },
+        "off": {
+          "value": "{color.palette.grey.400}",
+          "type": "color",
+          "description": "The color used for the background on Off status banners.",
           "failedToResolve": true
         }
       },
-      "surface": {
-        "default": {
-          "value": "{color.palette.neutral.000}",
+      "text": {
+        "critical": {
+          "value": "{color.palette.neutral.1000}",
           "type": "color",
-          "description": "The background color of surface panels.",
+          "description": "The color used for the text on Critical status banners.",
           "failedToResolve": true
         },
-        "header": {
-          "value": "{color.palette.grey.100}",
+        "serious": {
+          "value": "{color.palette.neutral.1000}",
           "type": "color",
-          "description": "The background color for the header of surface elements, including dialog and table headers.",
+          "description": "The color used for the text on Serious status banners.",
+          "failedToResolve": true
+        },
+        "caution": {
+          "value": "{color.palette.neutral.1000}",
+          "type": "color",
+          "description": "The color used for the text on Caution status banners.",
+          "failedToResolve": true
+        },
+        "normal": {
+          "value": "{color.palette.neutral.1000}",
+          "type": "color",
+          "description": "The color used for the text on Normal status banners.",
+          "failedToResolve": true
+        },
+        "standby": {
+          "value": "{color.palette.neutral.1000}",
+          "type": "color",
+          "description": "The color used for the text on Standby status banners.",
+          "failedToResolve": true
+        },
+        "off": {
+          "value": "{color.palette.neutral.1000}",
+          "type": "color",
+          "description": "The color used for the text on Off status banners.",
+          "failedToResolve": true
+        }
+      }
+    }
+  },
+  "status-symbol": {
+    "fill": {
+      "critical": {
+        "value": "{color.palette.red.600}",
+        "type": "color",
+        "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
+        "failedToResolve": true
+      },
+      "serious": {
+        "value": "{color.palette.orange.600}",
+        "type": "color",
+        "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention.",
+        "failedToResolve": true
+      },
+      "caution": {
+        "value": "{color.palette.yellow.600}",
+        "type": "color",
+        "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
+        "failedToResolve": true
+      },
+      "normal": {
+        "value": "{color.palette.green.600}",
+        "type": "color",
+        "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
+        "failedToResolve": true
+      },
+      "standby": {
+        "value": "{color.palette.cyan.500}",
+        "type": "color",
+        "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
+        "failedToResolve": true
+      },
+      "off": {
+        "value": "{color.palette.grey.600}",
+        "type": "color",
+        "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
+        "failedToResolve": true
+      }
+    },
+    "border": {
+      "critical": {
+        "value": "{color.palette.red.900}",
+        "type": "color",
+        "description": "The border color used for the Critical status symbol. Transparent in Dark Theme.",
+        "failedToResolve": true
+      },
+      "serious": {
+        "value": "{color.palette.orange.900}",
+        "type": "color",
+        "description": "The border color used for the Serious status symbol. Transparent in Dark Theme.",
+        "failedToResolve": true
+      },
+      "caution": {
+        "value": "{color.palette.yellow.900}",
+        "type": "color",
+        "description": "The border color used for the Caution status symbol. Transparent in Dark Theme.",
+        "failedToResolve": true
+      },
+      "normal": {
+        "value": "{color.palette.green.900}",
+        "type": "color",
+        "description": "The border color used for the Normal status symbol. Transparent in Dark Theme.",
+        "failedToResolve": true
+      },
+      "standby": {
+        "value": "{color.palette.cyan.900}",
+        "type": "color",
+        "description": "The border color used for the Standby status symbol. Transparent in Dark Theme.",
+        "failedToResolve": true
+      },
+      "off": {
+        "value": "{color.palette.grey.800}",
+        "type": "color",
+        "description": "The border color used for the Off status symbol. Transparent in Dark Theme.",
+        "failedToResolve": true
+      }
+    }
+  },
+  "gsb": {
+    "icon": {
+      "fill": {
+        "value": "{color.palette.brightblue.500}",
+        "type": "color",
+        "description": "The primary color used for interactive elements in the Global Status Bar.",
+        "failedToResolve": true
+      }
+    },
+    "color": {
+      "background": {
+        "value": "{color.palette.darkblue.900}",
+        "type": "color",
+        "description": "The background color of the Global Status Bar component. ",
+        "failedToResolve": true
+      },
+      "text": {
+        "value": "{color.palette.neutral.000}",
+        "type": "color",
+        "description": "The primary text color used within the Global Status Bar.",
+        "failedToResolve": true
+      }
+    }
+  },
+  "color": {
+    "background": {
+      "surface": {
+        "value": "{color.palette.neutral.000}",
+        "type": "color",
+        "description": "The background color of surface panels.",
+        "failedToResolve": true
+      },
+      "base": {
+        "value": "{color.palette.grey.200}",
+        "type": "color",
+        "description": "The background color of base elements, like the app or popup menus.",
+        "failedToResolve": true
+      },
+      "header": {
+        "value": "{color.palette.grey.100}",
+        "type": "color",
+        "description": "The background color for the header of surface elements, including dialog and table headers.",
+        "failedToResolve": true
+      },
+      "surface-selected": {
+        "value": "{color.palette.brightblue.200}",
+        "type": "color",
+        "description": "Used to show the selected state of a surface background",
+        "failedToResolve": true
+      },
+      "surface-hover": {
+        "value": "{color.palette.brightblue.100}",
+        "type": "color",
+        "description": "The background color of base elements, like popup menus, when they are hovered over.",
+        "failedToResolve": true
+      },
+      "critical": {
+        "value": "{color.palette.red.400}",
+        "type": "color",
+        "description": "Used to represent the Critical Status.",
+        "failedToResolve": true
+      },
+      "serious": {
+        "value": "{color.palette.orange.400}",
+        "type": "color",
+        "description": "Used to represent the Serious Status.",
+        "failedToResolve": true
+      },
+      "caution": {
+        "value": "{color.palette.yellow.400}",
+        "type": "color",
+        "description": "Used to represent the Caution Status.",
+        "failedToResolve": true
+      },
+      "normal": {
+        "value": "{color.palette.green.400}",
+        "type": "color",
+        "description": "Used to represent the Normal Status.",
+        "failedToResolve": true
+      },
+      "standby": {
+        "value": "{color.palette.cyan.400}",
+        "type": "color",
+        "description": "Used to represent the Standby Status.",
+        "failedToResolve": true
+      },
+      "off": {
+        "value": "{color.palette.grey.400}",
+        "type": "color",
+        "description": "Used to represent the Off Status.",
+        "failedToResolve": true
+      },
+      "interactive": {
+        "default": {
+          "value": "{color.palette.darkblue.500}",
+          "type": "color",
+          "description": "The primary color used for interactive elements.",
           "failedToResolve": true
         },
         "hover": {
-          "value": "{color.palette.brightblue.100}",
+          "value": "{color.palette.darkblue.600}",
           "type": "color",
-          "description": "The background color of surface elements, like table rows or lists, when they are hovered over.",
-          "failedToResolve": true
-        },
-        "selected": {
-          "value": "{color.palette.brightblue.200}",
-          "type": "color",
-          "description": "The background color of surface elements, like table rows or lists, when they are selected.",
+          "description": "The hover color used for interactive elements.",
           "failedToResolve": true
         }
       }
@@ -75,236 +341,106 @@
         "description": "The color used for text on reversed backgrounds.",
         "failedToResolve": true
       },
-      "error": {
+      "critical": {
         "value": "{color.palette.red.500}",
         "type": "color",
-        "description": "The text color used for errors.",
+        "description": "Used to represent the Critical Status.",
         "failedToResolve": true
       },
-      "white": {
-        "value": "{color.palette.neutral.000}",
+      "serious": {
+        "value": "{color.palette.orange.500}",
         "type": "color",
-        "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
+        "description": "Used to represent the Serious Status.",
         "failedToResolve": true
       },
-      "black": {
-        "value": "{color.palette.neutral.1000}",
+      "caution": {
+        "value": "{color.palette.yellow.500}",
         "type": "color",
-        "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
+        "description": "Used to represent the Caution Status.",
         "failedToResolve": true
-      }
-    },
-    "interactive": {
-      "default": {
-        "value": "{color.palette.darkblue.500}",
+      },
+      "normal": {
+        "value": "{color.palette.green.500}",
         "type": "color",
-        "description": "The primary color used for interactive elements.",
+        "description": "Used to represent the Normal Status.",
         "failedToResolve": true
       },
-      "hover": {
-        "value": "{color.palette.darkblue.600}",
+      "standby": {
+        "value": "{color.palette.cyan.500}",
         "type": "color",
-        "description": "The hover color used for interactive elements.",
+        "description": "Used to represent the Standby Status.",
         "failedToResolve": true
-      }
-    },
-    "banner": {
-      "classification": {
-        "background": {
-          "topsecretsci": {
-            "value": "{color.palette.yellow.500}",
-            "type": "color",
-            "description": "The color used to indicate the Top Secret/SCI classification.",
-            "failedToResolve": true
-          },
-          "topsecret": {
-            "value": "{color.palette.orange.700}",
-            "type": "color",
-            "description": "The color used to indicate the Top Secret classification.",
-            "failedToResolve": true
-          },
-          "secret": {
-            "value": "{color.palette.red.700}",
-            "type": "color",
-            "description": "The color used to indicate the Secret classification.",
-            "failedToResolve": true
-          },
-          "confidential": {
-            "value": "{color.palette.blue.800}",
-            "type": "color",
-            "description": "The color used to indicate the Confidential classification.",
-            "failedToResolve": true
-          },
-          "cui": {
-            "value": "{color.palette.violet.800}",
-            "type": "color",
-            "description": "The color used to indicate the CUI classification.",
-            "failedToResolve": true
-          },
-          "unclassified": {
-            "value": "{color.palette.green.800}",
-            "type": "color",
-            "description": "The color used to indicate the Unclassified classification.",
-            "failedToResolve": true
-          }
-        }
       },
-      "status": {
-        "icon": {
-          "fill": {
-            "critical": {
-              "value": "{color.palette.red.800}",
-              "type": "color",
-              "description": "The color used for icons in Critical status banners.",
-              "failedToResolve": true
-            },
-            "serious": {
-              "value": "{color.palette.orange.800}",
-              "type": "color",
-              "description": "The color used for icons in Serious status banners.",
-              "failedToResolve": true
-            },
-            "caution": {
-              "value": "{color.palette.yellow.800}",
-              "type": "color",
-              "description": "The color used for icons in Caution status banners.",
-              "failedToResolve": true
-            },
-            "normal": {
-              "value": "{color.palette.green.800}",
-              "type": "color",
-              "description": "The color used for icons in Normal status banners.",
-              "failedToResolve": true
-            },
-            "standby": {
-              "value": "{color.palette.cyan.800}",
-              "type": "color",
-              "description": "The color used for icons in Standby status banners.",
-              "failedToResolve": true
-            },
-            "off": {
-              "value": "{color.palette.grey.700}",
-              "type": "color",
-              "description": "The color used for icons in Off status banners.",
-              "failedToResolve": true
-            }
-          }
-        }
-      }
-    },
-    "icon": {
-      "status": {
-        "fill": {
-          "critical": {
-            "value": "{color.palette.red.600}",
-            "type": "color",
-            "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
-            "failedToResolve": true
-          },
-          "serious": {
-            "value": "{color.palette.orange.600}",
-            "type": "color",
-            "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention.",
-            "failedToResolve": true
-          },
-          "caution": {
-            "value": "{color.palette.yellow.600}",
-            "type": "color",
-            "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
-            "failedToResolve": true
-          },
-          "normal": {
-            "value": "{color.palette.green.600}",
-            "type": "color",
-            "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
-            "failedToResolve": true
-          },
-          "standby": {
-            "value": "{color.palette.cyan.500}",
-            "type": "color",
-            "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
-            "failedToResolve": true
-          },
-          "off": {
-            "value": "{color.palette.grey.600}",
-            "type": "color",
-            "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
-            "failedToResolve": true
-          }
-        },
-        "border": {
-          "critical": {
-            "value": "{color.palette.red.900}",
-            "type": "color",
-            "description": "The border color used for the Critical status symbol. Transparent in Dark Theme.",
-            "failedToResolve": true
-          },
-          "serious": {
-            "value": "{color.palette.orange.900}",
-            "type": "color",
-            "description": "The border color used for the Serious status symbol. Transparent in Dark Theme.",
-            "failedToResolve": true
-          },
-          "caution": {
-            "value": "{color.palette.yellow.900}",
-            "type": "color",
-            "description": "The border color used for the Caution status symbol. Transparent in Dark Theme.",
-            "failedToResolve": true
-          },
-          "normal": {
-            "value": "{color.palette.green.900}",
-            "type": "color",
-            "description": "The border color used for the Normal status symbol. Transparent in Dark Theme.",
-            "failedToResolve": true
-          },
-          "standby": {
-            "value": "{color.palette.cyan.900}",
-            "type": "color",
-            "description": "The border color used for the Standby status symbol. Transparent in Dark Theme.",
-            "failedToResolve": true
-          },
-          "off": {
-            "value": "{color.palette.grey.800}",
-            "type": "color",
-            "description": "The border color used for the Off status symbol. Transparent in Dark Theme.",
-            "failedToResolve": true
-          }
-        }
-      }
-    },
-    "gsb": {
-      "background": {
-        "default": {
-          "value": "{color.palette.darkblue.900}",
-          "type": "color",
-          "description": "The background color of the Global Status Bar component. ",
-          "failedToResolve": true
-        }
-      },
-      "text": {
-        "primary": {
-          "value": "{color.palette.neutral.000}",
-          "type": "color",
-          "description": "The primary text color used within the Global Status Bar.",
-          "failedToResolve": true
-        },
-        "secondary": {
-          "value": "#d4d8dd",
-          "type": "color",
-          "description": "The secondary text color used within the Global Status Bar."
-        }
+      "off": {
+        "value": "{color.palette.grey.500}",
+        "type": "color",
+        "description": "Used to represent the Off Status.",
+        "failedToResolve": true
       },
       "interactive": {
         "default": {
-          "value": "{color.palette.brightblue.500}",
+          "value": "{color.palette.darkblue.500}",
           "type": "color",
-          "description": "The primary color used for interactive elements in the Global Status Bar.",
+          "description": "The primary color used for interactive elements.",
           "failedToResolve": true
         },
         "hover": {
-          "value": "#92cbff",
+          "value": "{color.palette.darkblue.600}",
           "type": "color",
-          "description": "The primary color used when interactive elements are hovered over in the Global Status Bar."
+          "description": "The hover color used for interactive elements.",
+          "failedToResolve": true
+        }
+      }
+    },
+    "border": {
+      "critical": {
+        "value": "{color.palette.red.500}",
+        "type": "color",
+        "description": "Used to represent the Critical Status.",
+        "failedToResolve": true
+      },
+      "serious": {
+        "value": "{color.palette.orange.500}",
+        "type": "color",
+        "description": "Used to represent the Serious Status.",
+        "failedToResolve": true
+      },
+      "caution": {
+        "value": "{color.palette.yellow.500}",
+        "type": "color",
+        "description": "Used to represent the Caution Status.",
+        "failedToResolve": true
+      },
+      "normal": {
+        "value": "{color.palette.green.500}",
+        "type": "color",
+        "description": "Used to represent the Normal Status.",
+        "failedToResolve": true
+      },
+      "standby": {
+        "value": "{color.palette.cyan.500}",
+        "type": "color",
+        "description": "Used to represent the Standby Status.",
+        "failedToResolve": true
+      },
+      "off": {
+        "value": "{color.palette.grey.500}",
+        "type": "color",
+        "description": "Used to represent the Off Status.",
+        "failedToResolve": true
+      },
+      "interactive": {
+        "default": {
+          "value": "{color.palette.darkblue.500}",
+          "type": "color",
+          "description": "The primary color used for interactive elements.",
+          "failedToResolve": true
+        },
+        "hover": {
+          "value": "{color.palette.darkblue.600}",
+          "type": "color",
+          "description": "The hover color used for interactive elements.",
+          "failedToResolve": true
         }
       }
     }

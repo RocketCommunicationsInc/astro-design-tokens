@@ -18,41 +18,33 @@
 </template>
 
 <script>
-import data from '../dist/json/docs.json'
 import DesignTokenPreview from './DesignTokenPreview.vue'
+import mode from '../docs/.vitepress/theme/darkMode'
 export default {
 	components: { DesignTokenPreview },
 	props: ['type'],
-	data() {
-		return {
-			tokens: data
-		}
-	},
 	computed: {
 		fontSizeTokens() {
-			return data.filter(token => {
+			return mode.tokens.filter(token => {
 				return token.category === 'fontSizes'
 			})
 		},
 		fontWeightTokens() {
 			const filter = ['body', 'heading', 'display', 'monospace']
-			return data.filter(token => {
+			return mode.tokens.filter(token => {
 				return token.category === 'fontWeight' && !filter.includes(token.property)
 			})
 		},
 		radiusTokens() {
-			return data.filter(token => {
+			return mode.tokens.filter(token => {
 				return token.category === 'borderRadius' && !token.component
 			})
 		},
 		referenceTokens() {
-			return data.filter(token => {
+			return mode.tokens.filter(token => {
 				return token.category === 'color' && token.property === 'palette'
 			})
 		}
-	},
-	mounted() {
-		console.log(this.tokens.color);
 	},
 
 }

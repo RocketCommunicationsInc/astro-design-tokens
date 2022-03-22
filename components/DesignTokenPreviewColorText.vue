@@ -17,7 +17,8 @@ export default {
 	},
 	methods: {
 		isDark(hex) {
-			return Color(hex).isDark()
+			// return Color(hex).isDark()
+			return true
 
 		}
 	},

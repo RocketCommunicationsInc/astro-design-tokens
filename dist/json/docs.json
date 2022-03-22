@@ -6,6 +6,14 @@
     "component": null
   },
   {
+    "name": "table-color-background-hover",
+    "value": "#142435",
+    "description": "the table row background hover color",
+    "property": "background",
+    "category": "color",
+    "component": "table"
+  },
+  {
     "name": "notification-banner-icon-fill-critical",
     "value": "#8b1703",
     "description": "The color used for icons in Critical status banners.",
@@ -346,14 +354,6 @@
     "property": "outer",
     "category": "borderRadius",
     "component": "indeterminate-progress"
-  },
-  {
-    "name": "table-color-background-hover",
-    "value": "#142435",
-    "description": "the table row background hover color",
-    "property": "background",
-    "category": "color",
-    "component": "table"
   },
   {
     "name": "color-palette-neutral-1000",

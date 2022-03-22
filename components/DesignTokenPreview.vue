@@ -32,6 +32,12 @@ import DesignTokenPreviewRadius from './DesignTokenPreviewRadius.vue'
 export default {
 	components: { DesignTokenPreviewColorBackground, DesignTokenPreviewColorText, DesignTokenPreviewColorBorder, DesignTokenPreviewTextSize, DesignTokenPreviewTextWeight, DesignTokenPreviewRadius },
 	props: ['token', 'name', 'value', 'type'],
+	methods: {
+		getValue(value) {
+			return `var(--${value})`
+			
+		}
+	},
 
 }
 </script>

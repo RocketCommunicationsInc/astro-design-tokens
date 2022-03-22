@@ -7,26 +7,18 @@
 </template>
 
 <script>
-import data from '../dist/json/docs.json'
+import mode from '../docs/.vitepress/theme/darkMode'
 import DesignTokenPreview from './DesignTokenPreview.vue'
 export default {
 	components: { DesignTokenPreview },
-	data() {
-		return {
-			tokens: data
-		}
-	},
 	computed: {
 		filteredTokens() {
-				return data.filter(token => {
+				return mode.tokens.filter(token => {
 					return token.category === 'color' && token.property === 'classification' && !token.component
 				})
 
 			}
 	
-	},
-	mounted() {
-		console.log(this.tokens.color);
 	},
 
 }

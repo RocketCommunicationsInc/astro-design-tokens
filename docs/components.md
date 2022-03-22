@@ -1,6 +1,5 @@
 <script setup>
 import ComponentNotificationBanner from '../components/ComponentNotificationBanner.vue' 
-import ComponentTokens from '../components/ComponentTokens.vue'
 import DesignTokenPreview from '../components/DesignTokenPreview.vue'
 </script>
 # Component Tokens

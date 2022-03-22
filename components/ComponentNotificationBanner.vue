@@ -7,13 +7,13 @@
 </template>
 
 <script>
-import data from '../dist/json/docs.json'
+import mode from '../docs/.vitepress/theme/darkMode'
 import DesignTokenPreview from './DesignTokenPreview.vue'
 	export default {
     props: ["component"],
     computed: {
         filteredData() {
-            return data.filter(token => {
+            return mode.tokens.filter(token => {
                 return token.component === this.component;
             });
         }
