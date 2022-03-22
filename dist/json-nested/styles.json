@@ -245,44 +245,47 @@
       "header": "#f5f6f9",
       "surface-selected": "#cee9fc",
       "surface-hover": "#daeeff",
+      "interactive": {
+        "default": "#005a8f",
+        "hover": "#004872"
+      },
+      "muted": "#b7dcff",
       "critical": "#ff5f60",
       "serious": "#ffcc57",
       "caution": "#fded61",
       "normal": "#99f666",
       "standby": "#5ce2ff",
-      "off": "#bbc1c9",
-      "interactive": {
-        "default": "#005a8f",
-        "hover": "#004872"
-      }
+      "off": "#bbc1c9"
     },
     "text": {
       "primary": "#292a2d",
       "secondary": "#51555b",
       "placeholder": "#7b8089",
       "inverse": "#ffffff",
+      "interactive": {
+        "default": "#005a8f",
+        "hover": "#004872"
+      },
+      "muted": "#b7dcff",
       "critical": "#ff3838",
       "serious": "#ffb302",
       "caution": "#fce83a",
       "normal": "#56f000",
       "standby": "#64d9ff",
-      "off": "#a4abb6",
-      "interactive": {
-        "default": "#005a8f",
-        "hover": "#004872"
-      }
+      "off": "#a4abb6"
     },
     "border": {
+      "interactive": {
+        "default": "#005a8f",
+        "hover": "#004872"
+      },
+      "muted": "#b7dcff",
       "critical": "#ff3838",
       "serious": "#ffb302",
       "caution": "#fce83a",
       "normal": "#56f000",
       "standby": "#64d9ff",
-      "off": "#a4abb6",
-      "interactive": {
-        "default": "#005a8f",
-        "hover": "#004872"
-      }
+      "off": "#a4abb6"
     }
   },
   "radius": {

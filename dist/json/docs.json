@@ -1159,6 +1159,30 @@
     "component": null
   },
   {
+    "name": "color-background-interactive-default",
+    "value": "#4dacff",
+    "description": "The primary color used for interactive elements.",
+    "property": "background",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-background-interactive-hover",
+    "value": "#92cbff",
+    "description": "The hover color used for interactive elements.",
+    "property": "background",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-background-muted",
+    "value": "#2b659b",
+    "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
+    "property": "background",
+    "category": "color",
+    "component": null
+  },
+  {
     "name": "color-background-critical",
     "value": "#ff5f60",
     "description": "Used to represent the Critical Status.",
@@ -1207,22 +1231,6 @@
     "component": null
   },
   {
-    "name": "color-background-interactive-default",
-    "value": "#4dacff",
-    "description": "The primary color used for interactive elements.",
-    "property": "background",
-    "category": "color",
-    "component": null
-  },
-  {
-    "name": "color-background-interactive-hover",
-    "value": "#92cbff",
-    "description": "The hover color used for interactive elements.",
-    "property": "background",
-    "category": "color",
-    "component": null
-  },
-  {
     "name": "color-text-primary",
     "value": "#ffffff",
     "description": "The primary color used for text within the application.",
@@ -1250,6 +1258,30 @@
     "name": "color-text-inverse",
     "value": "#080c11",
     "description": "The color used for text on reversed backgrounds.",
+    "property": "text",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-text-interactive-default",
+    "value": "#4dacff",
+    "description": "The primary color used for interactive elements.",
+    "property": "text",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-text-interactive-hover",
+    "value": "#92cbff",
+    "description": "The hover color used for interactive elements.",
+    "property": "text",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-text-muted",
+    "value": "#2b659b",
+    "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
     "property": "text",
     "category": "color",
     "component": null
@@ -1303,18 +1335,26 @@
     "component": null
   },
   {
-    "name": "color-text-interactive-default",
+    "name": "color-border-interactive-default",
     "value": "#4dacff",
     "description": "The primary color used for interactive elements.",
-    "property": "text",
+    "property": "border",
     "category": "color",
     "component": null
   },
   {
-    "name": "color-text-interactive-hover",
+    "name": "color-border-interactive-hover",
     "value": "#92cbff",
     "description": "The hover color used for interactive elements.",
-    "property": "text",
+    "property": "border",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-border-muted",
+    "value": "#2b659b",
+    "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
+    "property": "border",
     "category": "color",
     "component": null
   },
@@ -1362,22 +1402,6 @@
     "name": "color-border-off",
     "value": "#a4abb6",
     "description": "Used to represent the Off Status.",
-    "property": "border",
-    "category": "color",
-    "component": null
-  },
-  {
-    "name": "color-border-interactive-default",
-    "value": "#4dacff",
-    "description": "The primary color used for interactive elements.",
-    "property": "border",
-    "category": "color",
-    "component": null
-  },
-  {
-    "name": "color-border-interactive-hover",
-    "value": "#92cbff",
-    "description": "The hover color used for interactive elements.",
     "property": "border",
     "category": "color",
     "component": null

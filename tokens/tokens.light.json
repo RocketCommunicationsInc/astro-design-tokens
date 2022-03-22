@@ -265,6 +265,26 @@
         "description": "The background color of base elements, like popup menus, when they are hovered over.",
         "failedToResolve": true
       },
+      "interactive": {
+        "default": {
+          "value": "{color.palette.darkblue.500}",
+          "type": "color",
+          "description": "The primary color used for interactive elements.",
+          "failedToResolve": true
+        },
+        "hover": {
+          "value": "{color.palette.darkblue.600}",
+          "type": "color",
+          "description": "The hover color used for interactive elements.",
+          "failedToResolve": true
+        }
+      },
+      "muted": {
+        "value": "{color.palette.brightblue.300}",
+        "type": "color",
+        "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
+        "failedToResolve": true
+      },
       "critical": {
         "value": "{color.palette.red.400}",
         "type": "color",
@@ -300,20 +320,6 @@
         "type": "color",
         "description": "Used to represent the Off Status.",
         "failedToResolve": true
-      },
-      "interactive": {
-        "default": {
-          "value": "{color.palette.darkblue.500}",
-          "type": "color",
-          "description": "The primary color used for interactive elements.",
-          "failedToResolve": true
-        },
-        "hover": {
-          "value": "{color.palette.darkblue.600}",
-          "type": "color",
-          "description": "The hover color used for interactive elements.",
-          "failedToResolve": true
-        }
       }
     },
     "text": {
@@ -341,6 +347,26 @@
         "description": "The color used for text on reversed backgrounds.",
         "failedToResolve": true
       },
+      "interactive": {
+        "default": {
+          "value": "{color.palette.darkblue.500}",
+          "type": "color",
+          "description": "The primary color used for interactive elements.",
+          "failedToResolve": true
+        },
+        "hover": {
+          "value": "{color.palette.darkblue.600}",
+          "type": "color",
+          "description": "The hover color used for interactive elements.",
+          "failedToResolve": true
+        }
+      },
+      "muted": {
+        "value": "{color.palette.brightblue.300}",
+        "type": "color",
+        "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
+        "failedToResolve": true
+      },
       "critical": {
         "value": "{color.palette.red.500}",
         "type": "color",
@@ -376,23 +402,29 @@
         "type": "color",
         "description": "Used to represent the Off Status.",
         "failedToResolve": true
-      },
-      "interactive": {
-        "default": {
-          "value": "{color.palette.darkblue.500}",
-          "type": "color",
-          "description": "The primary color used for interactive elements.",
-          "failedToResolve": true
-        },
-        "hover": {
-          "value": "{color.palette.darkblue.600}",
-          "type": "color",
-          "description": "The hover color used for interactive elements.",
-          "failedToResolve": true
-        }
       }
     },
     "border": {
+      "interactive": {
+        "default": {
+          "value": "{color.palette.darkblue.500}",
+          "type": "color",
+          "description": "The primary color used for interactive elements.",
+          "failedToResolve": true
+        },
+        "hover": {
+          "value": "{color.palette.darkblue.600}",
+          "type": "color",
+          "description": "The hover color used for interactive elements.",
+          "failedToResolve": true
+        }
+      },
+      "muted": {
+        "value": "{color.palette.brightblue.300}",
+        "type": "color",
+        "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
+        "failedToResolve": true
+      },
       "critical": {
         "value": "{color.palette.red.500}",
         "type": "color",
@@ -428,20 +460,6 @@
         "type": "color",
         "description": "Used to represent the Off Status.",
         "failedToResolve": true
-      },
-      "interactive": {
-        "default": {
-          "value": "{color.palette.darkblue.500}",
-          "type": "color",
-          "description": "The primary color used for interactive elements.",
-          "failedToResolve": true
-        },
-        "hover": {
-          "value": "{color.palette.darkblue.600}",
-          "type": "color",
-          "description": "The hover color used for interactive elements.",
-          "failedToResolve": true
-        }
       }
     }
   }

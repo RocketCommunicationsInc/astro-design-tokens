@@ -1,37 +1,40 @@
 /**
  * Do not edit directly
- * Generated on Tue, 22 Mar 2022 18:45:43 GMT
+ * Generated on Tue, 22 Mar 2022 19:22:20 GMT
  */
 
 :root {
-  --color-border-interactive-hover: #92cbff;
-  --color-border-interactive-default: #4dacff;
   --color-border-off: #a4abb6;
   --color-border-standby: #64d9ff;
   --color-border-normal: #56f000;
   --color-border-caution: #fce83a;
   --color-border-serious: #ffb302;
   --color-border-critical: #ff3838;
-  --color-text-interactive-hover: #92cbff;
-  --color-text-interactive-default: #4dacff;
+  --color-border-muted: #2b659b;
+  --color-border-interactive-hover: #92cbff;
+  --color-border-interactive-default: #4dacff;
   --color-text-off: #a4abb6;
   --color-text-standby: #64d9ff;
   --color-text-normal: #56f000;
   --color-text-caution: #fce83a;
   --color-text-serious: #ffb302;
   --color-text-critical: #ff3838;
+  --color-text-muted: #2b659b;
+  --color-text-interactive-hover: #92cbff;
+  --color-text-interactive-default: #4dacff;
   --color-text-inverse: #080c11;
   --color-text-placeholder: #a4abb6;
   --color-text-secondary: #d4d8dd;
   --color-text-primary: #ffffff;
-  --color-background-interactive-hover: #92cbff;
-  --color-background-interactive-default: #4dacff;
   --color-background-off: #bbc1c9;
   --color-background-standby: #5ce2ff;
   --color-background-normal: #99f666;
   --color-background-caution: #fded61;
   --color-background-serious: #ffcc57;
   --color-background-critical: #ff5f60;
+  --color-background-muted: #2b659b;
+  --color-background-interactive-hover: #92cbff;
+  --color-background-interactive-default: #4dacff;
   --color-background-surface-hover: #1c3851;
   --color-background-surface-selected: #1c3f5e;
   --color-background-header: #172635;
