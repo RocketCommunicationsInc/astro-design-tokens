@@ -1408,672 +1408,576 @@
     "name": "font-body-1-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "body",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-body-1-font-weight",
-    "value": 400,
+    "value": "regular",
     "property": "body",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-body-1-line-height",
     "value": "AUTO",
     "property": "body",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-body-1-font-size",
     "value": "1rem",
     "property": "body",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-body-1-letter-spacing",
-    "value": "0.005em",
+    "value": "0.5%",
     "property": "body",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-body-1-paragraph-spacing",
     "value": 0,
     "property": "body",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-body-1-bold-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "body",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-body-1-bold-font-weight",
-    "value": 700,
+    "value": "bold",
     "property": "body",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-body-1-bold-line-height",
     "value": "AUTO",
     "property": "body",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-body-1-bold-font-size",
     "value": "1rem",
     "property": "body",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-body-1-bold-letter-spacing",
-    "value": "0.005em",
+    "value": "0.5%",
     "property": "body",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-body-1-bold-paragraph-spacing",
     "value": 0,
     "property": "body",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-body-2-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "body",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-body-2-font-weight",
-    "value": 400,
+    "value": "regular",
     "property": "body",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-body-2-line-height",
     "value": "AUTO",
     "property": "body",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-body-2-font-size",
     "value": "0.875rem",
     "property": "body",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-body-2-letter-spacing",
-    "value": "0.005em",
+    "value": "0.5%",
     "property": "body",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-body-2-paragraph-spacing",
     "value": 0,
     "property": "body",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-body-2-bold-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "body",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-body-2-bold-font-weight",
-    "value": 700,
+    "value": "bold",
     "property": "body",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-body-2-bold-line-height",
     "value": "AUTO",
     "property": "body",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-body-2-bold-font-size",
     "value": "0.875rem",
     "property": "body",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-body-2-bold-letter-spacing",
-    "value": "0.005em",
+    "value": "0.5%",
     "property": "body",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-body-2-bold-paragraph-spacing",
     "value": 0,
     "property": "body",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-body-3-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "body",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-body-3-font-weight",
-    "value": 400,
+    "value": "regular",
     "property": "body",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-body-3-line-height",
     "value": "AUTO",
     "property": "body",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-body-3-font-size",
     "value": "0.75rem",
     "property": "body",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-body-3-letter-spacing",
-    "value": "0.005em",
+    "value": "0.5%",
     "property": "body",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-body-3-paragraph-spacing",
     "value": 0,
     "property": "body",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-body-3-bold-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "body",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-body-3-bold-font-weight",
-    "value": 700,
+    "value": "bold",
     "property": "body",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-body-3-bold-line-height",
     "value": "AUTO",
     "property": "body",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-body-3-bold-font-size",
     "value": "0.75rem",
     "property": "body",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-body-3-bold-letter-spacing",
-    "value": "0.005em",
+    "value": "0.5%",
     "property": "body",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-body-3-bold-paragraph-spacing",
     "value": 0,
     "property": "body",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-heading-1-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "heading",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-heading-1-font-weight",
-    "value": 400,
+    "value": "regular",
     "property": "heading",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-heading-1-line-height",
     "value": "AUTO",
     "property": "heading",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-heading-1-font-size",
     "value": "2.125rem",
     "property": "heading",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-heading-1-letter-spacing",
-    "value": "0.0025em",
+    "value": "0.25%",
     "property": "heading",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-heading-1-paragraph-spacing",
     "value": 0,
     "property": "heading",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-heading-1-bold-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "heading",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-heading-1-bold-font-weight",
-    "value": 700,
+    "value": "bold",
     "property": "heading",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-heading-1-bold-line-height",
     "value": "AUTO",
     "property": "heading",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-heading-1-bold-font-size",
     "value": "2.125rem",
     "property": "heading",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-heading-1-bold-letter-spacing",
-    "value": "0.0025em",
+    "value": "0.25%",
     "property": "heading",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-heading-1-bold-paragraph-spacing",
     "value": 0,
     "property": "heading",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-heading-2-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "heading",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-heading-2-font-weight",
-    "value": 400,
+    "value": "regular",
     "property": "heading",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-heading-2-line-height",
     "value": "AUTO",
     "property": "heading",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-heading-2-font-size",
     "value": "1.5rem",
     "property": "heading",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-heading-2-letter-spacing",
-    "value": "0em",
+    "value": "0%",
     "property": "heading",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-heading-2-paragraph-spacing",
     "value": 0,
     "property": "heading",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-heading-3-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "heading",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-heading-3-font-weight",
-    "value": 500,
+    "value": "medium",
     "property": "heading",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-heading-3-line-height",
     "value": "AUTO",
     "property": "heading",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-heading-3-font-size",
     "value": "1.25rem",
     "property": "heading",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-heading-3-letter-spacing",
-    "value": "0.0015em",
+    "value": "0.15%",
     "property": "heading",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-heading-3-paragraph-spacing",
     "value": 0,
     "property": "heading",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-heading-4-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "heading",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-heading-4-font-weight",
-    "value": 300,
+    "value": "light",
     "property": "heading",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-heading-4-line-height",
     "value": "AUTO",
     "property": "heading",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-heading-4-font-size",
     "value": "1.25rem",
     "property": "heading",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-heading-4-letter-spacing",
-    "value": "0.0015em",
+    "value": "0.15%",
     "property": "heading",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-heading-4-paragraph-spacing",
     "value": 0,
     "property": "heading",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-heading-5-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "heading",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-heading-5-font-weight",
-    "value": 400,
+    "value": "regular",
     "property": "heading",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-heading-5-line-height",
     "value": "AUTO",
     "property": "heading",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-heading-5-font-size",
     "value": "1.125rem",
     "property": "heading",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-heading-5-letter-spacing",
-    "value": "0em",
+    "value": "0%",
     "property": "heading",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-heading-5-paragraph-spacing",
     "value": 0,
     "property": "heading",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-heading-6-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "heading",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-heading-6-font-weight",
-    "value": 300,
+    "value": "light",
     "property": "heading",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-heading-6-line-height",
     "value": "AUTO",
     "property": "heading",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-heading-6-font-size",
     "value": "1.125rem",
     "property": "heading",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-heading-6-letter-spacing",
-    "value": "0em",
+    "value": "0%",
     "property": "heading",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-heading-6-paragraph-spacing",
     "value": 0,
     "property": "heading",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-display-1-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "display",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-display-1-font-weight",
-    "value": 300,
+    "value": "light",
     "property": "display",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-display-1-line-height",
     "value": "AUTO",
     "property": "display",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-display-1-font-size",
     "value": "3.75rem",
     "property": "display",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-display-1-letter-spacing",
-    "value": "-0.005em",
+    "value": "-0.5%",
     "property": "display",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-display-1-paragraph-spacing",
     "value": 0,
     "property": "display",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-display-2-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "display",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-display-2-font-weight",
-    "value": 400,
+    "value": "regular",
     "property": "display",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-display-2-line-height",
     "value": "AUTO",
     "property": "display",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-display-2-font-size",
     "value": "3rem",
     "property": "display",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-display-2-letter-spacing",
-    "value": "0em",
+    "value": "0%",
     "property": "display",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-display-2-paragraph-spacing",
     "value": 0,
     "property": "display",
-    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-monospace-1-font-family",
     "value": "'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "monospace",
-    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-monospace-1-font-weight",
-    "value": 500,
+    "value": "medium",
     "property": "monospace",
-    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-monospace-1-line-height",
     "value": "AUTO",
     "property": "monospace",
-    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-monospace-1-font-size",
     "value": "1.75rem",
     "property": "monospace",
-    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-monospace-1-letter-spacing",
-    "value": "0em",
+    "value": "0%",
     "property": "monospace",
-    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-monospace-1-paragraph-spacing",
     "value": 0,
     "property": "monospace",
-    "category": "paragraphSpacing",
     "component": null
   },
   {

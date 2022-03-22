@@ -364,50 +364,50 @@
     "body": {
       "body-1": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 400,
+        "fontWeight": "regular",
         "lineHeight": "AUTO",
         "fontSize": "1rem",
-        "letterSpacing": "0.005em",
+        "letterSpacing": "0.5%",
         "paragraphSpacing": 0
       },
       "body-1-bold": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 700,
+        "fontWeight": "bold",
         "lineHeight": "AUTO",
         "fontSize": "1rem",
-        "letterSpacing": "0.005em",
+        "letterSpacing": "0.5%",
         "paragraphSpacing": 0
       },
       "body-2": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 400,
+        "fontWeight": "regular",
         "lineHeight": "AUTO",
         "fontSize": "0.875rem",
-        "letterSpacing": "0.005em",
+        "letterSpacing": "0.5%",
         "paragraphSpacing": 0
       },
       "body-2-bold": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 700,
+        "fontWeight": "bold",
         "lineHeight": "AUTO",
         "fontSize": "0.875rem",
-        "letterSpacing": "0.005em",
+        "letterSpacing": "0.5%",
         "paragraphSpacing": 0
       },
       "body-3": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 400,
+        "fontWeight": "regular",
         "lineHeight": "AUTO",
         "fontSize": "0.75rem",
-        "letterSpacing": "0.005em",
+        "letterSpacing": "0.5%",
         "paragraphSpacing": 0
       },
       "body-3-bold": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 700,
+        "fontWeight": "bold",
         "lineHeight": "AUTO",
         "fontSize": "0.75rem",
-        "letterSpacing": "0.005em",
+        "letterSpacing": "0.5%",
         "paragraphSpacing": 0
       }
     }
@@ -416,58 +416,58 @@
     "heading": {
       "heading-1": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 400,
+        "fontWeight": "regular",
         "lineHeight": "AUTO",
         "fontSize": "2.125rem",
-        "letterSpacing": "0.0025em",
+        "letterSpacing": "0.25%",
         "paragraphSpacing": 0
       },
       "heading-1-bold": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 700,
+        "fontWeight": "bold",
         "lineHeight": "AUTO",
         "fontSize": "2.125rem",
-        "letterSpacing": "0.0025em",
+        "letterSpacing": "0.25%",
         "paragraphSpacing": 0
       },
       "heading-2": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 400,
+        "fontWeight": "regular",
         "lineHeight": "AUTO",
         "fontSize": "1.5rem",
-        "letterSpacing": "0em",
+        "letterSpacing": "0%",
         "paragraphSpacing": 0
       },
       "heading-3": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 500,
+        "fontWeight": "medium",
         "lineHeight": "AUTO",
         "fontSize": "1.25rem",
-        "letterSpacing": "0.0015em",
+        "letterSpacing": "0.15%",
         "paragraphSpacing": 0
       },
       "heading-4": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 300,
+        "fontWeight": "light",
         "lineHeight": "AUTO",
         "fontSize": "1.25rem",
-        "letterSpacing": "0.0015em",
+        "letterSpacing": "0.15%",
         "paragraphSpacing": 0
       },
       "heading-5": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 400,
+        "fontWeight": "regular",
         "lineHeight": "AUTO",
         "fontSize": "1.125rem",
-        "letterSpacing": "0em",
+        "letterSpacing": "0%",
         "paragraphSpacing": 0
       },
       "heading-6": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 300,
+        "fontWeight": "light",
         "lineHeight": "AUTO",
         "fontSize": "1.125rem",
-        "letterSpacing": "0em",
+        "letterSpacing": "0%",
         "paragraphSpacing": 0
       }
     }
@@ -476,18 +476,18 @@
     "display": {
       "display-1": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 300,
+        "fontWeight": "light",
         "lineHeight": "AUTO",
         "fontSize": "3.75rem",
-        "letterSpacing": "-0.005em",
+        "letterSpacing": "-0.5%",
         "paragraphSpacing": 0
       },
       "display-2": {
         "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 400,
+        "fontWeight": "regular",
         "lineHeight": "AUTO",
         "fontSize": "3rem",
-        "letterSpacing": "0em",
+        "letterSpacing": "0%",
         "paragraphSpacing": 0
       }
     }
@@ -496,10 +496,10 @@
     "monospace": {
       "monospace-1": {
         "fontFamily": "'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-        "fontWeight": 500,
+        "fontWeight": "medium",
         "lineHeight": "AUTO",
         "fontSize": "1.75rem",
-        "letterSpacing": "0em",
+        "letterSpacing": "0%",
         "paragraphSpacing": 0
       }
     }
