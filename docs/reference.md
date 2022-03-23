@@ -14,3 +14,6 @@ import ReferenceTokens from '../components/ReferenceTokens.vue'
 
 ## Radii
 <ReferenceTokens type="borderRadius"/>
+
+## Opacity
+<ReferenceTokens type="opacity"/>

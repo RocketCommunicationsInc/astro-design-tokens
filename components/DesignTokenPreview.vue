@@ -8,6 +8,7 @@
 			<design-token-preview-text-weight v-if="type === 'font-weight'" :value="token?.value"></design-token-preview-text-weight>
 			<design-token-preview-radius v-if="type === 'radius' || token?.category === 'borderRadius'" :value="token?.value"></design-token-preview-radius>
 			<design-token-preview-shadow v-if="token.category === 'boxShadow' " :type="token.property" :value="token?.value"></design-token-preview-shadow>
+			<design-token-preview-opacity v-if="token.category === 'opacity'" :value="token?.value"></design-token-preview-opacity>
 		</div>
 		<div class="w-full">
 			<div class="flex items-center">
@@ -34,8 +35,9 @@ import DesignTokenPreviewTextSize from './DesignTokenPreviewTextSize.vue'
 import DesignTokenPreviewTextWeight from './DesignTokenPreviewTextWeight.vue'
 import DesignTokenPreviewRadius from './DesignTokenPreviewRadius.vue'
 import DesignTokenPreviewShadow from './DesignTokenPreviewShadow.vue'
+import DesignTokenPreviewOpacity from './DesignTokenPreviewOpacity.vue'
 export default {
-	components: { DesignTokenPreviewColorBackground, DesignTokenPreviewColorText, DesignTokenPreviewColorBorder, DesignTokenPreviewTextSize, DesignTokenPreviewTextWeight, DesignTokenPreviewRadius, DesignTokenPreviewShadow },
+	components: { DesignTokenPreviewColorBackground, DesignTokenPreviewColorText, DesignTokenPreviewColorBorder, DesignTokenPreviewTextSize, DesignTokenPreviewTextWeight, DesignTokenPreviewRadius, DesignTokenPreviewShadow, DesignTokenPreviewOpacity },
 	props: ['token', 'name', 'value', 'type'],
 }
 </script>

@@ -14,6 +14,10 @@
 		<div v-for="token in radiusTokens" v-if="type === 'borderRadius'">
 			<design-token-preview type="radius" :token="token"></design-token-preview>
 		</div>
+
+		<div v-for="token in opacityTokens" v-if="type === 'opacity'">
+			<design-token-preview type="opacity" :token="token"></design-token-preview>
+		</div>
 	</div>
 </template>
 
@@ -38,6 +42,11 @@ export default {
 		radiusTokens() {
 			return mode.tokens.filter(token => {
 				return token.category === 'borderRadius' && !token.component
+			})
+		},
+		opacityTokens() {
+			return mode.tokens.filter(token => {
+				return token.category === 'opacity' && !token.component
 			})
 		},
 		referenceTokens() {
