@@ -15,7 +15,7 @@
 				<div class="text-xl font-bold w-4/7">{{ token?.name }}</div>
 				<div class="ml-auto flex text-sm items-center">{{ token?.value }}</div>
 			</div>
-			<div class="flex ">
+			<div class="flex">
 				<div class="w-3/5">
 					<p class="m-0 ml-auto mt pb-2 text-gray-500 leading-snug" v-if="token?.description !== 'Protected'">{{ token?.description }}</p>
 				</div>

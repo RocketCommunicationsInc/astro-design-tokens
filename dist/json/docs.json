@@ -51,7 +51,8 @@
     "description": "Inner shadow for normal status Tags",
     "property": "inner",
     "category": "boxShadow",
-    "component": "tag"
+    "component": "tag",
+    "referenceToken": "status-symbol-color-fill-normal"
   },
   {
     "name": "tag-shadow-inner-critical",
@@ -59,7 +60,8 @@
     "description": "Inner shadow for critical status Tags",
     "property": "inner",
     "category": "boxShadow",
-    "component": "tag"
+    "component": "tag",
+    "referenceToken": "status-symbol-color-fill-critical"
   },
   {
     "name": "tag-shadow-inner-off",
@@ -67,7 +69,8 @@
     "description": "Inner shadow for off status Tags",
     "property": "inner",
     "category": "boxShadow",
-    "component": "tag"
+    "component": "tag",
+    "referenceToken": "status-symbol-color-fill-off"
   },
   {
     "name": "dialog-shadow-outer-1",
@@ -75,7 +78,8 @@
     "description": "Drop shadow for dialogs 1",
     "property": "outer",
     "category": "boxShadow",
-    "component": "dialog"
+    "component": "dialog",
+    "referenceToken": "color-palette-neutral-1000"
   },
   {
     "name": "dialog-shadow-outer-2",
@@ -83,7 +87,8 @@
     "description": "Drop shadow for dialogs 2",
     "property": "outer",
     "category": "boxShadow",
-    "component": "dialog"
+    "component": "dialog",
+    "referenceToken": "color-palette-neutral-1000"
   },
   {
     "name": "dialog-shadow-outer-3",
@@ -91,7 +96,8 @@
     "description": "Drop shadow for dialogs 3",
     "property": "outer",
     "category": "boxShadow",
-    "component": "dialog"
+    "component": "dialog",
+    "referenceToken": "color-palette-neutral-1000"
   },
   {
     "name": "table-color-background-hover",
@@ -99,7 +105,8 @@
     "description": "the table row background hover color",
     "property": "background",
     "category": "color",
-    "component": "table"
+    "component": "table",
+    "referenceToken": "color-palette-brightblue-850"
   },
   {
     "name": "classification-banner-color-text-unclassified",
@@ -107,7 +114,8 @@
     "description": "The color used for the text on Unclassified classification banners.",
     "property": "text",
     "category": "color",
-    "component": "classification-banner"
+    "component": "classification-banner",
+    "referenceToken": "color-palette-neutral-000"
   },
   {
     "name": "classification-banner-color-text-cui",
@@ -115,7 +123,8 @@
     "description": "The color used for the text on CUI classification banners.",
     "property": "text",
     "category": "color",
-    "component": "classification-banner"
+    "component": "classification-banner",
+    "referenceToken": "color-palette-neutral-000"
   },
   {
     "name": "classification-banner-color-text-confidential",
@@ -123,7 +132,8 @@
     "description": "The color used for the text on Confidential classification banners.",
     "property": "text",
     "category": "color",
-    "component": "classification-banner"
+    "component": "classification-banner",
+    "referenceToken": "color-palette-neutral-000"
   },
   {
     "name": "classification-banner-color-text-secret",
@@ -131,7 +141,8 @@
     "description": "The color used for the text on Secret classification banners.",
     "property": "text",
     "category": "color",
-    "component": "classification-banner"
+    "component": "classification-banner",
+    "referenceToken": "color-palette-neutral-000"
   },
   {
     "name": "classification-banner-color-text-top-secret",
@@ -139,7 +150,8 @@
     "description": "The color used for the text on Top Secret classification banners.",
     "property": "text",
     "category": "color",
-    "component": "classification-banner"
+    "component": "classification-banner",
+    "referenceToken": "color-palette-neutral-1000"
   },
   {
     "name": "classification-banner-color-text-top-secret-sci",
@@ -147,7 +159,8 @@
     "description": "The color used for the text on Top Secret//SCI classification banners.",
     "property": "text",
     "category": "color",
-    "component": "classification-banner"
+    "component": "classification-banner",
+    "referenceToken": "color-palette-neutral-1000"
   },
   {
     "name": "notification-banner-icon-fill-critical",
@@ -155,7 +168,8 @@
     "description": "The color used for icons in Critical status banners.",
     "property": "icon",
     "category": "color",
-    "component": "notification-banner"
+    "component": "notification-banner",
+    "referenceToken": "color-palette-red-800"
   },
   {
     "name": "notification-banner-icon-fill-serious",
@@ -163,7 +177,8 @@
     "description": "The color used for icons in Serious status banners.",
     "property": "icon",
     "category": "color",
-    "component": "notification-banner"
+    "component": "notification-banner",
+    "referenceToken": "color-palette-orange-800"
   },
   {
     "name": "notification-banner-icon-fill-caution",
@@ -171,7 +186,8 @@
     "description": "The color used for icons in Caution status banners.",
     "property": "icon",
     "category": "color",
-    "component": "notification-banner"
+    "component": "notification-banner",
+    "referenceToken": "color-palette-yellow-800"
   },
   {
     "name": "notification-banner-icon-fill-normal",
@@ -179,7 +195,8 @@
     "description": "The color used for icons in Normal status banners.",
     "property": "icon",
     "category": "color",
-    "component": "notification-banner"
+    "component": "notification-banner",
+    "referenceToken": "color-palette-green-800"
   },
   {
     "name": "notification-banner-icon-fill-standby",
@@ -187,7 +204,8 @@
     "description": "The color used for icons in Standby status banners.",
     "property": "icon",
     "category": "color",
-    "component": "notification-banner"
+    "component": "notification-banner",
+    "referenceToken": "color-palette-cyan-800"
   },
   {
     "name": "notification-banner-icon-fill-off",
@@ -195,7 +213,8 @@
     "description": "The color used for icons in Off status banners.",
     "property": "icon",
     "category": "color",
-    "component": "notification-banner"
+    "component": "notification-banner",
+    "referenceToken": "color-palette-grey-700"
   },
   {
     "name": "notification-banner-color-background-critical",
@@ -203,7 +222,8 @@
     "description": "The color used for the background on Critical status banners.",
     "property": "background",
     "category": "color",
-    "component": "notification-banner"
+    "component": "notification-banner",
+    "referenceToken": "color-background-critical"
   },
   {
     "name": "notification-banner-color-background-serious",
@@ -211,7 +231,8 @@
     "description": "The color used for the background on Serious status banners.",
     "property": "background",
     "category": "color",
-    "component": "notification-banner"
+    "component": "notification-banner",
+    "referenceToken": "color-background-serious"
   },
   {
     "name": "notification-banner-color-background-caution",
@@ -219,7 +240,8 @@
     "description": "The color used for the background on Caution status banners.",
     "property": "background",
     "category": "color",
-    "component": "notification-banner"
+    "component": "notification-banner",
+    "referenceToken": "color-background-caution"
   },
   {
     "name": "notification-banner-color-background-normal",
@@ -227,7 +249,8 @@
     "description": "The color used for the background on Normal status banners.",
     "property": "background",
     "category": "color",
-    "component": "notification-banner"
+    "component": "notification-banner",
+    "referenceToken": "color-background-normal"
   },
   {
     "name": "notification-banner-color-background-standby",
@@ -235,7 +258,8 @@
     "description": "The color used for the background on Standby status banners.",
     "property": "background",
     "category": "color",
-    "component": "notification-banner"
+    "component": "notification-banner",
+    "referenceToken": "color-background-standby"
   },
   {
     "name": "notification-banner-color-background-off",
@@ -243,7 +267,8 @@
     "description": "The color used for the background on Off status banners.",
     "property": "background",
     "category": "color",
-    "component": "notification-banner"
+    "component": "notification-banner",
+    "referenceToken": "color-background-off"
   },
   {
     "name": "notification-banner-color-text",
@@ -251,7 +276,8 @@
     "description": "The color used for the text on notification banners.",
     "property": "text",
     "category": "color",
-    "component": "notification-banner"
+    "component": "notification-banner",
+    "referenceToken": "color-palette-neutral-1000"
   },
   {
     "name": "status-symbol-color-fill-critical",
@@ -259,7 +285,8 @@
     "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
     "property": "fill",
     "category": "color",
-    "component": "status-symbol"
+    "component": "status-symbol",
+    "referenceToken": "color-palette-red-500"
   },
   {
     "name": "status-symbol-color-fill-serious",
@@ -267,7 +294,8 @@
     "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention.",
     "property": "fill",
     "category": "color",
-    "component": "status-symbol"
+    "component": "status-symbol",
+    "referenceToken": "color-palette-orange-500"
   },
   {
     "name": "status-symbol-color-fill-caution",
@@ -275,7 +303,8 @@
     "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
     "property": "fill",
     "category": "color",
-    "component": "status-symbol"
+    "component": "status-symbol",
+    "referenceToken": "color-palette-yellow-500"
   },
   {
     "name": "status-symbol-color-fill-normal",
@@ -283,7 +312,8 @@
     "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
     "property": "fill",
     "category": "color",
-    "component": "status-symbol"
+    "component": "status-symbol",
+    "referenceToken": "color-palette-green-500"
   },
   {
     "name": "status-symbol-color-fill-standby",
@@ -291,7 +321,8 @@
     "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
     "property": "fill",
     "category": "color",
-    "component": "status-symbol"
+    "component": "status-symbol",
+    "referenceToken": "color-palette-cyan-600"
   },
   {
     "name": "status-symbol-color-fill-off",
@@ -299,7 +330,8 @@
     "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
     "property": "fill",
     "category": "color",
-    "component": "status-symbol"
+    "component": "status-symbol",
+    "referenceToken": "color-palette-grey-500"
   },
   {
     "name": "status-symbol-color-border-critical",
@@ -307,7 +339,8 @@
     "description": "The border color used for the Critical status symbol. Transparent in Dark Theme.",
     "property": "border",
     "category": "color",
-    "component": "status-symbol"
+    "component": "status-symbol",
+    "referenceToken": "color-palette-red-900"
   },
   {
     "name": "status-symbol-color-border-serious",
@@ -315,7 +348,8 @@
     "description": "The border color used for the Serious status symbol. Transparent in Dark Theme.",
     "property": "border",
     "category": "color",
-    "component": "status-symbol"
+    "component": "status-symbol",
+    "referenceToken": "color-palette-orange-900"
   },
   {
     "name": "status-symbol-color-border-caution",
@@ -323,7 +357,8 @@
     "description": "The border color used for the Caution status symbol. Transparent in Dark Theme.",
     "property": "border",
     "category": "color",
-    "component": "status-symbol"
+    "component": "status-symbol",
+    "referenceToken": "color-palette-yellow-900"
   },
   {
     "name": "status-symbol-color-border-normal",
@@ -331,7 +366,8 @@
     "description": "The border color used for the Normal status symbol. Transparent in Dark Theme.",
     "property": "border",
     "category": "color",
-    "component": "status-symbol"
+    "component": "status-symbol",
+    "referenceToken": "color-palette-green-900"
   },
   {
     "name": "status-symbol-color-border-standby",
@@ -339,7 +375,8 @@
     "description": "The border color used for the Standby status symbol. Transparent in Dark Theme.",
     "property": "border",
     "category": "color",
-    "component": "status-symbol"
+    "component": "status-symbol",
+    "referenceToken": "color-palette-cyan-900"
   },
   {
     "name": "status-symbol-color-border-off",
@@ -347,7 +384,8 @@
     "description": "The border color used for the Off status symbol. Transparent in Dark Theme.",
     "property": "border",
     "category": "color",
-    "component": "status-symbol"
+    "component": "status-symbol",
+    "referenceToken": "color-palette-grey-800"
   },
   {
     "name": "gsb-icon-color-fill",
@@ -355,7 +393,8 @@
     "description": "The primary color used for interactive elements in the Global Status Bar.",
     "property": "icon",
     "category": "color",
-    "component": "gsb"
+    "component": "gsb",
+    "referenceToken": "color-palette-brightblue-500"
   },
   {
     "name": "gsb-color-background",
@@ -363,7 +402,8 @@
     "description": "The background color of the Global Status Bar component. ",
     "property": "background",
     "category": "color",
-    "component": "gsb"
+    "component": "gsb",
+    "referenceToken": "color-palette-darkblue-900"
   },
   {
     "name": "gsb-color-text",
@@ -371,7 +411,8 @@
     "description": "The primary text color used within the Global Status Bar.",
     "property": "text",
     "category": "color",
-    "component": "gsb"
+    "component": "gsb",
+    "referenceToken": "color-palette-neutral-000"
   },
   {
     "name": "slider-radius-background-track",
@@ -418,7 +459,8 @@
     "description": "Inner shadow for vertical scrollbars",
     "property": "inner",
     "category": "boxShadow",
-    "component": "scrollbar"
+    "component": "scrollbar",
+    "referenceToken": "color-palette-neutral-1000"
   },
   {
     "name": "scrollbar-shadow-inner-horizontal",
@@ -426,7 +468,8 @@
     "description": "Inner shadow for horizontal scrollbars",
     "property": "inner",
     "category": "boxShadow",
-    "component": "scrollbar"
+    "component": "scrollbar",
+    "referenceToken": "color-palette-neutral-1000"
   },
   {
     "name": "scrollbar-radius",
@@ -1188,7 +1231,8 @@
     "description": "The color used to indicate the Top Secret/SCI classification.",
     "property": "classification",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-yellow-500"
   },
   {
     "name": "color-classification-topsecret",
@@ -1196,7 +1240,8 @@
     "description": "The color used to indicate the Top Secret classification.",
     "property": "classification",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-orange-700"
   },
   {
     "name": "color-classification-secret",
@@ -1204,7 +1249,8 @@
     "description": "The color used to indicate the Secret classification.",
     "property": "classification",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-red-700"
   },
   {
     "name": "color-classification-confidential",
@@ -1212,7 +1258,8 @@
     "description": "The color used to indicate the Confidential classification.",
     "property": "classification",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-blue-800"
   },
   {
     "name": "color-classification-cui",
@@ -1220,7 +1267,8 @@
     "description": "The color used to indicate the CUI classification.",
     "property": "classification",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-violet-800"
   },
   {
     "name": "color-classification-unclassified",
@@ -1228,7 +1276,8 @@
     "description": "The color used to indicate the Unclassified classification.",
     "property": "classification",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-green-800"
   },
   {
     "name": "color-background-surface",
@@ -1236,7 +1285,8 @@
     "description": "The background color of surface panels.",
     "property": "background",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-darkblue-800"
   },
   {
     "name": "color-background-base",
@@ -1244,7 +1294,8 @@
     "description": "The background color of base elements, like the app or popup menus.",
     "property": "background",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-brightblue-900"
   },
   {
     "name": "color-background-header",
@@ -1252,7 +1303,8 @@
     "description": "The background color for the header of surface elements, including dialog and table headers.",
     "property": "background",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-darkblue-900"
   },
   {
     "name": "color-background-surface-selected",
@@ -1260,7 +1312,8 @@
     "description": "Used to show the selected state of a surface background",
     "property": "background",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-darkblue-700"
   },
   {
     "name": "color-background-surface-hover",
@@ -1268,7 +1321,8 @@
     "description": "The background color of base elements, like popup menus, when they are hovered over.",
     "property": "background",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-brightblue-800"
   },
   {
     "name": "color-background-interactive-default",
@@ -1276,7 +1330,8 @@
     "description": "The primary color used for interactive elements.",
     "property": "background",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-brightblue-500"
   },
   {
     "name": "color-background-interactive-hover",
@@ -1284,7 +1339,8 @@
     "description": "The hover color used for interactive elements.",
     "property": "background",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-brightblue-400"
   },
   {
     "name": "color-background-critical",
@@ -1292,7 +1348,8 @@
     "description": "Used to represent the Critical Status.",
     "property": "background",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-red-400"
   },
   {
     "name": "color-background-serious",
@@ -1300,7 +1357,8 @@
     "description": "Used to represent the Serious Status.",
     "property": "background",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-orange-400"
   },
   {
     "name": "color-background-caution",
@@ -1308,7 +1366,8 @@
     "description": "Used to represent the Caution Status.",
     "property": "background",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-yellow-400"
   },
   {
     "name": "color-background-normal",
@@ -1316,7 +1375,8 @@
     "description": "Used to represent the Normal Status.",
     "property": "background",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-green-400"
   },
   {
     "name": "color-background-standby",
@@ -1324,7 +1384,8 @@
     "description": "Used to represent the Standby Status.",
     "property": "background",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-cyan-400"
   },
   {
     "name": "color-background-off",
@@ -1332,7 +1393,8 @@
     "description": "Used to represent the Off Status.",
     "property": "background",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-grey-400"
   },
   {
     "name": "color-text-primary",
@@ -1340,7 +1402,8 @@
     "description": "The primary color used for text within the application.",
     "property": "text",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-neutral-000"
   },
   {
     "name": "color-text-secondary",
@@ -1348,7 +1411,8 @@
     "description": "The color used for text when less emphasis is needed.",
     "property": "text",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-grey-300"
   },
   {
     "name": "color-text-placeholder",
@@ -1356,7 +1420,8 @@
     "description": "The text color used for placeholder text in input and form fields.",
     "property": "text",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-grey-500"
   },
   {
     "name": "color-text-inverse",
@@ -1364,7 +1429,8 @@
     "description": "The color used for text on reversed backgrounds.",
     "property": "text",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-darkblue-950"
   },
   {
     "name": "color-text-interactive-default",
@@ -1372,7 +1438,8 @@
     "description": "The primary color used for interactive elements.",
     "property": "text",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-brightblue-500"
   },
   {
     "name": "color-text-interactive-hover",
@@ -1380,7 +1447,8 @@
     "description": "The hover color used for interactive elements.",
     "property": "text",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-brightblue-400"
   },
   {
     "name": "color-text-critical",
@@ -1388,7 +1456,8 @@
     "description": "Used to represent the Critical Status.",
     "property": "text",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-red-500"
   },
   {
     "name": "color-text-serious",
@@ -1396,7 +1465,8 @@
     "description": "Used to represent the Serious Status.",
     "property": "text",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-orange-500"
   },
   {
     "name": "color-text-caution",
@@ -1404,7 +1474,8 @@
     "description": "Used to represent the Caution Status.",
     "property": "text",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-yellow-500"
   },
   {
     "name": "color-text-normal",
@@ -1412,7 +1483,8 @@
     "description": "Used to represent the Normal Status.",
     "property": "text",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-green-500"
   },
   {
     "name": "color-text-standby",
@@ -1420,7 +1492,8 @@
     "description": "Used to represent the Standby Status.",
     "property": "text",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-cyan-500"
   },
   {
     "name": "color-text-off",
@@ -1428,7 +1501,8 @@
     "description": "Used to represent the Off Status.",
     "property": "text",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-grey-500"
   },
   {
     "name": "color-border-interactive-default",
@@ -1436,7 +1510,8 @@
     "description": "The primary color used for interactive elements.",
     "property": "border",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-brightblue-500"
   },
   {
     "name": "color-border-interactive-hover",
@@ -1444,7 +1519,8 @@
     "description": "The hover color used for interactive elements.",
     "property": "border",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-brightblue-400"
   },
   {
     "name": "color-border-muted",
@@ -1452,7 +1528,8 @@
     "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
     "property": "border",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-brightblue-700"
   },
   {
     "name": "color-border-critical",
@@ -1460,7 +1537,8 @@
     "description": "Used to represent the Critical Status.",
     "property": "border",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-red-500"
   },
   {
     "name": "color-border-serious",
@@ -1468,7 +1546,8 @@
     "description": "Used to represent the Serious Status.",
     "property": "border",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-orange-500"
   },
   {
     "name": "color-border-caution",
@@ -1476,7 +1555,8 @@
     "description": "Used to represent the Caution Status.",
     "property": "border",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-yellow-500"
   },
   {
     "name": "color-border-normal",
@@ -1484,7 +1564,8 @@
     "description": "Used to represent the Normal Status.",
     "property": "border",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-green-500"
   },
   {
     "name": "color-border-standby",
@@ -1492,7 +1573,8 @@
     "description": "Used to represent the Standby Status.",
     "property": "border",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-cyan-500"
   },
   {
     "name": "color-border-off",
@@ -1500,7 +1582,8 @@
     "description": "Used to represent the Off Status.",
     "property": "border",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-grey-500"
   },
   {
     "name": "color-fill-muted",
@@ -1508,7 +1591,8 @@
     "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
     "property": "fill",
     "category": "color",
-    "component": null
+    "component": null,
+    "referenceToken": "color-palette-brightblue-700"
   },
   {
     "name": "radius-base",
@@ -1551,576 +1635,672 @@
     "name": "font-body-1-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "body",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-body-1-font-weight",
-    "value": "regular",
+    "value": 400,
     "property": "body",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-body-1-line-height",
     "value": "AUTO",
     "property": "body",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-body-1-font-size",
     "value": "1rem",
     "property": "body",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-body-1-letter-spacing",
-    "value": "0.5%",
+    "value": "0.005em",
     "property": "body",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-body-1-paragraph-spacing",
     "value": 0,
     "property": "body",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-body-1-bold-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "body",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-body-1-bold-font-weight",
-    "value": "bold",
+    "value": 700,
     "property": "body",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-body-1-bold-line-height",
     "value": "AUTO",
     "property": "body",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-body-1-bold-font-size",
     "value": "1rem",
     "property": "body",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-body-1-bold-letter-spacing",
-    "value": "0.5%",
+    "value": "0.005em",
     "property": "body",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-body-1-bold-paragraph-spacing",
     "value": 0,
     "property": "body",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-body-2-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "body",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-body-2-font-weight",
-    "value": "regular",
+    "value": 400,
     "property": "body",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-body-2-line-height",
     "value": "AUTO",
     "property": "body",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-body-2-font-size",
     "value": "0.875rem",
     "property": "body",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-body-2-letter-spacing",
-    "value": "0.5%",
+    "value": "0.005em",
     "property": "body",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-body-2-paragraph-spacing",
     "value": 0,
     "property": "body",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-body-2-bold-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "body",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-body-2-bold-font-weight",
-    "value": "bold",
+    "value": 700,
     "property": "body",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-body-2-bold-line-height",
     "value": "AUTO",
     "property": "body",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-body-2-bold-font-size",
     "value": "0.875rem",
     "property": "body",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-body-2-bold-letter-spacing",
-    "value": "0.5%",
+    "value": "0.005em",
     "property": "body",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-body-2-bold-paragraph-spacing",
     "value": 0,
     "property": "body",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-body-3-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "body",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-body-3-font-weight",
-    "value": "regular",
+    "value": 400,
     "property": "body",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-body-3-line-height",
     "value": "AUTO",
     "property": "body",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-body-3-font-size",
     "value": "0.75rem",
     "property": "body",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-body-3-letter-spacing",
-    "value": "0.5%",
+    "value": "0.005em",
     "property": "body",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-body-3-paragraph-spacing",
     "value": 0,
     "property": "body",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-body-3-bold-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "body",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-body-3-bold-font-weight",
-    "value": "bold",
+    "value": 700,
     "property": "body",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-body-3-bold-line-height",
     "value": "AUTO",
     "property": "body",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-body-3-bold-font-size",
     "value": "0.75rem",
     "property": "body",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-body-3-bold-letter-spacing",
-    "value": "0.5%",
+    "value": "0.005em",
     "property": "body",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-body-3-bold-paragraph-spacing",
     "value": 0,
     "property": "body",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-heading-1-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "heading",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-heading-1-font-weight",
-    "value": "regular",
+    "value": 400,
     "property": "heading",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-heading-1-line-height",
     "value": "AUTO",
     "property": "heading",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-heading-1-font-size",
     "value": "2.125rem",
     "property": "heading",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-heading-1-letter-spacing",
-    "value": "0.25%",
+    "value": "0.0025em",
     "property": "heading",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-heading-1-paragraph-spacing",
     "value": 0,
     "property": "heading",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-heading-1-bold-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "heading",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-heading-1-bold-font-weight",
-    "value": "bold",
+    "value": 700,
     "property": "heading",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-heading-1-bold-line-height",
     "value": "AUTO",
     "property": "heading",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-heading-1-bold-font-size",
     "value": "2.125rem",
     "property": "heading",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-heading-1-bold-letter-spacing",
-    "value": "0.25%",
+    "value": "0.0025em",
     "property": "heading",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-heading-1-bold-paragraph-spacing",
     "value": 0,
     "property": "heading",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-heading-2-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "heading",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-heading-2-font-weight",
-    "value": "regular",
+    "value": 400,
     "property": "heading",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-heading-2-line-height",
     "value": "AUTO",
     "property": "heading",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-heading-2-font-size",
     "value": "1.5rem",
     "property": "heading",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-heading-2-letter-spacing",
-    "value": "0%",
+    "value": "0em",
     "property": "heading",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-heading-2-paragraph-spacing",
     "value": 0,
     "property": "heading",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-heading-3-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "heading",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-heading-3-font-weight",
-    "value": "medium",
+    "value": 500,
     "property": "heading",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-heading-3-line-height",
     "value": "AUTO",
     "property": "heading",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-heading-3-font-size",
     "value": "1.25rem",
     "property": "heading",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-heading-3-letter-spacing",
-    "value": "0.15%",
+    "value": "0.0015em",
     "property": "heading",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-heading-3-paragraph-spacing",
     "value": 0,
     "property": "heading",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-heading-4-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "heading",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-heading-4-font-weight",
-    "value": "light",
+    "value": 300,
     "property": "heading",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-heading-4-line-height",
     "value": "AUTO",
     "property": "heading",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-heading-4-font-size",
     "value": "1.25rem",
     "property": "heading",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-heading-4-letter-spacing",
-    "value": "0.15%",
+    "value": "0.0015em",
     "property": "heading",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-heading-4-paragraph-spacing",
     "value": 0,
     "property": "heading",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-heading-5-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "heading",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-heading-5-font-weight",
-    "value": "regular",
+    "value": 400,
     "property": "heading",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-heading-5-line-height",
     "value": "AUTO",
     "property": "heading",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-heading-5-font-size",
     "value": "1.125rem",
     "property": "heading",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-heading-5-letter-spacing",
-    "value": "0%",
+    "value": "0em",
     "property": "heading",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-heading-5-paragraph-spacing",
     "value": 0,
     "property": "heading",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-heading-6-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "heading",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-heading-6-font-weight",
-    "value": "light",
+    "value": 300,
     "property": "heading",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-heading-6-line-height",
     "value": "AUTO",
     "property": "heading",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-heading-6-font-size",
     "value": "1.125rem",
     "property": "heading",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-heading-6-letter-spacing",
-    "value": "0%",
+    "value": "0em",
     "property": "heading",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-heading-6-paragraph-spacing",
     "value": 0,
     "property": "heading",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-display-1-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "display",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-display-1-font-weight",
-    "value": "light",
+    "value": 300,
     "property": "display",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-display-1-line-height",
     "value": "AUTO",
     "property": "display",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-display-1-font-size",
     "value": "3.75rem",
     "property": "display",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-display-1-letter-spacing",
-    "value": "-0.5%",
+    "value": "-0.005em",
     "property": "display",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-display-1-paragraph-spacing",
     "value": 0,
     "property": "display",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-display-2-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "display",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-display-2-font-weight",
-    "value": "regular",
+    "value": 400,
     "property": "display",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-display-2-line-height",
     "value": "AUTO",
     "property": "display",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-display-2-font-size",
     "value": "3rem",
     "property": "display",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-display-2-letter-spacing",
-    "value": "0%",
+    "value": "0em",
     "property": "display",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-display-2-paragraph-spacing",
     "value": 0,
     "property": "display",
+    "category": "paragraphSpacing",
     "component": null
   },
   {
     "name": "font-monospace-1-font-family",
     "value": "'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
     "property": "monospace",
+    "category": "fontFamily",
     "component": null
   },
   {
     "name": "font-monospace-1-font-weight",
-    "value": "medium",
+    "value": 500,
     "property": "monospace",
+    "category": "fontWeight",
     "component": null
   },
   {
     "name": "font-monospace-1-line-height",
     "value": "AUTO",
     "property": "monospace",
+    "category": "lineHeight",
     "component": null
   },
   {
     "name": "font-monospace-1-font-size",
     "value": "1.75rem",
     "property": "monospace",
+    "category": "fontSize",
     "component": null
   },
   {
     "name": "font-monospace-1-letter-spacing",
-    "value": "0%",
+    "value": "0em",
     "property": "monospace",
+    "category": "letterSpacing",
     "component": null
   },
   {
     "name": "font-monospace-1-paragraph-spacing",
     "value": 0,
     "property": "monospace",
+    "category": "paragraphSpacing",
     "component": null
   },
   {

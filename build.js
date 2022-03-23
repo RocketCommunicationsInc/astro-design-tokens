@@ -51,8 +51,14 @@ StyleDictionary.registerTransform({
 const toPx = (value) =>
   StyleDictionary.transform["size/remToPx"].transformer({ value });
 
-const shadowMatcher = (prop) => prop.type === "boxShadow";
+const shadowMatcher = (prop) => {
+  if (prop.type === "boxShadow"){
 
+  console.log(prop);
+  }
+  return prop.type === "boxShadow";
+
+}
 const webShadowTransformer = (prop) => {
   const {
     blur,
@@ -61,11 +67,12 @@ const webShadowTransformer = (prop) => {
     y,
     spread,
   } = prop.original.value;
+ 
 
   // return `${toPx(x)} ${toPx(y)} ${toPx(blur)} ${toPx(
   //   spread
   // )} ${Color(color).toRgbString()}`;
-    return `${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
+  return `${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
 };
 
 
@@ -118,7 +125,7 @@ StyleDictionary.registerTransform({
   },
   transformer: (token) => {
     if (token.value.includes("rgba")) {
-      const output = token.value.replace(/rgba\((.+?)\)/g, function(string, first){
+      const output = token.value.replace(/rgba\((.+?)\)/g, function (string, first) {
         const hex = first.split(',')[0]
         const opacity = first.split(',')[1]
         const rgb = Color(hex).toRgb()
@@ -253,7 +260,6 @@ StyleDictionary.registerFormat({
     const dictionary = Object.assign({}, format.dictionary);
     // Override each token's `value` with `darkValue`
     dictionary.allProperties = dictionary.allProperties.map((token) => {
-      // console.log(token);
 
       let category = token.type
       let type = token.attributes.type
@@ -261,7 +267,7 @@ StyleDictionary.registerFormat({
         type = token.attributes.item
       }
       let component = null
-      if (token.attributes.category !== 'color' && token.type === 'color'){
+      if (token.attributes.category !== 'color' && token.type === 'color') {
         component = token.attributes.category
       }
 
@@ -276,25 +282,27 @@ StyleDictionary.registerFormat({
       }
 
       if (token.type === 'boxShadow') {
-        console.log(token);
         component = token.attributes.category
         type = token.attributes.item
       }
 
 
       let refValue
-      const refs = dictionary.getReferences(token.original.value)[0]
-      if (refs) {
-        refValue = refs.name
+      if (token.original.rawValue) {
+
+        const refs = dictionary.getReferences(token.original.rawValue)[0]
+        if (refs) {
+          refValue = refs.name
+        }
       }
       return {
-          name: token.name,
-          value: token.value,
-          description: token.description,
-          property: type,
-          category: category,
-          component: component,
-          referenceToken: refValue
+        name: token.name,
+        value: token.value,
+        description: token.description,
+        property: type,
+        category: category,
+        component: component,
+        referenceToken: refValue
       }
       if (token.attributes.type === "dark") {
         token.name = token.name.replace("dark-", "");
@@ -420,13 +428,14 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/json",
   transforms: StyleDictionary.transformGroup["web"].concat([
+    "shadow/css",
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
     "typography/name",
     "borderRadius/name",
     "fontWeight/cssValue",
-    "shadow/css"
+  
     // "color/rgbaRef",
   ]),
 });
@@ -458,8 +467,8 @@ StyleDictionary.registerTransformGroup({
 
 // StyleDictionaryExtended.buildAllPlatforms();
 
-const modes = [`light`,`dark`];
-  
+const modes = [`light`, `dark`];
+
 // light/default mode
 StyleDictionary.extend({
   source: [
@@ -467,125 +476,125 @@ StyleDictionary.extend({
     // that does not have .dark or .light, but ends in .json5
     `tokens/**/!(*.${modes.join(`|*.`)}).json`
   ],
-    platforms: {
-      scss: {
-        transformGroup: "custom/scss",
-        buildPath: "dist/scss/",
-        files: [
-          {
-            destination: "_colors-dark.scss",
-            format: "scss/variables",
-            filter: "color/theme",
+  platforms: {
+    scss: {
+      transformGroup: "custom/scss",
+      buildPath: "dist/scss/",
+      files: [
+        {
+          destination: "_colors-dark.scss",
+          format: "scss/variables",
+          filter: "color/theme",
+        },
+        {
+          destination: "_colors-global.scss",
+          format: "scss/variables",
+          filter: "color/theme",
+        },
+        {
+          destination: "_variables.scss",
+          format: "scss/variables",
+          filter: "notColor",
+        },
+      ],
+    },
+    internal: {
+      transformGroup: "custom/css",
+      buildPath: "dist/internal/css/",
+      files: [
+        {
+          destination: "_tokens.scss",
+          format: "css/variables",
+          filter: "notColor",
+          options: {
+            showFileHeader: true,
+            outputReferences: true,
           },
-          {
-            destination: "_colors-global.scss",
-            format: "scss/variables",
-            filter: "color/theme",
+        },
+        {
+          destination: "_colors-dark.scss",
+          format: "css/variables",
+          filter: "color/theme",
+          options: {
+            selector: "@mixin root-variables",
+            showFileHeader: true,
+            outputReferences: true,
           },
-          {
-            destination: "_variables.scss",
-            format: "scss/variables",
-            filter: "notColor",
+        },
+        {
+          destination: "_colors-global.css",
+          format: "css/variables",
+          filter: "color/global",
+          options: {
+            showFileHeader: true,
+            outputReferences: true,
           },
-        ],
-      },
-      internal: {
-        transformGroup: "custom/css",
-        buildPath: "dist/internal/css/",
-        files: [
-          {
-            destination: "_tokens.scss",
-            format: "css/variables",
-            filter: "notColor",
-            options: {
-              showFileHeader: true,
-              outputReferences: true,
-            },
+        },
+      ],
+    },
+    css: {
+      transformGroup: "custom/css",
+      buildPath: "dist/css/",
+      files: [
+        {
+          destination: "_variables.css",
+          format: "css/variables",
+          filter: "notColor",
+          options: {
+            showFileHeader: true,
+            outputReferences: true,
           },
-          {
-            destination: "_colors-dark.scss",
-            format: "css/variables",
-            filter: "color/theme",
-            options: {
-              selector: "@mixin root-variables",
-              showFileHeader: true,
-              outputReferences: true,
-            },
+        },
+        {
+          destination: "_colors-dark.css",
+          format: "css/variables",
+          filter: "color/theme",
+          options: {
+            showFileHeader: true,
+            outputReferences: true,
           },
-          {
-            destination: "_colors-global.css",
-            format: "css/variables",
-            filter: "color/global",
-            options: {
-              showFileHeader: true,
-              outputReferences: true,
-            },
+        },
+        {
+          destination: "_colors-global.css",
+          format: "css/variables",
+          filter: "color/theme",
+          options: {
+            showFileHeader: true,
+            outputReferences: true,
           },
-        ],
-      },
-      css: {
-        transformGroup: "custom/css",
-        buildPath: "dist/css/",
-        files: [
-          {
-            destination: "_variables.css",
-            format: "css/variables",
-            filter: "notColor",
-            options: {
-              showFileHeader: true,
-              outputReferences: true,
-            },
-          },
-          {
-            destination: "_colors-dark.css",
-            format: "css/variables",
-            filter: "color/theme",
-            options: {
-              showFileHeader: true,
-              outputReferences: true,
-            },
-          },
-          {
-            destination: "_colors-global.css",
-            format: "css/variables",
-            filter: "color/theme",
-            options: {
-              showFileHeader: true,
-              outputReferences: true,
-            },
-          },
-        ],
-      },
-      "json-flat": {
-        transformGroup: "custom/json",
-        buildPath: "dist/json/",
-        files: [
-          {
-            destination: "styles.json",
-            format: "json/flat",
-          }
-        ],
-      },
-      "json-nested": {
-        transformGroup: "custom/json",
-        buildPath: "dist/json-nested/",
-        files: [
-          {
-            destination: "styles.json",
-            format: "json/nested",
-          }
-        ],
-      },
-      "docs": {
-        transformGroup: "custom/json",
-        buildPath: "dist/json/",
-        files: [
-          {
-            destination: "docs.json",
-            format: "docs",
-          }
-        ],
-      }
+        },
+      ],
+    },
+    "json-flat": {
+      transformGroup: "custom/json",
+      buildPath: "dist/json/",
+      files: [
+        {
+          destination: "styles.json",
+          format: "json/flat",
+        }
+      ],
+    },
+    "json-nested": {
+      transformGroup: "custom/json",
+      buildPath: "dist/json-nested/",
+      files: [
+        {
+          destination: "styles.json",
+          format: "json/nested",
+        }
+      ],
+    },
+    "docs": {
+      transformGroup: "custom/json",
+      buildPath: "dist/json/",
+      files: [
+        {
+          destination: "docs.json",
+          format: "docs",
+        }
+      ],
+    }
   },
   // ...
 }).buildAllPlatforms()
@@ -644,16 +653,6 @@ StyleDictionary.extend({
         }
       ],
     },
-    "docs": {
-      transformGroup: "custom/json",
-      buildPath: "dist/json/",
-      files: [
-        {
-          destination: "docs-light.json",
-          format: "docs",
-        }
-      ],
-    },
     "json-flat": {
       transformGroup: "custom/json",
       buildPath: "dist/json/",
@@ -673,7 +672,17 @@ StyleDictionary.extend({
           format: "json/nested",
         }
       ],
+    },
+    "docs": {
+      transformGroup: "custom/json",
+      buildPath: "dist/json/",
+      files: [
+        {
+          destination: "docs-light.json",
+          format: "docs",
+        }
+      ]
     }
-},
+  },
 })
-.buildAllPlatforms();
+  .buildAllPlatforms();
