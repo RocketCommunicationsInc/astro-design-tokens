@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 18 Mar 2022 15:50:58 GMT
+ * Generated on Wed, 23 Mar 2022 14:04:29 GMT
  */
 
 :root {
@@ -10,52 +10,52 @@
   --color-gsb-text-secondary: #d4d8dd;
   --color-gsb-text-primary: #ffffff;
   --color-gsb-background-default: #172635;
-  --color-icon-status-border-off: rgba(60, 62, 66, 0);
-  --color-icon-status-border-standby: rgba(40, 87, 102, 0);
-  --color-icon-status-border-normal: rgba(0, 90, 0, 0);
-  --color-icon-status-border-caution: rgba(100, 86, 0, 0);
-  --color-icon-status-border-serious: rgba(102, 70, 24, 0);
-  --color-icon-status-border-critical: rgba(102, 17, 2, 0);
-  --color-icon-status-fill-off: #a4abb6;
-  --color-icon-status-fill-standby: #2dccff;
-  --color-icon-status-fill-normal: #56f000;
-  --color-icon-status-fill-caution: #fce83a;
-  --color-icon-status-fill-serious: #ffb302;
-  --color-icon-status-fill-critical: #ff3838;
-  --color-banner-status-icon-fill-off: #51555b;
-  --color-banner-status-icon-fill-standby: #35798e;
-  --color-banner-status-icon-fill-normal: #007a33;
-  --color-banner-status-icon-fill-caution: #917d01;
-  --color-banner-status-icon-fill-serious: #975f0e;
-  --color-banner-status-icon-fill-critical: #8b1703;
+  --color-icon-status-border-off: #3c3e42;
+  --color-icon-status-border-standby: #285766;
+  --color-icon-status-border-normal: #005a00;
+  --color-icon-status-border-caution: #645600;
+  --color-icon-status-border-serious: #664618;
+  --color-icon-status-border-critical: #661102;
+  --color-icon-status-fill-off: #7b8089;
+  --color-icon-status-fill-standby: #64d9ff;
+  --color-icon-status-fill-normal: #00e200;
+  --color-icon-status-fill-caution: #fad800;
+  --color-icon-status-fill-serious: #ffaf3d;
+  --color-icon-status-fill-critical: #ff2a04;
   --color-banner-status-background-off: #bbc1c9;
   --color-banner-status-background-standby: #5ce2ff;
   --color-banner-status-background-normal: #99f666;
   --color-banner-status-background-caution: #fded61;
   --color-banner-status-background-serious: #ffcc57;
   --color-banner-status-background-critical: #ff5f60;
+  --color-banner-status-icon-fill-off: #51555b;
+  --color-banner-status-icon-fill-standby: #35798e;
+  --color-banner-status-icon-fill-normal: #007a33;
+  --color-banner-status-icon-fill-caution: #917d01;
+  --color-banner-status-icon-fill-serious: #975f0e;
+  --color-banner-status-icon-fill-critical: #8b1703;
   --color-banner-classification-background-unclassified: #007a33;
   --color-banner-classification-background-cui: #502b85;
   --color-banner-classification-background-confidential: #0033a0;
   --color-banner-classification-background-secret: #c8102e;
   --color-banner-classification-background-topsecret: #ff8c00;
   --color-banner-classification-background-topsecretsci: #fce83a;
-  --color-interactive-muted: #2b659b;
-  --color-interactive-hover: #92cbff;
-  --color-interactive-default: #4dacff;
+  --color-interactive-muted: #649cbd;
+  --color-interactive-hover: #004872;
+  --color-interactive-default: #005a8f;
   --color-text-black: #000000;
   --color-text-white: #ffffff;
   --color-text-error: #ff3838;
-  --color-text-inverse: #080c11;
-  --color-text-placeholder: #a4abb6;
-  --color-text-secondary: #d4d8dd;
-  --color-text-primary: #ffffff;
-  --color-background-surface-selected: #1c3f5e;
-  --color-background-surface-hover: #142435;
-  --color-background-surface-header: #172635;
-  --color-background-surface-default: #1b2d3e;
-  --color-background-base-selected: #1c3f5e;
-  --color-background-base-hover: #1c3851;
-  --color-background-base-header: #172635;
-  --color-background-base-default: #101923;
+  --color-text-inverse: #ffffff;
+  --color-text-placeholder: #7b8089;
+  --color-text-secondary: #51555b;
+  --color-text-primary: #292a2d;
+  --color-background-surface-selected: #cee9fc;
+  --color-background-surface-hover: #daeeff;
+  --color-background-surface-header: #f5f6f9;
+  --color-background-surface-default: #ffffff;
+  --color-background-base-selected: #cee9fc;
+  --color-background-base-hover: #98bdd3;
+  --color-background-base-header: #f5f6f9;
+  --color-background-base-default: #eaeef4;
 }
