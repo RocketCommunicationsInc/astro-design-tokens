@@ -15,7 +15,7 @@
 			</div>
 			<div class="flex ">
 				<div class="w-3/5">
-					<p class="m-0 ml-auto mt pb-2 text-gray-500 leading-snug">{{ token?.description }}</p>
+					<p class="m-0 ml-auto mt pb-2 text-gray-500 leading-snug" v-if="token?.description !== 'Protected'">{{ token?.description }}</p>
 				</div>
 				<div class="ml-auto text-gray-400">
 					{{token.referenceToken}}

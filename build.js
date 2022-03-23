@@ -48,6 +48,33 @@ StyleDictionary.registerTransform({
   },
 });
 
+const toPx = (value) =>
+  StyleDictionary.transform["size/remToPx"].transformer({ value });
+
+const shadowMatcher = (prop) => prop.type === "boxShadow";
+
+const webShadowTransformer = (prop) => {
+  const {
+    blur,
+    color,
+    x,
+    y,
+    spread,
+  } = prop.original.value;
+
+  return `${toPx(x)} ${toPx(y)} ${toPx(blur)} ${toPx(
+    spread
+  )} ${Color(color).toRgbString()}`;
+};
+
+
+StyleDictionary.registerTransform({
+  name: "shadow/css",
+  matcher: shadowMatcher,
+  transformer: webShadowTransformer,
+  type: "value",
+});
+
 StyleDictionary.registerTransform({
   name: "borderRadius/name",
   type: "name",
@@ -363,6 +390,7 @@ StyleDictionary.registerTransformGroup({
     "borderRadius/name",
     // "color/themeName",
     "fontWeight/cssValue",
+    "shadow/css"
     // "color/rgbaRef",
   ]),
 });
@@ -377,6 +405,7 @@ StyleDictionary.registerTransformGroup({
     "typography/name",
     "borderRadius/name",
     "fontWeight/cssValue",
+    "shadow/css"
   ]),
 });
 
@@ -388,7 +417,8 @@ StyleDictionary.registerTransformGroup({
     "fontFamily/fallback",
     "typography/name",
     "borderRadius/name",
-    "fontWeight/cssValue"
+    "fontWeight/cssValue",
+    "shadow/css"
     // "color/rgbaRef",
   ]),
 });

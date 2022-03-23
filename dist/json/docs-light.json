@@ -46,87 +46,55 @@
     "component": null
   },
   {
-    "name": "shadow-inner-scrollbar-vertical",
-    "value": {
-      "x": 3,
-      "y": 3,
-      "blur": 3,
-      "spread": 0,
-      "color": "rgba(#000000, 50%)",
-      "type": "innerShadow"
-    },
-    "description": "Inner shadow for vertical scrollbars",
-    "property": "inner",
-    "category": "boxShadow",
-    "component": null,
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "shadow-inner-scrollbar-horizontal",
-    "value": {
-      "x": 1,
-      "y": 3,
-      "blur": 3,
-      "spread": 0,
-      "color": "rgba(#000000,50%)",
-      "type": "innerShadow"
-    },
-    "description": "Inner shadow for horizontal scrollbars",
-    "property": "inner",
-    "category": "boxShadow",
-    "component": null,
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "shadow-inner-tag-normal",
+    "name": "tag-shadow-inner-normal",
     "value": {
       "x": 0,
       "y": 0,
       "blur": 5,
       "spread": 0,
-      "color": "#00e200",
+      "color": "#56f000",
       "type": "innerShadow"
     },
     "description": "Inner shadow for normal status Tags",
-    "property": "inner",
+    "property": "shadow",
     "category": "boxShadow",
     "component": null,
-    "referenceToken": "color-palette-green-600"
+    "referenceToken": "status-symbol-color-fill-normal"
   },
   {
-    "name": "shadow-inner-tag-critical",
+    "name": "tag-shadow-inner-critical",
     "value": {
       "x": 0,
       "y": 0,
       "blur": 5,
       "spread": 0,
-      "color": "#ff2a04",
+      "color": "#ff3838",
       "type": "innerShadow"
     },
     "description": "Inner shadow for critical status Tags",
-    "property": "inner",
+    "property": "shadow",
     "category": "boxShadow",
     "component": null,
-    "referenceToken": "color-palette-red-600"
+    "referenceToken": "status-symbol-color-fill-critical"
   },
   {
-    "name": "shadow-inner-tag-off",
+    "name": "tag-shadow-inner-off",
     "value": {
       "x": 0,
       "y": 0,
       "blur": 5,
       "spread": 0,
-      "color": "#7b8089",
+      "color": "#a4abb6",
       "type": "innerShadow"
     },
     "description": "Inner shadow for off status Tags",
-    "property": "inner",
+    "property": "shadow",
     "category": "boxShadow",
     "component": null,
-    "referenceToken": "color-palette-grey-600"
+    "referenceToken": "status-symbol-color-fill-off"
   },
   {
-    "name": "shadow-outer-dialog-1",
+    "name": "dialog-shadow-outer-1",
     "value": {
       "x": 0,
       "y": 0,
@@ -136,13 +104,13 @@
       "type": "dropShadow"
     },
     "description": "Drop shadow for dialogs 1",
-    "property": "outer",
+    "property": "shadow",
     "category": "boxShadow",
     "component": null,
     "referenceToken": "color-palette-neutral-1000"
   },
   {
-    "name": "shadow-outer-dialog-2",
+    "name": "dialog-shadow-outer-2",
     "value": {
       "x": 0,
       "y": 4,
@@ -152,13 +120,13 @@
       "type": "dropShadow"
     },
     "description": "Drop shadow for dialogs 2",
-    "property": "outer",
+    "property": "shadow",
     "category": "boxShadow",
     "component": null,
     "referenceToken": "color-palette-neutral-1000"
   },
   {
-    "name": "shadow-outer-dialog-3",
+    "name": "dialog-shadow-outer-3",
     "value": {
       "x": 0,
       "y": 4,
@@ -168,10 +136,34 @@
       "type": "dropShadow"
     },
     "description": "Drop shadow for dialogs 3",
-    "property": "outer",
+    "property": "shadow",
     "category": "boxShadow",
     "component": null,
     "referenceToken": "color-palette-neutral-1000"
+  },
+  {
+    "name": "dialog-shadow-outer-dialog-1",
+    "value": "0px 0px 64px 0px rgba(0, 0, 0, 0.25)",
+    "description": "Drop shadow for dialogs 1",
+    "property": "shadow",
+    "category": "boxShadow",
+    "component": null
+  },
+  {
+    "name": "dialog-shadow-outer-dialog-2",
+    "value": "0px 64px 64px 48px rgba(0, 0, 0, 0.12)",
+    "description": "Drop shadow for dialogs 2",
+    "property": "shadow",
+    "category": "boxShadow",
+    "component": null
+  },
+  {
+    "name": "dialog-shadow-outer-dialog-3",
+    "value": "0px 64px 64px 0px rgba(0, 0, 0, 0.2)",
+    "description": "Drop shadow for dialogs 3",
+    "property": "shadow",
+    "category": "boxShadow",
+    "component": null
   },
   {
     "name": "table-color-background-hover",
@@ -345,6 +337,102 @@
     "referenceToken": "color-palette-neutral-1000"
   },
   {
+    "name": "status-symbol-color-fill-critical",
+    "value": "#ff3838",
+    "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol"
+  },
+  {
+    "name": "status-symbol-color-fill-serious",
+    "value": "#ffb302",
+    "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention.",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol"
+  },
+  {
+    "name": "status-symbol-color-fill-caution",
+    "value": "#fce83a",
+    "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol"
+  },
+  {
+    "name": "status-symbol-color-fill-normal",
+    "value": "#56f000",
+    "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol"
+  },
+  {
+    "name": "status-symbol-color-fill-standby",
+    "value": "#2dccff",
+    "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol"
+  },
+  {
+    "name": "status-symbol-color-fill-off",
+    "value": "#a4abb6",
+    "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol"
+  },
+  {
+    "name": "status-symbol-color-border-critical",
+    "value": "#66110200",
+    "description": "The border color used for the Critical status symbol. Transparent in Dark Theme.",
+    "property": "border",
+    "category": "color",
+    "component": "status-symbol"
+  },
+  {
+    "name": "status-symbol-color-border-serious",
+    "value": "#66461800",
+    "description": "The border color used for the Serious status symbol. Transparent in Dark Theme.",
+    "property": "border",
+    "category": "color",
+    "component": "status-symbol"
+  },
+  {
+    "name": "status-symbol-color-border-caution",
+    "value": "#64560000",
+    "description": "The border color used for the Caution status symbol. Transparent in Dark Theme.",
+    "property": "border",
+    "category": "color",
+    "component": "status-symbol"
+  },
+  {
+    "name": "status-symbol-color-border-normal",
+    "value": "#005a0000",
+    "description": "The border color used for the Normal status symbol. Transparent in Dark Theme.",
+    "property": "border",
+    "category": "color",
+    "component": "status-symbol"
+  },
+  {
+    "name": "status-symbol-color-border-standby",
+    "value": "#28576600",
+    "description": "The border color used for the Standby status symbol. Transparent in Dark Theme.",
+    "property": "border",
+    "category": "color",
+    "component": "status-symbol"
+  },
+  {
+    "name": "status-symbol-color-border-off",
+    "value": "#3c3e4200",
+    "description": "The border color used for the Off status symbol. Transparent in Dark Theme.",
+    "property": "border",
+    "category": "color",
+    "component": "status-symbol"
+  },
+  {
     "name": "status-symbol-fill-critical",
     "value": "#ff2a04",
     "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
@@ -453,7 +541,7 @@
     "referenceToken": "color-palette-grey-800"
   },
   {
-    "name": "gsb-icon-fill",
+    "name": "gsb-icon-color-fill",
     "value": "#4dacff",
     "description": "The primary color used for interactive elements in the Global Status Bar.",
     "property": "icon",
@@ -517,6 +605,38 @@
     "property": "track",
     "category": "borderRadius",
     "component": "switch"
+  },
+  {
+    "name": "scrollbar-shadow-inner-vertical",
+    "value": {
+      "x": 3,
+      "y": 3,
+      "blur": 3,
+      "spread": 0,
+      "color": "rgba(#000000, 50%)",
+      "type": "innerShadow"
+    },
+    "description": "Inner shadow for vertical scrollbars",
+    "property": "shadow",
+    "category": "boxShadow",
+    "component": null,
+    "referenceToken": "color-palette-neutral-1000"
+  },
+  {
+    "name": "scrollbar-shadow-inner-horizontal",
+    "value": {
+      "x": 1,
+      "y": 3,
+      "blur": 3,
+      "spread": 0,
+      "color": "rgba(#000000,50%)",
+      "type": "innerShadow"
+    },
+    "description": "Inner shadow for horizontal scrollbars",
+    "property": "shadow",
+    "category": "boxShadow",
+    "component": null,
+    "referenceToken": "color-palette-neutral-1000"
   },
   {
     "name": "scrollbar-radius",

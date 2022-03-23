@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 23 Mar 2022 15:43:44 GMT
+ * Generated on Wed, 23 Mar 2022 17:02:09 GMT
  */
 
 .light-theme {
@@ -10,6 +10,18 @@
   --color-classification-secret: #c8102e;
   --color-classification-topsecret: #ff8c00;
   --color-classification-topsecretsci: #fce83a;
+  --status-symbol-color-border-off: #3c3e4200;
+  --status-symbol-color-border-standby: #28576600;
+  --status-symbol-color-border-normal: #005a0000;
+  --status-symbol-color-border-caution: #64560000;
+  --status-symbol-color-border-serious: #66461800;
+  --status-symbol-color-border-critical: #66110200;
+  --status-symbol-color-fill-off: #a4abb6;
+  --status-symbol-color-fill-standby: #2dccff;
+  --status-symbol-color-fill-normal: #56f000;
+  --status-symbol-color-fill-caution: #fce83a;
+  --status-symbol-color-fill-serious: #ffb302;
+  --status-symbol-color-fill-critical: #ff3838;
   --color-border-off: var(--color-palette-grey-500);
   --color-border-standby: var(--color-palette-cyan-500);
   --color-border-normal: var(--color-palette-green-500);
@@ -48,7 +60,7 @@
   --color-background-surface: var(--color-palette-neutral-000);
   --gsb-color-text: var(--color-palette-neutral-000);
   --gsb-color-background: var(--color-palette-darkblue-900);
-  --gsb-icon-fill: var(--color-palette-brightblue-500);
+  --gsb-icon-color-fill: var(--color-palette-brightblue-500);
   --status-symbol-border-off: var(--color-palette-grey-800);
   --status-symbol-border-standby: var(--color-palette-cyan-900);
   --status-symbol-border-normal: var(--color-palette-green-900);

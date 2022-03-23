@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 23 Mar 2022 15:43:44 GMT
+// Generated on Wed, 23 Mar 2022 17:02:09 GMT
 
 $opacity-12: 12%;
 $opacity-14: 14%;
@@ -8,19 +8,19 @@ $opacity-20: 20%;
 $opacity-25: 25%;
 $opacity-40: 40%;
 $opacity-50: 50%;
-$shadow-inner-scrollbar-vertical: [object Object];
-$shadow-inner-scrollbar-horizontal: [object Object];
-$shadow-inner-tag-normal: [object Object];
-$shadow-inner-tag-critical: [object Object];
-$shadow-inner-tag-off: [object Object];
-$shadow-outer-dialog-1: [object Object];
-$shadow-outer-dialog-2: [object Object];
-$shadow-outer-dialog-3: [object Object];
+$tag-shadow-inner-normal: 0px 0px 80px 0px rgb(86, 240, 0);
+$tag-shadow-inner-critical: 0px 0px 80px 0px rgb(255, 56, 56);
+$tag-shadow-inner-off: 0px 0px 80px 0px rgb(164, 171, 182);
+$dialog-shadow-outer-dialog-1: 0px 0px 64px 0px rgba(0, 0, 0, 0.25);
+$dialog-shadow-outer-dialog-2: 0px 64px 64px 48px rgba(0, 0, 0, 0.12);
+$dialog-shadow-outer-dialog-3: 0px 64px 64px 0px rgba(0, 0, 0, 0.2);
 $slider-radius-background-track: 1px;
 $checkbox-radius: 2px;
 $radio-radius-inner: 4px;
 $radio-radius-outer: 9px;
 $switch-radius-track: 10px;
+$scrollbar-shadow-inner-vertical: 48px 48px 48px 0px rgba(0, 0, 0, 0.5);
+$scrollbar-shadow-inner-horizontal: 16px 48px 48px 0px rgba(0, 0, 0, 0.5);
 $scrollbar-radius: 4px;
 $progress-radius-inner: 8px;
 $progress-radius-outer: 10px;

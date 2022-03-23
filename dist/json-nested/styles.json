@@ -7,33 +7,15 @@
     "40": "40%",
     "50": "50%"
   },
-  "shadow": {
-    "inner": {
-      "scrollbar": {
-        "vertical": {
-          "x": 3,
-          "y": 3,
-          "blur": 3,
-          "spread": 0,
-          "color": "rgba(#000000, 50%)",
-          "type": "innerShadow"
-        },
-        "horizontal": {
-          "x": 1,
-          "y": 3,
-          "blur": 3,
-          "spread": 0,
-          "color": "rgba(#000000,50%)",
-          "type": "innerShadow"
-        }
-      },
-      "tag": {
+  "tag": {
+    "shadow": {
+      "inner": {
         "normal": {
           "x": 0,
           "y": 0,
           "blur": 5,
           "spread": 0,
-          "color": "#00e200",
+          "color": "#56f000",
           "type": "innerShadow"
         },
         "critical": {
@@ -41,7 +23,7 @@
           "y": 0,
           "blur": 5,
           "spread": 0,
-          "color": "#ff2a04",
+          "color": "#ff3838",
           "type": "innerShadow"
         },
         "off": {
@@ -49,13 +31,15 @@
           "y": 0,
           "blur": 5,
           "spread": 0,
-          "color": "#7b8089",
+          "color": "#a4abb6",
           "type": "innerShadow"
         }
       }
-    },
-    "outer": {
-      "dialog": {
+    }
+  },
+  "dialog": {
+    "shadow": {
+      "outer": {
         "1": {
           "x": 0,
           "y": 0,
@@ -79,6 +63,11 @@
           "spread": 0,
           "color": "rgba(#000000, 20%)",
           "type": "dropShadow"
+        },
+        "dialog": {
+          "1": "0px 0px 64px 0px rgba(0, 0, 0, 0.25)",
+          "2": "0px 64px 64px 48px rgba(0, 0, 0, 0.12)",
+          "3": "0px 64px 64px 0px rgba(0, 0, 0, 0.2)"
         }
       }
     }
@@ -121,6 +110,24 @@
     }
   },
   "status-symbol": {
+    "color": {
+      "fill": {
+        "critical": "#ff3838",
+        "serious": "#ffb302",
+        "caution": "#fce83a",
+        "normal": "#56f000",
+        "standby": "#2dccff",
+        "off": "#a4abb6"
+      },
+      "border": {
+        "critical": "#66110200",
+        "serious": "#66461800",
+        "caution": "#64560000",
+        "normal": "#005a0000",
+        "standby": "#28576600",
+        "off": "#3c3e4200"
+      }
+    },
     "fill": {
       "critical": "#ff2a04",
       "serious": "#ffaf3d",
@@ -140,7 +147,9 @@
   },
   "gsb": {
     "icon": {
-      "fill": "#4dacff"
+      "color": {
+        "fill": "#4dacff"
+      }
     },
     "color": {
       "background": "#172635",
@@ -167,6 +176,26 @@
     }
   },
   "scrollbar": {
+    "shadow": {
+      "inner": {
+        "vertical": {
+          "x": 3,
+          "y": 3,
+          "blur": 3,
+          "spread": 0,
+          "color": "rgba(#000000, 50%)",
+          "type": "innerShadow"
+        },
+        "horizontal": {
+          "x": 1,
+          "y": 3,
+          "blur": 3,
+          "spread": 0,
+          "color": "rgba(#000000,50%)",
+          "type": "innerShadow"
+        }
+      }
+    },
     "radius": "4px"
   },
   "progress": {

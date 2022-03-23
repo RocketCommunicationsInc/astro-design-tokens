@@ -1,7 +1,7 @@
 {
-  "shadow": {
-    "inner": {
-      "scrollbar": {
+  "scrollbar": {
+    "shadow": {
+      "inner": {
         "vertical": {
           "value": {
             "x": 3,
@@ -26,15 +26,19 @@
           "description": "Inner shadow for horizontal scrollbars",
           "type": "boxShadow"
         }
-      },
-      "tag": {
+      }
+    }
+  },
+  "tag": {
+    "shadow": {
+      "inner": {
         "normal": {
           "value": {
             "x": 0,
             "y": 0,
             "blur": 5,
             "spread": 0,
-            "color": "{color.palette.green.600}",
+            "color": "{status-symbol.color.fill.normal}",
             "type": "innerShadow"
           },
           "description": "Inner shadow for normal status Tags",
@@ -46,7 +50,7 @@
             "y": 0,
             "blur": 5,
             "spread": 0,
-            "color": "{color.palette.red.600}",
+            "color": "{status-symbol.color.fill.critical}",
             "type": "innerShadow"
           },
           "description": "Inner shadow for critical status Tags",
@@ -58,16 +62,18 @@
             "y": 0,
             "blur": 5,
             "spread": 0,
-            "color": "{color.palette.grey.600}",
+            "color": "{status-symbol.color.fill.off}",
             "type": "innerShadow"
           },
           "description": "Inner shadow for off status Tags",
           "type": "boxShadow"
         }
       }
-    },
-    "outer": {
-      "dialog": {
+    }
+  },
+  "dialog": {
+    "shadow": {
+      "outer": {
         "1": {
           "value": {
             "x": 0,
@@ -319,11 +325,13 @@
   },
   "gsb": {
     "icon": {
-      "fill": {
-        "value": "{color.palette.brightblue.500}",
-        "type": "color",
-        "description": "The primary color used for interactive elements in the Global Status Bar.",
-        "failedToResolve": true
+      "color": {
+        "fill": {
+          "value": "{color.palette.brightblue.500}",
+          "type": "color",
+          "description": "The primary color used for interactive elements in the Global Status Bar.",
+          "failedToResolve": true
+        }
       }
     },
     "color": {
