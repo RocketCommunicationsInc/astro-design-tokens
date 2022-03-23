@@ -1,8 +1,14 @@
 
 // Do not edit directly
-// Generated on Wed, 23 Mar 2022 17:32:01 GMT
+// Generated on Wed, 23 Mar 2022 18:31:08 GMT
 
 $table-color-background-hover: #142435;
+$classification-banner-color-text-unclassified: #ffffff;
+$classification-banner-color-text-cui: #ffffff;
+$classification-banner-color-text-confidential: #ffffff;
+$classification-banner-color-text-secret: #ffffff;
+$classification-banner-color-text-top-secret: #000000;
+$classification-banner-color-text-top-secret-sci: #000000;
 $notification-banner-icon-fill-critical: #8b1703;
 $notification-banner-icon-fill-serious: #975f0e;
 $notification-banner-icon-fill-caution: #917d01;
@@ -15,12 +21,7 @@ $notification-banner-color-background-caution: #fded61;
 $notification-banner-color-background-normal: #99f666;
 $notification-banner-color-background-standby: #5ce2ff;
 $notification-banner-color-background-off: #bbc1c9;
-$notification-banner-color-text-critical: #000000;
-$notification-banner-color-text-serious: #000000;
-$notification-banner-color-text-caution: #000000;
-$notification-banner-color-text-normal: #000000;
-$notification-banner-color-text-standby: #000000;
-$notification-banner-color-text-off: #000000;
+$notification-banner-color-text: #000000;
 $status-symbol-color-fill-critical: #ff3838;
 $status-symbol-color-fill-serious: #ffb302;
 $status-symbol-color-fill-caution: #fce83a;
@@ -49,7 +50,6 @@ $color-background-surface-selected: #1c3f5e;
 $color-background-surface-hover: #1c3851;
 $color-background-interactive-default: #4dacff;
 $color-background-interactive-hover: #92cbff;
-$color-background-muted: #2b659b;
 $color-background-critical: #ff5f60;
 $color-background-serious: #ffcc57;
 $color-background-caution: #fded61;
@@ -62,7 +62,6 @@ $color-text-placeholder: #a4abb6;
 $color-text-inverse: #080c11;
 $color-text-interactive-default: #4dacff;
 $color-text-interactive-hover: #92cbff;
-$color-text-muted: #2b659b;
 $color-text-critical: #ff3838;
 $color-text-serious: #ffb302;
 $color-text-caution: #fce83a;
@@ -78,3 +77,4 @@ $color-border-caution: #fce83a;
 $color-border-normal: #56f000;
 $color-border-standby: #64d9ff;
 $color-border-off: #a4abb6;
+$color-fill-muted: #2b659b;

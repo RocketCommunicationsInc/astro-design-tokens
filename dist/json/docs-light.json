@@ -142,30 +142,6 @@
     "referenceToken": "color-palette-neutral-1000"
   },
   {
-    "name": "dialog-shadow-outer-dialog-1",
-    "value": "0px 0px 4px 0px rgba(0, 0, 0, 0.25)",
-    "description": "Drop shadow for dialogs 1",
-    "property": "outer",
-    "category": "boxShadow",
-    "component": "dialog"
-  },
-  {
-    "name": "dialog-shadow-outer-dialog-2",
-    "value": "0px 4px 4px 3px rgba(0, 0, 0, 0.12)",
-    "description": "Drop shadow for dialogs 2",
-    "property": "outer",
-    "category": "boxShadow",
-    "component": "dialog"
-  },
-  {
-    "name": "dialog-shadow-outer-dialog-3",
-    "value": "0px 4px 4px 0px rgba(0, 0, 0, 0.2)",
-    "description": "Drop shadow for dialogs 3",
-    "property": "outer",
-    "category": "boxShadow",
-    "component": "dialog"
-  },
-  {
     "name": "table-color-background-hover",
     "value": "#142435",
     "description": "the table row background hover color",
@@ -173,6 +149,54 @@
     "category": "color",
     "component": "table",
     "referenceToken": "color-palette-brightblue-850"
+  },
+  {
+    "name": "classification-banner-color-text-unclassified",
+    "value": "#ffffff",
+    "description": "The color used for the text on Unclassified classification banners.",
+    "property": "text",
+    "category": "color",
+    "component": "classification-banner"
+  },
+  {
+    "name": "classification-banner-color-text-cui",
+    "value": "#ffffff",
+    "description": "The color used for the text on CUI classification banners.",
+    "property": "text",
+    "category": "color",
+    "component": "classification-banner"
+  },
+  {
+    "name": "classification-banner-color-text-confidential",
+    "value": "#ffffff",
+    "description": "The color used for the text on Confidential classification banners.",
+    "property": "text",
+    "category": "color",
+    "component": "classification-banner"
+  },
+  {
+    "name": "classification-banner-color-text-secret",
+    "value": "#ffffff",
+    "description": "The color used for the text on Secret classification banners.",
+    "property": "text",
+    "category": "color",
+    "component": "classification-banner"
+  },
+  {
+    "name": "classification-banner-color-text-top-secret",
+    "value": "#000000",
+    "description": "The color used for the text on Top Secret classification banners.",
+    "property": "text",
+    "category": "color",
+    "component": "classification-banner"
+  },
+  {
+    "name": "classification-banner-color-text-top-secret-sci",
+    "value": "#000000",
+    "description": "The color used for the text on Top Secret//SCI classification banners.",
+    "property": "text",
+    "category": "color",
+    "component": "classification-banner"
   },
   {
     "name": "notification-banner-icon-fill-critical",
@@ -283,58 +307,12 @@
     "referenceToken": "color-palette-grey-400"
   },
   {
-    "name": "notification-banner-color-text-critical",
+    "name": "notification-banner-color-text",
     "value": "#000000",
-    "description": "The color used for the text on Critical status banners.",
+    "description": "The color used for the text on notification banners.",
     "property": "text",
     "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "notification-banner-color-text-serious",
-    "value": "#000000",
-    "description": "The color used for the text on Serious status banners.",
-    "property": "text",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "notification-banner-color-text-caution",
-    "value": "#000000",
-    "description": "The color used for the text on Caution status banners.",
-    "property": "text",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "notification-banner-color-text-normal",
-    "value": "#000000",
-    "description": "The color used for the text on Normal status banners.",
-    "property": "text",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "notification-banner-color-text-standby",
-    "value": "#000000",
-    "description": "The color used for the text on Standby status banners.",
-    "property": "text",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "notification-banner-color-text-off",
-    "value": "#000000",
-    "description": "The color used for the text on Off status banners.",
-    "property": "text",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-palette-neutral-1000"
+    "component": "notification-banner"
   },
   {
     "name": "status-symbol-color-fill-critical",
@@ -1504,15 +1482,6 @@
     "referenceToken": "color-palette-darkblue-600"
   },
   {
-    "name": "color-background-muted",
-    "value": "#b7dcff",
-    "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-300"
-  },
-  {
     "name": "color-background-critical",
     "value": "#ff5f60",
     "description": "Used to represent the Critical Status.",
@@ -1619,15 +1588,6 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-darkblue-600"
-  },
-  {
-    "name": "color-text-muted",
-    "value": "#b7dcff",
-    "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-300"
   },
   {
     "name": "color-text-critical",
@@ -1763,6 +1723,15 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-grey-500"
+  },
+  {
+    "name": "color-fill-muted",
+    "value": "#b7dcff",
+    "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
+    "property": "fill",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-300"
   },
   {
     "name": "radius-base",

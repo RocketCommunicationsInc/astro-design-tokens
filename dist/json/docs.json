@@ -70,7 +70,7 @@
     "component": "tag"
   },
   {
-    "name": "dialog-shadow-outer-dialog-1",
+    "name": "dialog-shadow-outer-1",
     "value": "0px 0px 4px 0px rgba(0, 0, 0, 0.25)",
     "description": "Drop shadow for dialogs 1",
     "property": "outer",
@@ -78,7 +78,7 @@
     "component": "dialog"
   },
   {
-    "name": "dialog-shadow-outer-dialog-2",
+    "name": "dialog-shadow-outer-2",
     "value": "0px 4px 4px 3px rgba(0, 0, 0, 0.12)",
     "description": "Drop shadow for dialogs 2",
     "property": "outer",
@@ -86,7 +86,7 @@
     "component": "dialog"
   },
   {
-    "name": "dialog-shadow-outer-dialog-3",
+    "name": "dialog-shadow-outer-3",
     "value": "0px 4px 4px 0px rgba(0, 0, 0, 0.2)",
     "description": "Drop shadow for dialogs 3",
     "property": "outer",
@@ -100,6 +100,54 @@
     "property": "background",
     "category": "color",
     "component": "table"
+  },
+  {
+    "name": "classification-banner-color-text-unclassified",
+    "value": "#ffffff",
+    "description": "The color used for the text on Unclassified classification banners.",
+    "property": "text",
+    "category": "color",
+    "component": "classification-banner"
+  },
+  {
+    "name": "classification-banner-color-text-cui",
+    "value": "#ffffff",
+    "description": "The color used for the text on CUI classification banners.",
+    "property": "text",
+    "category": "color",
+    "component": "classification-banner"
+  },
+  {
+    "name": "classification-banner-color-text-confidential",
+    "value": "#ffffff",
+    "description": "The color used for the text on Confidential classification banners.",
+    "property": "text",
+    "category": "color",
+    "component": "classification-banner"
+  },
+  {
+    "name": "classification-banner-color-text-secret",
+    "value": "#ffffff",
+    "description": "The color used for the text on Secret classification banners.",
+    "property": "text",
+    "category": "color",
+    "component": "classification-banner"
+  },
+  {
+    "name": "classification-banner-color-text-top-secret",
+    "value": "#000000",
+    "description": "The color used for the text on Top Secret classification banners.",
+    "property": "text",
+    "category": "color",
+    "component": "classification-banner"
+  },
+  {
+    "name": "classification-banner-color-text-top-secret-sci",
+    "value": "#000000",
+    "description": "The color used for the text on Top Secret//SCI classification banners.",
+    "property": "text",
+    "category": "color",
+    "component": "classification-banner"
   },
   {
     "name": "notification-banner-icon-fill-critical",
@@ -198,49 +246,9 @@
     "component": "notification-banner"
   },
   {
-    "name": "notification-banner-color-text-critical",
+    "name": "notification-banner-color-text",
     "value": "#000000",
-    "description": "The color used for the text on Critical status banners.",
-    "property": "text",
-    "category": "color",
-    "component": "notification-banner"
-  },
-  {
-    "name": "notification-banner-color-text-serious",
-    "value": "#000000",
-    "description": "The color used for the text on Serious status banners.",
-    "property": "text",
-    "category": "color",
-    "component": "notification-banner"
-  },
-  {
-    "name": "notification-banner-color-text-caution",
-    "value": "#000000",
-    "description": "The color used for the text on Caution status banners.",
-    "property": "text",
-    "category": "color",
-    "component": "notification-banner"
-  },
-  {
-    "name": "notification-banner-color-text-normal",
-    "value": "#000000",
-    "description": "The color used for the text on Normal status banners.",
-    "property": "text",
-    "category": "color",
-    "component": "notification-banner"
-  },
-  {
-    "name": "notification-banner-color-text-standby",
-    "value": "#000000",
-    "description": "The color used for the text on Standby status banners.",
-    "property": "text",
-    "category": "color",
-    "component": "notification-banner"
-  },
-  {
-    "name": "notification-banner-color-text-off",
-    "value": "#000000",
-    "description": "The color used for the text on Off status banners.",
+    "description": "The color used for the text on notification banners.",
     "property": "text",
     "category": "color",
     "component": "notification-banner"
@@ -1279,14 +1287,6 @@
     "component": null
   },
   {
-    "name": "color-background-muted",
-    "value": "#2b659b",
-    "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
-    "property": "background",
-    "category": "color",
-    "component": null
-  },
-  {
     "name": "color-background-critical",
     "value": "#ff5f60",
     "description": "Used to represent the Critical Status.",
@@ -1378,14 +1378,6 @@
     "name": "color-text-interactive-hover",
     "value": "#92cbff",
     "description": "The hover color used for interactive elements.",
-    "property": "text",
-    "category": "color",
-    "component": null
-  },
-  {
-    "name": "color-text-muted",
-    "value": "#2b659b",
-    "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
     "property": "text",
     "category": "color",
     "component": null
@@ -1507,6 +1499,14 @@
     "value": "#a4abb6",
     "description": "Used to represent the Off Status.",
     "property": "border",
+    "category": "color",
+    "component": null
+  },
+  {
+    "name": "color-fill-muted",
+    "value": "#2b659b",
+    "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
+    "property": "fill",
     "category": "color",
     "component": null
   },

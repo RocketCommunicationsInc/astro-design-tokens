@@ -63,11 +63,6 @@
           "spread": 0,
           "color": "rgba(#000000, 20%)",
           "type": "dropShadow"
-        },
-        "dialog": {
-          "1": "0px 0px 4px 0px rgba(0, 0, 0, 0.25)",
-          "2": "0px 4px 4px 3px rgba(0, 0, 0, 0.12)",
-          "3": "0px 4px 4px 0px rgba(0, 0, 0, 0.2)"
         }
       }
     }
@@ -76,6 +71,18 @@
     "color": {
       "background": {
         "hover": "#142435"
+      }
+    }
+  },
+  "classification-banner": {
+    "color": {
+      "text": {
+        "unclassified": "#ffffff",
+        "cui": "#ffffff",
+        "confidential": "#ffffff",
+        "secret": "#ffffff",
+        "top-secret": "#000000",
+        "top-secret-sci": "#000000"
       }
     }
   },
@@ -99,14 +106,7 @@
         "standby": "#5ce2ff",
         "off": "#bbc1c9"
       },
-      "text": {
-        "critical": "#000000",
-        "serious": "#000000",
-        "caution": "#000000",
-        "normal": "#000000",
-        "standby": "#000000",
-        "off": "#000000"
-      }
+      "text": "#000000"
     }
   },
   "status-symbol": {
@@ -361,7 +361,6 @@
         "default": "#005a8f",
         "hover": "#004872"
       },
-      "muted": "#b7dcff",
       "critical": "#ff5f60",
       "serious": "#ffcc57",
       "caution": "#fded61",
@@ -378,7 +377,6 @@
         "default": "#005a8f",
         "hover": "#004872"
       },
-      "muted": "#b7dcff",
       "critical": "#ff3838",
       "serious": "#ffb302",
       "caution": "#fce83a",
@@ -398,6 +396,9 @@
       "normal": "#56f000",
       "standby": "#64d9ff",
       "off": "#a4abb6"
+    },
+    "fill": {
+      "muted": "#b7dcff"
     }
   },
   "radius": {

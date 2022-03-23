@@ -15,6 +15,9 @@ import ClassificationColors from '../components/ClassificationColors.vue'
 ### Border
 <SystemColors type="border"/>
 
+### Fill
+<SystemColors type="fill"/>
+
 ### ----
 
 ### Classification

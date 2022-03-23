@@ -204,44 +204,6 @@
           "description": "The color used for the background on Off status banners.",
           "failedToResolve": true
         }
-      },
-      "text": {
-        "critical": {
-          "value": "{color.palette.neutral.1000}",
-          "type": "color",
-          "description": "The color used for the text on Critical status banners.",
-          "failedToResolve": true
-        },
-        "serious": {
-          "value": "{color.palette.neutral.1000}",
-          "type": "color",
-          "description": "The color used for the text on Serious status banners.",
-          "failedToResolve": true
-        },
-        "caution": {
-          "value": "{color.palette.neutral.1000}",
-          "type": "color",
-          "description": "The color used for the text on Caution status banners.",
-          "failedToResolve": true
-        },
-        "normal": {
-          "value": "{color.palette.neutral.1000}",
-          "type": "color",
-          "description": "The color used for the text on Normal status banners.",
-          "failedToResolve": true
-        },
-        "standby": {
-          "value": "{color.palette.neutral.1000}",
-          "type": "color",
-          "description": "The color used for the text on Standby status banners.",
-          "failedToResolve": true
-        },
-        "off": {
-          "value": "{color.palette.neutral.1000}",
-          "type": "color",
-          "description": "The color used for the text on Off status banners.",
-          "failedToResolve": true
-        }
       }
     }
   },
@@ -395,12 +357,6 @@
           "failedToResolve": true
         }
       },
-      "muted": {
-        "value": "{color.palette.brightblue.300}",
-        "type": "color",
-        "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
-        "failedToResolve": true
-      },
       "critical": {
         "value": "{color.palette.red.400}",
         "type": "color",
@@ -476,12 +432,6 @@
           "description": "The hover color used for interactive elements.",
           "failedToResolve": true
         }
-      },
-      "muted": {
-        "value": "{color.palette.brightblue.300}",
-        "type": "color",
-        "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
-        "failedToResolve": true
       },
       "critical": {
         "value": "{color.palette.red.500}",
@@ -575,6 +525,14 @@
         "value": "{color.palette.grey.500}",
         "type": "color",
         "description": "Used to represent the Off Status.",
+        "failedToResolve": true
+      }
+    },
+    "fill": {
+      "muted": {
+        "value": "{color.palette.brightblue.300}",
+        "type": "color",
+        "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
         "failedToResolve": true
       }
     }
