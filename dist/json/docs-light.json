@@ -56,9 +56,9 @@
       "type": "innerShadow"
     },
     "description": "Inner shadow for normal status Tags",
-    "property": "shadow",
+    "property": "inner",
     "category": "boxShadow",
-    "component": null,
+    "component": "tag",
     "referenceToken": "status-symbol-color-fill-normal"
   },
   {
@@ -72,9 +72,9 @@
       "type": "innerShadow"
     },
     "description": "Inner shadow for critical status Tags",
-    "property": "shadow",
+    "property": "inner",
     "category": "boxShadow",
-    "component": null,
+    "component": "tag",
     "referenceToken": "status-symbol-color-fill-critical"
   },
   {
@@ -88,9 +88,9 @@
       "type": "innerShadow"
     },
     "description": "Inner shadow for off status Tags",
-    "property": "shadow",
+    "property": "inner",
     "category": "boxShadow",
-    "component": null,
+    "component": "tag",
     "referenceToken": "status-symbol-color-fill-off"
   },
   {
@@ -104,9 +104,9 @@
       "type": "dropShadow"
     },
     "description": "Drop shadow for dialogs 1",
-    "property": "shadow",
+    "property": "outer",
     "category": "boxShadow",
-    "component": null,
+    "component": "dialog",
     "referenceToken": "color-palette-neutral-1000"
   },
   {
@@ -120,9 +120,9 @@
       "type": "dropShadow"
     },
     "description": "Drop shadow for dialogs 2",
-    "property": "shadow",
+    "property": "outer",
     "category": "boxShadow",
-    "component": null,
+    "component": "dialog",
     "referenceToken": "color-palette-neutral-1000"
   },
   {
@@ -136,34 +136,34 @@
       "type": "dropShadow"
     },
     "description": "Drop shadow for dialogs 3",
-    "property": "shadow",
+    "property": "outer",
     "category": "boxShadow",
-    "component": null,
+    "component": "dialog",
     "referenceToken": "color-palette-neutral-1000"
   },
   {
     "name": "dialog-shadow-outer-dialog-1",
-    "value": "0px 0px 64px 0px rgba(0, 0, 0, 0.25)",
+    "value": "0px 0px 4px 0px rgba(0, 0, 0, 0.25)",
     "description": "Drop shadow for dialogs 1",
-    "property": "shadow",
+    "property": "outer",
     "category": "boxShadow",
-    "component": null
+    "component": "dialog"
   },
   {
     "name": "dialog-shadow-outer-dialog-2",
-    "value": "0px 64px 64px 48px rgba(0, 0, 0, 0.12)",
+    "value": "0px 4px 4px 3px rgba(0, 0, 0, 0.12)",
     "description": "Drop shadow for dialogs 2",
-    "property": "shadow",
+    "property": "outer",
     "category": "boxShadow",
-    "component": null
+    "component": "dialog"
   },
   {
     "name": "dialog-shadow-outer-dialog-3",
-    "value": "0px 64px 64px 0px rgba(0, 0, 0, 0.2)",
+    "value": "0px 4px 4px 0px rgba(0, 0, 0, 0.2)",
     "description": "Drop shadow for dialogs 3",
-    "property": "shadow",
+    "property": "outer",
     "category": "boxShadow",
-    "component": null
+    "component": "dialog"
   },
   {
     "name": "table-color-background-hover",
@@ -617,9 +617,9 @@
       "type": "innerShadow"
     },
     "description": "Inner shadow for vertical scrollbars",
-    "property": "shadow",
+    "property": "inner",
     "category": "boxShadow",
-    "component": null,
+    "component": "scrollbar",
     "referenceToken": "color-palette-neutral-1000"
   },
   {
@@ -633,9 +633,9 @@
       "type": "innerShadow"
     },
     "description": "Inner shadow for horizontal scrollbars",
-    "property": "shadow",
+    "property": "inner",
     "category": "boxShadow",
-    "component": null,
+    "component": "scrollbar",
     "referenceToken": "color-palette-neutral-1000"
   },
   {

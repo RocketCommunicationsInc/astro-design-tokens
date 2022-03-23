@@ -47,51 +47,51 @@
   },
   {
     "name": "tag-shadow-inner-normal",
-    "value": "0px 0px 80px 0px rgb(86, 240, 0)",
+    "value": "0px 0px 5px 0px rgb(86, 240, 0)",
     "description": "Inner shadow for normal status Tags",
-    "property": "shadow",
+    "property": "inner",
     "category": "boxShadow",
-    "component": null
+    "component": "tag"
   },
   {
     "name": "tag-shadow-inner-critical",
-    "value": "0px 0px 80px 0px rgb(255, 56, 56)",
+    "value": "0px 0px 5px 0px rgb(255, 56, 56)",
     "description": "Inner shadow for critical status Tags",
-    "property": "shadow",
+    "property": "inner",
     "category": "boxShadow",
-    "component": null
+    "component": "tag"
   },
   {
     "name": "tag-shadow-inner-off",
-    "value": "0px 0px 80px 0px rgb(164, 171, 182)",
+    "value": "0px 0px 5px 0px rgb(164, 171, 182)",
     "description": "Inner shadow for off status Tags",
-    "property": "shadow",
+    "property": "inner",
     "category": "boxShadow",
-    "component": null
+    "component": "tag"
   },
   {
     "name": "dialog-shadow-outer-dialog-1",
-    "value": "0px 0px 64px 0px rgba(0, 0, 0, 0.25)",
+    "value": "0px 0px 4px 0px rgba(0, 0, 0, 0.25)",
     "description": "Drop shadow for dialogs 1",
-    "property": "shadow",
+    "property": "outer",
     "category": "boxShadow",
-    "component": null
+    "component": "dialog"
   },
   {
     "name": "dialog-shadow-outer-dialog-2",
-    "value": "0px 64px 64px 48px rgba(0, 0, 0, 0.12)",
+    "value": "0px 4px 4px 3px rgba(0, 0, 0, 0.12)",
     "description": "Drop shadow for dialogs 2",
-    "property": "shadow",
+    "property": "outer",
     "category": "boxShadow",
-    "component": null
+    "component": "dialog"
   },
   {
     "name": "dialog-shadow-outer-dialog-3",
-    "value": "0px 64px 64px 0px rgba(0, 0, 0, 0.2)",
+    "value": "0px 4px 4px 0px rgba(0, 0, 0, 0.2)",
     "description": "Drop shadow for dialogs 3",
-    "property": "shadow",
+    "property": "outer",
     "category": "boxShadow",
-    "component": null
+    "component": "dialog"
   },
   {
     "name": "table-color-background-hover",
@@ -406,19 +406,19 @@
   },
   {
     "name": "scrollbar-shadow-inner-vertical",
-    "value": "48px 48px 48px 0px rgba(0, 0, 0, 0.5)",
+    "value": "3px 3px 3px 0px rgba(0, 0, 0, 0.5)",
     "description": "Inner shadow for vertical scrollbars",
-    "property": "shadow",
+    "property": "inner",
     "category": "boxShadow",
-    "component": null
+    "component": "scrollbar"
   },
   {
     "name": "scrollbar-shadow-inner-horizontal",
-    "value": "16px 48px 48px 0px rgba(0, 0, 0, 0.5)",
+    "value": "1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
     "description": "Inner shadow for horizontal scrollbars",
-    "property": "shadow",
+    "property": "inner",
     "category": "boxShadow",
-    "component": null
+    "component": "scrollbar"
   },
   {
     "name": "scrollbar-radius",

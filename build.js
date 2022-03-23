@@ -62,9 +62,10 @@ const webShadowTransformer = (prop) => {
     spread,
   } = prop.original.value;
 
-  return `${toPx(x)} ${toPx(y)} ${toPx(blur)} ${toPx(
-    spread
-  )} ${Color(color).toRgbString()}`;
+  // return `${toPx(x)} ${toPx(y)} ${toPx(blur)} ${toPx(
+  //   spread
+  // )} ${Color(color).toRgbString()}`;
+    return `${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
 };
 
 
@@ -254,6 +255,7 @@ StyleDictionary.registerFormat({
     dictionary.allProperties = dictionary.allProperties.map((token) => {
       // console.log(token);
 
+      let category = token.type
       let type = token.attributes.type
       if (token.attributes.type === 'color') {
         type = token.attributes.item
@@ -273,6 +275,12 @@ StyleDictionary.registerFormat({
         type = token.attributes.item
       }
 
+      if (token.type === 'boxShadow') {
+        console.log(token);
+        component = token.attributes.category
+        type = token.attributes.item
+      }
+
 
       let refValue
       const refs = dictionary.getReferences(token.original.value)[0]
@@ -284,7 +292,7 @@ StyleDictionary.registerFormat({
           value: token.value,
           description: token.description,
           property: type,
-          category: token.type,
+          category: category,
           component: component,
           referenceToken: refValue
       }

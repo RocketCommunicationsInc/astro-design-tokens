@@ -25,6 +25,9 @@ import DesignTokenPreview from '../components/DesignTokenPreview.vue'
 ## Checkbox
 <ComponentNotificationBanner component="checkbox"/>
 
+## Tag
+<ComponentNotificationBanner component="tag"/>
+
 ## Scrollbar
 <ComponentNotificationBanner component="scrollbar"/>
 
@@ -36,3 +39,6 @@ import DesignTokenPreview from '../components/DesignTokenPreview.vue'
 
 ## Table
 <ComponentNotificationBanner component="table"/>
+
+## Dialog
+<ComponentNotificationBanner component="dialog"/>
