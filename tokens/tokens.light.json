@@ -1,4 +1,112 @@
 {
+  "shadow": {
+    "inner": {
+      "scrollbar": {
+        "vertical": {
+          "value": {
+            "x": 3,
+            "y": 3,
+            "blur": 3,
+            "spread": 0,
+            "color": "rgba({color.palette.neutral.1000}, {opacity.50})",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for vertical scrollbars",
+          "type": "boxShadow"
+        },
+        "horizontal": {
+          "value": {
+            "x": 1,
+            "y": 3,
+            "blur": 3,
+            "spread": 0,
+            "color": "rgba({color.palette.neutral.1000},{opacity.50})",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for horizontal scrollbars",
+          "type": "boxShadow"
+        }
+      },
+      "tag": {
+        "normal": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "{color.palette.green.600}",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for normal status Tags",
+          "type": "boxShadow"
+        },
+        "critical": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "{color.palette.red.600}",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for critical status Tags",
+          "type": "boxShadow"
+        },
+        "off": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "{color.palette.grey.600}",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for off status Tags",
+          "type": "boxShadow"
+        }
+      }
+    },
+    "outer": {
+      "dialog": {
+        "1": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 4,
+            "spread": 0,
+            "color": "rgba({color.palette.neutral.1000}, {opacity.25})",
+            "type": "dropShadow"
+          },
+          "description": "Drop shadow for dialogs 1",
+          "type": "boxShadow"
+        },
+        "2": {
+          "value": {
+            "x": 0,
+            "y": 4,
+            "blur": 4,
+            "spread": 3,
+            "color": "rgba({color.palette.neutral.1000}, {opacity.12})",
+            "type": "dropShadow"
+          },
+          "description": "Drop shadow for dialogs 2",
+          "type": "boxShadow"
+        },
+        "3": {
+          "value": {
+            "x": 0,
+            "y": 4,
+            "blur": 4,
+            "spread": 0,
+            "color": "rgba({color.palette.neutral.1000}, {opacity.20})",
+            "type": "dropShadow"
+          },
+          "description": "Drop shadow for dialogs 3",
+          "type": "boxShadow"
+        }
+      }
+    }
+  },
   "table": {
     "color": {
       "background": {

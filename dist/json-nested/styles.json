@@ -1,5 +1,88 @@
 {
-  "opacity-40": "40%",
+  "opacity": {
+    "12": "12%",
+    "14": "14%",
+    "20": "20%",
+    "25": "25%",
+    "40": "40%",
+    "50": "50%"
+  },
+  "shadow": {
+    "inner": {
+      "scrollbar": {
+        "vertical": {
+          "x": 3,
+          "y": 3,
+          "blur": 3,
+          "spread": 0,
+          "color": "rgba(#000000, 50%)",
+          "type": "innerShadow"
+        },
+        "horizontal": {
+          "x": 1,
+          "y": 3,
+          "blur": 3,
+          "spread": 0,
+          "color": "rgba(#000000,50%)",
+          "type": "innerShadow"
+        }
+      },
+      "tag": {
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "blur": 5,
+          "spread": 0,
+          "color": "#00e200",
+          "type": "innerShadow"
+        },
+        "critical": {
+          "x": 0,
+          "y": 0,
+          "blur": 5,
+          "spread": 0,
+          "color": "#ff2a04",
+          "type": "innerShadow"
+        },
+        "off": {
+          "x": 0,
+          "y": 0,
+          "blur": 5,
+          "spread": 0,
+          "color": "#7b8089",
+          "type": "innerShadow"
+        }
+      }
+    },
+    "outer": {
+      "dialog": {
+        "1": {
+          "x": 0,
+          "y": 0,
+          "blur": 4,
+          "spread": 0,
+          "color": "rgba(#000000, 25%)",
+          "type": "dropShadow"
+        },
+        "2": {
+          "x": 0,
+          "y": 4,
+          "blur": 4,
+          "spread": 3,
+          "color": "rgba(#000000, 12%)",
+          "type": "dropShadow"
+        },
+        "3": {
+          "x": 0,
+          "y": 4,
+          "blur": 4,
+          "spread": 0,
+          "color": "rgba(#000000, 20%)",
+          "type": "dropShadow"
+        }
+      }
+    }
+  },
   "table": {
     "color": {
       "background": {

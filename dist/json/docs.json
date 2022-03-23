@@ -1,8 +1,169 @@
 [
   {
+    "name": "opacity-12",
+    "value": "12%",
+    "description": "dialog-shadow-2",
+    "property": "12",
+    "category": "opacity",
+    "component": null
+  },
+  {
+    "name": "opacity-14",
+    "value": "14%",
+    "description": "dialog shadow 1 light",
+    "property": "14",
+    "category": "opacity",
+    "component": null
+  },
+  {
+    "name": "opacity-20",
+    "value": "20%",
+    "description": "dialog-shadow-3",
+    "property": "20",
+    "category": "opacity",
+    "component": null
+  },
+  {
+    "name": "opacity-25",
+    "value": "25%",
+    "description": "dialog-shadow-1",
+    "property": "25",
+    "category": "opacity",
+    "component": null
+  },
+  {
     "name": "opacity-40",
     "value": "40%",
+    "property": "40",
     "category": "opacity",
+    "component": null
+  },
+  {
+    "name": "opacity-50",
+    "value": "50%",
+    "property": "50",
+    "category": "opacity",
+    "component": null
+  },
+  {
+    "name": "shadow-inner-scrollbar-vertical",
+    "value": {
+      "x": 3,
+      "y": 3,
+      "blur": 3,
+      "spread": 0,
+      "color": "#00000080",
+      "type": "innerShadow"
+    },
+    "description": "Inner shadow for vertical scrollbars",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": null
+  },
+  {
+    "name": "shadow-inner-scrollbar-horizontal",
+    "value": {
+      "x": 1,
+      "y": 3,
+      "blur": 3,
+      "spread": 0,
+      "color": "rgba(#000000,50%)",
+      "type": "innerShadow"
+    },
+    "description": "Inner shadow for horizontal scrollbars",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": null,
+    "referenceToken": "color-palette-neutral-1000"
+  },
+  {
+    "name": "shadow-inner-tag-normal",
+    "value": {
+      "x": 0,
+      "y": 0,
+      "blur": 5,
+      "spread": 0,
+      "color": "#56f000",
+      "type": "innerShadow"
+    },
+    "description": "Inner shadow for normal status Tags",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": null
+  },
+  {
+    "name": "shadow-inner-tag-critical",
+    "value": {
+      "x": 0,
+      "y": 0,
+      "blur": 5,
+      "spread": 0,
+      "color": "#ff3838",
+      "type": "innerShadow"
+    },
+    "description": "Inner shadow for critical status Tags",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": null
+  },
+  {
+    "name": "shadow-inner-tag-off",
+    "value": {
+      "x": 0,
+      "y": 0,
+      "blur": 5,
+      "spread": 0,
+      "color": "#a4abb6",
+      "type": "innerShadow"
+    },
+    "description": "Inner shadow for off status Tags",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": null
+  },
+  {
+    "name": "shadow-outer-dialog-1",
+    "value": {
+      "x": 0,
+      "y": 0,
+      "blur": 4,
+      "spread": 0,
+      "color": "#00000040",
+      "type": "dropShadow"
+    },
+    "description": "Drop shadow for dialogs 1",
+    "property": "outer",
+    "category": "boxShadow",
+    "component": null
+  },
+  {
+    "name": "shadow-outer-dialog-2",
+    "value": {
+      "x": 0,
+      "y": 4,
+      "blur": 4,
+      "spread": 3,
+      "color": "#0000001f",
+      "type": "dropShadow"
+    },
+    "description": "Drop shadow for dialogs 2",
+    "property": "outer",
+    "category": "boxShadow",
+    "component": null
+  },
+  {
+    "name": "shadow-outer-dialog-3",
+    "value": {
+      "x": 0,
+      "y": 4,
+      "blur": 4,
+      "spread": 0,
+      "color": "#00000033",
+      "type": "dropShadow"
+    },
+    "description": "Drop shadow for dialogs 3",
+    "property": "outer",
+    "category": "boxShadow",
     "component": null
   },
   {
@@ -16,7 +177,7 @@
   {
     "name": "notification-banner-icon-fill-critical",
     "value": "#8b1703",
-    "description": "The ciolor used for icons in Critical status banners.",
+    "description": "The color used for icons in Critical status banners.",
     "property": "icon",
     "category": "color",
     "component": "notification-banner"
