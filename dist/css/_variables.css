@@ -1,12 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Fri, 25 Mar 2022 16:44:04 GMT
+ * Generated on Fri, 25 Mar 2022 20:17:50 GMT
  */
 
 :root {
-  --shadow-outer-dialog-3: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
-  --shadow-outer-dialog-2: 0px 4px 4px 3px rgba(0, 0, 0, 0.12);
-  --shadow-outer-dialog-1: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  --shadow-outer-dialog: 0px 0px 4px 0px rgba(0, 0, 0, 0.25),0px 4px 4px 3px rgba(0, 0, 0, 0.12),0px 4px 4px 0px rgba(0, 0, 0, 0.4);
   --shadow-inner-tag-off: 0px 0px 5px 0px rgb(164, 171, 182);
   --shadow-inner-tag-critical: 0px 0px 5px 0px rgb(255, 56, 56);
   --shadow-inner-tag-normal: 0px 0px 5px 0px rgb(86, 240, 0);
