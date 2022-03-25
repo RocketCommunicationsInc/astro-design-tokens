@@ -384,11 +384,7 @@
   },
   "dialog": {
     "shadow": {
-      "outer": {
-        "1": "0px 0px 4px 0px rgba(0, 0, 0, 0.25)",
-        "2": "0px 4px 4px 3px rgba(0, 0, 0, 0.12)",
-        "3": "0px 4px 4px 0px rgba(0, 0, 0, 0.2)"
-      }
+      "outer": "0px 0px 4px 1px rgba(0, 0, 0, 0.14),0px 4px 4px 3px rgba(0, 0, 0, 0.12),0px 4px 4px 0px rgba(0, 0, 0, 0.2)"
     }
   },
   "notification-banner": {

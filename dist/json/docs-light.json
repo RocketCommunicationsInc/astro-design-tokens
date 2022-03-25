@@ -1988,31 +1988,12 @@
     "referenceToken": "status-symbol-color-fill-off"
   },
   {
-    "name": "dialog-shadow-outer-1",
-    "value": "0px 0px 4px 0px rgba(0, 0, 0, 0.25)",
-    "description": "Drop shadow for dialogs 1",
+    "name": "dialog-shadow-outer",
+    "value": "0px 0px 4px 1px rgba(0, 0, 0, 0.14),0px 4px 4px 3px rgba(0, 0, 0, 0.12),0px 4px 4px 0px rgba(0, 0, 0, 0.2)",
+    "description": "Drop shadow for Dialogs",
     "property": "outer",
     "category": "boxShadow",
-    "component": "dialog",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "dialog-shadow-outer-2",
-    "value": "0px 4px 4px 3px rgba(0, 0, 0, 0.12)",
-    "description": "Drop shadow for dialogs 2",
-    "property": "outer",
-    "category": "boxShadow",
-    "component": "dialog",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "dialog-shadow-outer-3",
-    "value": "0px 4px 4px 0px rgba(0, 0, 0, 0.2)",
-    "description": "Drop shadow for dialogs 3",
-    "property": "outer",
-    "category": "boxShadow",
-    "component": "dialog",
-    "referenceToken": "color-palette-neutral-1000"
+    "component": "dialog"
   },
   {
     "name": "notification-banner-icon-fill-critical",

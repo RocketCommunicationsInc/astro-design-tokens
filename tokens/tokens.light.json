@@ -120,28 +120,16 @@
   "dialog": {
     "shadow": {
       "outer": {
-        "1": {
-          "value": {
+        "value": [
+          {
             "x": 0,
             "y": 0,
             "blur": 4,
-            "spread": 0,
-            "color": "#00000040",
+            "spread": 1,
+            "color": "#00000024",
             "type": "dropShadow"
           },
-          "description": "Drop shadow for dialogs 1",
-          "type": "boxShadow",
-          "rawValue": {
-            "x": "0",
-            "y": "0",
-            "blur": "4",
-            "spread": "0",
-            "color": "rgba({color.palette.neutral.1000}, {opacity.25})",
-            "type": "dropShadow"
-          }
-        },
-        "2": {
-          "value": {
+          {
             "x": 0,
             "y": 4,
             "blur": 4,
@@ -149,29 +137,35 @@
             "color": "#0000001f",
             "type": "dropShadow"
           },
-          "description": "Drop shadow for dialogs 2",
-          "type": "boxShadow",
-          "rawValue": {
-            "x": "0",
-            "y": "4",
-            "blur": "4",
-            "spread": "3",
-            "color": "rgba({color.palette.neutral.1000}, {opacity.12})",
-            "type": "dropShadow"
-          }
-        },
-        "3": {
-          "value": {
+          {
             "x": 0,
             "y": 4,
             "blur": 4,
             "spread": 0,
             "color": "#00000033",
             "type": "dropShadow"
+          }
+        ],
+        "description": "Drop shadow for Dialogs",
+        "type": "boxShadow",
+        "rawValue": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "4",
+            "spread": "1",
+            "color": "rgba({color.palette.neutral.1000}, {opacity.14})",
+            "type": "dropShadow"
           },
-          "description": "Drop shadow for dialogs 3",
-          "type": "boxShadow",
-          "rawValue": {
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "4",
+            "spread": "3",
+            "color": "rgba({color.palette.neutral.1000}, {opacity.12})",
+            "type": "dropShadow"
+          },
+          {
             "x": "0",
             "y": "4",
             "blur": "4",
@@ -179,7 +173,7 @@
             "color": "rgba({color.palette.neutral.1000}, {opacity.20})",
             "type": "dropShadow"
           }
-        }
+        ]
       }
     }
   },

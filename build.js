@@ -52,29 +52,43 @@ const toPx = (value) =>
   StyleDictionary.transform["size/remToPx"].transformer({ value });
 
 const shadowMatcher = (prop) => {
-  if (prop.type === "boxShadow"){
-
-  console.log(prop);
-  }
   return prop.type === "boxShadow";
-
 }
+
 const webShadowTransformer = (prop) => {
-  const {
-    blur,
-    color,
-    x,
-    y,
-    spread,
-  } = prop.original.value;
- 
+  if (Array.isArray(prop.original.value)) {
 
-  // return `${toPx(x)} ${toPx(y)} ${toPx(blur)} ${toPx(
-  //   spread
-  // )} ${Color(color).toRgbString()}`;
-  return `${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
+    const newVal = prop.original.value.map(shadow => {
+      const {
+        blur,
+        color,
+        x,
+        y,
+        spread,
+      } = shadow
+
+      return `${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
+    })
+    return newVal.toString()
+  } else {
+
+    const {
+      blur,
+      color,
+      x,
+      y,
+      spread,
+    } = prop.original.value;
+
+
+
+
+    // return `${toPx(x)} ${toPx(y)} ${toPx(blur)} ${toPx(
+    //   spread
+    // )} ${Color(color).toRgbString()}`;
+    return `${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
+  }
 };
-
 
 StyleDictionary.registerTransform({
   name: "shadow/css",
