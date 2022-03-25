@@ -104,6 +104,39 @@ StyleDictionary.registerTransform({
   },
 });
 
+
+const shadowMatcher = (prop) => {
+  if (prop.type === "boxShadow"){
+
+  console.log(prop);
+  }
+  return prop.type === "boxShadow";
+
+}
+const webShadowTransformer = (prop) => {
+  const {
+    blur,
+    color,
+    x,
+    y,
+    spread,
+  } = prop.original.value;
+ 
+
+  // return `${toPx(x)} ${toPx(y)} ${toPx(blur)} ${toPx(
+  //   spread
+  // )} ${Color(color).toRgbString()}`;
+  return `${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
+};
+
+
+StyleDictionary.registerTransform({
+  name: "shadow/css",
+  matcher: shadowMatcher,
+  transformer: webShadowTransformer,
+  type: "value",
+});
+
 /**
  * Converts typography name 'bold' to CSS value '700'
  */
@@ -287,6 +320,7 @@ StyleDictionary.registerTransformGroup({
     "borderRadius/name",
     // "color/themeName",
     "fontWeight/cssValue",
+    "shadow/css"
     // "color/rgbaRef",
   ]),
 });
@@ -294,6 +328,7 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/scss",
   transforms: StyleDictionary.transformGroup["less"].concat([
+    "shadow/css",
     "size/pxToRem",
     "letterSpacing/percentToEm",
     // "color/themeName",
@@ -301,6 +336,7 @@ StyleDictionary.registerTransformGroup({
     "typography/name",
     "borderRadius/name",
     "fontWeight/cssValue",
+    "shadow/css"
   ]),
 });
 
@@ -312,6 +348,7 @@ StyleDictionary.registerTransformGroup({
     "fontFamily/fallback",
     "typography/name",
     "borderRadius/name",
+    "shadow/css"
     // "color/rgbaRef",
   ]),
 });

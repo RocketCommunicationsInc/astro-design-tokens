@@ -10,8 +10,10 @@
     "start": "npm run build",
     "build": "node ./build.js",
     "prepack": "npm run build",
-    "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json && node preformat.js",
-    "make": "npm run transform && npm run build"
+    "transform.dark": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens-dark.json dark --expandTypography --expandShadow --preserveRawValue=true",
+    "transform.light": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.light.json beta,light --expandTypography --expandShadow --preserveRawValue=true",
+    "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json beta --expandTypography --expandShadow --preserveRawValue=true",
+    "make": "npm run transform && npm run transform.light && node preformat.js && npm run build"
   },
   "files": [
     "dist"
@@ -28,6 +30,6 @@
   "devDependencies": {
     "lodash": "^4.17.21",
     "tinycolor2": "^1.4.2",
-    "token-transformer": "^0.0.13"
+    "token-transformer": "^0.0.19"
   }
 }

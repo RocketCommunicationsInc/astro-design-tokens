@@ -1,158 +1,330 @@
 {
+  "shadow": {
+    "outer": {
+      "dialog": {
+        "1": {
+          "value": {
+            "x": 0,
+            "y": 4,
+            "blur": 4,
+            "spread": 1,
+            "color": "#00000024",
+            "type": "dropShadow"
+          },
+          "description": "Drop shadow for dialogs 1",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "4",
+            "blur": "4",
+            "spread": "1",
+            "color": "rgba({color.palette.neutral.1000}, {opacity.14})",
+            "type": "dropShadow"
+          }
+        },
+        "2": {
+          "value": {
+            "x": 0,
+            "y": 4,
+            "blur": 4,
+            "spread": 3,
+            "color": "#0000001f",
+            "type": "dropShadow"
+          },
+          "description": "Drop shadow for dialogs 2",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "4",
+            "blur": "4",
+            "spread": "3",
+            "color": "rgba({color.palette.neutral.1000}, {opacity.12})",
+            "type": "dropShadow"
+          }
+        },
+        "3": {
+          "value": {
+            "x": 0,
+            "y": 4,
+            "blur": 4,
+            "spread": 0,
+            "color": "#00000033",
+            "type": "dropShadow"
+          },
+          "description": "Drop shadow for dialogs 3",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "4",
+            "blur": "4",
+            "spread": "0",
+            "color": "rgba({color.palette.neutral.1000}, {opacity.20})",
+            "type": "dropShadow"
+          }
+        }
+      }
+    },
+    "inner": {
+      "tag": {
+        "normal": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#00e200",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for normal status Tags",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{color.icon.status.fill.normal}",
+            "type": "innerShadow"
+          }
+        },
+        "critical": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#ff2a04",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for critical status Tags",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{color.icon.status.fill.critical}",
+            "type": "innerShadow"
+          }
+        },
+        "off": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#7b8089",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for off status Tags",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{color.icon.status.fill.off}",
+            "type": "innerShadow"
+          }
+        }
+      },
+      "scrollbar": {
+        "vertical": {
+          "value": {
+            "x": 3,
+            "y": 3,
+            "blur": 3,
+            "spread": 0,
+            "color": "#00000040",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for vertical scrollbars",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "3",
+            "y": "3",
+            "blur": "3",
+            "spread": "0",
+            "color": "rgba({color.palette.neutral.1000}, {opacity.25})",
+            "type": "innerShadow"
+          }
+        },
+        "horizontal": {
+          "value": {
+            "x": 1,
+            "y": 3,
+            "blur": 3,
+            "spread": 0,
+            "color": "#00000040",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for horizontal scrollbars",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "1",
+            "y": "3",
+            "blur": "3",
+            "spread": "0",
+            "color": "rgba({color.palette.neutral.1000},{opacity.25})",
+            "type": "innerShadow"
+          }
+        }
+      }
+    }
+  },
   "color": {
     "background": {
       "base": {
         "default": {
-          "value": "{color.palette.grey.200}",
+          "value": "#eaeef4",
           "type": "color",
           "description": "The background color of the application.",
-          "failedToResolve": true
+          "rawValue": "{color.palette.grey.200}"
         },
         "header": {
-          "value": "{color.palette.grey.100}",
+          "value": "#f5f6f9",
           "type": "color",
-          "failedToResolve": true
+          "rawValue": "{color.palette.grey.100}"
         },
         "hover": {
-          "value": "{color.palette.darkblue.200}",
+          "value": "#98bdd3",
           "type": "color",
-          "failedToResolve": true
+          "rawValue": "{color.palette.darkblue.200}"
         },
         "selected": {
-          "value": "{color.palette.brightblue.200}",
+          "value": "#cee9fc",
           "type": "color",
-          "failedToResolve": true
+          "rawValue": "{color.palette.brightblue.200}"
         }
       },
       "surface": {
         "default": {
-          "value": "{color.palette.neutral.000}",
+          "value": "#ffffff",
           "type": "color",
           "description": "The background color of surface panels.",
-          "failedToResolve": true
+          "rawValue": "{color.palette.neutral.000}"
         },
         "header": {
-          "value": "{color.palette.grey.100}",
+          "value": "#f5f6f9",
           "type": "color",
           "description": "The background color for the header of surface elements, including dialog and table headers.",
-          "failedToResolve": true
+          "rawValue": "{color.palette.grey.100}"
         },
         "hover": {
-          "value": "{color.palette.brightblue.100}",
+          "value": "#daeeff",
           "type": "color",
           "description": "The background color of surface elements, like table rows or lists, when they are hovered over.",
-          "failedToResolve": true
+          "rawValue": "{color.palette.brightblue.100}"
         },
         "selected": {
-          "value": "{color.palette.brightblue.200}",
+          "value": "#cee9fc",
           "type": "color",
           "description": "The background color of surface elements, like table rows or lists, when they are selected.",
-          "failedToResolve": true
+          "rawValue": "{color.palette.brightblue.200}"
         }
       }
     },
     "text": {
       "primary": {
-        "value": "{color.palette.grey.900}",
+        "value": "#292a2d",
         "type": "color",
         "description": "The primary color used for text within the application.",
-        "failedToResolve": true
+        "rawValue": "{color.palette.grey.900}"
       },
       "secondary": {
-        "value": "{color.palette.grey.700}",
+        "value": "#51555b",
         "type": "color",
         "description": "The color used for text when less emphasis is needed.",
-        "failedToResolve": true
+        "rawValue": "{color.palette.grey.700}"
       },
       "placeholder": {
-        "value": "{color.palette.grey.600}",
+        "value": "#7b8089",
         "type": "color",
         "description": "The text color used for placeholder text in input and form fields.",
-        "failedToResolve": true
+        "rawValue": "{color.palette.grey.600}"
       },
       "inverse": {
-        "value": "{color.palette.neutral.000}",
+        "value": "#ffffff",
         "type": "color",
         "description": "The color used for text on reversed backgrounds.",
-        "failedToResolve": true
+        "rawValue": "{color.palette.neutral.000}"
       },
       "error": {
-        "value": "{color.palette.red.500}",
+        "value": "#ff3838",
         "type": "color",
         "description": "The text color used for errors.",
-        "failedToResolve": true
+        "rawValue": "{color.palette.red.500}"
       },
       "white": {
-        "value": "{color.palette.neutral.000}",
+        "value": "#ffffff",
         "type": "color",
         "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
-        "failedToResolve": true
+        "rawValue": "{color.palette.neutral.000}"
       },
       "black": {
-        "value": "{color.palette.neutral.1000}",
+        "value": "#000000",
         "type": "color",
         "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
-        "failedToResolve": true
+        "rawValue": "{color.palette.neutral.1000}"
       }
     },
     "interactive": {
       "default": {
-        "value": "{color.palette.darkblue.500}",
+        "value": "#005a8f",
         "type": "color",
         "description": "The primary color used for interactive elements.",
-        "failedToResolve": true
+        "rawValue": "{color.palette.darkblue.500}"
       },
       "hover": {
-        "value": "{color.palette.darkblue.600}",
+        "value": "#004872",
         "type": "color",
         "description": "The hover color used for interactive elements.",
-        "failedToResolve": true
+        "rawValue": "{color.palette.darkblue.600}"
       },
       "muted": {
-        "value": "{color.palette.darkblue.300}",
+        "value": "#649cbd",
         "type": "color",
         "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
-        "failedToResolve": true
+        "rawValue": "{color.palette.darkblue.300}"
       }
     },
     "banner": {
       "classification": {
         "background": {
           "topsecretsci": {
-            "value": "{color.palette.yellow.500}",
+            "value": "#fce83a",
             "type": "color",
             "description": "The color used to indicate the Top Secret/SCI classification.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.yellow.500}"
           },
           "topsecret": {
-            "value": "{color.palette.orange.700}",
+            "value": "#ff8c00",
             "type": "color",
             "description": "The color used to indicate the Top Secret classification.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.orange.700}"
           },
           "secret": {
-            "value": "{color.palette.red.700}",
+            "value": "#c8102e",
             "type": "color",
             "description": "The color used to indicate the Secret classification.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.red.700}"
           },
           "confidential": {
-            "value": "{color.palette.blue.800}",
+            "value": "#0033a0",
             "type": "color",
             "description": "The color used to indicate the Confidential classification.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.blue.800}"
           },
           "cui": {
-            "value": "{color.palette.violet.800}",
+            "value": "#502b85",
             "type": "color",
             "description": "The color used to indicate the CUI classification.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.violet.800}"
           },
           "unclassified": {
-            "value": "{color.palette.green.800}",
+            "value": "#007a33",
             "type": "color",
             "description": "The color used to indicate the Unclassified classification.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.green.800}"
           }
         }
       },
@@ -160,41 +332,79 @@
         "icon": {
           "fill": {
             "critical": {
-              "value": "{color.palette.red.800}",
+              "value": "#8b1703",
               "type": "color",
               "description": "The color used for icons in Critical status banners.",
-              "failedToResolve": true
+              "rawValue": "{color.palette.red.800}"
             },
             "serious": {
-              "value": "{color.palette.orange.800}",
+              "value": "#975f0e",
               "type": "color",
               "description": "The color used for icons in Serious status banners.",
-              "failedToResolve": true
+              "rawValue": "{color.palette.orange.800}"
             },
             "caution": {
-              "value": "{color.palette.yellow.800}",
+              "value": "#917d01",
               "type": "color",
               "description": "The color used for icons in Caution status banners.",
-              "failedToResolve": true
+              "rawValue": "{color.palette.yellow.800}"
             },
             "normal": {
-              "value": "{color.palette.green.800}",
+              "value": "#007a33",
               "type": "color",
               "description": "The color used for icons in Normal status banners.",
-              "failedToResolve": true
+              "rawValue": "{color.palette.green.800}"
             },
             "standby": {
-              "value": "{color.palette.cyan.800}",
+              "value": "#35798e",
               "type": "color",
               "description": "The color used for icons in Standby status banners.",
-              "failedToResolve": true
+              "rawValue": "{color.palette.cyan.800}"
             },
             "off": {
-              "value": "{color.palette.grey.700}",
+              "value": "#51555b",
               "type": "color",
               "description": "The color used for icons in Off status banners.",
-              "failedToResolve": true
+              "rawValue": "{color.palette.grey.700}"
             }
+          }
+        },
+        "background": {
+          "critical": {
+            "value": "#ff5f60",
+            "type": "color",
+            "description": "The color used for the background on Critical status banners. #ff5f60",
+            "rawValue": "{color.palette.red.400}"
+          },
+          "serious": {
+            "value": "#ffcc57",
+            "type": "color",
+            "description": "The color used for the background on Serious status banners. #ffcc57",
+            "rawValue": "{color.palette.orange.400}"
+          },
+          "caution": {
+            "value": "#fded61",
+            "type": "color",
+            "description": "The color used for the background on Caution status banners. #fded61",
+            "rawValue": "{color.palette.yellow.400}"
+          },
+          "normal": {
+            "value": "#99f666",
+            "type": "color",
+            "description": "The color used for the background on Normal status banners. #99f666",
+            "rawValue": "{color.palette.green.400}"
+          },
+          "standby": {
+            "value": "#5ce2ff",
+            "type": "color",
+            "description": "The color used for the background on Standby status banners. #5ce2ff",
+            "rawValue": "{color.palette.cyan.400}"
+          },
+          "off": {
+            "value": "#bbc1c9",
+            "type": "color",
+            "description": "The color used for the background on Off status banners. #bbc1c9",
+            "rawValue": "{color.palette.grey.400}"
           }
         }
       }
@@ -203,78 +413,78 @@
       "status": {
         "fill": {
           "critical": {
-            "value": "{color.palette.red.600}",
+            "value": "#ff2a04",
             "type": "color",
             "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.red.600}"
           },
           "serious": {
-            "value": "{color.palette.orange.600}",
+            "value": "#ffaf3d",
             "type": "color",
             "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.orange.600}"
           },
           "caution": {
-            "value": "{color.palette.yellow.600}",
+            "value": "#fad800",
             "type": "color",
             "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.yellow.600}"
           },
           "normal": {
-            "value": "{color.palette.green.600}",
+            "value": "#00e200",
             "type": "color",
             "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.green.600}"
           },
           "standby": {
-            "value": "{color.palette.cyan.500}",
+            "value": "#64d9ff",
             "type": "color",
             "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.cyan.500}"
           },
           "off": {
-            "value": "{color.palette.grey.600}",
+            "value": "#7b8089",
             "type": "color",
             "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.grey.600}"
           }
         },
         "border": {
           "critical": {
-            "value": "{color.palette.red.900}",
+            "value": "#661102",
             "type": "color",
             "description": "The border color used for the Critical status symbol. Transparent in Dark Theme.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.red.900}"
           },
           "serious": {
-            "value": "{color.palette.orange.900}",
+            "value": "#664618",
             "type": "color",
             "description": "The border color used for the Serious status symbol. Transparent in Dark Theme.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.orange.900}"
           },
           "caution": {
-            "value": "{color.palette.yellow.900}",
+            "value": "#645600",
             "type": "color",
             "description": "The border color used for the Caution status symbol. Transparent in Dark Theme.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.yellow.900}"
           },
           "normal": {
-            "value": "{color.palette.green.900}",
+            "value": "#005a00",
             "type": "color",
             "description": "The border color used for the Normal status symbol. Transparent in Dark Theme.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.green.900}"
           },
           "standby": {
-            "value": "{color.palette.cyan.900}",
+            "value": "#285766",
             "type": "color",
             "description": "The border color used for the Standby status symbol. Transparent in Dark Theme.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.cyan.900}"
           },
           "off": {
-            "value": "{color.palette.grey.800}",
+            "value": "#3c3e42",
             "type": "color",
             "description": "The border color used for the Off status symbol. Transparent in Dark Theme.",
-            "failedToResolve": true
+            "rawValue": "{color.palette.grey.800}"
           }
         }
       }
@@ -282,43 +492,1346 @@
     "gsb": {
       "background": {
         "default": {
-          "value": "{color.palette.darkblue.900}",
+          "value": "#172635",
           "type": "color",
           "description": "The background color of the Global Status Bar component. ",
-          "failedToResolve": true
+          "rawValue": "{color.palette.darkblue.900}"
         }
       },
       "text": {
         "primary": {
-          "value": "{color.palette.neutral.000}",
+          "value": "#ffffff",
           "type": "color",
           "description": "The primary text color used within the Global Status Bar.",
-          "failedToResolve": true
+          "rawValue": "{color.palette.neutral.000}"
         },
         "secondary": {
           "value": "#d4d8dd",
           "type": "color",
-          "description": "The secondary text color used within the Global Status Bar."
+          "description": "The secondary text color used within the Global Status Bar.",
+          "rawValue": "#d4d8dd"
         }
       },
       "interactive": {
         "default": {
-          "value": "{color.palette.brightblue.500}",
+          "value": "#4dacff",
           "type": "color",
           "description": "The primary color used for interactive elements in the Global Status Bar.",
-          "failedToResolve": true
+          "rawValue": "{color.palette.brightblue.500}"
         },
         "hover": {
           "value": "#92cbff",
           "type": "color",
-          "description": "The primary color used when interactive elements are hovered over in the Global Status Bar."
+          "description": "The primary color used when interactive elements are hovered over in the Global Status Bar.",
+          "rawValue": "#92cbff"
         },
         "muted": {
           "value": "#2b659b",
           "type": "color",
-          "description": "A muted version of the primary color used for interactive elements in the Global Status Bar."
+          "description": "A muted version of the primary color used for interactive elements in the Global Status Bar.",
+          "rawValue": "#2b659b"
         }
       }
+    },
+    "palette": {
+      "neutral": {
+        "1000": {
+          "value": "#000000",
+          "type": "color",
+          "description": "#000000",
+          "rawValue": "#000000"
+        },
+        "000": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "#ffffff",
+          "rawValue": "#ffffff"
+        }
+      },
+      "darkblue": {
+        "100": {
+          "value": "#cbdee9",
+          "type": "color",
+          "description": "#cbdee9",
+          "rawValue": "#cbdee9"
+        },
+        "200": {
+          "value": "#98bdd3",
+          "type": "color",
+          "description": "#98bdd3",
+          "rawValue": "#98bdd3"
+        },
+        "300": {
+          "value": "#649cbd",
+          "type": "color",
+          "description": "#649cbd",
+          "rawValue": "#649cbd"
+        },
+        "400": {
+          "value": "#2f7aa7",
+          "type": "color",
+          "description": "#2f7aa7",
+          "rawValue": "#2f7aa7"
+        },
+        "500": {
+          "value": "#005a8f",
+          "type": "color",
+          "description": "#005a8f",
+          "rawValue": "#005a8f"
+        },
+        "600": {
+          "value": "#004872",
+          "type": "color",
+          "description": "#004872",
+          "rawValue": "#004872"
+        },
+        "700": {
+          "value": "#1c3f5e",
+          "type": "color",
+          "description": "#1c3f5e",
+          "rawValue": "#1c3f5e"
+        },
+        "800": {
+          "value": "#1b2d3e",
+          "type": "color",
+          "description": "#1b2d3e",
+          "rawValue": "#1b2d3e"
+        },
+        "900": {
+          "value": "#172635",
+          "type": "color",
+          "description": "#172635",
+          "rawValue": "#172635"
+        },
+        "950": {
+          "value": "#080c11",
+          "type": "color",
+          "description": "#080c11",
+          "rawValue": "#080c11"
+        }
+      },
+      "brightblue": {
+        "100": {
+          "value": "#daeeff",
+          "type": "color",
+          "description": "#daeeff",
+          "rawValue": "#daeeff"
+        },
+        "200": {
+          "value": "#cee9fc",
+          "type": "color",
+          "description": "#cee9fc",
+          "rawValue": "#cee9fc"
+        },
+        "300": {
+          "value": "#b7dcff",
+          "type": "color",
+          "description": "#b7dcff",
+          "rawValue": "#b7dcff"
+        },
+        "400": {
+          "value": "#92cbff",
+          "type": "color",
+          "description": "#92cbff",
+          "rawValue": "#92cbff"
+        },
+        "500": {
+          "value": "#4dacff",
+          "type": "color",
+          "description": "#4dacff",
+          "rawValue": "#4dacff"
+        },
+        "600": {
+          "value": "#3a87cf",
+          "type": "color",
+          "description": "#3a87cf",
+          "rawValue": "#3a87cf"
+        },
+        "700": {
+          "value": "#2b659b",
+          "type": "color",
+          "description": "#2b659b",
+          "rawValue": "#2b659b"
+        },
+        "800": {
+          "value": "#1c3851",
+          "type": "color",
+          "description": "#1c3851",
+          "rawValue": "#1c3851"
+        },
+        "850": {
+          "value": "#142435",
+          "type": "color",
+          "description": "#142435",
+          "rawValue": "#142435"
+        },
+        "900": {
+          "value": "#101923",
+          "type": "color",
+          "description": "#101923",
+          "rawValue": "#101923"
+        }
+      },
+      "grey": {
+        "100": {
+          "value": "#f5f6f9",
+          "type": "color",
+          "description": "#f5f6f9",
+          "rawValue": "#f5f6f9"
+        },
+        "200": {
+          "value": "#eaeef4",
+          "type": "color",
+          "description": "#eaeef4",
+          "rawValue": "#eaeef4"
+        },
+        "250": {
+          "value": "#e0e5eb",
+          "type": "color",
+          "description": "#e0e5eb",
+          "rawValue": "#e0e5eb"
+        },
+        "300": {
+          "value": "#d4d8dd",
+          "type": "color",
+          "description": "#d4d8dd",
+          "rawValue": "#d4d8dd"
+        },
+        "400": {
+          "value": "#bbc1c9",
+          "type": "color",
+          "description": "#bbc1c9",
+          "rawValue": "#bbc1c9"
+        },
+        "500": {
+          "value": "#a4abb6",
+          "type": "color",
+          "description": "#a4abb6",
+          "rawValue": "#a4abb6"
+        },
+        "600": {
+          "value": "#7b8089",
+          "type": "color",
+          "description": "#7b8089",
+          "rawValue": "#7b8089"
+        },
+        "700": {
+          "value": "#51555b",
+          "type": "color",
+          "description": "#51555b",
+          "rawValue": "#51555b"
+        },
+        "800": {
+          "value": "#3c3e42",
+          "type": "color",
+          "description": "#3c3e42",
+          "rawValue": "#3c3e42"
+        },
+        "900": {
+          "value": "#292a2d",
+          "type": "color",
+          "description": "#292a2d",
+          "rawValue": "#292a2d"
+        }
+      },
+      "red": {
+        "400": {
+          "value": "#ff5f60",
+          "type": "color",
+          "description": "#ff5f60",
+          "rawValue": "#ff5f60"
+        },
+        "500": {
+          "value": "#ff3838",
+          "type": "color",
+          "description": "#ff3838",
+          "rawValue": "#ff3838"
+        },
+        "600": {
+          "value": "#ff2a04",
+          "type": "color",
+          "description": "#ff2a04",
+          "rawValue": "#ff2a04"
+        },
+        "700": {
+          "value": "#c8102e",
+          "type": "color",
+          "description": "#c8102e",
+          "rawValue": "#c8102e"
+        },
+        "800": {
+          "value": "#8b1703",
+          "type": "color",
+          "description": "#8b1703",
+          "rawValue": "#8b1703"
+        },
+        "900": {
+          "value": "#661102",
+          "type": "color",
+          "description": "#661102",
+          "rawValue": "#661102"
+        }
+      },
+      "orange": {
+        "400": {
+          "value": "#ffcc57",
+          "type": "color",
+          "description": "#ffcc57",
+          "rawValue": "#ffcc57"
+        },
+        "500": {
+          "value": "#ffb302",
+          "type": "color",
+          "description": "#ffb302",
+          "rawValue": "#ffb302"
+        },
+        "600": {
+          "value": "#ffaf3d",
+          "type": "color",
+          "description": "#ffaf3d",
+          "rawValue": "#ffaf3d"
+        },
+        "700": {
+          "value": "#ff8c00",
+          "type": "color",
+          "description": "#ff8c00",
+          "rawValue": "#ff8c00"
+        },
+        "800": {
+          "value": "#975f0e",
+          "type": "color",
+          "description": "#975f0e",
+          "rawValue": "#975f0e"
+        },
+        "900": {
+          "value": "#664618",
+          "type": "color",
+          "description": "#664618",
+          "rawValue": "#664618"
+        }
+      },
+      "yellow": {
+        "400": {
+          "value": "#fded61",
+          "type": "color",
+          "description": "#fded61",
+          "rawValue": "#fded61"
+        },
+        "500": {
+          "value": "#fce83a",
+          "type": "color",
+          "description": "#fce83a",
+          "rawValue": "#fce83a"
+        },
+        "600": {
+          "value": "#fad800",
+          "type": "color",
+          "description": "#fad800",
+          "rawValue": "#fad800"
+        },
+        "700": {
+          "value": "#c7ab00",
+          "type": "color",
+          "description": "#c7ab00",
+          "rawValue": "#c7ab00"
+        },
+        "800": {
+          "value": "#917d01",
+          "type": "color",
+          "description": "#917d01",
+          "rawValue": "#917d01"
+        },
+        "900": {
+          "value": "#645600",
+          "type": "color",
+          "description": "#645600",
+          "rawValue": "#645600"
+        }
+      },
+      "green": {
+        "400": {
+          "value": "#99f666",
+          "type": "color",
+          "description": "#99f666",
+          "rawValue": "#99f666"
+        },
+        "500": {
+          "value": "#56f000",
+          "type": "color",
+          "description": "#56f000",
+          "rawValue": "#56f000"
+        },
+        "600": {
+          "value": "#00e200",
+          "type": "color",
+          "description": "#00e200",
+          "rawValue": "#00e200"
+        },
+        "700": {
+          "value": "#00ad23",
+          "type": "color",
+          "description": "#00ad23",
+          "rawValue": "#00ad23"
+        },
+        "800": {
+          "value": "#007a33",
+          "type": "color",
+          "description": "#007a33",
+          "rawValue": "#007a33"
+        },
+        "900": {
+          "value": "#005a00",
+          "type": "color",
+          "description": "#005a00",
+          "rawValue": "#005a00"
+        }
+      },
+      "cyan": {
+        "400": {
+          "value": "#5ce2ff",
+          "type": "color",
+          "description": "#5ce2ff",
+          "rawValue": "#5ce2ff"
+        },
+        "500": {
+          "value": "#64d9ff",
+          "type": "color",
+          "description": "#64d9ff",
+          "rawValue": "#64d9ff"
+        },
+        "600": {
+          "value": "#2dccff",
+          "type": "color",
+          "description": "#2dccff",
+          "rawValue": "#2dccff"
+        },
+        "700": {
+          "value": "#20a9d5",
+          "type": "color",
+          "description": "#20a9d5",
+          "rawValue": "#20a9d5"
+        },
+        "800": {
+          "value": "#35798e",
+          "type": "color",
+          "description": "#35798e",
+          "rawValue": "#35798e"
+        },
+        "900": {
+          "value": "#285766",
+          "type": "color",
+          "description": "#285766",
+          "rawValue": "#285766"
+        }
+      },
+      "violet": {
+        "800": {
+          "value": "#502b85",
+          "type": "color",
+          "description": "#502b85",
+          "rawValue": "#502b85"
+        }
+      },
+      "blue": {
+        "800": {
+          "value": "#0033a0",
+          "type": "color",
+          "description": "#0033a0",
+          "rawValue": "#0033a0"
+        }
+      },
+      "teal": {
+        "100": {
+          "value": "#d0f4f4",
+          "type": "color",
+          "description": "#d0f4f4",
+          "rawValue": "#d0f4f4"
+        },
+        "200": {
+          "value": "#a1e9eb",
+          "type": "color",
+          "description": "#a1e9eb",
+          "rawValue": "#a1e9eb"
+        },
+        "300": {
+          "value": "#70dde0",
+          "type": "color",
+          "description": "#70dde0",
+          "rawValue": "#70dde0"
+        },
+        "400": {
+          "value": "#3ed2d6",
+          "type": "color",
+          "description": "#3ed2d6",
+          "rawValue": "#3ed2d6"
+        },
+        "500": {
+          "value": "#00c7cb",
+          "type": "color",
+          "description": "#00c7cb",
+          "rawValue": "#00c7cb"
+        },
+        "600": {
+          "value": "#009fa3",
+          "type": "color",
+          "description": "#009fa3",
+          "rawValue": "#009fa3"
+        },
+        "700": {
+          "value": "#00777a",
+          "type": "color",
+          "description": "#00777a",
+          "rawValue": "#00777a"
+        },
+        "800": {
+          "value": "#035051",
+          "type": "color",
+          "description": "#035051",
+          "rawValue": "#035051"
+        },
+        "900": {
+          "value": "#032828",
+          "type": "color",
+          "description": "#032828",
+          "rawValue": "#032828"
+        }
+      },
+      "purple": {
+        "100": {
+          "value": "#e4e2f7",
+          "type": "color",
+          "description": "#e4e2f7",
+          "rawValue": "#e4e2f7"
+        },
+        "200": {
+          "value": "#c9c5ed",
+          "type": "color",
+          "description": "#c9c5ed",
+          "rawValue": "#c9c5ed"
+        },
+        "300": {
+          "value": "#aea8e5",
+          "type": "color",
+          "description": "#aea8e5",
+          "rawValue": "#aea8e5"
+        },
+        "400": {
+          "value": "#938bdb",
+          "type": "color",
+          "description": "#938bdb",
+          "rawValue": "#938bdb"
+        },
+        "500": {
+          "value": "#786dd3",
+          "type": "color",
+          "description": "#786dd3",
+          "rawValue": "#786dd3"
+        },
+        "600": {
+          "value": "#6058a8",
+          "type": "color",
+          "description": "#6058a8",
+          "rawValue": "#6058a8"
+        },
+        "700": {
+          "value": "#48417f",
+          "type": "color",
+          "description": "#48417f",
+          "rawValue": "#48417f"
+        },
+        "800": {
+          "value": "#302c54",
+          "type": "color",
+          "description": "#302c54",
+          "rawValue": "#302c54"
+        },
+        "900": {
+          "value": "#18152b",
+          "type": "color",
+          "description": "#18152b",
+          "rawValue": "#18152b"
+        }
+      },
+      "pink": {
+        "100": {
+          "value": "#edcef3",
+          "type": "color",
+          "description": "#edcef3",
+          "rawValue": "#edcef3"
+        },
+        "200": {
+          "value": "#da9ce7",
+          "type": "color",
+          "description": "#da9ce7",
+          "rawValue": "#da9ce7"
+        },
+        "300": {
+          "value": "#c76ada",
+          "type": "color",
+          "description": "#c76ada",
+          "rawValue": "#c76ada"
+        },
+        "400": {
+          "value": "#b534ce",
+          "type": "color",
+          "description": "#b534ce",
+          "rawValue": "#b534ce"
+        },
+        "500": {
+          "value": "#a200c1",
+          "type": "color",
+          "description": "#a200c1",
+          "rawValue": "#a200c1"
+        },
+        "600": {
+          "value": "#81009a",
+          "type": "color",
+          "description": "#81009a",
+          "rawValue": "#81009a"
+        },
+        "700": {
+          "value": "#610074",
+          "type": "color",
+          "description": "#610074",
+          "rawValue": "#610074"
+        },
+        "800": {
+          "value": "#41004d",
+          "type": "color",
+          "description": "#41004d",
+          "rawValue": "#41004d"
+        },
+        "900": {
+          "value": "#200227",
+          "type": "color",
+          "description": "#200227",
+          "rawValue": "#200227"
+        }
+      },
+      "hotorange": {
+        "100": {
+          "value": "#f8ddd1",
+          "type": "color",
+          "description": "#f8ddd1",
+          "rawValue": "#f8ddd1"
+        },
+        "200": {
+          "value": "#f0baa3",
+          "type": "color",
+          "description": "#f0baa3",
+          "rawValue": "#f0baa3"
+        },
+        "300": {
+          "value": "#ea9875",
+          "type": "color",
+          "description": "#ea9875",
+          "rawValue": "#ea9875"
+        },
+        "400": {
+          "value": "#e27545",
+          "type": "color",
+          "description": "#e27545",
+          "rawValue": "#e27545"
+        },
+        "500": {
+          "value": "#da5309",
+          "type": "color",
+          "description": "#da5309",
+          "rawValue": "#da5309"
+        },
+        "600": {
+          "value": "#af420a",
+          "type": "color",
+          "description": "#af420a",
+          "rawValue": "#af420a"
+        },
+        "700": {
+          "value": "#833209",
+          "type": "color",
+          "description": "#833209",
+          "rawValue": "#833209"
+        },
+        "800": {
+          "value": "#572108",
+          "type": "color",
+          "description": "#572108",
+          "rawValue": "#572108"
+        },
+        "900": {
+          "value": "#2b1105",
+          "type": "color",
+          "description": "#2b1105",
+          "rawValue": "#2b1105"
+        }
+      }
+    }
+  },
+  "opacity": {
+    "12": {
+      "value": "12%",
+      "description": "dialog-shadow-2",
+      "type": "opacity",
+      "rawValue": "12%"
+    },
+    "14": {
+      "value": "14%",
+      "description": "dialog shadow 1 light",
+      "type": "opacity",
+      "rawValue": "14%"
+    },
+    "20": {
+      "value": "20%",
+      "description": "dialog-shadow-3",
+      "type": "opacity",
+      "rawValue": "20%"
+    },
+    "25": {
+      "value": "25%",
+      "description": "dialog-shadow-1",
+      "type": "opacity",
+      "rawValue": "25%"
+    },
+    "40": {
+      "value": "40%",
+      "type": "opacity",
+      "rawValue": "40%"
+    },
+    "50": {
+      "value": "50%",
+      "description": "Used in scrollbar inner shadows",
+      "type": "opacity",
+      "rawValue": "50%"
+    }
+  },
+  "radius": {
+    "base": {
+      "value": "3px",
+      "type": "borderRadius",
+      "rawValue": "3px"
+    },
+    "circle": {
+      "value": "50%",
+      "type": "borderRadius",
+      "rawValue": "50%"
+    },
+    "slider": {
+      "background-track": {
+        "value": "1px",
+        "type": "borderRadius",
+        "rawValue": "1px"
+      }
+    },
+    "checkbox": {
+      "value": "2px",
+      "type": "borderRadius",
+      "rawValue": "2px"
+    },
+    "radio": {
+      "inner": {
+        "value": "4px",
+        "type": "borderRadius",
+        "rawValue": "4px"
+      },
+      "outer": {
+        "value": "9px",
+        "type": "borderRadius",
+        "rawValue": "9px"
+      }
+    },
+    "switch": {
+      "track": {
+        "value": "10px",
+        "type": "borderRadius",
+        "rawValue": "10px"
+      }
+    },
+    "scrollbar": {
+      "value": "4px",
+      "type": "borderRadius",
+      "rawValue": "4px"
+    },
+    "progress": {
+      "inner": {
+        "value": "8px",
+        "type": "borderRadius",
+        "rawValue": "8px"
+      },
+      "outer": {
+        "value": "10px",
+        "type": "borderRadius",
+        "rawValue": "10px"
+      }
+    },
+    "indeterminate-progress": {
+      "inner": {
+        "value": "23px",
+        "type": "borderRadius",
+        "rawValue": "23px"
+      },
+      "outer": {
+        "value": "30px",
+        "type": "borderRadius",
+        "rawValue": "30px"
+      }
+    }
+  },
+  "fontFamily": {
+    "sans": {
+      "value": "Roboto",
+      "type": "fontFamilies",
+      "rawValue": "Roboto"
+    },
+    "mono": {
+      "value": "Roboto Mono",
+      "type": "fontFamilies",
+      "rawValue": "Roboto Mono"
+    }
+  },
+  "lineHeights": {
+    "0": {
+      "value": "AUTO",
+      "type": "lineHeights",
+      "rawValue": "AUTO"
+    }
+  },
+  "body": {
+    "body": {
+      "body-1": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0.5%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      },
+      "body-1-bold": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0.5%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      },
+      "body-2": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 14,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0.5%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      },
+      "body-2-bold": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 14,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0.5%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      },
+      "body-3": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 12,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0.5%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      },
+      "body-3-bold": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 12,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0.5%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      }
+    }
+  },
+  "heading": {
+    "heading": {
+      "heading-1": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 34,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0.25%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      },
+      "heading-1-bold": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 34,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0.25%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      },
+      "heading-2": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 24,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      },
+      "heading-3": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "medium",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0.15%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      },
+      "heading-4": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "light",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0.15%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      },
+      "heading-5": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 18,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      },
+      "heading-6": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "light",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 18,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      }
+    }
+  },
+  "display": {
+    "display": {
+      "display-1": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "light",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 60,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-0.5%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      },
+      "display-2": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 48,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      }
+    }
+  },
+  "monospace": {
+    "monospace": {
+      "monospace-1": {
+        "fontFamily": {
+          "value": "Roboto Mono",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "medium",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "AUTO",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 28,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        }
+      }
+    }
+  },
+  "fontWeight": {
+    "regular": {
+      "value": "regular",
+      "type": "fontWeight",
+      "rawValue": "regular"
+    },
+    "bold": {
+      "value": "bold",
+      "type": "fontWeight",
+      "rawValue": "bold"
+    },
+    "medium": {
+      "value": "medium",
+      "type": "fontWeight",
+      "rawValue": "medium"
+    },
+    "light": {
+      "value": "light",
+      "type": "fontWeight",
+      "rawValue": "light"
+    }
+  },
+  "fontSize": {
+    "xs": {
+      "value": 12,
+      "type": "fontSizes",
+      "rawValue": "12"
+    },
+    "sm": {
+      "value": 14,
+      "type": "fontSizes",
+      "rawValue": "14"
+    },
+    "base": {
+      "value": 16,
+      "type": "fontSizes",
+      "rawValue": "16"
+    },
+    "lg": {
+      "value": 18,
+      "type": "fontSizes",
+      "rawValue": "18"
+    },
+    "xl": {
+      "value": 20,
+      "type": "fontSizes",
+      "rawValue": "20"
+    },
+    "2xl": {
+      "value": 24,
+      "type": "fontSizes",
+      "rawValue": "24"
+    },
+    "3xl": {
+      "value": 28,
+      "type": "fontSizes",
+      "rawValue": "28"
+    },
+    "4xl": {
+      "value": 34,
+      "type": "fontSizes",
+      "rawValue": "34"
+    },
+    "5xl": {
+      "value": 48,
+      "type": "fontSizes",
+      "rawValue": "48"
+    },
+    "6xl": {
+      "value": 60,
+      "type": "fontSizes",
+      "rawValue": "60"
+    }
+  },
+  "letterSpacing": {
+    "2xl": {
+      "value": "0.5%",
+      "type": "letterSpacing",
+      "rawValue": "0.5%"
+    },
+    "xl": {
+      "value": "0.25%",
+      "type": "letterSpacing",
+      "rawValue": "0.25%"
+    },
+    "base": {
+      "value": "0%",
+      "type": "letterSpacing",
+      "rawValue": "0%"
+    },
+    "lg": {
+      "value": "0.15%",
+      "type": "letterSpacing",
+      "rawValue": "0.15%"
+    },
+    "sm": {
+      "value": "-0.5%",
+      "type": "letterSpacing",
+      "rawValue": "-0.5%"
+    }
+  },
+  "paragraphSpacing": {
+    "0": {
+      "value": 0,
+      "type": "paragraphSpacing",
+      "rawValue": "0"
     }
   }
 }
