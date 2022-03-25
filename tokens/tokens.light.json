@@ -183,18 +183,6 @@
       }
     }
   },
-  "table": {
-    "color": {
-      "background": {
-        "hover": {
-          "value": "#142435",
-          "type": "color",
-          "description": "the table row background hover color",
-          "rawValue": "{color.palette.brightblue.850}"
-        }
-      }
-    }
-  },
   "notification-banner": {
     "icon": {
       "fill": {
@@ -274,12 +262,6 @@
           "description": "The color used for the background on Off status banners.",
           "rawValue": "{color.background.off}"
         }
-      },
-      "text": {
-        "value": "#000000",
-        "type": "color",
-        "description": "The color used for the text on notification banners.",
-        "rawValue": "{color.palette.neutral.1000}"
       }
     }
   },
@@ -403,7 +385,13 @@
         "description": "The background color of base elements, like the app or popup menus.",
         "rawValue": "{color.palette.grey.200}"
       },
-      "header": {
+      "base-hover": {
+        "value": "#142435",
+        "type": "color",
+        "description": "the table row background hover color",
+        "rawValue": "{color.palette.brightblue.850}"
+      },
+      "surface-header": {
         "value": "#f5f6f9",
         "type": "color",
         "description": "The background color for the header of surface elements, including dialog and table headers.",
@@ -422,18 +410,10 @@
         "rawValue": "{color.palette.brightblue.100}"
       },
       "interactive": {
-        "default": {
-          "value": "#005a8f",
-          "type": "color",
-          "description": "The primary color used for interactive elements.",
-          "rawValue": "{color.palette.darkblue.500}"
-        },
-        "hover": {
-          "value": "#004872",
-          "type": "color",
-          "description": "The hover color used for interactive elements.",
-          "rawValue": "{color.palette.darkblue.600}"
-        }
+        "value": "#4dacff",
+        "type": "color",
+        "description": "The primary color used for interactive elements.",
+        "rawValue": "{color.palette.brightblue.500}"
       },
       "critical": {
         "value": "#ff5f60",
@@ -470,6 +450,12 @@
         "type": "color",
         "description": "Used to represent the Off Status.",
         "rawValue": "{color.palette.grey.400}"
+      },
+      "interactive-hover": {
+        "value": "#92cbff",
+        "type": "color",
+        "description": "The hover color used for interactive elements.",
+        "rawValue": "{color.palette.brightblue.400}"
       }
     },
     "text": {
@@ -498,70 +484,42 @@
         "rawValue": "{color.palette.neutral.000}"
       },
       "interactive": {
-        "default": {
-          "value": "#005a8f",
-          "type": "color",
-          "description": "The primary color used for interactive elements.",
-          "rawValue": "{color.palette.darkblue.500}"
-        },
-        "hover": {
-          "value": "#004872",
-          "type": "color",
-          "description": "The hover color used for interactive elements.",
-          "rawValue": "{color.palette.darkblue.600}"
-        }
+        "value": "#4dacff",
+        "type": "color",
+        "description": "The primary color used for interactive elements.",
+        "rawValue": "{color.palette.brightblue.500}"
       },
-      "critical": {
+      "interactive-hover": {
+        "value": "#92cbff",
+        "type": "color",
+        "description": "The hover color used for interactive elements.",
+        "rawValue": "{color.palette.brightblue.400}"
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes. #ffffff",
+        "rawValue": "{color.palette.neutral.000}"
+      },
+      "black": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes. #000000",
+        "rawValue": "{color.palette.neutral.1000}"
+      },
+      "error": {
         "value": "#ff3838",
         "type": "color",
-        "description": "Used to represent the Critical Status.",
+        "description": "The text color used for errors. #ff3838",
         "rawValue": "{color.palette.red.500}"
-      },
-      "serious": {
-        "value": "#ffb302",
-        "type": "color",
-        "description": "Used to represent the Serious Status.",
-        "rawValue": "{color.palette.orange.500}"
-      },
-      "caution": {
-        "value": "#fce83a",
-        "type": "color",
-        "description": "Used to represent the Caution Status.",
-        "rawValue": "{color.palette.yellow.500}"
-      },
-      "normal": {
-        "value": "#56f000",
-        "type": "color",
-        "description": "Used to represent the Normal Status.",
-        "rawValue": "{color.palette.green.500}"
-      },
-      "standby": {
-        "value": "#64d9ff",
-        "type": "color",
-        "description": "Used to represent the Standby Status.",
-        "rawValue": "{color.palette.cyan.500}"
-      },
-      "off": {
-        "value": "#a4abb6",
-        "type": "color",
-        "description": "Used to represent the Off Status.",
-        "rawValue": "{color.palette.grey.500}"
       }
     },
     "border": {
       "interactive": {
-        "default": {
-          "value": "#005a8f",
-          "type": "color",
-          "description": "The primary color used for interactive elements.",
-          "rawValue": "{color.palette.darkblue.500}"
-        },
-        "hover": {
-          "value": "#004872",
-          "type": "color",
-          "description": "The hover color used for interactive elements.",
-          "rawValue": "{color.palette.darkblue.600}"
-        }
+        "value": "#4dacff",
+        "type": "color",
+        "description": "The primary color used for interactive elements.",
+        "rawValue": "{color.palette.brightblue.500}"
       },
       "muted": {
         "value": "#b7dcff",
@@ -604,6 +562,12 @@
         "type": "color",
         "description": "Used to represent the Off Status.",
         "rawValue": "{color.palette.grey.500}"
+      },
+      "interactive-hover": {
+        "value": "#92cbff",
+        "type": "color",
+        "description": "The hover color used for interactive elements.",
+        "rawValue": "{color.palette.brightblue.400}"
       }
     },
     "fill": {
@@ -1200,160 +1164,6 @@
       }
     }
   },
-  "opacity": {
-    "12": {
-      "value": "12%",
-      "description": "dialog-shadow-2",
-      "type": "opacity",
-      "rawValue": "12%"
-    },
-    "14": {
-      "value": "14%",
-      "description": "dialog shadow 1 light",
-      "type": "opacity",
-      "rawValue": "14%"
-    },
-    "20": {
-      "value": "20%",
-      "description": "dialog-shadow-3",
-      "type": "opacity",
-      "rawValue": "20%"
-    },
-    "25": {
-      "value": "25%",
-      "description": "dialog-shadow-1",
-      "type": "opacity",
-      "rawValue": "25%"
-    },
-    "40": {
-      "value": "40%",
-      "type": "opacity",
-      "rawValue": "40%"
-    },
-    "50": {
-      "value": "50%",
-      "type": "opacity",
-      "rawValue": "50%"
-    }
-  },
-  "classification-banner": {
-    "color": {
-      "text": {
-        "unclassified": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "The color used for the text on Unclassified classification banners.",
-          "rawValue": "{color.palette.neutral.000}"
-        },
-        "cui": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "The color used for the text on CUI classification banners.",
-          "rawValue": "{color.palette.neutral.000}"
-        },
-        "confidential": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "The color used for the text on Confidential classification banners.",
-          "rawValue": "{color.palette.neutral.000}"
-        },
-        "secret": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "The color used for the text on Secret classification banners.",
-          "rawValue": "{color.palette.neutral.000}"
-        },
-        "top-secret": {
-          "value": "#000000",
-          "type": "color",
-          "description": "The color used for the text on Top Secret classification banners.",
-          "rawValue": "{color.palette.neutral.1000}"
-        },
-        "top-secret-sci": {
-          "value": "#000000",
-          "type": "color",
-          "description": "The color used for the text on Top Secret//SCI classification banners.",
-          "rawValue": "{color.palette.neutral.1000}"
-        }
-      }
-    }
-  },
-  "slider": {
-    "radius": {
-      "background-track": {
-        "value": "1px",
-        "type": "borderRadius",
-        "description": "The background track border radius",
-        "rawValue": "1px"
-      }
-    }
-  },
-  "checkbox": {
-    "radius": {
-      "value": "2px",
-      "type": "borderRadius",
-      "description": "The checkbox border radius",
-      "rawValue": "2px"
-    }
-  },
-  "radio": {
-    "radius": {
-      "inner": {
-        "value": "4px",
-        "type": "borderRadius",
-        "description": "The inside radio border radius",
-        "rawValue": "4px"
-      },
-      "outer": {
-        "value": "9px",
-        "type": "borderRadius",
-        "description": "The outside radio border radius",
-        "rawValue": "9px"
-      }
-    }
-  },
-  "switch": {
-    "radius": {
-      "track": {
-        "value": "10px",
-        "type": "borderRadius",
-        "description": "The switch track's border radius",
-        "rawValue": "10px"
-      }
-    }
-  },
-  "progress": {
-    "radius": {
-      "inner": {
-        "value": "8px",
-        "type": "borderRadius",
-        "description": "The inside border radius",
-        "rawValue": "8px"
-      },
-      "outer": {
-        "value": "10px",
-        "type": "borderRadius",
-        "description": "The outside border radius",
-        "rawValue": "10px"
-      }
-    }
-  },
-  "indeterminate-progress": {
-    "radius": {
-      "inner": {
-        "value": "23px",
-        "type": "borderRadius",
-        "description": "The inside border radius",
-        "rawValue": "23px"
-      },
-      "outer": {
-        "value": "30px",
-        "type": "borderRadius",
-        "description": "The outside border radius",
-        "rawValue": "30px"
-      }
-    }
-  },
   "radius": {
     "base": {
       "value": "3px",
@@ -1925,6 +1735,118 @@
       "value": 0,
       "type": "paragraphSpacing",
       "rawValue": "0"
+    }
+  },
+  "opacity": {
+    "12": {
+      "value": "12%",
+      "description": "dialog-shadow-2",
+      "type": "opacity",
+      "rawValue": "12%"
+    },
+    "14": {
+      "value": "14%",
+      "description": "dialog shadow 1 light",
+      "type": "opacity",
+      "rawValue": "14%"
+    },
+    "20": {
+      "value": "20%",
+      "description": "dialog-shadow-3",
+      "type": "opacity",
+      "rawValue": "20%"
+    },
+    "25": {
+      "value": "25%",
+      "description": "dialog-shadow-1",
+      "type": "opacity",
+      "rawValue": "25%"
+    },
+    "40": {
+      "value": "40%",
+      "type": "opacity",
+      "rawValue": "40%"
+    },
+    "50": {
+      "value": "50%",
+      "type": "opacity",
+      "rawValue": "50%"
+    }
+  },
+  "slider": {
+    "radius": {
+      "background-track": {
+        "value": "1px",
+        "type": "borderRadius",
+        "description": "The background track border radius",
+        "rawValue": "1px"
+      }
+    }
+  },
+  "checkbox": {
+    "radius": {
+      "value": "2px",
+      "type": "borderRadius",
+      "description": "The checkbox border radius",
+      "rawValue": "2px"
+    }
+  },
+  "radio": {
+    "radius": {
+      "inner": {
+        "value": "4px",
+        "type": "borderRadius",
+        "description": "The inside radio border radius",
+        "rawValue": "4px"
+      },
+      "outer": {
+        "value": "9px",
+        "type": "borderRadius",
+        "description": "The outside radio border radius",
+        "rawValue": "9px"
+      }
+    }
+  },
+  "switch": {
+    "radius": {
+      "track": {
+        "value": "10px",
+        "type": "borderRadius",
+        "description": "The switch track's border radius",
+        "rawValue": "10px"
+      }
+    }
+  },
+  "progress": {
+    "radius": {
+      "inner": {
+        "value": "8px",
+        "type": "borderRadius",
+        "description": "The inside border radius",
+        "rawValue": "8px"
+      },
+      "outer": {
+        "value": "10px",
+        "type": "borderRadius",
+        "description": "The outside border radius",
+        "rawValue": "10px"
+      }
+    }
+  },
+  "indeterminate-progress": {
+    "radius": {
+      "inner": {
+        "value": "23px",
+        "type": "borderRadius",
+        "description": "The inside border radius",
+        "rawValue": "23px"
+      },
+      "outer": {
+        "value": "30px",
+        "type": "borderRadius",
+        "description": "The outside border radius",
+        "rawValue": "30px"
+      }
     }
   }
 }

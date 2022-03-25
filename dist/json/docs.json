@@ -1,516 +1,5 @@
 [
   {
-    "name": "opacity-12",
-    "value": "12%",
-    "description": "dialog-shadow-2",
-    "property": "12",
-    "category": "opacity",
-    "component": null
-  },
-  {
-    "name": "opacity-14",
-    "value": "14%",
-    "description": "dialog shadow 1 light",
-    "property": "14",
-    "category": "opacity",
-    "component": null
-  },
-  {
-    "name": "opacity-20",
-    "value": "20%",
-    "description": "dialog-shadow-3",
-    "property": "20",
-    "category": "opacity",
-    "component": null
-  },
-  {
-    "name": "opacity-25",
-    "value": "25%",
-    "description": "dialog-shadow-1",
-    "property": "25",
-    "category": "opacity",
-    "component": null
-  },
-  {
-    "name": "opacity-40",
-    "value": "40%",
-    "property": "40",
-    "category": "opacity",
-    "component": null
-  },
-  {
-    "name": "opacity-50",
-    "value": "50%",
-    "property": "50",
-    "category": "opacity",
-    "component": null
-  },
-  {
-    "name": "tag-shadow-inner-normal",
-    "value": "0px 0px 5px 0px rgb(86, 240, 0)",
-    "description": "Inner shadow for normal status Tags",
-    "property": "inner",
-    "category": "boxShadow",
-    "component": "tag",
-    "referenceToken": "status-symbol-color-fill-normal"
-  },
-  {
-    "name": "tag-shadow-inner-critical",
-    "value": "0px 0px 5px 0px rgb(255, 56, 56)",
-    "description": "Inner shadow for critical status Tags",
-    "property": "inner",
-    "category": "boxShadow",
-    "component": "tag",
-    "referenceToken": "status-symbol-color-fill-critical"
-  },
-  {
-    "name": "tag-shadow-inner-off",
-    "value": "0px 0px 5px 0px rgb(164, 171, 182)",
-    "description": "Inner shadow for off status Tags",
-    "property": "inner",
-    "category": "boxShadow",
-    "component": "tag",
-    "referenceToken": "status-symbol-color-fill-off"
-  },
-  {
-    "name": "dialog-shadow-outer-1",
-    "value": "0px 0px 4px 0px rgba(0, 0, 0, 0.25)",
-    "description": "Drop shadow for dialogs 1",
-    "property": "outer",
-    "category": "boxShadow",
-    "component": "dialog",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "dialog-shadow-outer-2",
-    "value": "0px 4px 4px 3px rgba(0, 0, 0, 0.12)",
-    "description": "Drop shadow for dialogs 2",
-    "property": "outer",
-    "category": "boxShadow",
-    "component": "dialog",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "dialog-shadow-outer-3",
-    "value": "0px 4px 4px 0px rgba(0, 0, 0, 0.2)",
-    "description": "Drop shadow for dialogs 3",
-    "property": "outer",
-    "category": "boxShadow",
-    "component": "dialog",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "table-color-background-hover",
-    "value": "#142435",
-    "description": "the table row background hover color",
-    "property": "background",
-    "category": "color",
-    "component": "table",
-    "referenceToken": "color-palette-brightblue-850"
-  },
-  {
-    "name": "classification-banner-color-text-unclassified",
-    "value": "#ffffff",
-    "description": "The color used for the text on Unclassified classification banners.",
-    "property": "text",
-    "category": "color",
-    "component": "classification-banner",
-    "referenceToken": "color-palette-neutral-000"
-  },
-  {
-    "name": "classification-banner-color-text-cui",
-    "value": "#ffffff",
-    "description": "The color used for the text on CUI classification banners.",
-    "property": "text",
-    "category": "color",
-    "component": "classification-banner",
-    "referenceToken": "color-palette-neutral-000"
-  },
-  {
-    "name": "classification-banner-color-text-confidential",
-    "value": "#ffffff",
-    "description": "The color used for the text on Confidential classification banners.",
-    "property": "text",
-    "category": "color",
-    "component": "classification-banner",
-    "referenceToken": "color-palette-neutral-000"
-  },
-  {
-    "name": "classification-banner-color-text-secret",
-    "value": "#ffffff",
-    "description": "The color used for the text on Secret classification banners.",
-    "property": "text",
-    "category": "color",
-    "component": "classification-banner",
-    "referenceToken": "color-palette-neutral-000"
-  },
-  {
-    "name": "classification-banner-color-text-top-secret",
-    "value": "#000000",
-    "description": "The color used for the text on Top Secret classification banners.",
-    "property": "text",
-    "category": "color",
-    "component": "classification-banner",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "classification-banner-color-text-top-secret-sci",
-    "value": "#000000",
-    "description": "The color used for the text on Top Secret//SCI classification banners.",
-    "property": "text",
-    "category": "color",
-    "component": "classification-banner",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "notification-banner-icon-fill-critical",
-    "value": "#8b1703",
-    "description": "The color used for icons in Critical status banners.",
-    "property": "icon",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-palette-red-800"
-  },
-  {
-    "name": "notification-banner-icon-fill-serious",
-    "value": "#975f0e",
-    "description": "The color used for icons in Serious status banners.",
-    "property": "icon",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-palette-orange-800"
-  },
-  {
-    "name": "notification-banner-icon-fill-caution",
-    "value": "#917d01",
-    "description": "The color used for icons in Caution status banners.",
-    "property": "icon",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-palette-yellow-800"
-  },
-  {
-    "name": "notification-banner-icon-fill-normal",
-    "value": "#007a33",
-    "description": "The color used for icons in Normal status banners.",
-    "property": "icon",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-palette-green-800"
-  },
-  {
-    "name": "notification-banner-icon-fill-standby",
-    "value": "#35798e",
-    "description": "The color used for icons in Standby status banners.",
-    "property": "icon",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-palette-cyan-800"
-  },
-  {
-    "name": "notification-banner-icon-fill-off",
-    "value": "#51555b",
-    "description": "The color used for icons in Off status banners.",
-    "property": "icon",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-palette-grey-700"
-  },
-  {
-    "name": "notification-banner-color-background-critical",
-    "value": "#ff5f60",
-    "description": "The color used for the background on Critical status banners.",
-    "property": "background",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-background-critical"
-  },
-  {
-    "name": "notification-banner-color-background-serious",
-    "value": "#ffcc57",
-    "description": "The color used for the background on Serious status banners.",
-    "property": "background",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-background-serious"
-  },
-  {
-    "name": "notification-banner-color-background-caution",
-    "value": "#fded61",
-    "description": "The color used for the background on Caution status banners.",
-    "property": "background",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-background-caution"
-  },
-  {
-    "name": "notification-banner-color-background-normal",
-    "value": "#99f666",
-    "description": "The color used for the background on Normal status banners.",
-    "property": "background",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-background-normal"
-  },
-  {
-    "name": "notification-banner-color-background-standby",
-    "value": "#5ce2ff",
-    "description": "The color used for the background on Standby status banners.",
-    "property": "background",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-background-standby"
-  },
-  {
-    "name": "notification-banner-color-background-off",
-    "value": "#bbc1c9",
-    "description": "The color used for the background on Off status banners.",
-    "property": "background",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-background-off"
-  },
-  {
-    "name": "notification-banner-color-text",
-    "value": "#000000",
-    "description": "The color used for the text on notification banners.",
-    "property": "text",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "status-symbol-color-fill-critical",
-    "value": "#ff3838",
-    "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-red-500"
-  },
-  {
-    "name": "status-symbol-color-fill-serious",
-    "value": "#ffb302",
-    "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention.",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-orange-500"
-  },
-  {
-    "name": "status-symbol-color-fill-caution",
-    "value": "#fce83a",
-    "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-yellow-500"
-  },
-  {
-    "name": "status-symbol-color-fill-normal",
-    "value": "#56f000",
-    "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-green-500"
-  },
-  {
-    "name": "status-symbol-color-fill-standby",
-    "value": "#2dccff",
-    "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-cyan-600"
-  },
-  {
-    "name": "status-symbol-color-fill-off",
-    "value": "#a4abb6",
-    "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-grey-500"
-  },
-  {
-    "name": "status-symbol-color-border-critical",
-    "value": "#66110200",
-    "description": "The border color used for the Critical status symbol. Transparent in Dark Theme.",
-    "property": "border",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-red-900"
-  },
-  {
-    "name": "status-symbol-color-border-serious",
-    "value": "#66461800",
-    "description": "The border color used for the Serious status symbol. Transparent in Dark Theme.",
-    "property": "border",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-orange-900"
-  },
-  {
-    "name": "status-symbol-color-border-caution",
-    "value": "#64560000",
-    "description": "The border color used for the Caution status symbol. Transparent in Dark Theme.",
-    "property": "border",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-yellow-900"
-  },
-  {
-    "name": "status-symbol-color-border-normal",
-    "value": "#005a0000",
-    "description": "The border color used for the Normal status symbol. Transparent in Dark Theme.",
-    "property": "border",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-green-900"
-  },
-  {
-    "name": "status-symbol-color-border-standby",
-    "value": "#28576600",
-    "description": "The border color used for the Standby status symbol. Transparent in Dark Theme.",
-    "property": "border",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-cyan-900"
-  },
-  {
-    "name": "status-symbol-color-border-off",
-    "value": "#3c3e4200",
-    "description": "The border color used for the Off status symbol. Transparent in Dark Theme.",
-    "property": "border",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-grey-800"
-  },
-  {
-    "name": "gsb-icon-color-fill",
-    "value": "#4dacff",
-    "description": "The primary color used for interactive elements in the Global Status Bar.",
-    "property": "icon",
-    "category": "color",
-    "component": "gsb",
-    "referenceToken": "color-palette-brightblue-500"
-  },
-  {
-    "name": "gsb-color-background",
-    "value": "#172635",
-    "description": "The background color of the Global Status Bar component. ",
-    "property": "background",
-    "category": "color",
-    "component": "gsb",
-    "referenceToken": "color-palette-darkblue-900"
-  },
-  {
-    "name": "gsb-color-text",
-    "value": "#ffffff",
-    "description": "The primary text color used within the Global Status Bar.",
-    "property": "text",
-    "category": "color",
-    "component": "gsb",
-    "referenceToken": "color-palette-neutral-000"
-  },
-  {
-    "name": "slider-radius-background-track",
-    "value": "1px",
-    "description": "The background track border radius",
-    "property": "background-track",
-    "category": "borderRadius",
-    "component": "slider"
-  },
-  {
-    "name": "checkbox-radius",
-    "value": "2px",
-    "description": "The checkbox border radius",
-    "category": "borderRadius",
-    "component": "checkbox"
-  },
-  {
-    "name": "radio-radius-inner",
-    "value": "4px",
-    "description": "The inside radio border radius",
-    "property": "inner",
-    "category": "borderRadius",
-    "component": "radio"
-  },
-  {
-    "name": "radio-radius-outer",
-    "value": "9px",
-    "description": "The outside radio border radius",
-    "property": "outer",
-    "category": "borderRadius",
-    "component": "radio"
-  },
-  {
-    "name": "switch-radius-track",
-    "value": "10px",
-    "description": "The switch track's border radius",
-    "property": "track",
-    "category": "borderRadius",
-    "component": "switch"
-  },
-  {
-    "name": "scrollbar-shadow-inner-vertical",
-    "value": "3px 3px 3px 0px rgba(0, 0, 0, 0.5)",
-    "description": "Inner shadow for vertical scrollbars",
-    "property": "inner",
-    "category": "boxShadow",
-    "component": "scrollbar",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "scrollbar-shadow-inner-horizontal",
-    "value": "1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
-    "description": "Inner shadow for horizontal scrollbars",
-    "property": "inner",
-    "category": "boxShadow",
-    "component": "scrollbar",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "scrollbar-radius",
-    "value": "4px",
-    "description": "The scrollbar's border radius",
-    "category": "borderRadius",
-    "component": "scrollbar"
-  },
-  {
-    "name": "progress-radius-inner",
-    "value": "8px",
-    "description": "The inside border radius",
-    "property": "inner",
-    "category": "borderRadius",
-    "component": "progress"
-  },
-  {
-    "name": "progress-radius-outer",
-    "value": "10px",
-    "description": "The outside border radius",
-    "property": "outer",
-    "category": "borderRadius",
-    "component": "progress"
-  },
-  {
-    "name": "indeterminate-progress-radius-inner",
-    "value": "23px",
-    "description": "The inside border radius",
-    "property": "inner",
-    "category": "borderRadius",
-    "component": "indeterminate-progress"
-  },
-  {
-    "name": "indeterminate-progress-radius-outer",
-    "value": "30px",
-    "description": "The outside border radius",
-    "property": "outer",
-    "category": "borderRadius",
-    "component": "indeterminate-progress"
-  },
-  {
     "name": "color-palette-neutral-1000",
     "value": "#000000",
     "property": "palette",
@@ -1280,15 +769,6 @@
     "referenceToken": "color-palette-green-800"
   },
   {
-    "name": "color-background-surface",
-    "value": "#1b2d3e",
-    "description": "The background color of surface panels.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-darkblue-800"
-  },
-  {
     "name": "color-background-base",
     "value": "#101923",
     "description": "The background color of base elements, like the app or popup menus.",
@@ -1298,7 +778,25 @@
     "referenceToken": "color-palette-brightblue-900"
   },
   {
-    "name": "color-background-header",
+    "name": "color-background-base-hover",
+    "value": "#142435",
+    "description": "The background color of base elements, like popup menus, when they are hovered over. #142435",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-850"
+  },
+  {
+    "name": "color-background-surface",
+    "value": "#1b2d3e",
+    "description": "The background color of surface panels.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-darkblue-800"
+  },
+  {
+    "name": "color-background-surface-header",
     "value": "#172635",
     "description": "The background color for the header of surface elements, including dialog and table headers.",
     "property": "background",
@@ -1325,7 +823,7 @@
     "referenceToken": "color-palette-brightblue-800"
   },
   {
-    "name": "color-background-interactive-default",
+    "name": "color-background-interactive",
     "value": "#4dacff",
     "description": "The primary color used for interactive elements.",
     "property": "background",
@@ -1433,7 +931,7 @@
     "referenceToken": "color-palette-darkblue-950"
   },
   {
-    "name": "color-text-interactive-default",
+    "name": "color-text-interactive",
     "value": "#4dacff",
     "description": "The primary color used for interactive elements.",
     "property": "text",
@@ -1451,61 +949,34 @@
     "referenceToken": "color-palette-brightblue-400"
   },
   {
-    "name": "color-text-critical",
+    "name": "color-text-white",
+    "value": "#ffffff",
+    "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes. #ffffff",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-neutral-000"
+  },
+  {
+    "name": "color-text-black",
+    "value": "#000000",
+    "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes. #000000",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-neutral-1000"
+  },
+  {
+    "name": "color-text-error",
     "value": "#ff3838",
-    "description": "Used to represent the Critical Status.",
+    "description": "The text color used for errors. #ff3838",
     "property": "text",
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-red-500"
   },
   {
-    "name": "color-text-serious",
-    "value": "#ffb302",
-    "description": "Used to represent the Serious Status.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-orange-500"
-  },
-  {
-    "name": "color-text-caution",
-    "value": "#fce83a",
-    "description": "Used to represent the Caution Status.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-yellow-500"
-  },
-  {
-    "name": "color-text-normal",
-    "value": "#56f000",
-    "description": "Used to represent the Normal Status.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-green-500"
-  },
-  {
-    "name": "color-text-standby",
-    "value": "#64d9ff",
-    "description": "Used to represent the Standby Status.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-cyan-500"
-  },
-  {
-    "name": "color-text-off",
-    "value": "#a4abb6",
-    "description": "Used to represent the Off Status.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-grey-500"
-  },
-  {
-    "name": "color-border-interactive-default",
+    "name": "color-border-interactive",
     "value": "#4dacff",
     "description": "The primary color used for interactive elements.",
     "property": "border",
@@ -2442,5 +1913,444 @@
     "property": "0",
     "category": "paragraphSpacing",
     "component": null
+  },
+  {
+    "name": "opacity-12",
+    "value": "12%",
+    "description": "dialog-shadow-2",
+    "property": "12",
+    "category": "opacity",
+    "component": null
+  },
+  {
+    "name": "opacity-14",
+    "value": "14%",
+    "description": "dialog shadow 1 light",
+    "property": "14",
+    "category": "opacity",
+    "component": null
+  },
+  {
+    "name": "opacity-20",
+    "value": "20%",
+    "description": "dialog-shadow-3",
+    "property": "20",
+    "category": "opacity",
+    "component": null
+  },
+  {
+    "name": "opacity-25",
+    "value": "25%",
+    "description": "dialog-shadow-1",
+    "property": "25",
+    "category": "opacity",
+    "component": null
+  },
+  {
+    "name": "opacity-40",
+    "value": "40%",
+    "property": "40",
+    "category": "opacity",
+    "component": null
+  },
+  {
+    "name": "opacity-50",
+    "value": "50%",
+    "property": "50",
+    "category": "opacity",
+    "component": null
+  },
+  {
+    "name": "tag-shadow-inner-normal",
+    "value": "0px 0px 5px 0px rgb(86, 240, 0)",
+    "description": "Inner shadow for normal status Tags",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": "tag",
+    "referenceToken": "status-symbol-color-fill-normal"
+  },
+  {
+    "name": "tag-shadow-inner-critical",
+    "value": "0px 0px 5px 0px rgb(255, 56, 56)",
+    "description": "Inner shadow for critical status Tags",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": "tag",
+    "referenceToken": "status-symbol-color-fill-critical"
+  },
+  {
+    "name": "tag-shadow-inner-off",
+    "value": "0px 0px 5px 0px rgb(164, 171, 182)",
+    "description": "Inner shadow for off status Tags",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": "tag",
+    "referenceToken": "status-symbol-color-fill-off"
+  },
+  {
+    "name": "dialog-shadow-outer-1",
+    "value": "0px 0px 4px 0px rgba(0, 0, 0, 0.25)",
+    "description": "Drop shadow for dialogs 1",
+    "property": "outer",
+    "category": "boxShadow",
+    "component": "dialog",
+    "referenceToken": "color-palette-neutral-1000"
+  },
+  {
+    "name": "dialog-shadow-outer-2",
+    "value": "0px 4px 4px 3px rgba(0, 0, 0, 0.12)",
+    "description": "Drop shadow for dialogs 2",
+    "property": "outer",
+    "category": "boxShadow",
+    "component": "dialog",
+    "referenceToken": "color-palette-neutral-1000"
+  },
+  {
+    "name": "dialog-shadow-outer-3",
+    "value": "0px 4px 4px 0px rgba(0, 0, 0, 0.2)",
+    "description": "Drop shadow for dialogs 3",
+    "property": "outer",
+    "category": "boxShadow",
+    "component": "dialog",
+    "referenceToken": "color-palette-neutral-1000"
+  },
+  {
+    "name": "notification-banner-icon-fill-critical",
+    "value": "#8b1703",
+    "description": "The color used for icons in Critical status banners.",
+    "property": "icon",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-palette-red-800"
+  },
+  {
+    "name": "notification-banner-icon-fill-serious",
+    "value": "#975f0e",
+    "description": "The color used for icons in Serious status banners.",
+    "property": "icon",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-palette-orange-800"
+  },
+  {
+    "name": "notification-banner-icon-fill-caution",
+    "value": "#917d01",
+    "description": "The color used for icons in Caution status banners.",
+    "property": "icon",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-palette-yellow-800"
+  },
+  {
+    "name": "notification-banner-icon-fill-normal",
+    "value": "#007a33",
+    "description": "The color used for icons in Normal status banners.",
+    "property": "icon",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-palette-green-800"
+  },
+  {
+    "name": "notification-banner-icon-fill-standby",
+    "value": "#35798e",
+    "description": "The color used for icons in Standby status banners.",
+    "property": "icon",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-palette-cyan-800"
+  },
+  {
+    "name": "notification-banner-icon-fill-off",
+    "value": "#51555b",
+    "description": "The color used for icons in Off status banners.",
+    "property": "icon",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-palette-grey-700"
+  },
+  {
+    "name": "notification-banner-color-background-critical",
+    "value": "#ff5f60",
+    "description": "The color used for the background on Critical status banners.",
+    "property": "background",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-background-critical"
+  },
+  {
+    "name": "notification-banner-color-background-serious",
+    "value": "#ffcc57",
+    "description": "The color used for the background on Serious status banners.",
+    "property": "background",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-background-serious"
+  },
+  {
+    "name": "notification-banner-color-background-caution",
+    "value": "#fded61",
+    "description": "The color used for the background on Caution status banners.",
+    "property": "background",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-background-caution"
+  },
+  {
+    "name": "notification-banner-color-background-normal",
+    "value": "#99f666",
+    "description": "The color used for the background on Normal status banners.",
+    "property": "background",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-background-normal"
+  },
+  {
+    "name": "notification-banner-color-background-standby",
+    "value": "#5ce2ff",
+    "description": "The color used for the background on Standby status banners.",
+    "property": "background",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-background-standby"
+  },
+  {
+    "name": "notification-banner-color-background-off",
+    "value": "#bbc1c9",
+    "description": "The color used for the background on Off status banners.",
+    "property": "background",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-background-off"
+  },
+  {
+    "name": "status-symbol-color-fill-critical",
+    "value": "#ff3838",
+    "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-red-500"
+  },
+  {
+    "name": "status-symbol-color-fill-serious",
+    "value": "#ffb302",
+    "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention.",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-orange-500"
+  },
+  {
+    "name": "status-symbol-color-fill-caution",
+    "value": "#fce83a",
+    "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-yellow-500"
+  },
+  {
+    "name": "status-symbol-color-fill-normal",
+    "value": "#56f000",
+    "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-green-500"
+  },
+  {
+    "name": "status-symbol-color-fill-standby",
+    "value": "#2dccff",
+    "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-cyan-600"
+  },
+  {
+    "name": "status-symbol-color-fill-off",
+    "value": "#a4abb6",
+    "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-grey-500"
+  },
+  {
+    "name": "status-symbol-color-border-critical",
+    "value": "#66110200",
+    "description": "The border color used for the Critical status symbol. Transparent in Dark Theme.",
+    "property": "border",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-red-900"
+  },
+  {
+    "name": "status-symbol-color-border-serious",
+    "value": "#66461800",
+    "description": "The border color used for the Serious status symbol. Transparent in Dark Theme.",
+    "property": "border",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-orange-900"
+  },
+  {
+    "name": "status-symbol-color-border-caution",
+    "value": "#64560000",
+    "description": "The border color used for the Caution status symbol. Transparent in Dark Theme.",
+    "property": "border",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-yellow-900"
+  },
+  {
+    "name": "status-symbol-color-border-normal",
+    "value": "#005a0000",
+    "description": "The border color used for the Normal status symbol. Transparent in Dark Theme.",
+    "property": "border",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-green-900"
+  },
+  {
+    "name": "status-symbol-color-border-standby",
+    "value": "#28576600",
+    "description": "The border color used for the Standby status symbol. Transparent in Dark Theme.",
+    "property": "border",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-cyan-900"
+  },
+  {
+    "name": "status-symbol-color-border-off",
+    "value": "#3c3e4200",
+    "description": "The border color used for the Off status symbol. Transparent in Dark Theme.",
+    "property": "border",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-grey-800"
+  },
+  {
+    "name": "gsb-icon-color-fill",
+    "value": "#4dacff",
+    "description": "The primary color used for interactive elements in the Global Status Bar.",
+    "property": "icon",
+    "category": "color",
+    "component": "gsb",
+    "referenceToken": "color-palette-brightblue-500"
+  },
+  {
+    "name": "gsb-color-background",
+    "value": "#172635",
+    "description": "The background color of the Global Status Bar component. ",
+    "property": "background",
+    "category": "color",
+    "component": "gsb",
+    "referenceToken": "color-palette-darkblue-900"
+  },
+  {
+    "name": "gsb-color-text",
+    "value": "#ffffff",
+    "description": "The primary text color used within the Global Status Bar.",
+    "property": "text",
+    "category": "color",
+    "component": "gsb",
+    "referenceToken": "color-palette-neutral-000"
+  },
+  {
+    "name": "slider-radius-background-track",
+    "value": "1px",
+    "description": "The background track border radius",
+    "property": "background-track",
+    "category": "borderRadius",
+    "component": "slider"
+  },
+  {
+    "name": "checkbox-radius",
+    "value": "2px",
+    "description": "The checkbox border radius",
+    "category": "borderRadius",
+    "component": "checkbox"
+  },
+  {
+    "name": "radio-radius-inner",
+    "value": "4px",
+    "description": "The inside radio border radius",
+    "property": "inner",
+    "category": "borderRadius",
+    "component": "radio"
+  },
+  {
+    "name": "radio-radius-outer",
+    "value": "9px",
+    "description": "The outside radio border radius",
+    "property": "outer",
+    "category": "borderRadius",
+    "component": "radio"
+  },
+  {
+    "name": "switch-radius-track",
+    "value": "10px",
+    "description": "The switch track's border radius",
+    "property": "track",
+    "category": "borderRadius",
+    "component": "switch"
+  },
+  {
+    "name": "scrollbar-shadow-inner-vertical",
+    "value": "3px 3px 3px 0px rgba(0, 0, 0, 0.5)",
+    "description": "Inner shadow for vertical scrollbars",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": "scrollbar",
+    "referenceToken": "color-palette-neutral-1000"
+  },
+  {
+    "name": "scrollbar-shadow-inner-horizontal",
+    "value": "1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
+    "description": "Inner shadow for horizontal scrollbars",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": "scrollbar",
+    "referenceToken": "color-palette-neutral-1000"
+  },
+  {
+    "name": "scrollbar-radius",
+    "value": "4px",
+    "description": "The scrollbar's border radius",
+    "category": "borderRadius",
+    "component": "scrollbar"
+  },
+  {
+    "name": "progress-radius-inner",
+    "value": "8px",
+    "description": "The inside border radius",
+    "property": "inner",
+    "category": "borderRadius",
+    "component": "progress"
+  },
+  {
+    "name": "progress-radius-outer",
+    "value": "10px",
+    "description": "The outside border radius",
+    "property": "outer",
+    "category": "borderRadius",
+    "component": "progress"
+  },
+  {
+    "name": "indeterminate-progress-radius-inner",
+    "value": "23px",
+    "description": "The inside border radius",
+    "property": "inner",
+    "category": "borderRadius",
+    "component": "indeterminate-progress"
+  },
+  {
+    "name": "indeterminate-progress-radius-outer",
+    "value": "30px",
+    "description": "The outside border radius",
+    "property": "outer",
+    "category": "borderRadius",
+    "component": "indeterminate-progress"
   }
 ]

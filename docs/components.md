@@ -19,9 +19,6 @@ import DesignTokenPreview from '../components/DesignTokenPreview.vue'
 ## Switch
 <ComponentNotificationBanner component="switch"/>
 
-## Classification Banner
-<ComponentNotificationBanner component="classification-banner"/>
-
 ## Radio
 <ComponentNotificationBanner component="radio"/>
 

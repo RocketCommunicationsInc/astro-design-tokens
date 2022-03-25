@@ -1,50 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Fri, 25 Mar 2022 15:47:00 GMT
+ * Generated on Fri, 25 Mar 2022 16:24:29 GMT
  */
 
 @mixin root-variables {
-  --color-fill-muted: #2b659b;
-  --color-border-off: #a4abb6;
-  --color-border-standby: #64d9ff;
-  --color-border-normal: #56f000;
-  --color-border-caution: #fce83a;
-  --color-border-serious: #ffb302;
-  --color-border-critical: #ff3838;
-  --color-border-muted: #2b659b;
-  --color-border-interactive-hover: #92cbff;
-  --color-border-interactive-default: #4dacff;
-  --color-text-off: #a4abb6;
-  --color-text-standby: #64d9ff;
-  --color-text-normal: #56f000;
-  --color-text-caution: #fce83a;
-  --color-text-serious: #ffb302;
-  --color-text-critical: #ff3838;
-  --color-text-interactive-hover: #92cbff;
-  --color-text-interactive-default: #4dacff;
-  --color-text-inverse: #080c11;
-  --color-text-placeholder: #a4abb6;
-  --color-text-secondary: #d4d8dd;
-  --color-text-primary: #ffffff;
-  --color-background-off: #bbc1c9;
-  --color-background-standby: #5ce2ff;
-  --color-background-normal: #99f666;
-  --color-background-caution: #fded61;
-  --color-background-serious: #ffcc57;
-  --color-background-critical: #ff5f60;
-  --color-background-interactive-hover: #92cbff;
-  --color-background-interactive-default: #4dacff;
-  --color-background-surface-hover: #1c3851;
-  --color-background-surface-selected: #1c3f5e;
-  --color-background-header: #172635;
-  --color-background-base: #101923;
-  --color-background-surface: #1b2d3e;
-  --color-classification-unclassified: #007a33;
-  --color-classification-cui: #502b85;
-  --color-classification-confidential: #0033a0;
-  --color-classification-secret: #c8102e;
-  --color-classification-topsecret: #ff8c00;
-  --color-classification-topsecretsci: #fce83a;
   --gsb-color-text: #ffffff;
   --gsb-color-background: #172635;
   --gsb-icon-color-fill: #4dacff;
@@ -60,7 +19,6 @@
   --status-symbol-color-fill-caution: #fce83a;
   --status-symbol-color-fill-serious: #ffb302;
   --status-symbol-color-fill-critical: #ff3838;
-  --notification-banner-color-text: #000000;
   --notification-banner-color-background-off: #bbc1c9;
   --notification-banner-color-background-standby: #5ce2ff;
   --notification-banner-color-background-normal: #99f666;
@@ -73,11 +31,43 @@
   --notification-banner-icon-fill-caution: #917d01;
   --notification-banner-icon-fill-serious: #975f0e;
   --notification-banner-icon-fill-critical: #8b1703;
-  --classification-banner-color-text-top-secret-sci: #000000;
-  --classification-banner-color-text-top-secret: #000000;
-  --classification-banner-color-text-secret: #ffffff;
-  --classification-banner-color-text-confidential: #ffffff;
-  --classification-banner-color-text-cui: #ffffff;
-  --classification-banner-color-text-unclassified: #ffffff;
-  --table-color-background-hover: #142435;
+  --color-fill-muted: #2b659b;
+  --color-border-off: #a4abb6;
+  --color-border-standby: #64d9ff;
+  --color-border-normal: #56f000;
+  --color-border-caution: #fce83a;
+  --color-border-serious: #ffb302;
+  --color-border-critical: #ff3838;
+  --color-border-muted: #2b659b;
+  --color-border-interactive-hover: #92cbff;
+  --color-border-interactive: #4dacff;
+  --color-text-error: #ff3838;
+  --color-text-black: #000000;
+  --color-text-white: #ffffff;
+  --color-text-interactive-hover: #92cbff;
+  --color-text-interactive: #4dacff;
+  --color-text-inverse: #080c11;
+  --color-text-placeholder: #a4abb6;
+  --color-text-secondary: #d4d8dd;
+  --color-text-primary: #ffffff;
+  --color-background-off: #bbc1c9;
+  --color-background-standby: #5ce2ff;
+  --color-background-normal: #99f666;
+  --color-background-caution: #fded61;
+  --color-background-serious: #ffcc57;
+  --color-background-critical: #ff5f60;
+  --color-background-interactive-hover: #92cbff;
+  --color-background-interactive: #4dacff;
+  --color-background-surface-hover: #1c3851;
+  --color-background-surface-selected: #1c3f5e;
+  --color-background-surface-header: #172635;
+  --color-background-surface: #1b2d3e;
+  --color-background-base-hover: #142435;
+  --color-background-base: #101923;
+  --color-classification-unclassified: #007a33;
+  --color-classification-cui: #502b85;
+  --color-classification-confidential: #0033a0;
+  --color-classification-secret: #c8102e;
+  --color-classification-topsecret: #ff8c00;
+  --color-classification-topsecretsci: #fce83a;
 }
