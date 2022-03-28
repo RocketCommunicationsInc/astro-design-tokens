@@ -441,17 +441,17 @@
   "shadow": {
     "inner": {
       "scrollbar": {
-        "vertical": "3px 3px 3px 0px rgba(0, 0, 0, 0.25)",
-        "horizontal": "1px 3px 3px 0px rgba(0, 0, 0, 0.25)"
+        "vertical": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.25)",
+        "horizontal": "inset 1px 3px 3px 0px rgba(0, 0, 0, 0.25)"
       },
       "tag": {
-        "normal": "0px 0px 5px 0px rgb(0, 226, 0)",
-        "critical": "0px 0px 5px 0px rgb(255, 42, 4)",
-        "off": "0px 0px 5px 0px rgb(123, 128, 137)"
+        "normal": "inset 0px 0px 5px 0px rgb(0, 226, 0)",
+        "critical": "inset 0px 0px 5px 0px rgb(255, 42, 4)",
+        "off": "inset 0px 0px 5px 0px rgb(123, 128, 137)"
       }
     },
     "outer": {
-      "dialog": "0px 0px 4px 1px rgba(0, 0, 0, 0.14),0px 4px 4px 3px rgba(0, 0, 0, 0.12),0px 4px 4px 0px rgba(0, 0, 0, 0.2)"
+      "dialog": " 0px 0px 4px 1px rgba(0, 0, 0, 0.14), 0px 4px 4px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.2)"
     }
   }
 }
