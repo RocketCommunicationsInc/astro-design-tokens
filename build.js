@@ -178,14 +178,14 @@ StyleDictionary.registerTransform({
 StyleDictionary.registerFilter({
   name: "notColor",
   matcher: function (token) {
-    return token.type !== "color";
+    return token.type !== "color" && token.type !== 'boxShadow'
   },
 });
 
 StyleDictionary.registerFilter({
   name: "color/theme",
   matcher: function (token) {
-    return token.type === "color" && token.attributes.type !== "palette";
+    return token.type === "color" && token.attributes.type !== "palette" || token.type === 'boxShadow'
   },
 });
 

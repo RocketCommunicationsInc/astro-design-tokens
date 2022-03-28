@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 25 Mar 2022 20:38:28 GMT
+// Generated on Mon, 28 Mar 2022 13:56:56 GMT
 
 $color-background-base-default: #101923;
 $color-background-base-header: #172635;
@@ -56,3 +56,9 @@ $color-gsb-text-secondary: #d4d8dd;
 $color-gsb-interactive-default: #4dacff;
 $color-gsb-interactive-hover: #92cbff;
 $color-gsb-interactive-muted: #2b659b;
+$shadow-inner-scrollbar-vertical: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
+$shadow-inner-scrollbar-horizontal: 1px 3px 3px 0px rgba(0, 0, 0, 0.5);
+$shadow-inner-tag-normal: 0px 0px 5px 0px rgb(86, 240, 0);
+$shadow-inner-tag-critical: 0px 0px 5px 0px rgb(255, 56, 56);
+$shadow-inner-tag-off: 0px 0px 5px 0px rgb(164, 171, 182);
+$shadow-outer-dialog: 0px 0px 4px 0px rgba(0, 0, 0, 0.25),0px 4px 4px 3px rgba(0, 0, 0, 0.12),0px 4px 4px 0px rgba(0, 0, 0, 0.4);

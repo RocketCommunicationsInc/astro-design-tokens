@@ -1,9 +1,15 @@
 /**
  * Do not edit directly
- * Generated on Fri, 25 Mar 2022 20:38:28 GMT
+ * Generated on Mon, 28 Mar 2022 13:56:56 GMT
  */
 
 .light-theme {
+  --shadow-outer-dialog: 0px 0px 4px 1px rgba(0, 0, 0, 0.14),0px 4px 4px 3px rgba(0, 0, 0, 0.12),0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  --shadow-inner-tag-off: 0px 0px 5px 0px rgb(123, 128, 137);
+  --shadow-inner-tag-critical: 0px 0px 5px 0px rgb(255, 42, 4);
+  --shadow-inner-tag-normal: 0px 0px 5px 0px rgb(0, 226, 0);
+  --shadow-inner-scrollbar-horizontal: 1px 3px 3px 0px rgba(0, 0, 0, 0.25);
+  --shadow-inner-scrollbar-vertical: 3px 3px 3px 0px rgba(0, 0, 0, 0.25);
   --color-gsb-interactive-muted: #2b659b;
   --color-gsb-interactive-hover: #92cbff;
   --color-gsb-interactive-default: #4dacff;
