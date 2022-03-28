@@ -417,7 +417,7 @@ StyleDictionary.extend({
         {
           destination: "_colors-global.scss",
           format: "scss/variables",
-          filter: "color/theme",
+          filter: "color/global",
         },
         {
           destination: "_variables.scss",
