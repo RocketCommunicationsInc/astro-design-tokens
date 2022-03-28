@@ -4,17 +4,17 @@ var _ = require("lodash");
 const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
 var Color = require("tinycolor2");
 
+
+
 StyleDictionary.registerTransform({
   name: "size/pxToRem",
   type: "value",
   matcher: (token) => {
-    return token.attributes.subitem === "fontSize" || token.attributes.category === 'fontSize'
-    // return token.unit === "pixel" && token.value !== 0;
+    return token.type === "fontSizes" || token.attributes.subitem === 'fontSize'
   },
   transformer: (token) => {
     const rem = 0.0625 * token.value;
     return `${rem}rem`;
-    // return `${token.value}px`;
   },
 });
 
@@ -22,7 +22,7 @@ StyleDictionary.registerTransform({
   name: "letterSpacing/percentToEm",
   type: "value",
   matcher: (token) => {
-    return token.attributes.subitem === "letterSpacing" || token.attributes.category === 'letterSpacing'
+    return token.type === "letterSpacing" || token.attributes.category === 'letterSpacing'
   },
   transformer: (token) => {
     const value = token.value.replace("%", "");
@@ -90,7 +90,7 @@ StyleDictionary.registerTransform({
   },
   transformer: (token) => {
     if (token.value.includes("rgba")) {
-      const output = token.value.replace(/rgba\((.+?)\)/g, function(string, first){
+      const output = token.value.replace(/rgba\((.+?)\)/g, function (string, first) {
         const hex = first.split(',')[0]
         const opacity = first.split(',')[1]
         const rgb = Color(hex).toRgb()
@@ -104,27 +104,53 @@ StyleDictionary.registerTransform({
   },
 });
 
-/**
- * Remove -dark- or -light- from the token name.
- * **TEMPORARY** until we can get design to use separate token themes.
- */
-StyleDictionary.registerTransform({
-  name: "color/themeName",
-  type: "name",
-  matcher: (token) => {
-    return token.attributes.category === "color"
-  },
-  transformer: (token) => {
-    if (token.attributes.type === "dark") {
-      return token.name.replace("dark-", "");
-    } else if (token.attributes.type === "light") {
-      return token.name.replace("light-", "");
-    } else {
-      return token.name
-    }
-  },
-});
 
+const shadowMatcher = (prop) => {
+  return prop.type === "boxShadow";
+
+}
+const webShadowTransformer = (prop) => {
+  if (Array.isArray(prop.original.value)) {
+
+      const isInner = prop.attributes.type === 'inner'
+    const newVal = prop.original.value.map(shadow => {
+      const {
+        blur,
+        color,
+        x,
+        y,
+        spread,
+      } = shadow
+      return `${isInner ? 'inset' : ''} ${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
+    })
+    return newVal.toString()
+  } else {
+
+    const {
+      blur,
+      color,
+      x,
+      y,
+      spread,
+    } = prop.original.value;
+
+
+
+      const isInner = prop.attributes.type === 'inner'
+    // return `${toPx(x)} ${toPx(y)} ${toPx(blur)} ${toPx(
+    //   spread
+    // )} ${Color(color).toRgbString()}`;
+    return `${isInner ? 'inset' : ''} ${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
+  }
+};
+
+
+StyleDictionary.registerTransform({
+  name: "shadow/css",
+  matcher: shadowMatcher,
+  transformer: webShadowTransformer,
+  type: "value",
+});
 
 /**
  * Converts typography name 'bold' to CSS value '700'
@@ -133,7 +159,7 @@ StyleDictionary.registerTransform({
   name: "fontWeight/cssValue",
   type: "value",
   matcher: (token) => {
-    return token.attributes.subitem === "fontWeight" || token.attributes.category === 'fontWeight'
+    return token.type === 'fontWeight'
   },
   transformer: (token) => {
     const fontWeightValues = {
@@ -152,7 +178,21 @@ StyleDictionary.registerTransform({
 StyleDictionary.registerFilter({
   name: "notColor",
   matcher: function (token) {
-    return token.attributes.category !== "color";
+    return token.type !== "color" && token.type !== 'boxShadow'
+  },
+});
+
+StyleDictionary.registerFilter({
+  name: "color/theme",
+  matcher: function (token) {
+    return token.type === "color" && token.attributes.type !== "palette" || token.type === 'boxShadow'
+  },
+});
+
+StyleDictionary.registerFilter({
+  name: "color/ref",
+  matcher: function (token) {
+    return token.attributes.category === "ref";
   },
 });
 
@@ -160,8 +200,7 @@ StyleDictionary.registerFilter({
   name: "color/global",
   matcher: function (token) {
     return (
-      token.attributes.category === "color" &&
-      token.attributes.type === "global"
+      token.type === "color" && token.attributes.type === "palette"
     );
   },
 });
@@ -170,7 +209,16 @@ StyleDictionary.registerFilter({
   name: "color/dark",
   matcher: function (token) {
     return (
-      token.attributes.category === "color" && token.attributes.type === "dark"
+      token.attributes.type === "color" && token.filePath.includes('dark')
+    );
+  },
+});
+
+StyleDictionary.registerFilter({
+  name: "color/sys",
+  matcher: function (token) {
+    return (
+      token.attributes.category === "sys" && token.attributes.type === "color"
     );
   },
 });
@@ -179,7 +227,7 @@ StyleDictionary.registerFilter({
   name: "color/light",
   matcher: function (token) {
     return (
-      token.attributes.category === "color" && token.attributes.type === "light"
+      token.attributes.type === "color" && token.filePath.includes('light')
     );
   },
 });
@@ -285,8 +333,9 @@ StyleDictionary.registerTransformGroup({
     "fontFamily/fallback",
     "typography/name",
     "borderRadius/name",
-    "color/themeName",
+    // "color/themeName",
     "fontWeight/cssValue",
+    "shadow/css"
     // "color/rgbaRef",
   ]),
 });
@@ -294,13 +343,15 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/scss",
   transforms: StyleDictionary.transformGroup["less"].concat([
+    "shadow/css",
     "size/pxToRem",
     "letterSpacing/percentToEm",
-    "color/themeName",
+    // "color/themeName",
     "fontFamily/fallback",
     "typography/name",
     "borderRadius/name",
     "fontWeight/cssValue",
+    "shadow/css"
   ]),
 });
 
@@ -312,10 +363,234 @@ StyleDictionary.registerTransformGroup({
     "fontFamily/fallback",
     "typography/name",
     "borderRadius/name",
+    "shadow/css"
     // "color/rgbaRef",
   ]),
 });
 
-const StyleDictionaryExtended = StyleDictionary.extend(baseConfig);
+// StyleDictionary.extend({
+//   "source": ["tokens/tokens-light.json"],
+//   platforms: {
+//     internal: {
+//       transformGroup: "custom/css",
+//       buildPath: "dist/internal/css/",
+//       files: [
+//         {
+//           destination: "_colors-light.css",
+//           format: "css/variables",
+//           options: {
+//             selector: ".light-theme",
+//             showFileHeader: true,
+//             outputReferences: true,
+//           },
+//         },
+//       ],
+//     }
+//   },
+// }).buildAllPlatforms()
 
-StyleDictionaryExtended.buildAllPlatforms();
+// StyleDictionary.extend(baseConfig).buildAllPlatforms()
+
+// const StyleDictionaryExtended = StyleDictionary.extend(baseConfig);
+
+// StyleDictionaryExtended.buildAllPlatforms();
+
+const modes = [`light`, `dark`];
+
+// light/default mode
+StyleDictionary.extend({
+  source: [
+    // this is saying find any files in the tokens folder
+    // that does not have .dark or .light, but ends in .json5
+    `tokens/**/!(*.${modes.join(`|*.`)}).json`
+  ],
+  platforms: {
+    scss: {
+      transformGroup: "custom/scss",
+      buildPath: "dist/scss/",
+      files: [
+        {
+          destination: "_colors-dark.scss",
+          format: "scss/variables",
+          filter: "color/theme",
+        },
+        {
+          destination: "_colors-global.scss",
+          format: "scss/variables",
+          filter: "color/global",
+        },
+        {
+          destination: "_variables.scss",
+          format: "scss/variables",
+          filter: "notColor",
+        },
+      ],
+    },
+    internal: {
+      transformGroup: "custom/css",
+      buildPath: "dist/internal/css/",
+      files: [
+        {
+          destination: "_tokens.scss",
+          format: "css/variables",
+          filter: "notColor",
+          options: {
+            showFileHeader: true,
+            outputReferences: true,
+          },
+        },
+        {
+          destination: "_colors-dark.scss",
+          format: "css/variables",
+          filter: "color/theme",
+          options: {
+            selector: "@mixin root-variables",
+            showFileHeader: true,
+            outputReferences: true,
+          },
+        },
+        {
+          destination: "_colors-global.css",
+          format: "css/variables",
+          filter: "color/global",
+          options: {
+            showFileHeader: true,
+            outputReferences: true,
+          },
+        },
+      ],
+    },
+    css: {
+      transformGroup: "custom/css",
+      buildPath: "dist/css/",
+      files: [
+        {
+          destination: "_variables.css",
+          format: "css/variables",
+          filter: "notColor",
+          options: {
+            showFileHeader: true,
+            outputReferences: true,
+          },
+        },
+        {
+          destination: "_colors-dark.css",
+          format: "css/variables",
+          filter: "color/theme",
+          options: {
+            showFileHeader: true,
+            outputReferences: true,
+          },
+        },
+        {
+          destination: "_colors-global.css",
+          format: "css/variables",
+          filter: "color/theme",
+          options: {
+            showFileHeader: true,
+            outputReferences: true,
+          },
+        },
+      ],
+    },
+    "json-flat": {
+      transformGroup: "custom/json",
+      buildPath: "dist/json/",
+      files: [
+        {
+          destination: "styles.json",
+          format: "json/flat",
+        }
+      ],
+    },
+    "json-nested": {
+      transformGroup: "custom/json",
+      buildPath: "dist/json-nested/",
+      files: [
+        {
+          destination: "styles.json",
+          format: "json/nested",
+        }
+      ],
+    }
+  },
+  // ...
+}).buildAllPlatforms()
+
+StyleDictionary.extend({
+  include: [
+    // this is the same as the source in light/default above
+    `tokens/**/!(*.${modes.join(`|*.`)}).json`
+  ],
+  source: [
+    // Kind of the opposite of above, this will find any files
+    // that have the file extension .dark.json5
+    `tokens/**/*.light.json`
+  ],
+  platforms: {
+    scss: {
+      transformGroup: "custom/scss",
+      buildPath: "dist/scss/",
+      files: [
+        {
+          destination: "_colors-light.scss",
+          format: "scss/variables",
+          filter: "color/theme",
+        }
+      ],
+    },
+    internal: {
+      transformGroup: "custom/css",
+      buildPath: "dist/internal/css/",
+      files: [
+        {
+          destination: "_colors-light.css",
+          format: "css/variables",
+          filter: "color/theme",
+          options: {
+            selector: ".light-theme",
+            showFileHeader: true,
+            outputReferences: true,
+          }
+        }
+      ],
+    },
+    css: {
+      transformGroup: "custom/css",
+      buildPath: "dist/css/",
+      files: [
+        {
+          destination: "_colors-light.css",
+          format: "css/variables",
+          filter: "color/theme",
+          options: {
+            selector: ".light-theme",
+            showFileHeader: true,
+            outputReferences: true,
+          }
+        }
+      ],
+    },
+    "json-flat": {
+      transformGroup: "custom/json",
+      buildPath: "dist/json/",
+      files: [
+        {
+          destination: "styles.json",
+          format: "json/flat",
+        }
+      ],
+    },
+    "json-nested": {
+      transformGroup: "custom/json",
+      buildPath: "dist/json-nested/",
+      files: [
+        {
+          destination: "styles.json",
+          format: "json/nested",
+        }
+      ],
+    }
+  },
+})
+  .buildAllPlatforms();

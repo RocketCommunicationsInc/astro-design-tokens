@@ -1,22 +1,29 @@
 /**
  * Do not edit directly
- * Generated on Thu, 24 Feb 2022 15:35:18 GMT
+ * Generated on Mon, 28 Mar 2022 16:22:22 GMT
  */
 
 :root {
-  --indeterminate-progress-radius-outer: 30px;
-  --indeterminate-progress-radius-inner: 23px;
-  --progress-radius-outer: 10px;
-  --progress-radius-inner: 8px;
-  --scrollbar-radius: 4px;
-  --switch-radius-track: 4.7px;
-  --radio-radius-outer: 9px;
-  --radio-radius-inner: 4px;
-  --app-state-radius: 2px;
-  --checkbox-radius: 2px;
-  --slider-radius-background-track: 1px;
-  --radius-circle: 50%;
-  --radius-base: 3px;
+  --paragraph-spacing-0: 0;
+  --letter-spacing-sm: -0.005em;
+  --letter-spacing-lg: 0.0015em;
+  --letter-spacing-base: 0em;
+  --letter-spacing-xl: 0.0025em;
+  --letter-spacing-2xl: 0.005em;
+  --font-size-6xl: 3.75rem;
+  --font-size-5xl: 3rem;
+  --font-size-4xl: 2.125rem;
+  --font-size-3xl: 1.75rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-xl: 1.25rem;
+  --font-size-lg: 1.125rem;
+  --font-size-base: 1rem;
+  --font-size-sm: 0.875rem;
+  --font-size-xs: 0.75rem;
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
   --font-monospace-1-paragraph-spacing: 0;
   --font-monospace-1-letter-spacing: 0em;
   --font-monospace-1-font-size: 1.75rem;
@@ -113,27 +120,25 @@
   --font-body-1-line-height: AUTO;
   --font-body-1-font-weight: 400;
   --font-body-1-font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;;
-  --paragraph-spacing-0: 0;
-  --letter-spacing-sm: -0.005em;
-  --letter-spacing-lg: 0.0015em;
-  --letter-spacing-base: 0em;
-  --letter-spacing-xl: 0.0025em;
-  --letter-spacing-2xl: 0.005em;
-  --font-size-6xl: 3.75rem;
-  --font-size-5xl: 3rem;
-  --font-size-4xl: 2.125rem;
-  --font-size-3xl: 1.75rem;
-  --font-size-2xl: 1.5rem;
-  --font-size-xl: 1.25rem;
-  --font-size-lg: 1.125rem;
-  --font-size-base: 1rem;
-  --font-size-sm: 0.875rem;
-  --font-size-xs: 0.75rem;
-  --font-weight-light: 300;
-  --font-weight-medium: 500;
-  --font-weight-bold: 700;
-  --font-weight-regular: 400;
   --line-heights-0: AUTO;
   --font-family-mono: 'Roboto Mono', monospace;
   --font-family-sans: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;;
+  --radius-indeterminate-progress-outer: 30px;
+  --radius-indeterminate-progress-inner: 23px;
+  --radius-progress-outer: 10px;
+  --radius-progress-inner: 8px;
+  --radius-scrollbar: 4px;
+  --radius-switch-track: 10px;
+  --radius-radio-outer: 9px;
+  --radius-radio-inner: 4px;
+  --radius-checkbox: 2px;
+  --radius-slider-background-track: 1px;
+  --radius-circle: 50%;
+  --radius-base: 3px;
+  --opacity-50: 50%;
+  --opacity-40: 40%;
+  --opacity-25: 25%;
+  --opacity-20: 20%;
+  --opacity-14: 14%;
+  --opacity-12: 12%;
 }

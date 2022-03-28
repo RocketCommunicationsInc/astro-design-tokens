@@ -1,42 +1,532 @@
 {
-  "opacity": {
-    "12": {
-      "value": "12%",
-      "description": "dialog-shadow-2",
-      "type": "opacity",
-      "rawValue": "12%"
+  "shadow": {
+    "outer": {
+      "dialog": {
+        "value": [
+          {
+            "x": 0,
+            "y": 0,
+            "blur": 4,
+            "spread": 1,
+            "color": "#00000024",
+            "type": "dropShadow"
+          },
+          {
+            "x": 0,
+            "y": 4,
+            "blur": 4,
+            "spread": 3,
+            "color": "#0000001f",
+            "type": "dropShadow"
+          },
+          {
+            "x": 0,
+            "y": 4,
+            "blur": 4,
+            "spread": 0,
+            "color": "#00000033",
+            "type": "dropShadow"
+          }
+        ],
+        "description": "Drop shadow for Dialogs",
+        "type": "boxShadow",
+        "rawValue": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "4",
+            "spread": "1",
+            "color": "rgba({color.palette.neutral.1000}, {opacity.14})",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "4",
+            "spread": "3",
+            "color": "rgba({color.palette.neutral.1000}, {opacity.12})",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "4",
+            "spread": "0",
+            "color": "rgba({color.palette.neutral.1000}, {opacity.20})",
+            "type": "dropShadow"
+          }
+        ]
+      }
     },
-    "14": {
-      "value": "14%",
-      "description": "dialog shadow 1 light",
-      "type": "opacity",
-      "rawValue": "14%"
-    },
-    "20": {
-      "value": "20%",
-      "description": "dialog-shadow-3",
-      "type": "opacity",
-      "rawValue": "20%"
-    },
-    "25": {
-      "value": "25%",
-      "description": "dialog-shadow-1",
-      "type": "opacity",
-      "rawValue": "25%"
-    },
-    "40": {
-      "value": "40%",
-      "type": "opacity",
-      "rawValue": "40%"
-    },
-    "50": {
-      "value": "50%",
-      "description": "Used in scrollbar inner shadows",
-      "type": "opacity",
-      "rawValue": "50%"
+    "inner": {
+      "tag": {
+        "normal": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#00e200",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for normal status Tags",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{color.icon.status.fill.normal}",
+            "type": "innerShadow"
+          }
+        },
+        "critical": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#ff2a04",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for critical status Tags",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{color.icon.status.fill.critical}",
+            "type": "innerShadow"
+          }
+        },
+        "off": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#7b8089",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for off status Tags",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{color.icon.status.fill.off}",
+            "type": "innerShadow"
+          }
+        }
+      },
+      "scrollbar": {
+        "vertical": {
+          "value": {
+            "x": 3,
+            "y": 3,
+            "blur": 3,
+            "spread": 0,
+            "color": "#00000040",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for vertical scrollbars",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "3",
+            "y": "3",
+            "blur": "3",
+            "spread": "0",
+            "color": "rgba({color.palette.neutral.1000}, {opacity.25})",
+            "type": "innerShadow"
+          }
+        },
+        "horizontal": {
+          "value": {
+            "x": 1,
+            "y": 3,
+            "blur": 3,
+            "spread": 0,
+            "color": "#00000040",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for horizontal scrollbars",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "1",
+            "y": "3",
+            "blur": "3",
+            "spread": "0",
+            "color": "rgba({color.palette.neutral.1000},{opacity.25})",
+            "type": "innerShadow"
+          }
+        }
+      }
     }
   },
   "color": {
+    "background": {
+      "base": {
+        "default": {
+          "value": "#eaeef4",
+          "type": "color",
+          "description": "The background color of the application.",
+          "rawValue": "{color.palette.grey.200}"
+        },
+        "header": {
+          "value": "#f5f6f9",
+          "type": "color",
+          "rawValue": "{color.palette.grey.100}"
+        },
+        "hover": {
+          "value": "#98bdd3",
+          "type": "color",
+          "rawValue": "{color.palette.darkblue.200}"
+        },
+        "selected": {
+          "value": "#cee9fc",
+          "type": "color",
+          "rawValue": "{color.palette.brightblue.200}"
+        }
+      },
+      "surface": {
+        "default": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "The background color of surface panels.",
+          "rawValue": "{color.palette.neutral.000}"
+        },
+        "header": {
+          "value": "#f5f6f9",
+          "type": "color",
+          "description": "The background color for the header of surface elements, including dialog and table headers.",
+          "rawValue": "{color.palette.grey.100}"
+        },
+        "hover": {
+          "value": "#daeeff",
+          "type": "color",
+          "description": "The background color of surface elements, like table rows or lists, when they are hovered over.",
+          "rawValue": "{color.palette.brightblue.100}"
+        },
+        "selected": {
+          "value": "#cee9fc",
+          "type": "color",
+          "description": "The background color of surface elements, like table rows or lists, when they are selected.",
+          "rawValue": "{color.palette.brightblue.200}"
+        }
+      }
+    },
+    "text": {
+      "primary": {
+        "value": "#292a2d",
+        "type": "color",
+        "description": "The primary color used for text within the application.",
+        "rawValue": "{color.palette.grey.900}"
+      },
+      "secondary": {
+        "value": "#51555b",
+        "type": "color",
+        "description": "The color used for text when less emphasis is needed.",
+        "rawValue": "{color.palette.grey.700}"
+      },
+      "placeholder": {
+        "value": "#7b8089",
+        "type": "color",
+        "description": "The text color used for placeholder text in input and form fields.",
+        "rawValue": "{color.palette.grey.600}"
+      },
+      "inverse": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "The color used for text on reversed backgrounds.",
+        "rawValue": "{color.palette.neutral.000}"
+      },
+      "error": {
+        "value": "#ff3838",
+        "type": "color",
+        "description": "The text color used for errors.",
+        "rawValue": "{color.palette.red.500}"
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
+        "rawValue": "{color.palette.neutral.000}"
+      },
+      "black": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
+        "rawValue": "{color.palette.neutral.1000}"
+      }
+    },
+    "interactive": {
+      "default": {
+        "value": "#005a8f",
+        "type": "color",
+        "description": "The primary color used for interactive elements.",
+        "rawValue": "{color.palette.darkblue.500}"
+      },
+      "hover": {
+        "value": "#004872",
+        "type": "color",
+        "description": "The hover color used for interactive elements.",
+        "rawValue": "{color.palette.darkblue.600}"
+      },
+      "muted": {
+        "value": "#649cbd",
+        "type": "color",
+        "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
+        "rawValue": "{color.palette.darkblue.300}"
+      }
+    },
+    "banner": {
+      "classification": {
+        "background": {
+          "topsecretsci": {
+            "value": "#fce83a",
+            "type": "color",
+            "description": "The color used to indicate the Top Secret/SCI classification.",
+            "rawValue": "{color.palette.yellow.500}"
+          },
+          "topsecret": {
+            "value": "#ff8c00",
+            "type": "color",
+            "description": "The color used to indicate the Top Secret classification.",
+            "rawValue": "{color.palette.orange.700}"
+          },
+          "secret": {
+            "value": "#c8102e",
+            "type": "color",
+            "description": "The color used to indicate the Secret classification.",
+            "rawValue": "{color.palette.red.700}"
+          },
+          "confidential": {
+            "value": "#0033a0",
+            "type": "color",
+            "description": "The color used to indicate the Confidential classification.",
+            "rawValue": "{color.palette.blue.800}"
+          },
+          "cui": {
+            "value": "#502b85",
+            "type": "color",
+            "description": "The color used to indicate the CUI classification.",
+            "rawValue": "{color.palette.violet.800}"
+          },
+          "unclassified": {
+            "value": "#007a33",
+            "type": "color",
+            "description": "The color used to indicate the Unclassified classification.",
+            "rawValue": "{color.palette.green.800}"
+          }
+        }
+      },
+      "status": {
+        "icon": {
+          "fill": {
+            "critical": {
+              "value": "#8b1703",
+              "type": "color",
+              "description": "The color used for icons in Critical status banners.",
+              "rawValue": "{color.palette.red.800}"
+            },
+            "serious": {
+              "value": "#975f0e",
+              "type": "color",
+              "description": "The color used for icons in Serious status banners.",
+              "rawValue": "{color.palette.orange.800}"
+            },
+            "caution": {
+              "value": "#917d01",
+              "type": "color",
+              "description": "The color used for icons in Caution status banners.",
+              "rawValue": "{color.palette.yellow.800}"
+            },
+            "normal": {
+              "value": "#007a33",
+              "type": "color",
+              "description": "The color used for icons in Normal status banners.",
+              "rawValue": "{color.palette.green.800}"
+            },
+            "standby": {
+              "value": "#35798e",
+              "type": "color",
+              "description": "The color used for icons in Standby status banners.",
+              "rawValue": "{color.palette.cyan.800}"
+            },
+            "off": {
+              "value": "#51555b",
+              "type": "color",
+              "description": "The color used for icons in Off status banners.",
+              "rawValue": "{color.palette.grey.700}"
+            }
+          }
+        },
+        "background": {
+          "critical": {
+            "value": "#ff5f60",
+            "type": "color",
+            "description": "The color used for the background on Critical status banners.",
+            "rawValue": "{color.palette.red.400}"
+          },
+          "serious": {
+            "value": "#ffcc57",
+            "type": "color",
+            "description": "The color used for the background on Serious status banners.",
+            "rawValue": "{color.palette.orange.400}"
+          },
+          "caution": {
+            "value": "#fded61",
+            "type": "color",
+            "description": "The color used for the background on Caution status banners.",
+            "rawValue": "{color.palette.yellow.400}"
+          },
+          "normal": {
+            "value": "#99f666",
+            "type": "color",
+            "description": "The color used for the background on Normal status banners.",
+            "rawValue": "{color.palette.green.400}"
+          },
+          "standby": {
+            "value": "#5ce2ff",
+            "type": "color",
+            "description": "The color used for the background on Standby status banners.",
+            "rawValue": "{color.palette.cyan.400}"
+          },
+          "off": {
+            "value": "#bbc1c9",
+            "type": "color",
+            "description": "The color used for the background on Off status banners.",
+            "rawValue": "{color.palette.grey.400}"
+          }
+        }
+      }
+    },
+    "icon": {
+      "status": {
+        "fill": {
+          "critical": {
+            "value": "#ff2a04",
+            "type": "color",
+            "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
+            "rawValue": "{color.palette.red.600}"
+          },
+          "serious": {
+            "value": "#ffaf3d",
+            "type": "color",
+            "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention.",
+            "rawValue": "{color.palette.orange.600}"
+          },
+          "caution": {
+            "value": "#fad800",
+            "type": "color",
+            "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
+            "rawValue": "{color.palette.yellow.600}"
+          },
+          "normal": {
+            "value": "#00e200",
+            "type": "color",
+            "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
+            "rawValue": "{color.palette.green.600}"
+          },
+          "standby": {
+            "value": "#64d9ff",
+            "type": "color",
+            "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
+            "rawValue": "{color.palette.cyan.500}"
+          },
+          "off": {
+            "value": "#7b8089",
+            "type": "color",
+            "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
+            "rawValue": "{color.palette.grey.600}"
+          }
+        },
+        "border": {
+          "critical": {
+            "value": "#661102",
+            "type": "color",
+            "description": "The border color used for the Critical status symbol. Transparent in Dark Theme.",
+            "rawValue": "{color.palette.red.900}"
+          },
+          "serious": {
+            "value": "#664618",
+            "type": "color",
+            "description": "The border color used for the Serious status symbol. Transparent in Dark Theme.",
+            "rawValue": "{color.palette.orange.900}"
+          },
+          "caution": {
+            "value": "#645600",
+            "type": "color",
+            "description": "The border color used for the Caution status symbol. Transparent in Dark Theme.",
+            "rawValue": "{color.palette.yellow.900}"
+          },
+          "normal": {
+            "value": "#005a00",
+            "type": "color",
+            "description": "The border color used for the Normal status symbol. Transparent in Dark Theme.",
+            "rawValue": "{color.palette.green.900}"
+          },
+          "standby": {
+            "value": "#285766",
+            "type": "color",
+            "description": "The border color used for the Standby status symbol. Transparent in Dark Theme.",
+            "rawValue": "{color.palette.cyan.900}"
+          },
+          "off": {
+            "value": "#3c3e42",
+            "type": "color",
+            "description": "The border color used for the Off status symbol. Transparent in Dark Theme.",
+            "rawValue": "{color.palette.grey.800}"
+          }
+        }
+      }
+    },
+    "gsb": {
+      "background": {
+        "default": {
+          "value": "#172635",
+          "type": "color",
+          "description": "The background color of the Global Status Bar component. ",
+          "rawValue": "{color.palette.darkblue.900}"
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "The primary text color used within the Global Status Bar.",
+          "rawValue": "{color.palette.neutral.000}"
+        },
+        "secondary": {
+          "value": "#d4d8dd",
+          "type": "color",
+          "description": "The secondary text color used within the Global Status Bar.",
+          "rawValue": "#d4d8dd"
+        }
+      },
+      "interactive": {
+        "default": {
+          "value": "#4dacff",
+          "type": "color",
+          "description": "The primary color used for interactive elements in the Global Status Bar.",
+          "rawValue": "{color.palette.brightblue.500}"
+        },
+        "hover": {
+          "value": "#92cbff",
+          "type": "color",
+          "description": "The primary color used when interactive elements are hovered over in the Global Status Bar.",
+          "rawValue": "#92cbff"
+        },
+        "muted": {
+          "value": "#2b659b",
+          "type": "color",
+          "description": "A muted version of the primary color used for interactive elements in the Global Status Bar.",
+          "rawValue": "#2b659b"
+        }
+      }
+    },
     "palette": {
       "neutral": {
         "1000": {
@@ -568,370 +1058,43 @@
           "rawValue": "#2b1105"
         }
       }
+    }
+  },
+  "opacity": {
+    "12": {
+      "value": "12%",
+      "description": "dialog-shadow-2",
+      "type": "opacity",
+      "rawValue": "12%"
     },
-    "background": {
-      "base": {
-        "default": {
-          "value": "#101923",
-          "type": "color",
-          "description": "The background color of base elements, like the app or popup menus.",
-          "rawValue": "{color.palette.brightblue.900}"
-        },
-        "header": {
-          "value": "#172635",
-          "type": "color",
-          "description": "The background color for the header of base elements.",
-          "rawValue": "{color.palette.darkblue.900}"
-        },
-        "hover": {
-          "value": "#142435",
-          "type": "color",
-          "description": "The background color of base elements, like popup menus, when they are hovered over.",
-          "rawValue": "{color.palette.brightblue.850}"
-        },
-        "selected": {
-          "value": "#1c3f5e",
-          "type": "color",
-          "description": "The background color of base elements, like popup menus, when they are selected.",
-          "rawValue": "{color.palette.darkblue.700}"
-        }
-      },
-      "surface": {
-        "default": {
-          "value": "#1b2d3e",
-          "type": "color",
-          "description": "The background color of surface panels.",
-          "rawValue": "{color.palette.darkblue.800}"
-        },
-        "header": {
-          "value": "#172635",
-          "type": "color",
-          "description": "The background color for the header of surface elements, including dialog and table headers.",
-          "rawValue": "{color.palette.darkblue.900}"
-        },
-        "hover": {
-          "value": "#1c3851",
-          "type": "color",
-          "description": "The background color of surface elements, like table rows, when they are hovered over.",
-          "rawValue": "{color.palette.brightblue.800}"
-        },
-        "selected": {
-          "value": "#1c3f5e",
-          "type": "color",
-          "description": "The background color of surface elements, like table rows or lists, when they are selected.",
-          "rawValue": "{color.palette.darkblue.700}"
-        }
-      }
+    "14": {
+      "value": "14%",
+      "description": "dialog shadow 1 light",
+      "type": "opacity",
+      "rawValue": "14%"
     },
-    "text": {
-      "primary": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "The primary color used for text within the application.",
-        "rawValue": "{color.palette.neutral.000}"
-      },
-      "secondary": {
-        "value": "#d4d8dd",
-        "type": "color",
-        "description": "The color used for text when less emphasis is needed.",
-        "rawValue": "{color.palette.grey.300}"
-      },
-      "placeholder": {
-        "value": "#a4abb6",
-        "type": "color",
-        "description": "The text color used for placeholder text in input and form fields.",
-        "rawValue": "{color.palette.grey.500}"
-      },
-      "inverse": {
-        "value": "#080c11",
-        "type": "color",
-        "description": "The color used for text on reversed backgrounds.",
-        "rawValue": "{color.palette.darkblue.950}"
-      },
-      "error": {
-        "value": "#ff3838",
-        "type": "color",
-        "description": "The text color used for errors.",
-        "rawValue": "{color.palette.red.500}"
-      },
-      "white": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
-        "rawValue": "{color.palette.neutral.000}"
-      },
-      "black": {
-        "value": "#000000",
-        "type": "color",
-        "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
-        "rawValue": "{color.palette.neutral.1000}"
-      }
+    "20": {
+      "value": "20%",
+      "description": "dialog-shadow-3",
+      "type": "opacity",
+      "rawValue": "20%"
     },
-    "interactive": {
-      "default": {
-        "value": "#4dacff",
-        "type": "color",
-        "description": "The primary color used for interactive elements.",
-        "rawValue": "{color.palette.brightblue.500}"
-      },
-      "hover": {
-        "value": "#92cbff",
-        "type": "color",
-        "description": "The hover color used for interactive elements.",
-        "rawValue": "{color.palette.brightblue.400}"
-      },
-      "muted": {
-        "value": "#2b659b",
-        "type": "color",
-        "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
-        "rawValue": "{color.palette.brightblue.700}"
-      }
+    "25": {
+      "value": "25%",
+      "description": "dialog-shadow-1",
+      "type": "opacity",
+      "rawValue": "25%"
     },
-    "banner": {
-      "classification": {
-        "background": {
-          "topsecretsci": {
-            "value": "#fce83a",
-            "type": "color",
-            "description": "The color used to indicate the Top Secret/SCI classification.",
-            "rawValue": "{color.palette.yellow.500}"
-          },
-          "topsecret": {
-            "value": "#ff8c00",
-            "type": "color",
-            "description": "The color used to indicate the Top Secret classification.",
-            "rawValue": "{color.palette.orange.700}"
-          },
-          "secret": {
-            "value": "#c8102e",
-            "type": "color",
-            "description": "The color used to indicate the Secret classification.",
-            "rawValue": "{color.palette.red.700}"
-          },
-          "confidential": {
-            "value": "#0033a0",
-            "type": "color",
-            "description": "The color used to indicate the Confidential classification.",
-            "rawValue": "{color.palette.blue.800}"
-          },
-          "cui": {
-            "value": "#502b85",
-            "type": "color",
-            "description": "The color used to indicate the CUI classification.",
-            "rawValue": "{color.palette.violet.800}"
-          },
-          "unclassified": {
-            "value": "#007a33",
-            "type": "color",
-            "description": "The color used to indicate the Unclassified classification.",
-            "rawValue": "{color.palette.green.800}"
-          }
-        }
-      },
-      "status": {
-        "background": {
-          "critical": {
-            "value": "#ff5f60",
-            "type": "color",
-            "description": "The color used for the background on Critical status banners.",
-            "rawValue": "{color.palette.red.400}"
-          },
-          "serious": {
-            "value": "#ffcc57",
-            "type": "color",
-            "description": "The color used for the background on Serious status banners.",
-            "rawValue": "{color.palette.orange.400}"
-          },
-          "caution": {
-            "value": "#fded61",
-            "type": "color",
-            "description": "The color used for the background on Caution status banners.",
-            "rawValue": "{color.palette.yellow.400}"
-          },
-          "normal": {
-            "value": "#99f666",
-            "type": "color",
-            "description": "The color used for the background on Normal status banners.",
-            "rawValue": "{color.palette.green.400}"
-          },
-          "standby": {
-            "value": "#5ce2ff",
-            "type": "color",
-            "description": "The color used for the background on Standby status banners.",
-            "rawValue": "{color.palette.cyan.400}"
-          },
-          "off": {
-            "value": "#bbc1c9",
-            "type": "color",
-            "description": "The color used for the background on Off status banners.",
-            "rawValue": "{color.palette.grey.400}"
-          }
-        },
-        "icon": {
-          "fill": {
-            "critical": {
-              "value": "#8b1703",
-              "type": "color",
-              "description": "The color used for icons in Critical status banners.",
-              "rawValue": "{color.palette.red.800}"
-            },
-            "serious": {
-              "value": "#975f0e",
-              "type": "color",
-              "description": "The color used for icons in Serious status banners.",
-              "rawValue": "{color.palette.orange.800}"
-            },
-            "caution": {
-              "value": "#917d01",
-              "type": "color",
-              "description": "The color used for icons in Caution status banners.",
-              "rawValue": "{color.palette.yellow.800}"
-            },
-            "normal": {
-              "value": "#007a33",
-              "type": "color",
-              "description": "The color used for icons in Normal status banners.",
-              "rawValue": "{color.palette.green.800}"
-            },
-            "standby": {
-              "value": "#35798e",
-              "type": "color",
-              "description": "The color used for icons in Standby status banners.",
-              "rawValue": "{color.palette.cyan.800}"
-            },
-            "off": {
-              "value": "#51555b",
-              "type": "color",
-              "description": "The color used for icons in Off status banners.",
-              "rawValue": "{color.palette.grey.700}"
-            }
-          }
-        }
-      }
+    "40": {
+      "value": "40%",
+      "type": "opacity",
+      "rawValue": "40%"
     },
-    "icon": {
-      "status": {
-        "fill": {
-          "critical": {
-            "value": "#ff3838",
-            "type": "color",
-            "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
-            "rawValue": "{color.palette.red.500}"
-          },
-          "serious": {
-            "value": "#ffb302",
-            "type": "color",
-            "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention.",
-            "rawValue": "{color.palette.orange.500}"
-          },
-          "caution": {
-            "value": "#fce83a",
-            "type": "color",
-            "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
-            "rawValue": "{color.palette.yellow.500}"
-          },
-          "normal": {
-            "value": "#56f000",
-            "type": "color",
-            "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
-            "rawValue": "{color.palette.green.500}"
-          },
-          "standby": {
-            "value": "#2dccff",
-            "type": "color",
-            "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
-            "rawValue": "{color.palette.cyan.600}"
-          },
-          "off": {
-            "value": "#a4abb6",
-            "type": "color",
-            "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
-            "rawValue": "{color.palette.grey.500}"
-          }
-        },
-        "border": {
-          "critical": {
-            "value": "#ff3838",
-            "type": "color",
-            "description": "The border color used for the Critical status symbol.",
-            "rawValue": "{color.palette.red.500}"
-          },
-          "serious": {
-            "value": "#ffb302",
-            "type": "color",
-            "description": "The border color used for the Serious status symbol.",
-            "rawValue": "{color.palette.orange.500}"
-          },
-          "caution": {
-            "value": "#fce83a",
-            "type": "color",
-            "description": "The border color used for the Caution status symbol.",
-            "rawValue": "{color.palette.yellow.500}"
-          },
-          "normal": {
-            "value": "#56f000",
-            "type": "color",
-            "description": "The border color used for the Normal status symbol.",
-            "rawValue": "{color.palette.green.500}"
-          },
-          "standby": {
-            "value": "#2dccff",
-            "type": "color",
-            "description": "The border color used for the Standby status symbol.",
-            "rawValue": "{color.palette.cyan.600}"
-          },
-          "off": {
-            "value": "#a4abb6",
-            "type": "color",
-            "description": "The border color used for the Off status symbol.",
-            "rawValue": "{color.palette.grey.500}"
-          }
-        }
-      }
-    },
-    "gsb": {
-      "background": {
-        "default": {
-          "value": "#172635",
-          "type": "color",
-          "description": "The background color of the Global Status Bar component.",
-          "rawValue": "{color.palette.darkblue.900}"
-        }
-      },
-      "text": {
-        "primary": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "The primary text color used within the Global Status Bar.",
-          "rawValue": "{color.palette.neutral.000}"
-        },
-        "secondary": {
-          "value": "#d4d8dd",
-          "type": "color",
-          "description": "The secondary text color used within the Global Status Bar.",
-          "rawValue": "#d4d8dd"
-        }
-      },
-      "interactive": {
-        "default": {
-          "value": "#4dacff",
-          "type": "color",
-          "description": "The primary color used for interactive elements in the Global Status Bar.",
-          "rawValue": "{color.palette.brightblue.500}"
-        },
-        "hover": {
-          "value": "#92cbff",
-          "type": "color",
-          "description": "The primary color used when interactive elements are hovered over in the Global Status Bar.",
-          "rawValue": "#92cbff"
-        },
-        "muted": {
-          "value": "#2b659b",
-          "type": "color",
-          "description": "A muted version of the primary color used for interactive elements in the Global Status Bar.",
-          "rawValue": "#2b659b"
-        }
-      }
+    "50": {
+      "value": "50%",
+      "description": "Used in scrollbar inner shadows",
+      "type": "opacity",
+      "rawValue": "50%"
     }
   },
   "radius": {
@@ -1563,172 +1726,6 @@
       "value": 0,
       "type": "paragraphSpacing",
       "rawValue": "0"
-    }
-  },
-  "shadow": {
-    "inner": {
-      "scrollbar": {
-        "vertical": {
-          "value": {
-            "x": 3,
-            "y": 3,
-            "blur": 3,
-            "spread": 0,
-            "color": "#00000080",
-            "type": "innerShadow"
-          },
-          "description": "Inner shadow for vertical scrollbars",
-          "type": "boxShadow",
-          "rawValue": {
-            "x": "3",
-            "y": "3",
-            "blur": "3",
-            "spread": "0",
-            "color": "rgba({color.palette.neutral.1000}, {opacity.50})",
-            "type": "innerShadow"
-          }
-        },
-        "horizontal": {
-          "value": {
-            "x": 1,
-            "y": 3,
-            "blur": 3,
-            "spread": 0,
-            "color": "#00000080",
-            "type": "innerShadow"
-          },
-          "description": "Inner shadow for horizontal scrollbars",
-          "type": "boxShadow",
-          "rawValue": {
-            "x": "1",
-            "y": "3",
-            "blur": "3",
-            "spread": "0",
-            "color": "rgba({color.palette.neutral.1000},{opacity.50})",
-            "type": "innerShadow"
-          }
-        }
-      },
-      "tag": {
-        "normal": {
-          "value": {
-            "x": 0,
-            "y": 0,
-            "blur": 5,
-            "spread": 0,
-            "color": "#56f000",
-            "type": "innerShadow"
-          },
-          "description": "Inner shadow for normal status Tags",
-          "type": "boxShadow",
-          "rawValue": {
-            "x": "0",
-            "y": "0",
-            "blur": "5",
-            "spread": "0",
-            "color": "{color.icon.status.fill.normal}",
-            "type": "innerShadow"
-          }
-        },
-        "critical": {
-          "value": {
-            "x": 0,
-            "y": 0,
-            "blur": 5,
-            "spread": 0,
-            "color": "#ff3838",
-            "type": "innerShadow"
-          },
-          "description": "Inner shadow for critical status Tags",
-          "type": "boxShadow",
-          "rawValue": {
-            "x": "0",
-            "y": "0",
-            "blur": "5",
-            "spread": "0",
-            "color": "{color.icon.status.fill.critical}",
-            "type": "innerShadow"
-          }
-        },
-        "off": {
-          "value": {
-            "x": 0,
-            "y": 0,
-            "blur": 5,
-            "spread": 0,
-            "color": "#a4abb6",
-            "type": "innerShadow"
-          },
-          "description": "Inner shadow for off status Tags",
-          "type": "boxShadow",
-          "rawValue": {
-            "x": "0",
-            "y": "0",
-            "blur": "5",
-            "spread": "0",
-            "color": "{color.icon.status.fill.off}",
-            "type": "innerShadow"
-          }
-        }
-      }
-    },
-    "outer": {
-      "dialog": {
-        "value": [
-          {
-            "x": 0,
-            "y": 0,
-            "blur": 4,
-            "spread": 0,
-            "color": "#00000040",
-            "type": "dropShadow"
-          },
-          {
-            "x": 0,
-            "y": 4,
-            "blur": 4,
-            "spread": 3,
-            "color": "#0000001f",
-            "type": "dropShadow"
-          },
-          {
-            "x": 0,
-            "y": 4,
-            "blur": 4,
-            "spread": 0,
-            "color": "#00000066",
-            "type": "dropShadow"
-          }
-        ],
-        "description": "Drop shadow for Dialogs",
-        "type": "boxShadow",
-        "rawValue": [
-          {
-            "x": "0",
-            "y": "0",
-            "blur": "4",
-            "spread": "0",
-            "color": "rgba({color.palette.neutral.1000}, {opacity.25})",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "4",
-            "spread": "3",
-            "color": "rgba({color.palette.neutral.1000}, {opacity.12})",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "4",
-            "spread": "0",
-            "color": "rgba({color.palette.neutral.1000}, {opacity.40})",
-            "type": "dropShadow"
-          }
-        ]
-      }
     }
   }
 }
