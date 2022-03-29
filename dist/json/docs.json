@@ -1775,16 +1775,16 @@
     "component": null
   },
   {
-    "name": "font-weight-regular",
-    "value": 400,
-    "property": "regular",
+    "name": "font-weight-light",
+    "value": 300,
+    "property": "light",
     "category": "fontWeight",
     "component": null
   },
   {
-    "name": "font-weight-bold",
-    "value": 700,
-    "property": "bold",
+    "name": "font-weight-regular",
+    "value": 400,
+    "property": "regular",
     "category": "fontWeight",
     "component": null
   },
@@ -1796,9 +1796,9 @@
     "component": null
   },
   {
-    "name": "font-weight-light",
-    "value": 300,
-    "property": "light",
+    "name": "font-weight-bold",
+    "value": 700,
+    "property": "bold",
     "category": "fontWeight",
     "component": null
   },
@@ -1962,7 +1962,7 @@
   },
   {
     "name": "tag-shadow-inner-normal",
-    "value": "0px 0px 5px 0px rgb(86, 240, 0)",
+    "value": "inset 0px 0px 5px 0px rgb(86, 240, 0)",
     "description": "Inner shadow for normal status Tags",
     "property": "inner",
     "category": "boxShadow",
@@ -1971,7 +1971,7 @@
   },
   {
     "name": "tag-shadow-inner-critical",
-    "value": "0px 0px 5px 0px rgb(255, 56, 56)",
+    "value": "inset 0px 0px 5px 0px rgb(255, 56, 56)",
     "description": "Inner shadow for critical status Tags",
     "property": "inner",
     "category": "boxShadow",
@@ -1980,7 +1980,7 @@
   },
   {
     "name": "tag-shadow-inner-off",
-    "value": "0px 0px 5px 0px rgb(164, 171, 182)",
+    "value": "inset 0px 0px 5px 0px rgb(164, 171, 182)",
     "description": "Inner shadow for off status Tags",
     "property": "inner",
     "category": "boxShadow",
@@ -1989,7 +1989,7 @@
   },
   {
     "name": "dialog-shadow-outer",
-    "value": "0px 0px 4px 0px rgba(0, 0, 0, 0.25),0px 4px 4px 3px rgba(0, 0, 0, 0.12),0px 4px 4px 0px rgba(0, 0, 0, 0.4)",
+    "value": " 0px 0px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.4)",
     "description": "Drop shadow for Dialogs",
     "property": "outer",
     "category": "boxShadow",
@@ -2279,7 +2279,7 @@
   },
   {
     "name": "scrollbar-shadow-inner-vertical",
-    "value": "3px 3px 3px 0px rgba(0, 0, 0, 0.5)",
+    "value": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.5)",
     "description": "Inner shadow for vertical scrollbars",
     "property": "inner",
     "category": "boxShadow",
@@ -2288,7 +2288,7 @@
   },
   {
     "name": "scrollbar-shadow-inner-horizontal",
-    "value": "1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
+    "value": "inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
     "description": "Inner shadow for horizontal scrollbars",
     "property": "inner",
     "category": "boxShadow",
@@ -2333,5 +2333,23 @@
     "property": "outer",
     "category": "borderRadius",
     "component": "indeterminate-progress"
+  },
+  {
+    "name": "container-color-border",
+    "value": "#000000",
+    "description": "The border color used for the Container component",
+    "property": "border",
+    "category": "color",
+    "component": "container",
+    "referenceToken": "color-palette-neutral-1000"
+  },
+  {
+    "name": "card-color-border",
+    "value": "#51555b",
+    "description": "The border color used for the Card component.",
+    "property": "border",
+    "category": "color",
+    "component": "card",
+    "referenceToken": "color-palette-grey-700"
   }
 ]

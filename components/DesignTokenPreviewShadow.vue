@@ -1,5 +1,5 @@
 <template>
-	<div class="w-16 h-16 border-2 border-gray-500" :style="style"></div>
+	<div class="w-16 h-16 border-2 border-gray-500" :style="{'box-shadow': value}"></div>
 </template>
 
 <script>

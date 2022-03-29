@@ -57,6 +57,7 @@ const shadowMatcher = (prop) => {
 
 const webShadowTransformer = (prop) => {
   if (Array.isArray(prop.original.value)) {
+    const isInner = prop.attributes.item === 'inner'
 
     const newVal = prop.original.value.map(shadow => {
       const {
@@ -66,8 +67,7 @@ const webShadowTransformer = (prop) => {
         y,
         spread,
       } = shadow
-
-      return `${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
+      return `${isInner ? 'inset' : ''} ${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
     })
     return newVal.toString()
   } else {
@@ -80,13 +80,8 @@ const webShadowTransformer = (prop) => {
       spread,
     } = prop.original.value;
 
-
-
-
-    // return `${toPx(x)} ${toPx(y)} ${toPx(blur)} ${toPx(
-    //   spread
-    // )} ${Color(color).toRgbString()}`;
-    return `${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
+    const isInner = prop.attributes.item === 'inner'
+    return `${isInner ? 'inset' : ''} ${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
   }
 };
 
@@ -179,14 +174,14 @@ StyleDictionary.registerTransform({
 StyleDictionary.registerFilter({
   name: "notColor",
   matcher: function (token) {
-    return token.type !== "color";
+    return token.type !== "color" && token.type !== 'boxShadow'
   },
 });
 
 StyleDictionary.registerFilter({
   name: "color/theme",
   matcher: function (token) {
-    return token.type === "color" && token.attributes.type !== "palette";
+    return token.type === "color" && token.attributes.type !== "palette" || token.type === 'boxShadow'
   },
 });
 
@@ -503,7 +498,7 @@ StyleDictionary.extend({
         {
           destination: "_colors-global.scss",
           format: "scss/variables",
-          filter: "color/theme",
+          filter: "color/global",
         },
         {
           destination: "_variables.scss",

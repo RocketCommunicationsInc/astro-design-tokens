@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 25 Mar 2022 20:20:57 GMT
+// Generated on Tue, 29 Mar 2022 20:48:12 GMT
 
 $color-classification-topsecretsci: #fce83a;
 $color-classification-topsecret: #ff8c00;
@@ -41,6 +41,10 @@ $color-border-normal: #56f000;
 $color-border-standby: #64d9ff;
 $color-border-off: #a4abb6;
 $color-fill-muted: #b7dcff;
+$tag-shadow-inner-normal: inset 0px 0px 5px 0px rgb(0, 226, 0);
+$tag-shadow-inner-critical: inset 0px 0px 5px 0px rgb(255, 42, 4);
+$tag-shadow-inner-off: inset 0px 0px 5px 0px rgb(123, 128, 137);
+$dialog-shadow-outer:  0px 0px 4px 1px rgba(0, 0, 0, 0.14), 0px 4px 4px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
 $notification-banner-icon-fill-critical: #8b1703;
 $notification-banner-icon-fill-serious: #975f0e;
 $notification-banner-icon-fill-caution: #917d01;
@@ -68,3 +72,7 @@ $status-symbol-color-border-off: #3c3e42;
 $gsb-icon-color-fill: #4dacff;
 $gsb-color-background: #172635;
 $gsb-color-text: #ffffff;
+$scrollbar-shadow-inner-vertical: inset 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
+$scrollbar-shadow-inner-horizontal: inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5);
+$container-color-border: #000000;
+$card-color-border: #51555b;

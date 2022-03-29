@@ -37,8 +37,13 @@ import DesignTokenPreview from '../components/DesignTokenPreview.vue'
 ## Indeterminate Progress
 <ComponentNotificationBanner component="indeterminate-progress"/>
 
-## Table
-<ComponentNotificationBanner component="table"/>
 
 ## Dialog
 <ComponentNotificationBanner component="dialog"/>
+
+## Card
+<ComponentNotificationBanner component="card"/>
+
+
+## Container
+<ComponentNotificationBanner component="container"/>
