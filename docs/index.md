@@ -116,14 +116,14 @@ Our design tokens follow a consistent naming convention:
 </div>
 
 * Group
-  * Can contain multiple components
+  * Represent concepts that span across multiple components
   * ie: forms
 * Component
   * Component specific values that can override other token values
   * ie: our global status bar uses the same colors for both light and dark themes.
 * Element
-  * Sometimes components have other components within them
-  * for example: `notification-banner-icon-fill-critical`
+  * Sometimes components need to override other components or elements within them
+  * for example: `notification-banner-icon-fill-critical` Notification Banner overrides the icon fill color
 * Category
   * The backbone of all tokens. Describes what kind of value it is
   * ie: color, size, radii, opacity
