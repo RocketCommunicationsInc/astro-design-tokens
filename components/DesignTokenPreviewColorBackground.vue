@@ -1,5 +1,5 @@
 <template>
-	<div class="w-16 h-16" :style="{ background: value }"></div>
+	<div class="w-16 h-16" :class="{ 'border border-2' : isWhite}" :style="{ background: value }"></div>
 </template>
 
 <script>
@@ -10,6 +10,12 @@ export default {
 			default: ''
 		},
 	},
+	computed: {
+		isWhite() {
+			return this.value === '#ffffff'
+		}
+	},
+
 
 }
 </script>

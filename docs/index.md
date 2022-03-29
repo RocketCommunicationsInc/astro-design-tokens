@@ -7,10 +7,11 @@
 
 ### Why?
 
-Design Tokens empower designer and developer workflows by providing answers to common questions like "what color should I use for XYZ?" Our components offer off the shelf solutions for common UI patterns, but they do not encompass the whole picture. While it is possible to build an application using nothing but Astro components, you will still need Design Tokens for things like spacing between the components themselves. In most cases, you will also need to create your own custom components. Design Tokens can help there as well. 
+Design Tokens empower designer and developer workflows by providing answers to common questions like "what color should I use for XYZ?" Our components offer off the shelf solutions for common UI patterns, but they do not encompass the whole picture. While it is possible to build an application using nothing but Astro components, you will still need Design Tokens for things like spacing between the components themselves. In most cases, you will also need to create your own custom components. Design Tokens can help there as well.
+
 ### What are Design Tokens?
 
-Design Tokens are design decisions. They are the core of the Design System and the single source of truth. They can describe everything from color to border radii to typography and follow a consistent naming convention. Most importantly, they are platform-agnostic.
+Design Tokens are design decisions that define UI elements of a Design System. They are the core of the Design System and the single source of truth. They can describe everything from color to border radii to typography and follow a consistent naming convention. Most importantly, they are platform-agnostic.
 
 * The <span class="font-bold text-blue-600">text</span> <span class="font-bold text-blue-800">color</span> of a <span class="font-bold text-green-500">button</span> is #fffff.
 * The <span class="font-bold text-blue-600">background</span> <span class="font-bold text-blue-800">color</span> for all <span class="font-bold text-blue-400">surface elements</span> is #fff.
@@ -30,25 +31,25 @@ Translated into Design Tokens becomes:
 
 Astro Design Tokens are broken down into three tiers based on their usage:
 
-<span class="p-2 rounded text-white bg-gray-500">Reference</span> -> <span class="p-2 rounded text-white bg-blue-500">System</span> -> <span class="p-2 rounded text-white bg-green-500">Component</span>
+<span class="p-2 rounded text-white bg-violet-400">Reference</span> -> <span class="p-2 rounded text-white bg-violet-600">System</span> -> <span class="p-2 rounded text-white bg-violet-900">Component</span>
 
 ### Reference Tokens
 
-<span class="p-2 rounded text-white bg-gray-500">color.palette.brightblue.500</span>
+`color.palette.brightblue.500`
 
 Reference Tokens are the complete palette and include all the possible values that are available to use. They do not convey any intent or meaning.
 
-You **must** not create your own colors or values if you want to be Astro-compliant. Our color values are very carefully chosen in order to meet WCAG accessibility compliance among others. If you feel there is a particular color or token value missing from our palette, please reach out with a proposal. 
+You should available creating your own colors or values if you want to be Astro-compliant. Our color values are very carefully chosen in order to meet WCAG accessibility compliance among others.
 
 ### System Tokens
 
-<span class="p-2 rounded text-white bg-blue-500">color.background.interactive</span>
+`color.background.interactive`
 
 Reference Tokens help enforce consistency; however, the sheer number of them can be overwhelming. To aid you in determining what tokens to use, Astro offers System Tokens to better convey intent and usage. System Tokens are the preferred way of interacting with the design system. All System Tokens reference our reference tokens. They better describe overall patterns and concepts like `interactive` or `surface`.
 
 ### Component Tokens
 
-<span class="p-2 rounded text-white bg-green-500">status-symbol-color-fill-critical</span>
+`status-symbol-color-fill-critical`
 
 Component Tokens are blueprints used to describe all properties of individual components. They should only be used in scenarios where you are rebuilding existing Astro components. For example:
 
@@ -59,17 +60,9 @@ Component tokens are scoped to individual components. They should not be used ou
 
 ## Common Use Cases
 
-### I'm an internal designer creating a new component
+### I'm an designer creating a new component or piece of UI
 
-<span class="p-2 rounded text-white bg-blue-500">System (Preferred)</span> <span class="p-2 rounded text-white bg-gray-500">Reference</span>
-
-Start with System tokens wherever possible. If you can't find what you're looking for, drop down and use the reference tokens.
-
-If you find yourself wanting to copy an existing component's token value for your new component, look up what that component token is referencing and use that instead.
-
-### I'm a designer creating some new UI
-
-<span class="p-2 rounded text-white bg-blue-500">System (Preferred)</span> <span class="p-2 rounded text-white bg-gray-500">Reference</span>
+<span class="p-2 rounded text-white bg-violet-600">System (Preferred)</span> <span class="p-2 rounded text-white bg-violet-400">Reference</span>
 
 Start with System tokens wherever possible. If you can't find what you're looking for, drop down and use the reference tokens.
 
@@ -77,13 +70,13 @@ If you find yourself wanting to copy an existing component's token value for you
 
 ### I'm a designer working in something that isn't Figma
 
-<span class="p-2 rounded text-white bg-green-500">Component</span>
+<span class="p-2 rounded text-white bg-violet-900">Component</span>
 
 Since you won't have access to our Figma component library, you'll need to create your own Astro components. You can do this using just our component tokens: `button-color-background`, `button-color-text`.
 
 ### I'm a single developer working on some new UI
 
-<span class="p-2 rounded text-white bg-blue-500">System (Preferred)</span> <span class="p-2 rounded text-white bg-gray-500">Reference</span>
+<span class="p-2 rounded text-white bg-violet-600">System (Preferred)</span> <span class="p-2 rounded text-white bg-violet-400">Reference</span>
 
 Start with System tokens wherever possible. If you can't find what you're looking for, drop down and use the reference tokens.
 
@@ -91,11 +84,20 @@ If you find yourself wanting to copy an existing component's token value for you
 
 ### I'm a developer who can't use the Astro Web Components
 
-<span class="p-2 rounded text-white bg-green-500">Component</span>
+<span class="p-2 rounded text-white bg-violet-900">Component</span>
 
 Since you won't have access to our web component library, you'll need to create your own Astro components. You can do this using just our component tokens: `button-color-background`, `button-color-text`.
 
-## Naming Convention
+## Contributing
+
+We welcome any and all feedback. If you'd like to suggest new tokens, please reach out via (TBD) with:
+
+1. What is your proposed change?
+2. Why is this change needed?
+
+When proposing changes, consider the following naming convention:
+
+### Naming Convention
 
 Our design tokens follow a consistent naming convention:
 
@@ -128,7 +130,7 @@ Our design tokens follow a consistent naming convention:
 * Property
   * Describes a particular type of category
   * ie: background(color), text(color), border(color), inner(shadow), outer(shadow)
-* Property
+* Concept
   * Describes a general, related idea.
   * ie: surface, status
 * Variant
