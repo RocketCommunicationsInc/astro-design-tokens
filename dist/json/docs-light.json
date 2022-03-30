@@ -841,60 +841,6 @@
     "referenceToken": "color-palette-darkblue-600"
   },
   {
-    "name": "color-background-critical",
-    "value": "#ff5f60",
-    "description": "Used to represent the Critical Status.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-red-400"
-  },
-  {
-    "name": "color-background-serious",
-    "value": "#ffcc57",
-    "description": "Used to represent the Serious Status.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-orange-400"
-  },
-  {
-    "name": "color-background-caution",
-    "value": "#fded61",
-    "description": "Used to represent the Caution Status.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-yellow-400"
-  },
-  {
-    "name": "color-background-normal",
-    "value": "#99f666",
-    "description": "Used to represent the Normal Status.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-green-400"
-  },
-  {
-    "name": "color-background-standby",
-    "value": "#5ce2ff",
-    "description": "Used to represent the Standby Status.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-cyan-400"
-  },
-  {
-    "name": "color-background-off",
-    "value": "#bbc1c9",
-    "description": "Used to represent the Off Status.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-grey-400"
-  },
-  {
     "name": "color-text-primary",
     "value": "#292a2d",
     "description": "The primary color used for text within the application.",
@@ -2110,7 +2056,7 @@
     "property": "background",
     "category": "color",
     "component": "notification-banner",
-    "referenceToken": "color-background-critical"
+    "referenceToken": "color-palette-red-400"
   },
   {
     "name": "notification-banner-color-background-serious",
@@ -2119,7 +2065,7 @@
     "property": "background",
     "category": "color",
     "component": "notification-banner",
-    "referenceToken": "color-background-serious"
+    "referenceToken": "color-palette-orange-400"
   },
   {
     "name": "notification-banner-color-background-caution",
@@ -2128,7 +2074,7 @@
     "property": "background",
     "category": "color",
     "component": "notification-banner",
-    "referenceToken": "color-background-caution"
+    "referenceToken": "color-palette-yellow-400"
   },
   {
     "name": "notification-banner-color-background-normal",
@@ -2137,7 +2083,7 @@
     "property": "background",
     "category": "color",
     "component": "notification-banner",
-    "referenceToken": "color-background-normal"
+    "referenceToken": "color-palette-green-400"
   },
   {
     "name": "notification-banner-color-background-standby",
@@ -2146,7 +2092,7 @@
     "property": "background",
     "category": "color",
     "component": "notification-banner",
-    "referenceToken": "color-background-standby"
+    "referenceToken": "color-palette-cyan-400"
   },
   {
     "name": "notification-banner-color-background-off",
@@ -2155,7 +2101,7 @@
     "property": "background",
     "category": "color",
     "component": "notification-banner",
-    "referenceToken": "color-background-off"
+    "referenceToken": "color-palette-grey-400"
   },
   {
     "name": "status-symbol-color-fill-critical",

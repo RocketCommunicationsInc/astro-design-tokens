@@ -154,13 +154,7 @@
       "interactive": {
         "default": "#005a8f",
         "hover": "#004872"
-      },
-      "critical": "#ff5f60",
-      "serious": "#ffcc57",
-      "caution": "#fded61",
-      "normal": "#99f666",
-      "standby": "#5ce2ff",
-      "off": "#bbc1c9"
+      }
     },
     "text": {
       "primary": "#292a2d",
