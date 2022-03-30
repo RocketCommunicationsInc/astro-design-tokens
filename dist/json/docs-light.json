@@ -715,60 +715,6 @@
     "component": null
   },
   {
-    "name": "color-classification-topsecretsci",
-    "value": "#fce83a",
-    "description": "The color used to indicate the Top Secret/SCI classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-yellow-500"
-  },
-  {
-    "name": "color-classification-topsecret",
-    "value": "#ff8c00",
-    "description": "The color used to indicate the Top Secret classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-orange-700"
-  },
-  {
-    "name": "color-classification-secret",
-    "value": "#c8102e",
-    "description": "The color used to indicate the Secret classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-red-700"
-  },
-  {
-    "name": "color-classification-confidential",
-    "value": "#0033a0",
-    "description": "The color used to indicate the Confidential classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-blue-800"
-  },
-  {
-    "name": "color-classification-cui",
-    "value": "#502b85",
-    "description": "The color used to indicate the CUI classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-violet-800"
-  },
-  {
-    "name": "color-classification-unclassified",
-    "value": "#007a33",
-    "description": "The color used to indicate the Unclassified classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-green-800"
-  },
-  {
     "name": "color-background-base-default",
     "value": "#eaeef4",
     "description": "The background color of base elements, like the app or popup menus.",
@@ -949,6 +895,15 @@
     "referenceToken": "color-palette-brightblue-300"
   },
   {
+    "name": "color-fill-interactive-muted",
+    "value": "#b7dcff",
+    "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
+    "property": "fill",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-300"
+  },
+  {
     "name": "color-status-critical",
     "value": "#ff3838",
     "description": "Used to represent the Critical Status.",
@@ -1003,13 +958,58 @@
     "referenceToken": "color-palette-grey-500"
   },
   {
-    "name": "color-fill-interactive-muted",
-    "value": "#b7dcff",
-    "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
-    "property": "fill",
+    "name": "color-classification-topsecretsci",
+    "value": "#fce83a",
+    "description": "The color used to indicate the Top Secret/SCI classification.",
+    "property": "classification",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-brightblue-300"
+    "referenceToken": "color-palette-yellow-500"
+  },
+  {
+    "name": "color-classification-topsecret",
+    "value": "#ff8c00",
+    "description": "The color used to indicate the Top Secret classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-orange-700"
+  },
+  {
+    "name": "color-classification-secret",
+    "value": "#c8102e",
+    "description": "The color used to indicate the Secret classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-red-700"
+  },
+  {
+    "name": "color-classification-confidential",
+    "value": "#0033a0",
+    "description": "The color used to indicate the Confidential classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-blue-800"
+  },
+  {
+    "name": "color-classification-cui",
+    "value": "#502b85",
+    "description": "The color used to indicate the CUI classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-violet-800"
+  },
+  {
+    "name": "color-classification-unclassified",
+    "value": "#007a33",
+    "description": "The color used to indicate the Unclassified classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-green-800"
   },
   {
     "name": "radius-base",
@@ -1907,39 +1907,22 @@
     "component": null
   },
   {
-    "name": "tag-shadow-inner-normal",
-    "value": "inset 0px 0px 5px 0px rgb(0, 226, 0)",
-    "description": "Inner shadow for normal status Tags",
-    "property": "inner",
-    "category": "boxShadow",
-    "component": "tag",
-    "referenceToken": "status-symbol-color-fill-normal"
+    "name": "card-color-border",
+    "value": "#51555b",
+    "description": "The border color used for the Card component.",
+    "property": "border",
+    "category": "color",
+    "component": "card",
+    "referenceToken": "color-palette-grey-700"
   },
   {
-    "name": "tag-shadow-inner-critical",
-    "value": "inset 0px 0px 5px 0px rgb(255, 42, 4)",
-    "description": "Inner shadow for critical status Tags",
-    "property": "inner",
-    "category": "boxShadow",
-    "component": "tag",
-    "referenceToken": "status-symbol-color-fill-critical"
-  },
-  {
-    "name": "tag-shadow-inner-off",
-    "value": "inset 0px 0px 5px 0px rgb(123, 128, 137)",
-    "description": "Inner shadow for off status Tags",
-    "property": "inner",
-    "category": "boxShadow",
-    "component": "tag",
-    "referenceToken": "status-symbol-color-fill-off"
-  },
-  {
-    "name": "dialog-shadow-outer",
-    "value": " 0px 0px 4px 1px rgba(0, 0, 0, 0.14), 0px 4px 4px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.2)",
-    "description": "Drop shadow for Dialogs",
-    "property": "outer",
-    "category": "boxShadow",
-    "component": "dialog"
+    "name": "container-color-border",
+    "value": "#000000",
+    "description": "The border color used for the Container component",
+    "property": "border",
+    "category": "color",
+    "component": "container",
+    "referenceToken": "color-palette-neutral-1000"
   },
   {
     "name": "classification-banner-color-background-topsecretsci",
@@ -1994,6 +1977,14 @@
     "category": "color",
     "component": "classification-banner",
     "referenceToken": "color-classification-unclassified"
+  },
+  {
+    "name": "dialog-shadow-outer",
+    "value": " 0px 0px 4px 1px rgba(0, 0, 0, 0.14), 0px 4px 4px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.2)",
+    "description": "Drop shadow for Dialogs",
+    "property": "outer",
+    "category": "boxShadow",
+    "component": "dialog"
   },
   {
     "name": "notification-banner-icon-fill-critical",
@@ -2319,6 +2310,33 @@
     "component": "progress"
   },
   {
+    "name": "tag-shadow-inner-normal",
+    "value": "inset 0px 0px 5px 0px rgb(0, 226, 0)",
+    "description": "Inner shadow for normal status Tags",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": "tag",
+    "referenceToken": "status-symbol-color-fill-normal"
+  },
+  {
+    "name": "tag-shadow-inner-critical",
+    "value": "inset 0px 0px 5px 0px rgb(255, 42, 4)",
+    "description": "Inner shadow for critical status Tags",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": "tag",
+    "referenceToken": "status-symbol-color-fill-critical"
+  },
+  {
+    "name": "tag-shadow-inner-off",
+    "value": "inset 0px 0px 5px 0px rgb(123, 128, 137)",
+    "description": "Inner shadow for off status Tags",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": "tag",
+    "referenceToken": "status-symbol-color-fill-off"
+  },
+  {
     "name": "indeterminate-progress-radius-inner",
     "value": "23px",
     "description": "The inside border radius",
@@ -2333,23 +2351,5 @@
     "property": "outer",
     "category": "borderRadius",
     "component": "indeterminate-progress"
-  },
-  {
-    "name": "container-color-border",
-    "value": "#000000",
-    "description": "The border color used for the Container component",
-    "property": "border",
-    "category": "color",
-    "component": "container",
-    "referenceToken": "color-palette-neutral-1000"
-  },
-  {
-    "name": "card-color-border",
-    "value": "#51555b",
-    "description": "The border color used for the Card component.",
-    "property": "border",
-    "category": "color",
-    "component": "card",
-    "referenceToken": "color-palette-grey-700"
   }
 ]

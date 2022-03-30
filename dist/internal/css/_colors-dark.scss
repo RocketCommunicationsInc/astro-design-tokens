@@ -1,11 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Wed, 30 Mar 2022 22:10:58 GMT
+ * Generated on Wed, 30 Mar 2022 22:16:57 GMT
  */
 
 @mixin root-variables {
-  --card-color-border: #51555b;
-  --container-color-border: #000000;
+  --tag-shadow-inner-off: inset 0px 0px 5px 0px rgb(164, 171, 182);
+  --tag-shadow-inner-critical: inset 0px 0px 5px 0px rgb(255, 56, 56);
+  --tag-shadow-inner-normal: inset 0px 0px 5px 0px rgb(86, 240, 0);
   --scrollbar-shadow-inner-horizontal: inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5);
   --scrollbar-shadow-inner-vertical: inset 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
   --gsb-color-text: #ffffff;
@@ -35,23 +36,28 @@
   --notification-banner-icon-fill-caution: #917d01;
   --notification-banner-icon-fill-serious: #975f0e;
   --notification-banner-icon-fill-critical: #8b1703;
+  --dialog-shadow-outer:  0px 0px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
   --classification-banner-color-background-unclassified: #007a33;
   --classification-banner-color-background-cui: #502b85;
   --classification-banner-color-background-confidential: #0033a0;
   --classification-banner-color-background-secret: #c8102e;
   --classification-banner-color-background-topsecret: #ff8c00;
   --classification-banner-color-background-topsecretsci: #fce83a;
-  --dialog-shadow-outer:  0px 0px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
-  --tag-shadow-inner-off: inset 0px 0px 5px 0px rgb(164, 171, 182);
-  --tag-shadow-inner-critical: inset 0px 0px 5px 0px rgb(255, 56, 56);
-  --tag-shadow-inner-normal: inset 0px 0px 5px 0px rgb(86, 240, 0);
-  --color-fill-interactive-muted: #2b659b;
+  --container-color-border: #000000;
+  --card-color-border: #51555b;
+  --color-classification-unclassified: #007a33;
+  --color-classification-cui: #502b85;
+  --color-classification-confidential: #0033a0;
+  --color-classification-secret: #c8102e;
+  --color-classification-topsecret: #ff8c00;
+  --color-classification-topsecretsci: #fce83a;
   --color-status-off: #a4abb6;
   --color-status-standby: #64d9ff;
   --color-status-normal: #56f000;
   --color-status-caution: #fce83a;
   --color-status-serious: #ffb302;
   --color-status-critical: #ff3838;
+  --color-fill-interactive-muted: #2b659b;
   --color-border-interactive-muted: #2b659b;
   --color-border-interactive-hover: #92cbff;
   --color-border-interactive-default: #4dacff;
@@ -72,10 +78,4 @@
   --color-background-surface-default: #1b2d3e;
   --color-background-base-hover: #142435;
   --color-background-base-default: #101923;
-  --color-classification-unclassified: #007a33;
-  --color-classification-cui: #502b85;
-  --color-classification-confidential: #0033a0;
-  --color-classification-secret: #c8102e;
-  --color-classification-topsecret: #ff8c00;
-  --color-classification-topsecretsci: #fce83a;
 }

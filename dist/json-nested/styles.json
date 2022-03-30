@@ -132,14 +132,6 @@
         "900": "#2b1105"
       }
     },
-    "classification": {
-      "topsecretsci": "#fce83a",
-      "topsecret": "#ff8c00",
-      "secret": "#c8102e",
-      "confidential": "#0033a0",
-      "cui": "#502b85",
-      "unclassified": "#007a33"
-    },
     "background": {
       "base": {
         "default": "#eaeef4",
@@ -176,6 +168,11 @@
         "muted": "#b7dcff"
       }
     },
+    "fill": {
+      "interactive": {
+        "muted": "#b7dcff"
+      }
+    },
     "status": {
       "critical": "#ff3838",
       "serious": "#ffb302",
@@ -184,10 +181,13 @@
       "standby": "#64d9ff",
       "off": "#a4abb6"
     },
-    "fill": {
-      "interactive": {
-        "muted": "#b7dcff"
-      }
+    "classification": {
+      "topsecretsci": "#fce83a",
+      "topsecret": "#ff8c00",
+      "secret": "#c8102e",
+      "confidential": "#0033a0",
+      "cui": "#502b85",
+      "unclassified": "#007a33"
     }
   },
   "radius": {
@@ -381,18 +381,14 @@
     "40": "40%",
     "50": "50%"
   },
-  "tag": {
-    "shadow": {
-      "inner": {
-        "normal": "inset 0px 0px 5px 0px rgb(0, 226, 0)",
-        "critical": "inset 0px 0px 5px 0px rgb(255, 42, 4)",
-        "off": "inset 0px 0px 5px 0px rgb(123, 128, 137)"
-      }
+  "card": {
+    "color": {
+      "border": "#51555b"
     }
   },
-  "dialog": {
-    "shadow": {
-      "outer": " 0px 0px 4px 1px rgba(0, 0, 0, 0.14), 0px 4px 4px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.2)"
+  "container": {
+    "color": {
+      "border": "#000000"
     }
   },
   "classification-banner": {
@@ -405,6 +401,11 @@
         "cui": "#502b85",
         "unclassified": "#007a33"
       }
+    }
+  },
+  "dialog": {
+    "shadow": {
+      "outer": " 0px 0px 4px 1px rgba(0, 0, 0, 0.14), 0px 4px 4px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.2)"
     }
   },
   "notification-banner": {
@@ -494,20 +495,19 @@
       "outer": "10px"
     }
   },
+  "tag": {
+    "shadow": {
+      "inner": {
+        "normal": "inset 0px 0px 5px 0px rgb(0, 226, 0)",
+        "critical": "inset 0px 0px 5px 0px rgb(255, 42, 4)",
+        "off": "inset 0px 0px 5px 0px rgb(123, 128, 137)"
+      }
+    }
+  },
   "indeterminate-progress": {
     "radius": {
       "inner": "23px",
       "outer": "30px"
-    }
-  },
-  "container": {
-    "color": {
-      "border": "#000000"
-    }
-  },
-  "card": {
-    "color": {
-      "border": "#51555b"
     }
   }
 }

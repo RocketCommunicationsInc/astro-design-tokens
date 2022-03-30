@@ -1,13 +1,7 @@
 
 // Do not edit directly
-// Generated on Wed, 30 Mar 2022 22:10:59 GMT
+// Generated on Wed, 30 Mar 2022 22:16:57 GMT
 
-$color-classification-topsecretsci: #fce83a;
-$color-classification-topsecret: #ff8c00;
-$color-classification-secret: #c8102e;
-$color-classification-confidential: #0033a0;
-$color-classification-cui: #502b85;
-$color-classification-unclassified: #007a33;
 $color-background-base-default: #eaeef4;
 $color-background-base-hover: #142435;
 $color-background-surface-default: #ffffff;
@@ -28,23 +22,28 @@ $color-text-error: #ff3838;
 $color-border-interactive-default: #005a8f;
 $color-border-interactive-hover: #004872;
 $color-border-interactive-muted: #b7dcff;
+$color-fill-interactive-muted: #b7dcff;
 $color-status-critical: #ff3838;
 $color-status-serious: #ffb302;
 $color-status-caution: #fce83a;
 $color-status-normal: #56f000;
 $color-status-standby: #64d9ff;
 $color-status-off: #a4abb6;
-$color-fill-interactive-muted: #b7dcff;
-$tag-shadow-inner-normal: inset 0px 0px 5px 0px rgb(0, 226, 0);
-$tag-shadow-inner-critical: inset 0px 0px 5px 0px rgb(255, 42, 4);
-$tag-shadow-inner-off: inset 0px 0px 5px 0px rgb(123, 128, 137);
-$dialog-shadow-outer:  0px 0px 4px 1px rgba(0, 0, 0, 0.14), 0px 4px 4px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+$color-classification-topsecretsci: #fce83a;
+$color-classification-topsecret: #ff8c00;
+$color-classification-secret: #c8102e;
+$color-classification-confidential: #0033a0;
+$color-classification-cui: #502b85;
+$color-classification-unclassified: #007a33;
+$card-color-border: #51555b;
+$container-color-border: #000000;
 $classification-banner-color-background-topsecretsci: #fce83a;
 $classification-banner-color-background-topsecret: #ff8c00;
 $classification-banner-color-background-secret: #c8102e;
 $classification-banner-color-background-confidential: #0033a0;
 $classification-banner-color-background-cui: #502b85;
 $classification-banner-color-background-unclassified: #007a33;
+$dialog-shadow-outer:  0px 0px 4px 1px rgba(0, 0, 0, 0.14), 0px 4px 4px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
 $notification-banner-icon-fill-critical: #8b1703;
 $notification-banner-icon-fill-serious: #975f0e;
 $notification-banner-icon-fill-caution: #917d01;
@@ -74,5 +73,6 @@ $gsb-color-background: #172635;
 $gsb-color-text: #ffffff;
 $scrollbar-shadow-inner-vertical: inset 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
 $scrollbar-shadow-inner-horizontal: inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5);
-$container-color-border: #000000;
-$card-color-border: #51555b;
+$tag-shadow-inner-normal: inset 0px 0px 5px 0px rgb(0, 226, 0);
+$tag-shadow-inner-critical: inset 0px 0px 5px 0px rgb(255, 42, 4);
+$tag-shadow-inner-off: inset 0px 0px 5px 0px rgb(123, 128, 137);
