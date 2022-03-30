@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 29 Mar 2022 20:48:12 GMT
+ * Generated on Wed, 30 Mar 2022 21:57:56 GMT
  */
 
 :root {
@@ -35,25 +35,31 @@
   --notification-banner-icon-fill-caution: #917d01;
   --notification-banner-icon-fill-serious: #975f0e;
   --notification-banner-icon-fill-critical: #8b1703;
+  --classification-banner-color-background-unclassified: #007a33;
+  --classification-banner-color-background-cui: #502b85;
+  --classification-banner-color-background-confidential: #0033a0;
+  --classification-banner-color-background-secret: #c8102e;
+  --classification-banner-color-background-topsecret: #ff8c00;
+  --classification-banner-color-background-topsecretsci: #fce83a;
   --dialog-shadow-outer:  0px 0px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
   --tag-shadow-inner-off: inset 0px 0px 5px 0px rgb(164, 171, 182);
   --tag-shadow-inner-critical: inset 0px 0px 5px 0px rgb(255, 56, 56);
   --tag-shadow-inner-normal: inset 0px 0px 5px 0px rgb(86, 240, 0);
-  --color-fill-muted: #2b659b;
-  --color-border-off: #a4abb6;
-  --color-border-standby: #64d9ff;
-  --color-border-normal: #56f000;
-  --color-border-caution: #fce83a;
-  --color-border-serious: #ffb302;
-  --color-border-critical: #ff3838;
-  --color-border-muted: #2b659b;
+  --color-fill-interactive-muted: #2b659b;
+  --color-status-off: #a4abb6;
+  --color-status-standby: #64d9ff;
+  --color-status-normal: #56f000;
+  --color-status-caution: #fce83a;
+  --color-status-serious: #ffb302;
+  --color-status-critical: #ff3838;
+  --color-border-interactive-muted: #2b659b;
   --color-border-interactive-hover: #92cbff;
-  --color-border-interactive: #4dacff;
+  --color-border-interactive-default: #4dacff;
   --color-text-error: #ff3838;
   --color-text-black: #000000;
   --color-text-white: #ffffff;
   --color-text-interactive-hover: #92cbff;
-  --color-text-interactive: #4dacff;
+  --color-text-interactive-default: #4dacff;
   --color-text-inverse: #080c11;
   --color-text-placeholder: #a4abb6;
   --color-text-secondary: #d4d8dd;
@@ -65,13 +71,13 @@
   --color-background-serious: #ffcc57;
   --color-background-critical: #ff5f60;
   --color-background-interactive-hover: #92cbff;
-  --color-background-interactive: #4dacff;
+  --color-background-interactive-default: #4dacff;
   --color-background-surface-hover: #1c3851;
   --color-background-surface-selected: #1c3f5e;
   --color-background-surface-header: #172635;
-  --color-background-surface: #1b2d3e;
+  --color-background-surface-default: #1b2d3e;
   --color-background-base-hover: #142435;
-  --color-background-base: #101923;
+  --color-background-base-default: #101923;
   --color-classification-unclassified: #007a33;
   --color-classification-cui: #502b85;
   --color-classification-confidential: #0033a0;

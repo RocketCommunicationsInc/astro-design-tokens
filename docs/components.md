@@ -4,6 +4,10 @@ import DesignTokenPreview from '../components/DesignTokenPreview.vue'
 </script>
 # Component Tokens
 
+## Classification Banner
+
+<ComponentNotificationBanner component="classification-banner"/>
+
 ## Notification Banner
 <ComponentNotificationBanner component="notification-banner"/>
 

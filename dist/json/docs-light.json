@@ -769,7 +769,7 @@
     "referenceToken": "color-palette-green-800"
   },
   {
-    "name": "color-background-base",
+    "name": "color-background-base-default",
     "value": "#eaeef4",
     "description": "The background color of base elements, like the app or popup menus.",
     "property": "background",
@@ -787,7 +787,7 @@
     "referenceToken": "color-palette-brightblue-850"
   },
   {
-    "name": "color-background-surface",
+    "name": "color-background-surface-default",
     "value": "#ffffff",
     "description": "The background color of surface panels.",
     "property": "background",
@@ -823,22 +823,22 @@
     "referenceToken": "color-palette-brightblue-100"
   },
   {
-    "name": "color-background-interactive",
-    "value": "#4dacff",
+    "name": "color-background-interactive-default",
+    "value": "#005a8f",
     "description": "The primary color used for interactive elements.",
     "property": "background",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-brightblue-500"
+    "referenceToken": "color-palette-darkblue-500"
   },
   {
     "name": "color-background-interactive-hover",
-    "value": "#92cbff",
+    "value": "#004872",
     "description": "The hover color used for interactive elements.",
     "property": "background",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-brightblue-400"
+    "referenceToken": "color-palette-darkblue-600"
   },
   {
     "name": "color-background-critical",
@@ -931,22 +931,22 @@
     "referenceToken": "color-palette-neutral-000"
   },
   {
-    "name": "color-text-interactive",
-    "value": "#4dacff",
+    "name": "color-text-interactive-default",
+    "value": "#005a8f",
     "description": "The primary color used for interactive elements.",
     "property": "text",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-brightblue-500"
+    "referenceToken": "color-palette-darkblue-500"
   },
   {
     "name": "color-text-interactive-hover",
-    "value": "#92cbff",
+    "value": "#004872",
     "description": "The hover color used for interactive elements.",
     "property": "text",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-brightblue-400"
+    "referenceToken": "color-palette-darkblue-600"
   },
   {
     "name": "color-text-white",
@@ -976,25 +976,25 @@
     "referenceToken": "color-palette-red-500"
   },
   {
-    "name": "color-border-interactive",
-    "value": "#4dacff",
+    "name": "color-border-interactive-default",
+    "value": "#005a8f",
     "description": "The primary color used for interactive elements.",
     "property": "border",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-brightblue-500"
+    "referenceToken": "color-palette-darkblue-500"
   },
   {
     "name": "color-border-interactive-hover",
-    "value": "#92cbff",
+    "value": "#004872",
     "description": "The hover color used for interactive elements.",
     "property": "border",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-brightblue-400"
+    "referenceToken": "color-palette-darkblue-600"
   },
   {
-    "name": "color-border-muted",
+    "name": "color-border-interactive-muted",
     "value": "#b7dcff",
     "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
     "property": "border",
@@ -1003,61 +1003,61 @@
     "referenceToken": "color-palette-brightblue-300"
   },
   {
-    "name": "color-border-critical",
+    "name": "color-status-critical",
     "value": "#ff3838",
     "description": "Used to represent the Critical Status.",
-    "property": "border",
+    "property": "status",
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-red-500"
   },
   {
-    "name": "color-border-serious",
+    "name": "color-status-serious",
     "value": "#ffb302",
     "description": "Used to represent the Serious Status.",
-    "property": "border",
+    "property": "status",
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-orange-500"
   },
   {
-    "name": "color-border-caution",
+    "name": "color-status-caution",
     "value": "#fce83a",
     "description": "Used to represent the Caution Status.",
-    "property": "border",
+    "property": "status",
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-yellow-500"
   },
   {
-    "name": "color-border-normal",
+    "name": "color-status-normal",
     "value": "#56f000",
     "description": "Used to represent the Normal Status.",
-    "property": "border",
+    "property": "status",
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-green-500"
   },
   {
-    "name": "color-border-standby",
+    "name": "color-status-standby",
     "value": "#64d9ff",
     "description": "Used to represent the Standby Status.",
-    "property": "border",
+    "property": "status",
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-cyan-500"
   },
   {
-    "name": "color-border-off",
+    "name": "color-status-off",
     "value": "#a4abb6",
     "description": "Used to represent the Off Status.",
-    "property": "border",
+    "property": "status",
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-grey-500"
   },
   {
-    "name": "color-fill-muted",
+    "name": "color-fill-interactive-muted",
     "value": "#b7dcff",
     "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
     "property": "fill",
@@ -1994,6 +1994,60 @@
     "property": "outer",
     "category": "boxShadow",
     "component": "dialog"
+  },
+  {
+    "name": "classification-banner-color-background-topsecretsci",
+    "value": "#fce83a",
+    "description": "The color used to indicate the Top Secret/SCI classification.",
+    "property": "background",
+    "category": "color",
+    "component": "classification-banner",
+    "referenceToken": "color-classification-topsecretsci"
+  },
+  {
+    "name": "classification-banner-color-background-topsecret",
+    "value": "#ff8c00",
+    "description": "The color used to indicate the Top Secret classification.",
+    "property": "background",
+    "category": "color",
+    "component": "classification-banner",
+    "referenceToken": "color-classification-topsecret"
+  },
+  {
+    "name": "classification-banner-color-background-secret",
+    "value": "#c8102e",
+    "description": "The color used to indicate the Secret classification.",
+    "property": "background",
+    "category": "color",
+    "component": "classification-banner",
+    "referenceToken": "color-classification-secret"
+  },
+  {
+    "name": "classification-banner-color-background-confidential",
+    "value": "#0033a0",
+    "description": "The color used to indicate the Confidential classification.",
+    "property": "background",
+    "category": "color",
+    "component": "classification-banner",
+    "referenceToken": "color-classification-confidential"
+  },
+  {
+    "name": "classification-banner-color-background-cui",
+    "value": "#502b85",
+    "description": "The color used to indicate the CUI classification.",
+    "property": "background",
+    "category": "color",
+    "component": "classification-banner",
+    "referenceToken": "color-classification-cui"
+  },
+  {
+    "name": "classification-banner-color-background-unclassified",
+    "value": "#007a33",
+    "description": "The color used to indicate the Unclassified classification.",
+    "property": "background",
+    "category": "color",
+    "component": "classification-banner",
+    "referenceToken": "color-classification-unclassified"
   },
   {
     "name": "notification-banner-icon-fill-critical",

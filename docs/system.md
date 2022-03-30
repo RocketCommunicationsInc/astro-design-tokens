@@ -1,6 +1,7 @@
 <script setup>
 import SystemColors from '../components/SystemColors.vue'
 import ClassificationColors from '../components/ClassificationColors.vue'
+import StatusColors from '../components/StatusColors.vue'
 </script>
 # System Tokens
 
@@ -19,6 +20,12 @@ import ClassificationColors from '../components/ClassificationColors.vue'
 <SystemColors type="fill"/>
 
 ### ----
+
+### Status
+
+Status colors represent the [AstroUXDS Status System](https://www.astrouxds.com/patterns/status-system/)
+
+<StatusColors/>
 
 ### Classification
 

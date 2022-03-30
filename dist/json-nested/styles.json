@@ -141,14 +141,20 @@
       "unclassified": "#007a33"
     },
     "background": {
-      "base": "#eaeef4",
-      "base-hover": "#142435",
-      "surface": "#ffffff",
-      "surface-header": "#f5f6f9",
-      "surface-selected": "#cee9fc",
-      "surface-hover": "#daeeff",
-      "interactive": "#4dacff",
-      "interactive-hover": "#92cbff",
+      "base": {
+        "default": "#eaeef4",
+        "hover": "#142435"
+      },
+      "surface": {
+        "default": "#ffffff",
+        "header": "#f5f6f9",
+        "selected": "#cee9fc",
+        "hover": "#daeeff"
+      },
+      "interactive": {
+        "default": "#005a8f",
+        "hover": "#004872"
+      },
       "critical": "#ff5f60",
       "serious": "#ffcc57",
       "caution": "#fded61",
@@ -161,16 +167,22 @@
       "secondary": "#51555b",
       "placeholder": "#7b8089",
       "inverse": "#ffffff",
-      "interactive": "#4dacff",
-      "interactive-hover": "#92cbff",
+      "interactive": {
+        "default": "#005a8f",
+        "hover": "#004872"
+      },
       "white": "#ffffff",
       "black": "#000000",
       "error": "#ff3838"
     },
     "border": {
-      "interactive": "#4dacff",
-      "interactive-hover": "#92cbff",
-      "muted": "#b7dcff",
+      "interactive": {
+        "default": "#005a8f",
+        "hover": "#004872",
+        "muted": "#b7dcff"
+      }
+    },
+    "status": {
       "critical": "#ff3838",
       "serious": "#ffb302",
       "caution": "#fce83a",
@@ -179,7 +191,9 @@
       "off": "#a4abb6"
     },
     "fill": {
-      "muted": "#b7dcff"
+      "interactive": {
+        "muted": "#b7dcff"
+      }
     }
   },
   "radius": {
@@ -385,6 +399,18 @@
   "dialog": {
     "shadow": {
       "outer": " 0px 0px 4px 1px rgba(0, 0, 0, 0.14), 0px 4px 4px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.2)"
+    }
+  },
+  "classification-banner": {
+    "color": {
+      "background": {
+        "topsecretsci": "#fce83a",
+        "topsecret": "#ff8c00",
+        "secret": "#c8102e",
+        "confidential": "#0033a0",
+        "cui": "#502b85",
+        "unclassified": "#007a33"
+      }
     }
   },
   "notification-banner": {
