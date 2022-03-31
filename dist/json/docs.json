@@ -2150,57 +2150,57 @@
   },
   {
     "name": "status-symbol-color-border-critical",
-    "value": "#66110200",
-    "description": "The border color used for the Critical status symbol. Transparent in Dark Theme.",
+    "value": "#ff3838",
+    "description": "The border color used for the Critical status symbol.",
     "property": "border",
     "category": "color",
     "component": "status-symbol",
-    "referenceToken": "color-palette-red-900"
+    "referenceToken": "color-palette-red-500"
   },
   {
     "name": "status-symbol-color-border-serious",
-    "value": "#66461800",
-    "description": "The border color used for the Serious status symbol. Transparent in Dark Theme.",
+    "value": "#ffb302",
+    "description": "The border color used for the Serious status symbol.",
     "property": "border",
     "category": "color",
     "component": "status-symbol",
-    "referenceToken": "color-palette-orange-900"
+    "referenceToken": "color-palette-orange-500"
   },
   {
     "name": "status-symbol-color-border-caution",
-    "value": "#64560000",
-    "description": "The border color used for the Caution status symbol. Transparent in Dark Theme.",
+    "value": "#fce83a",
+    "description": "The border color used for the Caution status symbol.",
     "property": "border",
     "category": "color",
     "component": "status-symbol",
-    "referenceToken": "color-palette-yellow-900"
+    "referenceToken": "color-palette-yellow-500"
   },
   {
     "name": "status-symbol-color-border-normal",
-    "value": "#005a0000",
-    "description": "The border color used for the Normal status symbol. Transparent in Dark Theme.",
+    "value": "#56f000",
+    "description": "The border color used for the Normal status symbol.",
     "property": "border",
     "category": "color",
     "component": "status-symbol",
-    "referenceToken": "color-palette-green-900"
+    "referenceToken": "color-palette-green-500"
   },
   {
     "name": "status-symbol-color-border-standby",
-    "value": "#28576600",
-    "description": "The border color used for the Standby status symbol. Transparent in Dark Theme.",
+    "value": "#2dccff",
+    "description": "The border color used for the Standby status symbol.",
     "property": "border",
     "category": "color",
     "component": "status-symbol",
-    "referenceToken": "color-palette-cyan-900"
+    "referenceToken": "color-palette-cyan-600"
   },
   {
     "name": "status-symbol-color-border-off",
-    "value": "#3c3e4200",
-    "description": "The border color used for the Off status symbol. Transparent in Dark Theme.",
+    "value": "#a4abb6",
+    "description": "The border color used for the Off status symbol.",
     "property": "border",
     "category": "color",
     "component": "status-symbol",
-    "referenceToken": "color-palette-grey-800"
+    "referenceToken": "color-palette-grey-500"
   },
   {
     "name": "gsb-icon-color-fill",
