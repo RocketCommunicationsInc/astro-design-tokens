@@ -895,15 +895,6 @@
     "referenceToken": "color-palette-brightblue-300"
   },
   {
-    "name": "color-fill-interactive-muted",
-    "value": "#b7dcff",
-    "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
-    "property": "fill",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-300"
-  },
-  {
     "name": "color-status-critical",
     "value": "#ff3838",
     "description": "Used to represent the Critical Status.",
@@ -1010,6 +1001,15 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-green-800"
+  },
+  {
+    "name": "popup-menu-caret-color-fill",
+    "value": "#b7dcff",
+    "description": "The fill color of the Pop Up Menu's caret",
+    "property": "caret",
+    "category": "color",
+    "component": "popup-menu",
+    "referenceToken": "color-palette-brightblue-300"
   },
   {
     "name": "radius-base",

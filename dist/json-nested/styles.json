@@ -168,11 +168,6 @@
         "muted": "#b7dcff"
       }
     },
-    "fill": {
-      "interactive": {
-        "muted": "#b7dcff"
-      }
-    },
     "status": {
       "critical": "#ff3838",
       "serious": "#ffb302",
@@ -188,6 +183,13 @@
       "confidential": "#0033a0",
       "cui": "#502b85",
       "unclassified": "#007a33"
+    }
+  },
+  "popup-menu": {
+    "caret": {
+      "color": {
+        "fill": "#b7dcff"
+      }
     }
   },
   "radius": {

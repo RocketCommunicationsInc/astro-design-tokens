@@ -136,16 +136,6 @@
         }
       }
     },
-    "fill": {
-      "interactive": {
-        "muted": {
-          "value": "#b7dcff",
-          "type": "color",
-          "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
-          "rawValue": "{color.palette.brightblue.300}"
-        }
-      }
-    },
     "palette": {
       "neutral": {
         "1000": {
@@ -767,6 +757,18 @@
         "type": "color",
         "description": "The color used to indicate the Unclassified classification.",
         "rawValue": "{color.palette.green.800}"
+      }
+    }
+  },
+  "popup-menu": {
+    "caret": {
+      "color": {
+        "fill": {
+          "value": "#b7dcff",
+          "type": "color",
+          "description": "The fill color of the Pop Up Menu's caret",
+          "rawValue": "{color.palette.brightblue.300}"
+        }
       }
     }
   },

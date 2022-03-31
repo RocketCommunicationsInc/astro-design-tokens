@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 31 Mar 2022 12:34:18 GMT
+ * Generated on Thu, 31 Mar 2022 19:21:47 GMT
  */
 
 @mixin root-variables {
@@ -45,6 +45,7 @@
   --classification-banner-color-background-topsecretsci: #fce83a;
   --container-color-border: #000000;
   --card-color-border: #51555b;
+  --popup-menu-caret-color-fill: #2b659b;
   --color-classification-unclassified: #007a33;
   --color-classification-cui: #502b85;
   --color-classification-confidential: #0033a0;
@@ -57,7 +58,6 @@
   --color-status-caution: #fce83a;
   --color-status-serious: #ffb302;
   --color-status-critical: #ff3838;
-  --color-fill-interactive-muted: #2b659b;
   --color-border-interactive-muted: #2b659b;
   --color-border-interactive-hover: #92cbff;
   --color-border-interactive-default: #4dacff;
