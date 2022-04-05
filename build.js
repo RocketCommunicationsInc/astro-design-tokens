@@ -165,13 +165,13 @@ StyleDictionary.registerTransform({
   },
   transformer: (token) => {
     const fontWeightValues = {
-      thin: 200,
-      light: 300,
-      regular: 400,
-      medium: 500,
-      semibold: 600,
-      bold: 700,
-      black: 800,
+      Thin: 200,
+      Light: 300,
+      Regular: 400,
+      Medium: 500,
+      Semibold: 600,
+      Bold: 700,
+      Black: 800,
     };
     return fontWeightValues[token.value];
   },
