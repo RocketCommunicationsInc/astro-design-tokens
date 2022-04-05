@@ -33,17 +33,23 @@ StyleDictionary.registerTransform({
 
 /**
  * Removes the item from Typography styles
- * --monospace-monospace-m1-fontSize -> --font-m1-fontSize
+ * --monospace-m1-fontSize -> --font-m1-fontSize
  */
 StyleDictionary.registerTransform({
   name: "typography/name",
   type: "name",
   matcher: (token) => {
-    return token.attributes.category === token.attributes.type;
+    // Hard coding the available categories because design doesnt want to change them.
+    const typographyCategories = [
+      'heading',
+      'body',
+      'monospace'
+    ]
+    return typographyCategories.includes(token.attributes.category)
   },
   transformer: (token) => {
-    return `font-${token.attributes.item}-${_.kebabCase(
-      token.attributes.subitem
+    return `font-${token.attributes.type}-${_.kebabCase(
+      token.attributes.item
     )}`;
   },
 });
