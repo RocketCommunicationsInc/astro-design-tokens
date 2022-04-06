@@ -141,10 +141,10 @@
           "rawValue": "{color.palette.darkblue.600}"
         },
         "muted": {
-          "value": "#b7dcff",
+          "value": "#649cbd",
           "type": "color",
           "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
-          "rawValue": "{color.palette.brightblue.300}"
+          "rawValue": "{color.palette.darkblue.300}"
         }
       }
     },
