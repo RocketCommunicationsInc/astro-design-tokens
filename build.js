@@ -10,7 +10,7 @@ StyleDictionary.registerTransform({
   name: "size/pxToRem",
   type: "value",
   matcher: (token) => {
-    return token.type === "fontSizes" || token.attributes.subitem === 'fontSize'
+    return token.type === "fontSizes" || token.attributes.subitem === 'fontSize' || token.type === 'fontSize'
   },
   transformer: (token) => {
     const rem = 0.0625 * token.value;
@@ -114,7 +114,7 @@ StyleDictionary.registerTransform({
   name: "fontFamily/fallback",
   type: "value",
   matcher: (token) => {
-    return token.attributes.subitem === "fontFamily" || token.attributes.category === 'fontFamily'
+    return token.attributes.subitem === "fontFamily" || token.attributes.category === 'fontFamily' || token.type === 'fontFamily'
   },
   transformer: (token) => {
     const serifFallback =
