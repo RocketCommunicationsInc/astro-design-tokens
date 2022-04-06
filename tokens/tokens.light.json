@@ -1712,7 +1712,7 @@
   "monospace": {
     "monospace-1": {
       "fontFamily": {
-        "value": "Roboto",
+        "value": "Roboto Mono",
         "type": "fontFamily"
       },
       "fontWeight": {
