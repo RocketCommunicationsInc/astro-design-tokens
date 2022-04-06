@@ -33,19 +33,69 @@ StyleDictionary.registerTransform({
 
 /**
  * Removes the item from Typography styles
- * --monospace-monospace-m1-fontSize -> --font-m1-fontSize
+ * --monospace-m1-fontSize -> --font-m1-fontSize
  */
 StyleDictionary.registerTransform({
   name: "typography/name",
   type: "name",
   matcher: (token) => {
-    return token.attributes.category === token.attributes.type;
+    // Hard coding the available categories because design doesnt want to change them.
+    const typographyCategories = [
+      'heading',
+      'body',
+      'monospace'
+    ]
+    return typographyCategories.includes(token.attributes.category)
   },
   transformer: (token) => {
-    return `font-${token.attributes.item}-${_.kebabCase(
-      token.attributes.subitem
+    return `font-${token.attributes.type}-${_.kebabCase(
+      token.attributes.item
     )}`;
   },
+});
+
+const toPx = (value) =>
+  StyleDictionary.transform["size/remToPx"].transformer({ value });
+
+const shadowMatcher = (prop) => {
+  return prop.type === "boxShadow";
+}
+
+const webShadowTransformer = (prop) => {
+  if (Array.isArray(prop.original.value)) {
+    const isInner = prop.attributes.item === 'inner'
+
+    const newVal = prop.original.value.map(shadow => {
+      const {
+        blur,
+        color,
+        x,
+        y,
+        spread,
+      } = shadow
+      return `${isInner ? 'inset' : ''} ${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
+    })
+    return newVal.toString()
+  } else {
+
+    const {
+      blur,
+      color,
+      x,
+      y,
+      spread,
+    } = prop.original.value;
+
+    const isInner = prop.attributes.item === 'inner'
+    return `${isInner ? 'inset' : ''} ${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
+  }
+};
+
+StyleDictionary.registerTransform({
+  name: "shadow/css",
+  matcher: shadowMatcher,
+  transformer: webShadowTransformer,
+  type: "value",
 });
 
 StyleDictionary.registerTransform({
@@ -86,7 +136,7 @@ StyleDictionary.registerTransform({
   type: "value",
   transitive: true,
   matcher: (token) => {
-    return token.attributes.category === "color";
+    return token.type === "color";
   },
   transformer: (token) => {
     if (token.value.includes("rgba")) {
@@ -104,54 +154,6 @@ StyleDictionary.registerTransform({
   },
 });
 
-
-const shadowMatcher = (prop) => {
-  return prop.type === "boxShadow";
-
-}
-const webShadowTransformer = (prop) => {
-  if (Array.isArray(prop.original.value)) {
-
-      const isInner = prop.attributes.type === 'inner'
-    const newVal = prop.original.value.map(shadow => {
-      const {
-        blur,
-        color,
-        x,
-        y,
-        spread,
-      } = shadow
-      return `${isInner ? 'inset' : ''} ${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
-    })
-    return newVal.toString()
-  } else {
-
-    const {
-      blur,
-      color,
-      x,
-      y,
-      spread,
-    } = prop.original.value;
-
-
-
-      const isInner = prop.attributes.type === 'inner'
-    // return `${toPx(x)} ${toPx(y)} ${toPx(blur)} ${toPx(
-    //   spread
-    // )} ${Color(color).toRgbString()}`;
-    return `${isInner ? 'inset' : ''} ${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
-  }
-};
-
-
-StyleDictionary.registerTransform({
-  name: "shadow/css",
-  matcher: shadowMatcher,
-  transformer: webShadowTransformer,
-  type: "value",
-});
-
 /**
  * Converts typography name 'bold' to CSS value '700'
  */
@@ -163,13 +165,13 @@ StyleDictionary.registerTransform({
   },
   transformer: (token) => {
     const fontWeightValues = {
-      thin: 200,
-      light: 300,
-      regular: 400,
-      medium: 500,
-      semibold: 600,
-      bold: 700,
-      black: 800,
+      Thin: 200,
+      Light: 300,
+      Regular: 400,
+      Medium: 500,
+      Semibold: 600,
+      Bold: 700,
+      Black: 800,
     };
     return fontWeightValues[token.value];
   },
@@ -268,6 +270,90 @@ StyleDictionary.registerFormat({
 });
 
 StyleDictionary.registerFormat({
+  name: `docs`,
+  formatter: function (format) {
+    const dictionary = Object.assign({}, format.dictionary);
+    // Override each token's `value` with `darkValue`
+    dictionary.allProperties = dictionary.allProperties.map((token) => {
+
+      let category = token.type
+      let type = token.attributes.type
+      if (token.attributes.type === 'color') {
+        type = token.attributes.item
+      }
+      let component = null
+      if (token.attributes.category !== 'color' && token.type === 'color') {
+        component = token.attributes.category
+      }
+
+
+      if (token.attributes.category === 'radius') {
+        type = token.attributes.type
+      }
+
+      if (token.attributes.category !== 'radius' && token.type === 'borderRadius') {
+        component = token.attributes.category
+        type = token.attributes.item
+      }
+
+      if (token.type === 'boxShadow') {
+        component = token.attributes.category
+        type = token.attributes.item
+      }
+
+
+      let refValue
+      if (token.original.rawValue) {
+
+        const refs = dictionary.getReferences(token.original.rawValue)[0]
+        if (refs) {
+          refValue = refs.name
+        }
+      }
+      return {
+        name: token.name,
+        value: token.value,
+        description: token.description,
+        property: type,
+        category: category,
+        component: component,
+        referenceToken: refValue
+      }
+      if (token.attributes.type === "dark") {
+        token.name = token.name.replace("dark-", "");
+        return token;
+      } else if (token.attributes.type === "light") {
+        token.name = token.name.replace("light-", "");
+        return token;
+      } else {
+        return token;
+      }
+    })
+    // .join(',\n') + '\n}';
+    return JSON.stringify(dictionary.allProperties, null, 2);
+    console.log(dictionary);
+
+    // Use the built-in format but with our customized dictionary object
+    // so it will output the darkValue instead of the value
+    return dictionary
+    // return StyleDictionary.format["json/flat"]({ ...format, dictionary });
+
+    // return dictionary.allTokens.map(token => {
+    //   let value = JSON.stringify(token.value);
+    //   if (dictionary.usesReference(token.original.value)) {
+    //     const refs = dictionary.getReferences(token.original.value);
+    //     refs.forEach(ref => {
+    //       value = value.replace(ref.value, function() {
+    //         return `${ref.name}`;
+    //       });
+    //     });
+    //   }
+    //   return `export const ${token.name} = ${value};`
+    // }).join(`\n`)
+  },
+});
+
+StyleDictionary.registerFormat({
   name: `darkColorFormatter`,
   formatter: function (format) {
     const dictionary = Object.assign({}, format.dictionary);
@@ -343,7 +429,6 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/scss",
   transforms: StyleDictionary.transformGroup["less"].concat([
-    "shadow/css",
     "size/pxToRem",
     "letterSpacing/percentToEm",
     // "color/themeName",
@@ -358,12 +443,14 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/json",
   transforms: StyleDictionary.transformGroup["web"].concat([
+    "shadow/css",
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
     "typography/name",
     "borderRadius/name",
-    "shadow/css"
+    "fontWeight/cssValue",
+  
     // "color/rgbaRef",
   ]),
 });
@@ -512,6 +599,16 @@ StyleDictionary.extend({
           format: "json/nested",
         }
       ],
+    },
+    "docs": {
+      transformGroup: "custom/json",
+      buildPath: "dist/json/",
+      files: [
+        {
+          destination: "docs.json",
+          format: "docs",
+        }
+      ],
     }
   },
   // ...
@@ -590,6 +687,16 @@ StyleDictionary.extend({
           format: "json/nested",
         }
       ],
+    },
+    "docs": {
+      transformGroup: "custom/json",
+      buildPath: "dist/json/",
+      files: [
+        {
+          destination: "docs-light.json",
+          format: "docs",
+        }
+      ]
     }
   },
 })

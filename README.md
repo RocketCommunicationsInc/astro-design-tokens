@@ -1,7 +1,5 @@
 # Astro UXDS Design Tokens
 
-> INTERNAL USE ONLY. DO NOT USE THESE IN YOUR APPLICATION!!!
-
 This package includes all of [AstroUXDS's](https://www.astrouxds.com/) design tokens in various different formats for you to consume in your applications.
 
 ## Installation
