@@ -39,6 +39,18 @@
           "type": "color",
           "description": "the table row background hover color",
           "rawValue": "{color.palette.brightblue.850}"
+        },
+        "header": {
+          "value": "#f5f6f9",
+          "type": "color",
+          "description": "\t The background color for the header of base elements.",
+          "rawValue": "{color.palette.grey.100}"
+        },
+        "selected": {
+          "value": "#cee9fc",
+          "type": "color",
+          "description": "The background color of base elements, like popup menus, when they are selected.",
+          "rawValue": "{color.palette.brightblue.200}"
         }
       },
       "interactive": {
@@ -1700,7 +1712,7 @@
   "monospace": {
     "monospace-1": {
       "fontFamily": {
-        "value": "Roboto Mono",
+        "value": "Roboto",
         "type": "fontFamily"
       },
       "fontWeight": {
