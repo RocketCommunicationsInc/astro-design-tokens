@@ -43,7 +43,8 @@ StyleDictionary.registerTransform({
     const typographyCategories = [
       'heading',
       'body',
-      'monospace'
+      'monospace',
+      'display'
     ]
     return typographyCategories.includes(token.attributes.category)
   },
