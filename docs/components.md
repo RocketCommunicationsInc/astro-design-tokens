@@ -1,10 +1,17 @@
 <script setup>
 import ComponentNotificationBanner from '../components/ComponentNotificationBanner.vue' 
 import DesignTokenPreview from '../components/DesignTokenPreview.vue'
+import mode from './.vitepress/theme/darkMode'
+const tokens = mode.tokens.filter(token => token.tokenLevel === 'component')
+// const grouped = tokens.reduce((prev, current) => {
+// 	let { component } = current
+// 	component = component.replace('-',' ')
+// 	let values = prev[component] || (prev[component] = []);
+// 	values.push(current);
+// }, {})
 </script>
 # Component Tokens
-
-## Classification Banner
+## Classification banner
 
 <ComponentNotificationBanner component="classification-banner"/>
 

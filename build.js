@@ -269,6 +269,54 @@ StyleDictionary.registerFormat({
     // }).join(`\n`)
   },
 });
+const isTypographyToken = (token) => {
+  const typographyCategories = [
+    'heading',
+    'body',
+    'monospace',
+    'display'
+  ]
+
+  return typographyCategories.includes(token.attributes.category)
+}
+
+const getComponent = (token) => {
+  let component = null
+  if (token.attributes.category !== 'radius' && token.type === 'borderRadius') {
+    component = token.attributes.category
+  }
+  if (token.attributes.category !== 'color' && token.type === 'color') {
+    component = token.attributes.category
+  }
+
+  if (token.type === 'boxShadow') {
+    component = token.attributes.category
+  }
+
+  return component
+}
+
+const getTokenLevel = (token) => {
+  if (getComponent(token)) {
+    return 'component'
+  }
+
+  if (token.attributes.type === 'palette') {
+    return 'reference'
+  }
+
+  if (token.original.rawValue && typeof token.original.rawValue !== 'object' && token.original.rawValue.includes('.')) {
+    return 'system'
+  }
+
+  if (isTypographyToken(token)) {
+    return 'system'
+  }
+
+  return 'reference'
+
+
+}
 
 StyleDictionary.registerFormat({
   name: `docs`,
@@ -276,6 +324,10 @@ StyleDictionary.registerFormat({
     const dictionary = Object.assign({}, format.dictionary);
     // Override each token's `value` with `darkValue`
     dictionary.allProperties = dictionary.allProperties.map((token) => {
+      const test = getTokenLevel(token)
+      if (!test) {
+        console.log(token);
+      }
 
       let category = token.type
       let type = token.attributes.type
@@ -334,7 +386,8 @@ StyleDictionary.registerFormat({
         property: type,
         category: category,
         component: component,
-        referenceToken: refValue
+        referenceToken: refValue,
+        tokenLevel: getTokenLevel(token)
       }
       if (token.attributes.type === "dark") {
         token.name = token.name.replace("dark-", "");

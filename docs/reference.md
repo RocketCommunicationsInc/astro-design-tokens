@@ -1,19 +1,33 @@
 <script setup>
 import ReferenceTokens from '../components/ReferenceTokens.vue'
+import DesignTokenPreview from '../components/DesignTokenPreview.vue'
+import mode from './.vitepress/theme/darkMode'
+const tokens = mode.tokens.filter(token => token.tokenLevel === 'reference')
+
 </script>
 # Reference Tokens
-
 ## Color
-<ReferenceTokens type="color"/>
+<div v-for="token in tokens">
+  <design-token-preview v-if="token.category === 'color' && token.property === 'palette'" type="background" :token="token"></design-token-preview>
+</div>
 
 ## Font Size
-<ReferenceTokens type="fontSize"/>
+<div v-for="token in tokens">
+  <design-token-preview v-if="token.category === 'fontSizes'" type="font-size" :token="token"></design-token-preview>
+</div>
 
 ## Font Weight
-<ReferenceTokens type="fontWeight"/>
+<div v-for="token in tokens">
+  <design-token-preview v-if="token.category === 'fontWeight'" type="font-weight" :token="token"></design-token-preview>
+</div>
 
 ## Radii
-<ReferenceTokens type="borderRadius"/>
+<div v-for="token in tokens">
+  <design-token-preview v-if="token.category === 'borderRadius'" type="radius" :token="token"></design-token-preview>
+</div>
+
 
 ## Opacity
-<ReferenceTokens type="opacity"/>
+<div v-for="token in tokens">
+  <design-token-preview v-if="token.category === 'opacity'" type="opacity" :token="token"></design-token-preview>
+</div>
