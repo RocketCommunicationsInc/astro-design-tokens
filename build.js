@@ -303,6 +303,20 @@ StyleDictionary.registerFormat({
       }
 
 
+      const typographyCategories = [
+        'heading',
+        'body',
+        'monospace',
+        'display'
+      ]
+
+      if (token.type === 'fontWeight') {
+        if (typographyCategories.includes(token.attributes.category)) {
+          component = token.attributes.category
+        }
+      }
+
+
       let refValue
       if (token.original.rawValue) {
 
@@ -311,6 +325,8 @@ StyleDictionary.registerFormat({
           refValue = refs.name
         }
       }
+
+
       return {
         name: token.name,
         value: token.value,
