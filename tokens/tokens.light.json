@@ -34,17 +34,17 @@
           "description": "The background color of base elements, like the app or popup menus.",
           "rawValue": "{color.palette.grey.200}"
         },
-        "hover": {
-          "value": "#142435",
-          "type": "color",
-          "description": "the table row background hover color",
-          "rawValue": "{color.palette.brightblue.850}"
-        },
         "header": {
           "value": "#f5f6f9",
           "type": "color",
           "description": "\t The background color for the header of base elements.",
           "rawValue": "{color.palette.grey.100}"
+        },
+        "hover": {
+          "value": "#98bdd3",
+          "type": "color",
+          "description": "the table row background hover color",
+          "rawValue": "{color.palette.darkblue.200}"
         },
         "selected": {
           "value": "#cee9fc",
@@ -110,19 +110,19 @@
       "white": {
         "value": "#ffffff",
         "type": "color",
-        "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes. #ffffff",
+        "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
         "rawValue": "{color.palette.neutral.000}"
       },
       "black": {
         "value": "#000000",
         "type": "color",
-        "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes. #000000",
+        "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
         "rawValue": "{color.palette.neutral.1000}"
       },
       "error": {
         "value": "#ff3838",
         "type": "color",
-        "description": "The text color used for errors. #ff3838",
+        "description": "The text color used for error messages.",
         "rawValue": "{color.palette.red.500}"
       }
     },
@@ -699,37 +699,37 @@
       "critical": {
         "value": "#ff3838",
         "type": "color",
-        "description": "Used to represent the Critical Status.",
+        "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
         "rawValue": "{color.palette.red.500}"
       },
       "serious": {
         "value": "#ffb302",
         "type": "color",
-        "description": "Used to represent the Serious Status.",
+        "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention.",
         "rawValue": "{color.palette.orange.500}"
       },
       "caution": {
         "value": "#fce83a",
         "type": "color",
-        "description": "Used to represent the Caution Status.",
+        "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
         "rawValue": "{color.palette.yellow.500}"
       },
       "normal": {
         "value": "#56f000",
         "type": "color",
-        "description": "Used to represent the Normal Status.",
+        "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
         "rawValue": "{color.palette.green.500}"
       },
       "standby": {
         "value": "#64d9ff",
         "type": "color",
-        "description": "Used to represent the Standby Status.",
+        "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
         "rawValue": "{color.palette.cyan.500}"
       },
       "off": {
         "value": "#a4abb6",
         "type": "color",
-        "description": "Used to represent the Off Status.",
+        "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
         "rawValue": "{color.palette.grey.500}"
       }
     },
@@ -1010,37 +1010,37 @@
         "critical": {
           "value": "#ff5f60",
           "type": "color",
-          "description": "The color used for the background on Critical status banners.",
+          "description": "The background color of the Critical notification banner.",
           "rawValue": "{color.palette.red.400}"
         },
         "serious": {
           "value": "#ffcc57",
           "type": "color",
-          "description": "The color used for the background on Serious status banners.",
+          "description": "The background color of the Serious notification banner.",
           "rawValue": "{color.palette.orange.400}"
         },
         "caution": {
           "value": "#fded61",
           "type": "color",
-          "description": "The color used for the background on Caution status banners.",
+          "description": "The background color of the Caution notification banner.",
           "rawValue": "{color.palette.yellow.400}"
         },
         "normal": {
           "value": "#99f666",
           "type": "color",
-          "description": "The color used for the background on Normal status banners.",
+          "description": "The background color of the Normal notification banner.",
           "rawValue": "{color.palette.green.400}"
         },
         "standby": {
           "value": "#5ce2ff",
           "type": "color",
-          "description": "The color used for the background on Standby status banners.",
+          "description": "The background color of the Standby notification banner.",
           "rawValue": "{color.palette.cyan.400}"
         },
         "off": {
           "value": "#bbc1c9",
           "type": "color",
-          "description": "The color used for the background on Off status banners.",
+          "description": "The background color of the Off notification banner.",
           "rawValue": "{color.palette.grey.400}"
         }
       }
@@ -1904,7 +1904,7 @@
       "border": {
         "value": "#000000",
         "type": "color",
-        "description": "The border color used for the Container component",
+        "description": "The border color used for the Container component.",
         "rawValue": "{color.palette.neutral.1000}"
       }
     }
@@ -1915,37 +1915,37 @@
         "topsecretsci": {
           "value": "#fce83a",
           "type": "color",
-          "description": "The color used to indicate the Top Secret/SCI classification.",
+          "description": "The background color of the Top Secret/SCI classification banner.",
           "rawValue": "{color.classification.topsecretsci}"
         },
         "topsecret": {
           "value": "#ff8c00",
           "type": "color",
-          "description": "The color used to indicate the Top Secret classification.",
+          "description": "The background color of the Top Secret classification banner.",
           "rawValue": "{color.classification.topsecret}"
         },
         "secret": {
           "value": "#c8102e",
           "type": "color",
-          "description": "The color used to indicate the Secret classification.",
+          "description": "The background color of the Secret classification banner.",
           "rawValue": "{color.classification.secret}"
         },
         "confidential": {
           "value": "#0033a0",
           "type": "color",
-          "description": "The color used to indicate the Confidential classification.",
+          "description": "The background color of the Confidential classification banner.",
           "rawValue": "{color.classification.confidential}"
         },
         "cui": {
           "value": "#502b85",
           "type": "color",
-          "description": "The color used to indicate the CUI classification.",
+          "description": "The background color of the CUI classification banner.",
           "rawValue": "{color.classification.cui}"
         },
         "unclassified": {
           "value": "#007a33",
           "type": "color",
-          "description": "The color used to indicate the Unclassified classification.",
+          "description": "The background color of the Unclassified classification banner.",
           "rawValue": "{color.classification.unclassified}"
         }
       }
