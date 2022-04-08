@@ -10,7 +10,7 @@
 			<design-token-preview-shadow v-if="token.category === 'boxShadow' " :type="token.property" :value="token?.value"></design-token-preview-shadow>
 			<design-token-preview-opacity v-if="token.category === 'opacity'" :value="token?.value"></design-token-preview-opacity>
 		</div>
-		<div class="w-full">
+		<div class="w-full flex flex-col justify-center">
 			<div class="flex items-center">
 				<div class="text-xl font-bold w-4/7">{{ token?.name }}</div>
 				<div class="ml-auto flex text-sm items-center">{{ token?.value }}</div>
