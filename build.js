@@ -349,6 +349,11 @@ StyleDictionary.registerFormat({
         type = token.attributes.item
       }
 
+      if (token.attributes.category !== 'borderWidth' && token.type === 'borderWidth') {
+        component = token.attributes.category
+        type = token.attributes.item
+      }
+
       if (token.type === 'boxShadow') {
         component = token.attributes.category
         type = token.attributes.item

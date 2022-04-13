@@ -737,7 +737,7 @@
       "topsecretsci": {
         "value": "#fce83a",
         "type": "color",
-        "description": "The color used to indicate the Top Secret/SCI classification.",
+        "description": "The color used to indicate the Top Secret//SCI classification.",
         "rawValue": "{color.palette.yellow.500}"
       },
       "topsecret": {
@@ -1123,6 +1123,14 @@
           "description": "The border color used for the Off status symbol. Transparent in Dark Theme.",
           "rawValue": "{color.palette.grey.800}"
         }
+      }
+    },
+    "borderWidth": {
+      "standby": {
+        "value": "1px",
+        "type": "borderWidth",
+        "description": "The border width for the Standby status symbol",
+        "rawValue": "{borderWidth.xs}"
       }
     }
   },
@@ -1915,7 +1923,7 @@
         "topsecretsci": {
           "value": "#fce83a",
           "type": "color",
-          "description": "The background color of the Top Secret/SCI classification banner.",
+          "description": "The background color of the Top Secret//SCI classification banner.",
           "rawValue": "{color.classification.topsecretsci}"
         },
         "topsecret": {
@@ -2025,6 +2033,20 @@
         "description": "The outside border radius",
         "rawValue": "30px"
       }
+    }
+  },
+  "borderWidth": {
+    "none": {
+      "value": 0,
+      "type": "borderWidth",
+      "description": "No border width",
+      "rawValue": "0"
+    },
+    "xs": {
+      "value": "1px",
+      "type": "borderWidth",
+      "description": "Extra small border width",
+      "rawValue": "1px"
     }
   }
 }

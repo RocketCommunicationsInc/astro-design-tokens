@@ -31,3 +31,8 @@ const tokens = mode.tokens.filter(token => token.tokenLevel === 'reference')
 <div v-for="token in tokens">
   <design-token-preview v-if="token.category === 'opacity'" type="opacity" :token="token"></design-token-preview>
 </div>
+
+## Border Width
+<div v-for="token in tokens">
+  <design-token-preview v-if="token.category === 'borderWidth'" type="opacity" :token="token"></design-token-preview>
+</div>
