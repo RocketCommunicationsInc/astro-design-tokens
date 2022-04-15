@@ -87,7 +87,7 @@ const fontFamilyFallback = {
 	name: "fontFamily/fallback",
 	type: "value",
 	matcher: (token) => {
-		return token.type === 'fontFamilies'
+		return token.type === 'fontFamilies' || token.type === 'fontFamily'
 	},
 	transformer: (token) => {
 		const serifFallback =
