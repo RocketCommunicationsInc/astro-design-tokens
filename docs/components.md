@@ -1,8 +1,13 @@
 <script setup>
 import ComponentNotificationBanner from '../components/ComponentNotificationBanner.vue' 
 import DesignTokenPreview from '../components/DesignTokenPreview.vue'
+import { computed } from 'vue'
 import mode from './.vitepress/theme/darkMode'
-const tokens = mode.tokens.filter(token => token.tokenLevel === 'component')
+
+const tokens = computed(() => {
+	return mode.tokens.filter(token => token.tokenLevel === 'component')
+})
+
 // const grouped = tokens.reduce((prev, current) => {
 // 	let { component } = current
 // 	component = component.replace('-',' ')

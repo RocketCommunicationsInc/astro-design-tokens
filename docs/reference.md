@@ -1,8 +1,12 @@
 <script setup>
 import ReferenceTokens from '../components/ReferenceTokens.vue'
 import DesignTokenPreview from '../components/DesignTokenPreview.vue'
+import { computed } from 'vue'
 import mode from './.vitepress/theme/darkMode'
-const tokens = mode.tokens.filter(token => token.tokenLevel === 'reference')
+
+const tokens = computed(() => {
+	return mode.tokens.filter(token => token.tokenLevel === 'reference')
+})
 
 </script>
 # Reference Tokens
