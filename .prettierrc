@@ -4,6 +4,8 @@
 		{
 			"files": "*.json",
 			"options": {
+
+				"htmlWhitespaceSensitivity": "ignore",
 				"parser": "json",
 				"trailingComma": "none"
 			}

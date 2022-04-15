@@ -10,10 +10,11 @@
     "start": "npm run build",
     "build": "node ./build.js",
     "prepack": "npm run build",
+    "pretransform": "node scripts/pretransform.js",
     "transform.dark": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens-dark.json dark --expandTypography --expandShadow --preserveRawValue=true",
     "transform.light": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.light.json beta,light --expandTypography --expandShadow --preserveRawValue=true",
     "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json beta --expandTypography --expandShadow --preserveRawValue=true",
-    "make": "npm run transform && npm run transform.light && node preformat.js && npm run build",
+    "make": "npm run transform && npm run transform.light && node scripts/posttransform.js && npm run build",
     "docs:dev": "vitepress dev docs",
     "docs:build": "yarn make && vitepress build docs",
     "docs:serve": "vitepress serve docs"
@@ -39,6 +40,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.4",
     "color": "^4.2.1",
+    "chalk": "^4.1.2",
     "lodash": "^4.17.21",
     "postcss": "^8.4.12",
     "tailwindcss": "^3.0.23",
