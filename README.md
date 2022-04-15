@@ -9,3 +9,14 @@ This package includes all of [AstroUXDS's](https://www.astrouxds.com/) design to
 ### CSS Custom Properties
 
 `@import "node_modules/@astrouxds/design-tokens/dist/css/index.css";`
+
+## Pipeline
+
+graph TD
+    A[Figma] --> B(data/tokens.json)
+    B -->|Token Transformer| D["/tokens/*.json"]
+    D -->|Style Dictionary| E["/dist"]
+    E -->F[CSS]
+    E -->G[SASS]
+    E -->H[iOS]
+    E -->I[JSON]
