@@ -5,25 +5,21 @@
         "default": {
           "value": "#ffffff",
           "type": "color",
-          "description": "The background color of surface panels.",
           "rawValue": "{color.palette.neutral.000}"
         },
         "header": {
           "value": "#f5f6f9",
           "type": "color",
-          "description": "The background color for the header of surface elements, including dialog and table headers.",
           "rawValue": "{color.palette.grey.100}"
         },
         "selected": {
           "value": "#cee9fc",
           "type": "color",
-          "description": "Used to show the selected state of a surface background",
           "rawValue": "{color.palette.brightblue.200}"
         },
         "hover": {
           "value": "#daeeff",
           "type": "color",
-          "description": "The background color of base elements, like popup menus, when they are hovered over.",
           "rawValue": "{color.palette.brightblue.100}"
         }
       },
@@ -31,25 +27,21 @@
         "default": {
           "value": "#eaeef4",
           "type": "color",
-          "description": "The background color of base elements, like the app or popup menus.",
           "rawValue": "{color.palette.grey.200}"
         },
         "header": {
           "value": "#f5f6f9",
           "type": "color",
-          "description": "\t The background color for the header of base elements.",
           "rawValue": "{color.palette.grey.100}"
         },
         "hover": {
           "value": "#98bdd3",
           "type": "color",
-          "description": "the table row background hover color",
           "rawValue": "{color.palette.darkblue.200}"
         },
         "selected": {
           "value": "#cee9fc",
           "type": "color",
-          "description": "The background color of base elements, like popup menus, when they are selected.",
           "rawValue": "{color.palette.brightblue.200}"
         }
       },
@@ -57,13 +49,11 @@
         "default": {
           "value": "#005a8f",
           "type": "color",
-          "description": "The primary color used for interactive elements.",
           "rawValue": "{color.palette.darkblue.500}"
         },
         "hover": {
           "value": "#004872",
           "type": "color",
-          "description": "The hover color used for interactive elements.",
           "rawValue": "{color.palette.darkblue.600}"
         }
       }
@@ -72,38 +62,32 @@
       "primary": {
         "value": "#292a2d",
         "type": "color",
-        "description": "The primary color used for text within the application.",
         "rawValue": "{color.palette.grey.900}"
       },
       "secondary": {
         "value": "#51555b",
         "type": "color",
-        "description": "The color used for text when less emphasis is needed.",
         "rawValue": "{color.palette.grey.700}"
       },
       "placeholder": {
         "value": "#7b8089",
         "type": "color",
-        "description": "The text color used for placeholder text in input and form fields.",
         "rawValue": "{color.palette.grey.600}"
       },
       "inverse": {
         "value": "#ffffff",
         "type": "color",
-        "description": "The color used for text on reversed backgrounds.",
         "rawValue": "{color.palette.neutral.000}"
       },
       "interactive": {
         "default": {
           "value": "#005a8f",
           "type": "color",
-          "description": "The primary color used for interactive elements.",
           "rawValue": "{color.palette.darkblue.500}"
         },
         "hover": {
           "value": "#004872",
           "type": "color",
-          "description": "The hover color used for interactive elements.",
           "rawValue": "{color.palette.darkblue.600}"
         }
       },
@@ -131,19 +115,16 @@
         "default": {
           "value": "#005a8f",
           "type": "color",
-          "description": "The primary color used for interactive elements.",
           "rawValue": "{color.palette.darkblue.500}"
         },
         "hover": {
           "value": "#004872",
           "type": "color",
-          "description": "The hover color used for interactive elements.",
           "rawValue": "{color.palette.darkblue.600}"
         },
         "muted": {
           "value": "#649cbd",
           "type": "color",
-          "description": "A muted version of the primary color used for interactive elements that don't need to be as strong as the primary color.",
           "rawValue": "{color.palette.darkblue.300}"
         }
       }
@@ -772,13 +753,28 @@
       }
     }
   },
+  "link": {
+    "color": {
+      "text": {
+        "default": {
+          "value": "#005a8f",
+          "type": "color",
+          "rawValue": "{color.text.interactive.default}"
+        },
+        "hover": {
+          "value": "#005a8f",
+          "type": "color",
+          "rawValue": "{link.color.text.default}"
+        }
+      }
+    }
+  },
   "popup-menu": {
     "caret": {
       "color": {
         "fill": {
           "value": "#b7dcff",
           "type": "color",
-          "description": "The fill color of the Pop Up Menu's caret",
           "rawValue": "{color.palette.brightblue.300}"
         }
       }
@@ -796,7 +792,6 @@
             "color": "#00000080",
             "type": "innerShadow"
           },
-          "description": "Inner shadow for vertical scrollbars",
           "type": "boxShadow",
           "rawValue": {
             "x": "3",
@@ -816,7 +811,6 @@
             "color": "#00000080",
             "type": "innerShadow"
           },
-          "description": "Inner shadow for horizontal scrollbars",
           "type": "boxShadow",
           "rawValue": {
             "x": "1",
@@ -848,7 +842,6 @@
             "color": "#56f000",
             "type": "innerShadow"
           },
-          "description": "Inner shadow for normal status Tags",
           "type": "boxShadow",
           "rawValue": {
             "x": "0",
@@ -868,7 +861,6 @@
             "color": "#ff3838",
             "type": "innerShadow"
           },
-          "description": "Inner shadow for critical status Tags",
           "type": "boxShadow",
           "rawValue": {
             "x": "0",
@@ -888,7 +880,6 @@
             "color": "#a4abb6",
             "type": "innerShadow"
           },
-          "description": "Inner shadow for off status Tags",
           "type": "boxShadow",
           "rawValue": {
             "x": "0",
@@ -931,7 +922,6 @@
             "type": "dropShadow"
           }
         ],
-        "description": "Drop shadow for Dialogs",
         "type": "boxShadow",
         "rawValue": [
           {
@@ -969,37 +959,31 @@
           "critical": {
             "value": "#8b1703",
             "type": "color",
-            "description": "The color used for icons in Critical status banners.",
             "rawValue": "{color.palette.red.800}"
           },
           "serious": {
             "value": "#975f0e",
             "type": "color",
-            "description": "The color used for icons in Serious status banners.",
             "rawValue": "{color.palette.orange.800}"
           },
           "caution": {
             "value": "#917d01",
             "type": "color",
-            "description": "The color used for icons in Caution status banners.",
             "rawValue": "{color.palette.yellow.800}"
           },
           "normal": {
             "value": "#007a33",
             "type": "color",
-            "description": "The color used for icons in Normal status banners.",
             "rawValue": "{color.palette.green.800}"
           },
           "standby": {
             "value": "#35798e",
             "type": "color",
-            "description": "The color used for icons in Standby status banners.",
             "rawValue": "{color.palette.cyan.800}"
           },
           "off": {
             "value": "#51555b",
             "type": "color",
-            "description": "The color used for icons in Off status banners.",
             "rawValue": "{color.palette.grey.700}"
           }
         }
@@ -1053,14 +1037,12 @@
           "default": {
             "value": "#4dacff",
             "type": "color",
-            "description": "The primary color used for interactive elements in the Global Status Bar.",
             "rawValue": "{color.palette.brightblue.500}"
           },
           "hover": {
-            "value": "#004872",
+            "value": "#92cbff",
             "type": "color",
-            "description": "The primary color used when interactive elements are hovered over in the Global Status Bar.",
-            "rawValue": "{color.palette.darkblue.600}"
+            "rawValue": "{color.palette.brightblue.400}"
           }
         }
       }
@@ -1069,13 +1051,11 @@
       "background": {
         "value": "#172635",
         "type": "color",
-        "description": "The background color of the Global Status Bar component. ",
         "rawValue": "{color.palette.darkblue.900}"
       },
       "text": {
         "value": "#ffffff",
         "type": "color",
-        "description": "The primary text color used within the Global Status Bar.",
         "rawValue": "{color.palette.neutral.000}"
       }
     }
@@ -1665,25 +1645,25 @@
       }
     }
   },
-  "fontWeight": {
+  "fontWeights": {
     "light": {
       "value": "Light",
-      "type": "fontWeight",
+      "type": "fontWeights",
       "rawValue": "Light"
     },
     "regular": {
       "value": "Regular",
-      "type": "fontWeight",
+      "type": "fontWeights",
       "rawValue": "Regular"
     },
     "medium": {
       "value": "Medium",
-      "type": "fontWeight",
+      "type": "fontWeights",
       "rawValue": "Medium"
     },
     "bold": {
       "value": "Bold",
-      "type": "fontWeight",
+      "type": "fontWeights",
       "rawValue": "Bold"
     }
   },
