@@ -1,182 +1,16 @@
 const StyleDictionary = require("style-dictionary");
 const baseConfig = require("./config.js");
-var _ = require("lodash");
-const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
-var Color = require("tinycolor2");
+const { shadowCss, pxToRem, percentToEm, typographyName, fontFamilyFallback, colorRgbaRef, fontWeightCss } = require('./transforms')
+
+StyleDictionary.registerTransform(pxToRem)
+.registerTransform(percentToEm)
+.registerTransform(typographyName)
+.registerTransform(shadowCss)
+.registerTransform(fontFamilyFallback)
+.registerTransform(colorRgbaRef)
+.registerTransform(fontWeightCss)
 
 
-
-StyleDictionary.registerTransform({
-  name: "size/pxToRem",
-  type: "value",
-  matcher: (token) => {
-    return token.type === "fontSizes" || token.attributes.subitem === 'fontSize' || token.type === 'fontSize'
-  },
-  transformer: (token) => {
-    const rem = 0.0625 * token.value;
-    return `${rem}rem`;
-  },
-});
-
-StyleDictionary.registerTransform({
-  name: "letterSpacing/percentToEm",
-  type: "value",
-  matcher: (token) => {
-    return token.type === "letterSpacing" || token.attributes.category === 'letterSpacing'
-  },
-  transformer: (token) => {
-    const value = token.value.replace("%", "");
-    const percentToEm = value / 100;
-    return `${percentToEm}em`;
-  },
-});
-
-/**
- * Removes the item from Typography styles
- * --monospace-m1-fontSize -> --font-m1-fontSize
- */
-StyleDictionary.registerTransform({
-  name: "typography/name",
-  type: "name",
-  matcher: (token) => {
-    // Hard coding the available categories because design doesnt want to change them.
-    const typographyCategories = [
-      'heading',
-      'body',
-      'monospace',
-      'display'
-    ]
-    return typographyCategories.includes(token.attributes.category)
-  },
-  transformer: (token) => {
-    return `font-${token.attributes.type}-${_.kebabCase(
-      token.attributes.item
-    )}`;
-  },
-});
-
-const toPx = (value) =>
-  StyleDictionary.transform["size/remToPx"].transformer({ value });
-
-const shadowMatcher = (prop) => {
-  return prop.type === "boxShadow";
-}
-
-const webShadowTransformer = (prop) => {
-  if (Array.isArray(prop.original.value)) {
-    const isInner = prop.attributes.item === 'inner'
-
-    const newVal = prop.original.value.map(shadow => {
-      const {
-        blur,
-        color,
-        x,
-        y,
-        spread,
-      } = shadow
-      return `${isInner ? 'inset' : ''} ${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
-    })
-    return newVal.toString()
-  } else {
-
-    const {
-      blur,
-      color,
-      x,
-      y,
-      spread,
-    } = prop.original.value;
-
-    const isInner = prop.attributes.item === 'inner'
-    return `${isInner ? 'inset' : ''} ${x}px ${y}px ${blur}px ${spread}px ${Color(color).toRgbString()}`;
-  }
-};
-
-StyleDictionary.registerTransform({
-  name: "shadow/css",
-  matcher: shadowMatcher,
-  transformer: webShadowTransformer,
-  type: "value",
-});
-
-StyleDictionary.registerTransform({
-  name: "borderRadius/name",
-  type: "name",
-  matcher: (token) => {
-    return token.attributes.category === "border-radius";
-  },
-  transformer: (token) => {
-    return `${token.attributes.category}-${token.attributes.type}`;
-  },
-});
-
-StyleDictionary.registerTransform({
-  name: "fontFamily/fallback",
-  type: "value",
-  matcher: (token) => {
-    return token.attributes.subitem === "fontFamily" || token.attributes.category === 'fontFamily' || token.type === 'fontFamily'
-  },
-  transformer: (token) => {
-    const serifFallback =
-      "-apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;";
-    const monoFallback = "monospace";
-    if (token.attributes.type === "mono") {
-      return `'${token.value}', ${monoFallback}`;
-    } else {
-      return `'${token.value}', ${serifFallback}`;
-    }
-  },
-});
-
-/**
- * Transforms resolved references using rgba
- * rgba(var(--color-black), .50) -> rgba(0,0,0,0.5)
- */
-StyleDictionary.registerTransform({
-  name: "color/rgbaRef",
-  type: "value",
-  transitive: true,
-  matcher: (token) => {
-    return token.type === "color";
-  },
-  transformer: (token) => {
-    if (token.value.includes("rgba")) {
-      const output = token.value.replace(/rgba\((.+?)\)/g, function (string, first) {
-        const hex = first.split(',')[0]
-        const opacity = first.split(',')[1]
-        const rgb = Color(hex).toRgb()
-        return `rgba(${rgb.r}, ${rgb.g}, ${rgb.b},${opacity})`
-      })
-
-      return output
-    } else {
-      return token.value
-    }
-  },
-});
-
-/**
- * Converts typography name 'bold' to CSS value '700'
- */
-StyleDictionary.registerTransform({
-  name: "fontWeight/cssValue",
-  type: "value",
-  matcher: (token) => {
-    return token.type === 'fontWeight'
-  },
-  transformer: (token) => {
-    const fontWeightValues = {
-      Thin: 200,
-      Light: 300,
-      Regular: 400,
-      Medium: 500,
-      Semibold: 600,
-      Bold: 700,
-      Black: 800,
-    };
-    return fontWeightValues[token.value];
-  },
-});
 
 StyleDictionary.registerFilter({
   name: "notColor",
@@ -493,9 +327,9 @@ StyleDictionary.registerTransformGroup({
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
     "typography/name",
-    "borderRadius/name",
+    // "borderRadius/name",
     // "color/themeName",
-    "fontWeight/cssValue",
+    "fontWeight/css",
     "shadow/css"
     // "color/rgbaRef",
   ]),
@@ -509,8 +343,8 @@ StyleDictionary.registerTransformGroup({
     // "color/themeName",
     "fontFamily/fallback",
     "typography/name",
-    "borderRadius/name",
-    "fontWeight/cssValue",
+    // "borderRadius/name",
+    "fontWeight/css",
     "shadow/css"
   ]),
 });
@@ -523,9 +357,9 @@ StyleDictionary.registerTransformGroup({
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
     "typography/name",
-    "borderRadius/name",
-    "fontWeight/cssValue",
-  
+    // "borderRadius/name",
+    "fontWeight/css",
+
     // "color/rgbaRef",
   ]),
 });
