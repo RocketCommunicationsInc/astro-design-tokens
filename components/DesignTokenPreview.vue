@@ -14,8 +14,10 @@
 		<div class="w-full flex flex-col justify-center">
 			<div class="flex items-center">
 				<div class="text-xl font-bold w-4/7">{{ token?.name }}</div>
-				<div class="ml-auto flex text-sm items-center">{{ token?.value }}</div>
+				<div v-if="token?.category !== 'boxShadow'" class="ml-auto flex text-sm items-center">{{ token?.value }}</div>
 			</div>
+
+			<p v-if="token?.category === 'boxShadow'" class="text-sm">{{ token?.value }}</p>
 			<div class="flex">
 				<div class="w-3/5">
 					<p class="m-0 ml-auto mt pb-2 text-gray-500 leading-snug" v-if="token?.description !== 'Protected'">{{ token?.description }}</p>
