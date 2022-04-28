@@ -1,6 +1,6 @@
 <template>
 	<div class="flex align-center mt-4 mb-4">
-		<div class="flex items-center w-1/6">
+		<div class="flex items-center" :style="getBoxSize">
 			<design-token-preview-color-background v-if="type === 'background' || type === 'icon' || type === 'fill' " :value="token?.value"></design-token-preview-color-background>
 			<design-token-preview-color-border v-if="type === 'border'" :value="token?.value"></design-token-preview-color-border>
 			<design-token-preview-color-text v-if="type === 'text'" :value="token?.value"></design-token-preview-color-text>
@@ -10,6 +10,8 @@
 			<design-token-preview-shadow v-if="token.category === 'boxShadow' " :type="token.property" :value="token?.value"></design-token-preview-shadow>
 			<design-token-preview-opacity v-if="token.category === 'opacity'" :value="token?.value"></design-token-preview-opacity>
 			<design-token-preview-border-width v-if="token.category === 'borderWidth'" :value="token?.value"></design-token-preview-border-width>
+			<design-token-preview-spacing v-if="token.category === 'spacing'" :value="token?.value"></design-token-preview-spacing>
+			<design-token-preview-line-height v-if="type === 'lineHeight'" :value="token?.value"></design-token-preview-line-height>
 		</div>
 		<div class="w-full flex flex-col justify-center">
 			<div class="flex items-center">
@@ -40,9 +42,20 @@ import DesignTokenPreviewRadius from './DesignTokenPreviewRadius.vue'
 import DesignTokenPreviewShadow from './DesignTokenPreviewShadow.vue'
 import DesignTokenPreviewOpacity from './DesignTokenPreviewOpacity.vue'
 import DesignTokenPreviewBorderWidth from './DesignTokenPreviewBorderWidth.vue'
+import DesignTokenPreviewSpacing from './DesignTokenPreviewSpacing.vue'
+import DesignTokenPreviewLineHeight from './DesignTokenPreviewLineHeight.vue'
 export default {
-	components: { DesignTokenPreviewColorBackground, DesignTokenPreviewColorText, DesignTokenPreviewColorBorder, DesignTokenPreviewTextSize, DesignTokenPreviewTextWeight, DesignTokenPreviewRadius, DesignTokenPreviewShadow, DesignTokenPreviewOpacity, DesignTokenPreviewBorderWidth },
+	components: { DesignTokenPreviewColorBackground, DesignTokenPreviewColorText, DesignTokenPreviewColorBorder, DesignTokenPreviewTextSize, DesignTokenPreviewTextWeight, DesignTokenPreviewRadius, DesignTokenPreviewShadow, DesignTokenPreviewOpacity, DesignTokenPreviewBorderWidth, DesignTokenPreviewSpacing, DesignTokenPreviewLineHeight },
 	props: ['token', 'name', 'value', 'type'],
+	computed: {
+		getBoxSize() {
+			if (this.type === 'lineHeight') {
+				return 'width: 65%; margin-right: 2rem;'
+			} else {
+				return 'width: 16.666667%'
+			}
+		}
+	}
 }
 </script>
 
