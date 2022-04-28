@@ -9,7 +9,7 @@ const pxToRem = {
 		return token.type === "fontSizes" || token.attributes.subitem === 'fontSize' || token.type === 'fontSize'
 	},
 	transformer: (token) => {
-		const rem = 0.0625 * token.value;
+		const rem = 0.0625 * token.value.replace('px','');
 		return `${rem}rem`;
 	}
 }
