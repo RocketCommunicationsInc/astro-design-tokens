@@ -1,0 +1,8 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@astrouxds/design-tokens": "1.5.0"
+  },
+  "changesets": []
+}
