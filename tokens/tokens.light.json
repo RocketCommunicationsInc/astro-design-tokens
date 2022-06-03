@@ -1008,11 +1008,65 @@
       "rawValue": "Roboto Mono"
     }
   },
-  "lineHeights": {
+  "lineHeight": {
     "0": {
       "value": "AUTO",
       "type": "lineHeights",
       "rawValue": "AUTO"
+    },
+    "2xs": {
+      "value": "14px",
+      "type": "lineHeights",
+      "description": "Extra Small",
+      "rawValue": "14px"
+    },
+    "xs": {
+      "value": "16px",
+      "type": "lineHeights",
+      "description": "Body 3",
+      "rawValue": "16px"
+    },
+    "sm": {
+      "value": "20px",
+      "type": "lineHeights",
+      "description": "Body 2",
+      "rawValue": "20px"
+    },
+    "base": {
+      "value": "24px",
+      "type": "lineHeights",
+      "description": "Body 1, Heading 3, Heading 4, Heading 5, Heading 6",
+      "rawValue": "24px"
+    },
+    "lg": {
+      "value": "28px",
+      "type": "lineHeights",
+      "description": "Heading 2",
+      "rawValue": "28px"
+    },
+    "xl": {
+      "value": "32px",
+      "type": "lineHeights",
+      "description": "Monospace 1",
+      "rawValue": "32px"
+    },
+    "2xl": {
+      "value": "40px",
+      "type": "lineHeights",
+      "description": "Heading 1",
+      "rawValue": "40px"
+    },
+    "3xl": {
+      "value": "56px",
+      "type": "lineHeights",
+      "description": "Display 2",
+      "rawValue": "56px"
+    },
+    "4xl": {
+      "value": "70px",
+      "type": "lineHeights",
+      "description": "Display 1",
+      "rawValue": "70px"
     }
   },
   "body": {
@@ -1026,7 +1080,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "24px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1060,7 +1114,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "24px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1094,7 +1148,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "20px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1128,7 +1182,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "20px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1162,7 +1216,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "16px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1196,7 +1250,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "16px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1232,7 +1286,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "40px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1266,7 +1320,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "40px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1300,7 +1354,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "28px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1334,7 +1388,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "24px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1368,7 +1422,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "24px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1402,7 +1456,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "24px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1436,7 +1490,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "24px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1472,7 +1526,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "70px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1506,7 +1560,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "56px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -1542,7 +1596,7 @@
         "type": "fontWeight"
       },
       "lineHeight": {
-        "value": "AUTO",
+        "value": "32px",
         "type": "lineHeight"
       },
       "fontSize": {
@@ -2025,6 +2079,78 @@
           "rawValue": "{color.palette.grey.700}"
         }
       }
+    }
+  },
+  "spacing": {
+    "0": {
+      "value": "0px",
+      "type": "spacing",
+      "rawValue": "0px"
+    },
+    "1": {
+      "value": "4px",
+      "type": "spacing",
+      "rawValue": "4px"
+    },
+    "2": {
+      "value": "8px",
+      "type": "spacing",
+      "rawValue": "8px"
+    },
+    "3": {
+      "value": "12px",
+      "type": "spacing",
+      "rawValue": "12px"
+    },
+    "4": {
+      "value": "16px",
+      "type": "spacing",
+      "rawValue": "16px"
+    },
+    "6": {
+      "value": "24px",
+      "type": "spacing",
+      "rawValue": "24px"
+    },
+    "8": {
+      "value": "32px",
+      "type": "spacing",
+      "rawValue": "32px"
+    },
+    "10": {
+      "value": "40px",
+      "type": "spacing",
+      "rawValue": "40px"
+    },
+    "12": {
+      "value": "48px",
+      "type": "spacing",
+      "rawValue": "48px"
+    },
+    "16": {
+      "value": "64px",
+      "type": "spacing",
+      "rawValue": "64px"
+    },
+    "20": {
+      "value": "80px",
+      "type": "spacing",
+      "rawValue": "80px"
+    },
+    "24": {
+      "value": "96px",
+      "type": "spacing",
+      "rawValue": "96px"
+    },
+    "025": {
+      "value": "1px",
+      "type": "spacing",
+      "rawValue": "1px"
+    },
+    "050": {
+      "value": "2px",
+      "type": "spacing",
+      "rawValue": "2px"
     }
   }
 }
