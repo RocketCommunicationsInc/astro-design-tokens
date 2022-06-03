@@ -1,9 +1,10 @@
 {
   "name": "@astrouxds/design-tokens",
-  "version": "2.0.0",
+  "version": "2.0.0-beta.6",
   "description": "Astro UXDS Design Tokens",
   "main": "index.js",
   "dependencies": {
+    "@changesets/cli": "^2.22.0",
     "style-dictionary": "^3"
   },
   "scripts": {
@@ -39,8 +40,8 @@
   "homepage": "https://www.astrouxds.com",
   "devDependencies": {
     "autoprefixer": "^10.4.4",
-    "color": "^4.2.1",
     "chalk": "^4.1.2",
+    "color": "^4.2.1",
     "lodash": "^4.17.21",
     "postcss": "^8.4.12",
     "tailwindcss": "^3.0.23",

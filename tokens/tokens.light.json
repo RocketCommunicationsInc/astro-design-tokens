@@ -926,26 +926,10 @@
         "value": [
           {
             "x": 0,
-            "y": 0,
+            "y": 4,
             "blur": 4,
             "spread": 1,
-            "color": "#00000024",
-            "type": "dropShadow"
-          },
-          {
-            "x": 0,
-            "y": 4,
-            "blur": 4,
-            "spread": 3,
-            "color": "#0000001f",
-            "type": "dropShadow"
-          },
-          {
-            "x": 0,
-            "y": 4,
-            "blur": 4,
-            "spread": 0,
-            "color": "#00000033",
+            "color": "#00000059",
             "type": "dropShadow"
           }
         ],
@@ -954,113 +938,13 @@
         "rawValue": [
           {
             "x": "0",
-            "y": "0",
+            "y": "4",
             "blur": "4",
             "spread": "1",
-            "color": "rgba({color.palette.neutral.1000}, {opacity.14})",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "4",
-            "spread": "3",
-            "color": "rgba({color.palette.neutral.1000}, {opacity.12})",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "4",
-            "spread": "0",
-            "color": "rgba({color.palette.neutral.1000}, {opacity.20})",
+            "color": "rgba({color.palette.neutral.1000}, {opacity.35})",
             "type": "dropShadow"
           }
         ]
-      }
-    }
-  },
-  "notification-banner": {
-    "icon": {
-      "color": {
-        "fill": {
-          "critical": {
-            "value": "#8b1703",
-            "type": "color",
-            "description": "The color used for icons in the Critical notification banner.",
-            "rawValue": "{color.palette.red.800}"
-          },
-          "serious": {
-            "value": "#975f0e",
-            "type": "color",
-            "description": "The color used for icons in the Serious notification banner.",
-            "rawValue": "{color.palette.orange.800}"
-          },
-          "caution": {
-            "value": "#917d01",
-            "type": "color",
-            "description": "The color used for icons in the Caution notification banner.",
-            "rawValue": "{color.palette.yellow.800}"
-          },
-          "normal": {
-            "value": "#007a33",
-            "type": "color",
-            "description": "The color used for icons in the Normal notification banner.",
-            "rawValue": "{color.palette.green.800}"
-          },
-          "standby": {
-            "value": "#35798e",
-            "type": "color",
-            "description": "The color used for icons in the Standby notification banner.",
-            "rawValue": "{color.palette.cyan.800}"
-          },
-          "off": {
-            "value": "#51555b",
-            "type": "color",
-            "description": "The color used for icons in the Off notification banner.",
-            "rawValue": "{color.palette.grey.700}"
-          }
-        }
-      }
-    },
-    "color": {
-      "background": {
-        "critical": {
-          "value": "#ff5f60",
-          "type": "color",
-          "description": "The background color of the Critical notification banner.",
-          "rawValue": "{color.palette.red.400}"
-        },
-        "serious": {
-          "value": "#ffcc57",
-          "type": "color",
-          "description": "The background color of the Serious notification banner.",
-          "rawValue": "{color.palette.orange.400}"
-        },
-        "caution": {
-          "value": "#fded61",
-          "type": "color",
-          "description": "The background color of the Caution notification banner.",
-          "rawValue": "{color.palette.yellow.400}"
-        },
-        "normal": {
-          "value": "#99f666",
-          "type": "color",
-          "description": "The background color of the Normal notification banner.",
-          "rawValue": "{color.palette.green.400}"
-        },
-        "standby": {
-          "value": "#5ce2ff",
-          "type": "color",
-          "description": "The background color of the Standby notification banner.",
-          "rawValue": "{color.palette.cyan.400}"
-        },
-        "off": {
-          "value": "#bbc1c9",
-          "type": "color",
-          "description": "The background color of the Off notification banner.",
-          "rawValue": "{color.palette.grey.400}"
-        }
       }
     }
   },
@@ -1200,7 +1084,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 16,
+        "value": "16px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1234,7 +1118,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 16,
+        "value": "16px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1268,7 +1152,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 14,
+        "value": "14px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1302,7 +1186,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 14,
+        "value": "14px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1336,7 +1220,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 12,
+        "value": "12px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1370,7 +1254,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 12,
+        "value": "12px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1406,7 +1290,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 34,
+        "value": "34px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1440,7 +1324,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 34,
+        "value": "34px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1474,7 +1358,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 24,
+        "value": "24px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1508,7 +1392,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 20,
+        "value": "20px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1542,7 +1426,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 20,
+        "value": "20px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1576,7 +1460,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 18,
+        "value": "18px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1610,7 +1494,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 18,
+        "value": "18px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1646,7 +1530,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 60,
+        "value": "60px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1680,7 +1564,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 48,
+        "value": "48px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1716,7 +1600,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 28,
+        "value": "28px",
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1761,54 +1645,54 @@
   },
   "fontSize": {
     "xs": {
-      "value": 12,
+      "value": "12px",
       "type": "fontSizes",
-      "rawValue": "12"
+      "rawValue": "12px"
     },
     "sm": {
-      "value": 14,
+      "value": "14px",
       "type": "fontSizes",
-      "rawValue": "14"
+      "rawValue": "14px"
     },
     "base": {
-      "value": 16,
+      "value": "16px",
       "type": "fontSizes",
-      "rawValue": "16"
+      "rawValue": "16px"
     },
     "lg": {
-      "value": 18,
+      "value": "18px",
       "type": "fontSizes",
-      "rawValue": "18"
+      "rawValue": "18px"
     },
     "xl": {
-      "value": 20,
+      "value": "20px",
       "type": "fontSizes",
-      "rawValue": "20"
+      "rawValue": "20px"
     },
     "2xl": {
-      "value": 24,
+      "value": "24px",
       "type": "fontSizes",
-      "rawValue": "24"
+      "rawValue": "24px"
     },
     "3xl": {
-      "value": 28,
+      "value": "28px",
       "type": "fontSizes",
-      "rawValue": "28"
+      "rawValue": "28px"
     },
     "4xl": {
-      "value": 34,
+      "value": "34px",
       "type": "fontSizes",
-      "rawValue": "34"
+      "rawValue": "34px"
     },
     "5xl": {
-      "value": 48,
+      "value": "48px",
       "type": "fontSizes",
-      "rawValue": "48"
+      "rawValue": "48px"
     },
     "6xl": {
-      "value": 60,
+      "value": "60px",
       "type": "fontSizes",
-      "rawValue": "60"
+      "rawValue": "60px"
     }
   },
   "letterSpacing": {
@@ -1846,34 +1730,22 @@
     }
   },
   "opacity": {
-    "12": {
-      "value": "12%",
-      "description": "dialog-shadow-2",
+    "35": {
+      "value": "35%",
+      "description": "Used in drop shadow for dialogs in light theme",
       "type": "opacity",
-      "rawValue": "12%"
-    },
-    "14": {
-      "value": "14%",
-      "description": "dialog shadow 1 light",
-      "type": "opacity",
-      "rawValue": "14%"
-    },
-    "20": {
-      "value": "20%",
-      "description": "dialog-shadow-3",
-      "type": "opacity",
-      "rawValue": "20%"
-    },
-    "25": {
-      "value": "25%",
-      "description": "dialog-shadow-1",
-      "type": "opacity",
-      "rawValue": "25%"
+      "rawValue": "35%"
     },
     "40": {
       "value": "40%",
       "type": "opacity",
       "rawValue": "40%"
+    },
+    "45": {
+      "value": "45%",
+      "description": "Used in drop shadow for dialogs",
+      "type": "opacity",
+      "rawValue": "45%"
     },
     "50": {
       "value": "50%",
@@ -2173,6 +2045,40 @@
       "type": "borderWidth",
       "description": "Extra small border width",
       "rawValue": "1px"
+    },
+    "sm": {
+      "value": "2px",
+      "type": "borderWidth",
+      "description": "Small border width",
+      "rawValue": "2px"
+    }
+  },
+  "notification-banner": {
+    "radius": {
+      "inner": {
+        "value": "2px",
+        "type": "borderRadius",
+        "description": "The inner radius of Notification Banner outlines.",
+        "rawValue": "2px"
+      },
+      "outer": {
+        "value": "3px",
+        "type": "borderRadius",
+        "description": "The outer radius of Notification Banner outlines.",
+        "rawValue": "{radius.base}"
+      }
+    }
+  },
+  "menu": {
+    "divider": {
+      "color": {
+        "fill": {
+          "value": "#51555b",
+          "type": "color",
+          "description": "The fill color for menu dividers",
+          "rawValue": "{color.palette.grey.700}"
+        }
+      }
     }
   },
   "spacing": {

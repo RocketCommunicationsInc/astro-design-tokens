@@ -8,6 +8,12 @@ const tokens = computed(() => {
 	return mode.tokens.filter(token => token.tokenLevel === 'reference')
 })
 
+const sortedSpacingTokens = computed(() => {
+  return tokens.value.filter(token => token.category === 'spacing').sort((a, b) => {
+    return a.value.replace('rem','') - b.value.replace('rem','')
+  })
+})
+
 </script>
 # Reference Tokens
 ## Color
@@ -39,4 +45,15 @@ const tokens = computed(() => {
 ## Border Width
 <div v-for="token in tokens">
   <design-token-preview v-if="token.category === 'borderWidth'" type="opacity" :token="token"></design-token-preview>
+</div>
+
+## Spacing
+<div v-for="token in sortedSpacingTokens">
+  <design-token-preview v-if="token.category === 'spacing'" type="spacing" :token="token"></design-token-preview>
+</div>
+
+
+## Line Heights
+<div v-for="token in tokens">
+  <design-token-preview v-if="token.category === 'lineHeights'" type="lineHeight" :token="token"></design-token-preview>
 </div>
