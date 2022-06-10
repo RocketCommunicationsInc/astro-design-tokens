@@ -146,6 +146,12 @@
           "description": "A muted version of the primary color used for the border of interactive elements that don't need to be as strong as the primary color.",
           "rawValue": "{color.palette.darkblue.300}"
         }
+      },
+      "error": {
+        "value": "#ff3838",
+        "type": "color",
+        "description": "The border color used for error messages.",
+        "rawValue": "{color.palette.red.500}"
       }
     },
     "palette": {
@@ -979,6 +985,18 @@
         "type": "color",
         "description": "The primary text color used within the Global Status Bar.",
         "rawValue": "{color.palette.neutral.000}"
+      }
+    }
+  },
+  "button": {
+    "color": {
+      "border": {
+        "borderless": {
+          "value": "#4dacff00",
+          "type": "color",
+          "description": "The color used for the border of borderless buttons, to ensure they are the same size as other buttons.",
+          "rawValue": "rgba({color.palette.brightblue.500}, 0)"
+        }
       }
     }
   },
@@ -2051,6 +2069,12 @@
       "type": "borderWidth",
       "description": "Small border width",
       "rawValue": "2px"
+    },
+    "lg": {
+      "value": "4px",
+      "type": "borderWidth",
+      "description": "large border width",
+      "rawValue": "4px"
     }
   },
   "notification-banner": {
