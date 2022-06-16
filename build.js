@@ -465,6 +465,7 @@ StyleDictionary.extend({
           format: "css/variables",
           filter: "notColor",
           options: {
+            selector: ':where(:root)',
             showFileHeader: true,
             outputReferences: true,
           },
@@ -474,6 +475,7 @@ StyleDictionary.extend({
           format: "css/variables",
           filter: "color/theme",
           options: {
+            selector: ':where(:root)',
             showFileHeader: true,
             outputReferences: true,
           },
@@ -483,6 +485,7 @@ StyleDictionary.extend({
           format: "css/variables",
           filter: "color/theme",
           options: {
+            selector: ':where(:root)',
             showFileHeader: true,
             outputReferences: true,
           },
