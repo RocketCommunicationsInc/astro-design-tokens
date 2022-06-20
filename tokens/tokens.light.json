@@ -988,18 +988,6 @@
       }
     }
   },
-  "button": {
-    "color": {
-      "border": {
-        "borderless": {
-          "value": "#4dacff00",
-          "type": "color",
-          "description": "The color used for the border of borderless buttons, to ensure they are the same size as other buttons.",
-          "rawValue": "rgba({color.palette.brightblue.500}, 0)"
-        }
-      }
-    }
-  },
   "radius": {
     "base": {
       "value": "3px",

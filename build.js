@@ -2,6 +2,8 @@ const StyleDictionary = require("style-dictionary");
 const baseConfig = require("./config.js");
 const { shadowCss, pxToRem, percentToEm, typographyName, fontFamilyFallback, colorRgbaRef, fontWeightCss } = require('./transforms')
 
+const iosPath = `ios/dist/`;
+
 StyleDictionary.registerTransform(pxToRem)
 .registerTransform(percentToEm)
 .registerTransform(typographyName)
@@ -393,6 +395,12 @@ StyleDictionary.registerTransformGroup({
 
 const modes = [`light`, `dark`];
 
+const iosColors = {
+  buildPath: iosPath,
+  transforms: [`attribute/cti`,`colorRGB`,`name/ti/camel`],
+  actions: [`generateColorsets`]
+};
+
 // light/default mode
 StyleDictionary.extend({
   source: [
@@ -400,7 +408,44 @@ StyleDictionary.extend({
     // that does not have .dark or .light, but ends in .json5
     `tokens/**/!(*.${modes.join(`|*.`)}).json`
   ],
+  format: {
+    swiftColor: require('./formats/swiftColor'),
+    swiftImage: require('./formats/swiftImage'),
+  },
+  action: {
+    generateColorsets: require('./actions/ios/colorsets'),
+    generateGraphics: require('./actions/generateGraphics'),
+  },
+  transform: {
+    'attribute/cti': require('./transforms/attributeCTI'),
+    'colorRGB': require('./transforms/colorRGB'),
+    'size/remToFloat': require('./transforms/remToFloat')
+  },
   platforms: {
+    iosColors: Object.assign(iosColors, {
+      mode: `dark`
+    }),
+    // iOS: {
+    //   buildPath: iosPath,
+    //   transforms: [`attribute/cti`,`name/ti/camel`,`size/swift/remToCGFloat`],
+    //   files: [{
+    //     destination: `Color.swift`,
+    //     format: `swiftColor`,
+    //     filter: (token) => token.attributes.category === `color` && token.name.includes('palette'),
+    //     options: {
+    //       outputReferences: true
+    //     }
+    //   },{
+    //     destination: `Size.swift`,
+    //     filter: (token) => token.attributes.category === `size`,
+    //     className: `Size`,
+    //     format: `ios-swift/class.swift`
+    //   },{
+    //     destination: `Image.swift`,
+    //     filter: (token) => token.attributes.category === `image`,
+    //     format: `swiftImage`
+    //   }]
+    // },
     scss: {
       transformGroup: "custom/scss",
       buildPath: "dist/scss/",
