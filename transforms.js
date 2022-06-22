@@ -41,7 +41,8 @@ const typographyName = {
 			'heading',
 			'body',
 			'monospace',
-			'display'
+			'display',
+			'control'
 		]
 		return typographyCategories.includes(token.attributes.category)
 	},
