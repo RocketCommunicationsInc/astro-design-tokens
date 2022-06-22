@@ -1,6 +1,15 @@
 const fs = require('fs-extra');
 const { contents, darkAppearance, idiom, hcAppearance } = require('./consts');
 
+
+/**
+ * Remove 'palette' and add space between
+ */
+const formatName = (name) => {
+  let filteredName = name.replace('palette', '')
+  const parts = filteredName.split(/([0-9]+)/)
+  return `Astro UI ${parts[0]} ${parts[1]}`
+}
 /**
  * This action will iterate over all the colors in the Style Dictionary
  * and for each one write a colorset with light and (optional) dark
@@ -9,18 +18,16 @@ const { contents, darkAppearance, idiom, hcAppearance } = require('./consts');
 module.exports = {
   // This is going to run once per theme.
   do: (dictionary, platform) => {
-    const assetPath = `${platform.buildPath}/StyleDictionary.xcassets`;
+    const assetPath = `${platform.buildPath}/AstroCoreAssets.xcassets`;
     fs.ensureDirSync(assetPath)
     fs.writeFileSync(`${assetPath}/Contents.json`, JSON.stringify(contents, null, 2));
     
     dictionary.allProperties
-      .filter(token => token.attributes.category === `color`)
+      .filter(token => token.attributes.type === 'palette' && token.attributes.category === `color`)
       .forEach(token => {
-        let nameString = token.name.split(/([0-9]+)/)
-        nameString = `${nameString[0]} ${nameString[1]}`
-        nameString = nameString.replace('palette', '')
 
-        const colorsetPath = `${assetPath}/Astro UI ${nameString}.colorset`;
+        const formattedName = formatName(token.name)
+        const colorsetPath = `${assetPath}/Astro Core Colors/${formattedName}.colorset`;
         fs.ensureDirSync(colorsetPath);
         
         // The colorset might already exist because Style Dictionary is run multiple
@@ -50,7 +57,6 @@ module.exports = {
           color.appearances = [darkAppearance, hcAppearance];
         }
         
-        console.log('col', colorsetPath);
         colorset.colors.push(color);
         
         fs.writeFileSync(`${colorsetPath}/Contents.json`, JSON.stringify(colorset, null, 2));

@@ -1,8 +1,9 @@
 const StyleDictionary = require("style-dictionary");
 const baseConfig = require("./config.js");
 const { shadowCss, pxToRem, percentToEm, typographyName, fontFamilyFallback, colorRgbaRef, fontWeightCss } = require('./transforms')
-
-const iosPath = `ios/dist/`;
+const fs = require('fs-extra');
+// const iosPath = `ios/dist/`;
+const iosPath = `ios/`;
 
 StyleDictionary.registerTransform(pxToRem)
 .registerTransform(percentToEm)
@@ -366,6 +367,30 @@ StyleDictionary.registerTransformGroup({
   ]),
 });
 
+// before this runs we should clean the directories we are generating files in
+// to make sure they are ✨clean✨
+console.log(`cleaning ${iosPath}...`);
+fs.removeSync(iosPath);
+
+
+const styleDictionary = StyleDictionary.extend({
+  // custom actions
+  action: {
+    generateColorsets: require('./actions/ios/colorsets'),
+    generateGraphics: require('./actions/generateGraphics'),
+  },
+  // custom transforms
+  transform: {
+    'attribute/cti': require('./transforms/attributeCTI'),
+    'colorRGB': require('./transforms/colorRGB'),
+    'size/remToFloat': require('./transforms/remToFloat')
+  },
+  // custom formats
+  format: {
+    swiftColor: require('./formats/swiftColor'),
+    swiftImage: require('./formats/swiftImage'),
+  },
+});
 // StyleDictionary.extend({
 //   "source": ["tokens/tokens-light.json"],
 //   platforms: {
@@ -398,29 +423,17 @@ const modes = [`light`, `dark`];
 const iosColors = {
   buildPath: iosPath,
   transforms: [`attribute/cti`,`colorRGB`,`name/ti/camel`],
-  actions: [`generateColorsets`]
+  actions: [`generateColorsets`],
 };
 
 // light/default mode
-StyleDictionary.extend({
+styleDictionary.extend({
   source: [
     // this is saying find any files in the tokens folder
     // that does not have .dark or .light, but ends in .json5
     `tokens/**/!(*.${modes.join(`|*.`)}).json`
   ],
-  format: {
-    swiftColor: require('./formats/swiftColor'),
-    swiftImage: require('./formats/swiftImage'),
-  },
-  action: {
-    generateColorsets: require('./actions/ios/colorsets'),
-    generateGraphics: require('./actions/generateGraphics'),
-  },
-  transform: {
-    'attribute/cti': require('./transforms/attributeCTI'),
-    'colorRGB': require('./transforms/colorRGB'),
-    'size/remToFloat': require('./transforms/remToFloat')
-  },
+
   platforms: {
     iosColors: Object.assign(iosColors, {
       mode: `dark`
@@ -571,7 +584,7 @@ StyleDictionary.extend({
   // ...
 }).buildAllPlatforms()
 
-StyleDictionary.extend({
+styleDictionary.extend({
   include: [
     // this is the same as the source in light/default above
     `tokens/**/!(*.${modes.join(`|*.`)}).json`
@@ -582,6 +595,9 @@ StyleDictionary.extend({
     `tokens/**/*.light.json`
   ],
   platforms: {
+      iosColors: Object.assign(iosColors, {
+      mode: `light`
+    }),
     scss: {
       transformGroup: "custom/scss",
       buildPath: "dist/scss/",
