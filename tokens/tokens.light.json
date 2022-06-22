@@ -1757,6 +1757,12 @@
       "value": "50%",
       "type": "opacity",
       "rawValue": "50%"
+    },
+    "disabled": {
+      "value": "40%",
+      "type": "opacity",
+      "description": "Used to represent disabled state",
+      "rawValue": "{opacity.40}"
     }
   },
   "card": {

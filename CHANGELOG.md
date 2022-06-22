@@ -1,5 +1,15 @@
 # @astrouxds/design-tokens
 
+## 2.0.0-beta.8
+
+### Major Changes
+
+- 33a88b0: removes `button-color-border-borderless` token
+
+### Minor Changes
+
+- fe41d7a: adds opacity-disabled token
+
 ## 2.0.0-beta.7
 
 ### Major Changes
