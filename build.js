@@ -5,7 +5,8 @@ const fs = require('fs-extra');
 // const iosPath = `ios/dist/`;
 const iosPath = `ios/`;
 
-StyleDictionary.registerTransform(pxToRem)
+StyleDictionary
+.registerTransform(pxToRem)
 .registerTransform(percentToEm)
 .registerTransform(typographyName)
 .registerTransform(shadowCss)
