@@ -1,64 +1,21 @@
 const StyleDictionary = require("style-dictionary");
 const baseConfig = require("./config.js");
-const { shadowCss, pxToRem, percentToEm, typographyName, fontFamilyFallback, colorRgbaRef, fontWeightCss } = require('./transforms')
+const fs = require('fs-extra');
+const iosPath = `dist/ios/dist/`;
+const transforms = require('./transforms')
+const filters = require('./filters')
 
-StyleDictionary.registerTransform(pxToRem)
-.registerTransform(percentToEm)
-.registerTransform(typographyName)
-.registerTransform(shadowCss)
-.registerTransform(fontFamilyFallback)
-.registerTransform(colorRgbaRef)
-.registerTransform(fontWeightCss)
+// Register transforms
+for (const key of Object.keys(transforms)) {
+  const transform = transforms[key]
+  StyleDictionary.registerTransform(transform)
+}
 
-
-
-StyleDictionary.registerFilter({
-  name: "notColor",
-  matcher: function (token) {
-    return token.type !== "color" && token.type !== 'boxShadow'
-  },
-});
-
-StyleDictionary.registerFilter({
-  name: "color/theme",
-  matcher: function (token) {
-    return token.type === "color" && token.attributes.type !== "palette" || token.type === 'boxShadow'
-  },
-});
-
-StyleDictionary.registerFilter({
-  name: "color/ref",
-  matcher: function (token) {
-    return token.attributes.category === "ref";
-  },
-});
-
-StyleDictionary.registerFilter({
-  name: "color/global",
-  matcher: function (token) {
-    return (
-      token.type === "color" && token.attributes.type === "palette"
-    );
-  },
-});
-
-StyleDictionary.registerFilter({
-  name: "color/dark",
-  matcher: function (token) {
-    return (
-      token.attributes.type === "color" && token.filePath.includes('dark')
-    );
-  },
-});
-
-StyleDictionary.registerFilter({
-  name: "color/sys",
-  matcher: function (token) {
-    return (
-      token.attributes.category === "sys" && token.attributes.type === "color"
-    );
-  },
-});
+// Register filters
+for (const key of Object.keys(filters)) {
+  const filter = filters[key]
+  StyleDictionary.registerFilter(filter)
+}
 
 StyleDictionary.registerFilter({
   name: "color/light",
@@ -68,6 +25,7 @@ StyleDictionary.registerFilter({
     );
   },
 });
+
 StyleDictionary.registerFormat({
   name: `darkColorFormatterSass`,
   formatter: function (format) {
@@ -103,6 +61,7 @@ StyleDictionary.registerFormat({
     // }).join(`\n`)
   },
 });
+
 const isTypographyToken = (token) => {
   const typographyCategories = [
     'heading',
@@ -298,28 +257,6 @@ StyleDictionary.registerFormat({
   },
 });
 
-StyleDictionary.registerFilter({
-  name: "typography/props",
-  matcher: function (token) {
-    if (token.attributes.category === "font") {
-      const validProps = [
-        "fontSize",
-        "letterSpacing",
-        "fontWeight",
-        "fontFamily",
-      ];
-      return validProps.includes(token.attributes.subitem);
-    }
-
-    if (token.attributes.category === "border-radius") {
-      const validProps = ["radius"];
-      return validProps.includes(token.attributes.item);
-    }
-
-    return token;
-  },
-});
-
 StyleDictionary.registerTransformGroup({
   name: "custom/css",
   transforms: StyleDictionary.transformGroup["css"].concat([
@@ -327,11 +264,8 @@ StyleDictionary.registerTransformGroup({
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
     "typography/name",
-    // "borderRadius/name",
-    // "color/themeName",
     "fontWeight/css",
     "shadow/css"
-    // "color/rgbaRef",
   ]),
 });
 
@@ -340,10 +274,8 @@ StyleDictionary.registerTransformGroup({
   transforms: StyleDictionary.transformGroup["less"].concat([
     "size/pxToRem",
     "letterSpacing/percentToEm",
-    // "color/themeName",
     "fontFamily/fallback",
     "typography/name",
-    // "borderRadius/name",
     "fontWeight/css",
     "shadow/css"
   ]),
@@ -352,55 +284,53 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/json",
   transforms: StyleDictionary.transformGroup["web"].concat([
-    "shadow/css",
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
     "typography/name",
-    // "borderRadius/name",
     "fontWeight/css",
-
-    // "color/rgbaRef",
+    "shadow/css"
   ]),
 });
 
-// StyleDictionary.extend({
-//   "source": ["tokens/tokens-light.json"],
-//   platforms: {
-//     internal: {
-//       transformGroup: "custom/css",
-//       buildPath: "dist/internal/css/",
-//       files: [
-//         {
-//           destination: "_colors-light.css",
-//           format: "css/variables",
-//           options: {
-//             selector: ".light-theme",
-//             showFileHeader: true,
-//             outputReferences: true,
-//           },
-//         },
-//       ],
-//     }
-//   },
-// }).buildAllPlatforms()
+// before this runs we should clean the directories we are generating files in
+// to make sure they are ✨clean✨
+console.log(`cleaning ${iosPath}...`);
+fs.removeSync(iosPath);
 
-// StyleDictionary.extend(baseConfig).buildAllPlatforms()
 
-// const StyleDictionaryExtended = StyleDictionary.extend(baseConfig);
-
-// StyleDictionaryExtended.buildAllPlatforms();
+const styleDictionary = StyleDictionary.extend({
+  // custom actions
+  action: {
+    generateColorsets: require('./actions/ios/colorsets')
+  },
+  format: {
+    swiftColor: require('./formats/swiftColor'),
+    swiftImage: require('./formats/swiftImage'),
+  },
+});
 
 const modes = [`light`, `dark`];
 
-// light/default mode
-StyleDictionary.extend({
+const iosColors = {
+  buildPath: iosPath,
+  transforms: [`attribute/cti`,`colorRGB`,`name/ti/camel`],
+  actions: [`generateColorsets`],
+};
+
+console.log(`\n\n🌙 Building dark mode...`);
+
+styleDictionary.extend({
   source: [
     // this is saying find any files in the tokens folder
     // that does not have .dark or .light, but ends in .json5
     `tokens/**/!(*.${modes.join(`|*.`)}).json`
   ],
+
   platforms: {
+    iosColors: Object.assign(iosColors, {
+      mode: `dark`
+    }),
     scss: {
       transformGroup: "custom/scss",
       buildPath: "dist/scss/",
@@ -522,11 +452,11 @@ StyleDictionary.extend({
         }
       ],
     }
-  },
-  // ...
+  }
 }).buildAllPlatforms()
 
-StyleDictionary.extend({
+console.log(`☀️ Building light mode...`);
+styleDictionary.extend({
   include: [
     // this is the same as the source in light/default above
     `tokens/**/!(*.${modes.join(`|*.`)}).json`
@@ -537,6 +467,9 @@ StyleDictionary.extend({
     `tokens/**/*.light.json`
   ],
   platforms: {
+      iosColors: Object.assign(iosColors, {
+      mode: `light`
+    }),
     scss: {
       transformGroup: "custom/scss",
       buildPath: "dist/scss/",
