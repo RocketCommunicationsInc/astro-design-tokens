@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,qBAAqB,EAAE,MAAM,4BAA4B,CAAC","sourcesContent":["export { RuxDesignTokenPreview } from './RuxDesignTokenPreview.js';\n"]}
