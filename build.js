@@ -1,19 +1,15 @@
 const StyleDictionary = require("style-dictionary");
 const baseConfig = require("./config.js");
-const { shadowCss, pxToRem, percentToEm, typographyName, fontFamilyFallback, colorRgbaRef, fontWeightCss } = require('./transforms')
 const fs = require('fs-extra');
 // const iosPath = `ios/dist/`;
 const iosPath = `ios/`;
+const transforms = require('./transforms')
 
-StyleDictionary
-.registerTransform(pxToRem)
-.registerTransform(percentToEm)
-.registerTransform(typographyName)
-.registerTransform(shadowCss)
-.registerTransform(fontFamilyFallback)
-.registerTransform(colorRgbaRef)
-.registerTransform(fontWeightCss)
-
+// Register transforms
+for (const key of Object.keys(transforms)) {
+  const transform = transforms[key]
+  StyleDictionary.registerTransform(transform)
+}
 
 
 StyleDictionary.registerFilter({
@@ -381,11 +377,11 @@ const styleDictionary = StyleDictionary.extend({
     generateGraphics: require('./actions/generateGraphics'),
   },
   // custom transforms
-  transform: {
-    'attribute/cti': require('./transforms/attributeCTI'),
-    'colorRGB': require('./transforms/colorRGB'),
-    'size/remToFloat': require('./transforms/remToFloat')
-  },
+  // transform: {
+  //   'attribute/cti': require('./transforms/attributeCTI'),
+  //   'colorRGB': require('./transforms/colorRGB'),
+  //   'size/remToFloat': require('./transforms/remToFloat')
+  // },
   // custom formats
   format: {
     swiftColor: require('./formats/swiftColor'),

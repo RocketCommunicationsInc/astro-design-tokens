@@ -1,6 +1,7 @@
 const Color = require('tinycolor2');
 
 module.exports = {
+  name: 'colorRGB',
   type: `value`,
   matcher: (token) => token.attributes.category === `color`,
   transformer: (token) => {

@@ -23,6 +23,8 @@ const propertiesToCTI = {
 }
 
 module.exports = {
+  name: 'attribute/CTI',
+  type: 'value',
   transformer: (prop) => {
     // Only do this custom functionality in the 'component' top-level namespace.
     if (prop.path[0] === 'component') {
