@@ -6,13 +6,7 @@ const { contents, darkAppearance, idiom, hcAppearance } = require('./consts');
 /**
  * Remove 'palette' and add space between
  */
-const formatName = (name, library) => {
-  if (library === 'core') {
-    let filteredName = name.replace('palette', '')
-    const parts = filteredName.split(/([0-9]+)/)
-    return `Astro UI ${parts[0]} ${parts[1]}`
-  }
-
+const formatName = (name) => {
   return `Astro UI ${_.startCase(name)}`
 }
 /**
@@ -23,10 +17,7 @@ const formatName = (name, library) => {
 module.exports = {
   // This is going to run once per theme.
   do: (dictionary, platform) => {
-    let assetPath = `${platform.buildPath}/AstroCoreAssets.xcassets`;
-    if (platform.library === 'foundation') {
-      assetPath = `${platform.buildPath}/AstroFoundationAssets.xcassets`;
-    }
+    const assetPath = `${platform.buildPath}/AstroCoreAssets.xcassets`;
     fs.ensureDirSync(assetPath)
     fs.writeFileSync(`${assetPath}/Contents.json`, JSON.stringify(contents, null, 2));
     
@@ -34,10 +25,10 @@ module.exports = {
       // .filter(token => token.attributes.type === 'palette' && token.attributes.category === `color`)
       .filter(token => token.attributes.category === `ios`)
       .forEach(token => {
+		console.log(platform);
 
-        console.log(assetPath);
-        const formattedName = formatName(token.name, platform.library)
-        const colorsetPath = `${assetPath}/Astro Core Colors/${formattedName}.colorset`;
+		console.log(token.name);
+        const colorsetPath = `${assetPath}/Astro Core Colors/${formatName(token.name)}.colorset`;
         fs.ensureDirSync(colorsetPath);
         
         // The colorset might already exist because Style Dictionary is run multiple
@@ -57,6 +48,13 @@ module.exports = {
         
         if (platform.mode === `dark`) {
           color.appearances = [darkAppearance];
+		  colorset.colors.push({
+			idiom: 'watch',
+			color: {
+			  'color-space': `srgb`,
+			  components: token.value
+			}
+		  })
         }
 
         if (platform.mode === `dark`) {

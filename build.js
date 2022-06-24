@@ -328,9 +328,10 @@ styleDictionary.extend({
   ],
 
   platforms: {
-    iosColors: Object.assign(iosColors, {
-      mode: `dark`
-    }),
+    // iosColors: Object.assign(iosColors, {
+    //   mode: `dark`,
+    //   library: 'core'
+    // }),
     scss: {
       transformGroup: "custom/scss",
       buildPath: "dist/scss/",
@@ -467,9 +468,10 @@ styleDictionary.extend({
     `tokens/**/*.light.json`
   ],
   platforms: {
-      iosColors: Object.assign(iosColors, {
-      mode: `light`
-    }),
+    //   iosColors: Object.assign(iosColors, {
+    //   mode: `light`,
+    //   library: 'core'
+    // }),
     scss: {
       transformGroup: "custom/scss",
       buildPath: "dist/scss/",
@@ -546,3 +548,57 @@ styleDictionary.extend({
   },
 })
   .buildAllPlatforms();
+
+
+  console.log(`☀️ Building ios light mode...`);
+  styleDictionary.extend({
+    source: [
+      // this is saying find any files in the tokens folder
+      // that does not have .dark or .light, but ends in .json5
+      `ios/tokens/ios.json`
+    ],
+  
+    platforms: {
+      iosColors: Object.assign({}, {
+        ...iosColors,
+        mode: `dark`,
+        library: 'core'
+      }),
+      iosColorsFoundation: Object.assign({}, {
+        ...iosColors,
+        mode: `dark`,
+        library: 'foundation'
+      }),
+
+
+    }
+  }).buildAllPlatforms()
+  
+
+  console.log(`☀️ Building ios dark mode...`);
+  styleDictionary.extend({
+    include: [
+      // this is the same as the source in light/default above
+      `ios/tokens/ios-light.json`
+    ],
+    source: [
+      // Kind of the opposite of above, this will find any files
+      // that have the file extension .dark.json5
+      `tokens/**/*.light.json`
+    ],
+    platforms: {
+      iosColors: Object.assign({}, {
+        ...iosColors,
+        mode: `light`,
+        library: 'core'
+      }),
+      iosColorsFoundation: Object.assign({}, {
+        ...iosColors,
+        mode: `light`,
+        library: 'foundation'
+      }),
+
+    }
+  })
+    .buildAllPlatforms();
+  
