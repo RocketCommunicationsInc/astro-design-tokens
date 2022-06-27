@@ -21,6 +21,13 @@
           "type": "color",
           "rawValue": "{color.palette.brightblue.850}"
         }
+      },
+      "grouped-background": {
+        "color": {
+          "value": "#101923",
+          "type": "color",
+          "rawValue": "{color.palette.brightblue.900}"
+        }
       }
     },
     "tertiary": {
@@ -30,6 +37,20 @@
           "type": "color",
           "rawValue": "{color.palette.brightblue.800}"
         }
+      },
+      "grouped-background": {
+        "color": {
+          "value": "#1c3851",
+          "type": "color",
+          "rawValue": "{color.palette.brightblue.800}"
+        }
+      }
+    },
+    "grouped-background": {
+      "color": {
+        "value": "#101923",
+        "type": "color",
+        "rawValue": "{color.palette.brightblue.900}"
       }
     }
   },

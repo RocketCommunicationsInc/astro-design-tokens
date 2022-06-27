@@ -21,6 +21,13 @@
           "type": "color",
           "rawValue": "{color.palette.grey.100}"
         }
+      },
+      "grouped-background": {
+        "color": {
+          "value": "#ffffff",
+          "type": "color",
+          "rawValue": "{color.palette.neutral.000}"
+        }
       }
     },
     "tertiary": {
@@ -30,6 +37,20 @@
           "type": "color",
           "rawValue": "{color.palette.neutral.000}"
         }
+      },
+      "grouped-background": {
+        "color": {
+          "value": "#f5f6f9",
+          "type": "color",
+          "rawValue": "{color.palette.grey.100}"
+        }
+      }
+    },
+    "grouped-background": {
+      "color": {
+        "value": "#f5f6f9",
+        "type": "color",
+        "rawValue": "{color.palette.grey.100}"
       }
     }
   },
