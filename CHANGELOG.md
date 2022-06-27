@@ -1,5 +1,17 @@
 # @astrouxds/design-tokens
 
+## 2.0.0-beta.10
+
+### Minor Changes
+
+- Fixed issue where CSS globals werent outputting correctly
+
+## 2.0.0-beta.9
+
+### Minor Changes
+
+- 4dc5d84: adds font-control-body-1 typography tokens
+
 ## 2.0.0-beta.8
 
 ### Major Changes

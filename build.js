@@ -413,7 +413,7 @@ styleDictionary.extend({
         {
           destination: "_colors-global.css",
           format: "css/variables",
-          filter: "color/theme",
+          filter: "color/global",
           options: {
             selector: ':where(:root)',
             showFileHeader: true,
