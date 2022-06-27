@@ -302,7 +302,8 @@ fs.removeSync(iosPath);
 const styleDictionary = StyleDictionary.extend({
   // custom actions
   action: {
-    generateColorsets: require('./actions/ios/colorsets')
+    generateColorsets: require('./actions/ios/colorsets'),
+    generateFoundationColorsets: require('./actions/ios/foundationcolorsets.js'),
   },
   format: {
     swiftColor: require('./formats/swiftColor'),
@@ -566,6 +567,7 @@ styleDictionary.extend({
       }),
       iosColorsFoundation: Object.assign({}, {
         ...iosColors,
+        actions: ['generateFoundationColorsets'],
         mode: `dark`,
         library: 'foundation'
       }),
@@ -594,6 +596,7 @@ styleDictionary.extend({
       }),
       iosColorsFoundation: Object.assign({}, {
         ...iosColors,
+        actions: ['generateFoundationColorsets'],
         mode: `light`,
         library: 'foundation'
       }),

@@ -6,14 +6,10 @@ const { contents, darkAppearance, idiom, hcAppearance } = require('./consts');
 /**
  * Remove 'palette' and add space between
  */
-const formatName = (name, library) => {
-  if (library === 'core') {
+const formatName = (name) => {
     let filteredName = name.replace('palette', '')
     const parts = filteredName.split(/([0-9]+)/)
     return `Astro UI ${parts[0]} ${parts[1]}`
-  }
-
-  return `Astro UI ${_.startCase(name)}`
 }
 /**
  * This action will iterate over all the colors in the Style Dictionary
@@ -23,20 +19,14 @@ const formatName = (name, library) => {
 module.exports = {
   // This is going to run once per theme.
   do: (dictionary, platform) => {
-    let assetPath = `${platform.buildPath}/AstroCoreAssets.xcassets`;
-    if (platform.library === 'foundation') {
-      assetPath = `${platform.buildPath}/AstroFoundationAssets.xcassets`;
-    }
+    const assetPath = `${platform.buildPath}/AstroCoreAssets.xcassets`;
     fs.ensureDirSync(assetPath)
     fs.writeFileSync(`${assetPath}/Contents.json`, JSON.stringify(contents, null, 2));
     
     dictionary.allProperties
-      // .filter(token => token.attributes.type === 'palette' && token.attributes.category === `color`)
-      .filter(token => token.attributes.category === `ios`)
+      .filter(token => token.attributes.type === 'palette' && token.attributes.category === `color`)
       .forEach(token => {
-
-        console.log(assetPath);
-        const formattedName = formatName(token.name, platform.library)
+        const formattedName = formatName(token.name)
         const colorsetPath = `${assetPath}/Astro Core Colors/${formattedName}.colorset`;
         fs.ensureDirSync(colorsetPath);
         
