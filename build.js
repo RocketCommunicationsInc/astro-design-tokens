@@ -325,7 +325,7 @@ styleDictionary.extend({
   source: [
     // this is saying find any files in the tokens folder
     // that does not have .dark or .light, but ends in .json5
-    `tokens/**/!(*.${modes.join(`|*.`)}).json`
+    `tokens/tokens.json`
   ],
 
   platforms: {
@@ -460,13 +460,12 @@ styleDictionary.extend({
 console.log(`☀️ Building light mode...`);
 styleDictionary.extend({
   include: [
-    // this is the same as the source in light/default above
-    `tokens/**/!(*.${modes.join(`|*.`)}).json`
+    'tokens/tokens.json'
   ],
   source: [
     // Kind of the opposite of above, this will find any files
     // that have the file extension .dark.json5
-    `tokens/**/*.light.json`
+    'tokens/tokens.light.json'
   ],
   platforms: {
     //   iosColors: Object.assign(iosColors, {
@@ -556,7 +555,7 @@ styleDictionary.extend({
     source: [
       // this is saying find any files in the tokens folder
       // that does not have .dark or .light, but ends in .json5
-      `ios/tokens/ios.json`
+      `tokens/ios.json`
     ],
   
     platforms: {
@@ -581,12 +580,12 @@ styleDictionary.extend({
   styleDictionary.extend({
     include: [
       // this is the same as the source in light/default above
-      `ios/tokens/ios-light.json`
+      `tokens/ios-light.json`
     ],
     source: [
       // Kind of the opposite of above, this will find any files
       // that have the file extension .dark.json5
-      `tokens/**/*.light.json`
+      'tokens/ios.json'
     ],
     platforms: {
       iosColors: Object.assign({}, {

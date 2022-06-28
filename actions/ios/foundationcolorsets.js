@@ -22,7 +22,7 @@ module.exports = {
 		allProperties
 			.forEach(token => {
 				let folder = 'Astro UI Colors'
-				let name = `Astro UI ${_.startCase(token.name)}`
+				let name = `Astro UI ${_.startCase(token.name.replace('Color',''))}`
 				if (token.attributes.type === 'status') {
 					folder = 'Astro Status Colors'
 					name = `Astro ${_.startCase(token.name)}`
