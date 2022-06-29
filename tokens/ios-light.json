@@ -52,6 +52,50 @@
         "type": "color",
         "rawValue": "{color.palette.grey.100}"
       }
+    },
+    "status": {
+      "critical": {
+        "color": {
+          "value": "#ff2a04",
+          "type": "color",
+          "rawValue": "{status-symbol.color.fill.critical.on-light}"
+        }
+      },
+      "serious": {
+        "color": {
+          "value": "#ffaf3d",
+          "type": "color",
+          "rawValue": "{status-symbol.color.fill.serious.on-light}"
+        }
+      },
+      "caution": {
+        "color": {
+          "value": "#fad800",
+          "type": "color",
+          "rawValue": "{status-symbol.color.fill.caution.on-light}"
+        }
+      },
+      "normal": {
+        "color": {
+          "value": "#00e200",
+          "type": "color",
+          "rawValue": "{status-symbol.color.fill.normal.on-light}"
+        }
+      },
+      "standby": {
+        "color": {
+          "value": "#2dccff",
+          "type": "color",
+          "rawValue": "{status-symbol.color.fill.standby.on-light}"
+        }
+      },
+      "off": {
+        "color": {
+          "value": "#7b8089",
+          "type": "color",
+          "rawValue": "{status-symbol.color.fill.off.on-light}"
+        }
+      }
     }
   },
   "color": {

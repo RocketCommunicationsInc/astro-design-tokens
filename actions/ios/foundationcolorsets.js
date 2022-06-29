@@ -17,7 +17,7 @@ module.exports = {
 
 		let allProperties = dictionary.allProperties
 		allProperties = allProperties.filter(token => token.type === 'color' &&
-			token.attributes.type === 'status' || token.attributes.type === 'classification'
+			 token.attributes.type === 'classification'
 			|| token.attributes.category === 'ios')
 		allProperties
 			.forEach(token => {
@@ -25,7 +25,7 @@ module.exports = {
 				let name = `Astro UI ${_.startCase(token.name.replace('Color',''))}`
 				if (token.attributes.type === 'status') {
 					folder = 'Astro Status Colors'
-					name = `Astro ${_.startCase(token.name)}`
+					name = `Astro ${_.startCase(token.name.replace('Color', ''))}`
 				}
 
 
