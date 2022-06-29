@@ -580,12 +580,12 @@ styleDictionary.extend({
   styleDictionary.extend({
     include: [
       // this is the same as the source in light/default above
-      `tokens/ios-light.json`
+      `tokens/ios.json`
     ],
     source: [
       // Kind of the opposite of above, this will find any files
       // that have the file extension .dark.json5
-      'tokens/ios.json'
+      'tokens/ios-light.json'
     ],
     platforms: {
       iosColors: Object.assign({}, {

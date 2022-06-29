@@ -1318,1155 +1318,345 @@
     "tokenLevel": "reference"
   },
   {
-    "name": "font-body-1-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-body-1-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "lineHeight": "24px",
+      "fontSize": "16px",
+      "letterSpacing": "0.5%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Body 1",
     "property": "body-1",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-body-1-font-weight",
-    "value": 400,
-    "property": "body-1",
-    "category": "fontWeight",
-    "component": "body",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-1-line-height",
-    "value": "24px",
-    "property": "body-1",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-1-font-size",
-    "value": "1rem",
-    "property": "body-1",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-1-letter-spacing",
-    "value": "0.005em",
-    "property": "body-1",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-1-paragraph-spacing",
-    "value": 0,
-    "property": "body-1",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-1-text-decoration",
-    "value": "none",
-    "property": "body-1",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-1-text-case",
-    "value": "none",
-    "property": "body-1",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-1-bold-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-body-1-bold-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "lineHeight": "24px",
+      "fontSize": "16px",
+      "letterSpacing": "0.5%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Body 1 Bold",
     "property": "body-1-bold",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-body-1-bold-font-weight",
-    "value": 700,
-    "property": "body-1-bold",
-    "category": "fontWeight",
-    "component": "body",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-1-bold-line-height",
-    "value": "24px",
-    "property": "body-1-bold",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-1-bold-font-size",
-    "value": "1rem",
-    "property": "body-1-bold",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-1-bold-letter-spacing",
-    "value": "0.005em",
-    "property": "body-1-bold",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-1-bold-paragraph-spacing",
-    "value": 0,
-    "property": "body-1-bold",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-1-bold-text-decoration",
-    "value": "none",
-    "property": "body-1-bold",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-1-bold-text-case",
-    "value": "none",
-    "property": "body-1-bold",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-2-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-body-2-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "lineHeight": "20px",
+      "fontSize": "14px",
+      "letterSpacing": "0.5%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Body 2",
     "property": "body-2",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-body-2-font-weight",
-    "value": 400,
-    "property": "body-2",
-    "category": "fontWeight",
-    "component": "body",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-2-line-height",
-    "value": "20px",
-    "property": "body-2",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-2-font-size",
-    "value": "0.875rem",
-    "property": "body-2",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-2-letter-spacing",
-    "value": "0.005em",
-    "property": "body-2",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-2-paragraph-spacing",
-    "value": 0,
-    "property": "body-2",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-2-text-decoration",
-    "value": "none",
-    "property": "body-2",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-2-text-case",
-    "value": "none",
-    "property": "body-2",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-2-bold-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-body-2-bold-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "lineHeight": "20px",
+      "fontSize": "14px",
+      "letterSpacing": "0.5%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Body 2 Bold",
     "property": "body-2-bold",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-body-2-bold-font-weight",
-    "value": 700,
-    "property": "body-2-bold",
-    "category": "fontWeight",
-    "component": "body",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-2-bold-line-height",
-    "value": "20px",
-    "property": "body-2-bold",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-2-bold-font-size",
-    "value": "0.875rem",
-    "property": "body-2-bold",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-2-bold-letter-spacing",
-    "value": "0.005em",
-    "property": "body-2-bold",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-2-bold-paragraph-spacing",
-    "value": 0,
-    "property": "body-2-bold",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-2-bold-text-decoration",
-    "value": "none",
-    "property": "body-2-bold",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-2-bold-text-case",
-    "value": "none",
-    "property": "body-2-bold",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-3-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-body-3-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "lineHeight": "16px",
+      "fontSize": "12px",
+      "letterSpacing": "0.5%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Body 3",
     "property": "body-3",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-body-3-font-weight",
-    "value": 400,
-    "property": "body-3",
-    "category": "fontWeight",
-    "component": "body",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-3-line-height",
-    "value": "16px",
-    "property": "body-3",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-3-font-size",
-    "value": "0.75rem",
-    "property": "body-3",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-3-letter-spacing",
-    "value": "0.005em",
-    "property": "body-3",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-3-paragraph-spacing",
-    "value": 0,
-    "property": "body-3",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-3-text-decoration",
-    "value": "none",
-    "property": "body-3",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-3-text-case",
-    "value": "none",
-    "property": "body-3",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-3-bold-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-body-3-bold-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "lineHeight": "16px",
+      "fontSize": "12px",
+      "letterSpacing": "0.5%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Body 3 Bold",
     "property": "body-3-bold",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-body-3-bold-font-weight",
-    "value": 700,
-    "property": "body-3-bold",
-    "category": "fontWeight",
-    "component": "body",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-3-bold-line-height",
-    "value": "16px",
-    "property": "body-3-bold",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-3-bold-font-size",
-    "value": "0.75rem",
-    "property": "body-3-bold",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-3-bold-letter-spacing",
-    "value": "0.005em",
-    "property": "body-3-bold",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-3-bold-paragraph-spacing",
-    "value": 0,
-    "property": "body-3-bold",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-3-bold-text-decoration",
-    "value": "none",
-    "property": "body-3-bold",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-body-3-bold-text-case",
-    "value": "none",
-    "property": "body-3-bold",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-control-body-1-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-control-body-1-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "lineHeight": "20px",
+      "fontSize": "16px",
+      "letterSpacing": "0.5%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Body 1",
     "property": "control-body-1",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "reference"
   },
   {
-    "name": "font-control-body-1-font-weight",
-    "value": 400,
-    "property": "control-body-1",
-    "category": "fontWeight",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-control-body-1-line-height",
-    "value": "20px",
-    "property": "control-body-1",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-control-body-1-font-size",
-    "value": "1rem",
-    "property": "control-body-1",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-control-body-1-letter-spacing",
-    "value": "0.005em",
-    "property": "control-body-1",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-control-body-1-paragraph-spacing",
-    "value": 0,
-    "property": "control-body-1",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-control-body-1-text-decoration",
-    "value": "none",
-    "property": "control-body-1",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-control-body-1-text-case",
-    "value": "none",
-    "property": "control-body-1",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-control-body-1-bold-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-control-body-1-bold-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "lineHeight": "20px",
+      "fontSize": "16px",
+      "letterSpacing": "0.5%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Body 1 Bold",
     "property": "control-body-1-bold",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "reference"
   },
   {
-    "name": "font-control-body-1-bold-font-weight",
-    "value": 700,
-    "property": "control-body-1-bold",
-    "category": "fontWeight",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-control-body-1-bold-line-height",
-    "value": "20px",
-    "property": "control-body-1-bold",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-control-body-1-bold-font-size",
-    "value": "1rem",
-    "property": "control-body-1-bold",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-control-body-1-bold-letter-spacing",
-    "value": "0.005em",
-    "property": "control-body-1-bold",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-control-body-1-bold-paragraph-spacing",
-    "value": 0,
-    "property": "control-body-1-bold",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-control-body-1-bold-text-decoration",
-    "value": "none",
-    "property": "control-body-1-bold",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-control-body-1-bold-text-case",
-    "value": "none",
-    "property": "control-body-1-bold",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-heading-1-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-heading-1-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "lineHeight": "40px",
+      "fontSize": "34px",
+      "letterSpacing": "0.25%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Heading 1",
     "property": "heading-1",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-heading-1-font-weight",
-    "value": 400,
-    "property": "heading-1",
-    "category": "fontWeight",
-    "component": "heading",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-1-line-height",
-    "value": "40px",
-    "property": "heading-1",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-1-font-size",
-    "value": "2.125rem",
-    "property": "heading-1",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-1-letter-spacing",
-    "value": "0.0025em",
-    "property": "heading-1",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-1-paragraph-spacing",
-    "value": 0,
-    "property": "heading-1",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-1-text-decoration",
-    "value": "none",
-    "property": "heading-1",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-1-text-case",
-    "value": "none",
-    "property": "heading-1",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-1-bold-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-heading-1-bold-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "lineHeight": "40px",
+      "fontSize": "34px",
+      "letterSpacing": "0.25%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Heading 1 Bold",
     "property": "heading-1-bold",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-heading-1-bold-font-weight",
-    "value": 700,
-    "property": "heading-1-bold",
-    "category": "fontWeight",
-    "component": "heading",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-1-bold-line-height",
-    "value": "40px",
-    "property": "heading-1-bold",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-1-bold-font-size",
-    "value": "2.125rem",
-    "property": "heading-1-bold",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-1-bold-letter-spacing",
-    "value": "0.0025em",
-    "property": "heading-1-bold",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-1-bold-paragraph-spacing",
-    "value": 0,
-    "property": "heading-1-bold",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-1-bold-text-decoration",
-    "value": "none",
-    "property": "heading-1-bold",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-1-bold-text-case",
-    "value": "none",
-    "property": "heading-1-bold",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-2-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-heading-2-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "lineHeight": "28px",
+      "fontSize": "24px",
+      "letterSpacing": "0%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Heading 2",
     "property": "heading-2",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-heading-2-font-weight",
-    "value": 400,
-    "property": "heading-2",
-    "category": "fontWeight",
-    "component": "heading",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-2-line-height",
-    "value": "28px",
-    "property": "heading-2",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-2-font-size",
-    "value": "1.5rem",
-    "property": "heading-2",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-2-letter-spacing",
-    "value": "0em",
-    "property": "heading-2",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-2-paragraph-spacing",
-    "value": 0,
-    "property": "heading-2",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-2-text-decoration",
-    "value": "none",
-    "property": "heading-2",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-2-text-case",
-    "value": "none",
-    "property": "heading-2",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-3-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-heading-3-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "lineHeight": "24px",
+      "fontSize": "20px",
+      "letterSpacing": "0.15%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Heading 3",
     "property": "heading-3",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-heading-3-font-weight",
-    "value": 500,
-    "property": "heading-3",
-    "category": "fontWeight",
-    "component": "heading",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-3-line-height",
-    "value": "24px",
-    "property": "heading-3",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-3-font-size",
-    "value": "1.25rem",
-    "property": "heading-3",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-3-letter-spacing",
-    "value": "0.0015em",
-    "property": "heading-3",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-3-paragraph-spacing",
-    "value": 0,
-    "property": "heading-3",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-3-text-decoration",
-    "value": "none",
-    "property": "heading-3",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-3-text-case",
-    "value": "none",
-    "property": "heading-3",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-4-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-heading-4-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Light",
+      "lineHeight": "24px",
+      "fontSize": "20px",
+      "letterSpacing": "0.15%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Heading 4",
     "property": "heading-4",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-heading-4-font-weight",
-    "value": 300,
-    "property": "heading-4",
-    "category": "fontWeight",
-    "component": "heading",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-4-line-height",
-    "value": "24px",
-    "property": "heading-4",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-4-font-size",
-    "value": "1.25rem",
-    "property": "heading-4",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-4-letter-spacing",
-    "value": "0.0015em",
-    "property": "heading-4",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-4-paragraph-spacing",
-    "value": 0,
-    "property": "heading-4",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-4-text-decoration",
-    "value": "none",
-    "property": "heading-4",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-4-text-case",
-    "value": "none",
-    "property": "heading-4",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-5-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-heading-5-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "lineHeight": "24px",
+      "fontSize": "18px",
+      "letterSpacing": "0%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Heading 5",
     "property": "heading-5",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-heading-5-font-weight",
-    "value": 400,
-    "property": "heading-5",
-    "category": "fontWeight",
-    "component": "heading",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-5-line-height",
-    "value": "24px",
-    "property": "heading-5",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-5-font-size",
-    "value": "1.125rem",
-    "property": "heading-5",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-5-letter-spacing",
-    "value": "0em",
-    "property": "heading-5",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-5-paragraph-spacing",
-    "value": 0,
-    "property": "heading-5",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-5-text-decoration",
-    "value": "none",
-    "property": "heading-5",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-5-text-case",
-    "value": "none",
-    "property": "heading-5",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-6-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-heading-6-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Light",
+      "lineHeight": "24px",
+      "fontSize": "18px",
+      "letterSpacing": "0%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Heading 6",
     "property": "heading-6",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-heading-6-font-weight",
-    "value": 300,
-    "property": "heading-6",
-    "category": "fontWeight",
-    "component": "heading",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-6-line-height",
-    "value": "24px",
-    "property": "heading-6",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-6-font-size",
-    "value": "1.125rem",
-    "property": "heading-6",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-6-letter-spacing",
-    "value": "0em",
-    "property": "heading-6",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-6-paragraph-spacing",
-    "value": 0,
-    "property": "heading-6",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-6-text-decoration",
-    "value": "none",
-    "property": "heading-6",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-heading-6-text-case",
-    "value": "none",
-    "property": "heading-6",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-display-1-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-display-1-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Light",
+      "lineHeight": "70px",
+      "fontSize": "60px",
+      "letterSpacing": "-0.5%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Display 1. Custom element. Used for Splash Screens.",
     "property": "display-1",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-display-1-font-weight",
-    "value": 300,
-    "property": "display-1",
-    "category": "fontWeight",
-    "component": "display",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-display-1-line-height",
-    "value": "70px",
-    "property": "display-1",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-display-1-font-size",
-    "value": "3.75rem",
-    "property": "display-1",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-display-1-letter-spacing",
-    "value": "-0.005em",
-    "property": "display-1",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-display-1-paragraph-spacing",
-    "value": 0,
-    "property": "display-1",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-display-1-text-decoration",
-    "value": "none",
-    "property": "display-1",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-display-1-text-case",
-    "value": "none",
-    "property": "display-1",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-display-2-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-display-2-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "lineHeight": "56px",
+      "fontSize": "48px",
+      "letterSpacing": "0%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Display 2. Custom element. Used for Splash Screens.",
     "property": "display-2",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
-    "name": "font-display-2-font-weight",
-    "value": 400,
-    "property": "display-2",
-    "category": "fontWeight",
-    "component": "display",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-display-2-line-height",
-    "value": "56px",
-    "property": "display-2",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-display-2-font-size",
-    "value": "3rem",
-    "property": "display-2",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-display-2-letter-spacing",
-    "value": "0em",
-    "property": "display-2",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-display-2-paragraph-spacing",
-    "value": 0,
-    "property": "display-2",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-display-2-text-decoration",
-    "value": "none",
-    "property": "display-2",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-display-2-text-case",
-    "value": "none",
-    "property": "display-2",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-monospace-1-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "name": "font-monospace-1-",
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "lineHeight": "32px",
+      "fontSize": "28px",
+      "letterSpacing": "0%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "description": "Monospace 1\nUsed for Global Status Bar clock.",
     "property": "monospace-1",
-    "category": "fontFamily",
+    "category": "typography",
     "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-monospace-1-font-weight",
-    "value": 500,
-    "property": "monospace-1",
-    "category": "fontWeight",
-    "component": "monospace",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-monospace-1-line-height",
-    "value": "32px",
-    "property": "monospace-1",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-monospace-1-font-size",
-    "value": "1.75rem",
-    "property": "monospace-1",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-monospace-1-letter-spacing",
-    "value": "0em",
-    "property": "monospace-1",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-monospace-1-paragraph-spacing",
-    "value": 0,
-    "property": "monospace-1",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-monospace-1-text-decoration",
-    "value": "none",
-    "property": "monospace-1",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "font-monospace-1-text-case",
-    "value": "none",
-    "property": "monospace-1",
-    "category": "textCase",
-    "component": null,
+    "referenceToken": "font-family-sans",
     "tokenLevel": "system"
   },
   {
