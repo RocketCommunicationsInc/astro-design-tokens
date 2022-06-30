@@ -260,6 +260,7 @@ StyleDictionary.registerFormat({
 StyleDictionary.registerTransformGroup({
   name: "custom/css",
   transforms: StyleDictionary.transformGroup["css"].concat([
+    "size/pxToUnitless",
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
@@ -272,6 +273,7 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/scss",
   transforms: StyleDictionary.transformGroup["less"].concat([
+    "size/pxToUnitless",
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
@@ -284,6 +286,7 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/json",
   transforms: StyleDictionary.transformGroup["web"].concat([
+    "size/pxToUnitless",
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
