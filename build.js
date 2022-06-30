@@ -302,7 +302,8 @@ fs.removeSync(iosPath);
 const styleDictionary = StyleDictionary.extend({
   // custom actions
   action: {
-    generateColorsets: require('./actions/ios/colorsets')
+    generateColorsets: require('./actions/ios/colorsets'),
+    generateFoundationColorsets: require('./actions/ios/foundationcolorsets.js'),
   },
   format: {
     swiftColor: require('./formats/swiftColor'),
@@ -324,13 +325,14 @@ styleDictionary.extend({
   source: [
     // this is saying find any files in the tokens folder
     // that does not have .dark or .light, but ends in .json5
-    `tokens/**/!(*.${modes.join(`|*.`)}).json`
+    `tokens/tokens.json`
   ],
 
   platforms: {
-    iosColors: Object.assign(iosColors, {
-      mode: `dark`
-    }),
+    // iosColors: Object.assign(iosColors, {
+    //   mode: `dark`,
+    //   library: 'core'
+    // }),
     scss: {
       transformGroup: "custom/scss",
       buildPath: "dist/scss/",
@@ -458,18 +460,18 @@ styleDictionary.extend({
 console.log(`☀️ Building light mode...`);
 styleDictionary.extend({
   include: [
-    // this is the same as the source in light/default above
-    `tokens/**/!(*.${modes.join(`|*.`)}).json`
+    'tokens/tokens.json'
   ],
   source: [
     // Kind of the opposite of above, this will find any files
     // that have the file extension .dark.json5
-    `tokens/**/*.light.json`
+    'tokens/tokens.light.json'
   ],
   platforms: {
-      iosColors: Object.assign(iosColors, {
-      mode: `light`
-    }),
+    //   iosColors: Object.assign(iosColors, {
+    //   mode: `light`,
+    //   library: 'core'
+    // }),
     scss: {
       transformGroup: "custom/scss",
       buildPath: "dist/scss/",
@@ -546,3 +548,59 @@ styleDictionary.extend({
   },
 })
   .buildAllPlatforms();
+
+
+  console.log(`☀️ Building ios light mode...`);
+  styleDictionary.extend({
+    source: [
+      // this is saying find any files in the tokens folder
+      // that does not have .dark or .light, but ends in .json5
+      `tokens/ios.json`
+    ],
+  
+    platforms: {
+      iosColors: Object.assign({}, {
+        ...iosColors,
+        mode: `dark`,
+        library: 'core'
+      }),
+      iosColorsFoundation: Object.assign({}, {
+        ...iosColors,
+        actions: ['generateFoundationColorsets'],
+        mode: `dark`,
+        library: 'foundation'
+      }),
+
+
+    }
+  }).buildAllPlatforms()
+  
+
+  console.log(`☀️ Building ios dark mode...`);
+  styleDictionary.extend({
+    include: [
+      // this is the same as the source in light/default above
+      `tokens/ios.json`
+    ],
+    source: [
+      // Kind of the opposite of above, this will find any files
+      // that have the file extension .dark.json5
+      'tokens/ios-light.json'
+    ],
+    platforms: {
+      iosColors: Object.assign({}, {
+        ...iosColors,
+        mode: `light`,
+        library: 'core'
+      }),
+      iosColorsFoundation: Object.assign({}, {
+        ...iosColors,
+        actions: ['generateFoundationColorsets'],
+        mode: `light`,
+        library: 'foundation'
+      }),
+
+    }
+  })
+    .buildAllPlatforms();
+  

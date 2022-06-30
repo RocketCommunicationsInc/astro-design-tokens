@@ -1,4 +1,5 @@
 const fs = require('fs-extra');
+const _ = require('lodash')
 const { contents, darkAppearance, idiom, hcAppearance } = require('./consts');
 
 
@@ -6,9 +7,9 @@ const { contents, darkAppearance, idiom, hcAppearance } = require('./consts');
  * Remove 'palette' and add space between
  */
 const formatName = (name) => {
-  let filteredName = name.replace('palette', '')
-  const parts = filteredName.split(/([0-9]+)/)
-  return `Astro UI ${parts[0]} ${parts[1]}`
+    let filteredName = name.replace('palette', '')
+    const parts = filteredName.split(/([0-9]+)/)
+    return `Astro UI ${parts[0]} ${parts[1]}`
 }
 /**
  * This action will iterate over all the colors in the Style Dictionary
@@ -25,7 +26,6 @@ module.exports = {
     dictionary.allProperties
       .filter(token => token.attributes.type === 'palette' && token.attributes.category === `color`)
       .forEach(token => {
-
         const formattedName = formatName(token.name)
         const colorsetPath = `${assetPath}/Astro Core Colors/${formattedName}.colorset`;
         fs.ensureDirSync(colorsetPath);
@@ -45,6 +45,10 @@ module.exports = {
           }
         };
         
+        if (platform.mode === `dark`) {
+          color.appearances = [darkAppearance];
+        }
+
         if (platform.mode === `dark`) {
           color.appearances = [darkAppearance];
         }
