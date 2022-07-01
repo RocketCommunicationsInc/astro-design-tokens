@@ -12,7 +12,7 @@ let getTokens = (/** @type {{ filePath: string }} */ token) => {
 		getTokens[pathToTokens] = require(pathToTokens)
 	}
 
-	return getTokens[filePath]
+	return getTokens[pathToTokens]
 }
 
 /** Returns the font size for a given token. */
