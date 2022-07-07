@@ -1,21 +1,15 @@
-const _ = require("lodash");
+/**
+ * Appends 'font-' prefix and removes duplicate category name 
+ * caused by how design wants their Typography styles to be named in Figma
+ * ie: heading-heading-1 -> font-heading-1
+ */
 module.exports = {
 	name: "typography/name",
 	type: "name",
 	matcher: (token) => {
-		// Hard coding the available categories because design doesnt want to change them.
-		const typographyCategories = [
-			'heading',
-			'body',
-			'monospace',
-			'display',
-			'control'
-		]
-		return typographyCategories.includes(token.attributes.category)
+		return token.type === 'typography'
 	},
 	transformer: (token) => {
-		return `font-${token.attributes.type}-${_.kebabCase(
-			token.attributes.item
-		)}`;
+		return `font-${token.attributes.type}`;
 	},
 }

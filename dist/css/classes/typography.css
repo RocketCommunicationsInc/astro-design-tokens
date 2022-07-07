@@ -1,0 +1,126 @@
+
+	.font-body-1 {
+		font: var(--font-body-1);
+		letter-spacing: 0.5%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-body-1-bold {
+		font: var(--font-body-1-bold);
+		letter-spacing: 0.5%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-body-2 {
+		font: var(--font-body-2);
+		letter-spacing: 0.5%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-body-2-bold {
+		font: var(--font-body-2-bold);
+		letter-spacing: 0.5%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-body-3 {
+		font: var(--font-body-3);
+		letter-spacing: 0.5%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-body-3-bold {
+		font: var(--font-body-3-bold);
+		letter-spacing: 0.5%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-control-body-1 {
+		font: var(--font-control-body-1);
+		letter-spacing: 0.5%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-control-body-1-bold {
+		font: var(--font-control-body-1-bold);
+		letter-spacing: 0.5%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-heading-1 {
+		font: var(--font-heading-1);
+		letter-spacing: 0.25%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-heading-1-bold {
+		font: var(--font-heading-1-bold);
+		letter-spacing: 0.25%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-heading-2 {
+		font: var(--font-heading-2);
+		letter-spacing: 0%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-heading-3 {
+		font: var(--font-heading-3);
+		letter-spacing: 0.15%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-heading-4 {
+		font: var(--font-heading-4);
+		letter-spacing: 0.15%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-heading-5 {
+		font: var(--font-heading-5);
+		letter-spacing: 0%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-heading-6 {
+		font: var(--font-heading-6);
+		letter-spacing: 0%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-display-1 {
+		font: var(--font-display-1);
+		letter-spacing: -0.5%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-display-2 {
+		font: var(--font-display-2);
+		letter-spacing: 0%;
+		text-transform: none;
+		text-decoration: none;
+	}
+
+	.font-monospace-1 {
+		font: var(--font-monospace-1);
+		letter-spacing: 0%;
+		text-transform: none;
+		text-decoration: none;
+	}
