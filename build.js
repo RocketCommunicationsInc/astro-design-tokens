@@ -26,6 +26,8 @@ StyleDictionary.registerFilter({
   },
 });
 
+StyleDictionary.registerFormat(require('./formats/typographyClasses'))
+
 StyleDictionary.registerFormat({
   name: `darkColorFormatterSass`,
   formatter: function (format) {
@@ -393,6 +395,11 @@ styleDictionary.extend({
       transformGroup: "custom/css",
       buildPath: "dist/css/",
       files: [
+        {
+          destination: `classes/typography.css`,
+          format: "css/typographyClasses",
+          filter: (token) => token.type === "typography",
+        },
         {
           destination: "_variables.css",
           format: "css/variables",
