@@ -117,11 +117,6 @@ StyleDictionary.registerFormat({
     const dictionary = Object.assign({}, format.dictionary);
     // Override each token's `value` with `darkValue`
     dictionary.allProperties = dictionary.allProperties.map((token) => {
-      const test = getTokenLevel(token)
-      if (!test) {
-        console.log(token);
-      }
-
       let category = token.type
       let type = token.attributes.type
       if (token.attributes.type === 'color') {
@@ -260,11 +255,12 @@ StyleDictionary.registerFormat({
 StyleDictionary.registerTransformGroup({
   name: "custom/css",
   transforms: StyleDictionary.transformGroup["css"].concat([
-    "size/pxToUnitless",
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
     "typography/name",
+    "typography/shorthand",
+    // "size/pxToUnitless",
     "fontWeight/css",
     "shadow/css"
   ]),
@@ -273,11 +269,12 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/scss",
   transforms: StyleDictionary.transformGroup["less"].concat([
-    "size/pxToUnitless",
+    // "size/pxToUnitless",
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
     "typography/name",
+    "typography/shorthand",
     "fontWeight/css",
     "shadow/css"
   ]),
@@ -286,11 +283,12 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/json",
   transforms: StyleDictionary.transformGroup["web"].concat([
-    "size/pxToUnitless",
+    // "size/pxToUnitless",
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
     "typography/name",
+    "typography/shorthand",
     "fontWeight/css",
     "shadow/css"
   ]),

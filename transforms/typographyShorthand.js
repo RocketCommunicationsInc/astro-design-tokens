@@ -4,7 +4,7 @@ module.exports = {
 	transitive: true,
 	matcher: token => token.type === 'typography',
 	transformer: (token) => {
-	  const {value} = token
-	  return `${value.fontWeight} ${value.fontSize}/${value.lineHeight} ${value.fontFamily}`
+		const {fontWeight, fontSize, lineHeight, fontFamily} = token.original.rawValue;
+		return `${fontWeight} ${fontSize}/${lineHeight} ${fontFamily}`;
 	}
   }
