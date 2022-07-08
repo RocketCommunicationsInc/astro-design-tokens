@@ -17,9 +17,9 @@
     "secondary": {
       "background": {
         "color": {
-          "value": "#f5f6f9",
+          "value": "#eaeef4",
           "type": "color",
-          "rawValue": "{color.palette.grey.100}"
+          "rawValue": "{color.palette.grey.200}"
         }
       },
       "grouped-background": {
@@ -33,9 +33,9 @@
     "tertiary": {
       "background": {
         "color": {
-          "value": "#ffffff",
+          "value": "#f5f6f9",
           "type": "color",
-          "rawValue": "{color.palette.neutral.000}"
+          "rawValue": "{color.palette.grey.100}"
         }
       },
       "grouped-background": {
@@ -48,9 +48,9 @@
     },
     "grouped-background": {
       "color": {
-        "value": "#f5f6f9",
+        "value": "#eaeef4",
         "type": "color",
-        "rawValue": "{color.palette.grey.100}"
+        "rawValue": "{color.palette.grey.200}"
       }
     },
     "status": {

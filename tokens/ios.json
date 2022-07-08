@@ -17,32 +17,32 @@
     "secondary": {
       "background": {
         "color": {
-          "value": "#142435",
+          "value": "#1b2d3e",
           "type": "color",
-          "rawValue": "{color.palette.brightblue.850}"
+          "rawValue": "{color.palette.darkblue.800}"
         }
       },
       "grouped-background": {
         "color": {
-          "value": "#101923",
+          "value": "#1b2d3e",
           "type": "color",
-          "rawValue": "{color.palette.brightblue.900}"
+          "rawValue": "{color.palette.darkblue.800}"
         }
       }
     },
     "tertiary": {
       "background": {
         "color": {
-          "value": "#1c3851",
+          "value": "#172635",
           "type": "color",
-          "rawValue": "{color.palette.brightblue.800}"
+          "rawValue": "{color.palette.darkblue.900}"
         }
       },
       "grouped-background": {
         "color": {
-          "value": "#1c3851",
+          "value": "#172635",
           "type": "color",
-          "rawValue": "{color.palette.brightblue.800}"
+          "rawValue": "{color.palette.darkblue.900}"
         }
       }
     },
