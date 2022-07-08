@@ -1335,7 +1335,7 @@
   },
   {
     "name": "font-body-1-line-height",
-    "value": "24px",
+    "value": "calc(24 / 16)",
     "property": "body-1",
     "category": "lineHeight",
     "component": null,
@@ -1399,7 +1399,7 @@
   },
   {
     "name": "font-body-1-bold-line-height",
-    "value": "24px",
+    "value": "calc(24 / 16)",
     "property": "body-1-bold",
     "category": "lineHeight",
     "component": null,
@@ -1463,7 +1463,7 @@
   },
   {
     "name": "font-body-2-line-height",
-    "value": "20px",
+    "value": "calc(20 / 14)",
     "property": "body-2",
     "category": "lineHeight",
     "component": null,
@@ -1527,7 +1527,7 @@
   },
   {
     "name": "font-body-2-bold-line-height",
-    "value": "20px",
+    "value": "calc(20 / 14)",
     "property": "body-2-bold",
     "category": "lineHeight",
     "component": null,
@@ -1591,7 +1591,7 @@
   },
   {
     "name": "font-body-3-line-height",
-    "value": "16px",
+    "value": "calc(16 / 12)",
     "property": "body-3",
     "category": "lineHeight",
     "component": null,
@@ -1655,7 +1655,7 @@
   },
   {
     "name": "font-body-3-bold-line-height",
-    "value": "16px",
+    "value": "calc(16 / 12)",
     "property": "body-3-bold",
     "category": "lineHeight",
     "component": null,
@@ -1719,7 +1719,7 @@
   },
   {
     "name": "font-control-body-1-line-height",
-    "value": "20px",
+    "value": "calc(20 / 16)",
     "property": "control-body-1",
     "category": "lineHeight",
     "component": null,
@@ -1783,7 +1783,7 @@
   },
   {
     "name": "font-control-body-1-bold-line-height",
-    "value": "20px",
+    "value": "calc(20 / 16)",
     "property": "control-body-1-bold",
     "category": "lineHeight",
     "component": null,
@@ -1847,7 +1847,7 @@
   },
   {
     "name": "font-heading-1-line-height",
-    "value": "40px",
+    "value": "calc(40 / 34)",
     "property": "heading-1",
     "category": "lineHeight",
     "component": null,
@@ -1911,7 +1911,7 @@
   },
   {
     "name": "font-heading-1-bold-line-height",
-    "value": "40px",
+    "value": "calc(40 / 34)",
     "property": "heading-1-bold",
     "category": "lineHeight",
     "component": null,
@@ -1975,7 +1975,7 @@
   },
   {
     "name": "font-heading-2-line-height",
-    "value": "28px",
+    "value": "calc(28 / 24)",
     "property": "heading-2",
     "category": "lineHeight",
     "component": null,
@@ -2039,7 +2039,7 @@
   },
   {
     "name": "font-heading-3-line-height",
-    "value": "24px",
+    "value": "calc(24 / 20)",
     "property": "heading-3",
     "category": "lineHeight",
     "component": null,
@@ -2103,7 +2103,7 @@
   },
   {
     "name": "font-heading-4-line-height",
-    "value": "24px",
+    "value": "calc(24 / 20)",
     "property": "heading-4",
     "category": "lineHeight",
     "component": null,
@@ -2167,7 +2167,7 @@
   },
   {
     "name": "font-heading-5-line-height",
-    "value": "24px",
+    "value": "calc(24 / 18)",
     "property": "heading-5",
     "category": "lineHeight",
     "component": null,
@@ -2231,7 +2231,7 @@
   },
   {
     "name": "font-heading-6-line-height",
-    "value": "24px",
+    "value": "calc(24 / 18)",
     "property": "heading-6",
     "category": "lineHeight",
     "component": null,
@@ -2295,7 +2295,7 @@
   },
   {
     "name": "font-display-1-line-height",
-    "value": "70px",
+    "value": "calc(70 / 60)",
     "property": "display-1",
     "category": "lineHeight",
     "component": null,
@@ -2359,7 +2359,7 @@
   },
   {
     "name": "font-display-2-line-height",
-    "value": "56px",
+    "value": "calc(56 / 48)",
     "property": "display-2",
     "category": "lineHeight",
     "component": null,
@@ -2423,7 +2423,7 @@
   },
   {
     "name": "font-monospace-1-line-height",
-    "value": "32px",
+    "value": "calc(32 / 28)",
     "property": "monospace-1",
     "category": "lineHeight",
     "component": null,
@@ -3273,6 +3273,14 @@
     "name": "spacing-12",
     "value": "3rem",
     "property": "12",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-14",
+    "value": "3.5rem",
+    "property": "14",
     "category": "spacing",
     "component": null,
     "tokenLevel": "reference"
