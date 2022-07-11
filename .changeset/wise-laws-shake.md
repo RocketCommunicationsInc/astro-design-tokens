@@ -2,4 +2,4 @@
 "@astrouxds/design-tokens": major
 ---
 
-Removes popup-menu.caret.color.fill token. Use color.fill.interactive.muted instead.
+Removes popup-menu.caret.color.fill token. Use color.background.interactive.muted instead.
