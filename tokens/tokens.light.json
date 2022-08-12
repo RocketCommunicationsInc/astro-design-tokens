@@ -122,7 +122,7 @@
       "error": {
         "value": "#ff3838",
         "type": "color",
-        "description": "The text color used for error messages.",
+        "description": "The text color used for form error messages.",
         "rawValue": "{color.palette.red.500}"
       }
     },
@@ -150,7 +150,7 @@
       "error": {
         "value": "#ff3838",
         "type": "color",
-        "description": "The border color used for error messages.",
+        "description": "The border color used for form error borders.",
         "rawValue": "{color.palette.red.500}"
       }
     },
@@ -705,13 +705,13 @@
       "critical": {
         "value": "#ff3838",
         "type": "color",
-        "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
+        "description": "The color used to indicate items with a Critical status. Critical, form error, alert, emergency, urgent.",
         "rawValue": "{color.palette.red.500}"
       },
       "serious": {
         "value": "#ffb302",
         "type": "color",
-        "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention.",
+        "description": "The color used to indicate items with a Serious status. Serious, warning, error, needs attention.",
         "rawValue": "{color.palette.orange.500}"
       },
       "caution": {
@@ -778,36 +778,6 @@
       }
     }
   },
-  "link": {
-    "color": {
-      "text": {
-        "default": {
-          "value": "#005a8f",
-          "type": "color",
-          "description": "The color used for links in default state.",
-          "rawValue": "{color.text.interactive.default}"
-        },
-        "hover": {
-          "value": "#005a8f",
-          "type": "color",
-          "description": "The color used for links in hover state. Links do not change color on hover.",
-          "rawValue": "{link.color.text.default}"
-        }
-      }
-    }
-  },
-  "popup-menu": {
-    "caret": {
-      "color": {
-        "fill": {
-          "value": "#b7dcff",
-          "type": "color",
-          "description": "The fill color of the Pop Up Menu's caret.",
-          "rawValue": "{color.palette.brightblue.300}"
-        }
-      }
-    }
-  },
   "scrollbar": {
     "shadow": {
       "inner": {
@@ -860,98 +830,30 @@
       "rawValue": "4px"
     }
   },
-  "tag": {
-    "shadow": {
-      "inner": {
-        "normal": {
-          "value": {
-            "x": 0,
-            "y": 0,
-            "blur": 5,
-            "spread": 0,
-            "color": "#56f000",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Inner shadow for normal status Tags",
-          "rawValue": {
-            "x": "0",
-            "y": "0",
-            "blur": "5",
-            "spread": "0",
-            "color": "{status-symbol.color.fill.normal.on-dark}",
-            "type": "innerShadow"
-          }
-        },
-        "critical": {
-          "value": {
-            "x": 0,
-            "y": 0,
-            "blur": 5,
-            "spread": 0,
-            "color": "#ff3838",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Inner shadow for critical status Tags",
-          "rawValue": {
-            "x": "0",
-            "y": "0",
-            "blur": "5",
-            "spread": "0",
-            "color": "{status-symbol.color.fill.critical.on-dark}",
-            "type": "innerShadow"
-          }
-        },
-        "off": {
-          "value": {
-            "x": 0,
-            "y": 0,
-            "blur": 5,
-            "spread": 0,
-            "color": "#a4abb6",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Inner shadow for off status Tags",
-          "rawValue": {
-            "x": "0",
-            "y": "0",
-            "blur": "5",
-            "spread": "0",
-            "color": "{status-symbol.color.fill.off.on-dark}",
-            "type": "innerShadow"
-          }
+  "shadow": {
+    "overlay": {
+      "value": [
+        {
+          "x": 0,
+          "y": 4,
+          "blur": 4,
+          "spread": 1,
+          "color": "#00000059",
+          "type": "dropShadow"
         }
-      }
-    }
-  },
-  "dialog": {
-    "shadow": {
-      "outer": {
-        "value": [
-          {
-            "x": 0,
-            "y": 4,
-            "blur": 4,
-            "spread": 1,
-            "color": "#00000059",
-            "type": "dropShadow"
-          }
-        ],
-        "type": "boxShadow",
-        "description": "Drop shadow for Dialogs",
-        "rawValue": [
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "4",
-            "spread": "1",
-            "color": "rgba({color.palette.neutral.1000}, {opacity.35})",
-            "type": "dropShadow"
-          }
-        ]
-      }
+      ],
+      "description": "Drop shadow for Dialogs",
+      "type": "boxShadow",
+      "rawValue": [
+        {
+          "x": "0",
+          "y": "4",
+          "blur": "4",
+          "spread": "1",
+          "color": "rgba({color.palette.neutral.1000}, {opacity.35})",
+          "type": "dropShadow"
+        }
+      ]
     }
   },
   "gsb": {
@@ -985,6 +887,24 @@
         "type": "color",
         "description": "The primary text color used within the Global Status Bar.",
         "rawValue": "{color.palette.neutral.000}"
+      }
+    }
+  },
+  "link": {
+    "color": {
+      "text": {
+        "default": {
+          "value": "#005a8f",
+          "type": "color",
+          "description": "The color used for links in default state.",
+          "rawValue": "{color.text.interactive.default}"
+        },
+        "hover": {
+          "value": "#005a8f",
+          "type": "color",
+          "description": "The color used for links in hover state. Links do not change color on hover.",
+          "rawValue": "{link.color.text.default}"
+        }
       }
     }
   },
@@ -2096,6 +2016,72 @@
         "type": "borderRadius",
         "description": "The outside border radius",
         "rawValue": "10px"
+      }
+    }
+  },
+  "tag": {
+    "shadow": {
+      "inner": {
+        "normal": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#56f000",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for normal status Tags",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{status-symbol.color.fill.normal.on-dark}",
+            "type": "innerShadow"
+          }
+        },
+        "critical": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#ff3838",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for critical status Tags",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{status-symbol.color.fill.critical.on-dark}",
+            "type": "innerShadow"
+          }
+        },
+        "off": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#a4abb6",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for off status Tags",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{status-symbol.color.fill.off.on-dark}",
+            "type": "innerShadow"
+          }
+        }
       }
     }
   },

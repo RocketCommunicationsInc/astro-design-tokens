@@ -997,7 +997,7 @@
   {
     "name": "color-text-error",
     "value": "#ff3838",
-    "description": "The text color used for error messages.",
+    "description": "The text color used for form error messages.",
     "property": "text",
     "category": "color",
     "component": null,
@@ -1037,7 +1037,7 @@
   {
     "name": "color-border-error",
     "value": "#ff3838",
-    "description": "The border color used for error messages.",
+    "description": "The border color used for form error borders.",
     "property": "border",
     "category": "color",
     "component": null,
@@ -1047,7 +1047,7 @@
   {
     "name": "color-status-critical",
     "value": "#ff3838",
-    "description": "The color used to indicate items with a Critical status. Critical, error, alert, emergency, urgent.",
+    "description": "The color used to indicate items with a Critical status. Critical, form error, alert, emergency, urgent.",
     "property": "status",
     "category": "color",
     "component": null,
@@ -1057,7 +1057,7 @@
   {
     "name": "color-status-serious",
     "value": "#ffb302",
-    "description": "The color used to indicate items with a Serious status. Serious, warning, needs attention.",
+    "description": "The color used to indicate items with a Serious status. Serious, warning, error, needs attention.",
     "property": "status",
     "category": "color",
     "component": null,
@@ -1182,16 +1182,6 @@
     "category": "color",
     "component": "link",
     "referenceToken": "link-color-text-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "popup-menu-caret-color-fill",
-    "value": "#b7dcff",
-    "description": "The fill color of the Pop Up Menu's caret.",
-    "property": "caret",
-    "category": "color",
-    "component": "popup-menu",
-    "referenceToken": "color-palette-brightblue-300",
     "tokenLevel": "component"
   },
   {
@@ -2754,12 +2744,11 @@
     "tokenLevel": "component"
   },
   {
-    "name": "dialog-shadow-outer",
+    "name": "shadow-overlay",
     "value": " 0px 4px 4px 1px rgba(0, 0, 0, 0.35)",
     "description": "Drop shadow for Dialogs",
-    "property": "outer",
     "category": "boxShadow",
-    "component": "dialog",
+    "component": "shadow",
     "tokenLevel": "component"
   },
   {

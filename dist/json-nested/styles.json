@@ -196,13 +196,6 @@
       }
     }
   },
-  "popup-menu": {
-    "caret": {
-      "color": {
-        "fill": "#b7dcff"
-      }
-    }
-  },
   "radius": {
     "base": "3px",
     "circle": "50%"
@@ -470,10 +463,8 @@
       }
     }
   },
-  "dialog": {
-    "shadow": {
-      "outer": " 0px 4px 4px 1px rgba(0, 0, 0, 0.35)"
-    }
+  "shadow": {
+    "overlay": " 0px 4px 4px 1px rgba(0, 0, 0, 0.35)"
   },
   "status-symbol": {
     "color": {
