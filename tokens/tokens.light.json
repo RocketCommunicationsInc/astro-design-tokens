@@ -995,6 +995,621 @@
       "rawValue": "70px"
     }
   },
+  "fontWeight": {
+    "light": {
+      "value": "Light",
+      "type": "fontWeight",
+      "rawValue": "Light"
+    },
+    "regular": {
+      "value": "Regular",
+      "type": "fontWeight",
+      "rawValue": "Regular"
+    },
+    "medium": {
+      "value": "Medium",
+      "type": "fontWeight",
+      "rawValue": "Medium"
+    },
+    "bold": {
+      "value": "Bold",
+      "type": "fontWeight",
+      "rawValue": "Bold"
+    }
+  },
+  "fontSize": {
+    "xs": {
+      "value": "12px",
+      "type": "fontSizes",
+      "rawValue": "12px"
+    },
+    "sm": {
+      "value": "14px",
+      "type": "fontSizes",
+      "rawValue": "14px"
+    },
+    "base": {
+      "value": "16px",
+      "type": "fontSizes",
+      "rawValue": "16px"
+    },
+    "lg": {
+      "value": "18px",
+      "type": "fontSizes",
+      "rawValue": "18px"
+    },
+    "xl": {
+      "value": "20px",
+      "type": "fontSizes",
+      "rawValue": "20px"
+    },
+    "2xl": {
+      "value": "24px",
+      "type": "fontSizes",
+      "rawValue": "24px"
+    },
+    "3xl": {
+      "value": "28px",
+      "type": "fontSizes",
+      "rawValue": "28px"
+    },
+    "4xl": {
+      "value": "34px",
+      "type": "fontSizes",
+      "rawValue": "34px"
+    },
+    "5xl": {
+      "value": "48px",
+      "type": "fontSizes",
+      "rawValue": "48px"
+    },
+    "6xl": {
+      "value": "60px",
+      "type": "fontSizes",
+      "rawValue": "60px"
+    }
+  },
+  "letterSpacing": {
+    "2xl": {
+      "value": "0.5%",
+      "type": "letterSpacing",
+      "rawValue": "0.5%"
+    },
+    "xl": {
+      "value": "0.25%",
+      "type": "letterSpacing",
+      "rawValue": "0.25%"
+    },
+    "base": {
+      "value": "0%",
+      "type": "letterSpacing",
+      "rawValue": "0%"
+    },
+    "lg": {
+      "value": "0.15%",
+      "type": "letterSpacing",
+      "rawValue": "0.15%"
+    },
+    "sm": {
+      "value": "-0.5%",
+      "type": "letterSpacing",
+      "rawValue": "-0.5%"
+    }
+  },
+  "paragraphSpacing": {
+    "0": {
+      "value": 0,
+      "type": "paragraphSpacing",
+      "rawValue": "0"
+    }
+  },
+  "opacity": {
+    "35": {
+      "value": "35%",
+      "description": "Used in drop shadow for dialogs in light theme",
+      "type": "opacity",
+      "rawValue": "35%"
+    },
+    "40": {
+      "value": "40%",
+      "type": "opacity",
+      "rawValue": "40%"
+    },
+    "45": {
+      "value": "45%",
+      "description": "Used in drop shadow for dialogs",
+      "type": "opacity",
+      "rawValue": "45%"
+    },
+    "50": {
+      "value": "50%",
+      "type": "opacity",
+      "rawValue": "50%"
+    },
+    "disabled": {
+      "value": "40%",
+      "type": "opacity",
+      "description": "Used to represent disabled state",
+      "rawValue": "{opacity.40}"
+    }
+  },
+  "card": {
+    "color": {
+      "border": {
+        "value": "#51555b",
+        "type": "color",
+        "description": "The border color used for the Card component.",
+        "rawValue": "{color.palette.grey.700}"
+      }
+    }
+  },
+  "container": {
+    "color": {
+      "border": {
+        "value": "#000000",
+        "type": "color",
+        "description": "The border color used for the Container component.",
+        "rawValue": "{color.palette.neutral.1000}"
+      }
+    }
+  },
+  "classification-banner": {
+    "color": {
+      "background": {
+        "topsecretsci": {
+          "value": "#fce83a",
+          "type": "color",
+          "description": "The background color of the Top Secret//SCI classification banner.",
+          "rawValue": "{color.classification.topsecretsci}"
+        },
+        "topsecret": {
+          "value": "#ff8c00",
+          "type": "color",
+          "description": "The background color of the Top Secret classification banner.",
+          "rawValue": "{color.classification.topsecret}"
+        },
+        "secret": {
+          "value": "#c8102e",
+          "type": "color",
+          "description": "The background color of the Secret classification banner.",
+          "rawValue": "{color.classification.secret}"
+        },
+        "confidential": {
+          "value": "#0033a0",
+          "type": "color",
+          "description": "The background color of the Confidential classification banner.",
+          "rawValue": "{color.classification.confidential}"
+        },
+        "cui": {
+          "value": "#502b85",
+          "type": "color",
+          "description": "The background color of the CUI classification banner.",
+          "rawValue": "{color.classification.cui}"
+        },
+        "unclassified": {
+          "value": "#007a33",
+          "type": "color",
+          "description": "The background color of the Unclassified classification banner.",
+          "rawValue": "{color.classification.unclassified}"
+        }
+      }
+    }
+  },
+  "status-symbol": {
+    "color": {
+      "fill": {
+        "critical": {
+          "on-dark": {
+            "value": "#ff3838",
+            "type": "color",
+            "description": "The fill color of the Critical status symbol on a dark background.",
+            "rawValue": "{color.palette.red.500}"
+          },
+          "on-light": {
+            "value": "#ff2a04",
+            "type": "color",
+            "description": "The fill color of the Critical status symbol on a light background.",
+            "rawValue": "{color.palette.red.600}"
+          }
+        },
+        "serious": {
+          "on-dark": {
+            "value": "#ffb302",
+            "type": "color",
+            "description": "The fill color of the Serious status symbol on a dark background.",
+            "rawValue": "{color.palette.orange.500}"
+          },
+          "on-light": {
+            "value": "#ffaf3d",
+            "type": "color",
+            "description": "The fill color of the Serious status symbol on a light background.",
+            "rawValue": "{color.palette.orange.600}"
+          }
+        },
+        "caution": {
+          "on-dark": {
+            "value": "#fce83a",
+            "type": "color",
+            "description": "The fill color of the Caution status symbol on a dark background.",
+            "rawValue": "{color.palette.yellow.500}"
+          },
+          "on-light": {
+            "value": "#fad800",
+            "type": "color",
+            "description": "The fill color of the Caution status symbol on a light background.",
+            "rawValue": "{color.palette.yellow.600}"
+          }
+        },
+        "normal": {
+          "on-dark": {
+            "value": "#56f000",
+            "type": "color",
+            "description": "The fill color of the Normal status symbol on a dark background.",
+            "rawValue": "{color.palette.green.500}"
+          },
+          "on-light": {
+            "value": "#00e200",
+            "type": "color",
+            "description": "The fill color of the Normal status symbol on a light background.",
+            "rawValue": "{color.palette.green.600}"
+          }
+        },
+        "standby": {
+          "on-dark": {
+            "value": "#2dccff",
+            "type": "color",
+            "description": "The fill color of the Standby status symbol on a dark background.",
+            "rawValue": "{color.palette.cyan.600}"
+          },
+          "on-light": {
+            "value": "#2dccff",
+            "type": "color",
+            "description": "The fill color of the Standby status symbol on a light background.",
+            "rawValue": "{color.palette.cyan.600}"
+          }
+        },
+        "off": {
+          "on-dark": {
+            "value": "#a4abb6",
+            "type": "color",
+            "description": "The fill color of the Off status symbol on a dark background.",
+            "rawValue": "{color.palette.grey.500}"
+          },
+          "on-light": {
+            "value": "#7b8089",
+            "type": "color",
+            "description": "The fill color of the Off status symbol on a light background.",
+            "rawValue": "{color.palette.grey.600}"
+          }
+        }
+      },
+      "border": {
+        "critical": {
+          "value": "#661102",
+          "type": "color",
+          "description": "The border color of the Critical status symbol on light backgrounds.",
+          "rawValue": "{color.palette.red.900}"
+        },
+        "serious": {
+          "value": "#664618",
+          "type": "color",
+          "description": "The border color of the Serious status symbol on light backgrounds.",
+          "rawValue": "{color.palette.orange.900}"
+        },
+        "caution": {
+          "value": "#645600",
+          "type": "color",
+          "description": "The border color of the Caution status symbol on light backgrounds.",
+          "rawValue": "{color.palette.yellow.900}"
+        },
+        "normal": {
+          "value": "#005a00",
+          "type": "color",
+          "description": "The border color of the Normal status symbol on light backgrounds.",
+          "rawValue": "{color.palette.green.900}"
+        },
+        "standby": {
+          "value": "#285766",
+          "type": "color",
+          "description": "The border color of the Standby status symbol on light backgrounds.",
+          "rawValue": "{color.palette.cyan.900}"
+        },
+        "off": {
+          "value": "#3c3e42",
+          "type": "color",
+          "description": "The border color of the Off status symbol on light backgrounds.",
+          "rawValue": "{color.palette.grey.800}"
+        }
+      }
+    },
+    "borderWidth": {
+      "on-dark": {
+        "value": 0,
+        "type": "borderWidth",
+        "description": "The border width for status symbols on a dark background",
+        "rawValue": "{borderWidth.none}"
+      },
+      "on-light": {
+        "value": "1px",
+        "type": "borderWidth",
+        "description": "The border width for status symbols on a light background",
+        "rawValue": "{borderWidth.xs}"
+      }
+    }
+  },
+  "slider": {
+    "radius": {
+      "background-track": {
+        "value": "1px",
+        "type": "borderRadius",
+        "description": "The background track border radius",
+        "rawValue": "1px"
+      }
+    }
+  },
+  "checkbox": {
+    "radius": {
+      "value": "2px",
+      "type": "borderRadius",
+      "description": "The checkbox border radius",
+      "rawValue": "2px"
+    }
+  },
+  "radio": {
+    "radius": {
+      "inner": {
+        "value": "4px",
+        "type": "borderRadius",
+        "description": "The inside radio border radius",
+        "rawValue": "4px"
+      },
+      "outer": {
+        "value": "9px",
+        "type": "borderRadius",
+        "description": "The outside radio border radius",
+        "rawValue": "9px"
+      }
+    }
+  },
+  "switch": {
+    "radius": {
+      "track": {
+        "value": "10px",
+        "type": "borderRadius",
+        "description": "The switch track's border radius",
+        "rawValue": "10px"
+      }
+    }
+  },
+  "progress": {
+    "radius": {
+      "inner": {
+        "value": "8px",
+        "type": "borderRadius",
+        "description": "The inside border radius",
+        "rawValue": "8px"
+      },
+      "outer": {
+        "value": "10px",
+        "type": "borderRadius",
+        "description": "The outside border radius",
+        "rawValue": "10px"
+      }
+    }
+  },
+  "tag": {
+    "shadow": {
+      "inner": {
+        "normal": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#56f000",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for normal status Tags",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{status-symbol.color.fill.normal.on-dark}",
+            "type": "innerShadow"
+          }
+        },
+        "critical": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#ff3838",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for critical status Tags",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{status-symbol.color.fill.critical.on-dark}",
+            "type": "innerShadow"
+          }
+        },
+        "off": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#a4abb6",
+            "type": "innerShadow"
+          },
+          "description": "Inner shadow for off status Tags",
+          "type": "boxShadow",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{status-symbol.color.fill.off.on-dark}",
+            "type": "innerShadow"
+          }
+        }
+      }
+    }
+  },
+  "indeterminate-progress": {
+    "radius": {
+      "inner": {
+        "value": "23px",
+        "type": "borderRadius",
+        "description": "The inside border radius",
+        "rawValue": "23px"
+      },
+      "outer": {
+        "value": "30px",
+        "type": "borderRadius",
+        "description": "The outside border radius",
+        "rawValue": "30px"
+      }
+    }
+  },
+  "borderWidth": {
+    "none": {
+      "value": 0,
+      "type": "borderWidth",
+      "description": "No border width",
+      "rawValue": "0"
+    },
+    "xs": {
+      "value": "1px",
+      "type": "borderWidth",
+      "description": "Extra small border width",
+      "rawValue": "1px"
+    },
+    "sm": {
+      "value": "2px",
+      "type": "borderWidth",
+      "description": "Small border width",
+      "rawValue": "2px"
+    },
+    "lg": {
+      "value": "4px",
+      "type": "borderWidth",
+      "description": "large border width",
+      "rawValue": "4px"
+    }
+  },
+  "notification-banner": {
+    "radius": {
+      "inner": {
+        "value": "2px",
+        "type": "borderRadius",
+        "description": "The inner radius of Notification Banner outlines.",
+        "rawValue": "2px"
+      },
+      "outer": {
+        "value": "3px",
+        "type": "borderRadius",
+        "description": "The outer radius of Notification Banner outlines.",
+        "rawValue": "{radius.base}"
+      }
+    }
+  },
+  "menu": {
+    "divider": {
+      "color": {
+        "fill": {
+          "value": "#51555b",
+          "type": "color",
+          "description": "The fill color for menu dividers",
+          "rawValue": "{color.palette.grey.700}"
+        }
+      }
+    }
+  },
+  "spacing": {
+    "0": {
+      "value": "0px",
+      "type": "spacing",
+      "rawValue": "0px"
+    },
+    "1": {
+      "value": "4px",
+      "type": "spacing",
+      "rawValue": "4px"
+    },
+    "2": {
+      "value": "8px",
+      "type": "spacing",
+      "rawValue": "8px"
+    },
+    "3": {
+      "value": "12px",
+      "type": "spacing",
+      "rawValue": "12px"
+    },
+    "4": {
+      "value": "16px",
+      "type": "spacing",
+      "rawValue": "16px"
+    },
+    "6": {
+      "value": "24px",
+      "type": "spacing",
+      "rawValue": "24px"
+    },
+    "8": {
+      "value": "32px",
+      "type": "spacing",
+      "rawValue": "32px"
+    },
+    "10": {
+      "value": "40px",
+      "type": "spacing",
+      "rawValue": "40px"
+    },
+    "12": {
+      "value": "48px",
+      "type": "spacing",
+      "rawValue": "48px"
+    },
+    "14": {
+      "value": "56px",
+      "type": "spacing",
+      "rawValue": "56px"
+    },
+    "16": {
+      "value": "64px",
+      "type": "spacing",
+      "rawValue": "64px"
+    },
+    "20": {
+      "value": "80px",
+      "type": "spacing",
+      "rawValue": "80px"
+    },
+    "24": {
+      "value": "96px",
+      "type": "spacing",
+      "rawValue": "96px"
+    },
+    "025": {
+      "value": "1px",
+      "type": "spacing",
+      "rawValue": "1px"
+    },
+    "050": {
+      "value": "2px",
+      "type": "spacing",
+      "rawValue": "2px"
+    }
+  },
   "body": {
     "body-1": {
       "fontFamily": {
@@ -1615,621 +2230,6 @@
         "value": "none",
         "type": "textCase"
       }
-    }
-  },
-  "fontWeight": {
-    "light": {
-      "value": "Light",
-      "type": "fontWeight",
-      "rawValue": "Light"
-    },
-    "regular": {
-      "value": "Regular",
-      "type": "fontWeight",
-      "rawValue": "Regular"
-    },
-    "medium": {
-      "value": "Medium",
-      "type": "fontWeight",
-      "rawValue": "Medium"
-    },
-    "bold": {
-      "value": "Bold",
-      "type": "fontWeight",
-      "rawValue": "Bold"
-    }
-  },
-  "fontSize": {
-    "xs": {
-      "value": "12px",
-      "type": "fontSizes",
-      "rawValue": "12px"
-    },
-    "sm": {
-      "value": "14px",
-      "type": "fontSizes",
-      "rawValue": "14px"
-    },
-    "base": {
-      "value": "16px",
-      "type": "fontSizes",
-      "rawValue": "16px"
-    },
-    "lg": {
-      "value": "18px",
-      "type": "fontSizes",
-      "rawValue": "18px"
-    },
-    "xl": {
-      "value": "20px",
-      "type": "fontSizes",
-      "rawValue": "20px"
-    },
-    "2xl": {
-      "value": "24px",
-      "type": "fontSizes",
-      "rawValue": "24px"
-    },
-    "3xl": {
-      "value": "28px",
-      "type": "fontSizes",
-      "rawValue": "28px"
-    },
-    "4xl": {
-      "value": "34px",
-      "type": "fontSizes",
-      "rawValue": "34px"
-    },
-    "5xl": {
-      "value": "48px",
-      "type": "fontSizes",
-      "rawValue": "48px"
-    },
-    "6xl": {
-      "value": "60px",
-      "type": "fontSizes",
-      "rawValue": "60px"
-    }
-  },
-  "letterSpacing": {
-    "2xl": {
-      "value": "0.5%",
-      "type": "letterSpacing",
-      "rawValue": "0.5%"
-    },
-    "xl": {
-      "value": "0.25%",
-      "type": "letterSpacing",
-      "rawValue": "0.25%"
-    },
-    "base": {
-      "value": "0%",
-      "type": "letterSpacing",
-      "rawValue": "0%"
-    },
-    "lg": {
-      "value": "0.15%",
-      "type": "letterSpacing",
-      "rawValue": "0.15%"
-    },
-    "sm": {
-      "value": "-0.5%",
-      "type": "letterSpacing",
-      "rawValue": "-0.5%"
-    }
-  },
-  "paragraphSpacing": {
-    "0": {
-      "value": 0,
-      "type": "paragraphSpacing",
-      "rawValue": "0"
-    }
-  },
-  "opacity": {
-    "35": {
-      "value": "35%",
-      "description": "Used in drop shadow for dialogs in light theme",
-      "type": "opacity",
-      "rawValue": "35%"
-    },
-    "40": {
-      "value": "40%",
-      "type": "opacity",
-      "rawValue": "40%"
-    },
-    "45": {
-      "value": "45%",
-      "description": "Used in drop shadow for dialogs",
-      "type": "opacity",
-      "rawValue": "45%"
-    },
-    "50": {
-      "value": "50%",
-      "type": "opacity",
-      "rawValue": "50%"
-    },
-    "disabled": {
-      "value": "40%",
-      "type": "opacity",
-      "description": "Used to represent disabled state",
-      "rawValue": "{opacity.40}"
-    }
-  },
-  "card": {
-    "color": {
-      "border": {
-        "value": "#51555b",
-        "type": "color",
-        "description": "The border color used for the Card component.",
-        "rawValue": "{color.palette.grey.700}"
-      }
-    }
-  },
-  "container": {
-    "color": {
-      "border": {
-        "value": "#000000",
-        "type": "color",
-        "description": "The border color used for the Container component.",
-        "rawValue": "{color.palette.neutral.1000}"
-      }
-    }
-  },
-  "classification-banner": {
-    "color": {
-      "background": {
-        "topsecretsci": {
-          "value": "#fce83a",
-          "type": "color",
-          "description": "The background color of the Top Secret//SCI classification banner.",
-          "rawValue": "{color.classification.topsecretsci}"
-        },
-        "topsecret": {
-          "value": "#ff8c00",
-          "type": "color",
-          "description": "The background color of the Top Secret classification banner.",
-          "rawValue": "{color.classification.topsecret}"
-        },
-        "secret": {
-          "value": "#c8102e",
-          "type": "color",
-          "description": "The background color of the Secret classification banner.",
-          "rawValue": "{color.classification.secret}"
-        },
-        "confidential": {
-          "value": "#0033a0",
-          "type": "color",
-          "description": "The background color of the Confidential classification banner.",
-          "rawValue": "{color.classification.confidential}"
-        },
-        "cui": {
-          "value": "#502b85",
-          "type": "color",
-          "description": "The background color of the CUI classification banner.",
-          "rawValue": "{color.classification.cui}"
-        },
-        "unclassified": {
-          "value": "#007a33",
-          "type": "color",
-          "description": "The background color of the Unclassified classification banner.",
-          "rawValue": "{color.classification.unclassified}"
-        }
-      }
-    }
-  },
-  "status-symbol": {
-    "color": {
-      "fill": {
-        "critical": {
-          "on-dark": {
-            "value": "#ff3838",
-            "type": "color",
-            "description": "The fill color of the Critical status symbol on a dark background.",
-            "rawValue": "{color.palette.red.500}"
-          },
-          "on-light": {
-            "value": "#ff2a04",
-            "type": "color",
-            "description": "The fill color of the Critical status symbol on a light background.",
-            "rawValue": "{color.palette.red.600}"
-          }
-        },
-        "serious": {
-          "on-dark": {
-            "value": "#ffb302",
-            "type": "color",
-            "description": "The fill color of the Serious status symbol on a dark background.",
-            "rawValue": "{color.palette.orange.500}"
-          },
-          "on-light": {
-            "value": "#ffaf3d",
-            "type": "color",
-            "description": "The fill color of the Serious status symbol on a light background.",
-            "rawValue": "{color.palette.orange.600}"
-          }
-        },
-        "caution": {
-          "on-dark": {
-            "value": "#fce83a",
-            "type": "color",
-            "description": "The fill color of the Caution status symbol on a dark background.",
-            "rawValue": "{color.palette.yellow.500}"
-          },
-          "on-light": {
-            "value": "#fad800",
-            "type": "color",
-            "description": "The fill color of the Caution status symbol on a light background.",
-            "rawValue": "{color.palette.yellow.600}"
-          }
-        },
-        "normal": {
-          "on-dark": {
-            "value": "#56f000",
-            "type": "color",
-            "description": "The fill color of the Normal status symbol on a dark background.",
-            "rawValue": "{color.palette.green.500}"
-          },
-          "on-light": {
-            "value": "#00e200",
-            "type": "color",
-            "description": "The fill color of the Normal status symbol on a light background.",
-            "rawValue": "{color.palette.green.600}"
-          }
-        },
-        "standby": {
-          "on-dark": {
-            "value": "#2dccff",
-            "type": "color",
-            "description": "The fill color of the Standby status symbol on a dark background.",
-            "rawValue": "{color.palette.cyan.600}"
-          },
-          "on-light": {
-            "value": "#2dccff",
-            "type": "color",
-            "description": "The fill color of the Standby status symbol on a light background.",
-            "rawValue": "{color.palette.cyan.600}"
-          }
-        },
-        "off": {
-          "on-dark": {
-            "value": "#a4abb6",
-            "type": "color",
-            "description": "The fill color of the Off status symbol on a dark background.",
-            "rawValue": "{color.palette.grey.500}"
-          },
-          "on-light": {
-            "value": "#7b8089",
-            "type": "color",
-            "description": "The fill color of the Off status symbol on a light background.",
-            "rawValue": "{color.palette.grey.600}"
-          }
-        }
-      },
-      "border": {
-        "critical": {
-          "value": "#661102",
-          "type": "color",
-          "description": "The border color of the Critical status symbol on light backgrounds.",
-          "rawValue": "{color.palette.red.900}"
-        },
-        "serious": {
-          "value": "#664618",
-          "type": "color",
-          "description": "The border color of the Serious status symbol on light backgrounds.",
-          "rawValue": "{color.palette.orange.900}"
-        },
-        "caution": {
-          "value": "#645600",
-          "type": "color",
-          "description": "The border color of the Caution status symbol on light backgrounds.",
-          "rawValue": "{color.palette.yellow.900}"
-        },
-        "normal": {
-          "value": "#005a00",
-          "type": "color",
-          "description": "The border color of the Normal status symbol on light backgrounds.",
-          "rawValue": "{color.palette.green.900}"
-        },
-        "standby": {
-          "value": "#285766",
-          "type": "color",
-          "description": "The border color of the Standby status symbol on light backgrounds.",
-          "rawValue": "{color.palette.cyan.900}"
-        },
-        "off": {
-          "value": "#3c3e42",
-          "type": "color",
-          "description": "The border color of the Off status symbol on light backgrounds.",
-          "rawValue": "{color.palette.grey.800}"
-        }
-      }
-    },
-    "borderWidth": {
-      "on-dark": {
-        "value": 0,
-        "type": "borderWidth",
-        "description": "The border width for status symbols on a dark background",
-        "rawValue": "{borderWidth.none}"
-      },
-      "on-light": {
-        "value": "1px",
-        "type": "borderWidth",
-        "description": "The border width for status symbols on a light background",
-        "rawValue": "{borderWidth.xs}"
-      }
-    }
-  },
-  "slider": {
-    "radius": {
-      "background-track": {
-        "value": "1px",
-        "type": "borderRadius",
-        "description": "The background track border radius",
-        "rawValue": "1px"
-      }
-    }
-  },
-  "checkbox": {
-    "radius": {
-      "value": "2px",
-      "type": "borderRadius",
-      "description": "The checkbox border radius",
-      "rawValue": "2px"
-    }
-  },
-  "radio": {
-    "radius": {
-      "inner": {
-        "value": "4px",
-        "type": "borderRadius",
-        "description": "The inside radio border radius",
-        "rawValue": "4px"
-      },
-      "outer": {
-        "value": "9px",
-        "type": "borderRadius",
-        "description": "The outside radio border radius",
-        "rawValue": "9px"
-      }
-    }
-  },
-  "switch": {
-    "radius": {
-      "track": {
-        "value": "10px",
-        "type": "borderRadius",
-        "description": "The switch track's border radius",
-        "rawValue": "10px"
-      }
-    }
-  },
-  "progress": {
-    "radius": {
-      "inner": {
-        "value": "8px",
-        "type": "borderRadius",
-        "description": "The inside border radius",
-        "rawValue": "8px"
-      },
-      "outer": {
-        "value": "10px",
-        "type": "borderRadius",
-        "description": "The outside border radius",
-        "rawValue": "10px"
-      }
-    }
-  },
-  "tag": {
-    "shadow": {
-      "inner": {
-        "normal": {
-          "value": {
-            "x": 0,
-            "y": 0,
-            "blur": 5,
-            "spread": 0,
-            "color": "#56f000",
-            "type": "innerShadow"
-          },
-          "description": "Inner shadow for normal status Tags",
-          "type": "boxShadow",
-          "rawValue": {
-            "x": "0",
-            "y": "0",
-            "blur": "5",
-            "spread": "0",
-            "color": "{status-symbol.color.fill.normal.on-dark}",
-            "type": "innerShadow"
-          }
-        },
-        "critical": {
-          "value": {
-            "x": 0,
-            "y": 0,
-            "blur": 5,
-            "spread": 0,
-            "color": "#ff3838",
-            "type": "innerShadow"
-          },
-          "description": "Inner shadow for critical status Tags",
-          "type": "boxShadow",
-          "rawValue": {
-            "x": "0",
-            "y": "0",
-            "blur": "5",
-            "spread": "0",
-            "color": "{status-symbol.color.fill.critical.on-dark}",
-            "type": "innerShadow"
-          }
-        },
-        "off": {
-          "value": {
-            "x": 0,
-            "y": 0,
-            "blur": 5,
-            "spread": 0,
-            "color": "#a4abb6",
-            "type": "innerShadow"
-          },
-          "description": "Inner shadow for off status Tags",
-          "type": "boxShadow",
-          "rawValue": {
-            "x": "0",
-            "y": "0",
-            "blur": "5",
-            "spread": "0",
-            "color": "{status-symbol.color.fill.off.on-dark}",
-            "type": "innerShadow"
-          }
-        }
-      }
-    }
-  },
-  "indeterminate-progress": {
-    "radius": {
-      "inner": {
-        "value": "23px",
-        "type": "borderRadius",
-        "description": "The inside border radius",
-        "rawValue": "23px"
-      },
-      "outer": {
-        "value": "30px",
-        "type": "borderRadius",
-        "description": "The outside border radius",
-        "rawValue": "30px"
-      }
-    }
-  },
-  "borderWidth": {
-    "none": {
-      "value": 0,
-      "type": "borderWidth",
-      "description": "No border width",
-      "rawValue": "0"
-    },
-    "xs": {
-      "value": "1px",
-      "type": "borderWidth",
-      "description": "Extra small border width",
-      "rawValue": "1px"
-    },
-    "sm": {
-      "value": "2px",
-      "type": "borderWidth",
-      "description": "Small border width",
-      "rawValue": "2px"
-    },
-    "lg": {
-      "value": "4px",
-      "type": "borderWidth",
-      "description": "large border width",
-      "rawValue": "4px"
-    }
-  },
-  "notification-banner": {
-    "radius": {
-      "inner": {
-        "value": "2px",
-        "type": "borderRadius",
-        "description": "The inner radius of Notification Banner outlines.",
-        "rawValue": "2px"
-      },
-      "outer": {
-        "value": "3px",
-        "type": "borderRadius",
-        "description": "The outer radius of Notification Banner outlines.",
-        "rawValue": "{radius.base}"
-      }
-    }
-  },
-  "menu": {
-    "divider": {
-      "color": {
-        "fill": {
-          "value": "#51555b",
-          "type": "color",
-          "description": "The fill color for menu dividers",
-          "rawValue": "{color.palette.grey.700}"
-        }
-      }
-    }
-  },
-  "spacing": {
-    "0": {
-      "value": "0px",
-      "type": "spacing",
-      "rawValue": "0px"
-    },
-    "1": {
-      "value": "4px",
-      "type": "spacing",
-      "rawValue": "4px"
-    },
-    "2": {
-      "value": "8px",
-      "type": "spacing",
-      "rawValue": "8px"
-    },
-    "3": {
-      "value": "12px",
-      "type": "spacing",
-      "rawValue": "12px"
-    },
-    "4": {
-      "value": "16px",
-      "type": "spacing",
-      "rawValue": "16px"
-    },
-    "6": {
-      "value": "24px",
-      "type": "spacing",
-      "rawValue": "24px"
-    },
-    "8": {
-      "value": "32px",
-      "type": "spacing",
-      "rawValue": "32px"
-    },
-    "10": {
-      "value": "40px",
-      "type": "spacing",
-      "rawValue": "40px"
-    },
-    "12": {
-      "value": "48px",
-      "type": "spacing",
-      "rawValue": "48px"
-    },
-    "14": {
-      "value": "56px",
-      "type": "spacing",
-      "rawValue": "56px"
-    },
-    "16": {
-      "value": "64px",
-      "type": "spacing",
-      "rawValue": "64px"
-    },
-    "20": {
-      "value": "80px",
-      "type": "spacing",
-      "rawValue": "80px"
-    },
-    "24": {
-      "value": "96px",
-      "type": "spacing",
-      "rawValue": "96px"
-    },
-    "025": {
-      "value": "1px",
-      "type": "spacing",
-      "rawValue": "1px"
-    },
-    "050": {
-      "value": "2px",
-      "type": "spacing",
-      "rawValue": "2px"
     }
   }
 }
