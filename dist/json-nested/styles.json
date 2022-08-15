@@ -1,5 +1,60 @@
 {
   "color": {
+    "background": {
+      "base": {
+        "default": "#eaeef4",
+        "header": "#f5f6f9",
+        "hover": "#98bdd3",
+        "selected": "#cee9fc"
+      },
+      "surface": {
+        "default": "#ffffff",
+        "header": "#f5f6f9",
+        "hover": "#daeeff",
+        "selected": "#cee9fc"
+      },
+      "interactive": {
+        "default": "#005a8f",
+        "hover": "#004872"
+      }
+    },
+    "text": {
+      "primary": "#292a2d",
+      "secondary": "#51555b",
+      "placeholder": "#7b8089",
+      "inverse": "#ffffff",
+      "interactive": {
+        "default": "#005a8f",
+        "hover": "#004872"
+      },
+      "white": "#ffffff",
+      "black": "#000000",
+      "error": "#ff3838"
+    },
+    "border": {
+      "interactive": {
+        "default": "#005a8f",
+        "hover": "#004872",
+        "muted": "#649cbd"
+      },
+      "error": "#ff3838"
+    },
+    "status": {
+      "critical": "#ff3838",
+      "serious": "#ffb302",
+      "caution": "#fce83a",
+      "normal": "#56f000",
+      "standby": "#64d9ff",
+      "off": "#a4abb6"
+    },
+    "classification": {
+      "topsecretsci": "#fce83a",
+      "topsecret": "#ff8c00",
+      "secret": "#c8102e",
+      "confidential": "#0033a0",
+      "cui": "#502b85",
+      "unclassified": "#007a33"
+    },
     "palette": {
       "neutral": {
         "1000": "#000000",
@@ -131,118 +186,15 @@
         "800": "#572108",
         "900": "#2b1105"
       }
-    },
-    "background": {
-      "base": {
-        "default": "#eaeef4",
-        "header": "#f5f6f9",
-        "hover": "#98bdd3",
-        "selected": "#cee9fc"
-      },
-      "surface": {
-        "default": "#ffffff",
-        "header": "#f5f6f9",
-        "hover": "#daeeff",
-        "selected": "#cee9fc"
-      },
-      "interactive": {
-        "default": "#005a8f",
-        "hover": "#004872"
-      }
-    },
-    "text": {
-      "primary": "#292a2d",
-      "secondary": "#51555b",
-      "placeholder": "#7b8089",
-      "inverse": "#ffffff",
-      "interactive": {
-        "default": "#005a8f",
-        "hover": "#004872"
-      },
-      "white": "#ffffff",
-      "black": "#000000",
-      "error": "#ff3838"
-    },
-    "border": {
-      "interactive": {
-        "default": "#005a8f",
-        "hover": "#004872",
-        "muted": "#649cbd"
-      },
-      "error": "#ff3838"
-    },
-    "status": {
-      "critical": "#ff3838",
-      "serious": "#ffb302",
-      "caution": "#fce83a",
-      "normal": "#56f000",
-      "standby": "#64d9ff",
-      "off": "#a4abb6"
-    },
-    "classification": {
-      "topsecretsci": "#fce83a",
-      "topsecret": "#ff8c00",
-      "secret": "#c8102e",
-      "confidential": "#0033a0",
-      "cui": "#502b85",
-      "unclassified": "#007a33"
     }
   },
   "link": {
     "color": {
       "text": {
-        "default": "#005a8f",
-        "hover": "#005a8f"
+        "default": "#4dacff",
+        "hover": "#4dacff"
       }
     }
-  },
-  "radius": {
-    "base": "3px",
-    "circle": "50%"
-  },
-  "fontFamily": {
-    "sans": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-    "mono": "'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;"
-  },
-  "lineHeight": {
-    "0": "AUTO",
-    "2xs": "14px",
-    "xs": "16px",
-    "sm": "20px",
-    "base": "24px",
-    "lg": "28px",
-    "xl": "32px",
-    "2xl": "40px",
-    "3xl": "56px",
-    "4xl": "70px"
-  },
-  "fontWeight": {
-    "light": 300,
-    "regular": 400,
-    "medium": 500,
-    "bold": 700
-  },
-  "fontSize": {
-    "xs": "0.75rem",
-    "sm": "0.875rem",
-    "base": "1rem",
-    "lg": "1.125rem",
-    "xl": "1.25rem",
-    "2xl": "1.5rem",
-    "3xl": "1.75rem",
-    "4xl": "2.125rem",
-    "5xl": "3rem",
-    "6xl": "3.75rem"
-  },
-  "letterSpacing": {
-    "2xl": "0.005em",
-    "xl": "0.0025em",
-    "base": "0em",
-    "lg": "0.0015em",
-    "sm": "-0.005em"
-  },
-  "paragraphSpacing": {
-    "0": 0
   },
   "opacity": {
     "35": "35%",
@@ -416,6 +368,54 @@
     "24": "6rem",
     "025": "0.0625rem",
     "050": "0.125rem"
+  },
+  "radius": {
+    "base": "3px",
+    "circle": "50%"
+  },
+  "fontFamily": {
+    "sans": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "mono": "'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;"
+  },
+  "lineHeight": {
+    "0": "AUTO",
+    "2xs": "14px",
+    "xs": "16px",
+    "sm": "20px",
+    "base": "24px",
+    "lg": "28px",
+    "xl": "32px",
+    "2xl": "40px",
+    "3xl": "56px",
+    "4xl": "70px"
+  },
+  "fontWeight": {
+    "light": 300,
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
+  },
+  "fontSize": {
+    "xs": "0.75rem",
+    "sm": "0.875rem",
+    "base": "1rem",
+    "lg": "1.125rem",
+    "xl": "1.25rem",
+    "2xl": "1.5rem",
+    "3xl": "1.75rem",
+    "4xl": "2.125rem",
+    "5xl": "3rem",
+    "6xl": "3.75rem"
+  },
+  "letterSpacing": {
+    "2xl": "0.005em",
+    "xl": "0.0025em",
+    "base": "0em",
+    "lg": "0.0015em",
+    "sm": "-0.005em"
+  },
+  "paragraphSpacing": {
+    "0": 0
   },
   "body": {
     "body-1": {

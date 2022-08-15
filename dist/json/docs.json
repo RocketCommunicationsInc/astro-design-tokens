@@ -1,5 +1,355 @@
 [
   {
+    "name": "color-background-base-default",
+    "value": "#101923",
+    "description": "The background color of base elements, like the app or popup menus.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-900",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-base-header",
+    "value": "#172635",
+    "description": "The background color for the header of base elements.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-darkblue-900",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-base-hover",
+    "value": "#142435",
+    "description": "The background color of base elements, like popup menus, when they are hovered over.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-850",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-base-selected",
+    "value": "#1c3f5e",
+    "description": "The background color of base elements, like popup menus, when they are selected.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-darkblue-700",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-surface-default",
+    "value": "#1b2d3e",
+    "description": "The background color of surface elements, like panels or dialogs.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-darkblue-800",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-surface-header",
+    "value": "#172635",
+    "description": "The background color for the header of surface elements, including dialogs and table headers.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-darkblue-900",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-surface-hover",
+    "value": "#1c3851",
+    "description": "The background color of surface elements, like cards or table rows, when they are hovered over.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-800",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-surface-selected",
+    "value": "#1c3f5e",
+    "description": "The background color of surface elements, like cards or table rows, when they are selected.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-darkblue-700",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-interactive-default",
+    "value": "#4dacff",
+    "description": "The primary color used for the backgrounds of interactive elements.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-interactive-hover",
+    "value": "#92cbff",
+    "description": "The hover color used for the backgrounds of interactive elements.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-400",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-primary",
+    "value": "#ffffff",
+    "description": "The primary color used for text within the application.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-neutral-000",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-secondary",
+    "value": "#d4d8dd",
+    "description": "The color used for text when less emphasis is needed.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-grey-300",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-placeholder",
+    "value": "#a4abb6",
+    "description": "The text color used for placeholder text in input and form fields.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-grey-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-inverse",
+    "value": "#080c11",
+    "description": "The color used for text on reversed backgrounds.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-darkblue-950",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-interactive-default",
+    "value": "#4dacff",
+    "description": "The primary color used for interactive text elements.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-interactive-hover",
+    "value": "#92cbff",
+    "description": "The hover color used for interactive text elements. ",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-400",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-white",
+    "value": "#ffffff",
+    "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-neutral-000",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-black",
+    "value": "#000000",
+    "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-neutral-1000",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-error",
+    "value": "#ff3838",
+    "description": "The text color used for form error messages.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-red-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-border-interactive-default",
+    "value": "#4dacff",
+    "description": "The primary color used for the border of interactive elements.",
+    "property": "border",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-border-interactive-hover",
+    "value": "#92cbff",
+    "description": "The hover color used for the border of interactive elements.",
+    "property": "border",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-400",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-border-interactive-muted",
+    "value": "#2b659b",
+    "description": "A muted version of the primary color used for the border of interactive elements that don't need to be as strong as the primary color.",
+    "property": "border",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-700",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-border-error",
+    "value": "#ff3838",
+    "description": "The border color used for form error borders.",
+    "property": "border",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-red-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-status-critical",
+    "value": "#ff3838",
+    "description": "The color used to indicate items with a Critical status. Critical, form error, alert, emergency, urgent.",
+    "property": "status",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-red-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-status-serious",
+    "value": "#ffb302",
+    "description": "The color used to indicate items with a Serious status. Serious, warning, error, needs attention.",
+    "property": "status",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-orange-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-status-caution",
+    "value": "#fce83a",
+    "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
+    "property": "status",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-yellow-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-status-normal",
+    "value": "#56f000",
+    "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
+    "property": "status",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-green-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-status-standby",
+    "value": "#64d9ff",
+    "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
+    "property": "status",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-cyan-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-status-off",
+    "value": "#a4abb6",
+    "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
+    "property": "status",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-grey-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-classification-topsecretsci",
+    "value": "#fce83a",
+    "description": "The color used to indicate the Top Secret//SCI classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-yellow-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-classification-topsecret",
+    "value": "#ff8c00",
+    "description": "The color used to indicate the Top Secret classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-orange-700",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-classification-secret",
+    "value": "#c8102e",
+    "description": "The color used to indicate the Secret classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-red-700",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-classification-confidential",
+    "value": "#0033a0",
+    "description": "The color used to indicate the Confidential classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-blue-800",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-classification-cui",
+    "value": "#502b85",
+    "description": "The color used to indicate the CUI classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-violet-800",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-classification-unclassified",
+    "value": "#007a33",
+    "description": "The color used to indicate the Unclassified classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-green-800",
+    "tokenLevel": "system"
+  },
+  {
     "name": "color-palette-neutral-1000",
     "value": "#000000",
     "property": "palette",
@@ -815,356 +1165,6 @@
     "tokenLevel": "reference"
   },
   {
-    "name": "color-background-base-default",
-    "value": "#101923",
-    "description": "The background color of base elements, like the app or popup menus.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-900",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-background-base-header",
-    "value": "#172635",
-    "description": "The background color for the header of base elements.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-darkblue-900",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-background-base-hover",
-    "value": "#142435",
-    "description": "The background color of base elements, like popup menus, when they are hovered over.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-850",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-background-base-selected",
-    "value": "#1c3f5e",
-    "description": "The background color of base elements, like popup menus, when they are selected.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-darkblue-700",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-background-surface-default",
-    "value": "#1b2d3e",
-    "description": "The background color of surface elements, like panels or dialogs.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-darkblue-800",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-background-surface-header",
-    "value": "#172635",
-    "description": "The background color for the header of surface elements, including dialogs and table headers.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-darkblue-900",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-background-surface-hover",
-    "value": "#1c3851",
-    "description": "The background color of surface elements, like cards or table rows, when they are hovered over.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-800",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-background-surface-selected",
-    "value": "#1c3f5e",
-    "description": "The background color of surface elements, like cards or table rows, when they are selected.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-darkblue-700",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-background-interactive-default",
-    "value": "#4dacff",
-    "description": "The primary color used for the backgrounds of interactive elements.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-background-interactive-hover",
-    "value": "#92cbff",
-    "description": "The hover color used for the backgrounds of interactive elements.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-400",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-primary",
-    "value": "#ffffff",
-    "description": "The primary color used for text within the application.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-neutral-000",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-secondary",
-    "value": "#d4d8dd",
-    "description": "The color used for text when less emphasis is needed.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-grey-300",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-placeholder",
-    "value": "#a4abb6",
-    "description": "The text color used for placeholder text in input and form fields.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-grey-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-inverse",
-    "value": "#080c11",
-    "description": "The color used for text on reversed backgrounds.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-darkblue-950",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-interactive-default",
-    "value": "#4dacff",
-    "description": "The primary color used for interactive text elements.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-interactive-hover",
-    "value": "#92cbff",
-    "description": "The hover color used for interactive text elements. ",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-400",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-white",
-    "value": "#ffffff",
-    "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-neutral-000",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-black",
-    "value": "#000000",
-    "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-neutral-1000",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-error",
-    "value": "#ff3838",
-    "description": "The text color used for form error messages.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-red-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-border-interactive-default",
-    "value": "#4dacff",
-    "description": "The primary color used for the border of interactive elements.",
-    "property": "border",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-border-interactive-hover",
-    "value": "#92cbff",
-    "description": "The hover color used for the border of interactive elements.",
-    "property": "border",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-400",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-border-interactive-muted",
-    "value": "#2b659b",
-    "description": "A muted version of the primary color used for the border of interactive elements that don't need to be as strong as the primary color.",
-    "property": "border",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-700",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-border-error",
-    "value": "#ff3838",
-    "description": "The border color used for form error borders.",
-    "property": "border",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-red-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-status-critical",
-    "value": "#ff3838",
-    "description": "The color used to indicate items with a Critical status. Critical, form error, alert, emergency, urgent.",
-    "property": "status",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-red-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-status-serious",
-    "value": "#ffb302",
-    "description": "The color used to indicate items with a Serious status. Serious, warning, error, needs attention.",
-    "property": "status",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-orange-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-status-caution",
-    "value": "#fce83a",
-    "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
-    "property": "status",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-yellow-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-status-normal",
-    "value": "#56f000",
-    "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
-    "property": "status",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-green-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-status-standby",
-    "value": "#64d9ff",
-    "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
-    "property": "status",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-cyan-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-status-off",
-    "value": "#a4abb6",
-    "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
-    "property": "status",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-grey-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-classification-topsecretsci",
-    "value": "#fce83a",
-    "description": "The color used to indicate the Top Secret//SCI classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-yellow-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-classification-topsecret",
-    "value": "#ff8c00",
-    "description": "The color used to indicate the Top Secret classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-orange-700",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-classification-secret",
-    "value": "#c8102e",
-    "description": "The color used to indicate the Secret classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-red-700",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-classification-confidential",
-    "value": "#0033a0",
-    "description": "The color used to indicate the Confidential classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-blue-800",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-classification-cui",
-    "value": "#502b85",
-    "description": "The color used to indicate the CUI classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-violet-800",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-classification-unclassified",
-    "value": "#007a33",
-    "description": "The color used to indicate the Unclassified classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-green-800",
-    "tokenLevel": "system"
-  },
-  {
     "name": "link-color-text-default",
     "value": "#4dacff",
     "description": "The color used for links in default state.",
@@ -1183,289 +1183,6 @@
     "component": "link",
     "referenceToken": "link-color-text-default",
     "tokenLevel": "component"
-  },
-  {
-    "name": "radius-base",
-    "value": "3px",
-    "description": "The default base border radius",
-    "property": "base",
-    "category": "borderRadius",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "radius-circle",
-    "value": "50%",
-    "description": "A completely rounded border radius, used to create circles.",
-    "property": "circle",
-    "category": "borderRadius",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-family-sans",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-    "property": "sans",
-    "category": "fontFamilies",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-family-mono",
-    "value": "'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
-    "property": "mono",
-    "category": "fontFamilies",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "line-height-0",
-    "value": "AUTO",
-    "property": "0",
-    "category": "lineHeights",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "line-height-2xs",
-    "value": "14px",
-    "description": "Extra Small",
-    "property": "2xs",
-    "category": "lineHeights",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "line-height-xs",
-    "value": "16px",
-    "description": "Body 3",
-    "property": "xs",
-    "category": "lineHeights",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "line-height-sm",
-    "value": "20px",
-    "description": "Body 2",
-    "property": "sm",
-    "category": "lineHeights",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "line-height-base",
-    "value": "24px",
-    "description": "Body 1, Heading 3, Heading 4, Heading 5, Heading 6",
-    "property": "base",
-    "category": "lineHeights",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "line-height-lg",
-    "value": "28px",
-    "description": "Heading 2",
-    "property": "lg",
-    "category": "lineHeights",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "line-height-xl",
-    "value": "32px",
-    "description": "Monospace 1",
-    "property": "xl",
-    "category": "lineHeights",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "line-height-2xl",
-    "value": "40px",
-    "description": "Heading 1",
-    "property": "2xl",
-    "category": "lineHeights",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "line-height-3xl",
-    "value": "56px",
-    "description": "Display 2",
-    "property": "3xl",
-    "category": "lineHeights",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "line-height-4xl",
-    "value": "70px",
-    "description": "Display 1",
-    "property": "4xl",
-    "category": "lineHeights",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-weight-light",
-    "value": 300,
-    "property": "light",
-    "category": "fontWeight",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-weight-regular",
-    "value": 400,
-    "property": "regular",
-    "category": "fontWeight",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-weight-medium",
-    "value": 500,
-    "property": "medium",
-    "category": "fontWeight",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-weight-bold",
-    "value": 700,
-    "property": "bold",
-    "category": "fontWeight",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-size-xs",
-    "value": "0.75rem",
-    "property": "xs",
-    "category": "fontSizes",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-size-sm",
-    "value": "0.875rem",
-    "property": "sm",
-    "category": "fontSizes",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-size-base",
-    "value": "1rem",
-    "property": "base",
-    "category": "fontSizes",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-size-lg",
-    "value": "1.125rem",
-    "property": "lg",
-    "category": "fontSizes",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-size-xl",
-    "value": "1.25rem",
-    "property": "xl",
-    "category": "fontSizes",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-size-2xl",
-    "value": "1.5rem",
-    "property": "2xl",
-    "category": "fontSizes",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-size-3xl",
-    "value": "1.75rem",
-    "property": "3xl",
-    "category": "fontSizes",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-size-4xl",
-    "value": "2.125rem",
-    "property": "4xl",
-    "category": "fontSizes",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-size-5xl",
-    "value": "3rem",
-    "property": "5xl",
-    "category": "fontSizes",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "font-size-6xl",
-    "value": "3.75rem",
-    "property": "6xl",
-    "category": "fontSizes",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "letter-spacing-2xl",
-    "value": "0.005em",
-    "property": "2xl",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "letter-spacing-xl",
-    "value": "0.0025em",
-    "property": "xl",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "letter-spacing-base",
-    "value": "0em",
-    "property": "base",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "letter-spacing-lg",
-    "value": "0.0015em",
-    "property": "lg",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "letter-spacing-sm",
-    "value": "-0.005em",
-    "property": "sm",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "system"
-  },
-  {
-    "name": "paragraph-spacing-0",
-    "value": 0,
-    "property": "0",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "reference"
   },
   {
     "name": "opacity-35",
@@ -1597,6 +1314,7 @@
     "description": "Drop shadow for Dialogs",
     "category": "boxShadow",
     "component": "shadow",
+    "referenceToken": "color-palette-neutral-1000",
     "tokenLevel": "component"
   },
   {
@@ -2159,6 +1877,289 @@
     "value": "0.125rem",
     "property": "050",
     "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "radius-base",
+    "value": "3px",
+    "description": "The default base border radius",
+    "property": "base",
+    "category": "borderRadius",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "radius-circle",
+    "value": "50%",
+    "description": "A completely rounded border radius, used to create circles.",
+    "property": "circle",
+    "category": "borderRadius",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-family-sans",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "property": "sans",
+    "category": "fontFamilies",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-family-mono",
+    "value": "'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "property": "mono",
+    "category": "fontFamilies",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "line-height-0",
+    "value": "AUTO",
+    "property": "0",
+    "category": "lineHeights",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "line-height-2xs",
+    "value": "14px",
+    "description": "Extra Small",
+    "property": "2xs",
+    "category": "lineHeights",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "line-height-xs",
+    "value": "16px",
+    "description": "Body 3",
+    "property": "xs",
+    "category": "lineHeights",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "line-height-sm",
+    "value": "20px",
+    "description": "Body 2",
+    "property": "sm",
+    "category": "lineHeights",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "line-height-base",
+    "value": "24px",
+    "description": "Body 1, Heading 3, Heading 4, Heading 5, Heading 6",
+    "property": "base",
+    "category": "lineHeights",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "line-height-lg",
+    "value": "28px",
+    "description": "Heading 2",
+    "property": "lg",
+    "category": "lineHeights",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "line-height-xl",
+    "value": "32px",
+    "description": "Monospace 1",
+    "property": "xl",
+    "category": "lineHeights",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "line-height-2xl",
+    "value": "40px",
+    "description": "Heading 1",
+    "property": "2xl",
+    "category": "lineHeights",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "line-height-3xl",
+    "value": "56px",
+    "description": "Display 2",
+    "property": "3xl",
+    "category": "lineHeights",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "line-height-4xl",
+    "value": "70px",
+    "description": "Display 1",
+    "property": "4xl",
+    "category": "lineHeights",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-weight-light",
+    "value": 300,
+    "property": "light",
+    "category": "fontWeight",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-weight-regular",
+    "value": 400,
+    "property": "regular",
+    "category": "fontWeight",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-weight-medium",
+    "value": 500,
+    "property": "medium",
+    "category": "fontWeight",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-weight-bold",
+    "value": 700,
+    "property": "bold",
+    "category": "fontWeight",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-size-xs",
+    "value": "0.75rem",
+    "property": "xs",
+    "category": "fontSizes",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-size-sm",
+    "value": "0.875rem",
+    "property": "sm",
+    "category": "fontSizes",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-size-base",
+    "value": "1rem",
+    "property": "base",
+    "category": "fontSizes",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-size-lg",
+    "value": "1.125rem",
+    "property": "lg",
+    "category": "fontSizes",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-size-xl",
+    "value": "1.25rem",
+    "property": "xl",
+    "category": "fontSizes",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-size-2xl",
+    "value": "1.5rem",
+    "property": "2xl",
+    "category": "fontSizes",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-size-3xl",
+    "value": "1.75rem",
+    "property": "3xl",
+    "category": "fontSizes",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-size-4xl",
+    "value": "2.125rem",
+    "property": "4xl",
+    "category": "fontSizes",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-size-5xl",
+    "value": "3rem",
+    "property": "5xl",
+    "category": "fontSizes",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-size-6xl",
+    "value": "3.75rem",
+    "property": "6xl",
+    "category": "fontSizes",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "letter-spacing-2xl",
+    "value": "0.005em",
+    "property": "2xl",
+    "category": "letterSpacing",
+    "component": null,
+    "tokenLevel": "system"
+  },
+  {
+    "name": "letter-spacing-xl",
+    "value": "0.0025em",
+    "property": "xl",
+    "category": "letterSpacing",
+    "component": null,
+    "tokenLevel": "system"
+  },
+  {
+    "name": "letter-spacing-base",
+    "value": "0em",
+    "property": "base",
+    "category": "letterSpacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "letter-spacing-lg",
+    "value": "0.0015em",
+    "property": "lg",
+    "category": "letterSpacing",
+    "component": null,
+    "tokenLevel": "system"
+  },
+  {
+    "name": "letter-spacing-sm",
+    "value": "-0.005em",
+    "property": "sm",
+    "category": "letterSpacing",
+    "component": null,
+    "tokenLevel": "system"
+  },
+  {
+    "name": "paragraph-spacing-0",
+    "value": 0,
+    "property": "0",
+    "category": "paragraphSpacing",
     "component": null,
     "tokenLevel": "reference"
   },
