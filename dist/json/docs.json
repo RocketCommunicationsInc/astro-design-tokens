@@ -1696,6 +1696,35 @@
     "tokenLevel": "component"
   },
   {
+    "name": "notification-banner-radius-inner",
+    "value": "2px",
+    "description": "The inner radius of Notification Banner outlines.",
+    "property": "inner",
+    "category": "borderRadius",
+    "component": "notification-banner",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-radius-outer",
+    "value": "3px",
+    "description": "The outer radius of Notification Banner outlines.",
+    "property": "outer",
+    "category": "borderRadius",
+    "component": "notification-banner",
+    "referenceToken": "radius-base",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "menu-divider-color-fill",
+    "value": "#51555b",
+    "description": "The fill color for menu dividers",
+    "property": "divider",
+    "category": "color",
+    "component": "menu",
+    "referenceToken": "color-palette-grey-700",
+    "tokenLevel": "component"
+  },
+  {
     "name": "border-width-none",
     "value": 0,
     "description": "No border width",
@@ -1728,155 +1757,6 @@
     "description": "large border width",
     "property": "lg",
     "category": "borderWidth",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "notification-banner-radius-inner",
-    "value": "2px",
-    "description": "The inner radius of Notification Banner outlines.",
-    "property": "inner",
-    "category": "borderRadius",
-    "component": "notification-banner",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "notification-banner-radius-outer",
-    "value": "3px",
-    "description": "The outer radius of Notification Banner outlines.",
-    "property": "outer",
-    "category": "borderRadius",
-    "component": "notification-banner",
-    "referenceToken": "radius-base",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "menu-divider-color-fill",
-    "value": "#51555b",
-    "description": "The fill color for menu dividers",
-    "property": "divider",
-    "category": "color",
-    "component": "menu",
-    "referenceToken": "color-palette-grey-700",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "spacing-0",
-    "value": "0rem",
-    "property": "0",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-1",
-    "value": "0.25rem",
-    "property": "1",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-2",
-    "value": "0.5rem",
-    "property": "2",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-3",
-    "value": "0.75rem",
-    "property": "3",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-4",
-    "value": "1rem",
-    "property": "4",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-6",
-    "value": "1.5rem",
-    "property": "6",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-8",
-    "value": "2rem",
-    "property": "8",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-10",
-    "value": "2.5rem",
-    "property": "10",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-12",
-    "value": "3rem",
-    "property": "12",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-14",
-    "value": "3.5rem",
-    "property": "14",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-16",
-    "value": "4rem",
-    "property": "16",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-20",
-    "value": "5rem",
-    "property": "20",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-24",
-    "value": "6rem",
-    "property": "24",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-025",
-    "value": "0.0625rem",
-    "property": "025",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-050",
-    "value": "0.125rem",
-    "property": "050",
-    "category": "spacing",
     "component": null,
     "tokenLevel": "reference"
   },
@@ -3314,5 +3194,125 @@
     "category": "textCase",
     "component": null,
     "tokenLevel": "system"
+  },
+  {
+    "name": "spacing-0",
+    "value": "0rem",
+    "property": "0",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-1",
+    "value": "0.25rem",
+    "property": "1",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-2",
+    "value": "0.5rem",
+    "property": "2",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-3",
+    "value": "0.75rem",
+    "property": "3",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-4",
+    "value": "1rem",
+    "property": "4",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-6",
+    "value": "1.5rem",
+    "property": "6",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-8",
+    "value": "2rem",
+    "property": "8",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-10",
+    "value": "2.5rem",
+    "property": "10",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-12",
+    "value": "3rem",
+    "property": "12",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-14",
+    "value": "3.5rem",
+    "property": "14",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-16",
+    "value": "4rem",
+    "property": "16",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-20",
+    "value": "5rem",
+    "property": "20",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-24",
+    "value": "6rem",
+    "property": "24",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-025",
+    "value": "0.0625rem",
+    "property": "025",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-050",
+    "value": "0.125rem",
+    "property": "050",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
   }
 ]

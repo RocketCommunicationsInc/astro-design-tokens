@@ -10,7 +10,7 @@ const parseData = async () => {
 
 const populateLightThemeDescriptions = async () => {
 	let tokens = await parseData()
-	const beta = tokens.beta
+	const beta = tokens.dark
 	const light = tokens.light
 
 

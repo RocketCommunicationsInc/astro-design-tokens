@@ -1,9 +1,24 @@
 /**
  * Do not edit directly
- * Generated on Tue, 16 Aug 2022 14:44:06 GMT
+ * Generated on Tue, 16 Aug 2022 14:53:13 GMT
  */
 
 :where(:root) {
+  --spacing-050: 0.125rem;
+  --spacing-025: 0.0625rem;
+  --spacing-24: 6rem;
+  --spacing-20: 5rem;
+  --spacing-16: 4rem;
+  --spacing-14: 3.5rem;
+  --spacing-12: 3rem;
+  --spacing-10: 2.5rem;
+  --spacing-8: 2rem;
+  --spacing-6: 1.5rem;
+  --spacing-4: 1rem;
+  --spacing-3: 0.75rem;
+  --spacing-2: 0.5rem;
+  --spacing-1: 0.25rem;
+  --spacing-0: 0rem;
   --font-monospace-1-text-case: none;
   --font-monospace-1-text-decoration: none;
   --font-monospace-1-paragraph-spacing: 0;
@@ -182,27 +197,12 @@
   --font-family-sans: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;;
   --radius-circle: 50%;
   --radius-base: 3px;
-  --spacing-050: 0.125rem;
-  --spacing-025: 0.0625rem;
-  --spacing-24: 6rem;
-  --spacing-20: 5rem;
-  --spacing-16: 4rem;
-  --spacing-14: 3.5rem;
-  --spacing-12: 3rem;
-  --spacing-10: 2.5rem;
-  --spacing-8: 2rem;
-  --spacing-6: 1.5rem;
-  --spacing-4: 1rem;
-  --spacing-3: 0.75rem;
-  --spacing-2: 0.5rem;
-  --spacing-1: 0.25rem;
-  --spacing-0: 0rem;
-  --notification-banner-radius-outer: 3px;
-  --notification-banner-radius-inner: 2px;
   --border-width-lg: 4px;
   --border-width-sm: 2px;
   --border-width-xs: 1px;
   --border-width-none: 0;
+  --notification-banner-radius-outer: 3px;
+  --notification-banner-radius-inner: 2px;
   --indeterminate-progress-radius-outer: 30px;
   --indeterminate-progress-radius-inner: 23px;
   --progress-radius-outer: 10px;
