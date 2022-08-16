@@ -1,0 +1,162 @@
+
+				.rux-body-1 {
+					font-size: 1rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 400;
+					line-height: calc(1.5rem / 1rem);
+					letter-spacing: 0.005em;
+				}
+			
+
+				.rux-body-1-bold {
+					font-size: 1rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 700;
+					line-height: calc(1.5rem / 1rem);
+					letter-spacing: 0.005em;
+				}
+			
+
+				.rux-body-2 {
+					font-size: 0.875rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 400;
+					line-height: calc(1.25rem / 0.875rem);
+					letter-spacing: 0.005em;
+				}
+			
+
+				.rux-body-2-bold {
+					font-size: 0.875rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 700;
+					line-height: calc(1.25rem / 0.875rem);
+					letter-spacing: 0.005em;
+				}
+			
+
+				.rux-body-3 {
+					font-size: 0.75rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 400;
+					line-height: calc(1rem / 0.75rem);
+					letter-spacing: 0.005em;
+				}
+			
+
+				.rux-body-3-bold {
+					font-size: 0.75rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 700;
+					line-height: calc(1rem / 0.75rem);
+					letter-spacing: 0.005em;
+				}
+			
+
+				.rux-control-body-1 {
+					font-size: 1rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 400;
+					line-height: calc(1.25rem / 1rem);
+					letter-spacing: 0.005em;
+				}
+			
+
+				.rux-control-body-1-bold {
+					font-size: 1rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 700;
+					line-height: calc(1.25rem / 1rem);
+					letter-spacing: 0.005em;
+				}
+			
+
+				.rux-heading-1 {
+					font-size: 2.125rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 400;
+					line-height: calc(2.5rem / 2.125rem);
+					letter-spacing: 0.0025em;
+				}
+			
+
+				.rux-heading-1-bold {
+					font-size: 2.125rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 700;
+					line-height: calc(2.5rem / 2.125rem);
+					letter-spacing: 0.0025em;
+				}
+			
+
+				.rux-heading-2 {
+					font-size: 1.5rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 400;
+					line-height: calc(1.75rem / 1.5rem);
+					letter-spacing: 0em;
+				}
+			
+
+				.rux-heading-3 {
+					font-size: 1.25rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 500;
+					line-height: calc(1.5rem / 1.25rem);
+					letter-spacing: 0.0015em;
+				}
+			
+
+				.rux-heading-4 {
+					font-size: 1.25rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 300;
+					line-height: calc(1.5rem / 1.25rem);
+					letter-spacing: 0.0015em;
+				}
+			
+
+				.rux-heading-5 {
+					font-size: 1.125rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 400;
+					line-height: calc(1.5rem / 1.125rem);
+					letter-spacing: 0em;
+				}
+			
+
+				.rux-heading-6 {
+					font-size: 1.125rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 300;
+					line-height: calc(1.5rem / 1.125rem);
+					letter-spacing: 0em;
+				}
+			
+
+				.rux-display-1 {
+					font-size: 3.75rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 300;
+					line-height: calc(4.375rem / 3.75rem);
+					letter-spacing: -0.005em;
+				}
+			
+
+				.rux-display-2 {
+					font-size: 3rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 400;
+					line-height: calc(3.5rem / 3rem);
+					letter-spacing: 0em;
+				}
+			
+
+				.rux-monospace-1 {
+					font-size: 1.75rem;
+					font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+					font-weight: 500;
+					line-height: calc(2rem / 1.75rem);
+					letter-spacing: 0em;
+				}
+			

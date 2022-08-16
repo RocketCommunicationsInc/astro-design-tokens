@@ -4,8 +4,7 @@
   "description": "Astro UXDS Design Tokens",
   "main": "index.js",
   "dependencies": {
-    "@changesets/cli": "^2.22.0",
-    "style-dictionary": "^3"
+    "@changesets/cli": "^2.22.0"
   },
   "scripts": {
     "start": "npm run build",
@@ -13,12 +12,12 @@
     "build.ios": "node ./iosbuild.js",
     "prepack": "npm run build",
     "pretransform": "node scripts/pretransform.js",
-    "transform.dark": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens-dark.json dark  --expandTypography --expandShadow --preserveRawValue=true",
-    "transform.light": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.light.json beta,light  --expandTypography --expandShadow --preserveRawValue=true",
-    "transform.ios-light": "node_modules/.bin/token-transformer data/tokens.json tokens/ios-light.json beta,ios-light --expandTypography --expandShadow --preserveRawValue=true",
-    "transform.ios-dark": "node_modules/.bin/token-transformer data/tokens.json tokens/ios.json beta,ios-dark  --expandTypography --expandShadow --preserveRawValue=true",
-    "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json beta  --expandTypography --expandShadow --preserveRawValue=true",
-    "make": "npm run transform && npm run transform.light && npm run transform.ios-light && npm run transform.ios-dark && node scripts/posttransform.js && npm run build",
+    "transform.light": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.light.json reference,dark,light reference --expandTypography --expandShadow --preserveRawValue=true",
+    "transform.ios-light": "node_modules/.bin/token-transformer data/tokens.json tokens/ios-light.json reference,dark,ios-light --expandTypography --expandShadow --preserveRawValue=true",
+    "transform.ios-dark": "node_modules/.bin/token-transformer data/tokens.json tokens/ios.json reference,dark,ios-dark  --expandTypography --expandShadow --preserveRawValue=true",
+    "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json reference,dark  --expandTypography --expandShadow --preserveRawValue=true",
+    "transform.refs": "node_modules/.bin/token-transformer data/tokens.json tokens/reference.json reference   --expandTypography=false --preserveRawValue=true",
+    "make": "npm run transform && npm run transform.light && npm run transform.ios-light && npm run transform.ios-dark && npm run transform.refs && node scripts/posttransform.js && npm run build",
     "docs:dev": "vitepress dev docs",
     "docs:build": "yarn make && vitepress build docs",
     "docs:serve": "vitepress serve docs"

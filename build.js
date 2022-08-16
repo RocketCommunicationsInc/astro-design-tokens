@@ -111,6 +111,8 @@ const getTokenLevel = (token) => {
 
 }
 
+StyleDictionary.registerFormat(require('./formats/typographyClasses'))
+
 StyleDictionary.registerFormat({
   name: `docs`,
   formatter: function (format) {
@@ -322,6 +324,9 @@ const iosColors = {
   actions: [`generateColorsets`],
 };
 
+
+
+
 console.log(`\n\n🌙 Building dark mode...`);
 
 styleDictionary.extend({
@@ -457,6 +462,40 @@ styleDictionary.extend({
         }
       ],
     }
+  }
+}).buildAllPlatforms()
+
+console.log(`\n\n🌙 Building classes...`);
+styleDictionary.extend({
+  source: [
+    `tokens/reference.json`,
+  ],
+
+  platforms: {
+
+    scss: {
+      buildPath: "dist/css/",
+      transforms: [
+        "size/pxToRem",
+        "size/pxToUnitless",
+        "letterSpacing/percentToEm",
+        "fontFamily/fallback",
+        "typography/name",
+        "fontWeight/css",
+        "shadow/css"
+      ],
+      files: [
+        {
+          destination: `classes/typography.css`,
+          format: "css/typographyClasses",
+          filter: (token) => token.type === "typography",
+          options: {
+          //   showFileHeader: true,
+            // outputReferences: false,
+          },
+        },
+      ],
+    },
   }
 }).buildAllPlatforms()
 

@@ -6,7 +6,7 @@ module.exports = {
 	},
 	transformer: (token) => {
 		const serifFallback =
-			"-apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;";
+			"-apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif";
 		return `'${token.value}', ${serifFallback}`;
 	},
 }
