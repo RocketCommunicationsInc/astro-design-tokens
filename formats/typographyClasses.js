@@ -9,7 +9,7 @@ module.exports = {
 	formatter: function (dictionary, config) {
 		return (dictionary.allProperties.map((prop) => {
 			return (`
-				.${prop.name} {
+				.rux-${prop.name} {
 					font-size: ${convertToVariableIfNeeded(prop.rawValue.fontSize)};
 					font-family: ${convertToVariableIfNeeded(prop.rawValue.fontFamily)};
 					font-weight: ${convertToVariableIfNeeded(prop.rawValue.fontWeight)};

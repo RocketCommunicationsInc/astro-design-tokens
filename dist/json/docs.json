@@ -1780,7 +1780,7 @@
   },
   {
     "name": "font-family-sans",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "sans",
     "category": "fontFamilies",
     "component": null,
@@ -1788,7 +1788,7 @@
   },
   {
     "name": "font-family-mono",
-    "value": "'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "mono",
     "category": "fontFamilies",
     "component": null,
@@ -2045,7 +2045,7 @@
   },
   {
     "name": "font-body-1-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "body-1",
     "category": "fontFamily",
     "component": null,
@@ -2109,7 +2109,7 @@
   },
   {
     "name": "font-body-1-bold-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "body-1-bold",
     "category": "fontFamily",
     "component": null,
@@ -2173,7 +2173,7 @@
   },
   {
     "name": "font-body-2-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "body-2",
     "category": "fontFamily",
     "component": null,
@@ -2237,7 +2237,7 @@
   },
   {
     "name": "font-body-2-bold-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "body-2-bold",
     "category": "fontFamily",
     "component": null,
@@ -2301,7 +2301,7 @@
   },
   {
     "name": "font-body-3-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "body-3",
     "category": "fontFamily",
     "component": null,
@@ -2365,7 +2365,7 @@
   },
   {
     "name": "font-body-3-bold-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "body-3-bold",
     "category": "fontFamily",
     "component": null,
@@ -2429,7 +2429,7 @@
   },
   {
     "name": "font-control-body-1-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "control-body-1",
     "category": "fontFamily",
     "component": null,
@@ -2493,7 +2493,7 @@
   },
   {
     "name": "font-control-body-1-bold-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "control-body-1-bold",
     "category": "fontFamily",
     "component": null,
@@ -2557,7 +2557,7 @@
   },
   {
     "name": "font-heading-1-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "heading-1",
     "category": "fontFamily",
     "component": null,
@@ -2621,7 +2621,7 @@
   },
   {
     "name": "font-heading-1-bold-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "heading-1-bold",
     "category": "fontFamily",
     "component": null,
@@ -2685,7 +2685,7 @@
   },
   {
     "name": "font-heading-2-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "heading-2",
     "category": "fontFamily",
     "component": null,
@@ -2749,7 +2749,7 @@
   },
   {
     "name": "font-heading-3-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "heading-3",
     "category": "fontFamily",
     "component": null,
@@ -2813,7 +2813,7 @@
   },
   {
     "name": "font-heading-4-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "heading-4",
     "category": "fontFamily",
     "component": null,
@@ -2877,7 +2877,7 @@
   },
   {
     "name": "font-heading-5-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "heading-5",
     "category": "fontFamily",
     "component": null,
@@ -2941,7 +2941,7 @@
   },
   {
     "name": "font-heading-6-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "heading-6",
     "category": "fontFamily",
     "component": null,
@@ -3005,7 +3005,7 @@
   },
   {
     "name": "font-display-1-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "display-1",
     "category": "fontFamily",
     "component": null,
@@ -3069,7 +3069,7 @@
   },
   {
     "name": "font-display-2-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "display-2",
     "category": "fontFamily",
     "component": null,
@@ -3133,7 +3133,7 @@
   },
   {
     "name": "font-monospace-1-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     "property": "monospace-1",
     "category": "fontFamily",
     "component": null,
