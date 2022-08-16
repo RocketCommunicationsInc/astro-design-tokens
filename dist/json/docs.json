@@ -1311,7 +1311,7 @@
   {
     "name": "shadow-overlay",
     "value": " 0px 4px 4px 1px rgba(0, 0, 0, 0.45)",
-    "description": "Drop shadow for Dialogs",
+    "description": "Drop shadow for overlays like Dialogs and overlay panels",
     "category": "boxShadow",
     "component": "shadow",
     "referenceToken": "color-palette-neutral-1000",
