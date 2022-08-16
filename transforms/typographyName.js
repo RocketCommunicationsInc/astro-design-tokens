@@ -2,6 +2,7 @@ const _ = require("lodash");
 module.exports = {
 	name: "typography/name",
 	type: "name",
+	// transitive: true,
 	matcher: (token) => {
 		// Hard coding the available categories because design doesnt want to change them.
 		const typographyCategories = [

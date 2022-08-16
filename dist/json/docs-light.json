@@ -1924,7 +1924,7 @@
   },
   {
     "name": "line-height-2xs",
-    "value": "14px",
+    "value": "0.875rem",
     "description": "Extra Small",
     "property": "2xs",
     "category": "lineHeights",
@@ -1933,7 +1933,7 @@
   },
   {
     "name": "line-height-xs",
-    "value": "16px",
+    "value": "1rem",
     "description": "Body 3",
     "property": "xs",
     "category": "lineHeights",
@@ -1942,7 +1942,7 @@
   },
   {
     "name": "line-height-sm",
-    "value": "20px",
+    "value": "1.25rem",
     "description": "Body 2",
     "property": "sm",
     "category": "lineHeights",
@@ -1951,7 +1951,7 @@
   },
   {
     "name": "line-height-base",
-    "value": "24px",
+    "value": "1.5rem",
     "description": "Body 1, Heading 3, Heading 4, Heading 5, Heading 6",
     "property": "base",
     "category": "lineHeights",
@@ -1960,7 +1960,7 @@
   },
   {
     "name": "line-height-lg",
-    "value": "28px",
+    "value": "1.75rem",
     "description": "Heading 2",
     "property": "lg",
     "category": "lineHeights",
@@ -1969,7 +1969,7 @@
   },
   {
     "name": "line-height-xl",
-    "value": "32px",
+    "value": "2rem",
     "description": "Monospace 1",
     "property": "xl",
     "category": "lineHeights",
@@ -1978,7 +1978,7 @@
   },
   {
     "name": "line-height-2xl",
-    "value": "40px",
+    "value": "2.5rem",
     "description": "Heading 1",
     "property": "2xl",
     "category": "lineHeights",
@@ -1987,7 +1987,7 @@
   },
   {
     "name": "line-height-3xl",
-    "value": "56px",
+    "value": "3.5rem",
     "description": "Display 2",
     "property": "3xl",
     "category": "lineHeights",
@@ -1996,7 +1996,7 @@
   },
   {
     "name": "line-height-4xl",
-    "value": "70px",
+    "value": "4.375rem",
     "description": "Display 1",
     "property": "4xl",
     "category": "lineHeights",
@@ -2005,7 +2005,7 @@
   },
   {
     "name": "font-weight-light",
-    "value": 300,
+    "value": "300",
     "property": "light",
     "category": "fontWeight",
     "component": null,
@@ -2013,7 +2013,7 @@
   },
   {
     "name": "font-weight-regular",
-    "value": 400,
+    "value": "400",
     "property": "regular",
     "category": "fontWeight",
     "component": null,
@@ -2021,7 +2021,7 @@
   },
   {
     "name": "font-weight-medium",
-    "value": 500,
+    "value": "500",
     "property": "medium",
     "category": "fontWeight",
     "component": null,
@@ -2029,7 +2029,7 @@
   },
   {
     "name": "font-weight-bold",
-    "value": 700,
+    "value": "700",
     "property": "bold",
     "category": "fontWeight",
     "component": null,
@@ -2173,7 +2173,7 @@
   },
   {
     "name": "font-body-1-font-weight",
-    "value": 400,
+    "value": "400",
     "property": "body-1",
     "category": "fontWeight",
     "component": "body",
@@ -2237,7 +2237,7 @@
   },
   {
     "name": "font-body-1-bold-font-weight",
-    "value": 700,
+    "value": "700",
     "property": "body-1-bold",
     "category": "fontWeight",
     "component": "body",
@@ -2301,7 +2301,7 @@
   },
   {
     "name": "font-body-2-font-weight",
-    "value": 400,
+    "value": "400",
     "property": "body-2",
     "category": "fontWeight",
     "component": "body",
@@ -2365,7 +2365,7 @@
   },
   {
     "name": "font-body-2-bold-font-weight",
-    "value": 700,
+    "value": "700",
     "property": "body-2-bold",
     "category": "fontWeight",
     "component": "body",
@@ -2429,7 +2429,7 @@
   },
   {
     "name": "font-body-3-font-weight",
-    "value": 400,
+    "value": "400",
     "property": "body-3",
     "category": "fontWeight",
     "component": "body",
@@ -2493,7 +2493,7 @@
   },
   {
     "name": "font-body-3-bold-font-weight",
-    "value": 700,
+    "value": "700",
     "property": "body-3-bold",
     "category": "fontWeight",
     "component": "body",
@@ -2557,7 +2557,7 @@
   },
   {
     "name": "font-control-body-1-font-weight",
-    "value": 400,
+    "value": "400",
     "property": "control-body-1",
     "category": "fontWeight",
     "component": null,
@@ -2621,7 +2621,7 @@
   },
   {
     "name": "font-control-body-1-bold-font-weight",
-    "value": 700,
+    "value": "700",
     "property": "control-body-1-bold",
     "category": "fontWeight",
     "component": null,
@@ -2685,7 +2685,7 @@
   },
   {
     "name": "font-heading-1-font-weight",
-    "value": 400,
+    "value": "400",
     "property": "heading-1",
     "category": "fontWeight",
     "component": "heading",
@@ -2749,7 +2749,7 @@
   },
   {
     "name": "font-heading-1-bold-font-weight",
-    "value": 700,
+    "value": "700",
     "property": "heading-1-bold",
     "category": "fontWeight",
     "component": "heading",
@@ -2813,7 +2813,7 @@
   },
   {
     "name": "font-heading-2-font-weight",
-    "value": 400,
+    "value": "400",
     "property": "heading-2",
     "category": "fontWeight",
     "component": "heading",
@@ -2877,7 +2877,7 @@
   },
   {
     "name": "font-heading-3-font-weight",
-    "value": 500,
+    "value": "500",
     "property": "heading-3",
     "category": "fontWeight",
     "component": "heading",
@@ -2941,7 +2941,7 @@
   },
   {
     "name": "font-heading-4-font-weight",
-    "value": 300,
+    "value": "300",
     "property": "heading-4",
     "category": "fontWeight",
     "component": "heading",
@@ -3005,7 +3005,7 @@
   },
   {
     "name": "font-heading-5-font-weight",
-    "value": 400,
+    "value": "400",
     "property": "heading-5",
     "category": "fontWeight",
     "component": "heading",
@@ -3069,7 +3069,7 @@
   },
   {
     "name": "font-heading-6-font-weight",
-    "value": 300,
+    "value": "300",
     "property": "heading-6",
     "category": "fontWeight",
     "component": "heading",
@@ -3133,7 +3133,7 @@
   },
   {
     "name": "font-display-1-font-weight",
-    "value": 300,
+    "value": "300",
     "property": "display-1",
     "category": "fontWeight",
     "component": "display",
@@ -3197,7 +3197,7 @@
   },
   {
     "name": "font-display-2-font-weight",
-    "value": 400,
+    "value": "400",
     "property": "display-2",
     "category": "fontWeight",
     "component": "display",
@@ -3261,7 +3261,7 @@
   },
   {
     "name": "font-monospace-1-font-weight",
-    "value": 500,
+    "value": "500",
     "property": "monospace-1",
     "category": "fontWeight",
     "component": "monospace",
