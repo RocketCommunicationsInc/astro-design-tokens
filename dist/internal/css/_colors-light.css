@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 16 Aug 2022 13:29:33 GMT
+ * Generated on Tue, 16 Aug 2022 14:44:06 GMT
  */
 
 .light-theme {
@@ -41,8 +41,8 @@
   --classification-banner-color-background-topsecretsci: #fce83a;
   --container-color-border: #000000;
   --card-color-border: #51555b;
-  --link-color-text-hover: #4dacff;
-  --link-color-text-default: #4dacff;
+  --link-color-text-hover: #005a8f;
+  --link-color-text-default: #005a8f;
   --color-classification-unclassified: #007a33;
   --color-classification-cui: #502b85;
   --color-classification-confidential: #0033a0;

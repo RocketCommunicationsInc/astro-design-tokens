@@ -1166,7 +1166,7 @@
   },
   {
     "name": "link-color-text-default",
-    "value": "#4dacff",
+    "value": "#005a8f",
     "description": "The color used for links in default state.",
     "property": "text",
     "category": "color",
@@ -1176,7 +1176,7 @@
   },
   {
     "name": "link-color-text-hover",
-    "value": "#4dacff",
+    "value": "#005a8f",
     "description": "The color used for links in hover state. Links do not change color on hover.",
     "property": "text",
     "category": "color",

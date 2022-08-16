@@ -12,7 +12,7 @@
     "build.ios": "node ./iosbuild.js",
     "prepack": "npm run build",
     "pretransform": "node scripts/pretransform.js",
-    "transform.light": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.light.json reference,light reference --expandTypography --expandShadow --preserveRawValue=true",
+    "transform.light": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.light.json reference,beta,light reference --expandTypography --expandShadow --preserveRawValue=true",
     "transform.ios-light": "node_modules/.bin/token-transformer data/tokens.json tokens/ios-light.json reference,beta,ios-light --expandTypography --expandShadow --preserveRawValue=true",
     "transform.ios-dark": "node_modules/.bin/token-transformer data/tokens.json tokens/ios.json reference,beta,ios-dark  --expandTypography --expandShadow --preserveRawValue=true",
     "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json reference,beta  --expandTypography --expandShadow --preserveRawValue=true",

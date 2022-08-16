@@ -1,4 +1,3 @@
-const _ = require("lodash");
 function convertToVariableIfNeeded(value) {
 	if (value.startsWith("{") && value.endsWith("}")) {
 		return `var(--${value.slice(1, -1).replace(".", "-")})`;
