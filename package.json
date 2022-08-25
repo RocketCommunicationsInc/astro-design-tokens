@@ -4,7 +4,8 @@
   "description": "Astro UXDS Design Tokens",
   "main": "index.js",
   "dependencies": {
-    "@changesets/cli": "^2.22.0"
+    "@changesets/cli": "^2.22.0",
+    "style-dictionary": "^3.7.1"
   },
   "scripts": {
     "start": "npm run build",
