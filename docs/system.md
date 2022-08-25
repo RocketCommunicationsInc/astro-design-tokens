@@ -1,5 +1,4 @@
 <script setup>
-import DesignTokenPreview from '../components/DesignTokenPreview.vue'
 import { computed } from 'vue'
 import mode from './.vitepress/theme/darkMode'
 const tokens = computed(() => {
@@ -13,17 +12,33 @@ const tokens = computed(() => {
 
 ### Background
 <div v-for="token in tokens">
-  <design-token-preview v-if="token.category === 'color' && token.property === 'background'" type="background" :token="token"></design-token-preview>
+  <rux-design-token-preview v-if="token.category === 'color' && token.property === 'background'" 
+    type="background"
+        :value="token.value"
+    :alias="token.alias"
+    :description="token.description"
+    :name="token.name"
+     ></rux-design-token-preview>
 </div>
 
 ### Text
 <div v-for="token in tokens">
-  <design-token-preview v-if="token.category === 'color' && token.property === 'text'" type="text" :token="token"></design-token-preview>
+  <rux-design-token-preview v-if="token.category === 'color' && token.property === 'text'" type="text"
+      :value="token.value"
+    :alias="token.alias"
+    :description="token.description"
+    :name="token.name"
+  ></rux-design-token-preview>
 </div>
 
 ### Border
 <div v-for="token in tokens">
-  <design-token-preview v-if="token.category === 'color' && token.property === 'border'" type="border" :token="token"></design-token-preview>
+  <rux-design-token-preview v-if="token.category === 'color' && token.property === 'border'" type="border"
+      :value="token.value"
+    :alias="token.alias"
+    :description="token.description"
+    :name="token.name"
+   ></rux-design-token-preview>
 </div>
 
 ### ----
@@ -33,7 +48,13 @@ const tokens = computed(() => {
 Status colors represent the [AstroUXDS Status System](https://www.astrouxds.com/patterns/status-system/)
 
 <div v-for="token in tokens">
-  <design-token-preview v-if="token.category === 'color' && token.property === 'status'" type="background" :token="token"></design-token-preview>
+  <rux-design-token-preview v-if="token.category === 'color' && token.property === 'status'" 
+  type="background" 
+      :value="token.value"
+    :alias="token.alias"
+    :description="token.description"
+    :name="token.name"
+  ></rux-design-token-preview>
 </div>
 
 ### Classification
@@ -41,5 +62,10 @@ Status colors represent the [AstroUXDS Status System](https://www.astrouxds.com/
 Classification colors represent the government markings and are very intentionally set. Do not use these as part of your UI.
 
 <div v-for="token in tokens">
-  <design-token-preview v-if="token.category === 'color' && token.property === 'classification'" type="background" :token="token"></design-token-preview>
+  <rux-design-token-preview v-if="token.category === 'color' && token.property === 'classification'" type="background" 
+      :value="token.value"
+    :alias="token.alias"
+    :description="token.description"
+    :name="token.name"
+  ></rux-design-token-preview>
 </div>

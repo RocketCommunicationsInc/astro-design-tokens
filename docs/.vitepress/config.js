@@ -1,5 +1,8 @@
 module.exports = {
 	title: "Astro Design Tokens", 
+	head: [
+		['script', { type: 'module', src: 'https://unpkg.com/@astrouxds/documentation-components?module' }],
+	  ],
 	themeConfig: {
 		nav: [
 			{
