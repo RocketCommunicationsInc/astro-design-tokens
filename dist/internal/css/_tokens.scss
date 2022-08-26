@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 16 Aug 2022 20:16:24 GMT
+ * Generated on Fri, 26 Aug 2022 20:18:18 GMT
  */
 
 :root {
@@ -201,6 +201,11 @@
   --border-width-sm: 2px;
   --border-width-xs: 1px;
   --border-width-none: 0;
+  --opacity-disabled: 40%;
+  --opacity-50: 50%;
+  --opacity-45: 45%;
+  --opacity-40: 40%;
+  --opacity-35: 35%;
   --notification-banner-radius-outer: 3px;
   --notification-banner-radius-inner: 2px;
   --indeterminate-progress-radius-outer: 30px;
@@ -215,9 +220,4 @@
   --slider-radius-background-track: 1px;
   --status-symbol-border-width-on-light: 1px;
   --status-symbol-border-width-on-dark: 0;
-  --opacity-disabled: 40%;
-  --opacity-50: 50%;
-  --opacity-45: 45%;
-  --opacity-40: 40%;
-  --opacity-35: 35%;
 }
