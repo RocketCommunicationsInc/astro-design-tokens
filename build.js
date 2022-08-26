@@ -371,7 +371,7 @@ styleDictionary.extend({
           format: "css/variables",
           filter: "notColor",
           options: {
-            showFileHeader: true,
+            // showFileHeader: true,
             outputReferences: true,
           },
         },
@@ -381,7 +381,7 @@ styleDictionary.extend({
           filter: "color/theme",
           options: {
             selector: "@mixin root-variables",
-            showFileHeader: true,
+            // showFileHeader: true,
             outputReferences: true,
           },
         },
@@ -390,7 +390,7 @@ styleDictionary.extend({
           format: "css/variables",
           filter: "color/global",
           options: {
-            showFileHeader: true,
+            // showFileHeader: true,
             outputReferences: true,
           },
         },
@@ -406,7 +406,7 @@ styleDictionary.extend({
           filter: "notColor",
           options: {
             selector: ':where(:root)',
-            showFileHeader: true,
+            // showFileHeader: true,
             outputReferences: true,
           },
         },
@@ -416,7 +416,7 @@ styleDictionary.extend({
           filter: "color/theme",
           options: {
             selector: ':where(:root)',
-            showFileHeader: true,
+            // showFileHeader: true,
             outputReferences: true,
           },
         },
@@ -426,7 +426,7 @@ styleDictionary.extend({
           filter: "color/global",
           options: {
             selector: ':where(:root)',
-            showFileHeader: true,
+            // showFileHeader: true,
             outputReferences: true,
           },
         },
@@ -535,7 +535,7 @@ styleDictionary.extend({
           filter: "color/theme",
           options: {
             selector: ".light-theme",
-            showFileHeader: true,
+            // showFileHeader: true,
             outputReferences: true,
           }
         }
@@ -551,7 +551,7 @@ styleDictionary.extend({
           filter: "color/theme",
           options: {
             selector: ".light-theme",
-            showFileHeader: true,
+            // showFileHeader: true,
             outputReferences: true,
           }
         }
