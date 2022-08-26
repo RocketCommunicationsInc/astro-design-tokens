@@ -3009,12 +3009,12 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-token-transformer@^0.0.19:
-  version "0.0.19"
-  resolved "https://registry.npmjs.org/token-transformer/-/token-transformer-0.0.19.tgz"
-  integrity sha512-BzTX70PgY8DflQgkvSNZm+jtwmgOUuKb6QXUihSDpIb79BvZ0ZH9lpeIlGTdASQqxHthMNHjvbya3IcaAmM/ww==
+token-transformer@^0.0.25:
+  version "0.0.25"
+  resolved "https://registry.yarnpkg.com/token-transformer/-/token-transformer-0.0.25.tgz#325852420634f4f50c49b05e761937c823ee0ae4"
+  integrity sha512-9yvgd5IcOqad8yO+xYUFvv/eWYJPa4Fdl6xl2C//fdxevInAdTMkyHqWJ4PwWb8U9BWGNXYuMs+b9WBWkHGVUg==
   dependencies:
-    yargs "^17.3.1"
+    yargs "^17.4.1"
 
 traverse@^0.6.6:
   version "0.6.6"
@@ -3269,23 +3269,10 @@ yargs@^15.1.0:
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
 
-yargs@^17.1.1:
+yargs@^17.1.1, yargs@^17.4.1:
   version "17.5.1"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.5.1.tgz#e109900cab6fcb7fd44b1d8249166feb0b36e58e"
   integrity sha512-t6YAJcxDkNX7NFYiVtKvWUz8l+PaKTLiL63mJYWR2GnHq2gjEWISzsLp9wg3aY36dY1j+gfIEL3pIF+XlJJfbA==
-  dependencies:
-    cliui "^7.0.2"
-    escalade "^3.1.1"
-    get-caller-file "^2.0.5"
-    require-directory "^2.1.1"
-    string-width "^4.2.3"
-    y18n "^5.0.5"
-    yargs-parser "^21.0.0"
-
-yargs@^17.3.1:
-  version "17.4.0"
-  resolved "https://registry.npmjs.org/yargs/-/yargs-17.4.0.tgz"
-  integrity sha512-WJudfrk81yWFSOkZYpAZx4Nt7V4xp7S/uJkX0CnxovMCt1wCE8LNftPpNuF9X/u9gN5nsD7ycYtRcDf2pL3UiA==
   dependencies:
     cliui "^7.0.2"
     escalade "^3.1.1"
