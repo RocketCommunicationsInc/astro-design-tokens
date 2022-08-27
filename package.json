@@ -15,7 +15,7 @@
     "transform.ios-dark": "node_modules/.bin/token-transformer data/tokens.json tokens/ios.json reference,system,components,ios-dark  --expandTypography --preserveRawValue=true",
     "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json reference,system,components  --expandTypography --preserveRawValue=true",
     "transform.refs": "node_modules/.bin/token-transformer data/tokens.json tokens/reference.json reference --preserveRawValue=true",
-    "make": "npm run transform && npm run transform.light && npm run transform.ios-light && npm run transform.ios-dark && npm run transform.refs && node scripts/posttransform.js && npm run build",
+    "make": "node run.js && node scripts/posttransform.js && npm run build",
     "docs:dev": "vitepress dev docs",
     "docs:build": "yarn make && vitepress build docs",
     "docs:serve": "vitepress serve docs"

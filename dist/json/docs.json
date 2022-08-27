@@ -507,353 +507,47 @@
     "tokenLevel": "component"
   },
   {
-    "name": "color-background-base-default",
-    "value": "#101923",
-    "description": "The background color of base elements, like the app or popup menus.",
-    "property": "background",
-    "category": "color",
+    "name": "opacity-35",
+    "value": "35%",
+    "description": "Used in drop shadow for dialogs in light theme",
+    "property": "35",
+    "category": "opacity",
     "component": null,
-    "referenceToken": "color-palette-brightblue-900",
-    "tokenLevel": "system"
+    "tokenLevel": "reference"
   },
   {
-    "name": "color-background-base-header",
-    "value": "#172635",
-    "description": "The background color for the header of base elements.",
-    "property": "background",
-    "category": "color",
+    "name": "opacity-40",
+    "value": "40%",
+    "property": "40",
+    "category": "opacity",
     "component": null,
-    "referenceToken": "color-palette-darkblue-900",
-    "tokenLevel": "system"
+    "tokenLevel": "reference"
   },
   {
-    "name": "color-background-base-hover",
-    "value": "#142435",
-    "description": "The background color of base elements, like popup menus, when they are hovered over.",
-    "property": "background",
-    "category": "color",
+    "name": "opacity-45",
+    "value": "45%",
+    "description": "Used in drop shadow for dialogs",
+    "property": "45",
+    "category": "opacity",
     "component": null,
-    "referenceToken": "color-palette-brightblue-850",
-    "tokenLevel": "system"
+    "tokenLevel": "reference"
   },
   {
-    "name": "color-background-base-selected",
-    "value": "#1c3f5e",
-    "description": "The background color of base elements, like popup menus, when they are selected.",
-    "property": "background",
-    "category": "color",
+    "name": "opacity-50",
+    "value": "50%",
+    "property": "50",
+    "category": "opacity",
     "component": null,
-    "referenceToken": "color-palette-darkblue-700",
-    "tokenLevel": "system"
+    "tokenLevel": "reference"
   },
   {
-    "name": "color-background-surface-default",
-    "value": "#1b2d3e",
-    "description": "The background color of surface elements, like panels or dialogs.",
-    "property": "background",
-    "category": "color",
+    "name": "opacity-disabled",
+    "value": "40%",
+    "description": "Used to represent disabled state",
+    "property": "disabled",
+    "category": "opacity",
     "component": null,
-    "referenceToken": "color-palette-darkblue-800",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-background-surface-header",
-    "value": "#172635",
-    "description": "The background color for the header of surface elements, including dialogs and table headers.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-darkblue-900",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-background-surface-hover",
-    "value": "#1c3851",
-    "description": "The background color of surface elements, like cards or table rows, when they are hovered over.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-800",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-background-surface-selected",
-    "value": "#1c3f5e",
-    "description": "The background color of surface elements, like cards or table rows, when they are selected.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-darkblue-700",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-background-interactive-default",
-    "value": "#4dacff",
-    "description": "The primary color used for the backgrounds of interactive elements.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-background-interactive-hover",
-    "value": "#92cbff",
-    "description": "The hover color used for the backgrounds of interactive elements.",
-    "property": "background",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-400",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-primary",
-    "value": "#ffffff",
-    "description": "The primary color used for text within the application.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-neutral-000",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-secondary",
-    "value": "#d4d8dd",
-    "description": "The color used for text when less emphasis is needed.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-grey-300",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-placeholder",
-    "value": "#a4abb6",
-    "description": "The text color used for placeholder text in input and form fields.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-grey-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-inverse",
-    "value": "#080c11",
-    "description": "The color used for text on reversed backgrounds.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-darkblue-950",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-interactive-default",
-    "value": "#4dacff",
-    "description": "The primary color used for interactive text elements.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-interactive-hover",
-    "value": "#92cbff",
-    "description": "The hover color used for interactive text elements. ",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-400",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-white",
-    "value": "#ffffff",
-    "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-neutral-000",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-black",
-    "value": "#000000",
-    "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-neutral-1000",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-text-error",
-    "value": "#ff3838",
-    "description": "The text color used for form error messages.",
-    "property": "text",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-red-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-border-interactive-default",
-    "value": "#4dacff",
-    "description": "The primary color used for the border of interactive elements.",
-    "property": "border",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-border-interactive-hover",
-    "value": "#92cbff",
-    "description": "The hover color used for the border of interactive elements.",
-    "property": "border",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-400",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-border-interactive-muted",
-    "value": "#2b659b",
-    "description": "A muted version of the primary color used for the border of interactive elements that don't need to be as strong as the primary color.",
-    "property": "border",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-brightblue-700",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-border-error",
-    "value": "#ff3838",
-    "description": "The border color used for form error borders.",
-    "property": "border",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-red-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-status-critical",
-    "value": "#ff3838",
-    "description": "The color used to indicate items with a Critical status. Critical, form error, alert, emergency, urgent.",
-    "property": "status",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-red-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-status-serious",
-    "value": "#ffb302",
-    "description": "The color used to indicate items with a Serious status. Serious, warning, error, needs attention.",
-    "property": "status",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-orange-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-status-caution",
-    "value": "#fce83a",
-    "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
-    "property": "status",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-yellow-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-status-normal",
-    "value": "#56f000",
-    "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
-    "property": "status",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-green-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-status-standby",
-    "value": "#64d9ff",
-    "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
-    "property": "status",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-cyan-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-status-off",
-    "value": "#a4abb6",
-    "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
-    "property": "status",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-grey-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-classification-topsecretsci",
-    "value": "#fce83a",
-    "description": "The color used to indicate the Top Secret//SCI classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-yellow-500",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-classification-topsecret",
-    "value": "#ff8c00",
-    "description": "The color used to indicate the Top Secret classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-orange-700",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-classification-secret",
-    "value": "#c8102e",
-    "description": "The color used to indicate the Secret classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-red-700",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-classification-confidential",
-    "value": "#0033a0",
-    "description": "The color used to indicate the Confidential classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-blue-800",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-classification-cui",
-    "value": "#502b85",
-    "description": "The color used to indicate the CUI classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-violet-800",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "color-classification-unclassified",
-    "value": "#007a33",
-    "description": "The color used to indicate the Unclassified classification.",
-    "property": "classification",
-    "category": "color",
-    "component": null,
-    "referenceToken": "color-palette-green-800",
+    "referenceToken": "opacity-40",
     "tokenLevel": "system"
   },
   {
@@ -1672,57 +1366,354 @@
     "tokenLevel": "reference"
   },
   {
-    "name": "opacity-35",
-    "value": "35%",
-    "description": "Used in drop shadow for dialogs in light theme",
-    "property": "35",
-    "category": "opacity",
+    "name": "color-background-base-default",
+    "value": "#101923",
+    "description": "The background color of base elements, like the app or popup menus.",
+    "property": "background",
+    "category": "color",
     "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "opacity-40",
-    "value": "40%",
-    "property": "40",
-    "category": "opacity",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "opacity-45",
-    "value": "45%",
-    "description": "Used in drop shadow for dialogs",
-    "property": "45",
-    "category": "opacity",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "opacity-50",
-    "value": "50%",
-    "property": "50",
-    "category": "opacity",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "opacity-disabled",
-    "value": "40%",
-    "description": "Used to represent disabled state",
-    "property": "disabled",
-    "category": "opacity",
-    "component": null,
-    "referenceToken": "opacity-40",
+    "referenceToken": "color-palette-brightblue-900",
     "tokenLevel": "system"
   },
   {
-    "name": "shadow-overlay",
-    "value": " 0px 4px 4px 1px rgba(0, 0, 0, 0.45)",
-    "description": "Drop shadow for overlays like Dialogs and overlay panels",
-    "category": "boxShadow",
-    "component": "shadow",
+    "name": "color-background-base-header",
+    "value": "#172635",
+    "description": "The background color for the header of base elements.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-darkblue-900",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-base-hover",
+    "value": "#142435",
+    "description": "The background color of base elements, like popup menus, when they are hovered over.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-850",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-base-selected",
+    "value": "#1c3f5e",
+    "description": "The background color of base elements, like popup menus, when they are selected.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-darkblue-700",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-surface-default",
+    "value": "#1b2d3e",
+    "description": "The background color of surface elements, like panels or dialogs.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-darkblue-800",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-surface-header",
+    "value": "#172635",
+    "description": "The background color for the header of surface elements, including dialogs and table headers.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-darkblue-900",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-surface-hover",
+    "value": "#1c3851",
+    "description": "The background color of surface elements, like cards or table rows, when they are hovered over.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-800",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-surface-selected",
+    "value": "#1c3f5e",
+    "description": "The background color of surface elements, like cards or table rows, when they are selected.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-darkblue-700",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-interactive-default",
+    "value": "#4dacff",
+    "description": "The primary color used for the backgrounds of interactive elements.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-interactive-hover",
+    "value": "#92cbff",
+    "description": "The hover color used for the backgrounds of interactive elements.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-400",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-primary",
+    "value": "#ffffff",
+    "description": "The primary color used for text within the application.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-neutral-000",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-secondary",
+    "value": "#d4d8dd",
+    "description": "The color used for text when less emphasis is needed.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-grey-300",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-placeholder",
+    "value": "#a4abb6",
+    "description": "The text color used for placeholder text in input and form fields.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-grey-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-inverse",
+    "value": "#080c11",
+    "description": "The color used for text on reversed backgrounds.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-darkblue-950",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-interactive-default",
+    "value": "#4dacff",
+    "description": "The primary color used for interactive text elements.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-interactive-hover",
+    "value": "#92cbff",
+    "description": "The hover color used for interactive text elements. ",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-400",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-white",
+    "value": "#ffffff",
+    "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-neutral-000",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-black",
+    "value": "#000000",
+    "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
+    "property": "text",
+    "category": "color",
+    "component": null,
     "referenceToken": "color-palette-neutral-1000",
-    "tokenLevel": "component"
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-text-error",
+    "value": "#ff3838",
+    "description": "The text color used for form error messages.",
+    "property": "text",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-red-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-border-interactive-default",
+    "value": "#4dacff",
+    "description": "The primary color used for the border of interactive elements.",
+    "property": "border",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-border-interactive-hover",
+    "value": "#92cbff",
+    "description": "The hover color used for the border of interactive elements.",
+    "property": "border",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-400",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-border-interactive-muted",
+    "value": "#2b659b",
+    "description": "A muted version of the primary color used for the border of interactive elements that don't need to be as strong as the primary color.",
+    "property": "border",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-700",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-border-error",
+    "value": "#ff3838",
+    "description": "The border color used for form error borders.",
+    "property": "border",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-red-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-status-critical",
+    "value": "#ff3838",
+    "description": "The color used to indicate items with a Critical status. Critical, form error, alert, emergency, urgent.",
+    "property": "status",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-red-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-status-serious",
+    "value": "#ffb302",
+    "description": "The color used to indicate items with a Serious status. Serious, warning, error, needs attention.",
+    "property": "status",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-orange-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-status-caution",
+    "value": "#fce83a",
+    "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
+    "property": "status",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-yellow-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-status-normal",
+    "value": "#56f000",
+    "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
+    "property": "status",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-green-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-status-standby",
+    "value": "#64d9ff",
+    "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
+    "property": "status",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-cyan-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-status-off",
+    "value": "#a4abb6",
+    "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
+    "property": "status",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-grey-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-classification-topsecretsci",
+    "value": "#fce83a",
+    "description": "The color used to indicate the Top Secret//SCI classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-yellow-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-classification-topsecret",
+    "value": "#ff8c00",
+    "description": "The color used to indicate the Top Secret classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-orange-700",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-classification-secret",
+    "value": "#c8102e",
+    "description": "The color used to indicate the Secret classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-red-700",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-classification-confidential",
+    "value": "#0033a0",
+    "description": "The color used to indicate the Confidential classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-blue-800",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-classification-cui",
+    "value": "#502b85",
+    "description": "The color used to indicate the CUI classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-violet-800",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-classification-unclassified",
+    "value": "#007a33",
+    "description": "The color used to indicate the Unclassified classification.",
+    "property": "classification",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-green-800",
+    "tokenLevel": "system"
   },
   {
     "name": "border-width-none",
@@ -1884,34 +1875,34 @@
     "tokenLevel": "reference"
   },
   {
-    "name": "font-weight-light",
+    "name": "font-weights-light",
     "value": "300",
     "property": "light",
-    "category": "fontWeight",
+    "category": "fontWeights",
     "component": null,
     "tokenLevel": "reference"
   },
   {
-    "name": "font-weight-regular",
+    "name": "font-weights-regular",
     "value": "400",
     "property": "regular",
-    "category": "fontWeight",
+    "category": "fontWeights",
     "component": null,
     "tokenLevel": "reference"
   },
   {
-    "name": "font-weight-medium",
+    "name": "font-weights-medium",
     "value": "500",
     "property": "medium",
-    "category": "fontWeight",
+    "category": "fontWeights",
     "component": null,
     "tokenLevel": "reference"
   },
   {
-    "name": "font-weight-bold",
+    "name": "font-weights-bold",
     "value": "700",
     "property": "bold",
-    "category": "fontWeight",
+    "category": "fontWeights",
     "component": null,
     "tokenLevel": "reference"
   },
@@ -3314,5 +3305,14 @@
     "category": "spacing",
     "component": null,
     "tokenLevel": "reference"
+  },
+  {
+    "name": "shadow-overlay",
+    "value": " 0px 4px 4px 1px rgba(0, 0, 0, 0.45)",
+    "description": "Drop shadow for overlays like Dialogs and overlay panels",
+    "category": "boxShadow",
+    "component": "shadow",
+    "referenceToken": "color-palette-neutral-1000",
+    "tokenLevel": "component"
   }
 ]

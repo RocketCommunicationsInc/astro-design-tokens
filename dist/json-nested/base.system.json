@@ -1,0 +1,65 @@
+{
+  "opacity": {
+    "disabled": "40%"
+  },
+  "color": {
+    "background": {
+      "base": {
+        "default": "#101923",
+        "header": "#172635",
+        "hover": "#142435",
+        "selected": "#1c3f5e"
+      },
+      "surface": {
+        "default": "#1b2d3e",
+        "header": "#172635",
+        "hover": "#1c3851",
+        "selected": "#1c3f5e"
+      },
+      "interactive": {
+        "default": "#4dacff",
+        "hover": "#92cbff"
+      }
+    },
+    "text": {
+      "primary": "#ffffff",
+      "secondary": "#d4d8dd",
+      "placeholder": "#a4abb6",
+      "inverse": "#080c11",
+      "interactive": {
+        "default": "#4dacff",
+        "hover": "#92cbff"
+      },
+      "white": "#ffffff",
+      "black": "#000000",
+      "error": "#ff3838"
+    },
+    "border": {
+      "interactive": {
+        "default": "#4dacff",
+        "hover": "#92cbff",
+        "muted": "#2b659b"
+      },
+      "error": "#ff3838"
+    },
+    "status": {
+      "critical": "#ff3838",
+      "serious": "#ffb302",
+      "caution": "#fce83a",
+      "normal": "#56f000",
+      "standby": "#64d9ff",
+      "off": "#a4abb6"
+    },
+    "classification": {
+      "topsecretsci": "#fce83a",
+      "topsecret": "#ff8c00",
+      "secret": "#c8102e",
+      "confidential": "#0033a0",
+      "cui": "#502b85",
+      "unclassified": "#007a33"
+    }
+  },
+  "shadow": {
+    "overlay": " 0px 4px 4px 1px rgba(0, 0, 0, 0.45)"
+  }
+}
