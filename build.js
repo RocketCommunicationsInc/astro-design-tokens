@@ -337,10 +337,6 @@ styleDictionary.extend({
   ],
 
   platforms: {
-    // iosColors: Object.assign(iosColors, {
-    //   mode: `dark`,
-    //   library: 'core'
-    // }),
     scss: {
       transformGroup: "custom/scss",
       buildPath: "dist/scss/",
@@ -349,16 +345,25 @@ styleDictionary.extend({
           destination: "_colors-dark.scss",
           format: "scss/variables",
           filter: "color/theme",
+          options: {
+            showFileHeader: false,
+          },
         },
         {
           destination: "_colors-global.scss",
           format: "scss/variables",
           filter: "color/global",
+          options: {
+            showFileHeader: false,
+          },
         },
         {
           destination: "_variables.scss",
           format: "scss/variables",
           filter: "notColor",
+          options: {
+            showFileHeader: false,
+          },
         },
       ],
     },
@@ -371,7 +376,7 @@ styleDictionary.extend({
           format: "css/variables",
           filter: "notColor",
           options: {
-            // showFileHeader: true,
+            showFileHeader: false,
             outputReferences: true,
           },
         },
@@ -381,7 +386,7 @@ styleDictionary.extend({
           filter: "color/theme",
           options: {
             selector: "@mixin root-variables",
-            // showFileHeader: true,
+            showFileHeader: false,
             outputReferences: true,
           },
         },
@@ -390,7 +395,7 @@ styleDictionary.extend({
           format: "css/variables",
           filter: "color/global",
           options: {
-            // showFileHeader: true,
+            showFileHeader: false,
             outputReferences: true,
           },
         },
@@ -406,7 +411,7 @@ styleDictionary.extend({
           filter: "notColor",
           options: {
             selector: ':where(:root)',
-            // showFileHeader: true,
+            showFileHeader: false,
             outputReferences: true,
           },
         },
@@ -416,7 +421,7 @@ styleDictionary.extend({
           filter: "color/theme",
           options: {
             selector: ':where(:root)',
-            // showFileHeader: true,
+            showFileHeader: false,
             outputReferences: true,
           },
         },
@@ -426,7 +431,7 @@ styleDictionary.extend({
           filter: "color/global",
           options: {
             selector: ':where(:root)',
-            // showFileHeader: true,
+            showFileHeader: false,
             outputReferences: true,
           },
         },
@@ -439,6 +444,9 @@ styleDictionary.extend({
         {
           destination: "styles.json",
           format: "json/flat",
+          options: {
+            showFileHeader: false,
+          }
         }
       ],
     },
@@ -449,6 +457,9 @@ styleDictionary.extend({
         {
           destination: "styles.json",
           format: "json/nested",
+          options: {
+            showFileHeader: false,
+          }
         }
       ],
     },
@@ -459,6 +470,9 @@ styleDictionary.extend({
         {
           destination: "docs.json",
           format: "docs",
+          options: {
+            showFileHeader: false,
+          }
         }
       ],
     }
@@ -490,7 +504,7 @@ styleDictionary.extend({
           format: "css/typographyClasses",
           filter: (token) => token.type === "typography",
           options: {
-          //   showFileHeader: true,
+            showFileHeader: false,
             // outputReferences: false,
           },
         },
@@ -522,6 +536,9 @@ styleDictionary.extend({
           destination: "_colors-light.scss",
           format: "scss/variables",
           filter: "color/theme",
+          options: {
+            showFileHeader: false,
+          },
         }
       ],
     },
@@ -535,7 +552,7 @@ styleDictionary.extend({
           filter: "color/theme",
           options: {
             selector: ".light-theme",
-            // showFileHeader: true,
+            showFileHeader: false,
             outputReferences: true,
           }
         }
@@ -551,7 +568,7 @@ styleDictionary.extend({
           filter: "color/theme",
           options: {
             selector: ".light-theme",
-            // showFileHeader: true,
+            showFileHeader: false,
             outputReferences: true,
           }
         }
@@ -564,6 +581,9 @@ styleDictionary.extend({
         {
           destination: "styles.json",
           format: "json/flat",
+          options: {
+            showFileHeader: false,
+          },
         }
       ],
     },
@@ -574,6 +594,9 @@ styleDictionary.extend({
         {
           destination: "styles.json",
           format: "json/nested",
+          options: {
+            showFileHeader: false,
+          },
         }
       ],
     },
@@ -584,6 +607,9 @@ styleDictionary.extend({
         {
           destination: "docs-light.json",
           format: "docs",
+          options: {
+            showFileHeader: false,
+          },
         }
       ]
     }

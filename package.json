@@ -12,7 +12,7 @@
     "pretransform": "node scripts/pretransform.js",
     "transform.light": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.light.json reference,dark,light reference --expandTypography --preserveRawValue=true",
     "transform.ios-light": "node_modules/.bin/token-transformer data/tokens.json tokens/ios-light.json reference,dark,ios-light --expandTypography --preserveRawValue=true",
-    "transform.ios-dark": "node_modules/.bin/token-transformer data/tokens.json tokens/ios.json reference,dark,ios-dark  -expandTypography --preserveRawValue=true",
+    "transform.ios-dark": "node_modules/.bin/token-transformer data/tokens.json tokens/ios.json reference,dark,ios-dark --expandTypography --preserveRawValue=true",
     "transform": "node_modules/.bin/token-transformer data/tokens.json tokens/tokens.json reference,dark --expandTypography --preserveRawValue=true",
     "transform.refs": "node_modules/.bin/token-transformer data/tokens.json tokens/reference.json reference --preserveRawValue=true",
     "make": "npm run transform && npm run transform.light && npm run transform.ios-light && npm run transform.ios-dark && npm run transform.refs && node scripts/posttransform.js && npm run build",
