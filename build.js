@@ -259,7 +259,7 @@ styleDictionary.extend({
       buildPath: "dist/scss-map-flat/",
       files: [
         {
-          destination: "reference.scss",
+          destination: "base.reference.scss",
           format: "scss/map-flat",
           filter: (token) => token.filePath.includes('base.reference'),
           mapName: 'reference',
@@ -268,7 +268,7 @@ styleDictionary.extend({
           }
         },
         {
-          destination: "system.scss",
+          destination: "base.system.scss",
           format: "scss/map-flat",
           filter: (token) => token.filePath.includes('base.system'),
           mapName: 'system',
@@ -277,7 +277,7 @@ styleDictionary.extend({
           }
         },
         {
-          destination: "component.scss",
+          destination: "base.component.scss",
           format: "scss/map-flat",
           filter: (token) => token.filePath.includes('base.component'),
           mapName: 'component',
@@ -292,7 +292,7 @@ styleDictionary.extend({
       buildPath: "dist/scss/",
       files: [
         {
-          destination: "reference.scss",
+          destination: "base.reference.scss",
           format: "scss/variables",
           filter: (token) => token.filePath.includes('base.reference'),
           mapName: 'reference',
@@ -301,7 +301,7 @@ styleDictionary.extend({
           }
         },
         {
-          destination: "system.scss",
+          destination: "base.system.scss",
           format: "scss/variables",
           filter: (token) => token.filePath.includes('base.system'),
           mapName: 'system',
@@ -310,7 +310,7 @@ styleDictionary.extend({
           }
         },
         {
-          destination: "component.scss",
+          destination: "base.component.scss",
           format: "scss/variables",
           filter: (token) => token.filePath.includes('base.component'),
           mapName: 'component',
@@ -495,7 +495,7 @@ styleDictionary.extend({
       buildPath: "dist/scss/",
       files: [
         {
-          destination: "theme-light.scss",
+          destination: "theme.light.scss",
           format: "scss/variables",
           filter: (token) => token.filePath.includes('light'),
           options: {
@@ -509,7 +509,7 @@ styleDictionary.extend({
       buildPath: "dist/json/",
       files: [
         {
-          destination: "theme-light.json",
+          destination: "theme.light.json",
           format: "json/flat",
           filter: (token) => token.filePath.includes('light'),
           options: {
@@ -523,7 +523,7 @@ styleDictionary.extend({
       buildPath: "dist/json-nested/",
       files: [
         {
-          destination: "theme-light.json",
+          destination: "theme.light.json",
           format: "json/nested",
           filter: (token) => token.filePath.includes('light'),
           options: {
