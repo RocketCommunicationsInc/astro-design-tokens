@@ -36,4 +36,4 @@ const populateLightThemeDescriptions = async () => {
 }
 
 console.log(chalk.bgBlue.underline('Fixing Descriptions...'))
-populateLightThemeDescriptions()
+// populateLightThemeDescriptions()

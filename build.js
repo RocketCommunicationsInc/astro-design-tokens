@@ -26,42 +26,6 @@ StyleDictionary.registerFilter({
   },
 });
 
-StyleDictionary.registerFormat({
-  name: `darkColorFormatterSass`,
-  formatter: function (format) {
-    const dictionary = Object.assign({}, format.dictionary);
-    // Override each token's `value` with `darkValue`
-    dictionary.allProperties = dictionary.allProperties.map((token) => {
-      if (token.attributes.type === "dark") {
-        token.name = token.name.replace("dark-", "");
-        return token;
-      } else if (token.attributes.type === "light") {
-        token.name = token.name.replace("light-", "");
-        return token;
-      } else {
-        return token;
-      }
-    });
-
-    // Use the built-in format but with our customized dictionary object
-    // so it will output the darkValue instead of the value
-    return StyleDictionary.format["scss/variables"]({ ...format, dictionary });
-
-    // return dictionary.allTokens.map(token => {
-    //   let value = JSON.stringify(token.value);
-    //   if (dictionary.usesReference(token.original.value)) {
-    //     const refs = dictionary.getReferences(token.original.value);
-    //     refs.forEach(ref => {
-    //       value = value.replace(ref.value, function() {
-    //         return `${ref.name}`;
-    //       });
-    //     });
-    //   }
-    //   return `export const ${token.name} = ${value};`
-    // }).join(`\n`)
-  },
-});
-
 const isTypographyToken = (token) => {
   const typographyCategories = [
     'heading',
@@ -223,41 +187,7 @@ StyleDictionary.registerFormat({
   },
 });
 
-StyleDictionary.registerFormat({
-  name: `darkColorFormatter`,
-  formatter: function (format) {
-    const dictionary = Object.assign({}, format.dictionary);
-    // Override each token's `value` with `darkValue`
-    dictionary.allProperties = dictionary.allProperties.map((token) => {
-      if (token.attributes.type === "dark") {
-        token.name = token.name.replace("dark-", "");
-        return token;
-      } else if (token.attributes.type === "light") {
-        token.name = token.name.replace("light-", "");
-        return token;
-      } else {
-        return token;
-      }
-    });
 
-    // Use the built-in format but with our customized dictionary object
-    // so it will output the darkValue instead of the value
-    return StyleDictionary.format["css/variables"]({ ...format, dictionary });
-
-    // return dictionary.allTokens.map(token => {
-    //   let value = JSON.stringify(token.value);
-    //   if (dictionary.usesReference(token.original.value)) {
-    //     const refs = dictionary.getReferences(token.original.value);
-    //     refs.forEach(ref => {
-    //       value = value.replace(ref.value, function() {
-    //         return `${ref.name}`;
-    //       });
-    //     });
-    //   }
-    //   return `export const ${token.name} = ${value};`
-    // }).join(`\n`)
-  },
-});
 
 StyleDictionary.registerTransformGroup({
   name: "custom/css",
@@ -298,17 +228,14 @@ StyleDictionary.registerTransformGroup({
   ]),
 });
 
-// before this runs we should clean the directories we are generating files in
-// to make sure they are ✨clean✨
-console.log(`cleaning ${iosPath}...`);
-fs.removeSync(iosPath);
-
+console.log(`cleaning dist directory...`);
+fs.removeSync('dist/');
 
 const styleDictionary = StyleDictionary.extend({
-  // custom actions
   action: {
     generateColorsets: require('./actions/ios/colorsets'),
     generateFoundationColorsets: require('./actions/ios/foundationcolorsets.js'),
+    createIndex: require('./actions/createIndex')
   },
   format: {
     swiftColor: require('./formats/swiftColor'),
@@ -316,99 +243,92 @@ const styleDictionary = StyleDictionary.extend({
   },
 });
 
-const modes = [`light`, `dark`];
-
 const iosColors = {
   buildPath: iosPath,
-  transforms: [`attribute/cti`,`colorRGB`,`name/ti/camel`],
+  transforms: [`attribute/cti`, `colorRGB`, `name/ti/camel`],
   actions: [`generateColorsets`],
 };
-
-
-
 
 console.log(`\n\n🌙 Building dark mode...`);
 
 styleDictionary.extend({
-  source: [
-    // this is saying find any files in the tokens folder
-    // that does not have .dark or .light, but ends in .json5
-    `tokens/tokens.json`
-  ],
-
+  source: [`test/base.*.json`],
   platforms: {
+    scssFlatMap: {
+      transformGroup: "custom/scss",
+      buildPath: "dist/scss-map-flat/",
+      files: [
+        {
+          destination: "reference.scss",
+          format: "scss/map-flat",
+          filter: (token) => token.filePath.includes('base.reference'),
+          mapName: 'reference',
+          options: {
+            showFileHeader: false,
+          }
+        },
+        {
+          destination: "system.scss",
+          format: "scss/map-flat",
+          filter: (token) => token.filePath.includes('base.system'),
+          mapName: 'system',
+          options: {
+            showFileHeader: false,
+          }
+        },
+        {
+          destination: "component.scss",
+          format: "scss/map-flat",
+          filter: (token) => token.filePath.includes('base.component'),
+          mapName: 'component',
+          options: {
+            showFileHeader: false,
+          }
+        },
+      ],
+    },
     scss: {
       transformGroup: "custom/scss",
       buildPath: "dist/scss/",
       files: [
         {
-          destination: "_colors-dark.scss",
+          destination: "reference.scss",
           format: "scss/variables",
-          filter: "color/theme",
+          filter: (token) => token.filePath.includes('base.reference'),
+          mapName: 'reference',
           options: {
             showFileHeader: false,
-          },
+          }
         },
         {
-          destination: "_colors-global.scss",
+          destination: "system.scss",
           format: "scss/variables",
-          filter: "color/global",
+          filter: (token) => token.filePath.includes('base.system'),
+          mapName: 'system',
           options: {
             showFileHeader: false,
-          },
+          }
         },
         {
-          destination: "_variables.scss",
+          destination: "component.scss",
           format: "scss/variables",
-          filter: "notColor",
+          filter: (token) => token.filePath.includes('base.component'),
+          mapName: 'component',
           options: {
             showFileHeader: false,
-          },
-        },
-      ],
-    },
-    internal: {
-      transformGroup: "custom/css",
-      buildPath: "dist/internal/css/",
-      files: [
-        {
-          destination: "_tokens.scss",
-          format: "css/variables",
-          filter: "notColor",
-          options: {
-            showFileHeader: false,
-            outputReferences: true,
-          },
-        },
-        {
-          destination: "_colors-dark.scss",
-          format: "css/variables",
-          filter: "color/theme",
-          options: {
-            selector: "@mixin root-variables",
-            showFileHeader: false,
-            outputReferences: true,
-          },
-        },
-        {
-          destination: "_colors-global.css",
-          format: "css/variables",
-          filter: "color/global",
-          options: {
-            showFileHeader: false,
-            outputReferences: true,
-          },
+          }
         },
       ],
     },
     css: {
+      actions: ['createIndex'],
       transformGroup: "custom/css",
       buildPath: "dist/css/",
       files: [
         {
-          destination: "_variables.css",
+          destination: "base.reference.css",
           format: "css/variables",
-          filter: "notColor",
+          filter: (token) => token.filePath.includes('base.reference'),
           options: {
             selector: ':where(:root)',
             showFileHeader: false,
@@ -416,9 +336,9 @@ styleDictionary.extend({
           },
         },
         {
-          destination: "_colors-dark.css",
+          destination: "base.system.css",
           format: "css/variables",
-          filter: "color/theme",
+          filter: (token) => token.filePath.includes('base.system'),
           options: {
             selector: ':where(:root)',
             showFileHeader: false,
@@ -426,24 +346,41 @@ styleDictionary.extend({
           },
         },
         {
-          destination: "_colors-global.css",
+          destination: "base.component.css",
           format: "css/variables",
-          filter: "color/global",
+          filter: (token) => token.filePath.includes('base.component'),
           options: {
             selector: ':where(:root)',
             showFileHeader: false,
             outputReferences: true,
           },
-        },
-      ],
+        }
+      ]
     },
     "json-flat": {
       transformGroup: "custom/json",
       buildPath: "dist/json/",
       files: [
         {
-          destination: "styles.json",
+          destination: "base.reference.json",
           format: "json/flat",
+          filter: (token) => token.filePath.includes('base.reference'),
+          options: {
+            showFileHeader: false,
+          }
+        },
+        {
+          destination: "base.system.json",
+          format: "json/flat",
+          filter: (token) => token.filePath.includes('base.system'),
+          options: {
+            showFileHeader: false,
+          }
+        },
+        {
+          destination: "base.component.json",
+          format: "json/flat",
+          filter: (token) => token.filePath.includes('base.component'),
           options: {
             showFileHeader: false,
           }
@@ -455,8 +392,25 @@ styleDictionary.extend({
       buildPath: "dist/json-nested/",
       files: [
         {
-          destination: "styles.json",
+          destination: "base.reference.json",
           format: "json/nested",
+          filter: (token) => token.filePath.includes('base.reference'),
+          options: {
+            showFileHeader: false,
+          }
+        },
+        {
+          destination: "base.system.json",
+          format: "json/nested",
+          filter: (token) => token.filePath.includes('base.system'),
+          options: {
+            showFileHeader: false,
+          }
+        },
+        {
+          destination: "base.component.json",
+          format: "json/nested",
+          filter: (token) => token.filePath.includes('base.component'),
           options: {
             showFileHeader: false,
           }
@@ -480,9 +434,10 @@ styleDictionary.extend({
 }).buildAllPlatforms()
 
 console.log(`\n\n🌙 Building classes...`);
+
 styleDictionary.extend({
   source: [
-    `tokens/reference.json`,
+    `test/extra.typography.json`,
   ],
 
   platforms: {
@@ -505,7 +460,6 @@ styleDictionary.extend({
           filter: (token) => token.type === "typography",
           options: {
             showFileHeader: false,
-            // outputReferences: false,
           },
         },
       ],
@@ -513,63 +467,39 @@ styleDictionary.extend({
   }
 }).buildAllPlatforms()
 
+
 console.log(`☀️ Building light mode...`);
+
 styleDictionary.extend({
-  include: [
-    'tokens/tokens.json'
-  ],
-  source: [
-    // Kind of the opposite of above, this will find any files
-    // that have the file extension .dark.json5
-    'tokens/tokens.light.json'
-  ],
+  include: ['test/base.*.json'],
+  source: ['test/theme/light.json'],
   platforms: {
-    //   iosColors: Object.assign(iosColors, {
-    //   mode: `light`,
-    //   library: 'core'
-    // }),
-    scss: {
-      transformGroup: "custom/scss",
-      buildPath: "dist/scss/",
-      files: [
-        {
-          destination: "_colors-light.scss",
-          format: "scss/variables",
-          filter: "color/theme",
-          options: {
-            showFileHeader: false,
-          },
-        }
-      ],
-    },
-    internal: {
-      transformGroup: "custom/css",
-      buildPath: "dist/internal/css/",
-      files: [
-        {
-          destination: "_colors-light.css",
-          format: "css/variables",
-          filter: "color/theme",
-          options: {
-            selector: ".light-theme",
-            showFileHeader: false,
-            outputReferences: true,
-          }
-        }
-      ],
-    },
     css: {
       transformGroup: "custom/css",
       buildPath: "dist/css/",
       files: [
         {
-          destination: "_colors-light.css",
+          destination: "theme.light.css",
           format: "css/variables",
-          filter: "color/theme",
+          filter: (token) => token.filePath.includes('light'),
           options: {
-            selector: ".light-theme",
+            selector: '.light-theme',
             showFileHeader: false,
             outputReferences: true,
+          },
+        }
+      ]
+    },
+    scss: {
+      transformGroup: "custom/scss",
+      buildPath: "dist/scss/",
+      files: [
+        {
+          destination: "theme-light.scss",
+          format: "scss/variables",
+          filter: (token) => token.filePath.includes('light'),
+          options: {
+            showFileHeader: false,
           }
         }
       ],
@@ -579,11 +509,12 @@ styleDictionary.extend({
       buildPath: "dist/json/",
       files: [
         {
-          destination: "styles.json",
+          destination: "theme-light.json",
           format: "json/flat",
+          filter: (token) => token.filePath.includes('light'),
           options: {
             showFileHeader: false,
-          },
+          }
         }
       ],
     },
@@ -592,11 +523,12 @@ styleDictionary.extend({
       buildPath: "dist/json-nested/",
       files: [
         {
-          destination: "styles.json",
+          destination: "theme-light.json",
           format: "json/nested",
+          filter: (token) => token.filePath.includes('light'),
           options: {
             showFileHeader: false,
-          },
+          }
         }
       ],
     },
@@ -609,7 +541,7 @@ styleDictionary.extend({
           format: "docs",
           options: {
             showFileHeader: false,
-          },
+          }
         }
       ]
     }
@@ -618,57 +550,43 @@ styleDictionary.extend({
   .buildAllPlatforms();
 
 
-  console.log(`☀️ Building ios light mode...`);
-  styleDictionary.extend({
-    source: [
-      // this is saying find any files in the tokens folder
-      // that does not have .dark or .light, but ends in .json5
-      `tokens/ios.json`
-    ],
-  
-    platforms: {
-      iosColors: Object.assign({}, {
-        ...iosColors,
-        mode: `dark`,
-        library: 'core'
-      }),
-      iosColorsFoundation: Object.assign({}, {
-        ...iosColors,
-        actions: ['generateFoundationColorsets'],
-        mode: `dark`,
-        library: 'foundation'
-      }),
+console.log(`☀️ Building ios light mode...`);
+styleDictionary.extend({
+  source: [`test/ios/base.json`],
+  platforms: {
+    iosColors: Object.assign({}, {
+      ...iosColors,
+      mode: `dark`,
+      library: 'core'
+    }),
+    iosColorsFoundation: Object.assign({}, {
+      ...iosColors,
+      actions: ['generateFoundationColorsets'],
+      mode: `dark`,
+      library: 'foundation'
+    }),
+  }
+}).buildAllPlatforms()
 
 
-    }
-  }).buildAllPlatforms()
-  
+console.log(`☀️ Building ios dark mode...`);
 
-  console.log(`☀️ Building ios dark mode...`);
-  styleDictionary.extend({
-    include: [
-      // this is the same as the source in light/default above
-      `tokens/ios.json`
-    ],
-    source: [
-      // Kind of the opposite of above, this will find any files
-      // that have the file extension .dark.json5
-      'tokens/ios-light.json'
-    ],
-    platforms: {
-      iosColors: Object.assign({}, {
-        ...iosColors,
-        mode: `light`,
-        library: 'core'
-      }),
-      iosColorsFoundation: Object.assign({}, {
-        ...iosColors,
-        actions: ['generateFoundationColorsets'],
-        mode: `light`,
-        library: 'foundation'
-      }),
+styleDictionary.extend({
+  include: [`test/ios/base.json`],
+  source: ['test/ios/light.json'],
+  platforms: {
+    iosColors: Object.assign({}, {
+      ...iosColors,
+      mode: `light`,
+      library: 'core'
+    }),
+    iosColorsFoundation: Object.assign({}, {
+      ...iosColors,
+      actions: ['generateFoundationColorsets'],
+      mode: `light`,
+      library: 'foundation'
+    }),
 
-    }
-  })
-    .buildAllPlatforms();
-  
+  }
+})
+  .buildAllPlatforms();
