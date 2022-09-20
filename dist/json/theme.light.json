@@ -21,8 +21,10 @@
   "color-text-inverse": "#ffffff",
   "color-text-interactive-default": "#005a8f",
   "color-text-interactive-hover": "#004872",
+  "color-text-error": "#c8102e",
   "color-border-interactive-default": "#005a8f",
   "color-border-interactive-hover": "#004872",
-  "color-border-interactive-muted": "#649cbd",
+  "color-border-interactive-muted": "#2f7aa7",
+  "color-border-error": "#c8102e",
   "shadow-overlay": " 0px 4px 4px 1px rgba(0, 0, 0, 0.35)"
 }

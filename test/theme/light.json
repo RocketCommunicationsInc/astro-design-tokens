@@ -106,6 +106,12 @@
           "description": "The hover color used for interactive text elements. ",
           "rawValue": "{color.palette.darkblue.600}"
         }
+      },
+      "error": {
+        "value": "#c8102e",
+        "type": "color",
+        "description": "The text color used for form error messages.",
+        "rawValue": "{color.palette.red.700}"
       }
     },
     "border": {
@@ -123,11 +129,17 @@
           "rawValue": "{color.palette.darkblue.600}"
         },
         "muted": {
-          "value": "#649cbd",
+          "value": "#2f7aa7",
           "type": "color",
           "description": "A muted version of the primary color used for the border of interactive elements that don't need to be as strong as the primary color.",
-          "rawValue": "{color.palette.darkblue.300}"
+          "rawValue": "{color.palette.darkblue.400}"
         }
+      },
+      "error": {
+        "value": "#c8102e",
+        "type": "color",
+        "description": "The border color used for form error borders.",
+        "rawValue": "{color.palette.red.700}"
       }
     }
   },

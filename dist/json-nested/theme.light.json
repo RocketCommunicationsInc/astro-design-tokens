@@ -48,14 +48,16 @@
       "interactive": {
         "default": "#005a8f",
         "hover": "#004872"
-      }
+      },
+      "error": "#c8102e"
     },
     "border": {
       "interactive": {
         "default": "#005a8f",
         "hover": "#004872",
-        "muted": "#649cbd"
-      }
+        "muted": "#2f7aa7"
+      },
+      "error": "#c8102e"
     }
   },
   "shadow": {

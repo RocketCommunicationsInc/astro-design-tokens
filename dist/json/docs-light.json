@@ -1547,12 +1547,12 @@
   },
   {
     "name": "color-text-error",
-    "value": "#ff3838",
+    "value": "#c8102e",
     "description": "The text color used for form error messages.",
     "property": "text",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-red-500",
+    "referenceToken": "color-palette-red-700",
     "tokenLevel": "system"
   },
   {
@@ -1577,22 +1577,22 @@
   },
   {
     "name": "color-border-interactive-muted",
-    "value": "#649cbd",
+    "value": "#2f7aa7",
     "description": "A muted version of the primary color used for the border of interactive elements that don't need to be as strong as the primary color.",
     "property": "border",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-darkblue-300",
+    "referenceToken": "color-palette-darkblue-400",
     "tokenLevel": "system"
   },
   {
     "name": "color-border-error",
-    "value": "#ff3838",
+    "value": "#c8102e",
     "description": "The border color used for form error borders.",
     "property": "border",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-red-500",
+    "referenceToken": "color-palette-red-700",
     "tokenLevel": "system"
   },
   {
