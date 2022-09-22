@@ -252,7 +252,7 @@ const iosColors = {
 console.log(`\n\n🌙 Building dark mode...`);
 
 styleDictionary.extend({
-  source: [`test/base.*.json`],
+  source: [`tokens/base.*.json`],
   platforms: {
     scssFlatMap: {
       transformGroup: "custom/scss",
@@ -437,7 +437,7 @@ console.log(`\n\n🌙 Building classes...`);
 
 styleDictionary.extend({
   source: [
-    `test/extra.typography.json`,
+    `tokens/extra.typography.json`,
   ],
 
   platforms: {
@@ -471,8 +471,8 @@ styleDictionary.extend({
 console.log(`☀️ Building light mode...`);
 
 styleDictionary.extend({
-  include: ['test/base.*.json'],
-  source: ['test/theme/light.json'],
+  include: ['tokens/base.*.json'],
+  source: ['tokens/theme/light.json'],
   platforms: {
     css: {
       transformGroup: "custom/css",
@@ -552,7 +552,7 @@ styleDictionary.extend({
 
 console.log(`☀️ Building ios light mode...`);
 styleDictionary.extend({
-  source: [`test/ios/base.json`],
+  source: [`tokens/ios/base.json`],
   platforms: {
     iosColors: Object.assign({}, {
       ...iosColors,
@@ -572,8 +572,8 @@ styleDictionary.extend({
 console.log(`☀️ Building ios dark mode...`);
 
 styleDictionary.extend({
-  include: [`test/ios/base.json`],
-  source: ['test/ios/light.json'],
+  include: [`tokens/ios/base.json`],
+  source: ['tokens/ios/light.json'],
   platforms: {
     iosColors: Object.assign({}, {
       ...iosColors,
