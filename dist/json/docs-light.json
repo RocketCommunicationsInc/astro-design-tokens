@@ -385,7 +385,7 @@
   },
   {
     "name": "scrollbar-shadow-inner-vertical",
-    "value": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.5)",
+    "value": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.25)",
     "description": "Inner shadow for vertical scrollbars",
     "property": "inner",
     "category": "boxShadow",
@@ -430,33 +430,33 @@
     "tokenLevel": "component"
   },
   {
-    "name": "tag-shadow-inner-normal",
-    "value": "inset 0px 0px 5px 0px rgb(86, 240, 0)",
-    "description": "Inner shadow for normal status Tags",
+    "name": "tag-shadow-inner-pass",
+    "value": "inset 0px 0px 5px 0px rgb(0, 226, 0)",
+    "description": "inner shadow for pass status tags",
     "property": "inner",
     "category": "boxShadow",
     "component": "tag",
-    "referenceToken": "status-symbol-color-fill-normal-on-dark",
+    "referenceToken": "status-symbol-color-fill-normal-on-light",
     "tokenLevel": "component"
   },
   {
-    "name": "tag-shadow-inner-critical",
-    "value": "inset 0px 0px 5px 0px rgb(255, 56, 56)",
-    "description": "Inner shadow for critical status Tags",
+    "name": "tag-shadow-inner-fail",
+    "value": "inset 0px 0px 5px 0px rgb(255, 42, 4)",
+    "description": "inner shadow for fail status tags",
     "property": "inner",
     "category": "boxShadow",
     "component": "tag",
-    "referenceToken": "status-symbol-color-fill-critical-on-dark",
+    "referenceToken": "status-symbol-color-fill-critical-on-light",
     "tokenLevel": "component"
   },
   {
-    "name": "tag-shadow-inner-off",
-    "value": "inset 0px 0px 5px 0px rgb(164, 171, 182)",
-    "description": "Inner shadow for off status Tags",
+    "name": "tag-shadow-inner-unknown",
+    "value": "inset 0px 0px 5px 0px rgb(123, 128, 137)",
+    "description": "inner shadow for unknown status tags",
     "property": "inner",
     "category": "boxShadow",
     "component": "tag",
-    "referenceToken": "status-symbol-color-fill-off-on-dark",
+    "referenceToken": "status-symbol-color-fill-off-on-light",
     "tokenLevel": "component"
   },
   {
@@ -505,6 +505,15 @@
     "component": "menu",
     "referenceToken": "color-palette-grey-700",
     "tokenLevel": "component"
+  },
+  {
+    "name": "opacity-25",
+    "value": "25%",
+    "description": "used in drop shadow for scrollbars in light theme ",
+    "property": "25",
+    "category": "opacity",
+    "component": null,
+    "tokenLevel": "reference"
   },
   {
     "name": "opacity-35",

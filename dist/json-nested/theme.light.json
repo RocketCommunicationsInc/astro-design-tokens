@@ -16,8 +16,17 @@
   "scrollbar": {
     "shadow": {
       "inner": {
-        "vertical": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.5)",
+        "vertical": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.25)",
         "horizontal": "inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5)"
+      }
+    }
+  },
+  "tag": {
+    "shadow": {
+      "inner": {
+        "pass": "inset 0px 0px 5px 0px rgb(0, 226, 0)",
+        "fail": "inset 0px 0px 5px 0px rgb(255, 42, 4)",
+        "unknown": "inset 0px 0px 5px 0px rgb(123, 128, 137)"
       }
     }
   },

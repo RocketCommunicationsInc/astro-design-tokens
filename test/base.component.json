@@ -370,7 +370,7 @@
   "tag": {
     "shadow": {
       "inner": {
-        "normal": {
+        "pass": {
           "value": {
             "x": 0,
             "y": 0,
@@ -379,7 +379,7 @@
             "color": "#56f000",
             "type": "innerShadow"
           },
-          "description": "Inner shadow for normal status Tags",
+          "description": "Inner shadow for pass status Tags",
           "type": "boxShadow",
           "rawValue": {
             "x": "0",
@@ -390,7 +390,7 @@
             "type": "innerShadow"
           }
         },
-        "critical": {
+        "fail": {
           "value": {
             "x": 0,
             "y": 0,
@@ -399,7 +399,7 @@
             "color": "#ff3838",
             "type": "innerShadow"
           },
-          "description": "Inner shadow for critical status Tags",
+          "description": "Inner shadow for fail status Tags",
           "type": "boxShadow",
           "rawValue": {
             "x": "0",
@@ -410,7 +410,7 @@
             "type": "innerShadow"
           }
         },
-        "off": {
+        "unknown": {
           "value": {
             "x": 0,
             "y": 0,
@@ -419,7 +419,7 @@
             "color": "#a4abb6",
             "type": "innerShadow"
           },
-          "description": "Inner shadow for off status Tags",
+          "description": "Inner shadow for unknown status Tags",
           "type": "boxShadow",
           "rawValue": {
             "x": "0",

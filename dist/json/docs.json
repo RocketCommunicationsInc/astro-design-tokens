@@ -430,9 +430,9 @@
     "tokenLevel": "component"
   },
   {
-    "name": "tag-shadow-inner-normal",
+    "name": "tag-shadow-inner-pass",
     "value": "inset 0px 0px 5px 0px rgb(86, 240, 0)",
-    "description": "Inner shadow for normal status Tags",
+    "description": "Inner shadow for pass status Tags",
     "property": "inner",
     "category": "boxShadow",
     "component": "tag",
@@ -440,9 +440,9 @@
     "tokenLevel": "component"
   },
   {
-    "name": "tag-shadow-inner-critical",
+    "name": "tag-shadow-inner-fail",
     "value": "inset 0px 0px 5px 0px rgb(255, 56, 56)",
-    "description": "Inner shadow for critical status Tags",
+    "description": "Inner shadow for fail status Tags",
     "property": "inner",
     "category": "boxShadow",
     "component": "tag",
@@ -450,9 +450,9 @@
     "tokenLevel": "component"
   },
   {
-    "name": "tag-shadow-inner-off",
+    "name": "tag-shadow-inner-unknown",
     "value": "inset 0px 0px 5px 0px rgb(164, 171, 182)",
-    "description": "Inner shadow for off status Tags",
+    "description": "Inner shadow for unknown status Tags",
     "property": "inner",
     "category": "boxShadow",
     "component": "tag",
@@ -505,6 +505,15 @@
     "component": "menu",
     "referenceToken": "color-palette-grey-700",
     "tokenLevel": "component"
+  },
+  {
+    "name": "opacity-25",
+    "value": "25%",
+    "description": "used in drop shadow for scrollbars in light theme ",
+    "property": "25",
+    "category": "opacity",
+    "component": null,
+    "tokenLevel": "reference"
   },
   {
     "name": "opacity-35",

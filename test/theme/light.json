@@ -152,7 +152,7 @@
             "y": 3,
             "blur": 3,
             "spread": 0,
-            "color": "#00000080",
+            "color": "#00000040",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -162,7 +162,7 @@
             "y": "3",
             "blur": "3",
             "spread": "0",
-            "color": "rgba({color.palette.neutral.1000}, {opacity.50})",
+            "color": "rgba({color.palette.neutral.1000}, {opacity.25})",
             "type": "innerShadow"
           }
         },
@@ -246,6 +246,72 @@
         "type": "color",
         "description": "The primary text color used within the Global Status Bar.",
         "rawValue": "{color.palette.neutral.000}"
+      }
+    }
+  },
+  "tag": {
+    "shadow": {
+      "inner": {
+        "pass": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#00e200",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "inner shadow for pass status tags",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{status-symbol.color.fill.normal.on-light}",
+            "type": "innerShadow"
+          }
+        },
+        "fail": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#ff2a04",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "inner shadow for fail status tags",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{status-symbol.color.fill.critical.on-light}",
+            "type": "innerShadow"
+          }
+        },
+        "unknown": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 5,
+            "spread": 0,
+            "color": "#7b8089",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "inner shadow for unknown status tags",
+          "rawValue": {
+            "x": "0",
+            "y": "0",
+            "blur": "5",
+            "spread": "0",
+            "color": "{status-symbol.color.fill.off.on-light}",
+            "type": "innerShadow"
+          }
+        }
       }
     }
   }
