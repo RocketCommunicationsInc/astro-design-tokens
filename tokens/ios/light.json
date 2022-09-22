@@ -1462,19 +1462,9 @@
       "value": "Roboto",
       "type": "fontFamilies",
       "rawValue": "Roboto"
-    },
-    "mono": {
-      "value": "Roboto Mono",
-      "type": "fontFamilies",
-      "rawValue": "Roboto Mono"
     }
   },
   "lineHeight": {
-    "0": {
-      "value": "AUTO",
-      "type": "lineHeights",
-      "rawValue": "AUTO"
-    },
     "2xs": {
       "value": "14px",
       "type": "lineHeights",

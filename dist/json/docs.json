@@ -1787,22 +1787,6 @@
     "tokenLevel": "reference"
   },
   {
-    "name": "font-family-mono",
-    "value": "'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-    "property": "mono",
-    "category": "fontFamilies",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "line-height-0",
-    "value": "AUTO",
-    "property": "0",
-    "category": "lineHeights",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
     "name": "line-height-2xs",
     "value": "0.875rem",
     "description": "Extra Small",

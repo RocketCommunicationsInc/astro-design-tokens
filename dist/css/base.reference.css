@@ -187,8 +187,6 @@
   --line-height-sm: 1.25rem;
   --line-height-xs: 1rem;
   --line-height-2xs: 0.875rem;
-  --line-height-0: AUTO;
-  --font-family-mono: 'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   --font-family-sans: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   --radius-circle: 50%;
   --radius-base: 3px;

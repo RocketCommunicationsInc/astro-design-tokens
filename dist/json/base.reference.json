@@ -111,8 +111,6 @@
   "radius-base": "3px",
   "radius-circle": "50%",
   "font-family-sans": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-  "font-family-mono": "'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-  "line-height-0": "AUTO",
   "line-height-2xs": "0.875rem",
   "line-height-xs": "1rem",
   "line-height-sm": "1.25rem",
