@@ -262,7 +262,7 @@
             "type": "innerShadow"
           },
           "type": "boxShadow",
-          "description": "inner shadow for pass status tags",
+          "description": "Inner shadow for Pass status Tags",
           "rawValue": {
             "x": "0",
             "y": "0",
@@ -282,7 +282,7 @@
             "type": "innerShadow"
           },
           "type": "boxShadow",
-          "description": "inner shadow for fail status tags",
+          "description": "Inner shadow for Fail status Tags",
           "rawValue": {
             "x": "0",
             "y": "0",
@@ -302,7 +302,7 @@
             "type": "innerShadow"
           },
           "type": "boxShadow",
-          "description": "inner shadow for unknown status tags",
+          "description": "Inner shadow for Unknown status Tags",
           "rawValue": {
             "x": "0",
             "y": "0",

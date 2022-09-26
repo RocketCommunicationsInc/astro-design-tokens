@@ -432,7 +432,7 @@
   {
     "name": "tag-shadow-inner-pass",
     "value": "inset 0px 0px 5px 0px rgb(0, 226, 0)",
-    "description": "inner shadow for pass status tags",
+    "description": "Inner shadow for Pass status Tags",
     "property": "inner",
     "category": "boxShadow",
     "component": "tag",
@@ -442,7 +442,7 @@
   {
     "name": "tag-shadow-inner-fail",
     "value": "inset 0px 0px 5px 0px rgb(255, 42, 4)",
-    "description": "inner shadow for fail status tags",
+    "description": "Inner shadow for Fail status Tags",
     "property": "inner",
     "category": "boxShadow",
     "component": "tag",
@@ -452,7 +452,7 @@
   {
     "name": "tag-shadow-inner-unknown",
     "value": "inset 0px 0px 5px 0px rgb(123, 128, 137)",
-    "description": "inner shadow for unknown status tags",
+    "description": "Inner shadow for Unknown status Tags",
     "property": "inner",
     "category": "boxShadow",
     "component": "tag",

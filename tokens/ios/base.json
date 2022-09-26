@@ -478,7 +478,7 @@
             "color": "#56f000",
             "type": "innerShadow"
           },
-          "description": "Inner shadow for pass status Tags",
+          "description": "Inner shadow for Pass status Tags",
           "type": "boxShadow",
           "rawValue": {
             "x": "0",
@@ -498,7 +498,7 @@
             "color": "#ff3838",
             "type": "innerShadow"
           },
-          "description": "Inner shadow for fail status Tags",
+          "description": "Inner shadow for Fail status Tags",
           "type": "boxShadow",
           "rawValue": {
             "x": "0",
@@ -518,7 +518,7 @@
             "color": "#a4abb6",
             "type": "innerShadow"
           },
-          "description": "Inner shadow for unknown status Tags",
+          "description": "Inner shadow for Unknown status Tags",
           "type": "boxShadow",
           "rawValue": {
             "x": "0",

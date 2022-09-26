@@ -1,7 +1,5 @@
 # Astro UXDS Design Tokens
 
-> This repo is currently in beta and under heavy development. **Do not use in production**. Token names ma y change or be removed without any warning. Viewer discretion is advised.
-
 This package includes all of [AstroUXDS's](https://www.astrouxds.com/) design tokens in various different formats for you to consume in your applications.
 
 ## Documentation
@@ -10,7 +8,7 @@ This package includes all of [AstroUXDS's](https://www.astrouxds.com/) design to
 
 ## Installation
 
-`npm i @astrouxds/design-tokens@beta`
+`npm i @astrouxds/tokens`
 
 ### Structure
 
@@ -28,46 +26,45 @@ Each export target has the following files:
 
 ### CSS Custom Properties
 
-`@import "node_modules/@astrouxds/design-tokens/dist/css/index.css";`
+`@import "node_modules/@astrouxds/tokens/dist/css/index.css";`
 
 or
 
 ```css
-@import "node_modules/@astrouxds/design-tokens/dist/css/base.reference.css";
-@import "node_modules/@astrouxds/design-tokens/dist/css/base.system.css";
-@import "node_modules/@astrouxds/design-tokens/dist/css/base.component.css";
+@import "node_modules/@astrouxds/tokens/dist/css/base.reference.css";
+@import "node_modules/@astrouxds/tokens/dist/css/base.system.css";
+@import "node_modules/@astrouxds/tokens/dist/css/base.component.css";
 ```
 
 ### Light Theme Class
 
-`@import "node_modules/@astrouxds/design-tokens/dist/css/theme.light.css";`
+`@import "node_modules/@astrouxds/tokens/dist/css/theme.light.css";`
 
 A `light-theme` class that includes Astro's light theme.
 
 ### Typography Utility Classes
 
-`@import "node_modules/@astrouxds/design-tokens/dist/css/classes/typography.css";`
+`@import "node_modules/@astrouxds/tokens/dist/css/classes/typography.css";`
 
 A few utility classes for applying Astro typography.
 
 ### SASS
 
 ```css
-@import "node_modules/@astrouxds/design-tokens/dist/scss/base.reference.scss";
-@import "node_modules/@astrouxds/design-tokens/dist/scss/base.system.scss";
-@import "node_modules/@astrouxds/design-tokens/dist/scss/base.component.scss";
+@import "node_modules/@astrouxds/tokens/dist/scss/base.reference.scss";
+@import "node_modules/@astrouxds/tokens/dist/scss/base.system.scss";
+@import "node_modules/@astrouxds/tokens/dist/scss/base.component.scss";
 ```
 
 ### SASS Maps
 
 ```css
-@import "node_modules/@astrouxds/design-tokens/dist/scss-map-flat/base.reference.scss";
-@import "node_modules/@astrouxds/design-tokens/dist/scss-map-flat/base.system.scss";
-@import "node_modules/@astrouxds/design-tokens/dist/scss-map-flat/base.component.scss";
+@import "node_modules/@astrouxds/tokens/dist/scss-map-flat/base.reference.scss";
+@import "node_modules/@astrouxds/tokens/dist/scss-map-flat/base.system.scss";
+@import "node_modules/@astrouxds/tokens/dist/scss-map-flat/base.component.scss";
 ```
 
 
-A few utility classes for applying Astro typography.
   
 ## Pipeline
 
