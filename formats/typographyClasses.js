@@ -8,12 +8,14 @@ module.exports = {
 	name: "css/typographyClasses",
 	formatter: function (dictionary, config) {
 		return (dictionary.allProperties.map((prop) => {
+			const lineHeight = parseFloat(prop.rawValue.lineHeight)
+			const fontSize = parseFloat(prop.rawValue.fontSize)
 			return (`
 				.rux-${prop.name} {
 					font-size: ${convertToVariableIfNeeded(prop.rawValue.fontSize)};
 					font-family: ${convertToVariableIfNeeded(prop.rawValue.fontFamily)};
 					font-weight: ${convertToVariableIfNeeded(prop.rawValue.fontWeight)};
-					line-height: calc(${prop.rawValue.lineHeight} / ${prop.rawValue.fontSize});
+					line-height: calc(${lineHeight} / ${fontSize});
 					letter-spacing: ${convertToVariableIfNeeded(prop.rawValue.letterSpacing)};
 				}
 			`)
