@@ -30,6 +30,30 @@
       }
     }
   },
+  "notification-banner": {
+    "color": {
+      "border": {
+        "inner": {
+          "normal": "#56f000",
+          "caution": "#fce83a",
+          "serious": "#ffb302",
+          "critical": "#ff3838",
+          "standby": "#64d9ff",
+          "off": "#a4abb6",
+          "default": "#005a8f"
+        },
+        "outer": {
+          "normal": "#00e200",
+          "caution": "#fad800",
+          "serious": "#ffaf3d",
+          "critical": "#ff2a04",
+          "standby": "#2dccff",
+          "off": "#7b8089",
+          "default": "#005a8f"
+        }
+      }
+    }
+  },
   "color": {
     "background": {
       "base": {

@@ -314,5 +314,85 @@
         }
       }
     }
+  },
+  "notification-banner": {
+    "color": {
+      "border": {
+        "inner": {
+          "normal": {
+            "value": "#56f000",
+            "type": "color",
+            "rawValue": "{color.status.normal}"
+          },
+          "caution": {
+            "value": "#fce83a",
+            "type": "color",
+            "rawValue": "{color.status.caution}"
+          },
+          "serious": {
+            "value": "#ffb302",
+            "type": "color",
+            "rawValue": "{color.status.serious}"
+          },
+          "critical": {
+            "value": "#ff3838",
+            "type": "color",
+            "rawValue": "{color.status.critical}"
+          },
+          "standby": {
+            "value": "#64d9ff",
+            "type": "color",
+            "rawValue": "{color.status.standby}"
+          },
+          "off": {
+            "value": "#a4abb6",
+            "type": "color",
+            "rawValue": "{color.status.off}"
+          },
+          "default": {
+            "value": "#005a8f",
+            "type": "color",
+            "rawValue": "{color.border.interactive.default}"
+          }
+        },
+        "outer": {
+          "normal": {
+            "value": "#00e200",
+            "type": "color",
+            "rawValue": "{status-symbol.color.fill.normal.on-light}"
+          },
+          "caution": {
+            "value": "#fad800",
+            "type": "color",
+            "rawValue": "{status-symbol.color.fill.caution.on-light}"
+          },
+          "serious": {
+            "value": "#ffaf3d",
+            "type": "color",
+            "rawValue": "{status-symbol.color.fill.serious.on-light}"
+          },
+          "critical": {
+            "value": "#ff2a04",
+            "type": "color",
+            "rawValue": "{status-symbol.color.fill.critical.on-light}"
+          },
+          "standby": {
+            "value": "#2dccff",
+            "type": "color",
+            "rawValue": "{status-symbol.color.fill.standby.on-light}"
+          },
+          "off": {
+            "value": "#7b8089",
+            "type": "color",
+            "rawValue": "{status-symbol.color.fill.off.on-light}"
+          },
+          "default": {
+            "value": "#005a8f",
+            "type": "color",
+            "rawValue": "{color.border.interactive.default}"
+          }
+        }
+      }
+    }
   }
 }

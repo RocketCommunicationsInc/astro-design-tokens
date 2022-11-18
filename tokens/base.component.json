@@ -463,6 +463,84 @@
         "description": "The outer radius of Notification Banner outlines.",
         "rawValue": "{radius.base}"
       }
+    },
+    "color": {
+      "border": {
+        "inner": {
+          "normal": {
+            "value": "#56f000",
+            "type": "color",
+            "rawValue": "{color.status.normal}"
+          },
+          "caution": {
+            "value": "#fce83a",
+            "type": "color",
+            "rawValue": "{color.status.caution}"
+          },
+          "serious": {
+            "value": "#ffb302",
+            "type": "color",
+            "rawValue": "{color.status.serious}"
+          },
+          "critical": {
+            "value": "#ff3838",
+            "type": "color",
+            "rawValue": "{color.status.critical}"
+          },
+          "standby": {
+            "value": "#64d9ff",
+            "type": "color",
+            "rawValue": "{color.status.standby}"
+          },
+          "off": {
+            "value": "#a4abb6",
+            "type": "color",
+            "rawValue": "{color.status.off}"
+          },
+          "default": {
+            "value": "#4dacff",
+            "type": "color",
+            "rawValue": "{color.border.interactive.default}"
+          }
+        },
+        "outer": {
+          "normal": {
+            "value": "#56f000",
+            "type": "color",
+            "rawValue": "{color.status.normal}"
+          },
+          "caution": {
+            "value": "#fce83a",
+            "type": "color",
+            "rawValue": "{color.status.caution}"
+          },
+          "serious": {
+            "value": "#ffb302",
+            "type": "color",
+            "rawValue": "{color.status.serious}"
+          },
+          "critical": {
+            "value": "#ff3838",
+            "type": "color",
+            "rawValue": "{color.status.critical}"
+          },
+          "standby": {
+            "value": "#64d9ff",
+            "type": "color",
+            "rawValue": "{color.status.standby}"
+          },
+          "off": {
+            "value": "#a4abb6",
+            "type": "color",
+            "rawValue": "{color.status.off}"
+          },
+          "default": {
+            "value": "#4dacff",
+            "type": "color",
+            "rawValue": "{color.border.interactive.default}"
+          }
+        }
+      }
     }
   },
   "menu": {
@@ -474,6 +552,37 @@
           "description": "The fill color for menu dividers",
           "rawValue": "{color.palette.grey.700}"
         }
+      }
+    }
+  },
+  "monitoring-icon": {
+    "badge": {
+      "color": {
+        "background": {
+          "value": "#101923",
+          "type": "color",
+          "rawValue": "{color.background.base.default}"
+        }
+      }
+    }
+  },
+  "clock": {
+    "datetime": {
+      "color": {
+        "background": {
+          "value": "#101923",
+          "type": "color",
+          "rawValue": "{color.background.base.default}"
+        }
+      }
+    }
+  },
+  "log": {
+    "color": {
+      "border": {
+        "value": "#000000",
+        "type": "color",
+        "rawValue": "{color.palette.neutral.1000}"
       }
     }
   }
