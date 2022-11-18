@@ -138,6 +138,28 @@
     "radius": {
       "inner": "2px",
       "outer": "3px"
+    },
+    "color": {
+      "border": {
+        "inner": {
+          "normal": "#56f000",
+          "caution": "#fce83a",
+          "serious": "#ffb302",
+          "critical": "#ff3838",
+          "standby": "#64d9ff",
+          "off": "#a4abb6",
+          "default": "#4dacff"
+        },
+        "outer": {
+          "normal": "#56f000",
+          "caution": "#fce83a",
+          "serious": "#ffb302",
+          "critical": "#ff3838",
+          "standby": "#64d9ff",
+          "off": "#a4abb6",
+          "default": "#4dacff"
+        }
+      }
     }
   },
   "menu": {
@@ -145,6 +167,25 @@
       "color": {
         "fill": "#51555b"
       }
+    }
+  },
+  "monitoring-icon": {
+    "badge": {
+      "color": {
+        "background": "#101923"
+      }
+    }
+  },
+  "clock": {
+    "datetime": {
+      "color": {
+        "background": "#101923"
+      }
+    }
+  },
+  "log": {
+    "color": {
+      "border": "#000000"
     }
   }
 }

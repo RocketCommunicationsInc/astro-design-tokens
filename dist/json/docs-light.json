@@ -497,6 +497,132 @@
     "tokenLevel": "component"
   },
   {
+    "name": "notification-banner-color-border-inner-normal",
+    "value": "#56f000",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-normal",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-inner-caution",
+    "value": "#fce83a",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-caution",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-inner-serious",
+    "value": "#ffb302",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-serious",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-inner-critical",
+    "value": "#ff3838",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-critical",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-inner-standby",
+    "value": "#64d9ff",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-standby",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-inner-off",
+    "value": "#a4abb6",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-off",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-inner-default",
+    "value": "#005a8f",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-border-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-outer-normal",
+    "value": "#00e200",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "status-symbol-color-fill-normal-on-light",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-outer-caution",
+    "value": "#fad800",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "status-symbol-color-fill-caution-on-light",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-outer-serious",
+    "value": "#ffaf3d",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "status-symbol-color-fill-serious-on-light",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-outer-critical",
+    "value": "#ff2a04",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "status-symbol-color-fill-critical-on-light",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-outer-standby",
+    "value": "#2dccff",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "status-symbol-color-fill-standby-on-light",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-outer-off",
+    "value": "#7b8089",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "status-symbol-color-fill-off-on-light",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-outer-default",
+    "value": "#005a8f",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-border-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
     "name": "menu-divider-color-fill",
     "value": "#51555b",
     "description": "The fill color for menu dividers",
@@ -504,6 +630,33 @@
     "category": "color",
     "component": "menu",
     "referenceToken": "color-palette-grey-700",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "monitoring-icon-badge-color-background",
+    "value": "#101923",
+    "property": "badge",
+    "category": "color",
+    "component": "monitoring-icon",
+    "referenceToken": "color-background-base-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "clock-datetime-color-background",
+    "value": "#101923",
+    "property": "datetime",
+    "category": "color",
+    "component": "clock",
+    "referenceToken": "color-background-base-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "log-color-border",
+    "value": "#000000",
+    "property": "border",
+    "category": "color",
+    "component": "log",
+    "referenceToken": "color-palette-neutral-1000",
     "tokenLevel": "component"
   },
   {
