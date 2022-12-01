@@ -357,34 +357,34 @@
         },
         "outer": {
           "normal": {
-            "value": "#00e200",
+            "value": "#005a00",
             "type": "color",
-            "rawValue": "{status-symbol.color.fill.normal.on-light}"
+            "rawValue": "{status-symbol.color.border.normal}"
           },
           "caution": {
-            "value": "#fad800",
+            "value": "#645600",
             "type": "color",
-            "rawValue": "{status-symbol.color.fill.caution.on-light}"
+            "rawValue": "{status-symbol.color.border.caution}"
           },
           "serious": {
-            "value": "#ffaf3d",
+            "value": "#664618",
             "type": "color",
-            "rawValue": "{status-symbol.color.fill.serious.on-light}"
+            "rawValue": "{status-symbol.color.border.serious}"
           },
           "critical": {
-            "value": "#ff2a04",
+            "value": "#661102",
             "type": "color",
-            "rawValue": "{status-symbol.color.fill.critical.on-light}"
+            "rawValue": "{status-symbol.color.border.critical}"
           },
           "standby": {
-            "value": "#2dccff",
+            "value": "#285766",
             "type": "color",
-            "rawValue": "{status-symbol.color.fill.standby.on-light}"
+            "rawValue": "{status-symbol.color.border.standby}"
           },
           "off": {
-            "value": "#7b8089",
+            "value": "#3c3e42",
             "type": "color",
-            "rawValue": "{status-symbol.color.fill.off.on-light}"
+            "rawValue": "{status-symbol.color.border.off}"
           },
           "default": {
             "value": "#005a8f",

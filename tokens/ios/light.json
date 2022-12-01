@@ -660,7 +660,7 @@
         "background": {
           "value": "#101923",
           "type": "color",
-          "rawValue": "{color.background.base.default}"
+          "rawValue": "{color.palette.brightblue.900}"
         }
       }
     }
@@ -671,7 +671,7 @@
         "background": {
           "value": "#101923",
           "type": "color",
-          "rawValue": "{color.background.base.default}"
+          "rawValue": "{color.palette.brightblue.900}"
         }
       }
     }

@@ -638,7 +638,7 @@
     "property": "badge",
     "category": "color",
     "component": "monitoring-icon",
-    "referenceToken": "color-background-base-default",
+    "referenceToken": "color-palette-brightblue-900",
     "tokenLevel": "component"
   },
   {
@@ -647,7 +647,7 @@
     "property": "datetime",
     "category": "color",
     "component": "clock",
-    "referenceToken": "color-background-base-default",
+    "referenceToken": "color-palette-brightblue-900",
     "tokenLevel": "component"
   },
   {

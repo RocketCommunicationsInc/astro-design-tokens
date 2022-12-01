@@ -43,12 +43,12 @@
           "default": "#005a8f"
         },
         "outer": {
-          "normal": "#00e200",
-          "caution": "#fad800",
-          "serious": "#ffaf3d",
-          "critical": "#ff2a04",
-          "standby": "#2dccff",
-          "off": "#7b8089",
+          "normal": "#005a00",
+          "caution": "#645600",
+          "serious": "#664618",
+          "critical": "#661102",
+          "standby": "#285766",
+          "off": "#3c3e42",
           "default": "#005a8f"
         }
       }
