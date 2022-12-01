@@ -1,5 +1,11 @@
 # @astrouxds/tokens
 
+## 1.1.1
+
+### Patch Changes
+
+- Fixed light theme regression on `clock-datetime-color-background`, `monitoring-icon-badge-color-background`, and `notification-banner-color-border-outer-*` tokens
+
 ## 1.1.0
 
 ### Minor Changes
