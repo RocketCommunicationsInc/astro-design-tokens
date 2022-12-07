@@ -152,6 +152,14 @@
         "type": "color",
         "description": "The border color used for form error borders.",
         "rawValue": "{color.palette.red.500}"
+      },
+      "focus": {
+        "default": {
+          "value": "#da9ce7",
+          "type": "color",
+          "description": "The color of a focused element's outline",
+          "rawValue": "{color.palette.pink.200}"
+        }
       }
     },
     "status": {
@@ -263,6 +271,26 @@
           "type": "dropShadow"
         }
       ]
+    }
+  },
+  "borderWidth": {
+    "focus": {
+      "default": {
+        "value": "1px",
+        "type": "borderWidth",
+        "description": "The thickness of a focused element's outline",
+        "rawValue": "{borderWidth.xs}"
+      }
+    }
+  },
+  "spacing": {
+    "focus": {
+      "default": {
+        "value": "2px",
+        "type": "spacing",
+        "description": "The amount of space between a focused element's outline and edge.",
+        "rawValue": "{spacing.050}"
+      }
     }
   }
 }

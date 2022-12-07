@@ -24,6 +24,7 @@ $system: (
   'color-border-interactive-hover': #92cbff,
   'color-border-interactive-muted': #2b659b,
   'color-border-error': #ff3838,
+  'color-border-focus-default': #da9ce7,
   'color-status-critical': #ff3838,
   'color-status-serious': #ffb302,
   'color-status-caution': #fce83a,
@@ -36,5 +37,7 @@ $system: (
   'color-classification-confidential': #0033a0,
   'color-classification-cui': #502b85,
   'color-classification-unclassified': #007a33,
+  'border-width-focus-default': 1px,
+  'spacing-focus-default': 0.125rem,
   'shadow-overlay':  0px 4px 4px 1px rgba(0, 0, 0, 0.45)
 );

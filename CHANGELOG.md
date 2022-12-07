@@ -1,5 +1,11 @@
 # @astrouxds/tokens
 
+## 1.2.0
+
+### Minor Changes
+
+- Added new focus state tokens: `color-border-focus-default`, `border-width-focus-default`, `spacing-focus-default`.
+
 ## 1.1.1
 
 ### Patch Changes
