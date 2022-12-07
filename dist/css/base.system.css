@@ -1,5 +1,7 @@
 :where(:root) {
   --shadow-overlay:  0px 4px 4px 1px rgba(0, 0, 0, 0.45);
+  --spacing-focus-default: 0.125rem;
+  --border-width-focus-default: 1px;
   --color-classification-unclassified: #007a33;
   --color-classification-cui: #502b85;
   --color-classification-confidential: #0033a0;
@@ -12,6 +14,7 @@
   --color-status-caution: #fce83a;
   --color-status-serious: #ffb302;
   --color-status-critical: #ff3838;
+  --color-border-focus-default: #da9ce7;
   --color-border-error: #ff3838;
   --color-border-interactive-muted: #2b659b;
   --color-border-interactive-hover: #92cbff;

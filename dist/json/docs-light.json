@@ -1758,6 +1758,16 @@
     "tokenLevel": "system"
   },
   {
+    "name": "color-border-focus-default",
+    "value": "#da9ce7",
+    "description": "The color of a focused element's outline",
+    "property": "border",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-pink-200",
+    "tokenLevel": "system"
+  },
+  {
     "name": "color-status-critical",
     "value": "#ff3838",
     "description": "The color used to indicate items with a Critical status. Critical, form error, alert, emergency, urgent.",
@@ -1912,6 +1922,16 @@
     "category": "borderWidth",
     "component": null,
     "tokenLevel": "reference"
+  },
+  {
+    "name": "border-width-focus-default",
+    "value": "1px",
+    "description": "The thickness of a focused element's outline",
+    "property": "focus",
+    "category": "borderWidth",
+    "component": null,
+    "referenceToken": "border-width-xs",
+    "tokenLevel": "system"
   },
   {
     "name": "radius-base",
@@ -3451,6 +3471,16 @@
     "category": "spacing",
     "component": null,
     "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-focus-default",
+    "value": "0.125rem",
+    "description": "The amount of space between a focused element's outline and edge.",
+    "property": "focus",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-050",
+    "tokenLevel": "system"
   },
   {
     "name": "shadow-overlay",

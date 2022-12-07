@@ -838,6 +838,14 @@
         "type": "color",
         "description": "The border color used for form error borders.",
         "rawValue": "{color.palette.red.500}"
+      },
+      "focus": {
+        "default": {
+          "value": "#da9ce7",
+          "type": "color",
+          "description": "The color of a focused element's outline",
+          "rawValue": "{color.palette.pink.200}"
+        }
       }
     },
     "status": {
@@ -1527,6 +1535,14 @@
     }
   },
   "borderWidth": {
+    "focus": {
+      "default": {
+        "value": "1px",
+        "type": "borderWidth",
+        "description": "The thickness of a focused element's outline",
+        "rawValue": "{borderWidth.xs}"
+      }
+    },
     "none": {
       "value": 0,
       "type": "borderWidth",
@@ -1550,6 +1566,91 @@
       "type": "borderWidth",
       "description": "large border width",
       "rawValue": "4px"
+    }
+  },
+  "spacing": {
+    "0": {
+      "value": "0px",
+      "type": "spacing",
+      "rawValue": "0px"
+    },
+    "1": {
+      "value": "4px",
+      "type": "spacing",
+      "rawValue": "4px"
+    },
+    "2": {
+      "value": "8px",
+      "type": "spacing",
+      "rawValue": "8px"
+    },
+    "3": {
+      "value": "12px",
+      "type": "spacing",
+      "rawValue": "12px"
+    },
+    "4": {
+      "value": "16px",
+      "type": "spacing",
+      "rawValue": "16px"
+    },
+    "6": {
+      "value": "24px",
+      "type": "spacing",
+      "rawValue": "24px"
+    },
+    "8": {
+      "value": "32px",
+      "type": "spacing",
+      "rawValue": "32px"
+    },
+    "10": {
+      "value": "40px",
+      "type": "spacing",
+      "rawValue": "40px"
+    },
+    "12": {
+      "value": "48px",
+      "type": "spacing",
+      "rawValue": "48px"
+    },
+    "14": {
+      "value": "56px",
+      "type": "spacing",
+      "rawValue": "56px"
+    },
+    "16": {
+      "value": "64px",
+      "type": "spacing",
+      "rawValue": "64px"
+    },
+    "20": {
+      "value": "80px",
+      "type": "spacing",
+      "rawValue": "80px"
+    },
+    "24": {
+      "value": "96px",
+      "type": "spacing",
+      "rawValue": "96px"
+    },
+    "focus": {
+      "default": {
+        "value": "2px",
+        "type": "spacing",
+        "description": "The amount of space between a focused element's outline and edge.",
+        "rawValue": "{spacing.050}"
+      }
+    },
+    "025": {
+      "value": "1px",
+      "type": "spacing",
+      "rawValue": "1px"
+    },
+    "050": {
+      "value": "2px",
+      "type": "spacing",
+      "rawValue": "2px"
     }
   },
   "radius": {
@@ -2177,83 +2278,6 @@
         "textDecoration": "none",
         "textCase": "none"
       }
-    }
-  },
-  "spacing": {
-    "0": {
-      "value": "0px",
-      "type": "spacing",
-      "rawValue": "0px"
-    },
-    "1": {
-      "value": "4px",
-      "type": "spacing",
-      "rawValue": "4px"
-    },
-    "2": {
-      "value": "8px",
-      "type": "spacing",
-      "rawValue": "8px"
-    },
-    "3": {
-      "value": "12px",
-      "type": "spacing",
-      "rawValue": "12px"
-    },
-    "4": {
-      "value": "16px",
-      "type": "spacing",
-      "rawValue": "16px"
-    },
-    "6": {
-      "value": "24px",
-      "type": "spacing",
-      "rawValue": "24px"
-    },
-    "8": {
-      "value": "32px",
-      "type": "spacing",
-      "rawValue": "32px"
-    },
-    "10": {
-      "value": "40px",
-      "type": "spacing",
-      "rawValue": "40px"
-    },
-    "12": {
-      "value": "48px",
-      "type": "spacing",
-      "rawValue": "48px"
-    },
-    "14": {
-      "value": "56px",
-      "type": "spacing",
-      "rawValue": "56px"
-    },
-    "16": {
-      "value": "64px",
-      "type": "spacing",
-      "rawValue": "64px"
-    },
-    "20": {
-      "value": "80px",
-      "type": "spacing",
-      "rawValue": "80px"
-    },
-    "24": {
-      "value": "96px",
-      "type": "spacing",
-      "rawValue": "96px"
-    },
-    "025": {
-      "value": "1px",
-      "type": "spacing",
-      "rawValue": "1px"
-    },
-    "050": {
-      "value": "2px",
-      "type": "spacing",
-      "rawValue": "2px"
     }
   }
 }

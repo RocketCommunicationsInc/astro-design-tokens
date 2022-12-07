@@ -40,7 +40,10 @@
         "hover": "#92cbff",
         "muted": "#2b659b"
       },
-      "error": "#ff3838"
+      "error": "#ff3838",
+      "focus": {
+        "default": "#da9ce7"
+      }
     },
     "status": {
       "critical": "#ff3838",
@@ -57,6 +60,16 @@
       "confidential": "#0033a0",
       "cui": "#502b85",
       "unclassified": "#007a33"
+    }
+  },
+  "borderWidth": {
+    "focus": {
+      "default": "1px"
+    }
+  },
+  "spacing": {
+    "focus": {
+      "default": "0.125rem"
     }
   },
   "shadow": {
