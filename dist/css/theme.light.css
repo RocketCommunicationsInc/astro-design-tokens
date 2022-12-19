@@ -21,6 +21,8 @@
   --color-background-base-hover: #98bdd3;
   --color-background-base-header: #f5f6f9;
   --color-background-base-default: #eaeef4;
+  --tooltip-color-text: #000000;
+  --tooltip-color-background: #bbc1c9;
   --notification-banner-color-border-outer-default: #005a8f;
   --notification-banner-color-border-outer-off: #3c3e42;
   --notification-banner-color-border-outer-standby: #285766;

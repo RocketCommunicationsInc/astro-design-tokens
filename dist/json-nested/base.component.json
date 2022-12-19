@@ -187,5 +187,11 @@
     "color": {
       "border": "#000000"
     }
+  },
+  "tooltip": {
+    "color": {
+      "background": "#3c3e42",
+      "text": "#ffffff"
+    }
   }
 }

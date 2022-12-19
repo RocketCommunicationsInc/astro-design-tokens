@@ -54,6 +54,12 @@
       }
     }
   },
+  "tooltip": {
+    "color": {
+      "background": "#bbc1c9",
+      "text": "#000000"
+    }
+  },
   "color": {
     "background": {
       "base": {

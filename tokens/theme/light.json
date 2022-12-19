@@ -394,5 +394,21 @@
         }
       }
     }
+  },
+  "tooltip": {
+    "color": {
+      "background": {
+        "value": "#bbc1c9",
+        "type": "color",
+        "description": "The background color for Tooltips",
+        "rawValue": "{color.palette.grey.400}"
+      },
+      "text": {
+        "value": "#000000",
+        "type": "color",
+        "description": "The text color for Tooltips",
+        "rawValue": "{color.text.black}"
+      }
+    }
   }
 }
