@@ -1,4 +1,5 @@
 :where(:root) {
+  --tooltip-radius: 1px;
   --tooltip-color-text: #ffffff;
   --tooltip-color-background: #3c3e42;
   --log-color-border: #000000;

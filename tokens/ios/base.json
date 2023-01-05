@@ -699,6 +699,12 @@
         "description": "The text color for Tooltips",
         "rawValue": "{color.text.white}"
       }
+    },
+    "radius": {
+      "value": "1px",
+      "type": "borderRadius",
+      "description": "The tooltip border radius",
+      "rawValue": "1px"
     }
   },
   "color": {

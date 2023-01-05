@@ -1,5 +1,11 @@
 # @astrouxds/tokens
 
+## 1.3.0
+
+### Minor Changes
+
+- 4ed8c4b: Adds `tooltip-color-background` and `tooltip-color-text` tokens for new Tooltip component
+
 ## 1.2.0
 
 ### Minor Changes

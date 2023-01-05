@@ -192,6 +192,7 @@
     "color": {
       "background": "#3c3e42",
       "text": "#ffffff"
-    }
+    },
+    "radius": "1px"
   }
 }
