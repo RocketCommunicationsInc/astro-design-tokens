@@ -660,6 +660,26 @@
     "tokenLevel": "component"
   },
   {
+    "name": "tooltip-color-background",
+    "value": "#bbc1c9",
+    "description": "The background color for Tooltips",
+    "property": "background",
+    "category": "color",
+    "component": "tooltip",
+    "referenceToken": "color-palette-grey-400",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tooltip-color-text",
+    "value": "#000000",
+    "description": "The text color for Tooltips",
+    "property": "text",
+    "category": "color",
+    "component": "tooltip",
+    "referenceToken": "color-text-black",
+    "tokenLevel": "component"
+  },
+  {
     "name": "opacity-25",
     "value": "25%",
     "description": "used in drop shadow for scrollbars in light theme ",

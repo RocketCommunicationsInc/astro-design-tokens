@@ -1,4 +1,6 @@
 :where(:root) {
+  --tooltip-color-text: #ffffff;
+  --tooltip-color-background: #3c3e42;
   --log-color-border: #000000;
   --clock-datetime-color-background: #101923;
   --monitoring-icon-badge-color-background: #101923;
