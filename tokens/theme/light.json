@@ -140,6 +140,14 @@
         "type": "color",
         "description": "The border color used for form error borders.",
         "rawValue": "{color.palette.red.700}"
+      },
+      "focus": {
+        "default": {
+          "value": "#b534ce",
+          "type": "color",
+          "description": "The color of a focused element's outline",
+          "rawValue": "{color.palette.pink.400}"
+        }
       }
     }
   },

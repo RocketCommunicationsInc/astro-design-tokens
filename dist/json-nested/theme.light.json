@@ -96,7 +96,10 @@
         "hover": "#004872",
         "muted": "#2f7aa7"
       },
-      "error": "#c8102e"
+      "error": "#c8102e",
+      "focus": {
+        "default": "#b534ce"
+      }
     }
   },
   "shadow": {
