@@ -194,5 +194,17 @@
       "text": "#ffffff"
     },
     "radius": "1px"
+  },
+  "timeline": {
+    "header": {
+      "color": {
+        "background": "#172635"
+      }
+    },
+    "cell": {
+      "color": {
+        "background": "#1c3f5e"
+      }
+    }
   }
 }
