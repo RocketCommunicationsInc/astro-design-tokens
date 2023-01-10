@@ -688,6 +688,24 @@
     "tokenLevel": "component"
   },
   {
+    "name": "timeline-header-color-background",
+    "value": "#172635",
+    "property": "header",
+    "category": "color",
+    "component": "timeline",
+    "referenceToken": "gsb-color-background",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "timeline-cell-color-background",
+    "value": "#1c3f5e",
+    "property": "cell",
+    "category": "color",
+    "component": "timeline",
+    "referenceToken": "color-palette-darkblue-700",
+    "tokenLevel": "component"
+  },
+  {
     "name": "opacity-25",
     "value": "25%",
     "description": "used in drop shadow for scrollbars in light theme ",

@@ -1,4 +1,6 @@
 :where(:root) {
+  --timeline-cell-color-background: #1c3f5e;
+  --timeline-header-color-background: #172635;
   --tooltip-radius: 1px;
   --tooltip-color-text: #ffffff;
   --tooltip-color-background: #3c3e42;

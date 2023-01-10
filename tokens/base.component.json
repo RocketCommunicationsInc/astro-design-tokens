@@ -607,5 +607,25 @@
       "description": "The tooltip border radius",
       "rawValue": "1px"
     }
+  },
+  "timeline": {
+    "header": {
+      "color": {
+        "background": {
+          "value": "#172635",
+          "type": "color",
+          "rawValue": "{gsb.color.background}"
+        }
+      }
+    },
+    "cell": {
+      "color": {
+        "background": {
+          "value": "#1c3f5e",
+          "type": "color",
+          "rawValue": "{color.palette.darkblue.700}"
+        }
+      }
+    }
   }
 }
