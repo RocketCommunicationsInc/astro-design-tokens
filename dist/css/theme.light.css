@@ -1,5 +1,6 @@
 .light-theme {
   --shadow-overlay:  0px 4px 4px 1px rgba(0, 0, 0, 0.35);
+  --color-border-focus-default: #b534ce;
   --color-border-error: #c8102e;
   --color-border-interactive-muted: #2f7aa7;
   --color-border-interactive-hover: #004872;

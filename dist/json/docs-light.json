@@ -1787,12 +1787,12 @@
   },
   {
     "name": "color-border-focus-default",
-    "value": "#da9ce7",
+    "value": "#b534ce",
     "description": "The color of a focused element's outline",
     "property": "border",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-pink-200",
+    "referenceToken": "color-palette-pink-400",
     "tokenLevel": "system"
   },
   {
