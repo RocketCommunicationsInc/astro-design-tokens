@@ -60,6 +60,18 @@
       "text": "#000000"
     }
   },
+  "timeline": {
+    "header": {
+      "color": {
+        "background": "#f5f6f9"
+      }
+    },
+    "cell": {
+      "color": {
+        "background": "#649cbd"
+      }
+    }
+  },
   "color": {
     "background": {
       "base": {
