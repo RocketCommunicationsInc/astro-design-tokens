@@ -418,5 +418,27 @@
         "rawValue": "{color.text.black}"
       }
     }
+  },
+  "timeline": {
+    "header": {
+      "color": {
+        "background": {
+          "value": "#f5f6f9",
+          "type": "color",
+          "description": "Color for timeline header",
+          "rawValue": "{color.background.surface.header}"
+        }
+      }
+    },
+    "cell": {
+      "color": {
+        "background": {
+          "value": "#649cbd",
+          "type": "color",
+          "description": "Color for timeline cell",
+          "rawValue": "{color.palette.darkblue.300}"
+        }
+      }
+    }
   }
 }

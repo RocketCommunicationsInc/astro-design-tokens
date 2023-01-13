@@ -689,20 +689,22 @@
   },
   {
     "name": "timeline-header-color-background",
-    "value": "#172635",
+    "value": "#f5f6f9",
+    "description": "Color for timeline header",
     "property": "header",
     "category": "color",
     "component": "timeline",
-    "referenceToken": "gsb-color-background",
+    "referenceToken": "color-background-surface-header",
     "tokenLevel": "component"
   },
   {
     "name": "timeline-cell-color-background",
-    "value": "#1c3f5e",
+    "value": "#649cbd",
+    "description": "Color for timeline cell",
     "property": "cell",
     "category": "color",
     "component": "timeline",
-    "referenceToken": "color-palette-darkblue-700",
+    "referenceToken": "color-palette-darkblue-300",
     "tokenLevel": "component"
   },
   {
