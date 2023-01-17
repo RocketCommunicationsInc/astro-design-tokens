@@ -433,10 +433,10 @@
     "cell": {
       "color": {
         "background": {
-          "value": "#649cbd",
+          "value": "#cbdee9",
           "type": "color",
           "description": "Color for timeline cell",
-          "rawValue": "{color.palette.darkblue.300}"
+          "rawValue": "{color.palette.darkblue.100}"
         }
       }
     }

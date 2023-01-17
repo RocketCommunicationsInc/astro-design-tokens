@@ -699,12 +699,12 @@
   },
   {
     "name": "timeline-cell-color-background",
-    "value": "#649cbd",
+    "value": "#cbdee9",
     "description": "Color for timeline cell",
     "property": "cell",
     "category": "color",
     "component": "timeline",
-    "referenceToken": "color-palette-darkblue-300",
+    "referenceToken": "color-palette-darkblue-100",
     "tokenLevel": "component"
   },
   {
