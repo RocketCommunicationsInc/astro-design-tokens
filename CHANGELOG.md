@@ -1,5 +1,16 @@
 # @astrouxds/tokens
 
+## 1.4.0
+
+### Minor Changes
+
+- Added `timeline-header-color-background` and `timeline-cell-color-background` tokens
+
+### Patch Changes
+
+- Updated light theme focus state color
+- Added light theme values for timeline tokens
+
 ## 1.3.0
 
 ### Minor Changes
