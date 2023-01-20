@@ -31,12 +31,12 @@
   },
   {
     "name": "container-color-border",
-    "value": "#000000",
+    "value": "#a4abb6",
     "description": "The border color used for the Container component.",
     "property": "border",
     "category": "color",
     "component": "container",
-    "referenceToken": "color-palette-neutral-1000",
+    "referenceToken": "color-palette-grey-500",
     "tokenLevel": "component"
   },
   {

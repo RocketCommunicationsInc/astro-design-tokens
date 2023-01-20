@@ -1,4 +1,9 @@
 {
+  "container": {
+    "color": {
+      "border": "#a4abb6"
+    }
+  },
   "gsb": {
     "icon": {
       "color": {
