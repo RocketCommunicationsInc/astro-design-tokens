@@ -444,9 +444,20 @@
   "container": {
     "color": {
       "border": {
-        "value": "#a4abb6",
+        "value": "#7b8089",
         "type": "color",
-        "rawValue": "{color.palette.grey.500}"
+        "description": "Color for container border",
+        "rawValue": "{color.palette.grey.600}"
+      }
+    }
+  },
+  "log": {
+    "color": {
+      "border": {
+        "value": "#7b8089",
+        "type": "color",
+        "description": "Color for log border",
+        "rawValue": "{color.palette.grey.600}"
       }
     }
   }

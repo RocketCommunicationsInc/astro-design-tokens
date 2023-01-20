@@ -1,7 +1,7 @@
 {
   "container": {
     "color": {
-      "border": "#a4abb6"
+      "border": "#7b8089"
     }
   },
   "gsb": {
@@ -57,6 +57,11 @@
           "default": "#005a8f"
         }
       }
+    }
+  },
+  "log": {
+    "color": {
+      "border": "#7b8089"
     }
   },
   "tooltip": {
