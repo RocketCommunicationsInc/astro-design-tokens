@@ -440,5 +440,14 @@
         }
       }
     }
+  },
+  "container": {
+    "color": {
+      "border": {
+        "value": "#a4abb6",
+        "type": "color",
+        "rawValue": "{color.palette.grey.500}"
+      }
+    }
   }
 }
