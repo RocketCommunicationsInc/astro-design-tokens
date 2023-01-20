@@ -31,12 +31,12 @@
   },
   {
     "name": "container-color-border",
-    "value": "#a4abb6",
-    "description": "The border color used for the Container component.",
+    "value": "#7b8089",
+    "description": "Color for container border",
     "property": "border",
     "category": "color",
     "component": "container",
-    "referenceToken": "color-palette-grey-500",
+    "referenceToken": "color-palette-grey-600",
     "tokenLevel": "component"
   },
   {
@@ -652,11 +652,12 @@
   },
   {
     "name": "log-color-border",
-    "value": "#000000",
+    "value": "#7b8089",
+    "description": "Color for log border",
     "property": "border",
     "category": "color",
     "component": "log",
-    "referenceToken": "color-palette-neutral-1000",
+    "referenceToken": "color-palette-grey-600",
     "tokenLevel": "component"
   },
   {
