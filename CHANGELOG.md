@@ -1,5 +1,13 @@
 # @astrouxds/tokens
 
+## 1.4.1
+
+### Patch Changes
+
+- bfd2ab4: added light theme value for `container.color.border`
+- 43c8c28: fixed incorrect value on `color-status-standby`. changed `#64d9ff` to `#2dccff`
+- be393b5: improve contrast in light theme values for `container-color-border`, `log-color-border`
+
 ## 1.4.0
 
 ### Minor Changes
