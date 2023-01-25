@@ -348,7 +348,7 @@
             "rawValue": "{color.status.critical}"
           },
           "standby": {
-            "value": "#64d9ff",
+            "value": "#2dccff",
             "type": "color",
             "rawValue": "{color.status.standby}"
           },
