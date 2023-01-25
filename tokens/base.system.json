@@ -188,10 +188,10 @@
         "rawValue": "{color.palette.green.500}"
       },
       "standby": {
-        "value": "#64d9ff",
+        "value": "#2dccff",
         "type": "color",
         "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
-        "rawValue": "{color.palette.cyan.500}"
+        "rawValue": "{color.palette.cyan.600}"
       },
       "off": {
         "value": "#a4abb6",

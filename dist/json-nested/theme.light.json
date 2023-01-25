@@ -43,7 +43,7 @@
           "caution": "#fce83a",
           "serious": "#ffb302",
           "critical": "#ff3838",
-          "standby": "#64d9ff",
+          "standby": "#2dccff",
           "off": "#a4abb6",
           "default": "#005a8f"
         },

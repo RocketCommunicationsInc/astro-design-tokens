@@ -534,7 +534,7 @@
   },
   {
     "name": "notification-banner-color-border-inner-standby",
-    "value": "#64d9ff",
+    "value": "#2dccff",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -1858,12 +1858,12 @@
   },
   {
     "name": "color-status-standby",
-    "value": "#64d9ff",
+    "value": "#2dccff",
     "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
     "property": "status",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-cyan-500",
+    "referenceToken": "color-palette-cyan-600",
     "tokenLevel": "system"
   },
   {
