@@ -98,7 +98,8 @@
       },
       "interactive": {
         "default": "#005a8f",
-        "hover": "#004872"
+        "hover": "#004872",
+        "muted": "#2f7aa7"
       }
     },
     "text": {

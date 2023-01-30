@@ -1674,6 +1674,16 @@
     "tokenLevel": "system"
   },
   {
+    "name": "color-background-interactive-muted",
+    "value": "#2b659b",
+    "description": "The primary color used for interactive elements.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-700",
+    "tokenLevel": "system"
+  },
+  {
     "name": "color-text-primary",
     "value": "#ffffff",
     "description": "The primary color used for text within the application.",
