@@ -65,6 +65,12 @@
           "type": "color",
           "description": "The hover color used for the backgrounds of interactive elements.",
           "rawValue": "{color.palette.darkblue.600}"
+        },
+        "muted": {
+          "value": "#2f7aa7",
+          "type": "color",
+          "description": "The primary color used for interactive elements.",
+          "rawValue": "{color.palette.darkblue.400}"
         }
       }
     },
