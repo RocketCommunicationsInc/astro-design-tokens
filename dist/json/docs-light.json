@@ -1679,7 +1679,7 @@
   {
     "name": "color-background-interactive-muted",
     "value": "#2f7aa7",
-    "description": "The primary color used for interactive elements.",
+    "description": "A muted version of the primary color used for the background of interactive elements that don't need to be as strong as the primary color.",
     "property": "background",
     "category": "color",
     "component": null,
