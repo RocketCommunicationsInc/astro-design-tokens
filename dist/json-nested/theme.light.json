@@ -39,12 +39,12 @@
     "color": {
       "border": {
         "inner": {
-          "normal": "#56f000",
-          "caution": "#fce83a",
-          "serious": "#ffb302",
-          "critical": "#ff3838",
+          "normal": "#00e200",
+          "caution": "#fad800",
+          "serious": "#ffaf3d",
+          "critical": "#ff2a04",
           "standby": "#2dccff",
-          "off": "#a4abb6",
+          "off": "#7b8089",
           "default": "#005a8f"
         },
         "outer": {
@@ -123,6 +123,14 @@
       "focus": {
         "default": "#b534ce"
       }
+    },
+    "status": {
+      "critical": "#ff2a04",
+      "serious": "#ffaf3d",
+      "caution": "#fad800",
+      "normal": "#00e200",
+      "standby": "#2dccff",
+      "off": "#7b8089"
     }
   },
   "shadow": {
