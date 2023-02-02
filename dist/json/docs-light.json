@@ -191,12 +191,12 @@
   },
   {
     "name": "status-symbol-color-fill-standby-on-light",
-    "value": "#2dccff",
+    "value": "#64d9ff",
     "description": "The fill color of the Standby status symbol on a light background.",
     "property": "fill",
     "category": "color",
     "component": "status-symbol",
-    "referenceToken": "color-palette-cyan-600",
+    "referenceToken": "color-palette-cyan-500",
     "tokenLevel": "component"
   },
   {
@@ -534,7 +534,7 @@
   },
   {
     "name": "notification-banner-color-border-inner-standby",
-    "value": "#2dccff",
+    "value": "#64d9ff",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -1868,12 +1868,12 @@
   },
   {
     "name": "color-status-standby",
-    "value": "#2dccff",
+    "value": "#64d9ff",
     "description": "The fill color of the Standby status symbol on a light background.",
     "property": "status",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-cyan-600",
+    "referenceToken": "color-palette-cyan-500",
     "tokenLevel": "system"
   },
   {

@@ -50,7 +50,7 @@
         },
         "standby": {
           "on-dark": "#2dccff",
-          "on-light": "#2dccff"
+          "on-light": "#64d9ff"
         },
         "off": {
           "on-dark": "#a4abb6",

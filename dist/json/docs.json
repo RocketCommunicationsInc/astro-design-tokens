@@ -191,12 +191,12 @@
   },
   {
     "name": "status-symbol-color-fill-standby-on-light",
-    "value": "#2dccff",
+    "value": "#64d9ff",
     "description": "The fill color of the Standby status symbol on a light background.",
     "property": "fill",
     "category": "color",
     "component": "status-symbol",
-    "referenceToken": "color-palette-cyan-600",
+    "referenceToken": "color-palette-cyan-500",
     "tokenLevel": "component"
   },
   {
