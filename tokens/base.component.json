@@ -146,10 +146,10 @@
             "rawValue": "{color.palette.cyan.600}"
           },
           "on-light": {
-            "value": "#2dccff",
+            "value": "#64d9ff",
             "type": "color",
             "description": "The fill color of the Standby status symbol on a light background.",
-            "rawValue": "{color.palette.cyan.600}"
+            "rawValue": "{color.palette.cyan.500}"
           }
         },
         "off": {

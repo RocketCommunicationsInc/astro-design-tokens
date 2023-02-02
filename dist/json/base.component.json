@@ -18,7 +18,7 @@
   "status-symbol-color-fill-normal-on-dark": "#56f000",
   "status-symbol-color-fill-normal-on-light": "#00e200",
   "status-symbol-color-fill-standby-on-dark": "#2dccff",
-  "status-symbol-color-fill-standby-on-light": "#2dccff",
+  "status-symbol-color-fill-standby-on-light": "#64d9ff",
   "status-symbol-color-fill-off-on-dark": "#a4abb6",
   "status-symbol-color-fill-off-on-light": "#7b8089",
   "status-symbol-color-border-critical": "#661102",

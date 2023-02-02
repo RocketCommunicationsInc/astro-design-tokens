@@ -43,7 +43,7 @@
           "caution": "#fad800",
           "serious": "#ffaf3d",
           "critical": "#ff2a04",
-          "standby": "#2dccff",
+          "standby": "#64d9ff",
           "off": "#7b8089",
           "default": "#005a8f"
         },
@@ -129,7 +129,7 @@
       "serious": "#ffaf3d",
       "caution": "#fad800",
       "normal": "#00e200",
-      "standby": "#2dccff",
+      "standby": "#64d9ff",
       "off": "#7b8089"
     }
   },

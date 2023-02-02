@@ -182,10 +182,10 @@
         "rawValue": "{color.palette.green.600}"
       },
       "standby": {
-        "value": "#2dccff",
+        "value": "#64d9ff",
         "type": "color",
         "description": "The fill color of the Standby status symbol on a light background.",
-        "rawValue": "{color.palette.cyan.600}"
+        "rawValue": "{color.palette.cyan.500}"
       },
       "off": {
         "value": "#7b8089",
@@ -392,7 +392,7 @@
             "rawValue": "{color.status.critical}"
           },
           "standby": {
-            "value": "#2dccff",
+            "value": "#64d9ff",
             "type": "color",
             "rawValue": "{color.status.standby}"
           },
