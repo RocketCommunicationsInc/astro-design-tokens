@@ -569,36 +569,43 @@
           "normal": {
             "value": "#56f000",
             "type": "color",
+            "description": "The fill color of the Normal Notification Banner background.",
             "rawValue": "{color.status.normal}"
           },
           "caution": {
             "value": "#fce83a",
             "type": "color",
+            "description": "The fill color of the Caution Notification Banner background.",
             "rawValue": "{color.status.caution}"
           },
           "serious": {
             "value": "#ffb302",
             "type": "color",
+            "description": "The fill color of the Serious Notification Banner background.",
             "rawValue": "{color.status.serious}"
           },
           "critical": {
             "value": "#ff3838",
             "type": "color",
+            "description": "The fill color of the Critical Notification Banner background.",
             "rawValue": "{color.status.critical}"
           },
           "standby": {
             "value": "#2dccff",
             "type": "color",
+            "description": "The fill color of the Standby Notification Banner background.",
             "rawValue": "{color.status.standby}"
           },
           "off": {
             "value": "#a4abb6",
             "type": "color",
+            "description": "The fill color of the Off Notification Banner background.",
             "rawValue": "{color.status.off}"
           },
           "default": {
             "value": "#4dacff",
             "type": "color",
+            "description": "The fill color of the Default Notification Banner background.",
             "rawValue": "{color.border.interactive.default}"
           }
         },
@@ -606,36 +613,43 @@
           "normal": {
             "value": "#56f000",
             "type": "color",
+            "description": "The stroke color of the Normal Notification Banner.",
             "rawValue": "{color.status.normal}"
           },
           "caution": {
             "value": "#fce83a",
             "type": "color",
+            "description": "The stroke color of the Caution Notification Banner.",
             "rawValue": "{color.status.caution}"
           },
           "serious": {
             "value": "#ffb302",
             "type": "color",
+            "description": "The stroke color of the Serious Notification Banner.",
             "rawValue": "{color.status.serious}"
           },
           "critical": {
             "value": "#ff3838",
             "type": "color",
+            "description": "The stroke color of the Critical Notification Banner.",
             "rawValue": "{color.status.critical}"
           },
           "standby": {
             "value": "#2dccff",
             "type": "color",
+            "description": "The stroke color of the Standby Notification Banner.",
             "rawValue": "{color.status.standby}"
           },
           "off": {
             "value": "#a4abb6",
             "type": "color",
+            "description": "The stroke color of the Off Notification Banner.",
             "rawValue": "{color.status.off}"
           },
           "default": {
             "value": "#4dacff",
             "type": "color",
+            "description": "The stroke color of the Default Notification Banner.",
             "rawValue": "{color.border.interactive.default}"
           }
         }

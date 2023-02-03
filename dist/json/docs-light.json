@@ -499,6 +499,7 @@
   {
     "name": "notification-banner-color-border-inner-normal",
     "value": "#00e200",
+    "description": "The fill color of the Normal Notification Banner background.",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -508,6 +509,7 @@
   {
     "name": "notification-banner-color-border-inner-caution",
     "value": "#fad800",
+    "description": "The fill color of the Caution Notification Banner background.",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -517,6 +519,7 @@
   {
     "name": "notification-banner-color-border-inner-serious",
     "value": "#ffaf3d",
+    "description": "The fill color of the Serious Notification Banner background.",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -526,6 +529,7 @@
   {
     "name": "notification-banner-color-border-inner-critical",
     "value": "#ff2a04",
+    "description": "The fill color of the Critical Notification Banner background.",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -535,6 +539,7 @@
   {
     "name": "notification-banner-color-border-inner-standby",
     "value": "#64d9ff",
+    "description": "The fill color of the Standby Notification Banner background.",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -544,6 +549,7 @@
   {
     "name": "notification-banner-color-border-inner-off",
     "value": "#7b8089",
+    "description": "The fill color of the Off Notification Banner background.",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -553,6 +559,7 @@
   {
     "name": "notification-banner-color-border-inner-default",
     "value": "#005a8f",
+    "description": "The fill color of the Default Notification Banner background.",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -562,6 +569,7 @@
   {
     "name": "notification-banner-color-border-outer-normal",
     "value": "#005a00",
+    "description": "The stroke color of the Normal Notification Banner.",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -571,6 +579,7 @@
   {
     "name": "notification-banner-color-border-outer-caution",
     "value": "#645600",
+    "description": "The stroke color of the Caution Notification Banner.",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -580,6 +589,7 @@
   {
     "name": "notification-banner-color-border-outer-serious",
     "value": "#664618",
+    "description": "The stroke color of the Serious Notification Banner.",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -589,6 +599,7 @@
   {
     "name": "notification-banner-color-border-outer-critical",
     "value": "#661102",
+    "description": "The stroke color of the Critical Notification Banner.",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -598,6 +609,7 @@
   {
     "name": "notification-banner-color-border-outer-standby",
     "value": "#285766",
+    "description": "The stroke color of the Standby Notification Banner.",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -607,6 +619,7 @@
   {
     "name": "notification-banner-color-border-outer-off",
     "value": "#3c3e42",
+    "description": "The stroke color of the Off Notification Banner.",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -616,6 +629,7 @@
   {
     "name": "notification-banner-color-border-outer-default",
     "value": "#005a8f",
+    "description": "The stroke color of the Default Notification Banner.",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
