@@ -374,6 +374,7 @@
           "normal": {
             "value": "#00e200",
             "type": "color",
+            "description": "The fill color of the Normal Notification Banner background.",
             "rawValue": "{color.status.normal}"
           },
           "caution": {
