@@ -3,23 +3,24 @@
     "25": {
       "value": "25%",
       "type": "opacity",
-      "description": "used in drop shadow for scrollbars in light theme ",
+      "description": "Opacity used in drop shadow for scrollbars in light theme",
       "rawValue": "25%"
     },
     "35": {
       "value": "35%",
-      "description": "Used in drop shadow for dialogs in light theme",
+      "description": "Opacity used in drop shadow for dialogs in light theme",
       "type": "opacity",
       "rawValue": "35%"
     },
     "40": {
       "value": "40%",
       "type": "opacity",
+      "description": "Opacity used in disabled states",
       "rawValue": "40%"
     },
     "45": {
       "value": "45%",
-      "description": "Used in drop shadow for dialogs",
+      "description": "Opacity used in drop shadow for dialogs",
       "type": "opacity",
       "rawValue": "45%"
     },
@@ -600,7 +601,7 @@
     "lg": {
       "value": "4px",
       "type": "borderWidth",
-      "description": "large border width",
+      "description": "Large border width",
       "rawValue": "4px"
     }
   },
@@ -608,13 +609,13 @@
     "base": {
       "value": "3px",
       "type": "borderRadius",
-      "description": "The default base border radius",
+      "description": "Default base border radius",
       "rawValue": "3px"
     },
     "circle": {
       "value": "50%",
       "type": "borderRadius",
-      "description": "A completely rounded border radius, used to create circles.",
+      "description": "Completely rounded border radius, used to create circles",
       "rawValue": "50%"
     }
   },
@@ -1168,7 +1169,7 @@
         "textCase": "none"
       },
       "type": "typography",
-      "description": "Display 1. Custom element. Used for Splash Screens.",
+      "description": "Display 1. Custom element. Used for Splash Screens",
       "rawValue": {
         "fontFamily": "{fontFamily.sans}",
         "fontWeight": "{fontWeights.light}",
@@ -1192,7 +1193,7 @@
         "textCase": "none"
       },
       "type": "typography",
-      "description": "Display 2. Custom element. Used for Splash Screens.",
+      "description": "Display 2. Custom element. Used for Splash Screens",
       "rawValue": {
         "fontFamily": "{fontFamily.sans}",
         "fontWeight": "{fontWeights.regular}",
@@ -1218,7 +1219,7 @@
         "textCase": "none"
       },
       "type": "typography",
-      "description": "Monospace 1\nUsed for Global Status Bar clock.",
+      "description": "Monospace 1. Used for Global Status Bar clock",
       "rawValue": {
         "fontFamily": "{fontFamily.sans}",
         "fontWeight": "{fontWeights.medium}",

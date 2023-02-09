@@ -5,25 +5,25 @@
         "default": {
           "value": "#101923",
           "type": "color",
-          "description": "The background color of base elements, like the app or popup menus.",
+          "description": "Background color of base elements, like the app or popup menus",
           "rawValue": "{color.palette.brightblue.900}"
         },
         "header": {
           "value": "#172635",
           "type": "color",
-          "description": "The background color for the header of base elements.",
+          "description": "Background color for the header of base elements",
           "rawValue": "{color.palette.darkblue.900}"
         },
         "hover": {
           "value": "#142435",
           "type": "color",
-          "description": "The background color of base elements, like popup menus, when they are hovered over.",
+          "description": "Background color of base elements, like popup menus, when they are hovered over",
           "rawValue": "{color.palette.brightblue.850}"
         },
         "selected": {
           "value": "#1c3f5e",
           "type": "color",
-          "description": "The background color of base elements, like popup menus, when they are selected.",
+          "description": "Background color of base elements, like popup menus, when they are selected",
           "rawValue": "{color.palette.darkblue.700}"
         }
       },
@@ -31,25 +31,25 @@
         "default": {
           "value": "#1b2d3e",
           "type": "color",
-          "description": "The background color of surface elements, like panels or dialogs.",
+          "description": "Background color of surface elements, like panels or dialogs",
           "rawValue": "{color.palette.darkblue.800}"
         },
         "header": {
           "value": "#172635",
           "type": "color",
-          "description": "The background color for the header of surface elements, including dialogs and table headers.",
+          "description": "Background color for the header of surface elements, including dialogs and table headers",
           "rawValue": "{color.palette.darkblue.900}"
         },
         "hover": {
           "value": "#1c3851",
           "type": "color",
-          "description": "The background color of surface elements, like cards or table rows, when they are hovered over.",
+          "description": "Background color of surface elements, like cards or table rows, when they are hovered over",
           "rawValue": "{color.palette.brightblue.800}"
         },
         "selected": {
           "value": "#1c3f5e",
           "type": "color",
-          "description": "The background color of surface elements, like cards or table rows, when they are selected.",
+          "description": "Background color of surface elements, like cards or table rows, when they are selected",
           "rawValue": "{color.palette.darkblue.700}"
         }
       },
@@ -57,19 +57,19 @@
         "default": {
           "value": "#4dacff",
           "type": "color",
-          "description": "The primary color used for the backgrounds of interactive elements.",
+          "description": "Primary color used for the backgrounds of interactive elements",
           "rawValue": "{color.palette.brightblue.500}"
         },
         "hover": {
           "value": "#92cbff",
           "type": "color",
-          "description": "The hover color used for the backgrounds of interactive elements.",
+          "description": "Hover color used for the backgrounds of interactive elements",
           "rawValue": "{color.palette.brightblue.400}"
         },
         "muted": {
           "value": "#2b659b",
           "type": "color",
-          "description": "A muted version of the primary color used for the background of interactive elements that don't need to be as strong as the primary color.",
+          "description": "Muted version of the primary color used for the background of interactive elements that don't need to be as strong as the primary color",
           "rawValue": "{color.palette.brightblue.700}"
         }
       }
@@ -78,57 +78,57 @@
       "primary": {
         "value": "#ffffff",
         "type": "color",
-        "description": "The primary color used for text within the application.",
+        "description": "Primary color used for text within the application",
         "rawValue": "{color.palette.neutral.000}"
       },
       "secondary": {
         "value": "#d4d8dd",
         "type": "color",
-        "description": "The color used for text when less emphasis is needed.",
+        "description": "Color used for text when less emphasis is needed",
         "rawValue": "{color.palette.grey.300}"
       },
       "placeholder": {
         "value": "#a4abb6",
         "type": "color",
-        "description": "The text color used for placeholder text in input and form fields.",
+        "description": "Text color used for placeholder text in input and form fields",
         "rawValue": "{color.palette.grey.500}"
       },
       "inverse": {
         "value": "#080c11",
         "type": "color",
-        "description": "The color used for text on reversed backgrounds.",
+        "description": "Color used for text on reversed backgrounds",
         "rawValue": "{color.palette.darkblue.950}"
       },
       "interactive": {
         "default": {
           "value": "#4dacff",
           "type": "color",
-          "description": "The primary color used for interactive text elements.",
+          "description": "Primary color used for interactive text elements",
           "rawValue": "{color.palette.brightblue.500}"
         },
         "hover": {
           "value": "#92cbff",
           "type": "color",
-          "description": "The hover color used for interactive text elements. ",
+          "description": "Hover color used for interactive text elements",
           "rawValue": "{color.palette.brightblue.400}"
         }
       },
       "white": {
         "value": "#ffffff",
         "type": "color",
-        "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
+        "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes",
         "rawValue": "{color.palette.neutral.000}"
       },
       "black": {
         "value": "#000000",
         "type": "color",
-        "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
+        "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes",
         "rawValue": "{color.palette.neutral.1000}"
       },
       "error": {
         "value": "#ff3838",
         "type": "color",
-        "description": "The text color used for form error messages.",
+        "description": "Text color used for form error messages",
         "rawValue": "{color.palette.red.500}"
       }
     },
@@ -137,33 +137,33 @@
         "default": {
           "value": "#4dacff",
           "type": "color",
-          "description": "The primary color used for the border of interactive elements.",
+          "description": "Primary color used for the border of interactive elements",
           "rawValue": "{color.palette.brightblue.500}"
         },
         "hover": {
           "value": "#92cbff",
           "type": "color",
-          "description": "The hover color used for the border of interactive elements.",
+          "description": "Hover color used for the border of interactive elements",
           "rawValue": "{color.palette.brightblue.400}"
         },
         "muted": {
           "value": "#2b659b",
           "type": "color",
-          "description": "A muted version of the primary color used for the border of interactive elements that don't need to be as strong as the primary color.",
+          "description": "Muted version of the primary color used for the border of interactive elements that don't need to be as strong as the primary color",
           "rawValue": "{color.palette.brightblue.700}"
         }
       },
       "error": {
         "value": "#ff3838",
         "type": "color",
-        "description": "The border color used for form error borders.",
+        "description": "Border color used for form error borders",
         "rawValue": "{color.palette.red.500}"
       },
       "focus": {
         "default": {
           "value": "#da9ce7",
           "type": "color",
-          "description": "The color of a focused element's outline",
+          "description": "Color of a focused element's outline",
           "rawValue": "{color.palette.pink.200}"
         }
       }
@@ -172,37 +172,37 @@
       "critical": {
         "value": "#ff3838",
         "type": "color",
-        "description": "The color used to indicate items with a Critical status. Critical, form error, alert, emergency, urgent.",
+        "description": "Color used to indicate items with a Critical status. Critical, form error, alert, emergency, urgent",
         "rawValue": "{color.palette.red.500}"
       },
       "serious": {
         "value": "#ffb302",
         "type": "color",
-        "description": "The color used to indicate items with a Serious status. Serious, warning, error, needs attention.",
+        "description": "Color used to indicate items with a Serious status. Serious, warning, error, needs attention",
         "rawValue": "{color.palette.orange.500}"
       },
       "caution": {
         "value": "#fce83a",
         "type": "color",
-        "description": "The color used to indicate items with a Caution status. Caution, unstable, unsatisfactory.",
+        "description": "Color used to indicate items with a Caution status. Caution, unstable, unsatisfactory",
         "rawValue": "{color.palette.yellow.500}"
       },
       "normal": {
         "value": "#56f000",
         "type": "color",
-        "description": "The color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success.",
+        "description": "Color used to indicate items with a Normal status. Normal, on, ok, fine, go, satisfactory, success",
         "rawValue": "{color.palette.green.500}"
       },
       "standby": {
         "value": "#2dccff",
         "type": "color",
-        "description": "The color used to indicate items with a Standby status. Standby, available, enabled.",
+        "description": "Color used to indicate items with a Standby status. Standby, available, enabled",
         "rawValue": "{color.palette.cyan.600}"
       },
       "off": {
         "value": "#a4abb6",
         "type": "color",
-        "description": "The color used to indicate items with an Off status. Off, unavailable, disabled.",
+        "description": "Color used to indicate items with an Off status. Off, unavailable, disabled",
         "rawValue": "{color.palette.grey.500}"
       }
     },
@@ -210,37 +210,37 @@
       "topsecretsci": {
         "value": "#fce83a",
         "type": "color",
-        "description": "The color used to indicate the Top Secret//SCI classification.",
+        "description": "Color used to indicate the Top Secret//SCI classification",
         "rawValue": "{color.palette.yellow.500}"
       },
       "topsecret": {
         "value": "#ff8c00",
         "type": "color",
-        "description": "The color used to indicate the Top Secret classification.",
+        "description": "Color used to indicate the Top Secret classification",
         "rawValue": "{color.palette.orange.700}"
       },
       "secret": {
         "value": "#c8102e",
         "type": "color",
-        "description": "The color used to indicate the Secret classification.",
+        "description": "Color used to indicate the Secret classification",
         "rawValue": "{color.palette.red.700}"
       },
       "confidential": {
         "value": "#0033a0",
         "type": "color",
-        "description": "The color used to indicate the Confidential classification.",
+        "description": "Color used to indicate the Confidential classification",
         "rawValue": "{color.palette.blue.800}"
       },
       "cui": {
         "value": "#502b85",
         "type": "color",
-        "description": "The color used to indicate the CUI classification.",
+        "description": "Color used to indicate the CUI classification",
         "rawValue": "{color.palette.violet.800}"
       },
       "unclassified": {
         "value": "#007a33",
         "type": "color",
-        "description": "The color used to indicate the Unclassified classification.",
+        "description": "Color used to indicate the Unclassified classification",
         "rawValue": "{color.palette.green.800}"
       }
     }
@@ -249,7 +249,7 @@
     "disabled": {
       "value": "40%",
       "type": "opacity",
-      "description": "Used to represent disabled state",
+      "description": "Opacity used to indicate the disabled state",
       "rawValue": "{opacity.40}"
     }
   },
@@ -284,7 +284,7 @@
       "default": {
         "value": "1px",
         "type": "borderWidth",
-        "description": "The thickness of a focused element's outline",
+        "description": "Thickness of a focused element's outline",
         "rawValue": "{borderWidth.xs}"
       }
     }
@@ -294,7 +294,7 @@
       "default": {
         "value": "2px",
         "type": "spacing",
-        "description": "The amount of space between a focused element's outline and edge.",
+        "description": "Space between a focused element's outline and edge",
         "rawValue": "{spacing.050}"
       }
     }

@@ -2,7 +2,7 @@
   {
     "name": "link-color-text-default",
     "value": "#4dacff",
-    "description": "The color used for links in default state.",
+    "description": "Color used for links in default state",
     "property": "text",
     "category": "color",
     "component": "link",
@@ -12,7 +12,7 @@
   {
     "name": "link-color-text-hover",
     "value": "#4dacff",
-    "description": "The color used for links in hover state. Links do not change color on hover.",
+    "description": "Color used for links in hover state. Links do not change color on hover",
     "property": "text",
     "category": "color",
     "component": "link",
@@ -22,7 +22,7 @@
   {
     "name": "card-color-border",
     "value": "#51555b",
-    "description": "The border color used for the Card component.",
+    "description": "Border color used for the Card component",
     "property": "border",
     "category": "color",
     "component": "card",
@@ -42,7 +42,7 @@
   {
     "name": "classification-banner-color-background-topsecretsci",
     "value": "#fce83a",
-    "description": "The background color of the Top Secret//SCI classification banner.",
+    "description": "Background color of the Top Secret//SCI classification banner",
     "property": "background",
     "category": "color",
     "component": "classification-banner",
@@ -52,7 +52,7 @@
   {
     "name": "classification-banner-color-background-topsecret",
     "value": "#ff8c00",
-    "description": "The background color of the Top Secret classification banner.",
+    "description": "Background color of the Top Secret classification banner",
     "property": "background",
     "category": "color",
     "component": "classification-banner",
@@ -62,7 +62,7 @@
   {
     "name": "classification-banner-color-background-secret",
     "value": "#c8102e",
-    "description": "The background color of the Secret classification banner.",
+    "description": "Background color of the Secret classification banner",
     "property": "background",
     "category": "color",
     "component": "classification-banner",
@@ -72,7 +72,7 @@
   {
     "name": "classification-banner-color-background-confidential",
     "value": "#0033a0",
-    "description": "The background color of the Confidential classification banner.",
+    "description": "Background color of the Confidential classification banner",
     "property": "background",
     "category": "color",
     "component": "classification-banner",
@@ -82,7 +82,7 @@
   {
     "name": "classification-banner-color-background-cui",
     "value": "#502b85",
-    "description": "The background color of the CUI classification banner.",
+    "description": "Background color of the CUI classification banner",
     "property": "background",
     "category": "color",
     "component": "classification-banner",
@@ -92,7 +92,7 @@
   {
     "name": "classification-banner-color-background-unclassified",
     "value": "#007a33",
-    "description": "The background color of the Unclassified classification banner.",
+    "description": "Background color of the Unclassified classification banner",
     "property": "background",
     "category": "color",
     "component": "classification-banner",
@@ -102,7 +102,7 @@
   {
     "name": "status-symbol-color-fill-critical-on-dark",
     "value": "#ff3838",
-    "description": "The fill color of the Critical status symbol on a dark background.",
+    "description": "Fill color of the Critical status symbol on a dark background",
     "property": "fill",
     "category": "color",
     "component": "status-symbol",
@@ -112,7 +112,7 @@
   {
     "name": "status-symbol-color-fill-critical-on-light",
     "value": "#ff2a04",
-    "description": "The fill color of the Critical status symbol on a light background.",
+    "description": "Fill color of the Critical status symbol on a light background",
     "property": "fill",
     "category": "color",
     "component": "status-symbol",
@@ -122,7 +122,7 @@
   {
     "name": "status-symbol-color-fill-serious-on-dark",
     "value": "#ffb302",
-    "description": "The fill color of the Serious status symbol on a dark background.",
+    "description": "Fill color of the Serious status symbol on a dark background",
     "property": "fill",
     "category": "color",
     "component": "status-symbol",
@@ -132,7 +132,7 @@
   {
     "name": "status-symbol-color-fill-serious-on-light",
     "value": "#ffaf3d",
-    "description": "The fill color of the Serious status symbol on a light background.",
+    "description": "Fill color of the Serious status symbol on a light background",
     "property": "fill",
     "category": "color",
     "component": "status-symbol",
@@ -142,7 +142,7 @@
   {
     "name": "status-symbol-color-fill-caution-on-dark",
     "value": "#fce83a",
-    "description": "The fill color of the Caution status symbol on a dark background.",
+    "description": "Fill color of the Caution status symbol on a dark background",
     "property": "fill",
     "category": "color",
     "component": "status-symbol",
@@ -152,7 +152,7 @@
   {
     "name": "status-symbol-color-fill-caution-on-light",
     "value": "#fad800",
-    "description": "The fill color of the Caution status symbol on a light background.",
+    "description": "Fill color of the Caution status symbol on a light background",
     "property": "fill",
     "category": "color",
     "component": "status-symbol",
@@ -162,7 +162,7 @@
   {
     "name": "status-symbol-color-fill-normal-on-dark",
     "value": "#56f000",
-    "description": "The fill color of the Normal status symbol on a dark background.",
+    "description": "Fill color of the Normal status symbol on a dark background",
     "property": "fill",
     "category": "color",
     "component": "status-symbol",
@@ -172,7 +172,7 @@
   {
     "name": "status-symbol-color-fill-normal-on-light",
     "value": "#00e200",
-    "description": "The fill color of the Normal status symbol on a light background.",
+    "description": "Fill color of the Normal status symbol on a light background",
     "property": "fill",
     "category": "color",
     "component": "status-symbol",
@@ -182,7 +182,7 @@
   {
     "name": "status-symbol-color-fill-standby-on-dark",
     "value": "#2dccff",
-    "description": "The fill color of the Standby status symbol on a dark background.",
+    "description": "Fill color of the Standby status symbol on a dark background",
     "property": "fill",
     "category": "color",
     "component": "status-symbol",
@@ -192,7 +192,7 @@
   {
     "name": "status-symbol-color-fill-standby-on-light",
     "value": "#64d9ff",
-    "description": "The fill color of the Standby status symbol on a light background.",
+    "description": "Fill color of the Standby status symbol on a light background",
     "property": "fill",
     "category": "color",
     "component": "status-symbol",
@@ -202,7 +202,7 @@
   {
     "name": "status-symbol-color-fill-off-on-dark",
     "value": "#a4abb6",
-    "description": "The fill color of the Off status symbol on a dark background.",
+    "description": "Fill color of the Off status symbol on a dark background",
     "property": "fill",
     "category": "color",
     "component": "status-symbol",
@@ -212,7 +212,7 @@
   {
     "name": "status-symbol-color-fill-off-on-light",
     "value": "#7b8089",
-    "description": "The fill color of the Off status symbol on a light background.",
+    "description": "Fill color of the Off status symbol on a light background",
     "property": "fill",
     "category": "color",
     "component": "status-symbol",
@@ -222,7 +222,7 @@
   {
     "name": "status-symbol-color-border-critical",
     "value": "#661102",
-    "description": "The border color of the Critical status symbol on light backgrounds.",
+    "description": "Border color of the Critical status symbol on light backgrounds",
     "property": "border",
     "category": "color",
     "component": "status-symbol",
@@ -232,7 +232,7 @@
   {
     "name": "status-symbol-color-border-serious",
     "value": "#664618",
-    "description": "The border color of the Serious status symbol on light backgrounds.",
+    "description": "Border color of the Serious status symbol on light backgrounds",
     "property": "border",
     "category": "color",
     "component": "status-symbol",
@@ -242,7 +242,7 @@
   {
     "name": "status-symbol-color-border-caution",
     "value": "#645600",
-    "description": "The border color of the Caution status symbol on light backgrounds.",
+    "description": "Border color of the Caution status symbol on light backgrounds",
     "property": "border",
     "category": "color",
     "component": "status-symbol",
@@ -252,7 +252,7 @@
   {
     "name": "status-symbol-color-border-normal",
     "value": "#005a00",
-    "description": "The border color of the Normal status symbol on light backgrounds.",
+    "description": "Border color of the Normal status symbol on light backgrounds",
     "property": "border",
     "category": "color",
     "component": "status-symbol",
@@ -262,7 +262,7 @@
   {
     "name": "status-symbol-color-border-standby",
     "value": "#285766",
-    "description": "The border color of the Standby status symbol on light backgrounds.",
+    "description": "Border color of the Standby status symbol on light backgrounds",
     "property": "border",
     "category": "color",
     "component": "status-symbol",
@@ -272,7 +272,7 @@
   {
     "name": "status-symbol-color-border-off",
     "value": "#3c3e42",
-    "description": "The border color of the Off status symbol on light backgrounds.",
+    "description": "Border color of the Off status symbol on light backgrounds",
     "property": "border",
     "category": "color",
     "component": "status-symbol",
@@ -282,7 +282,7 @@
   {
     "name": "status-symbol-border-width-on-dark",
     "value": 0,
-    "description": "The border width for status symbols on a dark background",
+    "description": "Border width for status symbols on a dark background",
     "property": "on-dark",
     "category": "borderWidth",
     "component": "status-symbol",
@@ -292,7 +292,7 @@
   {
     "name": "status-symbol-border-width-on-light",
     "value": "1px",
-    "description": "The border width for status symbols on a light background",
+    "description": "Border width for status symbols on a light background",
     "property": "on-light",
     "category": "borderWidth",
     "component": "status-symbol",
@@ -302,7 +302,7 @@
   {
     "name": "gsb-icon-color-fill-default",
     "value": "#4dacff",
-    "description": "The primary color used for interactive elements in the Global Status Bar.",
+    "description": "Primary color used for interactive elements in the Global Status Bar",
     "property": "icon",
     "category": "color",
     "component": "gsb",
@@ -312,7 +312,7 @@
   {
     "name": "gsb-icon-color-fill-hover",
     "value": "#92cbff",
-    "description": "The hover color used for interactive elements in the Global Status Bar.",
+    "description": "Hover color used for interactive elements in the Global Status Bar",
     "property": "icon",
     "category": "color",
     "component": "gsb",
@@ -322,7 +322,7 @@
   {
     "name": "gsb-color-background",
     "value": "#172635",
-    "description": "The background color of the Global Status Bar component. ",
+    "description": "Background color of the Global Status Bar component",
     "property": "background",
     "category": "color",
     "component": "gsb",
@@ -332,7 +332,7 @@
   {
     "name": "gsb-color-text",
     "value": "#ffffff",
-    "description": "The primary text color used within the Global Status Bar.",
+    "description": "Primary text color used within the Global Status Bar",
     "property": "text",
     "category": "color",
     "component": "gsb",
@@ -342,7 +342,7 @@
   {
     "name": "slider-radius-background-track",
     "value": "1px",
-    "description": "The background track border radius",
+    "description": "Background track border radius",
     "property": "background-track",
     "category": "borderRadius",
     "component": "slider",
@@ -351,7 +351,7 @@
   {
     "name": "checkbox-radius",
     "value": "2px",
-    "description": "The checkbox border radius",
+    "description": "Checkbox border radius",
     "category": "borderRadius",
     "component": "checkbox",
     "tokenLevel": "component"
@@ -359,7 +359,7 @@
   {
     "name": "radio-radius-inner",
     "value": "4px",
-    "description": "The inside radio border radius",
+    "description": "Inside radio border radius",
     "property": "inner",
     "category": "borderRadius",
     "component": "radio",
@@ -368,7 +368,7 @@
   {
     "name": "radio-radius-outer",
     "value": "9px",
-    "description": "The outside radio border radius",
+    "description": "Outside radio border radius",
     "property": "outer",
     "category": "borderRadius",
     "component": "radio",
@@ -377,7 +377,7 @@
   {
     "name": "switch-radius-track",
     "value": "10px",
-    "description": "The switch track's border radius",
+    "description": "Switch track's border radius",
     "property": "track",
     "category": "borderRadius",
     "component": "switch",
@@ -406,7 +406,7 @@
   {
     "name": "scrollbar-radius",
     "value": "4px",
-    "description": "The scrollbar's border radius",
+    "description": "Scrollbar's border radius",
     "category": "borderRadius",
     "component": "scrollbar",
     "tokenLevel": "component"
@@ -414,7 +414,7 @@
   {
     "name": "progress-radius-inner",
     "value": "8px",
-    "description": "The inside border radius",
+    "description": "Inside border radius",
     "property": "inner",
     "category": "borderRadius",
     "component": "progress",
@@ -423,7 +423,7 @@
   {
     "name": "progress-radius-outer",
     "value": "10px",
-    "description": "The outside border radius",
+    "description": "Outside border radius",
     "property": "outer",
     "category": "borderRadius",
     "component": "progress",
@@ -462,7 +462,7 @@
   {
     "name": "indeterminate-progress-radius-inner",
     "value": "23px",
-    "description": "The inside border radius",
+    "description": "Inside border radius",
     "property": "inner",
     "category": "borderRadius",
     "component": "indeterminate-progress",
@@ -471,7 +471,7 @@
   {
     "name": "indeterminate-progress-radius-outer",
     "value": "30px",
-    "description": "The outside border radius",
+    "description": "Outside border radius",
     "property": "outer",
     "category": "borderRadius",
     "component": "indeterminate-progress",
@@ -480,7 +480,7 @@
   {
     "name": "notification-banner-radius-inner",
     "value": "2px",
-    "description": "The inner radius of Notification Banner outlines.",
+    "description": "Inner radius of Notification Banner outlines",
     "property": "inner",
     "category": "borderRadius",
     "component": "notification-banner",
@@ -489,7 +489,7 @@
   {
     "name": "notification-banner-radius-outer",
     "value": "3px",
-    "description": "The outer radius of Notification Banner outlines.",
+    "description": "Outer radius of Notification Banner outlines",
     "property": "outer",
     "category": "borderRadius",
     "component": "notification-banner",
@@ -499,7 +499,7 @@
   {
     "name": "notification-banner-color-border-inner-normal",
     "value": "#00e200",
-    "description": "The fill color of the Normal Notification Banner background.",
+    "description": "Fill color of the Normal Notification Banner background",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -509,7 +509,7 @@
   {
     "name": "notification-banner-color-border-inner-caution",
     "value": "#fad800",
-    "description": "The fill color of the Caution Notification Banner background.",
+    "description": "Fill color of the Caution Notification Banner background",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -519,7 +519,7 @@
   {
     "name": "notification-banner-color-border-inner-serious",
     "value": "#ffaf3d",
-    "description": "The fill color of the Serious Notification Banner background.",
+    "description": "Fill color of the Serious Notification Banner background",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -529,7 +529,7 @@
   {
     "name": "notification-banner-color-border-inner-critical",
     "value": "#ff2a04",
-    "description": "The fill color of the Critical Notification Banner background.",
+    "description": "Fill color of the Critical Notification Banner background",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -539,7 +539,7 @@
   {
     "name": "notification-banner-color-border-inner-standby",
     "value": "#64d9ff",
-    "description": "The fill color of the Standby Notification Banner background.",
+    "description": "Fill color of the Standby Notification Banner background",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -549,7 +549,7 @@
   {
     "name": "notification-banner-color-border-inner-off",
     "value": "#7b8089",
-    "description": "The fill color of the Off Notification Banner background.",
+    "description": "Fill color of the Off Notification Banner background",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -559,7 +559,7 @@
   {
     "name": "notification-banner-color-border-inner-default",
     "value": "#005a8f",
-    "description": "The fill color of the Default Notification Banner background.",
+    "description": "Fill color of the Default Notification Banner background",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -569,7 +569,7 @@
   {
     "name": "notification-banner-color-border-outer-normal",
     "value": "#005a00",
-    "description": "The stroke color of the Normal Notification Banner.",
+    "description": "Stroke color of the Normal Notification Banner",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -579,7 +579,7 @@
   {
     "name": "notification-banner-color-border-outer-caution",
     "value": "#645600",
-    "description": "The stroke color of the Caution Notification Banner.",
+    "description": "Stroke color of the Caution Notification Banner",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -589,7 +589,7 @@
   {
     "name": "notification-banner-color-border-outer-serious",
     "value": "#664618",
-    "description": "The stroke color of the Serious Notification Banner.",
+    "description": "Stroke color of the Serious Notification Banner",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -599,7 +599,7 @@
   {
     "name": "notification-banner-color-border-outer-critical",
     "value": "#661102",
-    "description": "The stroke color of the Critical Notification Banner.",
+    "description": "Stroke color of the Critical Notification Banner",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -609,7 +609,7 @@
   {
     "name": "notification-banner-color-border-outer-standby",
     "value": "#285766",
-    "description": "The stroke color of the Standby Notification Banner.",
+    "description": "Stroke color of the Standby Notification Banner",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -619,7 +619,7 @@
   {
     "name": "notification-banner-color-border-outer-off",
     "value": "#3c3e42",
-    "description": "The stroke color of the Off Notification Banner.",
+    "description": "Stroke color of the Off Notification Banner",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -629,7 +629,7 @@
   {
     "name": "notification-banner-color-border-outer-default",
     "value": "#005a8f",
-    "description": "The stroke color of the Default Notification Banner.",
+    "description": "Stroke color of the Default Notification Banner",
     "property": "border",
     "category": "color",
     "component": "notification-banner",
@@ -639,7 +639,7 @@
   {
     "name": "menu-divider-color-fill",
     "value": "#51555b",
-    "description": "The fill color for menu dividers",
+    "description": "Fill color for menu dividers",
     "property": "divider",
     "category": "color",
     "component": "menu",
@@ -677,7 +677,7 @@
   {
     "name": "tooltip-color-background",
     "value": "#bbc1c9",
-    "description": "The background color for Tooltips",
+    "description": "Background color for Tooltips",
     "property": "background",
     "category": "color",
     "component": "tooltip",
@@ -687,7 +687,7 @@
   {
     "name": "tooltip-color-text",
     "value": "#000000",
-    "description": "The text color for Tooltips",
+    "description": "Text color for Tooltips",
     "property": "text",
     "category": "color",
     "component": "tooltip",
@@ -697,7 +697,7 @@
   {
     "name": "tooltip-radius",
     "value": "1px",
-    "description": "The tooltip border radius",
+    "description": "Tooltip border radius",
     "category": "borderRadius",
     "component": "tooltip",
     "tokenLevel": "component"
@@ -725,7 +725,7 @@
   {
     "name": "opacity-25",
     "value": "25%",
-    "description": "used in drop shadow for scrollbars in light theme ",
+    "description": "Opacity used in drop shadow for scrollbars in light theme",
     "property": "25",
     "category": "opacity",
     "component": null,
@@ -734,7 +734,7 @@
   {
     "name": "opacity-35",
     "value": "35%",
-    "description": "Used in drop shadow for dialogs in light theme",
+    "description": "Opacity used in drop shadow for dialogs in light theme",
     "property": "35",
     "category": "opacity",
     "component": null,
@@ -743,6 +743,7 @@
   {
     "name": "opacity-40",
     "value": "40%",
+    "description": "Opacity used in disabled states",
     "property": "40",
     "category": "opacity",
     "component": null,
@@ -751,7 +752,7 @@
   {
     "name": "opacity-45",
     "value": "45%",
-    "description": "Used in drop shadow for dialogs",
+    "description": "Opacity used in drop shadow for dialogs",
     "property": "45",
     "category": "opacity",
     "component": null,
@@ -768,7 +769,7 @@
   {
     "name": "opacity-disabled",
     "value": "40%",
-    "description": "Used to represent disabled state",
+    "description": "Opacity used to indicate the disabled state",
     "property": "disabled",
     "category": "opacity",
     "component": null,
@@ -1593,7 +1594,7 @@
   {
     "name": "color-background-base-default",
     "value": "#eaeef4",
-    "description": "The background color of base elements, like the app or popup menus.",
+    "description": "Background color of base elements, like the app or popup menus",
     "property": "background",
     "category": "color",
     "component": null,
@@ -1603,7 +1604,7 @@
   {
     "name": "color-background-base-header",
     "value": "#f5f6f9",
-    "description": "The background color for the header of base elements.",
+    "description": "Background color for the header of base elements",
     "property": "background",
     "category": "color",
     "component": null,
@@ -1613,7 +1614,7 @@
   {
     "name": "color-background-base-hover",
     "value": "#98bdd3",
-    "description": "The background color of base elements, like popup menus, when they are hovered over.",
+    "description": "Background color of base elements, like popup menus, when they are hovered over",
     "property": "background",
     "category": "color",
     "component": null,
@@ -1623,7 +1624,7 @@
   {
     "name": "color-background-base-selected",
     "value": "#cee9fc",
-    "description": "The background color of base elements, like popup menus, when they are selected.",
+    "description": "Background color of base elements, like popup menus, when they are selected",
     "property": "background",
     "category": "color",
     "component": null,
@@ -1633,7 +1634,7 @@
   {
     "name": "color-background-surface-default",
     "value": "#ffffff",
-    "description": "The background color of surface elements, like panels or dialogs.",
+    "description": "Background color of surface elements, like panels or dialogs",
     "property": "background",
     "category": "color",
     "component": null,
@@ -1643,7 +1644,7 @@
   {
     "name": "color-background-surface-header",
     "value": "#f5f6f9",
-    "description": "The background color for the header of surface elements, including dialogs and table headers.",
+    "description": "Background color for the header of surface elements, including dialogs and table headers",
     "property": "background",
     "category": "color",
     "component": null,
@@ -1653,7 +1654,7 @@
   {
     "name": "color-background-surface-hover",
     "value": "#daeeff",
-    "description": "The background color of surface elements, like cards or table rows, when they are hovered over.",
+    "description": "Background color of surface elements, like cards or table rows, when they are hovered over",
     "property": "background",
     "category": "color",
     "component": null,
@@ -1663,7 +1664,7 @@
   {
     "name": "color-background-surface-selected",
     "value": "#cee9fc",
-    "description": "The background color of surface elements, like cards or table rows, when they are selected.",
+    "description": "Background color of surface elements, like cards or table rows, when they are selected",
     "property": "background",
     "category": "color",
     "component": null,
@@ -1673,7 +1674,7 @@
   {
     "name": "color-background-interactive-default",
     "value": "#005a8f",
-    "description": "The primary color used for the backgrounds of interactive elements.",
+    "description": "Primary color used for the backgrounds of interactive elements",
     "property": "background",
     "category": "color",
     "component": null,
@@ -1683,7 +1684,7 @@
   {
     "name": "color-background-interactive-hover",
     "value": "#004872",
-    "description": "The hover color used for the backgrounds of interactive elements.",
+    "description": "Hover color used for the backgrounds of interactive elements",
     "property": "background",
     "category": "color",
     "component": null,
@@ -1693,7 +1694,7 @@
   {
     "name": "color-background-interactive-muted",
     "value": "#2f7aa7",
-    "description": "A muted version of the primary color used for the background of interactive elements that don't need to be as strong as the primary color.",
+    "description": "Muted version of the primary color used for the background of interactive elements that don't need to be as strong as the primary color",
     "property": "background",
     "category": "color",
     "component": null,
@@ -1703,7 +1704,7 @@
   {
     "name": "color-text-primary",
     "value": "#292a2d",
-    "description": "The primary color used for text within the application.",
+    "description": "Primary color used for text within the application",
     "property": "text",
     "category": "color",
     "component": null,
@@ -1713,7 +1714,7 @@
   {
     "name": "color-text-secondary",
     "value": "#51555b",
-    "description": "The color used for text when less emphasis is needed.",
+    "description": "Color used for text when less emphasis is needed",
     "property": "text",
     "category": "color",
     "component": null,
@@ -1723,7 +1724,7 @@
   {
     "name": "color-text-placeholder",
     "value": "#7b8089",
-    "description": "The text color used for placeholder text in input and form fields.",
+    "description": "Text color used for placeholder text in input and form fields",
     "property": "text",
     "category": "color",
     "component": null,
@@ -1733,7 +1734,7 @@
   {
     "name": "color-text-inverse",
     "value": "#ffffff",
-    "description": "The color used for text on reversed backgrounds.",
+    "description": "Color used for text on reversed backgrounds",
     "property": "text",
     "category": "color",
     "component": null,
@@ -1743,7 +1744,7 @@
   {
     "name": "color-text-interactive-default",
     "value": "#005a8f",
-    "description": "The primary color used for interactive text elements.",
+    "description": "Primary color used for interactive text elements",
     "property": "text",
     "category": "color",
     "component": null,
@@ -1753,7 +1754,7 @@
   {
     "name": "color-text-interactive-hover",
     "value": "#004872",
-    "description": "The hover color used for interactive text elements. ",
+    "description": "Hover color used for interactive text elements",
     "property": "text",
     "category": "color",
     "component": null,
@@ -1763,7 +1764,7 @@
   {
     "name": "color-text-white",
     "value": "#ffffff",
-    "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes.",
+    "description": "Text that is white across all themes. Used for classification and status banners that do not change color in various themes",
     "property": "text",
     "category": "color",
     "component": null,
@@ -1773,7 +1774,7 @@
   {
     "name": "color-text-black",
     "value": "#000000",
-    "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes.",
+    "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes",
     "property": "text",
     "category": "color",
     "component": null,
@@ -1783,7 +1784,7 @@
   {
     "name": "color-text-error",
     "value": "#c8102e",
-    "description": "The text color used for form error messages.",
+    "description": "Text color used for form error messages",
     "property": "text",
     "category": "color",
     "component": null,
@@ -1793,7 +1794,7 @@
   {
     "name": "color-border-interactive-default",
     "value": "#005a8f",
-    "description": "The primary color used for the border of interactive elements.",
+    "description": "Primary color used for the border of interactive elements",
     "property": "border",
     "category": "color",
     "component": null,
@@ -1803,7 +1804,7 @@
   {
     "name": "color-border-interactive-hover",
     "value": "#004872",
-    "description": "The hover color used for the border of interactive elements.",
+    "description": "Hover color used for the border of interactive elements",
     "property": "border",
     "category": "color",
     "component": null,
@@ -1813,7 +1814,7 @@
   {
     "name": "color-border-interactive-muted",
     "value": "#2f7aa7",
-    "description": "A muted version of the primary color used for the border of interactive elements that don't need to be as strong as the primary color.",
+    "description": "Muted version of the primary color used for the border of interactive elements that don't need to be as strong as the primary color",
     "property": "border",
     "category": "color",
     "component": null,
@@ -1823,7 +1824,7 @@
   {
     "name": "color-border-error",
     "value": "#c8102e",
-    "description": "The border color used for form error borders.",
+    "description": "Border color used for form error borders",
     "property": "border",
     "category": "color",
     "component": null,
@@ -1833,7 +1834,7 @@
   {
     "name": "color-border-focus-default",
     "value": "#b534ce",
-    "description": "The color of a focused element's outline",
+    "description": "Color of a focused element's outline",
     "property": "border",
     "category": "color",
     "component": null,
@@ -1843,7 +1844,7 @@
   {
     "name": "color-status-critical",
     "value": "#ff2a04",
-    "description": "The fill color of the Critical status symbol on a light background.",
+    "description": "Fill color of the Critical status symbol on a light background",
     "property": "status",
     "category": "color",
     "component": null,
@@ -1853,7 +1854,7 @@
   {
     "name": "color-status-serious",
     "value": "#ffaf3d",
-    "description": "The fill color of the Serious status symbol on a light background.",
+    "description": "Fill color of the Serious status symbol on a light background",
     "property": "status",
     "category": "color",
     "component": null,
@@ -1863,7 +1864,7 @@
   {
     "name": "color-status-caution",
     "value": "#fad800",
-    "description": "The fill color of the Caution status symbol on a light background.",
+    "description": "Fill color of the Caution status symbol on a light background",
     "property": "status",
     "category": "color",
     "component": null,
@@ -1873,7 +1874,7 @@
   {
     "name": "color-status-normal",
     "value": "#00e200",
-    "description": "The fill color of the Normal status symbol on a light background.",
+    "description": "Fill color of the Normal status symbol on a light background",
     "property": "status",
     "category": "color",
     "component": null,
@@ -1883,7 +1884,7 @@
   {
     "name": "color-status-standby",
     "value": "#64d9ff",
-    "description": "The fill color of the Standby status symbol on a light background.",
+    "description": "Fill color of the Standby status symbol on a light background",
     "property": "status",
     "category": "color",
     "component": null,
@@ -1893,7 +1894,7 @@
   {
     "name": "color-status-off",
     "value": "#7b8089",
-    "description": "The fill color of the Off status symbol on a light background.",
+    "description": "Fill color of the Off status symbol on a light background",
     "property": "status",
     "category": "color",
     "component": null,
@@ -1903,7 +1904,7 @@
   {
     "name": "color-classification-topsecretsci",
     "value": "#fce83a",
-    "description": "The color used to indicate the Top Secret//SCI classification.",
+    "description": "Color used to indicate the Top Secret//SCI classification",
     "property": "classification",
     "category": "color",
     "component": null,
@@ -1913,7 +1914,7 @@
   {
     "name": "color-classification-topsecret",
     "value": "#ff8c00",
-    "description": "The color used to indicate the Top Secret classification.",
+    "description": "Color used to indicate the Top Secret classification",
     "property": "classification",
     "category": "color",
     "component": null,
@@ -1923,7 +1924,7 @@
   {
     "name": "color-classification-secret",
     "value": "#c8102e",
-    "description": "The color used to indicate the Secret classification.",
+    "description": "Color used to indicate the Secret classification",
     "property": "classification",
     "category": "color",
     "component": null,
@@ -1933,7 +1934,7 @@
   {
     "name": "color-classification-confidential",
     "value": "#0033a0",
-    "description": "The color used to indicate the Confidential classification.",
+    "description": "Color used to indicate the Confidential classification",
     "property": "classification",
     "category": "color",
     "component": null,
@@ -1943,7 +1944,7 @@
   {
     "name": "color-classification-cui",
     "value": "#502b85",
-    "description": "The color used to indicate the CUI classification.",
+    "description": "Color used to indicate the CUI classification",
     "property": "classification",
     "category": "color",
     "component": null,
@@ -1953,7 +1954,7 @@
   {
     "name": "color-classification-unclassified",
     "value": "#007a33",
-    "description": "The color used to indicate the Unclassified classification.",
+    "description": "Color used to indicate the Unclassified classification",
     "property": "classification",
     "category": "color",
     "component": null,
@@ -1990,7 +1991,7 @@
   {
     "name": "border-width-lg",
     "value": "4px",
-    "description": "large border width",
+    "description": "Large border width",
     "property": "lg",
     "category": "borderWidth",
     "component": null,
@@ -1999,7 +2000,7 @@
   {
     "name": "border-width-focus-default",
     "value": "1px",
-    "description": "The thickness of a focused element's outline",
+    "description": "Thickness of a focused element's outline",
     "property": "focus",
     "category": "borderWidth",
     "component": null,
@@ -2009,7 +2010,7 @@
   {
     "name": "radius-base",
     "value": "3px",
-    "description": "The default base border radius",
+    "description": "Default base border radius",
     "property": "base",
     "category": "borderRadius",
     "component": null,
@@ -2018,7 +2019,7 @@
   {
     "name": "radius-circle",
     "value": "50%",
-    "description": "A completely rounded border radius, used to create circles.",
+    "description": "Completely rounded border radius, used to create circles",
     "property": "circle",
     "category": "borderRadius",
     "component": null,
@@ -3548,7 +3549,7 @@
   {
     "name": "spacing-focus-default",
     "value": "0.125rem",
-    "description": "The amount of space between a focused element's outline and edge.",
+    "description": "Space between a focused element's outline and edge",
     "property": "focus",
     "category": "spacing",
     "component": null,
