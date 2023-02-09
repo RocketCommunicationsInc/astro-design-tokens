@@ -769,7 +769,7 @@
   {
     "name": "opacity-disabled",
     "value": "40%",
-    "description": "Opacity used in disabled state",
+    "description": "Opacity used to indicate the disabled state",
     "property": "disabled",
     "category": "opacity",
     "component": null,

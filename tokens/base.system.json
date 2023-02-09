@@ -249,7 +249,7 @@
     "disabled": {
       "value": "40%",
       "type": "opacity",
-      "description": "Opacity used in disabled state",
+      "description": "Opacity used to indicate the disabled state",
       "rawValue": "{opacity.40}"
     }
   },

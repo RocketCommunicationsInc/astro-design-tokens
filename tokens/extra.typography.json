@@ -15,6 +15,7 @@
     "40": {
       "value": "40%",
       "type": "opacity",
+      "description": "Opacity used in disabled states",
       "rawValue": "40%"
     },
     "45": {
@@ -1218,7 +1219,7 @@
         "textCase": "none"
       },
       "type": "typography",
-      "description": "Monospace 1\nUsed for Global Status Bar clock",
+      "description": "Monospace 1. Used for Global Status Bar clock",
       "rawValue": {
         "fontFamily": "{fontFamily.sans}",
         "fontWeight": "{fontWeights.medium}",

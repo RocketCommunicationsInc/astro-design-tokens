@@ -15,6 +15,7 @@
     "40": {
       "value": "40%",
       "type": "opacity",
+      "description": "Opacity used in disabled states",
       "rawValue": "40%"
     },
     "45": {
