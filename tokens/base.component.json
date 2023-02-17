@@ -1,4 +1,328 @@
 {
+  "button": {
+    "color": {
+      "background": {
+        "primary": {
+          "default": {
+            "value": "#4dacff",
+            "type": "color",
+            "rawValue": "{color.background.interactive.default}"
+          },
+          "hover": {
+            "value": "#92cbff",
+            "type": "color",
+            "rawValue": "{color.background.interactive.hover}"
+          },
+          "disabled": {
+            "value": "#4dacff66",
+            "type": "color",
+            "rawValue": "rgba({button.color.background.primary.default}, {opacity.40})"
+          }
+        },
+        "secondary": {
+          "value": "#ffffff00",
+          "type": "color",
+          "rawValue": "rgba(#FFFFFF, 0%)"
+        },
+        "borderless": {
+          "value": "#ffffff00",
+          "type": "color",
+          "rawValue": "rgba(#ffffff, 0)"
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "#080c11",
+          "type": "color",
+          "rawValue": "{color.text.inverse}"
+        },
+        "secondary": {
+          "interactive": {
+            "default": {
+              "value": "#4dacff",
+              "type": "color",
+              "rawValue": "{color.text.interactive.default}"
+            },
+            "hover": {
+              "value": "#92cbff",
+              "type": "color",
+              "rawValue": "{color.text.interactive.hover}"
+            }
+          }
+        },
+        "borderless": {
+          "default": {
+            "value": "#4dacff",
+            "type": "color",
+            "rawValue": "{color.text.interactive.default}"
+          },
+          "hover": {
+            "value": "#92cbff",
+            "type": "color",
+            "rawValue": "{color.text.interactive.hover}"
+          }
+        }
+      },
+      "border": {
+        "primary": {
+          "default": {
+            "value": "#4dacff",
+            "type": "color",
+            "rawValue": "{button.color.background.primary.default}"
+          },
+          "hover": {
+            "value": "#92cbff",
+            "type": "color",
+            "rawValue": "{button.color.background.primary.hover}"
+          },
+          "disabled": {
+            "value": "#4dacff66",
+            "type": "color",
+            "rawValue": "{button.color.background.primary.disabled}"
+          }
+        },
+        "secondary": {
+          "default": {
+            "value": "#4dacff",
+            "type": "color",
+            "rawValue": "{color.border.interactive.default}"
+          },
+          "hover": {
+            "value": "#92cbff",
+            "type": "color",
+            "rawValue": "{color.border.interactive.hover}"
+          }
+        },
+        "borderless": {
+          "value": "#ffffff00",
+          "type": "color",
+          "rawValue": "{button.color.background.borderless}"
+        }
+      }
+    },
+    "radius": {
+      "value": "3px",
+      "type": "borderRadius",
+      "rawValue": "{radius.base}"
+    },
+    "opacity": {
+      "disabled": {
+        "value": "40%",
+        "type": "opacity",
+        "rawValue": "{opacity.disabled}"
+      }
+    },
+    "icon": {
+      "color": {
+        "fill": {
+          "primary": {
+            "value": "#080c11",
+            "type": "color",
+            "rawValue": "{button.color.text.primary}"
+          },
+          "secondary": {
+            "default": {
+              "value": "#4dacff",
+              "type": "color",
+              "rawValue": "{button.color.border.secondary.default}"
+            },
+            "hover": {
+              "value": "#92cbff",
+              "type": "color",
+              "rawValue": "{button.color.text.secondary.interactive.hover}"
+            }
+          },
+          "borderless": {
+            "default": {
+              "value": "#4dacff",
+              "type": "color",
+              "rawValue": "{button.color.text.borderless.default}"
+            },
+            "hover": {
+              "value": "#92cbff",
+              "type": "color",
+              "rawValue": "{button.color.text.borderless.hover}"
+            }
+          }
+        }
+      }
+    },
+    "text": {
+      "fontFamily": {
+        "value": "Roboto",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "24px",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": "16px",
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "0.5%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "padding": {
+      "x": {
+        "medium": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        },
+        "medium-iconOnly": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        }
+      },
+      "y": {
+        "medium": {
+          "value": "16px",
+          "type": "spacing",
+          "rawValue": "{spacing.4}"
+        },
+        "medium-iconOnly": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        }
+      }
+    }
+  },
+  "input": {
+    "color": {
+      "background": {
+        "default": {
+          "value": "#101923",
+          "type": "color",
+          "rawValue": "{color.background.base.default}"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "#2b659b",
+          "type": "color",
+          "rawValue": "{color.border.interactive.muted}"
+        },
+        "hover": {
+          "value": "#92cbff",
+          "type": "color",
+          "rawValue": "{color.border.interactive.hover}"
+        },
+        "error": {
+          "value": "#ff3838",
+          "type": "color",
+          "rawValue": "{color.border.error}"
+        }
+      },
+      "text": {
+        "default": {
+          "value": "#ffffff",
+          "type": "color",
+          "rawValue": "{color.text.primary}"
+        }
+      }
+    },
+    "padding": {
+      "x": {
+        "medium": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        },
+        "small": {
+          "value": "4px",
+          "type": "spacing",
+          "rawValue": "{spacing.1}"
+        },
+        "large": {
+          "value": "12px",
+          "type": "spacing",
+          "rawValue": "{spacing.3}"
+        }
+      },
+      "y": {
+        "medium": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        },
+        "small": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        },
+        "large": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        }
+      }
+    },
+    "text": {
+      "fontFamily": {
+        "value": "Roboto",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "20px",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": "16px",
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "0.5%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "BorderWidth": {
+      "value": "1px",
+      "type": "borderWidth",
+      "rawValue": "{borderWidth.xs}"
+    },
+    "radius": {
+      "value": "3px",
+      "type": "borderRadius",
+      "rawValue": "{radius.base}"
+    }
+  },
   "link": {
     "color": {
       "text": {

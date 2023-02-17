@@ -1,5 +1,488 @@
 [
   {
+    "name": "button-color-background-primary-default",
+    "value": "#4dacff",
+    "property": "background",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-background-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-background-primary-hover",
+    "value": "#92cbff",
+    "property": "background",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-background-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-background-primary-disabled",
+    "value": "#4dacff66",
+    "property": "background",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-background-primary-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-background-secondary",
+    "value": "#ffffff00",
+    "property": "background",
+    "category": "color",
+    "component": "button",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-background-borderless",
+    "value": "#ffffff00",
+    "property": "background",
+    "category": "color",
+    "component": "button",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-text-primary",
+    "value": "#080c11",
+    "property": "text",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-text-inverse",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-text-secondary-interactive-default",
+    "value": "#4dacff",
+    "property": "text",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-text-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-text-secondary-interactive-hover",
+    "value": "#92cbff",
+    "property": "text",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-text-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-text-borderless-default",
+    "value": "#4dacff",
+    "property": "text",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-text-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-text-borderless-hover",
+    "value": "#92cbff",
+    "property": "text",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-text-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-border-primary-default",
+    "value": "#4dacff",
+    "property": "border",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-background-primary-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-border-primary-hover",
+    "value": "#92cbff",
+    "property": "border",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-background-primary-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-border-primary-disabled",
+    "value": "#4dacff66",
+    "property": "border",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-background-primary-disabled",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-border-secondary-default",
+    "value": "#4dacff",
+    "property": "border",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-border-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-border-secondary-hover",
+    "value": "#92cbff",
+    "property": "border",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-border-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-border-borderless",
+    "value": "#ffffff00",
+    "property": "border",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-background-borderless",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-radius",
+    "value": "3px",
+    "category": "borderRadius",
+    "component": "button",
+    "referenceToken": "radius-base",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-opacity-disabled",
+    "value": "40%",
+    "property": "opacity",
+    "category": "opacity",
+    "component": null,
+    "referenceToken": "opacity-disabled",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-icon-color-fill-primary",
+    "value": "#080c11",
+    "property": "icon",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-text-primary",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-icon-color-fill-secondary-default",
+    "value": "#4dacff",
+    "property": "icon",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-border-secondary-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-icon-color-fill-secondary-hover",
+    "value": "#92cbff",
+    "property": "icon",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-text-secondary-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-icon-color-fill-borderless-default",
+    "value": "#4dacff",
+    "property": "icon",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-text-borderless-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-icon-color-fill-borderless-hover",
+    "value": "#92cbff",
+    "property": "icon",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-text-borderless-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-text-font-family",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+    "property": "text",
+    "category": "fontFamily",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "button-text-font-weight",
+    "value": "400",
+    "property": "text",
+    "category": "fontWeight",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "button-text-line-height",
+    "value": "calc(24 / 16)",
+    "property": "text",
+    "category": "lineHeight",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "button-text-font-size",
+    "value": "1rem",
+    "property": "text",
+    "category": "fontSize",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "button-text-letter-spacing",
+    "value": "0.005em",
+    "property": "text",
+    "category": "letterSpacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "button-text-paragraph-spacing",
+    "value": 0,
+    "property": "text",
+    "category": "paragraphSpacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "button-text-text-decoration",
+    "value": "none",
+    "property": "text",
+    "category": "textDecoration",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "button-text-text-case",
+    "value": "none",
+    "property": "text",
+    "category": "textCase",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "button-padding-x-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-x-medium-icon-only",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-y-medium",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-y-medium-icon-only",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-color-background-default",
+    "value": "#101923",
+    "property": "background",
+    "category": "color",
+    "component": "input",
+    "referenceToken": "color-background-base-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-color-border-default",
+    "value": "#2b659b",
+    "property": "border",
+    "category": "color",
+    "component": "input",
+    "referenceToken": "color-border-interactive-muted",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-color-border-hover",
+    "value": "#92cbff",
+    "property": "border",
+    "category": "color",
+    "component": "input",
+    "referenceToken": "color-border-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-color-border-error",
+    "value": "#ff3838",
+    "property": "border",
+    "category": "color",
+    "component": "input",
+    "referenceToken": "color-border-error",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-color-text-default",
+    "value": "#ffffff",
+    "property": "text",
+    "category": "color",
+    "component": "input",
+    "referenceToken": "color-text-primary",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-padding-x-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-padding-x-small",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-padding-x-large",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-padding-y-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-padding-y-small",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-padding-y-large",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-text-font-family",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+    "property": "text",
+    "category": "fontFamily",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "input-text-font-weight",
+    "value": "400",
+    "property": "text",
+    "category": "fontWeight",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "input-text-line-height",
+    "value": "calc(20 / 16)",
+    "property": "text",
+    "category": "lineHeight",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "input-text-font-size",
+    "value": "1rem",
+    "property": "text",
+    "category": "fontSize",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "input-text-letter-spacing",
+    "value": "0.005em",
+    "property": "text",
+    "category": "letterSpacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "input-text-paragraph-spacing",
+    "value": 0,
+    "property": "text",
+    "category": "paragraphSpacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "input-text-text-decoration",
+    "value": "none",
+    "property": "text",
+    "category": "textDecoration",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "input-text-text-case",
+    "value": "none",
+    "property": "text",
+    "category": "textCase",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "input-border-width",
+    "value": "1px",
+    "category": "borderWidth",
+    "component": "input",
+    "referenceToken": "border-width-xs",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-radius",
+    "value": "3px",
+    "category": "borderRadius",
+    "component": "input",
+    "referenceToken": "radius-base",
+    "tokenLevel": "component"
+  },
+  {
     "name": "link-color-text-default",
     "value": "#4dacff",
     "description": "Color used for links in default state",

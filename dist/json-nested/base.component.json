@@ -1,4 +1,120 @@
 {
+  "button": {
+    "color": {
+      "background": {
+        "primary": {
+          "default": "#4dacff",
+          "hover": "#92cbff",
+          "disabled": "#4dacff66"
+        },
+        "secondary": "#ffffff00",
+        "borderless": "#ffffff00"
+      },
+      "text": {
+        "primary": "#080c11",
+        "secondary": {
+          "interactive": {
+            "default": "#4dacff",
+            "hover": "#92cbff"
+          }
+        },
+        "borderless": {
+          "default": "#4dacff",
+          "hover": "#92cbff"
+        }
+      },
+      "border": {
+        "primary": {
+          "default": "#4dacff",
+          "hover": "#92cbff",
+          "disabled": "#4dacff66"
+        },
+        "secondary": {
+          "default": "#4dacff",
+          "hover": "#92cbff"
+        },
+        "borderless": "#ffffff00"
+      }
+    },
+    "radius": "3px",
+    "opacity": {
+      "disabled": "40%"
+    },
+    "icon": {
+      "color": {
+        "fill": {
+          "primary": "#080c11",
+          "secondary": {
+            "default": "#4dacff",
+            "hover": "#92cbff"
+          },
+          "borderless": {
+            "default": "#4dacff",
+            "hover": "#92cbff"
+          }
+        }
+      }
+    },
+    "text": {
+      "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+      "fontWeight": "400",
+      "lineHeight": "calc(24 / 16)",
+      "fontSize": "1rem",
+      "letterSpacing": "0.005em",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "padding": {
+      "x": {
+        "medium": "0.5rem",
+        "medium-iconOnly": "0.5rem"
+      },
+      "y": {
+        "medium": "1rem",
+        "medium-iconOnly": "0.5rem"
+      }
+    }
+  },
+  "input": {
+    "color": {
+      "background": {
+        "default": "#101923"
+      },
+      "border": {
+        "default": "#2b659b",
+        "hover": "#92cbff",
+        "error": "#ff3838"
+      },
+      "text": {
+        "default": "#ffffff"
+      }
+    },
+    "padding": {
+      "x": {
+        "medium": "0.5rem",
+        "small": "0.25rem",
+        "large": "0.75rem"
+      },
+      "y": {
+        "medium": "0.5rem",
+        "small": "0.5rem",
+        "large": "0.5rem"
+      }
+    },
+    "text": {
+      "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+      "fontWeight": "400",
+      "lineHeight": "calc(20 / 16)",
+      "fontSize": "1rem",
+      "letterSpacing": "0.005em",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "BorderWidth": "1px",
+    "radius": "3px"
+  },
   "link": {
     "color": {
       "text": {
