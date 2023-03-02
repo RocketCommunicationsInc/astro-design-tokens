@@ -61,6 +61,16 @@
       "confidential": "#0033a0",
       "cui": "#502b85",
       "unclassified": "#007a33"
+    },
+    "data-visualization": {
+      "1": "#00c7cb",
+      "2": "#938bdb",
+      "3": "#4dacff",
+      "4": "#70dde0",
+      "5": "#c9c5ed",
+      "6": "#92cbff",
+      "7": "#a1e9eb",
+      "8": "#b7dcff"
     }
   },
   "borderWidth": {

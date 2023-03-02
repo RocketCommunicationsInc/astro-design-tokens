@@ -1959,6 +1959,78 @@
     "tokenLevel": "system"
   },
   {
+    "name": "color-data-visualization-1",
+    "value": "#00c7cb",
+    "property": "data-visualization",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-teal-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-data-visualization-2",
+    "value": "#938bdb",
+    "property": "data-visualization",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-purple-400",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-data-visualization-3",
+    "value": "#4dacff",
+    "property": "data-visualization",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-500",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-data-visualization-4",
+    "value": "#70dde0",
+    "property": "data-visualization",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-teal-300",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-data-visualization-5",
+    "value": "#c9c5ed",
+    "property": "data-visualization",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-purple-200",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-data-visualization-6",
+    "value": "#92cbff",
+    "property": "data-visualization",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-400",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-data-visualization-7",
+    "value": "#a1e9eb",
+    "property": "data-visualization",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-teal-200",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-data-visualization-8",
+    "value": "#b7dcff",
+    "property": "data-visualization",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-brightblue-300",
+    "tokenLevel": "system"
+  },
+  {
     "name": "border-width-none",
     "value": 0,
     "description": "No border width",
