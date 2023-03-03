@@ -1,12 +1,13 @@
 const {readFile, writeFile} = require('fs/promises');
+const filePath = './tokens/base.reference.json'
 
 const getTokens = async()=>{
-    const tokens = await readFile('./data/tokens.json','binary')
+    const tokens = await readFile(filePath,'binary')
 	return JSON.parse(tokens)
 }
 
 const writeTokens = async(tokens) => {
-	await writeFile('./data/tokens.json', JSON.stringify(tokens, null, 4))
+	await writeFile(filePath, JSON.stringify(tokens, null, 4))
 }
 
 
@@ -24,8 +25,8 @@ const renameTypography = async() => {
 
 	typographyCategories.map(category => {
 
-		tokens.reference.font = {...tokens.reference.font, ...tokens.reference[category]}
-		delete tokens.reference[category]
+		tokens.font = {...tokens.font, ...tokens[category]}
+		delete tokens[category]
 	})
 	
 
