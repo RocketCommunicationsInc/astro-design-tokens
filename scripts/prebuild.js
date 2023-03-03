@@ -11,7 +11,9 @@ const writeTokens = async(tokens) => {
 }
 
 
-
+/**
+ * Renames typography styles, ie body-body-1-... to font-body-1 because design doesn't want to change the Figma styles
+ */
 const renameTypography = async() => {
 	const tokens = await getTokens()
 

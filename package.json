@@ -9,7 +9,7 @@
     "build": "node ./build.js",
     "build.ios": "node ./iosbuild.js",
     "prepack": "npm run build",
-    "make": "node run.js && npm run build"
+    "make": "node run.js && node ./scripts/prebuild.js && npm run build"
   },
   "postcss": {
     "plugins": {
