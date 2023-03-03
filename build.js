@@ -196,7 +196,6 @@ StyleDictionary.registerTransformGroup({
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
-    "typography/name",
     "fontWeight/css",
     "shadow/css"
   ]),
@@ -209,7 +208,6 @@ StyleDictionary.registerTransformGroup({
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
-    "typography/name",
     "fontWeight/css",
     "shadow/css"
   ]),
@@ -222,7 +220,6 @@ StyleDictionary.registerTransformGroup({
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
-    "typography/name",
     "fontWeight/css",
     "shadow/css"
   ]),
@@ -449,7 +446,6 @@ styleDictionary.extend({
         "size/pxToUnitless",
         "letterSpacing/percentToEm",
         "fontFamily/fallback",
-        "typography/name",
         "fontWeight/css",
         "shadow/css"
       ],
