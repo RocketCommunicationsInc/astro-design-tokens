@@ -1,5 +1,13 @@
 .light-theme {
   --shadow-overlay:  0px 4px 4px 1px rgba(0, 0, 0, 0.35);
+  --color-data-visualization-8: #3a87cf;
+  --color-data-visualization-7: #009fa3;
+  --color-data-visualization-6: #2b659b;
+  --color-data-visualization-5: #786dd3;
+  --color-data-visualization-4: #00777a;
+  --color-data-visualization-3: #1c3851;
+  --color-data-visualization-2: #6058a8;
+  --color-data-visualization-1: #035051;
   --color-status-off: #7b8089;
   --color-status-standby: #64d9ff;
   --color-status-normal: #00e200;
