@@ -96,6 +96,64 @@
           "rawValue": "{status-symbol.color.fill.off.on-dark}"
         }
       }
+    },
+    "data-visualization": {
+      "1": {
+        "color": {
+          "value": "#00c7cb",
+          "type": "color",
+          "rawValue": "{color.data-visualization.1}"
+        }
+      },
+      "2": {
+        "color": {
+          "value": "#938bdb",
+          "type": "color",
+          "rawValue": "{color.data-visualization.2}"
+        }
+      },
+      "3": {
+        "color": {
+          "value": "#4dacff",
+          "type": "color",
+          "rawValue": "{color.data-visualization.3}"
+        }
+      },
+      "4": {
+        "color": {
+          "value": "#70dde0",
+          "type": "color",
+          "rawValue": "{color.data-visualization.4}"
+        }
+      },
+      "5": {
+        "color": {
+          "value": "#c9c5ed",
+          "type": "color",
+          "rawValue": "{color.data-visualization.5}"
+        }
+      },
+      "6": {
+        "color": {
+          "value": "#92cbff",
+          "type": "color",
+          "rawValue": "{color.data-visualization.6}"
+        }
+      },
+      "7": {
+        "color": {
+          "value": "#a1e9eb",
+          "type": "color",
+          "rawValue": "{color.data-visualization.7}"
+        }
+      },
+      "8": {
+        "color": {
+          "value": "#b7dcff",
+          "type": "color",
+          "rawValue": "{color.data-visualization.8}"
+        }
+      }
     }
   },
   "link": {
