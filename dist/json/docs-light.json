@@ -1963,74 +1963,74 @@
   },
   {
     "name": "color-data-visualization-1",
-    "value": "#00c7cb",
+    "value": "#035051",
     "property": "data-visualization",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-teal-500",
+    "referenceToken": "color-palette-teal-800",
     "tokenLevel": "system"
   },
   {
     "name": "color-data-visualization-2",
-    "value": "#938bdb",
+    "value": "#6058a8",
     "property": "data-visualization",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-purple-400",
+    "referenceToken": "color-palette-purple-600",
     "tokenLevel": "system"
   },
   {
     "name": "color-data-visualization-3",
-    "value": "#4dacff",
+    "value": "#1c3851",
     "property": "data-visualization",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-brightblue-500",
+    "referenceToken": "color-palette-brightblue-800",
     "tokenLevel": "system"
   },
   {
     "name": "color-data-visualization-4",
-    "value": "#70dde0",
+    "value": "#00777a",
     "property": "data-visualization",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-teal-300",
+    "referenceToken": "color-palette-teal-700",
     "tokenLevel": "system"
   },
   {
     "name": "color-data-visualization-5",
-    "value": "#c9c5ed",
+    "value": "#786dd3",
     "property": "data-visualization",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-purple-200",
+    "referenceToken": "color-palette-purple-500",
     "tokenLevel": "system"
   },
   {
     "name": "color-data-visualization-6",
-    "value": "#92cbff",
+    "value": "#2b659b",
     "property": "data-visualization",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-brightblue-400",
+    "referenceToken": "color-palette-brightblue-700",
     "tokenLevel": "system"
   },
   {
     "name": "color-data-visualization-7",
-    "value": "#a1e9eb",
+    "value": "#009fa3",
     "property": "data-visualization",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-teal-200",
+    "referenceToken": "color-palette-teal-600",
     "tokenLevel": "system"
   },
   {
     "name": "color-data-visualization-8",
-    "value": "#b7dcff",
+    "value": "#3a87cf",
     "property": "data-visualization",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-brightblue-300",
+    "referenceToken": "color-palette-brightblue-600",
     "tokenLevel": "system"
   },
   {
