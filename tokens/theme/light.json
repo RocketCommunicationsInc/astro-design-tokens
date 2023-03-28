@@ -61,10 +61,10 @@
           "rawValue": "{color.palette.darkblue.500}"
         },
         "hover": {
-          "value": "#004872",
+          "value": "#1c3f5e",
           "type": "color",
           "description": "Hover color used for the backgrounds of interactive elements",
-          "rawValue": "{color.palette.darkblue.600}"
+          "rawValue": "{color.palette.darkblue.700}"
         },
         "muted": {
           "value": "#2f7aa7",
@@ -107,10 +107,10 @@
           "rawValue": "{color.palette.darkblue.500}"
         },
         "hover": {
-          "value": "#004872",
+          "value": "#1c3f5e",
           "type": "color",
           "description": "Hover color used for interactive text elements",
-          "rawValue": "{color.palette.darkblue.600}"
+          "rawValue": "{color.palette.darkblue.700}"
         }
       },
       "error": {
@@ -129,10 +129,10 @@
           "rawValue": "{color.palette.darkblue.500}"
         },
         "hover": {
-          "value": "#004872",
+          "value": "#1c3f5e",
           "type": "color",
           "description": "Hover color used for the border of interactive elements",
-          "rawValue": "{color.palette.darkblue.600}"
+          "rawValue": "{color.palette.darkblue.700}"
         },
         "muted": {
           "value": "#2f7aa7",
