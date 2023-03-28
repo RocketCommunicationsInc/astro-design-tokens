@@ -1683,12 +1683,12 @@
   },
   {
     "name": "color-background-interactive-hover",
-    "value": "#004872",
+    "value": "#1c3f5e",
     "description": "Hover color used for the backgrounds of interactive elements",
     "property": "background",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-darkblue-600",
+    "referenceToken": "color-palette-darkblue-700",
     "tokenLevel": "system"
   },
   {
@@ -1753,12 +1753,12 @@
   },
   {
     "name": "color-text-interactive-hover",
-    "value": "#004872",
+    "value": "#1c3f5e",
     "description": "Hover color used for interactive text elements",
     "property": "text",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-darkblue-600",
+    "referenceToken": "color-palette-darkblue-700",
     "tokenLevel": "system"
   },
   {
@@ -1803,12 +1803,12 @@
   },
   {
     "name": "color-border-interactive-hover",
-    "value": "#004872",
+    "value": "#1c3f5e",
     "description": "Hover color used for the border of interactive elements",
     "property": "border",
     "category": "color",
     "component": null,
-    "referenceToken": "color-palette-darkblue-600",
+    "referenceToken": "color-palette-darkblue-700",
     "tokenLevel": "system"
   },
   {

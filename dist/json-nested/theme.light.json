@@ -98,7 +98,7 @@
       },
       "interactive": {
         "default": "#005a8f",
-        "hover": "#004872",
+        "hover": "#1c3f5e",
         "muted": "#2f7aa7"
       }
     },
@@ -109,14 +109,14 @@
       "inverse": "#ffffff",
       "interactive": {
         "default": "#005a8f",
-        "hover": "#004872"
+        "hover": "#1c3f5e"
       },
       "error": "#c8102e"
     },
     "border": {
       "interactive": {
         "default": "#005a8f",
-        "hover": "#004872",
+        "hover": "#1c3f5e",
         "muted": "#2f7aa7"
       },
       "error": "#c8102e",
