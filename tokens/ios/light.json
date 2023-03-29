@@ -134,6 +134,26 @@
         "description": "Border color used for the Container component",
         "rawValue": "{color.palette.neutral.1000}"
       }
+    },
+    "header": {
+      "color": {
+        "background": {
+          "value": "#172635",
+          "type": "color",
+          "description": "Background color for the Container component header",
+          "rawValue": "{color.background.surface.header}"
+        }
+      }
+    },
+    "footer": {
+      "color": {
+        "background": {
+          "value": "#172635",
+          "type": "color",
+          "description": "Background color for the Container component footer",
+          "rawValue": "{container.header.color.background}"
+        }
+      }
     }
   },
   "classification-banner": {

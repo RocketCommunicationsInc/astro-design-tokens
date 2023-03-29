@@ -40,6 +40,26 @@
     "tokenLevel": "component"
   },
   {
+    "name": "container-header-color-background",
+    "value": "#172635",
+    "description": "Background color for the Container component header",
+    "property": "header",
+    "category": "color",
+    "component": "container",
+    "referenceToken": "color-background-surface-header",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "container-footer-color-background",
+    "value": "#172635",
+    "description": "Background color for the Container component footer",
+    "property": "footer",
+    "category": "color",
+    "component": "container",
+    "referenceToken": "container-header-color-background",
+    "tokenLevel": "component"
+  },
+  {
     "name": "classification-banner-color-background-topsecretsci",
     "value": "#fce83a",
     "description": "Background color of the Top Secret//SCI classification banner",
