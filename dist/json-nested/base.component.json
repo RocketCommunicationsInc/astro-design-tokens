@@ -15,6 +15,16 @@
   "container": {
     "color": {
       "border": "#000000"
+    },
+    "header": {
+      "color": {
+        "background": "#172635"
+      }
+    },
+    "footer": {
+      "color": {
+        "background": "#172635"
+      }
     }
   },
   "classification-banner": {
