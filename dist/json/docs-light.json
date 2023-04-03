@@ -1,5 +1,288 @@
 [
   {
+    "name": "select-padding-y-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "select-padding-y-small",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "select-padding-y-large",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "select-padding-x-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "select-padding-x-small",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "select-padding-x-large",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "select-caret-selector-width",
+    "value": "32px",
+    "property": "caret-selector",
+    "category": "sizing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "select-caret-selector-color-background",
+    "value": "#1c3f5e",
+    "property": "caret-selector",
+    "category": "color",
+    "component": "select",
+    "referenceToken": "color-background-base-selected",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "select-caret-dimension",
+    "value": "30px",
+    "property": "caret",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "select-caret-color-fill",
+    "value": "#4dacff",
+    "property": "caret",
+    "category": "color",
+    "component": "select",
+    "referenceToken": "color-background-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "select-color-border-default",
+    "value": "#2b659b",
+    "property": "border",
+    "category": "color",
+    "component": "select",
+    "referenceToken": "color-border-interactive-muted",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "select-color-border-hover",
+    "value": "#92cbff",
+    "property": "border",
+    "category": "color",
+    "component": "select",
+    "referenceToken": "color-border-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "select-color-border-invalid",
+    "value": "#ff3838",
+    "property": "border",
+    "category": "color",
+    "component": "select",
+    "referenceToken": "color-border-error",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "select-color-text",
+    "value": "#4dacff",
+    "property": "text",
+    "category": "color",
+    "component": "select",
+    "referenceToken": "color-text-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "select-color-background",
+    "value": "#101923",
+    "property": "background",
+    "category": "color",
+    "component": "select",
+    "referenceToken": "color-background-base-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "select-label-font-family",
+    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+    "property": "label",
+    "category": "fontFamily",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "select-label-font-weight",
+    "value": "400",
+    "property": "label",
+    "category": "fontWeight",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "select-label-line-height",
+    "value": "calc(20 / 16)",
+    "property": "label",
+    "category": "lineHeight",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "select-label-font-size",
+    "value": "1rem",
+    "property": "label",
+    "category": "fontSize",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "select-label-letter-spacing",
+    "value": "0.005em",
+    "property": "label",
+    "category": "letterSpacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "select-label-paragraph-spacing",
+    "value": 0,
+    "property": "label",
+    "category": "paragraphSpacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "select-label-text-decoration",
+    "value": "none",
+    "property": "label",
+    "category": "textDecoration",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "select-label-text-case",
+    "value": "none",
+    "property": "label",
+    "category": "textCase",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "select-radius",
+    "value": "3px",
+    "category": "borderRadius",
+    "component": "select",
+    "referenceToken": "radius-base",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "select-border-width",
+    "value": "1px",
+    "category": "borderWidth",
+    "component": "select",
+    "referenceToken": "border-width-xs",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "radio-radius-inner",
+    "value": "4px",
+    "description": "Inside radio border radius",
+    "property": "inner",
+    "category": "borderRadius",
+    "component": "radio",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "radio-radius-outer",
+    "value": "9px",
+    "description": "Outside radio border radius",
+    "property": "outer",
+    "category": "borderRadius",
+    "component": "radio",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "checkbox-group-padding",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "checkbox-group-checkbox-margin-bottom",
+    "value": "0.5rem",
+    "property": "checkbox",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "checkbox-group-color-border-default",
+    "value": "#2b659b",
+    "property": "border",
+    "category": "color",
+    "component": "checkbox-group",
+    "referenceToken": "color-border-interactive-muted",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "checkbox-group-color-border-invalid",
+    "value": "#ff3838",
+    "property": "border",
+    "category": "color",
+    "component": "checkbox-group",
+    "referenceToken": "color-border-error",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "checkbox-group-border-width",
+    "value": "1px",
+    "category": "borderWidth",
+    "component": "checkbox-group",
+    "referenceToken": "border-width-xs",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "checkbox-radius",
+    "value": "2px",
+    "description": "Checkbox border radius",
+    "category": "borderRadius",
+    "component": "checkbox",
+    "tokenLevel": "component"
+  },
+  {
     "name": "button-color-background-primary-default",
     "value": "#4dacff",
     "property": "background",
@@ -15,15 +298,6 @@
     "category": "color",
     "component": "button",
     "referenceToken": "color-background-interactive-hover",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-background-primary-disabled",
-    "value": "#4dacff66",
-    "property": "background",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "button-color-background-primary-default",
     "tokenLevel": "component"
   },
   {
@@ -52,7 +326,7 @@
     "tokenLevel": "component"
   },
   {
-    "name": "button-color-text-secondary-interactive-default",
+    "name": "button-color-text-secondary-default",
     "value": "#4dacff",
     "property": "text",
     "category": "color",
@@ -61,7 +335,7 @@
     "tokenLevel": "component"
   },
   {
-    "name": "button-color-text-secondary-interactive-hover",
+    "name": "button-color-text-secondary-hover",
     "value": "#92cbff",
     "property": "text",
     "category": "color",
@@ -103,15 +377,6 @@
     "category": "color",
     "component": "button",
     "referenceToken": "button-color-background-primary-hover",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-border-primary-disabled",
-    "value": "#4dacff66",
-    "property": "border",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "button-color-background-primary-disabled",
     "tokenLevel": "component"
   },
   {
@@ -182,7 +447,7 @@
     "property": "icon",
     "category": "color",
     "component": "button",
-    "referenceToken": "button-color-text-secondary-interactive-hover",
+    "referenceToken": "button-color-text-secondary-hover",
     "tokenLevel": "component"
   },
   {
@@ -204,76 +469,147 @@
     "tokenLevel": "component"
   },
   {
-    "name": "button-text-font-family",
+    "name": "button-icon-margin-right",
+    "value": "0.25rem",
+    "property": "icon",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-icon-dimension",
+    "value": "20px",
+    "property": "icon",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "button-label-font-family",
     "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-    "property": "text",
+    "property": "label",
     "category": "fontFamily",
     "component": null,
     "tokenLevel": "reference"
   },
   {
-    "name": "button-text-font-weight",
+    "name": "button-label-font-weight",
     "value": "400",
-    "property": "text",
+    "property": "label",
     "category": "fontWeight",
     "component": null,
     "tokenLevel": "reference"
   },
   {
-    "name": "button-text-line-height",
-    "value": "calc(24 / 16)",
-    "property": "text",
+    "name": "button-label-line-height",
+    "value": "calc(20 / 16)",
+    "property": "label",
     "category": "lineHeight",
     "component": null,
     "tokenLevel": "reference"
   },
   {
-    "name": "button-text-font-size",
+    "name": "button-label-font-size",
     "value": "1rem",
-    "property": "text",
+    "property": "label",
     "category": "fontSize",
     "component": null,
     "tokenLevel": "reference"
   },
   {
-    "name": "button-text-letter-spacing",
+    "name": "button-label-letter-spacing",
     "value": "0.005em",
-    "property": "text",
+    "property": "label",
     "category": "letterSpacing",
     "component": null,
     "tokenLevel": "reference"
   },
   {
-    "name": "button-text-paragraph-spacing",
+    "name": "button-label-paragraph-spacing",
     "value": 0,
-    "property": "text",
+    "property": "label",
     "category": "paragraphSpacing",
     "component": null,
     "tokenLevel": "reference"
   },
   {
-    "name": "button-text-text-decoration",
+    "name": "button-label-text-decoration",
     "value": "none",
-    "property": "text",
+    "property": "label",
     "category": "textDecoration",
     "component": null,
     "tokenLevel": "reference"
   },
   {
-    "name": "button-text-text-case",
+    "name": "button-label-text-case",
     "value": "none",
-    "property": "text",
+    "property": "label",
     "category": "textCase",
     "component": null,
     "tokenLevel": "reference"
   },
   {
-    "name": "button-padding-x-medium",
+    "name": "button-padding-y-medium",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
     "component": null,
     "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-y-medium-icon-only",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-y-small",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-y-small-icon-only",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-y-large",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-y-large-icon-only",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-x-medium",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
     "tokenLevel": "system"
   },
   {
@@ -286,7 +622,7 @@
     "tokenLevel": "system"
   },
   {
-    "name": "button-padding-y-medium",
+    "name": "button-padding-x-small",
     "value": "1rem",
     "property": "padding",
     "category": "spacing",
@@ -295,12 +631,38 @@
     "tokenLevel": "system"
   },
   {
-    "name": "button-padding-y-medium-icon-only",
-    "value": "0.5rem",
+    "name": "button-padding-x-small-icon-only",
+    "value": "0.25rem",
     "property": "padding",
     "category": "spacing",
     "component": null,
-    "referenceToken": "spacing-2",
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-x-large",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-x-large-icon-only",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-border-width",
+    "value": "1px",
+    "category": "borderWidth",
+    "component": "button",
+    "referenceToken": "border-width-xs",
     "tokenLevel": "system"
   },
   {
@@ -331,7 +693,7 @@
     "tokenLevel": "component"
   },
   {
-    "name": "input-color-border-error",
+    "name": "input-color-border-invalid",
     "value": "#ff3838",
     "property": "border",
     "category": "color",
@@ -403,70 +765,6 @@
     "tokenLevel": "system"
   },
   {
-    "name": "input-text-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-    "property": "text",
-    "category": "fontFamily",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "input-text-font-weight",
-    "value": "400",
-    "property": "text",
-    "category": "fontWeight",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "input-text-line-height",
-    "value": "calc(20 / 16)",
-    "property": "text",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "input-text-font-size",
-    "value": "1rem",
-    "property": "text",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "input-text-letter-spacing",
-    "value": "0.005em",
-    "property": "text",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "input-text-paragraph-spacing",
-    "value": 0,
-    "property": "text",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "input-text-text-decoration",
-    "value": "none",
-    "property": "text",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "input-text-text-case",
-    "value": "none",
-    "property": "text",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
     "name": "input-border-width",
     "value": "1px",
     "category": "borderWidth",
@@ -481,6 +779,41 @@
     "component": "input",
     "referenceToken": "radius-base",
     "tokenLevel": "component"
+  },
+  {
+    "name": "input-prefix-margin-right",
+    "value": "0.25rem",
+    "property": "prefix",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-suffix-margin-left",
+    "value": "0.25rem",
+    "property": "suffix",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-icon-color-fill-default",
+    "value": "#4dacff",
+    "property": "icon",
+    "category": "color",
+    "component": "input",
+    "referenceToken": "color-background-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-icon-dimension",
+    "value": "20px",
+    "property": "icon",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
   },
   {
     "name": "link-color-text-default",
@@ -829,32 +1162,6 @@
     "property": "background-track",
     "category": "borderRadius",
     "component": "slider",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "checkbox-radius",
-    "value": "2px",
-    "description": "Checkbox border radius",
-    "category": "borderRadius",
-    "component": "checkbox",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "radio-radius-inner",
-    "value": "4px",
-    "description": "Inside radio border radius",
-    "property": "inner",
-    "category": "borderRadius",
-    "component": "radio",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "radio-radius-outer",
-    "value": "9px",
-    "description": "Outside radio border radius",
-    "property": "outer",
-    "category": "borderRadius",
-    "component": "radio",
     "tokenLevel": "component"
   },
   {

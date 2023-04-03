@@ -1,11 +1,81 @@
 {
+  "select": {
+    "padding": {
+      "y": {
+        "medium": "0.5rem",
+        "small": "1rem",
+        "large": "0.25rem"
+      },
+      "x": {
+        "medium": "0.5rem",
+        "small": "0.25rem",
+        "large": "0.75rem"
+      }
+    },
+    "caret-selector": {
+      "width": "32px",
+      "color": {
+        "background": "#1c3f5e"
+      }
+    },
+    "caret": {
+      "dimension": "30px",
+      "color": {
+        "fill": "#4dacff"
+      }
+    },
+    "color": {
+      "border": {
+        "default": "#2b659b",
+        "hover": "#92cbff",
+        "invalid": "#ff3838"
+      },
+      "text": "#4dacff",
+      "background": "#101923"
+    },
+    "label": {
+      "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+      "fontWeight": "400",
+      "lineHeight": "calc(20 / 16)",
+      "fontSize": "1rem",
+      "letterSpacing": "0.005em",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "radius": "3px",
+    "borderWidth": "1px"
+  },
+  "radio": {
+    "radius": {
+      "inner": "4px",
+      "outer": "9px"
+    }
+  },
+  "checkbox-group": {
+    "padding": "1rem",
+    "checkbox": {
+      "margin": {
+        "bottom": "0.5rem"
+      }
+    },
+    "color": {
+      "border": {
+        "default": "#2b659b",
+        "invalid": "#ff3838"
+      }
+    },
+    "borderWidth": "1px"
+  },
+  "checkbox": {
+    "radius": "2px"
+  },
   "button": {
     "color": {
       "background": {
         "primary": {
           "default": "#4dacff",
-          "hover": "#92cbff",
-          "disabled": "#4dacff66"
+          "hover": "#92cbff"
         },
         "secondary": "#ffffff00",
         "borderless": "#ffffff00"
@@ -13,10 +83,8 @@
       "text": {
         "primary": "#080c11",
         "secondary": {
-          "interactive": {
-            "default": "#4dacff",
-            "hover": "#92cbff"
-          }
+          "default": "#4dacff",
+          "hover": "#92cbff"
         },
         "borderless": {
           "default": "#4dacff",
@@ -26,8 +94,7 @@
       "border": {
         "primary": {
           "default": "#4dacff",
-          "hover": "#92cbff",
-          "disabled": "#4dacff66"
+          "hover": "#92cbff"
         },
         "secondary": {
           "default": "#4dacff",
@@ -53,12 +120,16 @@
             "hover": "#92cbff"
           }
         }
-      }
+      },
+      "margin": {
+        "right": "0.25rem"
+      },
+      "dimension": "20px"
     },
-    "text": {
+    "label": {
       "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
       "fontWeight": "400",
-      "lineHeight": "calc(24 / 16)",
+      "lineHeight": "calc(20 / 16)",
       "fontSize": "1rem",
       "letterSpacing": "0.005em",
       "paragraphSpacing": 0,
@@ -66,15 +137,24 @@
       "textCase": "none"
     },
     "padding": {
-      "x": {
-        "medium": "0.5rem",
-        "medium-iconOnly": "0.5rem"
-      },
       "y": {
+        "medium": "0.5rem",
+        "medium-iconOnly": "0.5rem",
+        "small": "0.25rem",
+        "small-iconOnly": "0.25rem",
+        "large": "0.75rem",
+        "large-iconOnly": "0.75rem"
+      },
+      "x": {
         "medium": "1rem",
-        "medium-iconOnly": "0.5rem"
+        "medium-iconOnly": "0.5rem",
+        "small": "1rem",
+        "small-iconOnly": "0.25rem",
+        "large": "1rem",
+        "large-iconOnly": "0.75rem"
       }
-    }
+    },
+    "borderWidth": "1px"
   },
   "input": {
     "color": {
@@ -84,7 +164,7 @@
       "border": {
         "default": "#2b659b",
         "hover": "#92cbff",
-        "error": "#ff3838"
+        "invalid": "#ff3838"
       },
       "text": {
         "default": "#ffffff"
@@ -102,18 +182,26 @@
         "large": "0.5rem"
       }
     },
-    "text": {
-      "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-      "fontWeight": "400",
-      "lineHeight": "calc(20 / 16)",
-      "fontSize": "1rem",
-      "letterSpacing": "0.005em",
-      "paragraphSpacing": 0,
-      "textDecoration": "none",
-      "textCase": "none"
-    },
     "BorderWidth": "1px",
-    "radius": "3px"
+    "radius": "3px",
+    "prefix": {
+      "margin": {
+        "right": "0.25rem"
+      }
+    },
+    "suffix": {
+      "margin": {
+        "left": "0.25rem"
+      }
+    },
+    "icon": {
+      "color": {
+        "fill": {
+          "default": "#4dacff"
+        }
+      },
+      "dimension": "20px"
+    }
   },
   "link": {
     "color": {
@@ -204,15 +292,6 @@
   "slider": {
     "radius": {
       "background-track": "1px"
-    }
-  },
-  "checkbox": {
-    "radius": "2px"
-  },
-  "radio": {
-    "radius": {
-      "inner": "4px",
-      "outer": "9px"
     }
   },
   "switch": {
