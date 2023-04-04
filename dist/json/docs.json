@@ -1,5 +1,129 @@
 [
   {
+    "name": "textarea-color-border-default",
+    "value": "#2b659b",
+    "property": "border",
+    "category": "color",
+    "component": "textarea",
+    "referenceToken": "color-border-interactive-muted",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "textarea-color-border-hover",
+    "value": "#92cbff",
+    "property": "border",
+    "category": "color",
+    "component": "textarea",
+    "referenceToken": "color-border-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "textarea-color-border-invalid",
+    "value": "#ff3838",
+    "property": "border",
+    "category": "color",
+    "component": "textarea",
+    "referenceToken": "color-border-error",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "textarea-color-text-default",
+    "value": "#ffffff",
+    "property": "text",
+    "category": "color",
+    "component": "textarea",
+    "referenceToken": "color-text-primary",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "textarea-color-text-placeholder",
+    "value": "#a4abb6",
+    "property": "text",
+    "category": "color",
+    "component": "textarea",
+    "referenceToken": "color-text-placeholder",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "textarea-border-width",
+    "value": "1px",
+    "category": "borderWidth",
+    "component": "textarea",
+    "referenceToken": "border-width-xs",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "textarea-radius",
+    "value": "3px",
+    "category": "borderRadius",
+    "component": "textarea",
+    "referenceToken": "radius-base",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "textarea-padding-y-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "textarea-padding-y-small",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "textarea-padding-y-large",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "textarea-padding-x-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "textarea-padding-x-small",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "textarea-padding-x-large",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "slider-radius-background-track",
+    "value": "1px",
+    "description": "Background track border radius",
+    "property": "background-track",
+    "category": "borderRadius",
+    "component": "slider",
+    "tokenLevel": "component"
+  },
+  {
     "name": "select-padding-y-medium",
     "value": "0.5rem",
     "property": "padding",
@@ -711,6 +835,15 @@
     "tokenLevel": "component"
   },
   {
+    "name": "input-color-text-placeholder",
+    "value": "#a4abb6",
+    "property": "text",
+    "category": "color",
+    "component": "input",
+    "referenceToken": "color-text-placeholder",
+    "tokenLevel": "component"
+  },
+  {
     "name": "input-padding-x-medium",
     "value": "0.5rem",
     "property": "padding",
@@ -1153,15 +1286,6 @@
     "category": "color",
     "component": "gsb",
     "referenceToken": "color-palette-neutral-000",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "slider-radius-background-track",
-    "value": "1px",
-    "description": "Background track border radius",
-    "property": "background-track",
-    "category": "borderRadius",
-    "component": "slider",
     "tokenLevel": "component"
   },
   {

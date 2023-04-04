@@ -1,4 +1,93 @@
 {
+  "textarea": {
+    "color": {
+      "border": {
+        "default": {
+          "value": "#2b659b",
+          "type": "color",
+          "rawValue": "{color.border.interactive.muted}"
+        },
+        "hover": {
+          "value": "#92cbff",
+          "type": "color",
+          "rawValue": "{color.border.interactive.hover}"
+        },
+        "invalid": {
+          "value": "#ff3838",
+          "type": "color",
+          "rawValue": "{color.border.error}"
+        }
+      },
+      "text": {
+        "default": {
+          "value": "#ffffff",
+          "type": "color",
+          "rawValue": "{color.text.primary}"
+        },
+        "placeholder": {
+          "value": "#a4abb6",
+          "type": "color",
+          "rawValue": "{color.text.placeholder}"
+        }
+      }
+    },
+    "borderWidth": {
+      "value": "1px",
+      "type": "borderWidth",
+      "rawValue": "{borderWidth.xs}"
+    },
+    "radius": {
+      "value": "3px",
+      "type": "borderRadius",
+      "rawValue": "{radius.base}"
+    },
+    "padding": {
+      "y": {
+        "medium": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        },
+        "small": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        },
+        "large": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        }
+      },
+      "x": {
+        "medium": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        },
+        "small": {
+          "value": "4px",
+          "type": "spacing",
+          "rawValue": "{spacing.1}"
+        },
+        "large": {
+          "value": "12px",
+          "type": "spacing",
+          "rawValue": "{spacing.3}"
+        }
+      }
+    }
+  },
+  "slider": {
+    "radius": {
+      "background-track": {
+        "value": "1px",
+        "type": "borderRadius",
+        "description": "Background track border radius",
+        "rawValue": "1px"
+      }
+    }
+  },
   "select": {
     "padding": {
       "y": {
@@ -482,6 +571,11 @@
           "value": "#ffffff",
           "type": "color",
           "rawValue": "{color.text.primary}"
+        },
+        "placeholder": {
+          "value": "#a4abb6",
+          "type": "color",
+          "rawValue": "{color.text.placeholder}"
         }
       }
     },
@@ -819,16 +913,6 @@
         "type": "color",
         "description": "Primary text color used within the Global Status Bar",
         "rawValue": "{color.palette.neutral.000}"
-      }
-    }
-  },
-  "slider": {
-    "radius": {
-      "background-track": {
-        "value": "1px",
-        "type": "borderRadius",
-        "description": "Background track border radius",
-        "rawValue": "1px"
       }
     }
   },

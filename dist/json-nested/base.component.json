@@ -1,4 +1,36 @@
 {
+  "textarea": {
+    "color": {
+      "border": {
+        "default": "#2b659b",
+        "hover": "#92cbff",
+        "invalid": "#ff3838"
+      },
+      "text": {
+        "default": "#ffffff",
+        "placeholder": "#a4abb6"
+      }
+    },
+    "borderWidth": "1px",
+    "radius": "3px",
+    "padding": {
+      "y": {
+        "medium": "0.5rem",
+        "small": "0.5rem",
+        "large": "0.5rem"
+      },
+      "x": {
+        "medium": "0.5rem",
+        "small": "0.25rem",
+        "large": "0.75rem"
+      }
+    }
+  },
+  "slider": {
+    "radius": {
+      "background-track": "1px"
+    }
+  },
   "select": {
     "padding": {
       "y": {
@@ -167,7 +199,8 @@
         "invalid": "#ff3838"
       },
       "text": {
-        "default": "#ffffff"
+        "default": "#ffffff",
+        "placeholder": "#a4abb6"
       }
     },
     "padding": {
@@ -287,11 +320,6 @@
     "color": {
       "background": "#172635",
       "text": "#ffffff"
-    }
-  },
-  "slider": {
-    "radius": {
-      "background-track": "1px"
     }
   },
   "switch": {
