@@ -269,7 +269,7 @@ styleDictionary.extend({
       "files": [
         {
           "format": "javascript/module-flat",
-          "destination": "all.common.js",
+          "destination": "tokens.common.js",
         },
         {
           "format": "javascript/module-flat",
@@ -288,11 +288,11 @@ styleDictionary.extend({
         },
         {
           "format": "javascript/es6",
-          "destination": "all.module.js",
+          "destination": "tokens.module.js",
         },
         {
           "format": "typescript/es6-declarations",
-          "destination": "all.module.d.ts"
+          "destination": "tokens.module.d.ts"
         },
         {
           "format": "javascript/es6",
