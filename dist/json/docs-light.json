@@ -117,10 +117,123 @@
   {
     "name": "slider-radius-background-track",
     "value": "1px",
-    "description": "Background track border radius",
+    "description": "[DEPRECATED] use slider-track-radius instead",
     "property": "background-track",
     "category": "borderRadius",
     "component": "slider",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "slider-thumb-dimension",
+    "value": "20px",
+    "property": "thumb",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "slider-thumb-border-width",
+    "value": "2px",
+    "property": "borderWidth",
+    "category": "borderWidth",
+    "component": "slider",
+    "referenceToken": "border-width-sm",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "slider-thumb-color-border-default",
+    "value": "#4dacff",
+    "property": "thumb",
+    "category": "color",
+    "component": "slider",
+    "referenceToken": "color-border-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "slider-thumb-color-border-hover",
+    "value": "#92cbff",
+    "property": "thumb",
+    "category": "color",
+    "component": "slider",
+    "referenceToken": "color-border-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "slider-thumb-color-background",
+    "value": "#101923",
+    "property": "thumb",
+    "category": "color",
+    "component": "slider",
+    "referenceToken": "color-background-base-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "slider-thumb-radius",
+    "value": "50%",
+    "property": "radius",
+    "category": "borderRadius",
+    "component": "slider",
+    "referenceToken": "radius-circle",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "slider-track-height-inactive",
+    "value": "1px",
+    "property": "track",
+    "category": "sizing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "slider-track-height-active",
+    "value": "4px",
+    "property": "track",
+    "category": "sizing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "slider-track-radius",
+    "value": "3px",
+    "property": "radius",
+    "category": "borderRadius",
+    "component": "slider",
+    "referenceToken": "radius-base",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "slider-tick-radius",
+    "value": "50%",
+    "property": "radius",
+    "category": "borderRadius",
+    "component": "slider",
+    "referenceToken": "radius-circle",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "slider-tick-dimension",
+    "value": "4px",
+    "property": "tick",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "slider-tick-color-background",
+    "value": "#4dacff",
+    "property": "tick",
+    "category": "color",
+    "component": "slider",
+    "referenceToken": "color-background-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "slider-axis-label-color-text",
+    "value": "#ffffff",
+    "property": "axis-label",
+    "category": "color",
+    "component": "slider",
+    "referenceToken": "color-text-primary",
     "tokenLevel": "component"
   },
   {
@@ -339,7 +452,7 @@
   {
     "name": "radio-radius-inner",
     "value": "4px",
-    "description": "Inside radio border radius",
+    "description": "[DEPRECATED] use radio.dot.radius instead",
     "property": "inner",
     "category": "borderRadius",
     "component": "radio",
@@ -348,10 +461,80 @@
   {
     "name": "radio-radius-outer",
     "value": "9px",
-    "description": "Outside radio border radius",
+    "description": "[DEPRECATED] use radio.control.radius instead",
     "property": "outer",
     "category": "borderRadius",
     "component": "radio",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "radio-control-radius",
+    "value": "50%",
+    "property": "radius",
+    "category": "borderRadius",
+    "component": "radio",
+    "referenceToken": "radius-circle",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "radio-control-check-color-fill",
+    "value": "#4dacff",
+    "property": "control",
+    "category": "color",
+    "component": "radio",
+    "referenceToken": "color-background-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "radio-control-color-border-default",
+    "value": "#2b659b",
+    "property": "control",
+    "category": "color",
+    "component": "radio",
+    "referenceToken": "color-border-interactive-muted",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "radio-control-color-border-hover",
+    "value": "#92cbff",
+    "property": "control",
+    "category": "color",
+    "component": "radio",
+    "referenceToken": "color-border-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "radio-control-margin-right",
+    "value": "0.625rem",
+    "property": "control",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "radio-control-dimension",
+    "value": "24px",
+    "property": "control",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "radio-control-padding",
+    "value": "0.125rem",
+    "property": "control",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-050",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "radio-check-radius",
+    "value": "50%",
+    "property": "radius",
+    "category": "borderRadius",
+    "component": "radio",
+    "referenceToken": "radius-circle",
     "tokenLevel": "component"
   },
   {

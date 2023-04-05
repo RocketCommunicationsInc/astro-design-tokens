@@ -29,6 +29,37 @@
   "slider": {
     "radius": {
       "background-track": "1px"
+    },
+    "thumb": {
+      "dimension": "20px",
+      "borderWidth": "2px",
+      "color": {
+        "border": {
+          "default": "#4dacff",
+          "hover": "#92cbff"
+        },
+        "background": "#101923"
+      },
+      "radius": "50%"
+    },
+    "track": {
+      "height": {
+        "inactive": "1px",
+        "active": "4px"
+      },
+      "radius": "3px"
+    },
+    "tick": {
+      "radius": "50%",
+      "dimension": "4px",
+      "color": {
+        "background": "#4dacff"
+      }
+    },
+    "axis-label": {
+      "color": {
+        "text": "#ffffff"
+      }
     }
   },
   "select": {
@@ -82,6 +113,28 @@
     "radius": {
       "inner": "4px",
       "outer": "9px"
+    },
+    "control": {
+      "radius": "50%",
+      "check": {
+        "color": {
+          "fill": "#4dacff"
+        }
+      },
+      "color": {
+        "border": {
+          "default": "#2b659b",
+          "hover": "#92cbff"
+        }
+      },
+      "margin": {
+        "right": "0.625rem"
+      },
+      "dimension": "24px",
+      "padding": "0.125rem"
+    },
+    "check": {
+      "radius": "50%"
     }
   },
   "checkbox-group": {
