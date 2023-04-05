@@ -1,5 +1,13 @@
 .light-theme {
   --shadow-overlay:  0px 4px 4px 1px rgba(0, 0, 0, 0.35);
+  --color-data-visualization-8: #3a87cf;
+  --color-data-visualization-7: #009fa3;
+  --color-data-visualization-6: #2b659b;
+  --color-data-visualization-5: #786dd3;
+  --color-data-visualization-4: #00777a;
+  --color-data-visualization-3: #1c3851;
+  --color-data-visualization-2: #6058a8;
+  --color-data-visualization-1: #035051;
   --color-status-off: #7b8089;
   --color-status-standby: #64d9ff;
   --color-status-normal: #00e200;
@@ -9,17 +17,17 @@
   --color-border-focus-default: #b534ce;
   --color-border-error: #c8102e;
   --color-border-interactive-muted: #2f7aa7;
-  --color-border-interactive-hover: #004872;
+  --color-border-interactive-hover: #1c3f5e;
   --color-border-interactive-default: #005a8f;
   --color-text-error: #c8102e;
-  --color-text-interactive-hover: #004872;
+  --color-text-interactive-hover: #1c3f5e;
   --color-text-interactive-default: #005a8f;
   --color-text-inverse: #ffffff;
   --color-text-placeholder: #7b8089;
   --color-text-secondary: #51555b;
   --color-text-primary: #292a2d;
   --color-background-interactive-muted: #2f7aa7;
-  --color-background-interactive-hover: #004872;
+  --color-background-interactive-hover: #1c3f5e;
   --color-background-interactive-default: #005a8f;
   --color-background-surface-selected: #cee9fc;
   --color-background-surface-hover: #daeeff;

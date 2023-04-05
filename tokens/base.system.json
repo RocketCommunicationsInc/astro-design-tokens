@@ -243,6 +243,48 @@
         "description": "Color used to indicate the Unclassified classification",
         "rawValue": "{color.palette.green.800}"
       }
+    },
+    "data-visualization": {
+      "1": {
+        "value": "#00c7cb",
+        "type": "color",
+        "rawValue": "{color.palette.teal.500}"
+      },
+      "2": {
+        "value": "#938bdb",
+        "type": "color",
+        "rawValue": "{color.palette.purple.400}"
+      },
+      "3": {
+        "value": "#4dacff",
+        "type": "color",
+        "rawValue": "{color.palette.brightblue.500}"
+      },
+      "4": {
+        "value": "#70dde0",
+        "type": "color",
+        "rawValue": "{color.palette.teal.300}"
+      },
+      "5": {
+        "value": "#c9c5ed",
+        "type": "color",
+        "rawValue": "{color.palette.purple.200}"
+      },
+      "6": {
+        "value": "#92cbff",
+        "type": "color",
+        "rawValue": "{color.palette.brightblue.400}"
+      },
+      "7": {
+        "value": "#a1e9eb",
+        "type": "color",
+        "rawValue": "{color.palette.teal.200}"
+      },
+      "8": {
+        "value": "#b7dcff",
+        "type": "color",
+        "rawValue": "{color.palette.brightblue.300}"
+      }
     }
   },
   "opacity": {

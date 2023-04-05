@@ -1,5 +1,28 @@
 # @astrouxds/tokens
 
+## 1.6.0
+
+### Minor Changes
+
+- Added `container-header-color-background` and `container-footer-color-background` component tokens
+- Added new data visualization tokens: `color-data-visualization-1`, `color-data-visualization-2`, `color-data-visualization-3`, `color-data-visualization-4`, `color-data-visualization-5`, `color-data-visualization-6`, `color-data-visualization-7`, `color-data-visualization-8` for dark and light themes
+
+### Patch Changes
+
+- Updated hover colors in light theme to increase visual distinction
+
+## 1.5.0
+
+### Minor Changes
+
+- Added `color-background-interactive-muted`
+- Added light theme token for `color-background-interactive-muted`
+- Added light theme tokens for `color-status-off`, `color-status-standby`, `color-status-normal`, `color-status-serious`, `color-status-critical`
+
+### Patch Changes
+
+- Formatted descriptions
+
 ## 1.4.1
 
 ### Patch Changes

@@ -96,6 +96,64 @@
           "rawValue": "{status-symbol.color.fill.off.on-dark}"
         }
       }
+    },
+    "data-visualization": {
+      "1": {
+        "color": {
+          "value": "#00c7cb",
+          "type": "color",
+          "rawValue": "{color.data-visualization.1}"
+        }
+      },
+      "2": {
+        "color": {
+          "value": "#938bdb",
+          "type": "color",
+          "rawValue": "{color.data-visualization.2}"
+        }
+      },
+      "3": {
+        "color": {
+          "value": "#4dacff",
+          "type": "color",
+          "rawValue": "{color.data-visualization.3}"
+        }
+      },
+      "4": {
+        "color": {
+          "value": "#70dde0",
+          "type": "color",
+          "rawValue": "{color.data-visualization.4}"
+        }
+      },
+      "5": {
+        "color": {
+          "value": "#c9c5ed",
+          "type": "color",
+          "rawValue": "{color.data-visualization.5}"
+        }
+      },
+      "6": {
+        "color": {
+          "value": "#92cbff",
+          "type": "color",
+          "rawValue": "{color.data-visualization.6}"
+        }
+      },
+      "7": {
+        "color": {
+          "value": "#a1e9eb",
+          "type": "color",
+          "rawValue": "{color.data-visualization.7}"
+        }
+      },
+      "8": {
+        "color": {
+          "value": "#b7dcff",
+          "type": "color",
+          "rawValue": "{color.data-visualization.8}"
+        }
+      }
     }
   },
   "textarea": {
@@ -754,6 +812,26 @@
         "type": "color",
         "description": "Border color used for the Container component",
         "rawValue": "{color.palette.neutral.1000}"
+      }
+    },
+    "header": {
+      "color": {
+        "background": {
+          "value": "#172635",
+          "type": "color",
+          "description": "Background color for the Container component header",
+          "rawValue": "{color.background.surface.header}"
+        }
+      }
+    },
+    "footer": {
+      "color": {
+        "background": {
+          "value": "#172635",
+          "type": "color",
+          "description": "Background color for the Container component footer",
+          "rawValue": "{container.header.color.background}"
+        }
       }
     }
   },
@@ -1571,6 +1649,48 @@
         "type": "color",
         "description": "Color used to indicate the Unclassified classification",
         "rawValue": "{color.palette.green.800}"
+      }
+    },
+    "data-visualization": {
+      "1": {
+        "value": "#00c7cb",
+        "type": "color",
+        "rawValue": "{color.palette.teal.500}"
+      },
+      "2": {
+        "value": "#938bdb",
+        "type": "color",
+        "rawValue": "{color.palette.purple.400}"
+      },
+      "3": {
+        "value": "#4dacff",
+        "type": "color",
+        "rawValue": "{color.palette.brightblue.500}"
+      },
+      "4": {
+        "value": "#70dde0",
+        "type": "color",
+        "rawValue": "{color.palette.teal.300}"
+      },
+      "5": {
+        "value": "#c9c5ed",
+        "type": "color",
+        "rawValue": "{color.palette.purple.200}"
+      },
+      "6": {
+        "value": "#92cbff",
+        "type": "color",
+        "rawValue": "{color.palette.brightblue.400}"
+      },
+      "7": {
+        "value": "#a1e9eb",
+        "type": "color",
+        "rawValue": "{color.palette.teal.200}"
+      },
+      "8": {
+        "value": "#b7dcff",
+        "type": "color",
+        "rawValue": "{color.palette.brightblue.300}"
       }
     },
     "palette": {

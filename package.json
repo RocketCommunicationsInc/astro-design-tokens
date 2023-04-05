@@ -1,15 +1,16 @@
 {
   "name": "@astrouxds/tokens",
-  "version": "1.4.1",
+  "version": "1.6.0",
   "description": "Astro UXDS Design Tokens",
-  "main": "index.js",
+  "main": "dist/js/tokens.common.js",
+  "module": "dist/js/tokens.module.js",
   "dependencies": {},
   "scripts": {
     "start": "npm run build",
     "build": "node ./build.js",
     "build.ios": "node ./iosbuild.js",
     "prepack": "npm run build",
-    "make": "node run.js && npm run build"
+    "make": "node run.js && node ./scripts/prebuild.js && npm run build"
   },
   "postcss": {
     "plugins": {

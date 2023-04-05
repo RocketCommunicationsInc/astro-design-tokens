@@ -196,7 +196,6 @@ StyleDictionary.registerTransformGroup({
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
-    "typography/name",
     "fontWeight/css",
     "shadow/css"
   ]),
@@ -209,7 +208,6 @@ StyleDictionary.registerTransformGroup({
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
-    "typography/name",
     "fontWeight/css",
     "shadow/css"
   ]),
@@ -222,7 +220,18 @@ StyleDictionary.registerTransformGroup({
     "size/pxToRem",
     "letterSpacing/percentToEm",
     "fontFamily/fallback",
-    "typography/name",
+    "fontWeight/css",
+    "shadow/css"
+  ]),
+});
+
+StyleDictionary.registerTransformGroup({
+  name: "custom/js",
+  transforms: StyleDictionary.transformGroup["js"].concat([
+    "size/pxToUnitless",
+    "size/pxToRem",
+    "letterSpacing/percentToEm",
+    "fontFamily/fallback",
     "fontWeight/css",
     "shadow/css"
   ]),
@@ -254,6 +263,54 @@ console.log(`\n\n🌙 Building dark mode...`);
 styleDictionary.extend({
   source: [`tokens/base.*.json`],
   platforms: {
+    "js": {
+      "transformGroup": "custom/js",
+      buildPath: "dist/js/",
+      "files": [
+        {
+          "format": "javascript/module-flat",
+          "destination": "tokens.common.js",
+        },
+        {
+          "format": "javascript/module-flat",
+          "destination": "reference.common.js",
+          filter: (token) => token.filePath.includes('base.reference')
+        },
+        {
+          "format": "javascript/module-flat",
+          "destination": "system.common.js",
+          filter: (token) => token.filePath.includes('base.system')
+        },
+        {
+          "format": "javascript/module-flat",
+          "destination": "component.common.js",
+          filter: (token) => token.filePath.includes('base.component')
+        },
+        {
+          "format": "javascript/es6",
+          "destination": "tokens.module.js",
+        },
+        {
+          "format": "typescript/es6-declarations",
+          "destination": "tokens.module.d.ts"
+        },
+        {
+          "format": "javascript/es6",
+          "destination": "reference.module.js",
+          filter: (token) => token.filePath.includes('base.reference')
+        },
+        {
+          "format": "javascript/es6",
+          "destination": "system.module.js",
+          filter: (token) => token.filePath.includes('base.system')
+        },
+        {
+          "format": "javascript/es6",
+          "destination": "component.common.js",
+          filter: (token) => token.filePath.includes('base.component')
+        },
+      ]
+    },
     scssFlatMap: {
       transformGroup: "custom/scss",
       buildPath: "dist/scss-map-flat/",
@@ -449,7 +506,6 @@ styleDictionary.extend({
         "size/pxToUnitless",
         "letterSpacing/percentToEm",
         "fontFamily/fallback",
-        "typography/name",
         "fontWeight/css",
         "shadow/css"
       ],
@@ -474,6 +530,28 @@ styleDictionary.extend({
   include: ['tokens/base.*.json'],
   source: ['tokens/theme/light.json'],
   platforms: {
+    "js": {
+      "transformGroup": "custom/js",
+      buildPath: "dist/js/",
+      "files": [
+        {
+          "format": "javascript/module-flat",
+          "destination": "theme.light.common.js",
+          filter: (token) => token.filePath.includes('light')
+        },
+        {
+          "format": "javascript/es6",
+          "destination": "theme.light.module.js",
+          filter: (token) => token.filePath.includes('light')
+        },
+        {
+          "format": "typescript/es6-declarations",
+          "destination": "theme.light.module.d.ts",
+          filter: (token) => token.filePath.includes('light')
+        },
+   
+      ]
+    },
     css: {
       transformGroup: "custom/css",
       buildPath: "dist/css/",

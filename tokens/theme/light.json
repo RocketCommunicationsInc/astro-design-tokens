@@ -61,10 +61,10 @@
           "rawValue": "{color.palette.darkblue.500}"
         },
         "hover": {
-          "value": "#004872",
+          "value": "#1c3f5e",
           "type": "color",
           "description": "Hover color used for the backgrounds of interactive elements",
-          "rawValue": "{color.palette.darkblue.600}"
+          "rawValue": "{color.palette.darkblue.700}"
         },
         "muted": {
           "value": "#2f7aa7",
@@ -107,10 +107,10 @@
           "rawValue": "{color.palette.darkblue.500}"
         },
         "hover": {
-          "value": "#004872",
+          "value": "#1c3f5e",
           "type": "color",
           "description": "Hover color used for interactive text elements",
-          "rawValue": "{color.palette.darkblue.600}"
+          "rawValue": "{color.palette.darkblue.700}"
         }
       },
       "error": {
@@ -129,10 +129,10 @@
           "rawValue": "{color.palette.darkblue.500}"
         },
         "hover": {
-          "value": "#004872",
+          "value": "#1c3f5e",
           "type": "color",
           "description": "Hover color used for the border of interactive elements",
-          "rawValue": "{color.palette.darkblue.600}"
+          "rawValue": "{color.palette.darkblue.700}"
         },
         "muted": {
           "value": "#2f7aa7",
@@ -192,6 +192,48 @@
         "type": "color",
         "description": "Fill color of the Off status symbol on a light background",
         "rawValue": "{color.palette.grey.600}"
+      }
+    },
+    "data-visualization": {
+      "1": {
+        "value": "#035051",
+        "type": "color",
+        "rawValue": "{color.palette.teal.800}"
+      },
+      "2": {
+        "value": "#6058a8",
+        "type": "color",
+        "rawValue": "{color.palette.purple.600}"
+      },
+      "3": {
+        "value": "#1c3851",
+        "type": "color",
+        "rawValue": "{color.palette.brightblue.800}"
+      },
+      "4": {
+        "value": "#00777a",
+        "type": "color",
+        "rawValue": "{color.palette.teal.700}"
+      },
+      "5": {
+        "value": "#786dd3",
+        "type": "color",
+        "rawValue": "{color.palette.purple.500}"
+      },
+      "6": {
+        "value": "#2b659b",
+        "type": "color",
+        "rawValue": "{color.palette.brightblue.700}"
+      },
+      "7": {
+        "value": "#009fa3",
+        "type": "color",
+        "rawValue": "{color.palette.teal.600}"
+      },
+      "8": {
+        "value": "#3a87cf",
+        "type": "color",
+        "rawValue": "{color.palette.brightblue.600}"
       }
     }
   },

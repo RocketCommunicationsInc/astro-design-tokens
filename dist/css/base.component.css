@@ -65,6 +65,8 @@
   --classification-banner-color-background-secret: #c8102e;
   --classification-banner-color-background-topsecret: #ff8c00;
   --classification-banner-color-background-topsecretsci: #fce83a;
+  --container-footer-color-background: #172635;
+  --container-header-color-background: #172635;
   --container-color-border: #000000;
   --card-color-border: #51555b;
   --link-color-text-hover: #4dacff;
