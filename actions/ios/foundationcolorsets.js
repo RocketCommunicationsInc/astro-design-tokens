@@ -35,6 +35,11 @@ module.exports = {
 				}
 
 
+				if (token.attributes.type === 'data-visualization') {
+					folder = 'Astro Data Visualization Colors'
+					name = `Astro ${_.startCase(token.name.replace('Color', ''))}`
+				}
+
 				const colorsetPath = `${assetPath}/${folder}/${name}.colorset`;
 
 				/**
