@@ -2,7 +2,8 @@
   "name": "@astrouxds/tokens",
   "version": "1.6.0",
   "description": "Astro UXDS Design Tokens",
-  "main": "index.js",
+  "main": "dist/js/tokens.common.js",
+  "module": "dist/js/tokens.module.js",
   "dependencies": {},
   "scripts": {
     "start": "npm run build",
