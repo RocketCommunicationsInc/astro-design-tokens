@@ -1,252 +1,200 @@
 [
   {
-    "name": "textarea-color-border-default",
-    "value": "#2b659b",
-    "property": "border",
-    "category": "color",
-    "component": "textarea",
-    "referenceToken": "color-border-interactive-muted",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "textarea-color-border-hover",
-    "value": "#92cbff",
-    "property": "border",
-    "category": "color",
-    "component": "textarea",
-    "referenceToken": "color-border-interactive-hover",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "textarea-color-border-invalid",
-    "value": "#ff3838",
-    "property": "border",
-    "category": "color",
-    "component": "textarea",
-    "referenceToken": "color-border-error",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "textarea-color-text-default",
-    "value": "#ffffff",
-    "property": "text",
-    "category": "color",
-    "component": "textarea",
-    "referenceToken": "color-text-primary",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "textarea-color-text-placeholder",
-    "value": "#a4abb6",
-    "property": "text",
-    "category": "color",
-    "component": "textarea",
-    "referenceToken": "color-text-placeholder",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "textarea-border-width",
+    "name": "button-border-width",
     "value": "1px",
     "category": "borderWidth",
-    "component": "textarea",
+    "component": "button",
     "referenceToken": "border-width-xs",
     "tokenLevel": "system"
   },
   {
-    "name": "textarea-radius",
-    "value": "3px",
-    "category": "borderRadius",
-    "component": "textarea",
-    "referenceToken": "radius-base",
+    "name": "button-color-background-borderless",
+    "value": "#ffffff00",
+    "property": "background",
+    "category": "color",
+    "component": "button",
     "tokenLevel": "component"
   },
   {
-    "name": "textarea-padding-y-medium",
-    "value": "0.5rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "name": "button-color-background-primary-default",
+    "value": "#4dacff",
+    "property": "background",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-background-interactive-default",
+    "tokenLevel": "component"
   },
   {
-    "name": "textarea-padding-y-small",
-    "value": "0.5rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "name": "button-color-background-primary-hover",
+    "value": "#92cbff",
+    "property": "background",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-background-interactive-hover",
+    "tokenLevel": "component"
   },
   {
-    "name": "textarea-padding-y-large",
-    "value": "0.5rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "name": "button-color-background-secondary",
+    "value": "#ffffff00",
+    "property": "background",
+    "category": "color",
+    "component": "button",
+    "tokenLevel": "component"
   },
   {
-    "name": "textarea-padding-x-medium",
-    "value": "0.5rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "name": "button-color-border-borderless",
+    "value": "#ffffff00",
+    "property": "border",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-background-borderless",
+    "tokenLevel": "component"
   },
   {
-    "name": "textarea-padding-x-small",
+    "name": "button-color-border-primary-default",
+    "value": "#4dacff",
+    "property": "border",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-background-primary-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-border-primary-hover",
+    "value": "#92cbff",
+    "property": "border",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-background-primary-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-border-secondary-default",
+    "value": "#4dacff",
+    "property": "border",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-border-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-border-secondary-hover",
+    "value": "#92cbff",
+    "property": "border",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-border-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-text-borderless-default",
+    "value": "#4dacff",
+    "property": "text",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-text-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-text-borderless-hover",
+    "value": "#92cbff",
+    "property": "text",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-text-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-text-primary",
+    "value": "#080c11",
+    "property": "text",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-text-inverse",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-text-secondary-default",
+    "value": "#4dacff",
+    "property": "text",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-text-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-color-text-secondary-hover",
+    "value": "#92cbff",
+    "property": "text",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "color-text-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-icon-color-fill-borderless-default",
+    "value": "#4dacff",
+    "property": "icon",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-text-borderless-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-icon-color-fill-borderless-hover",
+    "value": "#92cbff",
+    "property": "icon",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-text-borderless-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-icon-color-fill-primary",
+    "value": "#080c11",
+    "property": "icon",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-text-primary",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-icon-color-fill-secondary-default",
+    "value": "#4dacff",
+    "property": "icon",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-border-secondary-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-icon-color-fill-secondary-hover",
+    "value": "#92cbff",
+    "property": "icon",
+    "category": "color",
+    "component": "button",
+    "referenceToken": "button-color-text-secondary-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "button-icon-dimension",
+    "value": "20px",
+    "property": "icon",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "button-icon-margin-right",
     "value": "0.25rem",
-    "property": "padding",
+    "property": "icon",
     "category": "spacing",
     "component": null,
     "referenceToken": "spacing-1",
     "tokenLevel": "system"
   },
   {
-    "name": "textarea-padding-x-large",
-    "value": "0.75rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-3",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "slider-radius-background-track",
-    "value": "1px",
-    "description": "[DEPRECATED] use slider-track-radius instead",
-    "property": "background-track",
-    "category": "borderRadius",
-    "component": "slider",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "slider-thumb-dimension",
-    "value": "20px",
-    "property": "thumb",
-    "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "slider-thumb-border-width",
-    "value": "2px",
-    "property": "borderWidth",
-    "category": "borderWidth",
-    "component": "slider",
-    "referenceToken": "border-width-sm",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "slider-thumb-color-border-default",
-    "value": "#4dacff",
-    "property": "thumb",
-    "category": "color",
-    "component": "slider",
-    "referenceToken": "color-border-interactive-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "slider-thumb-color-border-hover",
-    "value": "#92cbff",
-    "property": "thumb",
-    "category": "color",
-    "component": "slider",
-    "referenceToken": "color-border-interactive-hover",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "slider-thumb-color-background",
-    "value": "#101923",
-    "property": "thumb",
-    "category": "color",
-    "component": "slider",
-    "referenceToken": "color-background-base-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "slider-thumb-radius",
-    "value": "50%",
-    "property": "radius",
-    "category": "borderRadius",
-    "component": "slider",
-    "referenceToken": "radius-circle",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "slider-track-height-inactive",
-    "value": "1px",
-    "property": "track",
-    "category": "sizing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "slider-track-height-active",
-    "value": "4px",
-    "property": "track",
-    "category": "sizing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "slider-track-radius",
-    "value": "3px",
-    "property": "radius",
-    "category": "borderRadius",
-    "component": "slider",
-    "referenceToken": "radius-base",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "slider-tick-radius",
-    "value": "50%",
-    "property": "radius",
-    "category": "borderRadius",
-    "component": "slider",
-    "referenceToken": "radius-circle",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "slider-tick-dimension",
-    "value": "4px",
-    "property": "tick",
-    "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "slider-tick-color-background",
-    "value": "#4dacff",
-    "property": "tick",
-    "category": "color",
-    "component": "slider",
-    "referenceToken": "color-background-interactive-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "slider-axis-label-color-text",
-    "value": "#ffffff",
-    "property": "axis-label",
-    "category": "color",
-    "component": "slider",
-    "referenceToken": "color-text-primary",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "select-padding-y-medium",
-    "value": "0.5rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-2",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "select-padding-y-small",
+    "name": "button-padding-x-large",
     "value": "1rem",
     "property": "padding",
     "category": "spacing",
@@ -255,34 +203,7 @@
     "tokenLevel": "system"
   },
   {
-    "name": "select-padding-y-large",
-    "value": "0.25rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-1",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "select-padding-x-medium",
-    "value": "0.5rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-2",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "select-padding-x-small",
-    "value": "0.25rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-1",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "select-padding-x-large",
+    "name": "button-padding-x-large-icon-only",
     "value": "0.75rem",
     "property": "padding",
     "category": "spacing",
@@ -291,10 +212,858 @@
     "tokenLevel": "system"
   },
   {
-    "name": "select-caret-selector-width",
-    "value": "32px",
-    "property": "caret-selector",
-    "category": "sizing",
+    "name": "button-padding-x-medium",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-x-medium-icon-only",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-x-small",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-x-small-icon-only",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-y-large",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-y-large-icon-only",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-y-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-y-medium-icon-only",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-y-small",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-padding-y-small-icon-only",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "button-radius",
+    "value": "3px",
+    "category": "borderRadius",
+    "component": "button",
+    "referenceToken": "radius-base",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "card-color-border",
+    "value": "#51555b",
+    "description": "Border color used for the Card component",
+    "property": "border",
+    "category": "color",
+    "component": "card",
+    "referenceToken": "color-palette-grey-700",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "checkbox-radius",
+    "value": "2px",
+    "description": "[DEPRECATED] use checkbox-control-radius instead",
+    "category": "borderRadius",
+    "component": "checkbox",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "checkbox-control-dimension",
+    "value": "24px",
+    "property": "control",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "checkbox-control-padding",
+    "value": "0.125rem",
+    "property": "control",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-050",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "checkbox-control-radius",
+    "value": "2px",
+    "property": "radius",
+    "category": "borderRadius",
+    "component": "checkbox",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "checkbox-label-margin-left",
+    "value": "0.5rem",
+    "property": "label",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "checkbox-group-border-width",
+    "value": "1px",
+    "category": "borderWidth",
+    "component": "checkbox-group",
+    "referenceToken": "border-width-xs",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "checkbox-group-checkbox-margin-bottom",
+    "value": "0.5rem",
+    "property": "checkbox",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "checkbox-group-color-border-default",
+    "value": "#2b659b",
+    "property": "border",
+    "category": "color",
+    "component": "checkbox-group",
+    "referenceToken": "color-border-interactive-muted",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "checkbox-group-color-border-invalid",
+    "value": "#ff3838",
+    "property": "border",
+    "category": "color",
+    "component": "checkbox-group",
+    "referenceToken": "color-border-error",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "checkbox-group-padding",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "classification-banner-color-background-confidential",
+    "value": "#0033a0",
+    "description": "Background color of the Confidential classification banner",
+    "property": "background",
+    "category": "color",
+    "component": "classification-banner",
+    "referenceToken": "color-classification-confidential",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "classification-banner-color-background-cui",
+    "value": "#502b85",
+    "description": "Background color of the CUI classification banner",
+    "property": "background",
+    "category": "color",
+    "component": "classification-banner",
+    "referenceToken": "color-classification-cui",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "classification-banner-color-background-secret",
+    "value": "#c8102e",
+    "description": "Background color of the Secret classification banner",
+    "property": "background",
+    "category": "color",
+    "component": "classification-banner",
+    "referenceToken": "color-classification-secret",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "classification-banner-color-background-topsecret",
+    "value": "#ff8c00",
+    "description": "Background color of the Top Secret classification banner",
+    "property": "background",
+    "category": "color",
+    "component": "classification-banner",
+    "referenceToken": "color-classification-topsecret",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "classification-banner-color-background-topsecretsci",
+    "value": "#fce83a",
+    "description": "Background color of the Top Secret//SCI classification banner",
+    "property": "background",
+    "category": "color",
+    "component": "classification-banner",
+    "referenceToken": "color-classification-topsecretsci",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "classification-banner-color-background-unclassified",
+    "value": "#007a33",
+    "description": "Background color of the Unclassified classification banner",
+    "property": "background",
+    "category": "color",
+    "component": "classification-banner",
+    "referenceToken": "color-classification-unclassified",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "clock-datetime-color-background",
+    "value": "#101923",
+    "property": "datetime",
+    "category": "color",
+    "component": "clock",
+    "referenceToken": "color-palette-brightblue-900",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "container-color-border",
+    "value": "#000000",
+    "description": "Border color used for the Container component",
+    "property": "border",
+    "category": "color",
+    "component": "container",
+    "referenceToken": "color-palette-neutral-1000",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "gsb-color-background",
+    "value": "#172635",
+    "description": "Background color of the Global Status Bar component",
+    "property": "background",
+    "category": "color",
+    "component": "gsb",
+    "referenceToken": "color-palette-darkblue-900",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "gsb-color-text",
+    "value": "#ffffff",
+    "description": "Primary text color used within the Global Status Bar",
+    "property": "text",
+    "category": "color",
+    "component": "gsb",
+    "referenceToken": "color-palette-neutral-000",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "gsb-icon-color-fill-default",
+    "value": "#4dacff",
+    "description": "Primary color used for interactive elements in the Global Status Bar",
+    "property": "icon",
+    "category": "color",
+    "component": "gsb",
+    "referenceToken": "color-palette-brightblue-500",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "gsb-icon-color-fill-hover",
+    "value": "#92cbff",
+    "description": "Hover color used for interactive elements in the Global Status Bar",
+    "property": "icon",
+    "category": "color",
+    "component": "gsb",
+    "referenceToken": "color-palette-brightblue-400",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "indeterminate-progress-radius-inner",
+    "value": "23px",
+    "description": "Inside border radius",
+    "property": "inner",
+    "category": "borderRadius",
+    "component": "indeterminate-progress",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "indeterminate-progress-radius-outer",
+    "value": "30px",
+    "description": "Outside border radius",
+    "property": "outer",
+    "category": "borderRadius",
+    "component": "indeterminate-progress",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-border-width",
+    "value": "1px",
+    "category": "borderWidth",
+    "component": "input",
+    "referenceToken": "border-width-xs",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-color-background-default",
+    "value": "#101923",
+    "property": "background",
+    "category": "color",
+    "component": "input",
+    "referenceToken": "color-background-base-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-color-border-default",
+    "value": "#2b659b",
+    "property": "border",
+    "category": "color",
+    "component": "input",
+    "referenceToken": "color-border-interactive-muted",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-color-border-hover",
+    "value": "#92cbff",
+    "property": "border",
+    "category": "color",
+    "component": "input",
+    "referenceToken": "color-border-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-color-border-invalid",
+    "value": "#ff3838",
+    "property": "border",
+    "category": "color",
+    "component": "input",
+    "referenceToken": "color-border-error",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-color-text-default",
+    "value": "#ffffff",
+    "property": "text",
+    "category": "color",
+    "component": "input",
+    "referenceToken": "color-text-primary",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-color-text-placeholder",
+    "value": "#a4abb6",
+    "property": "text",
+    "category": "color",
+    "component": "input",
+    "referenceToken": "color-text-placeholder",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-icon-color-fill-default",
+    "value": "#4dacff",
+    "property": "icon",
+    "category": "color",
+    "component": "input",
+    "referenceToken": "color-background-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-icon-dimension",
+    "value": "20px",
+    "property": "icon",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "input-padding-x-large",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-padding-x-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-padding-x-small",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-padding-y-large",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-padding-y-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-padding-y-small",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-prefix-margin-right",
+    "value": "0.25rem",
+    "property": "prefix",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "input-radius",
+    "value": "3px",
+    "category": "borderRadius",
+    "component": "input",
+    "referenceToken": "radius-base",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "input-suffix-margin-left",
+    "value": "0.25rem",
+    "property": "suffix",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "link-color-text-default",
+    "value": "#4dacff",
+    "description": "Color used for links in default state",
+    "property": "text",
+    "category": "color",
+    "component": "link",
+    "referenceToken": "color-text-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "link-color-text-hover",
+    "value": "#4dacff",
+    "description": "Color used for links in hover state. Links do not change color on hover",
+    "property": "text",
+    "category": "color",
+    "component": "link",
+    "referenceToken": "link-color-text-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "log-color-border",
+    "value": "#000000",
+    "property": "border",
+    "category": "color",
+    "component": "log",
+    "referenceToken": "color-palette-neutral-1000",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "menu-divider-color-fill",
+    "value": "#51555b",
+    "description": "Fill color for menu dividers",
+    "property": "divider",
+    "category": "color",
+    "component": "menu",
+    "referenceToken": "color-palette-grey-700",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "monitoring-icon-badge-color-background",
+    "value": "#101923",
+    "property": "badge",
+    "category": "color",
+    "component": "monitoring-icon",
+    "referenceToken": "color-palette-brightblue-900",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-inner-caution",
+    "value": "#fce83a",
+    "description": "Fill color of the Caution Notification Banner background",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-caution",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-inner-critical",
+    "value": "#ff3838",
+    "description": "Fill color of the Critical Notification Banner background",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-critical",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-inner-default",
+    "value": "#4dacff",
+    "description": "Fill color of the Default Notification Banner background",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-border-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-inner-normal",
+    "value": "#56f000",
+    "description": "Fill color of the Normal Notification Banner background",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-normal",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-inner-off",
+    "value": "#a4abb6",
+    "description": "Fill color of the Off Notification Banner background",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-off",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-inner-serious",
+    "value": "#ffb302",
+    "description": "Fill color of the Serious Notification Banner background",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-serious",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-inner-standby",
+    "value": "#2dccff",
+    "description": "Fill color of the Standby Notification Banner background",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-standby",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-outer-caution",
+    "value": "#fce83a",
+    "description": "Stroke color of the Caution Notification Banner",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-caution",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-outer-critical",
+    "value": "#ff3838",
+    "description": "Stroke color of the Critical Notification Banner",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-critical",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-outer-default",
+    "value": "#4dacff",
+    "description": "Stroke color of the Default Notification Banner",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-border-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-outer-normal",
+    "value": "#56f000",
+    "description": "Stroke color of the Normal Notification Banner",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-normal",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-outer-off",
+    "value": "#a4abb6",
+    "description": "Stroke color of the Off Notification Banner",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-off",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-outer-serious",
+    "value": "#ffb302",
+    "description": "Stroke color of the Serious Notification Banner",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-serious",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-border-outer-standby",
+    "value": "#2dccff",
+    "description": "Stroke color of the Standby Notification Banner",
+    "property": "border",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-status-standby",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-radius-inner",
+    "value": "2px",
+    "description": "Inner radius of Notification Banner outlines",
+    "property": "inner",
+    "category": "borderRadius",
+    "component": "notification-banner",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-radius-outer",
+    "value": "3px",
+    "description": "Outer radius of Notification Banner outlines",
+    "property": "outer",
+    "category": "borderRadius",
+    "component": "notification-banner",
+    "referenceToken": "radius-base",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "progress-radius-inner",
+    "value": "8px",
+    "description": "Inside border radius",
+    "property": "inner",
+    "category": "borderRadius",
+    "component": "progress",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "progress-radius-outer",
+    "value": "10px",
+    "description": "Outside border radius",
+    "property": "outer",
+    "category": "borderRadius",
+    "component": "progress",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "radio-check-radius",
+    "value": "50%",
+    "property": "radius",
+    "category": "borderRadius",
+    "component": "radio",
+    "referenceToken": "radius-circle",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "radio-control-check-color-fill",
+    "value": "#4dacff",
+    "property": "control",
+    "category": "color",
+    "component": "radio",
+    "referenceToken": "color-background-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "radio-control-color-border-default",
+    "value": "#2b659b",
+    "property": "control",
+    "category": "color",
+    "component": "radio",
+    "referenceToken": "color-border-interactive-muted",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "radio-control-color-border-hover",
+    "value": "#92cbff",
+    "property": "control",
+    "category": "color",
+    "component": "radio",
+    "referenceToken": "color-border-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "radio-control-dimension",
+    "value": "24px",
+    "property": "control",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "radio-control-margin-right",
+    "value": "0.625rem",
+    "property": "control",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "radio-control-padding",
+    "value": "0.125rem",
+    "property": "control",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-050",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "radio-control-radius",
+    "value": "50%",
+    "property": "radius",
+    "category": "borderRadius",
+    "component": "radio",
+    "referenceToken": "radius-circle",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "radio-radius-inner",
+    "value": "4px",
+    "description": "[DEPRECATED] use radio.check.radius instead",
+    "property": "inner",
+    "category": "borderRadius",
+    "component": "radio",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "radio-radius-outer",
+    "value": "9px",
+    "description": "[DEPRECATED] use radio.control.radius instead",
+    "property": "outer",
+    "category": "borderRadius",
+    "component": "radio",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "scrollbar-radius",
+    "value": "4px",
+    "description": "Scrollbar's border radius",
+    "category": "borderRadius",
+    "component": "scrollbar",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "scrollbar-shadow-inner-horizontal",
+    "value": "inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
+    "description": "Inner shadow for horizontal scrollbars",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": "scrollbar",
+    "referenceToken": "color-palette-neutral-1000",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "scrollbar-shadow-inner-vertical",
+    "value": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.5)",
+    "description": "Inner shadow for vertical scrollbars",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": "scrollbar",
+    "referenceToken": "color-palette-neutral-1000",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "select-border-width",
+    "value": "1px",
+    "category": "borderWidth",
+    "component": "select",
+    "referenceToken": "border-width-xs",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "select-caret-color-fill",
+    "value": "#4dacff",
+    "property": "caret",
+    "category": "color",
+    "component": "select",
+    "referenceToken": "color-background-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "select-caret-dimension",
+    "value": "30px",
+    "property": "caret",
+    "category": "dimension",
     "component": null,
     "tokenLevel": "reference"
   },
@@ -308,20 +1077,20 @@
     "tokenLevel": "component"
   },
   {
-    "name": "select-caret-dimension",
-    "value": "30px",
-    "property": "caret",
-    "category": "dimension",
+    "name": "select-caret-selector-width",
+    "value": "32px",
+    "property": "caret-selector",
+    "category": "sizing",
     "component": null,
     "tokenLevel": "reference"
   },
   {
-    "name": "select-caret-color-fill",
-    "value": "#4dacff",
-    "property": "caret",
+    "name": "select-color-background",
+    "value": "#101923",
+    "property": "background",
     "category": "color",
     "component": "select",
-    "referenceToken": "color-background-interactive-default",
+    "referenceToken": "color-background-base-default",
     "tokenLevel": "component"
   },
   {
@@ -358,15 +1127,6 @@
     "category": "color",
     "component": "select",
     "referenceToken": "color-text-interactive-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "select-color-background",
-    "value": "#101923",
-    "property": "background",
-    "category": "color",
-    "component": "select",
-    "referenceToken": "color-background-base-default",
     "tokenLevel": "component"
   },
   {
@@ -434,6 +1194,60 @@
     "tokenLevel": "reference"
   },
   {
+    "name": "select-padding-x-large",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "select-padding-x-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "select-padding-x-small",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "select-padding-y-large",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "select-padding-y-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "select-padding-y-small",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
     "name": "select-radius",
     "value": "3px",
     "category": "borderRadius",
@@ -442,993 +1256,125 @@
     "tokenLevel": "component"
   },
   {
-    "name": "select-border-width",
-    "value": "1px",
-    "category": "borderWidth",
-    "component": "select",
-    "referenceToken": "border-width-xs",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "radio-radius-inner",
-    "value": "4px",
-    "description": "[DEPRECATED] use radio.dot.radius instead",
-    "property": "inner",
-    "category": "borderRadius",
-    "component": "radio",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "radio-radius-outer",
-    "value": "9px",
-    "description": "[DEPRECATED] use radio.control.radius instead",
-    "property": "outer",
-    "category": "borderRadius",
-    "component": "radio",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "radio-control-radius",
-    "value": "50%",
-    "property": "radius",
-    "category": "borderRadius",
-    "component": "radio",
-    "referenceToken": "radius-circle",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "radio-control-check-color-fill",
-    "value": "#4dacff",
-    "property": "control",
-    "category": "color",
-    "component": "radio",
-    "referenceToken": "color-background-interactive-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "radio-control-color-border-default",
-    "value": "#2b659b",
-    "property": "control",
-    "category": "color",
-    "component": "radio",
-    "referenceToken": "color-border-interactive-muted",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "radio-control-color-border-hover",
-    "value": "#92cbff",
-    "property": "control",
-    "category": "color",
-    "component": "radio",
-    "referenceToken": "color-border-interactive-hover",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "radio-control-margin-right",
-    "value": "0.625rem",
-    "property": "control",
-    "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "radio-control-dimension",
-    "value": "24px",
-    "property": "control",
-    "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "radio-control-padding",
-    "value": "0.125rem",
-    "property": "control",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-050",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "radio-check-radius",
-    "value": "50%",
-    "property": "radius",
-    "category": "borderRadius",
-    "component": "radio",
-    "referenceToken": "radius-circle",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "checkbox-group-padding",
-    "value": "1rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-4",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "checkbox-group-checkbox-margin-bottom",
-    "value": "0.5rem",
-    "property": "checkbox",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-2",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "checkbox-group-color-border-default",
-    "value": "#2b659b",
-    "property": "border",
-    "category": "color",
-    "component": "checkbox-group",
-    "referenceToken": "color-border-interactive-muted",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "checkbox-group-color-border-invalid",
-    "value": "#ff3838",
-    "property": "border",
-    "category": "color",
-    "component": "checkbox-group",
-    "referenceToken": "color-border-error",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "checkbox-group-border-width",
-    "value": "1px",
-    "category": "borderWidth",
-    "component": "checkbox-group",
-    "referenceToken": "border-width-xs",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "checkbox-radius",
-    "value": "2px",
-    "description": "Checkbox border radius",
-    "category": "borderRadius",
-    "component": "checkbox",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-background-primary-default",
-    "value": "#4dacff",
-    "property": "background",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "color-background-interactive-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-background-primary-hover",
-    "value": "#92cbff",
-    "property": "background",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "color-background-interactive-hover",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-background-secondary",
-    "value": "#ffffff00",
-    "property": "background",
-    "category": "color",
-    "component": "button",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-background-borderless",
-    "value": "#ffffff00",
-    "property": "background",
-    "category": "color",
-    "component": "button",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-text-primary",
-    "value": "#080c11",
-    "property": "text",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "color-text-inverse",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-text-secondary-default",
-    "value": "#4dacff",
-    "property": "text",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "color-text-interactive-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-text-secondary-hover",
-    "value": "#92cbff",
-    "property": "text",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "color-text-interactive-hover",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-text-borderless-default",
-    "value": "#4dacff",
-    "property": "text",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "color-text-interactive-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-text-borderless-hover",
-    "value": "#92cbff",
-    "property": "text",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "color-text-interactive-hover",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-border-primary-default",
-    "value": "#4dacff",
-    "property": "border",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "button-color-background-primary-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-border-primary-hover",
-    "value": "#92cbff",
-    "property": "border",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "button-color-background-primary-hover",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-border-secondary-default",
-    "value": "#4dacff",
-    "property": "border",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "color-border-interactive-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-border-secondary-hover",
-    "value": "#92cbff",
-    "property": "border",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "color-border-interactive-hover",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-color-border-borderless",
-    "value": "#ffffff00",
-    "property": "border",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "button-color-background-borderless",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-radius",
-    "value": "3px",
-    "category": "borderRadius",
-    "component": "button",
-    "referenceToken": "radius-base",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-opacity-disabled",
-    "value": "40%",
-    "property": "opacity",
-    "category": "opacity",
-    "component": null,
-    "referenceToken": "opacity-disabled",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "button-icon-color-fill-primary",
-    "value": "#080c11",
-    "property": "icon",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "button-color-text-primary",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-icon-color-fill-secondary-default",
-    "value": "#4dacff",
-    "property": "icon",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "button-color-border-secondary-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-icon-color-fill-secondary-hover",
-    "value": "#92cbff",
-    "property": "icon",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "button-color-text-secondary-hover",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-icon-color-fill-borderless-default",
-    "value": "#4dacff",
-    "property": "icon",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "button-color-text-borderless-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-icon-color-fill-borderless-hover",
-    "value": "#92cbff",
-    "property": "icon",
-    "category": "color",
-    "component": "button",
-    "referenceToken": "button-color-text-borderless-hover",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "button-icon-margin-right",
-    "value": "0.25rem",
-    "property": "icon",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-1",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "button-icon-dimension",
-    "value": "20px",
-    "property": "icon",
-    "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "button-label-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-    "property": "label",
-    "category": "fontFamily",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "button-label-font-weight",
-    "value": "400",
-    "property": "label",
-    "category": "fontWeight",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "button-label-line-height",
-    "value": "calc(20 / 16)",
-    "property": "label",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "button-label-font-size",
-    "value": "1rem",
-    "property": "label",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "button-label-letter-spacing",
-    "value": "0.005em",
-    "property": "label",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "button-label-paragraph-spacing",
-    "value": 0,
-    "property": "label",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "button-label-text-decoration",
-    "value": "none",
-    "property": "label",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "button-label-text-case",
-    "value": "none",
-    "property": "label",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "button-padding-y-medium",
-    "value": "0.5rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-2",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "button-padding-y-medium-icon-only",
-    "value": "0.5rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-2",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "button-padding-y-small",
-    "value": "0.25rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-1",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "button-padding-y-small-icon-only",
-    "value": "0.25rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-1",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "button-padding-y-large",
-    "value": "0.75rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-3",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "button-padding-y-large-icon-only",
-    "value": "0.75rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-3",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "button-padding-x-medium",
-    "value": "1rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-4",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "button-padding-x-medium-icon-only",
-    "value": "0.5rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-2",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "button-padding-x-small",
-    "value": "1rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-4",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "button-padding-x-small-icon-only",
-    "value": "0.25rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-1",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "button-padding-x-large",
-    "value": "1rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-4",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "button-padding-x-large-icon-only",
-    "value": "0.75rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-3",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "button-border-width",
-    "value": "1px",
-    "category": "borderWidth",
-    "component": "button",
-    "referenceToken": "border-width-xs",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "input-color-background-default",
-    "value": "#101923",
-    "property": "background",
-    "category": "color",
-    "component": "input",
-    "referenceToken": "color-background-base-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "input-color-border-default",
-    "value": "#2b659b",
-    "property": "border",
-    "category": "color",
-    "component": "input",
-    "referenceToken": "color-border-interactive-muted",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "input-color-border-hover",
-    "value": "#92cbff",
-    "property": "border",
-    "category": "color",
-    "component": "input",
-    "referenceToken": "color-border-interactive-hover",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "input-color-border-invalid",
-    "value": "#ff3838",
-    "property": "border",
-    "category": "color",
-    "component": "input",
-    "referenceToken": "color-border-error",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "input-color-text-default",
+    "name": "slider-axis-label-color-text",
     "value": "#ffffff",
-    "property": "text",
+    "property": "axis-label",
     "category": "color",
-    "component": "input",
+    "component": "slider",
     "referenceToken": "color-text-primary",
     "tokenLevel": "component"
   },
   {
-    "name": "input-color-text-placeholder",
-    "value": "#a4abb6",
-    "property": "text",
-    "category": "color",
-    "component": "input",
-    "referenceToken": "color-text-placeholder",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "input-padding-x-medium",
-    "value": "0.5rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-2",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "input-padding-x-small",
-    "value": "0.25rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-1",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "input-padding-x-large",
-    "value": "0.75rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-3",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "input-padding-y-medium",
-    "value": "0.5rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-2",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "input-padding-y-small",
-    "value": "0.5rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-2",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "input-padding-y-large",
-    "value": "0.5rem",
-    "property": "padding",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-2",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "input-border-width",
+    "name": "slider-radius-background-track",
     "value": "1px",
-    "category": "borderWidth",
-    "component": "input",
-    "referenceToken": "border-width-xs",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "input-radius",
-    "value": "3px",
+    "description": "[DEPRECATED] use slider-track-radius instead",
+    "property": "background-track",
     "category": "borderRadius",
-    "component": "input",
-    "referenceToken": "radius-base",
+    "component": "slider",
     "tokenLevel": "component"
   },
   {
-    "name": "input-prefix-margin-right",
-    "value": "0.25rem",
-    "property": "prefix",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-1",
+    "name": "slider-thumb-border-width",
+    "value": "2px",
+    "property": "borderWidth",
+    "category": "borderWidth",
+    "component": "slider",
+    "referenceToken": "border-width-sm",
     "tokenLevel": "system"
   },
   {
-    "name": "input-suffix-margin-left",
-    "value": "0.25rem",
-    "property": "suffix",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "spacing-1",
-    "tokenLevel": "system"
-  },
-  {
-    "name": "input-icon-color-fill-default",
-    "value": "#4dacff",
-    "property": "icon",
+    "name": "slider-thumb-color-background",
+    "value": "#101923",
+    "property": "thumb",
     "category": "color",
-    "component": "input",
-    "referenceToken": "color-background-interactive-default",
+    "component": "slider",
+    "referenceToken": "color-background-base-default",
     "tokenLevel": "component"
   },
   {
-    "name": "input-icon-dimension",
+    "name": "slider-thumb-color-border-default",
+    "value": "#4dacff",
+    "property": "thumb",
+    "category": "color",
+    "component": "slider",
+    "referenceToken": "color-border-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "slider-thumb-color-border-hover",
+    "value": "#92cbff",
+    "property": "thumb",
+    "category": "color",
+    "component": "slider",
+    "referenceToken": "color-border-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "slider-thumb-dimension",
     "value": "20px",
-    "property": "icon",
+    "property": "thumb",
     "category": "dimension",
     "component": null,
     "tokenLevel": "reference"
   },
   {
-    "name": "link-color-text-default",
+    "name": "slider-thumb-radius",
+    "value": "50%",
+    "property": "radius",
+    "category": "borderRadius",
+    "component": "slider",
+    "referenceToken": "radius-circle",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "slider-tick-color-background",
     "value": "#4dacff",
-    "description": "Color used for links in default state",
-    "property": "text",
+    "property": "tick",
     "category": "color",
-    "component": "link",
-    "referenceToken": "color-text-interactive-default",
+    "component": "slider",
+    "referenceToken": "color-background-interactive-default",
     "tokenLevel": "component"
   },
   {
-    "name": "link-color-text-hover",
-    "value": "#4dacff",
-    "description": "Color used for links in hover state. Links do not change color on hover",
-    "property": "text",
-    "category": "color",
-    "component": "link",
-    "referenceToken": "link-color-text-default",
+    "name": "slider-tick-dimension",
+    "value": "4px",
+    "property": "tick",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "slider-tick-radius",
+    "value": "50%",
+    "property": "radius",
+    "category": "borderRadius",
+    "component": "slider",
+    "referenceToken": "radius-circle",
     "tokenLevel": "component"
   },
   {
-    "name": "card-color-border",
-    "value": "#51555b",
-    "description": "Border color used for the Card component",
-    "property": "border",
-    "category": "color",
-    "component": "card",
-    "referenceToken": "color-palette-grey-700",
-    "tokenLevel": "component"
+    "name": "slider-track-height-active",
+    "value": "4px",
+    "property": "track",
+    "category": "sizing",
+    "component": null,
+    "tokenLevel": "reference"
   },
   {
-    "name": "container-color-border",
-    "value": "#000000",
-    "description": "Border color used for the Container component",
-    "property": "border",
-    "category": "color",
-    "component": "container",
-    "referenceToken": "color-palette-neutral-1000",
-    "tokenLevel": "component"
+    "name": "slider-track-height-inactive",
+    "value": "1px",
+    "property": "track",
+    "category": "sizing",
+    "component": null,
+    "tokenLevel": "reference"
   },
   {
-    "name": "container-header-color-background",
-    "value": "#172635",
-    "description": "Background color for the Container component header",
-    "property": "header",
-    "category": "color",
-    "component": "container",
-    "referenceToken": "color-background-surface-header",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "container-footer-color-background",
-    "value": "#172635",
-    "description": "Background color for the Container component footer",
-    "property": "footer",
-    "category": "color",
-    "component": "container",
-    "referenceToken": "container-header-color-background",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "classification-banner-color-background-topsecretsci",
-    "value": "#fce83a",
-    "description": "Background color of the Top Secret//SCI classification banner",
-    "property": "background",
-    "category": "color",
-    "component": "classification-banner",
-    "referenceToken": "color-classification-topsecretsci",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "classification-banner-color-background-topsecret",
-    "value": "#ff8c00",
-    "description": "Background color of the Top Secret classification banner",
-    "property": "background",
-    "category": "color",
-    "component": "classification-banner",
-    "referenceToken": "color-classification-topsecret",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "classification-banner-color-background-secret",
-    "value": "#c8102e",
-    "description": "Background color of the Secret classification banner",
-    "property": "background",
-    "category": "color",
-    "component": "classification-banner",
-    "referenceToken": "color-classification-secret",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "classification-banner-color-background-confidential",
-    "value": "#0033a0",
-    "description": "Background color of the Confidential classification banner",
-    "property": "background",
-    "category": "color",
-    "component": "classification-banner",
-    "referenceToken": "color-classification-confidential",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "classification-banner-color-background-cui",
-    "value": "#502b85",
-    "description": "Background color of the CUI classification banner",
-    "property": "background",
-    "category": "color",
-    "component": "classification-banner",
-    "referenceToken": "color-classification-cui",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "classification-banner-color-background-unclassified",
-    "value": "#007a33",
-    "description": "Background color of the Unclassified classification banner",
-    "property": "background",
-    "category": "color",
-    "component": "classification-banner",
-    "referenceToken": "color-classification-unclassified",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-fill-critical-on-dark",
-    "value": "#ff3838",
-    "description": "Fill color of the Critical status symbol on a dark background",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-red-500",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-fill-critical-on-light",
-    "value": "#ff2a04",
-    "description": "Fill color of the Critical status symbol on a light background",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-red-600",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-fill-serious-on-dark",
-    "value": "#ffb302",
-    "description": "Fill color of the Serious status symbol on a dark background",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-orange-500",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-fill-serious-on-light",
-    "value": "#ffaf3d",
-    "description": "Fill color of the Serious status symbol on a light background",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-orange-600",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-fill-caution-on-dark",
-    "value": "#fce83a",
-    "description": "Fill color of the Caution status symbol on a dark background",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-yellow-500",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-fill-caution-on-light",
-    "value": "#fad800",
-    "description": "Fill color of the Caution status symbol on a light background",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-yellow-600",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-fill-normal-on-dark",
-    "value": "#56f000",
-    "description": "Fill color of the Normal status symbol on a dark background",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-green-500",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-fill-normal-on-light",
-    "value": "#00e200",
-    "description": "Fill color of the Normal status symbol on a light background",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-green-600",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-fill-standby-on-dark",
-    "value": "#2dccff",
-    "description": "Fill color of the Standby status symbol on a dark background",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-cyan-600",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-fill-standby-on-light",
-    "value": "#64d9ff",
-    "description": "Fill color of the Standby status symbol on a light background",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-cyan-500",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-fill-off-on-dark",
-    "value": "#a4abb6",
-    "description": "Fill color of the Off status symbol on a dark background",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-grey-500",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-fill-off-on-light",
-    "value": "#7b8089",
-    "description": "Fill color of the Off status symbol on a light background",
-    "property": "fill",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-grey-600",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-border-critical",
-    "value": "#661102",
-    "description": "Border color of the Critical status symbol on light backgrounds",
-    "property": "border",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-red-900",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-border-serious",
-    "value": "#664618",
-    "description": "Border color of the Serious status symbol on light backgrounds",
-    "property": "border",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-orange-900",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-border-caution",
-    "value": "#645600",
-    "description": "Border color of the Caution status symbol on light backgrounds",
-    "property": "border",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-yellow-900",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-border-normal",
-    "value": "#005a00",
-    "description": "Border color of the Normal status symbol on light backgrounds",
-    "property": "border",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-green-900",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-border-standby",
-    "value": "#285766",
-    "description": "Border color of the Standby status symbol on light backgrounds",
-    "property": "border",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-cyan-900",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "status-symbol-color-border-off",
-    "value": "#3c3e42",
-    "description": "Border color of the Off status symbol on light backgrounds",
-    "property": "border",
-    "category": "color",
-    "component": "status-symbol",
-    "referenceToken": "color-palette-grey-800",
+    "name": "slider-track-radius",
+    "value": "3px",
+    "property": "radius",
+    "category": "borderRadius",
+    "component": "slider",
+    "referenceToken": "radius-base",
     "tokenLevel": "component"
   },
   {
@@ -1452,43 +1398,183 @@
     "tokenLevel": "system"
   },
   {
-    "name": "gsb-icon-color-fill-default",
-    "value": "#4dacff",
-    "description": "Primary color used for interactive elements in the Global Status Bar",
-    "property": "icon",
+    "name": "status-symbol-color-border-caution",
+    "value": "#645600",
+    "description": "Border color of the Caution status symbol on light backgrounds",
+    "property": "border",
     "category": "color",
-    "component": "gsb",
-    "referenceToken": "color-palette-brightblue-500",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-yellow-900",
     "tokenLevel": "component"
   },
   {
-    "name": "gsb-icon-color-fill-hover",
-    "value": "#92cbff",
-    "description": "Hover color used for interactive elements in the Global Status Bar",
-    "property": "icon",
+    "name": "status-symbol-color-border-critical",
+    "value": "#661102",
+    "description": "Border color of the Critical status symbol on light backgrounds",
+    "property": "border",
     "category": "color",
-    "component": "gsb",
-    "referenceToken": "color-palette-brightblue-400",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-red-900",
     "tokenLevel": "component"
   },
   {
-    "name": "gsb-color-background",
-    "value": "#172635",
-    "description": "Background color of the Global Status Bar component",
-    "property": "background",
+    "name": "status-symbol-color-border-normal",
+    "value": "#005a00",
+    "description": "Border color of the Normal status symbol on light backgrounds",
+    "property": "border",
     "category": "color",
-    "component": "gsb",
-    "referenceToken": "color-palette-darkblue-900",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-green-900",
     "tokenLevel": "component"
   },
   {
-    "name": "gsb-color-text",
-    "value": "#ffffff",
-    "description": "Primary text color used within the Global Status Bar",
-    "property": "text",
+    "name": "status-symbol-color-border-off",
+    "value": "#3c3e42",
+    "description": "Border color of the Off status symbol on light backgrounds",
+    "property": "border",
     "category": "color",
-    "component": "gsb",
-    "referenceToken": "color-palette-neutral-000",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-grey-800",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "status-symbol-color-border-serious",
+    "value": "#664618",
+    "description": "Border color of the Serious status symbol on light backgrounds",
+    "property": "border",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-orange-900",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "status-symbol-color-border-standby",
+    "value": "#285766",
+    "description": "Border color of the Standby status symbol on light backgrounds",
+    "property": "border",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-cyan-900",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "status-symbol-color-fill-caution-on-dark",
+    "value": "#fce83a",
+    "description": "Fill color of the Caution status symbol on a dark background",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-yellow-500",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "status-symbol-color-fill-caution-on-light",
+    "value": "#fad800",
+    "description": "Fill color of the Caution status symbol on a light background",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-yellow-600",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "status-symbol-color-fill-critical-on-dark",
+    "value": "#ff3838",
+    "description": "Fill color of the Critical status symbol on a dark background",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-red-500",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "status-symbol-color-fill-critical-on-light",
+    "value": "#ff2a04",
+    "description": "Fill color of the Critical status symbol on a light background",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-red-600",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "status-symbol-color-fill-normal-on-dark",
+    "value": "#56f000",
+    "description": "Fill color of the Normal status symbol on a dark background",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-green-500",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "status-symbol-color-fill-normal-on-light",
+    "value": "#00e200",
+    "description": "Fill color of the Normal status symbol on a light background",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-green-600",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "status-symbol-color-fill-off-on-dark",
+    "value": "#a4abb6",
+    "description": "Fill color of the Off status symbol on a dark background",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-grey-500",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "status-symbol-color-fill-off-on-light",
+    "value": "#7b8089",
+    "description": "Fill color of the Off status symbol on a light background",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-grey-600",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "status-symbol-color-fill-serious-on-dark",
+    "value": "#ffb302",
+    "description": "Fill color of the Serious status symbol on a dark background",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-orange-500",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "status-symbol-color-fill-serious-on-light",
+    "value": "#ffaf3d",
+    "description": "Fill color of the Serious status symbol on a light background",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-orange-600",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "status-symbol-color-fill-standby-on-dark",
+    "value": "#2dccff",
+    "description": "Fill color of the Standby status symbol on a dark background",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-cyan-600",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "status-symbol-color-fill-standby-on-light",
+    "value": "#64d9ff",
+    "description": "Fill color of the Standby status symbol on a light background",
+    "property": "fill",
+    "category": "color",
+    "component": "status-symbol",
+    "referenceToken": "color-palette-cyan-500",
     "tokenLevel": "component"
   },
   {
@@ -1498,62 +1584,6 @@
     "property": "track",
     "category": "borderRadius",
     "component": "switch",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "scrollbar-shadow-inner-vertical",
-    "value": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.5)",
-    "description": "Inner shadow for vertical scrollbars",
-    "property": "inner",
-    "category": "boxShadow",
-    "component": "scrollbar",
-    "referenceToken": "color-palette-neutral-1000",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "scrollbar-shadow-inner-horizontal",
-    "value": "inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
-    "description": "Inner shadow for horizontal scrollbars",
-    "property": "inner",
-    "category": "boxShadow",
-    "component": "scrollbar",
-    "referenceToken": "color-palette-neutral-1000",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "scrollbar-radius",
-    "value": "4px",
-    "description": "Scrollbar's border radius",
-    "category": "borderRadius",
-    "component": "scrollbar",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "progress-radius-inner",
-    "value": "8px",
-    "description": "Inside border radius",
-    "property": "inner",
-    "category": "borderRadius",
-    "component": "progress",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "progress-radius-outer",
-    "value": "10px",
-    "description": "Outside border radius",
-    "property": "outer",
-    "category": "borderRadius",
-    "component": "progress",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "tag-shadow-inner-pass",
-    "value": "inset 0px 0px 5px 0px rgb(86, 240, 0)",
-    "description": "Inner shadow for Pass status Tags",
-    "property": "inner",
-    "category": "boxShadow",
-    "component": "tag",
-    "referenceToken": "status-symbol-color-fill-normal-on-dark",
     "tokenLevel": "component"
   },
   {
@@ -1567,6 +1597,16 @@
     "tokenLevel": "component"
   },
   {
+    "name": "tag-shadow-inner-pass",
+    "value": "inset 0px 0px 5px 0px rgb(86, 240, 0)",
+    "description": "Inner shadow for Pass status Tags",
+    "property": "inner",
+    "category": "boxShadow",
+    "component": "tag",
+    "referenceToken": "status-symbol-color-fill-normal-on-dark",
+    "tokenLevel": "component"
+  },
+  {
     "name": "tag-shadow-inner-unknown",
     "value": "inset 0px 0px 5px 0px rgb(164, 171, 182)",
     "description": "Inner shadow for Unknown status Tags",
@@ -1577,217 +1617,136 @@
     "tokenLevel": "component"
   },
   {
-    "name": "indeterminate-progress-radius-inner",
-    "value": "23px",
-    "description": "Inside border radius",
-    "property": "inner",
-    "category": "borderRadius",
-    "component": "indeterminate-progress",
+    "name": "textarea-border-width",
+    "value": "1px",
+    "category": "borderWidth",
+    "component": "textarea",
+    "referenceToken": "border-width-xs",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "textarea-color-border-default",
+    "value": "#2b659b",
+    "property": "border",
+    "category": "color",
+    "component": "textarea",
+    "referenceToken": "color-border-interactive-muted",
     "tokenLevel": "component"
   },
   {
-    "name": "indeterminate-progress-radius-outer",
-    "value": "30px",
-    "description": "Outside border radius",
-    "property": "outer",
-    "category": "borderRadius",
-    "component": "indeterminate-progress",
+    "name": "textarea-color-border-hover",
+    "value": "#92cbff",
+    "property": "border",
+    "category": "color",
+    "component": "textarea",
+    "referenceToken": "color-border-interactive-hover",
     "tokenLevel": "component"
   },
   {
-    "name": "notification-banner-radius-inner",
-    "value": "2px",
-    "description": "Inner radius of Notification Banner outlines",
-    "property": "inner",
-    "category": "borderRadius",
-    "component": "notification-banner",
+    "name": "textarea-color-border-invalid",
+    "value": "#ff3838",
+    "property": "border",
+    "category": "color",
+    "component": "textarea",
+    "referenceToken": "color-border-error",
     "tokenLevel": "component"
   },
   {
-    "name": "notification-banner-radius-outer",
+    "name": "textarea-color-text-default",
+    "value": "#ffffff",
+    "property": "text",
+    "category": "color",
+    "component": "textarea",
+    "referenceToken": "color-text-primary",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "textarea-color-text-placeholder",
+    "value": "#a4abb6",
+    "property": "text",
+    "category": "color",
+    "component": "textarea",
+    "referenceToken": "color-text-placeholder",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "textarea-padding-x-large",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "textarea-padding-x-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "textarea-padding-x-small",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "textarea-padding-y-large",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "textarea-padding-y-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "textarea-padding-y-small",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "textarea-radius",
     "value": "3px",
-    "description": "Outer radius of Notification Banner outlines",
-    "property": "outer",
     "category": "borderRadius",
-    "component": "notification-banner",
+    "component": "textarea",
     "referenceToken": "radius-base",
     "tokenLevel": "component"
   },
   {
-    "name": "notification-banner-color-border-inner-normal",
-    "value": "#56f000",
-    "description": "Fill color of the Normal Notification Banner background",
-    "property": "border",
+    "name": "timeline-cell-color-background",
+    "value": "#1c3f5e",
+    "property": "cell",
     "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-status-normal",
+    "component": "timeline",
+    "referenceToken": "color-palette-darkblue-700",
     "tokenLevel": "component"
   },
   {
-    "name": "notification-banner-color-border-inner-caution",
-    "value": "#fce83a",
-    "description": "Fill color of the Caution Notification Banner background",
-    "property": "border",
+    "name": "timeline-header-color-background",
+    "value": "#172635",
+    "property": "header",
     "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-status-caution",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "notification-banner-color-border-inner-serious",
-    "value": "#ffb302",
-    "description": "Fill color of the Serious Notification Banner background",
-    "property": "border",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-status-serious",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "notification-banner-color-border-inner-critical",
-    "value": "#ff3838",
-    "description": "Fill color of the Critical Notification Banner background",
-    "property": "border",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-status-critical",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "notification-banner-color-border-inner-standby",
-    "value": "#2dccff",
-    "description": "Fill color of the Standby Notification Banner background",
-    "property": "border",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-status-standby",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "notification-banner-color-border-inner-off",
-    "value": "#a4abb6",
-    "description": "Fill color of the Off Notification Banner background",
-    "property": "border",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-status-off",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "notification-banner-color-border-inner-default",
-    "value": "#4dacff",
-    "description": "Fill color of the Default Notification Banner background",
-    "property": "border",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-border-interactive-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "notification-banner-color-border-outer-normal",
-    "value": "#56f000",
-    "description": "Stroke color of the Normal Notification Banner",
-    "property": "border",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-status-normal",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "notification-banner-color-border-outer-caution",
-    "value": "#fce83a",
-    "description": "Stroke color of the Caution Notification Banner",
-    "property": "border",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-status-caution",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "notification-banner-color-border-outer-serious",
-    "value": "#ffb302",
-    "description": "Stroke color of the Serious Notification Banner",
-    "property": "border",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-status-serious",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "notification-banner-color-border-outer-critical",
-    "value": "#ff3838",
-    "description": "Stroke color of the Critical Notification Banner",
-    "property": "border",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-status-critical",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "notification-banner-color-border-outer-standby",
-    "value": "#2dccff",
-    "description": "Stroke color of the Standby Notification Banner",
-    "property": "border",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-status-standby",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "notification-banner-color-border-outer-off",
-    "value": "#a4abb6",
-    "description": "Stroke color of the Off Notification Banner",
-    "property": "border",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-status-off",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "notification-banner-color-border-outer-default",
-    "value": "#4dacff",
-    "description": "Stroke color of the Default Notification Banner",
-    "property": "border",
-    "category": "color",
-    "component": "notification-banner",
-    "referenceToken": "color-border-interactive-default",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "menu-divider-color-fill",
-    "value": "#51555b",
-    "description": "Fill color for menu dividers",
-    "property": "divider",
-    "category": "color",
-    "component": "menu",
-    "referenceToken": "color-palette-grey-700",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "monitoring-icon-badge-color-background",
-    "value": "#101923",
-    "property": "badge",
-    "category": "color",
-    "component": "monitoring-icon",
-    "referenceToken": "color-palette-brightblue-900",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "clock-datetime-color-background",
-    "value": "#101923",
-    "property": "datetime",
-    "category": "color",
-    "component": "clock",
-    "referenceToken": "color-palette-brightblue-900",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "log-color-border",
-    "value": "#000000",
-    "property": "border",
-    "category": "color",
-    "component": "log",
-    "referenceToken": "color-palette-neutral-1000",
+    "component": "timeline",
+    "referenceToken": "gsb-color-background",
     "tokenLevel": "component"
   },
   {
@@ -1816,24 +1775,6 @@
     "description": "Tooltip border radius",
     "category": "borderRadius",
     "component": "tooltip",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "timeline-header-color-background",
-    "value": "#172635",
-    "property": "header",
-    "category": "color",
-    "component": "timeline",
-    "referenceToken": "gsb-color-background",
-    "tokenLevel": "component"
-  },
-  {
-    "name": "timeline-cell-color-background",
-    "value": "#1c3f5e",
-    "property": "cell",
-    "category": "color",
-    "component": "timeline",
-    "referenceToken": "color-palette-darkblue-700",
     "tokenLevel": "component"
   },
   {

@@ -1,37 +1,37 @@
 /**
  * Do not edit directly
- * Generated on Wed, 05 Apr 2023 19:48:26 GMT
+ * Generated on Fri, 07 Apr 2023 17:25:41 GMT
  */
 
 export const ContainerColorBorder : string;
-export const GsbIconColorFillDefault : string;
-export const GsbIconColorFillHover : string;
 export const GsbColorBackground : string;
 export const GsbColorText : string;
-export const ScrollbarShadowInnerVertical : string;
-export const ScrollbarShadowInnerHorizontal : string;
-export const TagShadowInnerPass : string;
-export const TagShadowInnerFail : string;
-export const TagShadowInnerUnknown : string;
-export const NotificationBannerColorBorderInnerNormal : string;
-export const NotificationBannerColorBorderInnerCaution : string;
-export const NotificationBannerColorBorderInnerSerious : string;
-export const NotificationBannerColorBorderInnerCritical : string;
-export const NotificationBannerColorBorderInnerStandby : string;
-export const NotificationBannerColorBorderInnerOff : string;
-export const NotificationBannerColorBorderInnerDefault : string;
-export const NotificationBannerColorBorderOuterNormal : string;
-export const NotificationBannerColorBorderOuterCaution : string;
-export const NotificationBannerColorBorderOuterSerious : string;
-export const NotificationBannerColorBorderOuterCritical : string;
-export const NotificationBannerColorBorderOuterStandby : string;
-export const NotificationBannerColorBorderOuterOff : string;
-export const NotificationBannerColorBorderOuterDefault : string;
+export const GsbIconColorFillDefault : string;
+export const GsbIconColorFillHover : string;
 export const LogColorBorder : string;
+export const NotificationBannerColorBorderInnerCaution : string;
+export const NotificationBannerColorBorderInnerCritical : string;
+export const NotificationBannerColorBorderInnerDefault : string;
+export const NotificationBannerColorBorderInnerNormal : string;
+export const NotificationBannerColorBorderInnerOff : string;
+export const NotificationBannerColorBorderInnerSerious : string;
+export const NotificationBannerColorBorderInnerStandby : string;
+export const NotificationBannerColorBorderOuterCaution : string;
+export const NotificationBannerColorBorderOuterCritical : string;
+export const NotificationBannerColorBorderOuterDefault : string;
+export const NotificationBannerColorBorderOuterNormal : string;
+export const NotificationBannerColorBorderOuterOff : string;
+export const NotificationBannerColorBorderOuterSerious : string;
+export const NotificationBannerColorBorderOuterStandby : string;
+export const ScrollbarShadowInnerHorizontal : string;
+export const ScrollbarShadowInnerVertical : string;
+export const TagShadowInnerFail : string;
+export const TagShadowInnerPass : string;
+export const TagShadowInnerUnknown : string;
+export const TimelineCellColorBackground : string;
+export const TimelineHeaderColorBackground : string;
 export const TooltipColorBackground : string;
 export const TooltipColorText : string;
-export const TimelineHeaderColorBackground : string;
-export const TimelineCellColorBackground : string;
 export const ColorBackgroundBaseDefault : string;
 export const ColorBackgroundBaseHeader : string;
 export const ColorBackgroundBaseHover : string;
