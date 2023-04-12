@@ -83,17 +83,22 @@ StyleDictionary.registerFormat({
     const dictionary = Object.assign({}, format.dictionary);
     // Override each token's `value` with `darkValue`
     dictionary.allProperties = dictionary.allProperties.map((token) => {
-      const test = getTokenLevel(token)
-      if (!test) {
-        console.log(token);
-      }
+      const tokenLevel = getTokenLevel(token)
 
       let category = token.type
       let type = token.attributes.type
       if (token.attributes.type === 'color') {
         type = token.attributes.item
       }
+      const properties = [
+        'color', 'dimension', 'margin', 'boxShadow', 'borderRadius'
+      ]
+       const props = {
+        color: ['text', 'border', 'fill', 'background'],
+       }
+
       let component = null
+      
       if (token.attributes.category !== 'color' && token.type === 'color') {
         component = token.attributes.category
       }
@@ -118,6 +123,15 @@ StyleDictionary.registerFormat({
         type = token.attributes.item
       }
 
+      // account for component tokens with elements like button-icon-color-background
+      if (tokenLevel === 'component') {
+        if (props[token.type]) {
+          const property = token.path.find(part => props[token.type].includes(part))
+          if (property) {
+            type = property
+          }
+        }
+      }
 
       const typographyCategories = [
         'heading',

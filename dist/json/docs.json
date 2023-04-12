@@ -134,7 +134,7 @@
   {
     "name": "button-icon-color-fill-borderless-default",
     "value": "#4dacff",
-    "property": "icon",
+    "property": "fill",
     "category": "color",
     "component": "button",
     "referenceToken": "button-color-text-borderless-default",
@@ -143,7 +143,7 @@
   {
     "name": "button-icon-color-fill-borderless-hover",
     "value": "#92cbff",
-    "property": "icon",
+    "property": "fill",
     "category": "color",
     "component": "button",
     "referenceToken": "button-color-text-borderless-hover",
@@ -152,7 +152,7 @@
   {
     "name": "button-icon-color-fill-primary",
     "value": "#080c11",
-    "property": "icon",
+    "property": "fill",
     "category": "color",
     "component": "button",
     "referenceToken": "button-color-text-primary",
@@ -161,7 +161,7 @@
   {
     "name": "button-icon-color-fill-secondary-default",
     "value": "#4dacff",
-    "property": "icon",
+    "property": "fill",
     "category": "color",
     "component": "button",
     "referenceToken": "button-color-border-secondary-default",
@@ -170,7 +170,7 @@
   {
     "name": "button-icon-color-fill-secondary-hover",
     "value": "#92cbff",
-    "property": "icon",
+    "property": "fill",
     "category": "color",
     "component": "button",
     "referenceToken": "button-color-text-secondary-hover",
@@ -468,7 +468,7 @@
   {
     "name": "clock-datetime-color-background",
     "value": "#101923",
-    "property": "datetime",
+    "property": "background",
     "category": "color",
     "component": "clock",
     "referenceToken": "color-palette-brightblue-900",
@@ -508,7 +508,7 @@
     "name": "gsb-icon-color-fill-default",
     "value": "#4dacff",
     "description": "Primary color used for interactive elements in the Global Status Bar",
-    "property": "icon",
+    "property": "fill",
     "category": "color",
     "component": "gsb",
     "referenceToken": "color-palette-brightblue-500",
@@ -518,7 +518,7 @@
     "name": "gsb-icon-color-fill-hover",
     "value": "#92cbff",
     "description": "Hover color used for interactive elements in the Global Status Bar",
-    "property": "icon",
+    "property": "fill",
     "category": "color",
     "component": "gsb",
     "referenceToken": "color-palette-brightblue-400",
@@ -607,7 +607,7 @@
   {
     "name": "input-icon-color-fill-default",
     "value": "#4dacff",
-    "property": "icon",
+    "property": "fill",
     "category": "color",
     "component": "input",
     "referenceToken": "color-background-interactive-default",
@@ -734,7 +734,7 @@
     "name": "menu-divider-color-fill",
     "value": "#51555b",
     "description": "Fill color for menu dividers",
-    "property": "divider",
+    "property": "fill",
     "category": "color",
     "component": "menu",
     "referenceToken": "color-palette-grey-700",
@@ -743,7 +743,7 @@
   {
     "name": "monitoring-icon-badge-color-background",
     "value": "#101923",
-    "property": "badge",
+    "property": "background",
     "category": "color",
     "component": "monitoring-icon",
     "referenceToken": "color-palette-brightblue-900",
@@ -938,7 +938,7 @@
   {
     "name": "radio-control-check-color-fill",
     "value": "#4dacff",
-    "property": "control",
+    "property": "fill",
     "category": "color",
     "component": "radio",
     "referenceToken": "color-background-interactive-default",
@@ -947,7 +947,7 @@
   {
     "name": "radio-control-color-border-default",
     "value": "#2b659b",
-    "property": "control",
+    "property": "border",
     "category": "color",
     "component": "radio",
     "referenceToken": "color-border-interactive-muted",
@@ -956,7 +956,7 @@
   {
     "name": "radio-control-color-border-hover",
     "value": "#92cbff",
-    "property": "control",
+    "property": "border",
     "category": "color",
     "component": "radio",
     "referenceToken": "color-border-interactive-hover",
@@ -1053,7 +1053,7 @@
   {
     "name": "select-caret-color-fill",
     "value": "#4dacff",
-    "property": "caret",
+    "property": "fill",
     "category": "color",
     "component": "select",
     "referenceToken": "color-background-interactive-default",
@@ -1070,7 +1070,7 @@
   {
     "name": "select-caret-selector-color-background",
     "value": "#1c3f5e",
-    "property": "caret-selector",
+    "property": "background",
     "category": "color",
     "component": "select",
     "referenceToken": "color-background-base-selected",
@@ -1194,7 +1194,7 @@
   {
     "name": "slider-axis-label-color-text",
     "value": "#ffffff",
-    "property": "axis-label",
+    "property": "text",
     "category": "color",
     "component": "slider",
     "referenceToken": "color-text-primary",
@@ -1221,7 +1221,7 @@
   {
     "name": "slider-thumb-color-background",
     "value": "#101923",
-    "property": "thumb",
+    "property": "background",
     "category": "color",
     "component": "slider",
     "referenceToken": "color-background-base-default",
@@ -1230,7 +1230,7 @@
   {
     "name": "slider-thumb-color-border-default",
     "value": "#4dacff",
-    "property": "thumb",
+    "property": "border",
     "category": "color",
     "component": "slider",
     "referenceToken": "color-border-interactive-default",
@@ -1239,7 +1239,7 @@
   {
     "name": "slider-thumb-color-border-hover",
     "value": "#92cbff",
-    "property": "thumb",
+    "property": "border",
     "category": "color",
     "component": "slider",
     "referenceToken": "color-border-interactive-hover",
@@ -1265,7 +1265,7 @@
   {
     "name": "slider-tick-color-background",
     "value": "#4dacff",
-    "property": "tick",
+    "property": "background",
     "category": "color",
     "component": "slider",
     "referenceToken": "color-background-interactive-default",
@@ -1679,7 +1679,7 @@
   {
     "name": "timeline-cell-color-background",
     "value": "#1c3f5e",
-    "property": "cell",
+    "property": "background",
     "category": "color",
     "component": "timeline",
     "referenceToken": "color-palette-darkblue-700",
@@ -1688,7 +1688,7 @@
   {
     "name": "timeline-header-color-background",
     "value": "#172635",
-    "property": "header",
+    "property": "background",
     "category": "color",
     "component": "timeline",
     "referenceToken": "gsb-color-background",
