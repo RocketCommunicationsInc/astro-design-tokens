@@ -5,56 +5,15 @@
     }
   },
   "gsb": {
+    "color": {
+      "background": "#172635",
+      "text": "#ffffff"
+    },
     "icon": {
       "color": {
         "fill": {
           "default": "#4dacff",
           "hover": "#92cbff"
-        }
-      }
-    },
-    "color": {
-      "background": "#172635",
-      "text": "#ffffff"
-    }
-  },
-  "scrollbar": {
-    "shadow": {
-      "inner": {
-        "vertical": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.25)",
-        "horizontal": "inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5)"
-      }
-    }
-  },
-  "tag": {
-    "shadow": {
-      "inner": {
-        "pass": "inset 0px 0px 5px 0px rgb(0, 226, 0)",
-        "fail": "inset 0px 0px 5px 0px rgb(255, 42, 4)",
-        "unknown": "inset 0px 0px 5px 0px rgb(123, 128, 137)"
-      }
-    }
-  },
-  "notification-banner": {
-    "color": {
-      "border": {
-        "inner": {
-          "normal": "#00e200",
-          "caution": "#fad800",
-          "serious": "#ffaf3d",
-          "critical": "#ff2a04",
-          "standby": "#64d9ff",
-          "off": "#7b8089",
-          "default": "#005a8f"
-        },
-        "outer": {
-          "normal": "#005a00",
-          "caution": "#645600",
-          "serious": "#664618",
-          "critical": "#661102",
-          "standby": "#285766",
-          "off": "#3c3e42",
-          "default": "#005a8f"
         }
       }
     }
@@ -64,22 +23,63 @@
       "border": "#7b8089"
     }
   },
-  "tooltip": {
+  "notification-banner": {
     "color": {
-      "background": "#bbc1c9",
-      "text": "#000000"
+      "border": {
+        "inner": {
+          "caution": "#fad800",
+          "critical": "#ff2a04",
+          "default": "#005a8f",
+          "normal": "#00e200",
+          "off": "#7b8089",
+          "serious": "#ffaf3d",
+          "standby": "#64d9ff"
+        },
+        "outer": {
+          "caution": "#645600",
+          "critical": "#661102",
+          "default": "#005a8f",
+          "normal": "#005a00",
+          "off": "#3c3e42",
+          "serious": "#664618",
+          "standby": "#285766"
+        }
+      }
+    }
+  },
+  "scrollbar": {
+    "shadow": {
+      "inner": {
+        "horizontal": "inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
+        "vertical": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.25)"
+      }
+    }
+  },
+  "tag": {
+    "shadow": {
+      "inner": {
+        "fail": "inset 0px 0px 5px 0px rgb(255, 42, 4)",
+        "pass": "inset 0px 0px 5px 0px rgb(0, 226, 0)",
+        "unknown": "inset 0px 0px 5px 0px rgb(123, 128, 137)"
+      }
     }
   },
   "timeline": {
-    "header": {
-      "color": {
-        "background": "#f5f6f9"
-      }
-    },
     "cell": {
       "color": {
         "background": "#cbdee9"
       }
+    },
+    "header": {
+      "color": {
+        "background": "#f5f6f9"
+      }
+    }
+  },
+  "tooltip": {
+    "color": {
+      "background": "#bbc1c9",
+      "text": "#000000"
     }
   },
   "color": {
