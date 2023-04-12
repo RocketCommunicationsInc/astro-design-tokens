@@ -1,8 +1,3 @@
-/**
- * Do not edit directly
- * Generated on Wed, 12 Apr 2023 15:47:43 GMT
- */
-
 export const ButtonBorderWidth : string;
 export const ButtonColorBackgroundBorderless : string;
 export const ButtonColorBackgroundPrimaryDefault : string;

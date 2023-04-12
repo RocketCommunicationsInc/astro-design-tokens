@@ -266,6 +266,9 @@ styleDictionary.extend({
     "js": {
       "transformGroup": "custom/js",
       buildPath: "dist/js/",
+      options: {
+        showFileHeader: false,
+      },
       "files": [
         {
           "format": "javascript/module-flat",
@@ -533,6 +536,9 @@ styleDictionary.extend({
     "js": {
       "transformGroup": "custom/js",
       buildPath: "dist/js/",
+      options: {
+        showFileHeader: false,
+      },
       "files": [
         {
           "format": "javascript/module-flat",

@@ -1,8 +1,3 @@
-/**
- * Do not edit directly
- * Generated on Wed, 12 Apr 2023 15:47:43 GMT
- */
-
 export const OpacityDisabled = "40%";
 export const ColorBackgroundBaseDefault = "#101923";
 export const ColorBackgroundBaseHeader = "#172635";

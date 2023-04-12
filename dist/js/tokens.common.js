@@ -1,8 +1,3 @@
-/**
- * Do not edit directly
- * Generated on Wed, 12 Apr 2023 15:47:43 GMT
- */
-
 module.exports = {
   "ButtonBorderWidth": "1px",
   "ButtonColorBackgroundBorderless": "#ffffff00",

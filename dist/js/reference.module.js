@@ -1,8 +1,3 @@
-/**
- * Do not edit directly
- * Generated on Wed, 12 Apr 2023 15:47:43 GMT
- */
-
 export const Opacity25 = "25%";
 export const Opacity35 = "35%";
 export const Opacity40 = "40%";
