@@ -1,5 +1,17 @@
 # @astrouxds/tokens
 
+## 1.7.0
+
+### Minor Changes
+
+- Added component tokens for button, slider, checkbox, checkbox group, radio, radio group, select, input, textarea.
+- Added ios data visualization tokens
+- Added experimental js output targets
+- Deprecated `radio-radius-inner`. Use `radio.check.radius` instead.
+- Deprecated checkbox-radius. Use checkbox-control-radius instead.
+- Deprecated `radio-radius-outer`. Use radio-control-radius instead.
+- Deprecated `slider-radius-background-track`. Use `slider-track-radius` instead
+
 ## 1.6.0
 
 ### Minor Changes
