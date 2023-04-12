@@ -1038,20 +1038,6 @@
         "rawValue": "{color.text.interactive.default}"
       }
     },
-    "label": {
-      "type": "typography",
-      "value": {
-        "fontFamily": "Roboto",
-        "fontWeight": "Regular",
-        "lineHeight": "20px",
-        "fontSize": "16px",
-        "letterSpacing": "0.5%",
-        "paragraphSpacing": 0,
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "rawValue": "{control.control-body-1}"
-    },
     "padding": {
       "x": {
         "large": {
@@ -1439,6 +1425,13 @@
           "type": "color",
           "value": "#a4abb6",
           "rawValue": "{color.text.placeholder}"
+        }
+      },
+      "background": {
+        "default": {
+          "value": "#101923",
+          "type": "color",
+          "rawValue": "{color.background.base.default}"
         }
       }
     },

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 07 Apr 2023 17:25:41 GMT
+ * Generated on Wed, 12 Apr 2023 15:47:43 GMT
  */
 
 module.exports = {
@@ -128,14 +128,6 @@ module.exports = {
   "SelectColorBorderHover": "#92cbff",
   "SelectColorBorderInvalid": "#ff3838",
   "SelectColorText": "#4dacff",
-  "SelectLabelFontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-  "SelectLabelFontWeight": "400",
-  "SelectLabelLineHeight": "calc(20 / 16)",
-  "SelectLabelFontSize": "1rem",
-  "SelectLabelLetterSpacing": "0.005em",
-  "SelectLabelParagraphSpacing": 0,
-  "SelectLabelTextDecoration": "none",
-  "SelectLabelTextCase": "none",
   "SelectPaddingXLarge": "0.75rem",
   "SelectPaddingXMedium": "0.5rem",
   "SelectPaddingXSmall": "0.25rem",
@@ -187,6 +179,7 @@ module.exports = {
   "TextareaColorBorderInvalid": "#ff3838",
   "TextareaColorTextDefault": "#ffffff",
   "TextareaColorTextPlaceholder": "#a4abb6",
+  "TextareaColorBackgroundDefault": "#101923",
   "TextareaPaddingXLarge": "0.75rem",
   "TextareaPaddingXMedium": "0.5rem",
   "TextareaPaddingXSmall": "0.25rem",

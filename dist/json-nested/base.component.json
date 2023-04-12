@@ -316,16 +316,6 @@
       },
       "text": "#4dacff"
     },
-    "label": {
-      "fontFamily": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-      "fontWeight": "400",
-      "lineHeight": "calc(20 / 16)",
-      "fontSize": "1rem",
-      "letterSpacing": "0.005em",
-      "paragraphSpacing": 0,
-      "textDecoration": "none",
-      "textCase": "none"
-    },
     "padding": {
       "x": {
         "large": "0.75rem",
@@ -443,6 +433,9 @@
       "text": {
         "default": "#ffffff",
         "placeholder": "#a4abb6"
+      },
+      "background": {
+        "default": "#101923"
       }
     },
     "padding": {

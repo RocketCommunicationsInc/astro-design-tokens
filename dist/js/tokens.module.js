@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 07 Apr 2023 17:25:41 GMT
+ * Generated on Wed, 12 Apr 2023 15:47:43 GMT
  */
 
 export const ButtonBorderWidth = "1px";
@@ -127,14 +127,6 @@ export const SelectColorBorderDefault = "#2b659b";
 export const SelectColorBorderHover = "#92cbff";
 export const SelectColorBorderInvalid = "#ff3838";
 export const SelectColorText = "#4dacff";
-export const SelectLabelFontFamily = "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif";
-export const SelectLabelFontWeight = "400";
-export const SelectLabelLineHeight = "calc(20 / 16)";
-export const SelectLabelFontSize = "1rem";
-export const SelectLabelLetterSpacing = "0.005em";
-export const SelectLabelParagraphSpacing = 0;
-export const SelectLabelTextDecoration = "none";
-export const SelectLabelTextCase = "none";
 export const SelectPaddingXLarge = "0.75rem";
 export const SelectPaddingXMedium = "0.5rem";
 export const SelectPaddingXSmall = "0.25rem";
@@ -186,6 +178,7 @@ export const TextareaColorBorderHover = "#92cbff";
 export const TextareaColorBorderInvalid = "#ff3838";
 export const TextareaColorTextDefault = "#ffffff";
 export const TextareaColorTextPlaceholder = "#a4abb6";
+export const TextareaColorBackgroundDefault = "#101923";
 export const TextareaPaddingXLarge = "0.75rem";
 export const TextareaPaddingXMedium = "0.5rem";
 export const TextareaPaddingXSmall = "0.25rem";

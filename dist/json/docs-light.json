@@ -1131,70 +1131,6 @@
     "tokenLevel": "component"
   },
   {
-    "name": "select-label-font-family",
-    "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-    "property": "label",
-    "category": "fontFamily",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "select-label-font-weight",
-    "value": "400",
-    "property": "label",
-    "category": "fontWeight",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "select-label-line-height",
-    "value": "calc(20 / 16)",
-    "property": "label",
-    "category": "lineHeight",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "select-label-font-size",
-    "value": "1rem",
-    "property": "label",
-    "category": "fontSize",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "select-label-letter-spacing",
-    "value": "0.005em",
-    "property": "label",
-    "category": "letterSpacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "select-label-paragraph-spacing",
-    "value": 0,
-    "property": "label",
-    "category": "paragraphSpacing",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "select-label-text-decoration",
-    "value": "none",
-    "property": "label",
-    "category": "textDecoration",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "select-label-text-case",
-    "value": "none",
-    "property": "label",
-    "category": "textCase",
-    "component": null,
-    "tokenLevel": "reference"
-  },
-  {
     "name": "select-padding-x-large",
     "value": "0.75rem",
     "property": "padding",
@@ -1668,6 +1604,15 @@
     "category": "color",
     "component": "textarea",
     "referenceToken": "color-text-placeholder",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "textarea-color-background-default",
+    "value": "#101923",
+    "property": "background",
+    "category": "color",
+    "component": "textarea",
+    "referenceToken": "color-background-base-default",
     "tokenLevel": "component"
   },
   {

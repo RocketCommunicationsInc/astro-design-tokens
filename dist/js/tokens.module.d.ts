@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 07 Apr 2023 17:25:41 GMT
+ * Generated on Wed, 12 Apr 2023 15:47:43 GMT
  */
 
 export const ButtonBorderWidth : string;
@@ -127,14 +127,6 @@ export const SelectColorBorderDefault : string;
 export const SelectColorBorderHover : string;
 export const SelectColorBorderInvalid : string;
 export const SelectColorText : string;
-export const SelectLabelFontFamily : string;
-export const SelectLabelFontWeight : string;
-export const SelectLabelLineHeight : string;
-export const SelectLabelFontSize : string;
-export const SelectLabelLetterSpacing : string;
-export const SelectLabelParagraphSpacing : number;
-export const SelectLabelTextDecoration : string;
-export const SelectLabelTextCase : string;
 export const SelectPaddingXLarge : string;
 export const SelectPaddingXMedium : string;
 export const SelectPaddingXSmall : string;
@@ -186,6 +178,7 @@ export const TextareaColorBorderHover : string;
 export const TextareaColorBorderInvalid : string;
 export const TextareaColorTextDefault : string;
 export const TextareaColorTextPlaceholder : string;
+export const TextareaColorBackgroundDefault : string;
 export const TextareaPaddingXLarge : string;
 export const TextareaPaddingXMedium : string;
 export const TextareaPaddingXSmall : string;

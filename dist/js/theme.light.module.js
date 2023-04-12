@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 07 Apr 2023 17:25:41 GMT
+ * Generated on Wed, 12 Apr 2023 15:47:43 GMT
  */
 
 export const ContainerColorBorder = "#7b8089";
