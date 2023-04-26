@@ -100,58 +100,58 @@
     "data-visualization": {
       "1": {
         "color": {
-          "value": "#00c7cb",
+          "value": "#035051",
           "type": "color",
-          "rawValue": "{color.data-visualization.1}"
+          "rawValue": "{color.palette.teal.800}"
         }
       },
       "2": {
         "color": {
-          "value": "#938bdb",
+          "value": "#6058a8",
           "type": "color",
-          "rawValue": "{color.data-visualization.2}"
+          "rawValue": "{color.palette.purple.600}"
         }
       },
       "3": {
         "color": {
-          "value": "#4dacff",
+          "value": "#1c3851",
           "type": "color",
-          "rawValue": "{color.data-visualization.3}"
+          "rawValue": "{color.palette.brightblue.800}"
         }
       },
       "4": {
         "color": {
-          "value": "#70dde0",
+          "value": "#00777a",
           "type": "color",
-          "rawValue": "{color.data-visualization.4}"
+          "rawValue": "{color.palette.teal.700}"
         }
       },
       "5": {
         "color": {
-          "value": "#c9c5ed",
+          "value": "#786dd3",
           "type": "color",
-          "rawValue": "{color.data-visualization.5}"
+          "rawValue": "{color.palette.purple.500}"
         }
       },
       "6": {
         "color": {
-          "value": "#92cbff",
+          "value": "#2b659b",
           "type": "color",
-          "rawValue": "{color.data-visualization.6}"
+          "rawValue": "{color.palette.brightblue.700}"
         }
       },
       "7": {
         "color": {
-          "value": "#a1e9eb",
+          "value": "#009fa3",
           "type": "color",
-          "rawValue": "{color.data-visualization.7}"
+          "rawValue": "{color.palette.teal.600}"
         }
       },
       "8": {
         "color": {
-          "value": "#b7dcff",
+          "value": "#3a87cf",
           "type": "color",
-          "rawValue": "{color.data-visualization.8}"
+          "rawValue": "{color.palette.brightblue.600}"
         }
       }
     }
