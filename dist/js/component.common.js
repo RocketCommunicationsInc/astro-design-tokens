@@ -1,3 +1,13 @@
+export const TableHeaderColorBackground = "#172635";
+export const TableHeaderCellPadding = "0.5rem";
+export const TableCellColorBackgroundDefault = "#1b2d3e";
+export const TableCellColorBackgroundSelected = "#1c3f5e";
+export const TableCellColorBackgroundHover = "#1c3851";
+export const TableCellColorText = "#ffffff";
+export const TableCellColorBorder = "#101923";
+export const TableCellBorderWidth = "1px";
+export const TableBodyCellPaddingY = "0.25rem";
+export const TableBodyCellPaddingX = "0.5rem";
 export const ButtonBorderWidth = "1px";
 export const ButtonColorBackgroundBorderless = "#ffffff00";
 export const ButtonColorBackgroundPrimaryDefault = "#4dacff";

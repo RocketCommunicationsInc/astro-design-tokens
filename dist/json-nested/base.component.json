@@ -1,4 +1,34 @@
 {
+  "table": {
+    "header": {
+      "color": {
+        "background": "#172635"
+      },
+      "cell": {
+        "padding": "0.5rem"
+      }
+    },
+    "cell": {
+      "color": {
+        "background": {
+          "default": "#1b2d3e",
+          "selected": "#1c3f5e",
+          "hover": "#1c3851"
+        },
+        "text": "#ffffff",
+        "border": "#101923"
+      },
+      "borderWidth": "1px"
+    },
+    "body": {
+      "cell": {
+        "padding": {
+          "y": "0.25rem",
+          "x": "0.5rem"
+        }
+      }
+    }
+  },
   "button": {
     "borderWidth": "1px",
     "color": {

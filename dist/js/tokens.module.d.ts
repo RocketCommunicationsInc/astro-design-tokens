@@ -1,3 +1,13 @@
+export const TableHeaderColorBackground : string;
+export const TableHeaderCellPadding : string;
+export const TableCellColorBackgroundDefault : string;
+export const TableCellColorBackgroundSelected : string;
+export const TableCellColorBackgroundHover : string;
+export const TableCellColorText : string;
+export const TableCellColorBorder : string;
+export const TableCellBorderWidth : string;
+export const TableBodyCellPaddingY : string;
+export const TableBodyCellPaddingX : string;
 export const ButtonBorderWidth : string;
 export const ButtonColorBackgroundBorderless : string;
 export const ButtonColorBackgroundPrimaryDefault : string;

@@ -1,5 +1,97 @@
 [
   {
+    "name": "table-header-color-background",
+    "value": "#172635",
+    "property": "background",
+    "category": "color",
+    "component": "table",
+    "referenceToken": "color-background-surface-header",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "table-header-cell-padding",
+    "value": "0.5rem",
+    "property": "header",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "table-cell-color-background-default",
+    "value": "#1b2d3e",
+    "property": "background",
+    "category": "color",
+    "component": "table",
+    "referenceToken": "color-background-surface-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "table-cell-color-background-selected",
+    "value": "#1c3f5e",
+    "property": "background",
+    "category": "color",
+    "component": "table",
+    "referenceToken": "color-background-surface-selected",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "table-cell-color-background-hover",
+    "value": "#1c3851",
+    "property": "background",
+    "category": "color",
+    "component": "table",
+    "referenceToken": "color-background-surface-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "table-cell-color-text",
+    "value": "#ffffff",
+    "property": "text",
+    "category": "color",
+    "component": "table",
+    "referenceToken": "color-text-primary",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "table-cell-color-border",
+    "value": "#101923",
+    "property": "border",
+    "category": "color",
+    "component": "table",
+    "referenceToken": "color-background-base-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "table-cell-border-width",
+    "value": "1px",
+    "property": "borderWidth",
+    "category": "borderWidth",
+    "component": "table",
+    "referenceToken": "border-width-xs",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "table-body-cell-padding-y",
+    "value": "0.25rem",
+    "description": "Body cell padding (top and bottom)",
+    "property": "body",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "table-body-cell-padding-x",
+    "value": "0.5rem",
+    "description": "Body cell padding (left and right)",
+    "property": "body",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
     "name": "button-border-width",
     "value": "1px",
     "category": "borderWidth",

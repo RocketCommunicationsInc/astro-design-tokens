@@ -1,4 +1,76 @@
 {
+  "table": {
+    "header": {
+      "color": {
+        "background": {
+          "value": "#172635",
+          "type": "color",
+          "rawValue": "{color.background.surface.header}"
+        }
+      },
+      "cell": {
+        "padding": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        }
+      }
+    },
+    "cell": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "#1b2d3e",
+            "type": "color",
+            "rawValue": "{color.background.surface.default}"
+          },
+          "selected": {
+            "value": "#1c3f5e",
+            "type": "color",
+            "rawValue": "{color.background.surface.selected}"
+          },
+          "hover": {
+            "value": "#1c3851",
+            "type": "color",
+            "rawValue": "{color.background.surface.hover}"
+          }
+        },
+        "text": {
+          "value": "#ffffff",
+          "type": "color",
+          "rawValue": "{color.text.primary}"
+        },
+        "border": {
+          "value": "#101923",
+          "type": "color",
+          "rawValue": "{color.background.base.default}"
+        }
+      },
+      "borderWidth": {
+        "value": "1px",
+        "type": "borderWidth",
+        "rawValue": "{borderWidth.xs}"
+      }
+    },
+    "body": {
+      "cell": {
+        "padding": {
+          "y": {
+            "value": "4px",
+            "type": "spacing",
+            "description": "Body cell padding (top and bottom)",
+            "rawValue": "{spacing.1}"
+          },
+          "x": {
+            "value": "8px",
+            "type": "spacing",
+            "description": "Body cell padding (left and right)",
+            "rawValue": "{spacing.2}"
+          }
+        }
+      }
+    }
+  },
   "button": {
     "borderWidth": {
       "type": "borderWidth",
