@@ -1,5 +1,15 @@
 # @astrouxds/tokens
 
+## 1.8.0
+
+### Minor Changes
+
+- Added table components tokens: `table-header-color-background`, `table-header-cell-padding`, `table-header-shadow`, `table-row-color-background-default`, `table-row-color-background-selected`, `table-row-color-background-hover`, `table-row-color-text`, `table-row-color-border`, `table-row-border-width`, `table-body-cell-padding-y`, `table-body-cell-padding`
+
+### Patch Changes
+
+- Fixed iOS data visualization colors in light mode
+
 ## 1.7.0
 
 ### Minor Changes
