@@ -413,6 +413,37 @@
       "track": "10px"
     }
   },
+  "table": {
+    "header": {
+      "color": {
+        "background": "#172635"
+      },
+      "cell": {
+        "padding": "0.5rem"
+      },
+      "shadow": " 0px 4px 8px 0px rgba(0, 0, 0, 0.45)"
+    },
+    "row": {
+      "color": {
+        "background": {
+          "default": "#1b2d3e",
+          "selected": "#1c3f5e",
+          "hover": "#1c3851"
+        },
+        "text": "#ffffff",
+        "border": "#101923"
+      },
+      "borderWidth": "1px"
+    },
+    "body": {
+      "cell": {
+        "padding": {
+          "y": "0.25rem",
+          "x": "0.5rem"
+        }
+      }
+    }
+  },
   "tag": {
     "shadow": {
       "inner": {
