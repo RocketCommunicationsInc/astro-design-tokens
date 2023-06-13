@@ -3,7 +3,7 @@ const {exec} = require('child_process');
 // Core
 exec('node_modules/.bin/token-transformer data/tokens.json tokens/base.reference.json reference --expandTypography --preserveRawValue')
 exec('node_modules/.bin/token-transformer data/tokens.json tokens/base.system.json reference,system reference --expandTypography --preserveRawValue')
-exec('node_modules/.bin/token-transformer data/tokens.json tokens/base.component.json reference,system,components,table reference,system --expandTypography --preserveRawValue')
+exec('node_modules/.bin/token-transformer data/tokens.json tokens/base.component.json reference,system,components reference,system --expandTypography --preserveRawValue')
 
 // Light Theme
 exec('node_modules/.bin/token-transformer data/tokens.json tokens/theme/light.json reference,system,components,theme-light reference,system,components --expandTypography --preserveRawValue')
