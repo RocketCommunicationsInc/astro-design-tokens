@@ -1,5 +1,11 @@
 # @astrouxds/tokens
 
+## 1.9.0
+
+### Minor Changes
+
+- Added new component tokens for inline select variant: `select-color-text-inline`, `select-color-border-inline-default`, `select-color-background-inline`
+
 ## 1.8.0
 
 ### Minor Changes
