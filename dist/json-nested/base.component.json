@@ -309,12 +309,17 @@
     },
     "color": {
       "background": "#101923",
+      "background-inline": "#10192300",
       "border": {
         "default": "#2b659b",
+        "inline": {
+          "default": "#2b659b00"
+        },
         "hover": "#92cbff",
         "invalid": "#ff3838"
       },
-      "text": "#4dacff"
+      "text": "#4dacff",
+      "text-inline": "#ffffff"
     },
     "padding": {
       "x": {

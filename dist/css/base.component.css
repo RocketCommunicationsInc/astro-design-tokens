@@ -74,10 +74,13 @@
   --select-padding-x-small: 0.25rem;
   --select-padding-x-medium: 0.5rem;
   --select-padding-x-large: 0.75rem;
+  --select-color-text-inline: #ffffff;
   --select-color-text: #4dacff;
   --select-color-border-invalid: #ff3838;
   --select-color-border-hover: #92cbff;
+  --select-color-border-inline-default: #2b659b00;
   --select-color-border-default: #2b659b;
+  --select-color-background-inline: #10192300;
   --select-color-background: #101923;
   --select-caret-selector-width: 32px;
   --select-caret-selector-color-background: #1c3f5e;
