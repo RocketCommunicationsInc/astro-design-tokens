@@ -1095,8 +1095,26 @@
     "tokenLevel": "component"
   },
   {
+    "name": "select-color-background-inline",
+    "value": "#10192300",
+    "property": "background-inline",
+    "category": "color",
+    "component": "select",
+    "referenceToken": "color-background-base-default",
+    "tokenLevel": "component"
+  },
+  {
     "name": "select-color-border-default",
     "value": "#2b659b",
+    "property": "border",
+    "category": "color",
+    "component": "select",
+    "referenceToken": "color-border-interactive-muted",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "select-color-border-inline-default",
+    "value": "#2b659b00",
     "property": "border",
     "category": "color",
     "component": "select",
@@ -1128,6 +1146,15 @@
     "category": "color",
     "component": "select",
     "referenceToken": "color-text-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "select-color-text-inline",
+    "value": "#ffffff",
+    "property": "text-inline",
+    "category": "color",
+    "component": "select",
+    "referenceToken": "color-text-primary",
     "tokenLevel": "component"
   },
   {

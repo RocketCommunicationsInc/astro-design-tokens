@@ -858,11 +858,23 @@
         "value": "#101923",
         "rawValue": "{color.background.base.default}"
       },
+      "background-inline": {
+        "type": "color",
+        "value": "#10192300",
+        "rawValue": "rgba({color.background.base.default}, 0)"
+      },
       "border": {
         "default": {
           "type": "color",
           "value": "#2b659b",
           "rawValue": "{color.border.interactive.muted}"
+        },
+        "inline": {
+          "default": {
+            "type": "color",
+            "value": "#2b659b00",
+            "rawValue": "rgba({color.border.interactive.muted},0)"
+          }
         },
         "hover": {
           "type": "color",
@@ -879,6 +891,11 @@
         "type": "color",
         "value": "#4dacff",
         "rawValue": "{color.text.interactive.default}"
+      },
+      "text-inline": {
+        "type": "color",
+        "value": "#ffffff",
+        "rawValue": "{color.text.primary}"
       }
     },
     "padding": {
