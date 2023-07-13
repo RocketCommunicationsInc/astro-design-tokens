@@ -3,10 +3,6 @@ name: Transform Design Tokens
 on:
   workflow_dispatch:
   pull_request:
-    branches:
-      - main
-    paths:
-      - 'dist/**'
 
 jobs:
   generate_tokens:
@@ -22,4 +18,3 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Update design tokens
-        branch: main
