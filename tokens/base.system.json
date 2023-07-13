@@ -120,7 +120,7 @@
         "rawValue": "{color.palette.neutral.000}"
       },
       "black": {
-        "value": "#000000",
+        "value": "#F00000",
         "type": "color",
         "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes",
         "rawValue": "{color.palette.neutral.1000}"
@@ -303,7 +303,7 @@
           "y": 4,
           "blur": 4,
           "spread": 1,
-          "color": "#00000073",
+          "color": "#f0000073",
           "type": "dropShadow"
         }
       ],

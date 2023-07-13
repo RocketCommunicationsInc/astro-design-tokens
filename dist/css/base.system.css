@@ -1,5 +1,5 @@
 :where(:root) {
-  --shadow-overlay:  0px 4px 4px 1px rgba(0, 0, 0, 0.45);
+  --shadow-overlay:  0px 4px 4px 1px rgba(240, 0, 0, 0.45);
   --spacing-focus-default: 0.125rem;
   --border-width-focus-default: 1px;
   --color-data-visualization-8: #b7dcff;
@@ -28,7 +28,7 @@
   --color-border-interactive-hover: #92cbff;
   --color-border-interactive-default: #4dacff;
   --color-text-error: #ff3838;
-  --color-text-black: #000000;
+  --color-text-black: #f00000;
   --color-text-white: #ffffff;
   --color-text-interactive-hover: #92cbff;
   --color-text-interactive-default: #4dacff;

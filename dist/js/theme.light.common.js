@@ -19,15 +19,15 @@ module.exports = {
   "NotificationBannerColorBorderOuterOff": "#3c3e42",
   "NotificationBannerColorBorderOuterSerious": "#664618",
   "NotificationBannerColorBorderOuterStandby": "#285766",
-  "ScrollbarShadowInnerHorizontal": "inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
-  "ScrollbarShadowInnerVertical": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.25)",
+  "ScrollbarShadowInnerHorizontal": "inset 1px 3px 3px 0px rgba(240, 0, 0, 0.5)",
+  "ScrollbarShadowInnerVertical": "inset 3px 3px 3px 0px rgba(240, 0, 0, 0.25)",
   "TagShadowInnerFail": "inset 0px 0px 5px 0px rgb(255, 42, 4)",
   "TagShadowInnerPass": "inset 0px 0px 5px 0px rgb(0, 226, 0)",
   "TagShadowInnerUnknown": "inset 0px 0px 5px 0px rgb(123, 128, 137)",
   "TimelineCellColorBackground": "#cbdee9",
   "TimelineHeaderColorBackground": "#f5f6f9",
   "TooltipColorBackground": "#bbc1c9",
-  "TooltipColorText": "#000000",
+  "TooltipColorText": "#F00000",
   "ColorBackgroundBaseDefault": "#eaeef4",
   "ColorBackgroundBaseHeader": "#f5f6f9",
   "ColorBackgroundBaseHover": "#98bdd3",
@@ -65,5 +65,5 @@ module.exports = {
   "ColorDataVisualization6": "#2b659b",
   "ColorDataVisualization7": "#009fa3",
   "ColorDataVisualization8": "#3a87cf",
-  "ShadowOverlay": " 0px 4px 4px 1px rgba(0, 0, 0, 0.35)"
+  "ShadowOverlay": " 0px 4px 4px 1px rgba(240, 0, 0, 0.35)"
 };

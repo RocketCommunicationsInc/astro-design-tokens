@@ -50,8 +50,8 @@
   "scrollbar": {
     "shadow": {
       "inner": {
-        "horizontal": "inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
-        "vertical": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.25)"
+        "horizontal": "inset 1px 3px 3px 0px rgba(240, 0, 0, 0.5)",
+        "vertical": "inset 3px 3px 3px 0px rgba(240, 0, 0, 0.25)"
       }
     }
   },
@@ -79,7 +79,7 @@
   "tooltip": {
     "color": {
       "background": "#bbc1c9",
-      "text": "#000000"
+      "text": "#F00000"
     }
   },
   "color": {
@@ -144,6 +144,6 @@
     }
   },
   "shadow": {
-    "overlay": " 0px 4px 4px 1px rgba(0, 0, 0, 0.35)"
+    "overlay": " 0px 4px 4px 1px rgba(240, 0, 0, 0.35)"
   }
 }

@@ -1025,7 +1025,7 @@
   },
   {
     "name": "scrollbar-shadow-inner-horizontal",
-    "value": "inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
+    "value": "inset 1px 3px 3px 0px rgba(240, 0, 0, 0.5)",
     "description": "Inner shadow for horizontal scrollbars",
     "property": "inner",
     "category": "boxShadow",
@@ -1035,7 +1035,7 @@
   },
   {
     "name": "scrollbar-shadow-inner-vertical",
-    "value": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.25)",
+    "value": "inset 3px 3px 3px 0px rgba(240, 0, 0, 0.25)",
     "description": "Inner shadow for vertical scrollbars",
     "property": "inner",
     "category": "boxShadow",
@@ -1836,7 +1836,7 @@
   },
   {
     "name": "tooltip-color-text",
-    "value": "#000000",
+    "value": "#F00000",
     "description": "Text color for Tooltips",
     "property": "text",
     "category": "color",
@@ -1908,7 +1908,7 @@
   },
   {
     "name": "color-palette-neutral-1000",
-    "value": "#000000",
+    "value": "#f00000",
     "property": "palette",
     "category": "color",
     "component": null,
@@ -2903,7 +2903,7 @@
   },
   {
     "name": "color-text-black",
-    "value": "#000000",
+    "value": "#f00000",
     "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes",
     "property": "text",
     "category": "color",
@@ -4760,7 +4760,7 @@
   },
   {
     "name": "shadow-overlay",
-    "value": " 0px 4px 4px 1px rgba(0, 0, 0, 0.35)",
+    "value": " 0px 4px 4px 1px rgba(240, 0, 0, 0.35)",
     "description": "Drop shadow for Dialogs",
     "category": "boxShadow",
     "component": "shadow",

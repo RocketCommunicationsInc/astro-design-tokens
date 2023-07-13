@@ -19,15 +19,15 @@
   "notification-banner-color-border-outer-off": "#3c3e42",
   "notification-banner-color-border-outer-serious": "#664618",
   "notification-banner-color-border-outer-standby": "#285766",
-  "scrollbar-shadow-inner-horizontal": "inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
-  "scrollbar-shadow-inner-vertical": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.25)",
+  "scrollbar-shadow-inner-horizontal": "inset 1px 3px 3px 0px rgba(240, 0, 0, 0.5)",
+  "scrollbar-shadow-inner-vertical": "inset 3px 3px 3px 0px rgba(240, 0, 0, 0.25)",
   "tag-shadow-inner-fail": "inset 0px 0px 5px 0px rgb(255, 42, 4)",
   "tag-shadow-inner-pass": "inset 0px 0px 5px 0px rgb(0, 226, 0)",
   "tag-shadow-inner-unknown": "inset 0px 0px 5px 0px rgb(123, 128, 137)",
   "timeline-cell-color-background": "#cbdee9",
   "timeline-header-color-background": "#f5f6f9",
   "tooltip-color-background": "#bbc1c9",
-  "tooltip-color-text": "#000000",
+  "tooltip-color-text": "#F00000",
   "color-background-base-default": "#eaeef4",
   "color-background-base-header": "#f5f6f9",
   "color-background-base-hover": "#98bdd3",
@@ -65,5 +65,5 @@
   "color-data-visualization-6": "#2b659b",
   "color-data-visualization-7": "#009fa3",
   "color-data-visualization-8": "#3a87cf",
-  "shadow-overlay": " 0px 4px 4px 1px rgba(0, 0, 0, 0.35)"
+  "shadow-overlay": " 0px 4px 4px 1px rgba(240, 0, 0, 0.35)"
 }

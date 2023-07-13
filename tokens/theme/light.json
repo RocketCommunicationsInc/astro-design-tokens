@@ -246,7 +246,7 @@
             "y": 3,
             "blur": 3,
             "spread": 0,
-            "color": "#00000040",
+            "color": "#f0000040",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -266,7 +266,7 @@
             "y": 3,
             "blur": 3,
             "spread": 0,
-            "color": "#00000080",
+            "color": "#f0000080",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -291,7 +291,7 @@
           "y": 4,
           "blur": 4,
           "spread": 1,
-          "color": "#00000059",
+          "color": "#f0000059",
           "type": "dropShadow"
         }
       ],
@@ -499,7 +499,7 @@
         "rawValue": "{color.palette.grey.400}"
       },
       "text": {
-        "value": "#000000",
+        "value": "#F00000",
         "type": "color",
         "description": "Text color for Tooltips",
         "rawValue": "{color.text.black}"

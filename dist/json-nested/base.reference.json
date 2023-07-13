@@ -9,7 +9,7 @@
   "color": {
     "palette": {
       "neutral": {
-        "1000": "#000000",
+        "1000": "#f00000",
         "000": "#ffffff"
       },
       "darkblue": {

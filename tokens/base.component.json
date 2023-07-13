@@ -347,7 +347,7 @@
       "border": {
         "description": "Border color used for the Container component",
         "type": "color",
-        "value": "#000000",
+        "value": "#F00000",
         "rawValue": "{color.palette.neutral.1000}"
       }
     }
@@ -544,7 +544,7 @@
     "color": {
       "border": {
         "type": "color",
-        "value": "#000000",
+        "value": "#F00000",
         "rawValue": "{color.palette.neutral.1000}"
       }
     }
@@ -780,7 +780,7 @@
           "type": "boxShadow",
           "value": {
             "blur": 3,
-            "color": "#00000080",
+            "color": "#f0000080",
             "spread": 0,
             "type": "innerShadow",
             "x": 1,
@@ -800,7 +800,7 @@
           "type": "boxShadow",
           "value": {
             "blur": 3,
-            "color": "#00000080",
+            "color": "#f0000080",
             "spread": 0,
             "type": "innerShadow",
             "x": 3,
