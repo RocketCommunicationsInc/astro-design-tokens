@@ -1025,7 +1025,7 @@
   },
   {
     "name": "scrollbar-shadow-inner-horizontal",
-    "value": "inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
+    "value": "inset 1px 3px 3px 0px rgba(112, 81, 81, 0.5)",
     "description": "Inner shadow for horizontal scrollbars",
     "property": "inner",
     "category": "boxShadow",
@@ -1035,7 +1035,7 @@
   },
   {
     "name": "scrollbar-shadow-inner-vertical",
-    "value": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.25)",
+    "value": "inset 3px 3px 3px 0px rgba(112, 81, 81, 0.25)",
     "description": "Inner shadow for vertical scrollbars",
     "property": "inner",
     "category": "boxShadow",
@@ -1836,7 +1836,7 @@
   },
   {
     "name": "tooltip-color-text",
-    "value": "#000000",
+    "value": "#705151",
     "description": "Text color for Tooltips",
     "property": "text",
     "category": "color",
@@ -1908,7 +1908,7 @@
   },
   {
     "name": "color-palette-neutral-1000",
-    "value": "#000000",
+    "value": "#705151",
     "property": "palette",
     "category": "color",
     "component": null,
@@ -1949,7 +1949,7 @@
   },
   {
     "name": "color-palette-darkblue-400",
-    "value": "#2f7aa7",
+    "value": "#545a5e",
     "description": "Protected",
     "property": "palette",
     "category": "color",
@@ -2823,7 +2823,7 @@
   },
   {
     "name": "color-background-interactive-muted",
-    "value": "#2f7aa7",
+    "value": "#545a5e",
     "description": "Muted version of the primary color used for the background of interactive elements that don't need to be as strong as the primary color",
     "property": "background",
     "category": "color",
@@ -2903,7 +2903,7 @@
   },
   {
     "name": "color-text-black",
-    "value": "#000000",
+    "value": "#705151",
     "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes",
     "property": "text",
     "category": "color",
@@ -2943,7 +2943,7 @@
   },
   {
     "name": "color-border-interactive-muted",
-    "value": "#2f7aa7",
+    "value": "#545a5e",
     "description": "Muted version of the primary color used for the border of interactive elements that don't need to be as strong as the primary color",
     "property": "border",
     "category": "color",
@@ -4760,7 +4760,7 @@
   },
   {
     "name": "shadow-overlay",
-    "value": " 0px 4px 4px 1px rgba(0, 0, 0, 0.35)",
+    "value": " 0px 4px 4px 1px rgba(112, 81, 81, 0.35)",
     "description": "Drop shadow for Dialogs",
     "category": "boxShadow",
     "component": "shadow",

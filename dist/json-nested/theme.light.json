@@ -50,8 +50,8 @@
   "scrollbar": {
     "shadow": {
       "inner": {
-        "horizontal": "inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
-        "vertical": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.25)"
+        "horizontal": "inset 1px 3px 3px 0px rgba(112, 81, 81, 0.5)",
+        "vertical": "inset 3px 3px 3px 0px rgba(112, 81, 81, 0.25)"
       }
     }
   },
@@ -79,7 +79,7 @@
   "tooltip": {
     "color": {
       "background": "#bbc1c9",
-      "text": "#000000"
+      "text": "#705151"
     }
   },
   "color": {
@@ -99,7 +99,7 @@
       "interactive": {
         "default": "#005a8f",
         "hover": "#1c3f5e",
-        "muted": "#2f7aa7"
+        "muted": "#545a5e"
       }
     },
     "text": {
@@ -117,7 +117,7 @@
       "interactive": {
         "default": "#005a8f",
         "hover": "#1c3f5e",
-        "muted": "#2f7aa7"
+        "muted": "#545a5e"
       },
       "error": "#c8102e",
       "focus": {
@@ -144,6 +144,6 @@
     }
   },
   "shadow": {
-    "overlay": " 0px 4px 4px 1px rgba(0, 0, 0, 0.35)"
+    "overlay": " 0px 4px 4px 1px rgba(112, 81, 81, 0.35)"
   }
 }

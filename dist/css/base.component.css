@@ -87,8 +87,8 @@
   --select-caret-dimension: 30px;
   --select-caret-color-fill: #4dacff;
   --select-border-width: 1px;
-  --scrollbar-shadow-inner-vertical: inset 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
-  --scrollbar-shadow-inner-horizontal: inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5);
+  --scrollbar-shadow-inner-vertical: inset 3px 3px 3px 0px rgba(112, 81, 81, 0.5);
+  --scrollbar-shadow-inner-horizontal: inset 1px 3px 3px 0px rgba(112, 81, 81, 0.5);
   --scrollbar-radius: 4px;
   --radio-radius-outer: 9px;
   --radio-radius-inner: 4px;
@@ -120,7 +120,7 @@
   --notification-banner-color-border-inner-caution: #fce83a;
   --monitoring-icon-badge-color-background: #101923;
   --menu-divider-color-fill: #51555b;
-  --log-color-border: #000000;
+  --log-color-border: #705151;
   --link-color-text-hover: #4dacff;
   --link-color-text-default: #4dacff;
   --input-suffix-margin-left: 0.25rem;
@@ -147,7 +147,7 @@
   --gsb-icon-color-fill-default: #4dacff;
   --gsb-color-text: #ffffff;
   --gsb-color-background: #172635;
-  --container-color-border: #000000;
+  --container-color-border: #705151;
   --clock-datetime-color-background: #101923;
   --classification-banner-color-background-unclassified: #007a33;
   --classification-banner-color-background-topsecretsci: #fce83a;

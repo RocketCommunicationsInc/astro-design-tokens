@@ -504,7 +504,7 @@
       "border": {
         "description": "Border color used for the Container component",
         "type": "color",
-        "value": "#000000",
+        "value": "#705151",
         "rawValue": "{color.palette.neutral.1000}"
       }
     }
@@ -701,7 +701,7 @@
     "color": {
       "border": {
         "type": "color",
-        "value": "#000000",
+        "value": "#705151",
         "rawValue": "{color.palette.neutral.1000}"
       }
     }
@@ -937,7 +937,7 @@
           "type": "boxShadow",
           "value": {
             "blur": 3,
-            "color": "#00000080",
+            "color": "#70515180",
             "spread": 0,
             "type": "innerShadow",
             "x": 1,
@@ -957,7 +957,7 @@
           "type": "boxShadow",
           "value": {
             "blur": 3,
-            "color": "#00000080",
+            "color": "#70515180",
             "spread": 0,
             "type": "innerShadow",
             "x": 3,
@@ -1748,7 +1748,7 @@
         "rawValue": "{color.palette.neutral.000}"
       },
       "black": {
-        "value": "#000000",
+        "value": "#705151",
         "type": "color",
         "description": "Text that is black across all themes. Used for classification and status banners that do not change color in various themes",
         "rawValue": "{color.palette.neutral.1000}"
@@ -1917,9 +1917,9 @@
     "palette": {
       "neutral": {
         "1000": {
-          "value": "#000000",
+          "value": "#705151",
           "type": "color",
-          "rawValue": "#000000"
+          "rawValue": "#705151"
         },
         "000": {
           "value": "#ffffff",
@@ -1945,10 +1945,10 @@
           "rawValue": "#649cbd"
         },
         "400": {
-          "value": "#2f7aa7",
+          "value": "#545a5e",
           "type": "color",
           "description": "Protected",
-          "rawValue": "#2f7aa7"
+          "rawValue": "#545a5e"
         },
         "500": {
           "value": "#005a8f",
@@ -2507,7 +2507,7 @@
           "y": 4,
           "blur": 4,
           "spread": 1,
-          "color": "#00000073",
+          "color": "#70515173",
           "type": "dropShadow"
         }
       ],

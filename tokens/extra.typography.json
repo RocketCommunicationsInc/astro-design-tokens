@@ -34,9 +34,9 @@
     "palette": {
       "neutral": {
         "1000": {
-          "value": "#000000",
+          "value": "#705151",
           "type": "color",
-          "rawValue": "#000000"
+          "rawValue": "#705151"
         },
         "000": {
           "value": "#ffffff",
@@ -62,10 +62,10 @@
           "rawValue": "#649cbd"
         },
         "400": {
-          "value": "#2f7aa7",
+          "value": "#545a5e",
           "type": "color",
           "description": "Protected",
-          "rawValue": "#2f7aa7"
+          "rawValue": "#545a5e"
         },
         "500": {
           "value": "#005a8f",

@@ -124,7 +124,7 @@
   },
   "container": {
     "color": {
-      "border": "#000000"
+      "border": "#705151"
     }
   },
   "gsb": {
@@ -205,7 +205,7 @@
   },
   "log": {
     "color": {
-      "border": "#000000"
+      "border": "#705151"
     }
   },
   "menu": {
@@ -288,8 +288,8 @@
     "radius": "4px",
     "shadow": {
       "inner": {
-        "horizontal": "inset 1px 3px 3px 0px rgba(0, 0, 0, 0.5)",
-        "vertical": "inset 3px 3px 3px 0px rgba(0, 0, 0, 0.5)"
+        "horizontal": "inset 1px 3px 3px 0px rgba(112, 81, 81, 0.5)",
+        "vertical": "inset 3px 3px 3px 0px rgba(112, 81, 81, 0.5)"
       }
     }
   },

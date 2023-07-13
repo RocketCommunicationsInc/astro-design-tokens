@@ -67,7 +67,7 @@
           "rawValue": "{color.palette.darkblue.700}"
         },
         "muted": {
-          "value": "#2f7aa7",
+          "value": "#545a5e",
           "type": "color",
           "description": "Muted version of the primary color used for the background of interactive elements that don't need to be as strong as the primary color",
           "rawValue": "{color.palette.darkblue.400}"
@@ -135,7 +135,7 @@
           "rawValue": "{color.palette.darkblue.700}"
         },
         "muted": {
-          "value": "#2f7aa7",
+          "value": "#545a5e",
           "type": "color",
           "description": "Muted version of the primary color used for the border of interactive elements that don't need to be as strong as the primary color",
           "rawValue": "{color.palette.darkblue.400}"
@@ -246,7 +246,7 @@
             "y": 3,
             "blur": 3,
             "spread": 0,
-            "color": "#00000040",
+            "color": "#70515140",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -266,7 +266,7 @@
             "y": 3,
             "blur": 3,
             "spread": 0,
-            "color": "#00000080",
+            "color": "#70515180",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -291,7 +291,7 @@
           "y": 4,
           "blur": 4,
           "spread": 1,
-          "color": "#00000059",
+          "color": "#70515159",
           "type": "dropShadow"
         }
       ],
@@ -499,7 +499,7 @@
         "rawValue": "{color.palette.grey.400}"
       },
       "text": {
-        "value": "#000000",
+        "value": "#705151",
         "type": "color",
         "description": "Text color for Tooltips",
         "rawValue": "{color.text.black}"

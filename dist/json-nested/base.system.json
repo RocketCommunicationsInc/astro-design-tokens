@@ -32,7 +32,7 @@
         "hover": "#92cbff"
       },
       "white": "#ffffff",
-      "black": "#000000",
+      "black": "#705151",
       "error": "#ff3838"
     },
     "border": {
@@ -84,6 +84,6 @@
     }
   },
   "shadow": {
-    "overlay": " 0px 4px 4px 1px rgba(0, 0, 0, 0.45)"
+    "overlay": " 0px 4px 4px 1px rgba(112, 81, 81, 0.45)"
   }
 }

@@ -18,7 +18,7 @@ module.exports = {
   "ColorTextInteractiveDefault": "#4dacff",
   "ColorTextInteractiveHover": "#92cbff",
   "ColorTextWhite": "#ffffff",
-  "ColorTextBlack": "#000000",
+  "ColorTextBlack": "#705151",
   "ColorTextError": "#ff3838",
   "ColorBorderInteractiveDefault": "#4dacff",
   "ColorBorderInteractiveHover": "#92cbff",
@@ -47,5 +47,5 @@ module.exports = {
   "ColorDataVisualization8": "#b7dcff",
   "BorderWidthFocusDefault": "1px",
   "SpacingFocusDefault": "0.125rem",
-  "ShadowOverlay": " 0px 4px 4px 1px rgba(0, 0, 0, 0.45)"
+  "ShadowOverlay": " 0px 4px 4px 1px rgba(112, 81, 81, 0.45)"
 };
