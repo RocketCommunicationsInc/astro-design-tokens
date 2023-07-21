@@ -15,7 +15,7 @@
         "primary": {
           "default": {
             "type": "color",
-            "value": "#838d96",
+            "value": "#243a4d",
             "rawValue": "{color.background.interactive.default}"
           },
           "hover": {
@@ -39,7 +39,7 @@
         "primary": {
           "default": {
             "type": "color",
-            "value": "#838d96",
+            "value": "#243a4d",
             "rawValue": "{button.color.background.primary.default}"
           },
           "hover": {
@@ -51,7 +51,7 @@
         "secondary": {
           "default": {
             "type": "color",
-            "value": "#838d96",
+            "value": "#243a4d",
             "rawValue": "{color.border.interactive.default}"
           },
           "hover": {
@@ -65,7 +65,7 @@
         "borderless": {
           "default": {
             "type": "color",
-            "value": "#838d96",
+            "value": "#243a4d",
             "rawValue": "{color.text.interactive.default}"
           },
           "hover": {
@@ -82,7 +82,7 @@
         "secondary": {
           "default": {
             "type": "color",
-            "value": "#838d96",
+            "value": "#243a4d",
             "rawValue": "{color.text.interactive.default}"
           },
           "hover": {
@@ -99,7 +99,7 @@
           "borderless": {
             "default": {
               "type": "color",
-              "value": "#838d96",
+              "value": "#243a4d",
               "rawValue": "{button.color.text.borderless.default}"
             },
             "hover": {
@@ -116,7 +116,7 @@
           "secondary": {
             "default": {
               "type": "color",
-              "value": "#838d96",
+              "value": "#243a4d",
               "rawValue": "{button.color.border.secondary.default}"
             },
             "hover": {
@@ -373,7 +373,7 @@
           "default": {
             "description": "Primary color used for interactive elements in the Global Status Bar",
             "type": "color",
-            "value": "#838d96",
+            "value": "#243a4d",
             "rawValue": "{color.palette.brightblue.500}"
           },
           "hover": {
@@ -451,7 +451,7 @@
         "fill": {
           "default": {
             "type": "color",
-            "value": "#838d96",
+            "value": "#243a4d",
             "rawValue": "{color.background.interactive.default}"
           }
         }
@@ -528,13 +528,13 @@
         "default": {
           "description": "Color used for links in default state",
           "type": "color",
-          "value": "#838d96",
+          "value": "#243a4d",
           "rawValue": "{color.text.interactive.default}"
         },
         "hover": {
           "description": "Color used for links in hover state. Links do not change color on hover",
           "type": "color",
-          "value": "#838d96",
+          "value": "#243a4d",
           "rawValue": "{link.color.text.default}"
         }
       }
@@ -591,7 +591,7 @@
           "default": {
             "description": "Fill color of the Default Notification Banner background",
             "type": "color",
-            "value": "#838d96",
+            "value": "#243a4d",
             "rawValue": "{color.border.interactive.default}"
           },
           "normal": {
@@ -635,7 +635,7 @@
           "default": {
             "description": "Stroke color of the Default Notification Banner",
             "type": "color",
-            "value": "#838d96",
+            "value": "#243a4d",
             "rawValue": "{color.border.interactive.default}"
           },
           "normal": {
@@ -709,7 +709,7 @@
         "color": {
           "fill": {
             "type": "color",
-            "value": "#838d96",
+            "value": "#243a4d",
             "rawValue": "{color.background.interactive.default}"
           }
         }
@@ -828,7 +828,7 @@
       "color": {
         "fill": {
           "type": "color",
-          "value": "#838d96",
+          "value": "#243a4d",
           "rawValue": "{color.background.interactive.default}"
         }
       },
@@ -889,7 +889,7 @@
       },
       "text": {
         "type": "color",
-        "value": "#838d96",
+        "value": "#243a4d",
         "rawValue": "{color.text.interactive.default}"
       },
       "text-inline": {
@@ -973,7 +973,7 @@
         "border": {
           "default": {
             "type": "color",
-            "value": "#838d96",
+            "value": "#243a4d",
             "rawValue": "{color.border.interactive.default}"
           },
           "hover": {
@@ -998,7 +998,7 @@
       "color": {
         "background": {
           "type": "color",
-          "value": "#838d96",
+          "value": "#243a4d",
           "rawValue": "{color.background.interactive.default}"
         }
       },

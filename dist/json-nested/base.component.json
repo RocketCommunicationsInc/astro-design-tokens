@@ -5,7 +5,7 @@
       "background": {
         "borderless": "#ffffff00",
         "primary": {
-          "default": "#838d96",
+          "default": "#243a4d",
           "hover": "#92cbff"
         },
         "secondary": "#ffffff00"
@@ -13,22 +13,22 @@
       "border": {
         "borderless": "#ffffff00",
         "primary": {
-          "default": "#838d96",
+          "default": "#243a4d",
           "hover": "#92cbff"
         },
         "secondary": {
-          "default": "#838d96",
+          "default": "#243a4d",
           "hover": "#92cbff"
         }
       },
       "text": {
         "borderless": {
-          "default": "#838d96",
+          "default": "#243a4d",
           "hover": "#92cbff"
         },
         "primary": "#080c11",
         "secondary": {
-          "default": "#838d96",
+          "default": "#243a4d",
           "hover": "#92cbff"
         }
       }
@@ -37,12 +37,12 @@
       "color": {
         "fill": {
           "borderless": {
-            "default": "#838d96",
+            "default": "#243a4d",
             "hover": "#92cbff"
           },
           "primary": "#080c11",
           "secondary": {
-            "default": "#838d96",
+            "default": "#243a4d",
             "hover": "#92cbff"
           }
         }
@@ -135,7 +135,7 @@
     "icon": {
       "color": {
         "fill": {
-          "default": "#838d96",
+          "default": "#243a4d",
           "hover": "#92cbff"
         }
       }
@@ -166,7 +166,7 @@
     "icon": {
       "color": {
         "fill": {
-          "default": "#838d96"
+          "default": "#243a4d"
         }
       },
       "dimension": "20px"
@@ -198,8 +198,8 @@
   "link": {
     "color": {
       "text": {
-        "default": "#838d96",
-        "hover": "#838d96"
+        "default": "#243a4d",
+        "hover": "#243a4d"
       }
     }
   },
@@ -228,7 +228,7 @@
         "inner": {
           "caution": "#fce83a",
           "critical": "#ff3838",
-          "default": "#838d96",
+          "default": "#243a4d",
           "normal": "#56f000",
           "off": "#a4abb6",
           "serious": "#ffb302",
@@ -237,7 +237,7 @@
         "outer": {
           "caution": "#fce83a",
           "critical": "#ff3838",
-          "default": "#838d96",
+          "default": "#243a4d",
           "normal": "#56f000",
           "off": "#a4abb6",
           "serious": "#ffb302",
@@ -263,7 +263,7 @@
     "control": {
       "check": {
         "color": {
-          "fill": "#838d96"
+          "fill": "#243a4d"
         }
       },
       "color": {
@@ -297,7 +297,7 @@
     "borderWidth": "1px",
     "caret": {
       "color": {
-        "fill": "#838d96"
+        "fill": "#243a4d"
       },
       "dimension": "30px"
     },
@@ -318,7 +318,7 @@
         "hover": "#92cbff",
         "invalid": "#ff3838"
       },
-      "text": "#838d96",
+      "text": "#243a4d",
       "text-inline": "#ffffff"
     },
     "padding": {
@@ -349,7 +349,7 @@
       "color": {
         "background": "#101923",
         "border": {
-          "default": "#838d96",
+          "default": "#243a4d",
           "hover": "#92cbff"
         }
       },
@@ -358,7 +358,7 @@
     },
     "tick": {
       "color": {
-        "background": "#838d96"
+        "background": "#243a4d"
       },
       "dimension": "4px",
       "radius": "50%"

@@ -314,7 +314,7 @@
       "color": {
         "fill": {
           "default": {
-            "value": "#838d96",
+            "value": "#243a4d",
             "type": "color",
             "description": "Primary color used for interactive elements in the Global Status Bar",
             "rawValue": "{color.palette.brightblue.500}"

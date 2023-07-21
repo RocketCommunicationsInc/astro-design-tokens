@@ -126,10 +126,10 @@
                     "rawValue": "#92cbff"
                 },
                 "500": {
-                    "value": "#838d96",
+                    "value": "#243a4d",
                     "type": "color",
                     "description": "Protected",
-                    "rawValue": "#838d96"
+                    "rawValue": "#243a4d"
                 },
                 "600": {
                     "value": "#3a87cf",

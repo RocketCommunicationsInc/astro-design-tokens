@@ -55,7 +55,7 @@
       },
       "interactive": {
         "default": {
-          "value": "#838d96",
+          "value": "#243a4d",
           "type": "color",
           "description": "Primary color used for the backgrounds of interactive elements",
           "rawValue": "{color.palette.brightblue.500}"
@@ -101,7 +101,7 @@
       },
       "interactive": {
         "default": {
-          "value": "#838d96",
+          "value": "#243a4d",
           "type": "color",
           "description": "Primary color used for interactive text elements",
           "rawValue": "{color.palette.brightblue.500}"
@@ -135,7 +135,7 @@
     "border": {
       "interactive": {
         "default": {
-          "value": "#838d96",
+          "value": "#243a4d",
           "type": "color",
           "description": "Primary color used for the border of interactive elements",
           "rawValue": "{color.palette.brightblue.500}"
@@ -256,7 +256,7 @@
         "rawValue": "{color.palette.purple.400}"
       },
       "3": {
-        "value": "#838d96",
+        "value": "#243a4d",
         "type": "color",
         "rawValue": "{color.palette.brightblue.500}"
       },
