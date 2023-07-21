@@ -2,7 +2,7 @@
   "ios": {
     "accent": {
       "color": {
-        "value": "#4dacff",
+        "value": "#838d96",
         "type": "color",
         "rawValue": "{color.palette.brightblue.500}"
       }
@@ -114,7 +114,7 @@
       },
       "3": {
         "color": {
-          "value": "#4dacff",
+          "value": "#838d96",
           "type": "color",
           "rawValue": "{color.data-visualization.3}"
         }
@@ -172,7 +172,7 @@
         "primary": {
           "default": {
             "type": "color",
-            "value": "#4dacff",
+            "value": "#838d96",
             "rawValue": "{color.background.interactive.default}"
           },
           "hover": {
@@ -196,7 +196,7 @@
         "primary": {
           "default": {
             "type": "color",
-            "value": "#4dacff",
+            "value": "#838d96",
             "rawValue": "{button.color.background.primary.default}"
           },
           "hover": {
@@ -208,7 +208,7 @@
         "secondary": {
           "default": {
             "type": "color",
-            "value": "#4dacff",
+            "value": "#838d96",
             "rawValue": "{color.border.interactive.default}"
           },
           "hover": {
@@ -222,7 +222,7 @@
         "borderless": {
           "default": {
             "type": "color",
-            "value": "#4dacff",
+            "value": "#838d96",
             "rawValue": "{color.text.interactive.default}"
           },
           "hover": {
@@ -239,7 +239,7 @@
         "secondary": {
           "default": {
             "type": "color",
-            "value": "#4dacff",
+            "value": "#838d96",
             "rawValue": "{color.text.interactive.default}"
           },
           "hover": {
@@ -256,7 +256,7 @@
           "borderless": {
             "default": {
               "type": "color",
-              "value": "#4dacff",
+              "value": "#838d96",
               "rawValue": "{button.color.text.borderless.default}"
             },
             "hover": {
@@ -273,7 +273,7 @@
           "secondary": {
             "default": {
               "type": "color",
-              "value": "#4dacff",
+              "value": "#838d96",
               "rawValue": "{button.color.border.secondary.default}"
             },
             "hover": {
@@ -530,7 +530,7 @@
           "default": {
             "description": "Primary color used for interactive elements in the Global Status Bar",
             "type": "color",
-            "value": "#4dacff",
+            "value": "#838d96",
             "rawValue": "{color.palette.brightblue.500}"
           },
           "hover": {
@@ -608,7 +608,7 @@
         "fill": {
           "default": {
             "type": "color",
-            "value": "#4dacff",
+            "value": "#838d96",
             "rawValue": "{color.background.interactive.default}"
           }
         }
@@ -685,13 +685,13 @@
         "default": {
           "description": "Color used for links in default state",
           "type": "color",
-          "value": "#4dacff",
+          "value": "#838d96",
           "rawValue": "{color.text.interactive.default}"
         },
         "hover": {
           "description": "Color used for links in hover state. Links do not change color on hover",
           "type": "color",
-          "value": "#4dacff",
+          "value": "#838d96",
           "rawValue": "{link.color.text.default}"
         }
       }
@@ -748,7 +748,7 @@
           "default": {
             "description": "Fill color of the Default Notification Banner background",
             "type": "color",
-            "value": "#4dacff",
+            "value": "#838d96",
             "rawValue": "{color.border.interactive.default}"
           },
           "normal": {
@@ -792,7 +792,7 @@
           "default": {
             "description": "Stroke color of the Default Notification Banner",
             "type": "color",
-            "value": "#4dacff",
+            "value": "#838d96",
             "rawValue": "{color.border.interactive.default}"
           },
           "normal": {
@@ -866,7 +866,7 @@
         "color": {
           "fill": {
             "type": "color",
-            "value": "#4dacff",
+            "value": "#838d96",
             "rawValue": "{color.background.interactive.default}"
           }
         }
@@ -985,7 +985,7 @@
       "color": {
         "fill": {
           "type": "color",
-          "value": "#4dacff",
+          "value": "#838d96",
           "rawValue": "{color.background.interactive.default}"
         }
       },
@@ -1046,7 +1046,7 @@
       },
       "text": {
         "type": "color",
-        "value": "#4dacff",
+        "value": "#838d96",
         "rawValue": "{color.text.interactive.default}"
       },
       "text-inline": {
@@ -1130,7 +1130,7 @@
         "border": {
           "default": {
             "type": "color",
-            "value": "#4dacff",
+            "value": "#838d96",
             "rawValue": "{color.border.interactive.default}"
           },
           "hover": {
@@ -1155,7 +1155,7 @@
       "color": {
         "background": {
           "type": "color",
-          "value": "#4dacff",
+          "value": "#838d96",
           "rawValue": "{color.background.interactive.default}"
         }
       },
@@ -1683,7 +1683,7 @@
       },
       "interactive": {
         "default": {
-          "value": "#4dacff",
+          "value": "#838d96",
           "type": "color",
           "description": "Primary color used for the backgrounds of interactive elements",
           "rawValue": "{color.palette.brightblue.500}"
@@ -1729,7 +1729,7 @@
       },
       "interactive": {
         "default": {
-          "value": "#4dacff",
+          "value": "#838d96",
           "type": "color",
           "description": "Primary color used for interactive text elements",
           "rawValue": "{color.palette.brightblue.500}"
@@ -1763,7 +1763,7 @@
     "border": {
       "interactive": {
         "default": {
-          "value": "#4dacff",
+          "value": "#838d96",
           "type": "color",
           "description": "Primary color used for the border of interactive elements",
           "rawValue": "{color.palette.brightblue.500}"
@@ -1884,7 +1884,7 @@
         "rawValue": "{color.palette.purple.400}"
       },
       "3": {
-        "value": "#4dacff",
+        "value": "#838d96",
         "type": "color",
         "rawValue": "{color.palette.brightblue.500}"
       },
@@ -2009,10 +2009,10 @@
           "rawValue": "#92cbff"
         },
         "500": {
-          "value": "#4dacff",
+          "value": "#838d96",
           "type": "color",
           "description": "Protected",
-          "rawValue": "#4dacff"
+          "rawValue": "#838d96"
         },
         "600": {
           "value": "#3a87cf",

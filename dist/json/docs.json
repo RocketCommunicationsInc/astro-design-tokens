@@ -17,7 +17,7 @@
   },
   {
     "name": "button-color-background-primary-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "property": "background",
     "category": "color",
     "component": "button",
@@ -52,7 +52,7 @@
   },
   {
     "name": "button-color-border-primary-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "property": "border",
     "category": "color",
     "component": "button",
@@ -70,7 +70,7 @@
   },
   {
     "name": "button-color-border-secondary-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "property": "border",
     "category": "color",
     "component": "button",
@@ -88,7 +88,7 @@
   },
   {
     "name": "button-color-text-borderless-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "property": "text",
     "category": "color",
     "component": "button",
@@ -115,7 +115,7 @@
   },
   {
     "name": "button-color-text-secondary-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "property": "text",
     "category": "color",
     "component": "button",
@@ -133,7 +133,7 @@
   },
   {
     "name": "button-icon-color-fill-borderless-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "property": "fill",
     "category": "color",
     "component": "button",
@@ -160,7 +160,7 @@
   },
   {
     "name": "button-icon-color-fill-secondary-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "property": "fill",
     "category": "color",
     "component": "button",
@@ -506,7 +506,7 @@
   },
   {
     "name": "gsb-icon-color-fill-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "description": "Primary color used for interactive elements in the Global Status Bar",
     "property": "fill",
     "category": "color",
@@ -606,7 +606,7 @@
   },
   {
     "name": "input-icon-color-fill-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "property": "fill",
     "category": "color",
     "component": "input",
@@ -703,7 +703,7 @@
   },
   {
     "name": "link-color-text-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "description": "Color used for links in default state",
     "property": "text",
     "category": "color",
@@ -713,7 +713,7 @@
   },
   {
     "name": "link-color-text-hover",
-    "value": "#4dacff",
+    "value": "#838d96",
     "description": "Color used for links in hover state. Links do not change color on hover",
     "property": "text",
     "category": "color",
@@ -771,7 +771,7 @@
   },
   {
     "name": "notification-banner-color-border-inner-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "description": "Fill color of the Default Notification Banner background",
     "property": "border",
     "category": "color",
@@ -841,7 +841,7 @@
   },
   {
     "name": "notification-banner-color-border-outer-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "description": "Stroke color of the Default Notification Banner",
     "property": "border",
     "category": "color",
@@ -937,7 +937,7 @@
   },
   {
     "name": "radio-control-check-color-fill",
-    "value": "#4dacff",
+    "value": "#838d96",
     "property": "fill",
     "category": "color",
     "component": "radio",
@@ -1052,7 +1052,7 @@
   },
   {
     "name": "select-caret-color-fill",
-    "value": "#4dacff",
+    "value": "#838d96",
     "property": "fill",
     "category": "color",
     "component": "select",
@@ -1140,7 +1140,7 @@
   },
   {
     "name": "select-color-text",
-    "value": "#4dacff",
+    "value": "#838d96",
     "property": "text",
     "category": "color",
     "component": "select",
@@ -1256,7 +1256,7 @@
   },
   {
     "name": "slider-thumb-color-border-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "property": "border",
     "category": "color",
     "component": "slider",
@@ -1291,7 +1291,7 @@
   },
   {
     "name": "slider-tick-color-background",
-    "value": "#4dacff",
+    "value": "#838d96",
     "property": "background",
     "category": "color",
     "component": "slider",
@@ -2041,7 +2041,7 @@
   },
   {
     "name": "color-palette-brightblue-500",
-    "value": "#4dacff",
+    "value": "#838d96",
     "description": "Protected",
     "property": "palette",
     "category": "color",
@@ -2800,7 +2800,7 @@
   },
   {
     "name": "color-background-interactive-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "description": "Primary color used for the backgrounds of interactive elements",
     "property": "background",
     "category": "color",
@@ -2870,7 +2870,7 @@
   },
   {
     "name": "color-text-interactive-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "description": "Primary color used for interactive text elements",
     "property": "text",
     "category": "color",
@@ -2920,7 +2920,7 @@
   },
   {
     "name": "color-border-interactive-default",
-    "value": "#4dacff",
+    "value": "#838d96",
     "description": "Primary color used for the border of interactive elements",
     "property": "border",
     "category": "color",
@@ -3108,7 +3108,7 @@
   },
   {
     "name": "color-data-visualization-3",
-    "value": "#4dacff",
+    "value": "#838d96",
     "property": "data-visualization",
     "category": "color",
     "component": null,

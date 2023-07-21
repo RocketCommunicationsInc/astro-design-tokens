@@ -1,7 +1,7 @@
 export const ContainerColorBorder = "#7b8089";
 export const GsbColorBackground = "#172635";
 export const GsbColorText = "#ffffff";
-export const GsbIconColorFillDefault = "#4dacff";
+export const GsbIconColorFillDefault = "#838d96";
 export const GsbIconColorFillHover = "#92cbff";
 export const LogColorBorder = "#7b8089";
 export const NotificationBannerColorBorderInnerCaution = "#fad800";

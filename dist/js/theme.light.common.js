@@ -2,7 +2,7 @@ module.exports = {
   "ContainerColorBorder": "#7b8089",
   "GsbColorBackground": "#172635",
   "GsbColorText": "#ffffff",
-  "GsbIconColorFillDefault": "#4dacff",
+  "GsbIconColorFillDefault": "#838d96",
   "GsbIconColorFillHover": "#92cbff",
   "LogColorBorder": "#7b8089",
   "NotificationBannerColorBorderInnerCaution": "#fad800",

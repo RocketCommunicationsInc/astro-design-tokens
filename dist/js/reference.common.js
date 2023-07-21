@@ -20,7 +20,7 @@ module.exports = {
   "ColorPaletteBrightblue200": "#cee9fc",
   "ColorPaletteBrightblue300": "#b7dcff",
   "ColorPaletteBrightblue400": "#92cbff",
-  "ColorPaletteBrightblue500": "#4dacff",
+  "ColorPaletteBrightblue500": "#838d96",
   "ColorPaletteBrightblue600": "#3a87cf",
   "ColorPaletteBrightblue700": "#2b659b",
   "ColorPaletteBrightblue800": "#1c3851",

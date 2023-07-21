@@ -17,7 +17,7 @@
         "selected": "#1c3f5e"
       },
       "interactive": {
-        "default": "#4dacff",
+        "default": "#838d96",
         "hover": "#92cbff",
         "muted": "#2b659b"
       }
@@ -28,7 +28,7 @@
       "placeholder": "#a4abb6",
       "inverse": "#080c11",
       "interactive": {
-        "default": "#4dacff",
+        "default": "#838d96",
         "hover": "#92cbff"
       },
       "white": "#ffffff",
@@ -37,7 +37,7 @@
     },
     "border": {
       "interactive": {
-        "default": "#4dacff",
+        "default": "#838d96",
         "hover": "#92cbff",
         "muted": "#2b659b"
       },
@@ -65,7 +65,7 @@
     "data-visualization": {
       "1": "#00c7cb",
       "2": "#938bdb",
-      "3": "#4dacff",
+      "3": "#838d96",
       "4": "#70dde0",
       "5": "#c9c5ed",
       "6": "#92cbff",
