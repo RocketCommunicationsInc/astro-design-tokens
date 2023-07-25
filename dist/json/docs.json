@@ -320,6 +320,49 @@
     "tokenLevel": "component"
   },
   {
+    "name": "card-color-background",
+    "value": "#101923",
+    "property": "background",
+    "category": "color",
+    "component": "card",
+    "referenceToken": "color-background-base-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "card-header-prefix-dimension",
+    "value": "24px",
+    "property": "header",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "card-header-prefix-margin-right",
+    "value": "0.5rem",
+    "property": "header",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "card-header-suffix-margin-left",
+    "value": "0.5rem",
+    "property": "header",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "card-header-suffix-dimension",
+    "value": "24px",
+    "property": "header",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
     "name": "checkbox-radius",
     "value": "2px",
     "description": "[DEPRECATED] use checkbox-control-radius instead",

@@ -219,6 +219,37 @@
         "type": "color",
         "value": "#51555b",
         "rawValue": "{color.palette.grey.700}"
+      },
+      "background": {
+        "value": "#101923",
+        "type": "color",
+        "rawValue": "{color.background.base.default}"
+      }
+    },
+    "header": {
+      "prefix": {
+        "dimension": {
+          "value": "24px",
+          "type": "dimension",
+          "rawValue": "24px"
+        },
+        "margin-right": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        }
+      },
+      "suffix": {
+        "margin-left": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        },
+        "dimension": {
+          "value": "24px",
+          "type": "dimension",
+          "rawValue": "24px"
+        }
       }
     }
   },

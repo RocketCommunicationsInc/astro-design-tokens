@@ -74,7 +74,18 @@
   },
   "card": {
     "color": {
-      "border": "#51555b"
+      "border": "#51555b",
+      "background": "#101923"
+    },
+    "header": {
+      "prefix": {
+        "dimension": "24px",
+        "margin-right": "0.5rem"
+      },
+      "suffix": {
+        "margin-left": "0.5rem",
+        "dimension": "24px"
+      }
     }
   },
   "checkbox": {

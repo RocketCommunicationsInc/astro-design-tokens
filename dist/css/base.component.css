@@ -165,6 +165,11 @@
   --checkbox-control-padding: 0.125rem;
   --checkbox-control-dimension: 24px;
   --checkbox-radius: 2px;
+  --card-header-suffix-dimension: 24px;
+  --card-header-suffix-margin-left: 0.5rem;
+  --card-header-prefix-margin-right: 0.5rem;
+  --card-header-prefix-dimension: 24px;
+  --card-color-background: #101923;
   --card-color-border: #51555b;
   --button-radius: 3px;
   --button-padding-y-small-icon-only: 0.25rem;
