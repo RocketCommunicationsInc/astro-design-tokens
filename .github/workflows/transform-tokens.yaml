@@ -20,7 +20,7 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Update design tokens
-    - uses: RocketCommunicationsInc/design-token-action@v0
+    - uses: RocketCommunicationsInc/design-token-action@v0.1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         files: tokens/**/*.json
