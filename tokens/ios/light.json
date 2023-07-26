@@ -407,7 +407,57 @@
           "type": "dimension",
           "rawValue": "24px"
         }
+      },
+      "padding": {
+        "x": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        },
+        "y": {
+          "value": "10px",
+          "type": "spacing",
+          "rawValue": "10px"
+        }
       }
+    },
+    "borderWidth": {
+      "value": "1px",
+      "type": "borderWidth",
+      "rawValue": "{borderWidth.xs}"
+    },
+    "shadow": {
+      "value": [
+        {
+          "x": 0,
+          "y": 4,
+          "blur": 4,
+          "spread": 1,
+          "color": "#00000073",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "rawValue": "{shadow.overlay}"
+    },
+    "body": {
+      "padding": {
+        "value": "8px",
+        "type": "spacing",
+        "rawValue": "{spacing.2}"
+      }
+    },
+    "footer": {
+      "padding": {
+        "value": "8px",
+        "type": "spacing",
+        "rawValue": "{spacing.2}"
+      }
+    },
+    "radius": {
+      "value": "3px",
+      "type": "borderRadius",
+      "rawValue": "{radius.base}"
     }
   },
   "checkbox": {

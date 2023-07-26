@@ -85,8 +85,21 @@
       "suffix": {
         "margin-left": "0.5rem",
         "dimension": "24px"
+      },
+      "padding": {
+        "x": "0.5rem",
+        "y": "0.625rem"
       }
-    }
+    },
+    "borderWidth": "1px",
+    "shadow": " 0px 4px 4px 1px rgba(0, 0, 0, 0.45)",
+    "body": {
+      "padding": "0.5rem"
+    },
+    "footer": {
+      "padding": "0.5rem"
+    },
+    "radius": "3px"
   },
   "checkbox": {
     "radius": "2px",

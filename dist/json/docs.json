@@ -363,6 +363,65 @@
     "tokenLevel": "reference"
   },
   {
+    "name": "card-header-padding-x",
+    "value": "0.5rem",
+    "property": "header",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "card-header-padding-y",
+    "value": "0.625rem",
+    "property": "header",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "card-border-width",
+    "value": "1px",
+    "category": "borderWidth",
+    "component": "card",
+    "referenceToken": "border-width-xs",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "card-shadow",
+    "value": " 0px 4px 4px 1px rgba(0, 0, 0, 0.45)",
+    "category": "boxShadow",
+    "component": "card",
+    "referenceToken": "shadow-overlay",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "card-body-padding",
+    "value": "0.5rem",
+    "property": "body",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "card-footer-padding",
+    "value": "0.5rem",
+    "property": "footer",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "card-radius",
+    "value": "3px",
+    "category": "borderRadius",
+    "component": "card",
+    "referenceToken": "radius-base",
+    "tokenLevel": "component"
+  },
+  {
     "name": "checkbox-radius",
     "value": "2px",
     "description": "[DEPRECATED] use checkbox-control-radius instead",
