@@ -561,5 +561,59 @@
         }
       }
     }
+  },
+  "push-button": {
+    "color": {
+      "text": {
+        "unselected": {
+          "default": "#4dacff",
+          "hover": "#92cbff"
+        },
+        "selected": "#000000"
+      },
+      "border": {
+        "unselected": {
+          "default": "#4dacff",
+          "hover": "#92cbff"
+        },
+        "selected": {
+          "default": "#56f000",
+          "hover": "#99f666"
+        }
+      },
+      "background": {
+        "selected": {
+          "default": "#56f000",
+          "hover": "#99f666"
+        },
+        "unselected": {
+          "default": "#99f66600",
+          "hover": "#99f66600"
+        }
+      }
+    },
+    "padding": {
+      "x": "1rem",
+      "y": "0.5rem",
+      "x-iconOnly": "0.5rem",
+      "y-iconOnly": "0.5rem"
+    },
+    "radius": "3px",
+    "prefix": {
+      "color": {
+        "fill": {
+          "unselected": {
+            "default": "#4dacff",
+            "hover": "#92cbff"
+          },
+          "selected": "#000000"
+        }
+      },
+      "dimension": "20px",
+      "margin": {
+        "right": "0.25rem"
+      }
+    },
+    "borderWidth": "1px"
   }
 }
