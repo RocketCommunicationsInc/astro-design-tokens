@@ -593,10 +593,22 @@
       }
     },
     "padding": {
-      "x": "1rem",
-      "y": "0.5rem",
-      "x-iconOnly": "0.5rem",
-      "y-iconOnly": "0.5rem"
+      "x": {
+        "medium": "1rem",
+        "medium-iconOnly": "0.5rem",
+        "small": "1rem",
+        "small-iconOnly": "0.25rem",
+        "large": "1rem",
+        "large-iconOnly": "0.75rem"
+      },
+      "y": {
+        "medium": "0.5rem",
+        "medium-iconOnly": "0.5rem",
+        "small": "1rem",
+        "small-iconOnly": "0.25rem",
+        "large-iconOnly": "0.75rem",
+        "large": "0.75rem"
+      }
     },
     "radius": "3px",
     "prefix": {

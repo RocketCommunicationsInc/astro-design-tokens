@@ -2148,7 +2148,7 @@
     "tokenLevel": "component"
   },
   {
-    "name": "push-button-padding-x",
+    "name": "push-button-padding-x-medium",
     "value": "1rem",
     "property": "padding",
     "category": "spacing",
@@ -2157,7 +2157,7 @@
     "tokenLevel": "system"
   },
   {
-    "name": "push-button-padding-y",
+    "name": "push-button-padding-x-medium-icon-only",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
@@ -2166,7 +2166,43 @@
     "tokenLevel": "system"
   },
   {
-    "name": "push-button-padding-x-icon-only",
+    "name": "push-button-padding-x-small",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-x-small-icon-only",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-x-large",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-x-large-icon-only",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-y-medium",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
@@ -2175,12 +2211,48 @@
     "tokenLevel": "system"
   },
   {
-    "name": "push-button-padding-y-icon-only",
+    "name": "push-button-padding-y-medium-icon-only",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
     "component": null,
     "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-y-small",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-y-small-icon-only",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-y-large-icon-only",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-y-large",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
     "tokenLevel": "system"
   },
   {

@@ -1702,24 +1702,68 @@
     },
     "padding": {
       "x": {
-        "value": "16px",
-        "type": "spacing",
-        "rawValue": "{spacing.4}"
+        "medium": {
+          "value": "16px",
+          "type": "spacing",
+          "rawValue": "{spacing.4}"
+        },
+        "medium-iconOnly": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        },
+        "small": {
+          "value": "16px",
+          "type": "spacing",
+          "rawValue": "{spacing.4}"
+        },
+        "small-iconOnly": {
+          "value": "4px",
+          "type": "spacing",
+          "rawValue": "{spacing.1}"
+        },
+        "large": {
+          "value": "16px",
+          "type": "spacing",
+          "rawValue": "{spacing.4}"
+        },
+        "large-iconOnly": {
+          "value": "12px",
+          "type": "spacing",
+          "rawValue": "{spacing.3}"
+        }
       },
       "y": {
-        "value": "8px",
-        "type": "spacing",
-        "rawValue": "{spacing.2}"
-      },
-      "x-iconOnly": {
-        "value": "8px",
-        "type": "spacing",
-        "rawValue": "{spacing.2}"
-      },
-      "y-iconOnly": {
-        "value": "8px",
-        "type": "spacing",
-        "rawValue": "{spacing.2}"
+        "medium": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        },
+        "medium-iconOnly": {
+          "value": "8px",
+          "type": "spacing",
+          "rawValue": "{spacing.2}"
+        },
+        "small": {
+          "value": "16px",
+          "type": "spacing",
+          "rawValue": "{spacing.4}"
+        },
+        "small-iconOnly": {
+          "value": "4px",
+          "type": "spacing",
+          "rawValue": "{spacing.1}"
+        },
+        "large-iconOnly": {
+          "value": "12px",
+          "type": "spacing",
+          "rawValue": "{spacing.3}"
+        },
+        "large": {
+          "value": "12px",
+          "type": "spacing",
+          "rawValue": "{spacing.3}"
+        }
       }
     },
     "radius": {
