@@ -530,5 +530,36 @@
       "text": "#ffffff"
     },
     "radius": "1px"
+  },
+  "tab": {
+    "padding": {
+      "x": {
+        "large": "0.75rem",
+        "small": "0.75rem"
+      },
+      "top": {
+        "large": "1.5rem",
+        "small": "1rem"
+      },
+      "bottom": {
+        "large": "1.75rem",
+        "small": "1.25rem"
+      }
+    },
+    "borderWidth": {
+      "bottom": "4px"
+    },
+    "color": {
+      "text": {
+        "default": "#4dacff",
+        "hover": "#92cbff",
+        "selected": "#ffffff"
+      },
+      "border": {
+        "bottom": {
+          "selected": "#4dacff"
+        }
+      }
+    }
   }
 }

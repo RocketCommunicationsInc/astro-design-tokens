@@ -1955,6 +1955,103 @@
     "tokenLevel": "component"
   },
   {
+    "name": "tab-padding-x-large",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "tab-padding-x-small",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "tab-padding-top-large",
+    "value": "1.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-6",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "tab-padding-top-small",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "tab-padding-bottom-large",
+    "value": "1.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "tab-padding-bottom-small",
+    "value": "1.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "tab-border-width-bottom",
+    "value": "4px",
+    "property": "bottom",
+    "category": "borderWidth",
+    "component": "tab",
+    "referenceToken": "border-width-lg",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "tab-color-text-default",
+    "value": "#4dacff",
+    "property": "text",
+    "category": "color",
+    "component": "tab",
+    "referenceToken": "color-text-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tab-color-text-hover",
+    "value": "#92cbff",
+    "property": "text",
+    "category": "color",
+    "component": "tab",
+    "referenceToken": "color-text-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tab-color-text-selected",
+    "value": "#ffffff",
+    "property": "text",
+    "category": "color",
+    "component": "tab",
+    "referenceToken": "color-text-primary",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tab-color-border-bottom-selected",
+    "value": "#4dacff",
+    "property": "border",
+    "category": "color",
+    "component": "tab",
+    "referenceToken": "color-border-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
     "name": "opacity-25",
     "value": "25%",
     "description": "Opacity used in drop shadow for scrollbars in light theme",

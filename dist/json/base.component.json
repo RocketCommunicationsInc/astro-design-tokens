@@ -212,5 +212,16 @@
   "timeline-header-color-background": "#172635",
   "tooltip-color-background": "#3c3e42",
   "tooltip-color-text": "#ffffff",
-  "tooltip-radius": "1px"
+  "tooltip-radius": "1px",
+  "tab-padding-x-large": "0.75rem",
+  "tab-padding-x-small": "0.75rem",
+  "tab-padding-top-large": "1.5rem",
+  "tab-padding-top-small": "1rem",
+  "tab-padding-bottom-large": "1.75rem",
+  "tab-padding-bottom-small": "1.25rem",
+  "tab-border-width-bottom": "4px",
+  "tab-color-text-default": "#4dacff",
+  "tab-color-text-hover": "#92cbff",
+  "tab-color-text-selected": "#ffffff",
+  "tab-color-border-bottom-selected": "#4dacff"
 }
