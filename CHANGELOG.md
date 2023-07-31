@@ -1,5 +1,12 @@
 # @astrouxds/tokens
 
+## 1.10.0-next.0
+
+### Minor Changes
+
+- 2971f9d: Added component tokens for tabs
+- 2971f9d: add component tokens for push button
+
 ## 1.9.0
 
 ### Minor Changes

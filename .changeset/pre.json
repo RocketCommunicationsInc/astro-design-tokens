@@ -1,0 +1,11 @@
+{
+  "mode": "pre",
+  "tag": "next",
+  "initialVersions": {
+    "@astrouxds/tokens": "1.9.0"
+  },
+  "changesets": [
+    "seven-keys-battle",
+    "wild-poems-own"
+  ]
+}
