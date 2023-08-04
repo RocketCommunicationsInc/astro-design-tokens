@@ -320,6 +320,108 @@
     "tokenLevel": "component"
   },
   {
+    "name": "card-color-background",
+    "value": "#101923",
+    "property": "background",
+    "category": "color",
+    "component": "card",
+    "referenceToken": "color-background-base-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "card-header-prefix-dimension",
+    "value": "24px",
+    "property": "header",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "card-header-prefix-margin-right",
+    "value": "0.5rem",
+    "property": "header",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "card-header-suffix-margin-left",
+    "value": "0.5rem",
+    "property": "header",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "card-header-suffix-dimension",
+    "value": "24px",
+    "property": "header",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "card-header-padding-x",
+    "value": "0.5rem",
+    "property": "header",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "card-header-padding-y",
+    "value": "0.625rem",
+    "property": "header",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "card-border-width",
+    "value": "1px",
+    "category": "borderWidth",
+    "component": "card",
+    "referenceToken": "border-width-xs",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "card-shadow",
+    "value": " 0px 4px 4px 1px rgba(0, 0, 0, 0.45)",
+    "category": "boxShadow",
+    "component": "card",
+    "referenceToken": "shadow-overlay",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "card-body-padding",
+    "value": "0.5rem",
+    "property": "body",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "card-footer-padding",
+    "value": "0.5rem",
+    "property": "footer",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "card-radius",
+    "value": "3px",
+    "category": "borderRadius",
+    "component": "card",
+    "referenceToken": "radius-base",
+    "tokenLevel": "component"
+  },
+  {
     "name": "checkbox-radius",
     "value": "2px",
     "description": "[DEPRECATED] use checkbox-control-radius instead",
@@ -1851,6 +1953,370 @@
     "category": "borderRadius",
     "component": "tooltip",
     "tokenLevel": "component"
+  },
+  {
+    "name": "tab-padding-x-large",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "tab-padding-x-small",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "tab-padding-top-large",
+    "value": "1.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-6",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "tab-padding-top-small",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "tab-padding-bottom-large",
+    "value": "1.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "tab-padding-bottom-small",
+    "value": "1.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "tab-border-width-bottom",
+    "value": "4px",
+    "property": "bottom",
+    "category": "borderWidth",
+    "component": "tab",
+    "referenceToken": "border-width-lg",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "tab-color-text-default",
+    "value": "#4dacff",
+    "property": "text",
+    "category": "color",
+    "component": "tab",
+    "referenceToken": "color-text-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tab-color-text-hover",
+    "value": "#92cbff",
+    "property": "text",
+    "category": "color",
+    "component": "tab",
+    "referenceToken": "color-text-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tab-color-text-selected",
+    "value": "#ffffff",
+    "property": "text",
+    "category": "color",
+    "component": "tab",
+    "referenceToken": "color-text-primary",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tab-color-border-bottom-selected",
+    "value": "#4dacff",
+    "property": "border",
+    "category": "color",
+    "component": "tab",
+    "referenceToken": "color-border-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-color-text-unselected-default",
+    "value": "#4dacff",
+    "property": "text",
+    "category": "color",
+    "component": "push-button",
+    "referenceToken": "color-text-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-color-text-unselected-hover",
+    "value": "#92cbff",
+    "property": "text",
+    "category": "color",
+    "component": "push-button",
+    "referenceToken": "color-text-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-color-text-selected",
+    "value": "#000000",
+    "property": "text",
+    "category": "color",
+    "component": "push-button",
+    "referenceToken": "color-text-black",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-color-border-unselected-default",
+    "value": "#4dacff",
+    "property": "border",
+    "category": "color",
+    "component": "push-button",
+    "referenceToken": "color-border-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-color-border-unselected-hover",
+    "value": "#92cbff",
+    "property": "border",
+    "category": "color",
+    "component": "push-button",
+    "referenceToken": "color-border-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-color-border-selected-default",
+    "value": "#56f000",
+    "property": "border",
+    "category": "color",
+    "component": "push-button",
+    "referenceToken": "color-palette-green-500",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-color-border-selected-hover",
+    "value": "#99f666",
+    "property": "border",
+    "category": "color",
+    "component": "push-button",
+    "referenceToken": "color-palette-green-400",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-color-background-selected-default",
+    "value": "#56f000",
+    "property": "background",
+    "category": "color",
+    "component": "push-button",
+    "referenceToken": "color-palette-green-500",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-color-background-selected-hover",
+    "value": "#99f666",
+    "property": "background",
+    "category": "color",
+    "component": "push-button",
+    "referenceToken": "color-palette-green-400",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-color-background-unselected-default",
+    "value": "#99f66600",
+    "property": "background",
+    "category": "color",
+    "component": "push-button",
+    "referenceToken": "color-palette-green-400",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-color-background-unselected-hover",
+    "value": "#99f66600",
+    "property": "background",
+    "category": "color",
+    "component": "push-button",
+    "referenceToken": "color-palette-green-400",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-padding-x-medium",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-x-medium-icon-only",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-x-small",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-x-small-icon-only",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-x-large",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-x-large-icon-only",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-y-medium",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-y-medium-icon-only",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-y-small",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-y-small-icon-only",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-y-large-icon-only",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-padding-y-large",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-radius",
+    "value": "3px",
+    "category": "borderRadius",
+    "component": "push-button",
+    "referenceToken": "radius-base",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-prefix-color-fill-unselected-default",
+    "value": "#4dacff",
+    "property": "fill",
+    "category": "color",
+    "component": "push-button",
+    "referenceToken": "color-background-interactive-default",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-prefix-color-fill-unselected-hover",
+    "value": "#92cbff",
+    "property": "fill",
+    "category": "color",
+    "component": "push-button",
+    "referenceToken": "color-background-interactive-hover",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-prefix-color-fill-selected",
+    "value": "#000000",
+    "property": "fill",
+    "category": "color",
+    "component": "push-button",
+    "referenceToken": "color-text-black",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "push-button-prefix-dimension",
+    "value": "20px",
+    "property": "prefix",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "push-button-prefix-margin-right",
+    "value": "0.25rem",
+    "property": "prefix",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "push-button-border-width",
+    "value": "1px",
+    "category": "borderWidth",
+    "component": "push-button",
+    "referenceToken": "border-width-xs",
+    "tokenLevel": "system"
   },
   {
     "name": "opacity-25",
