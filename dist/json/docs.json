@@ -992,6 +992,24 @@
     "tokenLevel": "component"
   },
   {
+    "name": "notification-banner-color-text",
+    "value": "#ffffff",
+    "property": "text",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-text-primary",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-color-background",
+    "value": "#101923",
+    "property": "background",
+    "category": "color",
+    "component": "notification-banner",
+    "referenceToken": "color-background-base-default",
+    "tokenLevel": "component"
+  },
+  {
     "name": "notification-banner-radius-inner",
     "value": "2px",
     "description": "Inner radius of Notification Banner outlines",
@@ -1009,6 +1027,67 @@
     "component": "notification-banner",
     "referenceToken": "radius-base",
     "tokenLevel": "component"
+  },
+  {
+    "name": "notification-banner-prefix-dimension",
+    "value": "32px",
+    "property": "prefix",
+    "category": "dimension",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "notification-banner-prefix-margin-right",
+    "value": "1rem",
+    "property": "prefix",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "notification-banner-status-symbol-margin-right",
+    "value": "0.75rem",
+    "property": "status-symbol",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "notification-banner-padding-left",
+    "value": "1rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-4",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "notification-banner-padding-right",
+    "value": "0.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "notification-banner-padding-y-large",
+    "value": "1.5rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-6",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "notification-banner-padding-y-small",
+    "value": "0.875rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
   },
   {
     "name": "progress-radius-inner",
@@ -1780,6 +1859,94 @@
     "component": "tag",
     "referenceToken": "status-symbol-color-fill-off-on-dark",
     "tokenLevel": "component"
+  },
+  {
+    "name": "tag-color-border-unknown",
+    "value": "#292a2d",
+    "property": "border",
+    "category": "color",
+    "component": "tag",
+    "referenceToken": "color-palette-grey-900",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tag-color-border-fail",
+    "value": "#8b1703",
+    "property": "border",
+    "category": "color",
+    "component": "tag",
+    "referenceToken": "color-palette-red-800",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tag-color-border-pass",
+    "value": "#007a33",
+    "property": "border",
+    "category": "color",
+    "component": "tag",
+    "referenceToken": "color-palette-green-800",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tag-color-text",
+    "value": "#ffffff",
+    "property": "text",
+    "category": "color",
+    "component": "tag",
+    "referenceToken": "color-text-white",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tag-color-background-pass",
+    "value": "#005a00",
+    "property": "background",
+    "category": "color",
+    "component": "tag",
+    "referenceToken": "color-palette-green-900",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tag-color-background-fail",
+    "value": "#661102",
+    "property": "background",
+    "category": "color",
+    "component": "tag",
+    "referenceToken": "color-palette-red-900",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tag-color-background-unknown",
+    "value": "#292a2d",
+    "property": "background",
+    "category": "color",
+    "component": "tag",
+    "referenceToken": "color-palette-grey-900",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tag-radius",
+    "value": "4px",
+    "category": "borderRadius",
+    "component": "tag",
+    "tokenLevel": "component"
+  },
+  {
+    "name": "tag-padding-x",
+    "value": "0.75rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "tag-padding-y",
+    "value": "0.25rem",
+    "property": "padding",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "system"
   },
   {
     "name": "textarea-border-width",
