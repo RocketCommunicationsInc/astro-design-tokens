@@ -299,6 +299,22 @@
     "radius": {
       "inner": "8px",
       "outer": "10px"
+    },
+    "borderWidth": "1px",
+    "color": {
+      "border": "#4dacff",
+      "background": "#1b2d3e"
+    },
+    "inner": {
+      "color": {
+        "background": "#4dacff"
+      }
+    },
+    "padding": "0.0625rem",
+    "label": {
+      "margin": {
+        "left": "0.5rem"
+      }
     }
   },
   "radio": {

@@ -151,6 +151,12 @@
   --radio-control-color-border-default: #2b659b;
   --radio-control-check-color-fill: #4dacff;
   --radio-check-radius: 50%;
+  --progress-label-margin-left: 0.5rem;
+  --progress-padding: 0.0625rem;
+  --progress-inner-color-background: #4dacff;
+  --progress-color-background: #1b2d3e;
+  --progress-color-border: #4dacff;
+  --progress-border-width: 1px;
   --progress-radius-outer: 10px;
   --progress-radius-inner: 8px;
   --notification-banner-padding-y-small: 0.875rem;
