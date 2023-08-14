@@ -4,6 +4,9 @@ const fs = require('fs-extra');
 const iosPath = `dist/ios/dist/`;
 const transforms = require('./transforms')
 const filters = require('./filters')
+const componentData = require('./tokens/base.component.json')
+
+
 
 // Register transforms
 for (const key of Object.keys(transforms)) {
@@ -37,24 +40,8 @@ const isTypographyToken = (token) => {
   return typographyCategories.includes(token.attributes.category)
 }
 
-const getComponent = (token) => {
-  let component = null
-  if (token.attributes.category !== 'radius' && token.type === 'borderRadius') {
-    component = token.attributes.category
-  }
-  if (token.attributes.category !== 'color' && token.type === 'color') {
-    component = token.attributes.category
-  }
-
-  if (token.type === 'boxShadow') {
-    component = token.attributes.category
-  }
-
-  return component
-}
-
 const getTokenLevel = (token) => {
-  if (getComponent(token)) {
+  if (token.filePath.includes('component')) {
     return 'component'
   }
 
@@ -62,12 +49,16 @@ const getTokenLevel = (token) => {
     return 'reference'
   }
 
-  if (token.original.rawValue && typeof token.original.rawValue !== 'object' && token.original.rawValue.includes('.')) {
+  if (token.filePath.includes('system')) {
     return 'system'
   }
 
   if (isTypographyToken(token)) {
     return 'system'
+  }
+
+  if (token.filePath.includes('theme')) {
+    return 'theme'
   }
 
   return 'reference'
@@ -80,6 +71,7 @@ StyleDictionary.registerFormat(require('./formats/typographyClasses'))
 StyleDictionary.registerFormat({
   name: `docs`,
   formatter: function (format) {
+    const componentNames = Object.keys(componentData)
     const dictionary = Object.assign({}, format.dictionary);
     // Override each token's `value` with `darkValue`
     dictionary.allProperties = dictionary.allProperties.map((token) => {
@@ -90,36 +82,26 @@ StyleDictionary.registerFormat({
       if (token.attributes.type === 'color') {
         type = token.attributes.item
       }
-      const properties = [
-        'color', 'dimension', 'margin', 'boxShadow', 'borderRadius'
-      ]
+
        const props = {
         color: ['text', 'border', 'fill', 'background'],
        }
 
       let component = null
-      
-      if (token.attributes.category !== 'color' && token.type === 'color') {
-        component = token.attributes.category
-      }
-
 
       if (token.attributes.category === 'radius') {
         type = token.attributes.type
       }
 
       if (token.attributes.category !== 'radius' && token.type === 'borderRadius') {
-        component = token.attributes.category
         type = token.attributes.item
       }
 
       if (token.attributes.category !== 'borderWidth' && token.type === 'borderWidth') {
-        component = token.attributes.category
         type = token.attributes.item
       }
 
       if (token.type === 'boxShadow') {
-        component = token.attributes.category
         type = token.attributes.item
       }
 
@@ -131,6 +113,11 @@ StyleDictionary.registerFormat({
             type = property
           }
         }
+
+      }
+
+      if (componentNames.includes(token.path[0])) {
+        component = token.path[0]
       }
 
       const typographyCategories = [

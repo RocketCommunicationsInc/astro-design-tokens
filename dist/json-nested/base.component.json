@@ -267,17 +267,54 @@
           "serious": "#ffb302",
           "standby": "#2dccff"
         }
-      }
+      },
+      "text": "#ffffff",
+      "background": "#101923"
     },
     "radius": {
       "inner": "2px",
       "outer": "3px"
+    },
+    "prefix": {
+      "dimension": "32px",
+      "margin": {
+        "right": "1rem"
+      }
+    },
+    "status-symbol": {
+      "margin": {
+        "right": "0.75rem"
+      }
+    },
+    "padding": {
+      "left": "1rem",
+      "right": "0.5rem",
+      "y": {
+        "large": "1.5rem",
+        "small": "0.875rem"
+      }
     }
   },
   "progress": {
     "radius": {
       "inner": "8px",
       "outer": "10px"
+    },
+    "borderWidth": "1px",
+    "color": {
+      "border": "#4dacff",
+      "background": "#1b2d3e"
+    },
+    "inner": {
+      "color": {
+        "background": "#4dacff"
+      }
+    },
+    "padding": "0.0625rem",
+    "label": {
+      "margin": {
+        "left": "0.5rem"
+      }
     }
   },
   "radio": {
@@ -480,6 +517,24 @@
         "pass": "inset 0px 0px 5px 0px rgb(86, 240, 0)",
         "unknown": "inset 0px 0px 5px 0px rgb(164, 171, 182)"
       }
+    },
+    "color": {
+      "border": {
+        "unknown": "#292a2d",
+        "fail": "#8b1703",
+        "pass": "#007a33"
+      },
+      "text": "#ffffff",
+      "background": {
+        "pass": "#005a00",
+        "fail": "#661102",
+        "unknown": "#292a2d"
+      }
+    },
+    "radius": "4px",
+    "padding": {
+      "x": "0.75rem",
+      "y": "0.25rem"
     }
   },
   "textarea": {
