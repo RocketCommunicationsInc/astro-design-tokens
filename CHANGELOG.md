@@ -1,5 +1,13 @@
 # @astrouxds/tokens
 
+## 1.11.0
+
+### Minor Changes
+
+- 865a01a: Added component tokens for progress
+- 865a01a: Addeed component tokens for tags
+- 865a01a: Added component tokens for notification banners
+
 ## 1.10.0
 
 ### Minor Changes
