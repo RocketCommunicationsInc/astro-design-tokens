@@ -5,7 +5,7 @@
     "category": "borderWidth",
     "component": "button",
     "referenceToken": "border-width-xs",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "button-color-background-borderless",
@@ -181,125 +181,125 @@
     "value": "20px",
     "property": "icon",
     "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "button",
+    "tokenLevel": "component"
   },
   {
     "name": "button-icon-margin-right",
     "value": "0.25rem",
     "property": "icon",
     "category": "spacing",
-    "component": null,
+    "component": "button",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "button-padding-x-large",
     "value": "1rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "button",
     "referenceToken": "spacing-4",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "button-padding-x-large-icon-only",
     "value": "0.75rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "button",
     "referenceToken": "spacing-3",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "button-padding-x-medium",
     "value": "1rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "button",
     "referenceToken": "spacing-4",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "button-padding-x-medium-icon-only",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "button",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "button-padding-x-small",
     "value": "1rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "button",
     "referenceToken": "spacing-4",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "button-padding-x-small-icon-only",
     "value": "0.25rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "button",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "button-padding-y-large",
     "value": "0.75rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "button",
     "referenceToken": "spacing-3",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "button-padding-y-large-icon-only",
     "value": "0.75rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "button",
     "referenceToken": "spacing-3",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "button-padding-y-medium",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "button",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "button-padding-y-medium-icon-only",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "button",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "button-padding-y-small",
     "value": "0.25rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "button",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "button-padding-y-small-icon-only",
     "value": "0.25rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "button",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "button-radius",
@@ -333,51 +333,51 @@
     "value": "24px",
     "property": "header",
     "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "card",
+    "tokenLevel": "component"
   },
   {
     "name": "card-header-prefix-margin-right",
     "value": "0.5rem",
     "property": "header",
     "category": "spacing",
-    "component": null,
+    "component": "card",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "card-header-suffix-margin-left",
     "value": "0.5rem",
     "property": "header",
     "category": "spacing",
-    "component": null,
+    "component": "card",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "card-header-suffix-dimension",
     "value": "24px",
     "property": "header",
     "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "card",
+    "tokenLevel": "component"
   },
   {
     "name": "card-header-padding-x",
     "value": "0.5rem",
     "property": "header",
     "category": "spacing",
-    "component": null,
+    "component": "card",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "card-header-padding-y",
     "value": "0.625rem",
     "property": "header",
     "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "card",
+    "tokenLevel": "component"
   },
   {
     "name": "card-border-width",
@@ -385,7 +385,7 @@
     "category": "borderWidth",
     "component": "card",
     "referenceToken": "border-width-xs",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "card-shadow",
@@ -400,18 +400,18 @@
     "value": "0.5rem",
     "property": "body",
     "category": "spacing",
-    "component": null,
+    "component": "card",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "card-footer-padding",
     "value": "0.5rem",
     "property": "footer",
     "category": "spacing",
-    "component": null,
+    "component": "card",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "card-radius",
@@ -434,17 +434,17 @@
     "value": "24px",
     "property": "control",
     "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "checkbox",
+    "tokenLevel": "component"
   },
   {
     "name": "checkbox-control-padding",
     "value": "0.125rem",
     "property": "control",
     "category": "spacing",
-    "component": null,
+    "component": "checkbox",
     "referenceToken": "spacing-050",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "checkbox-control-radius",
@@ -459,9 +459,9 @@
     "value": "0.5rem",
     "property": "label",
     "category": "spacing",
-    "component": null,
+    "component": "checkbox",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "checkbox-group-border-width",
@@ -469,16 +469,16 @@
     "category": "borderWidth",
     "component": "checkbox-group",
     "referenceToken": "border-width-xs",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "checkbox-group-checkbox-margin-bottom",
     "value": "0.5rem",
     "property": "checkbox",
     "category": "spacing",
-    "component": null,
+    "component": "checkbox-group",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "checkbox-group-color-border-default",
@@ -503,9 +503,9 @@
     "value": "1rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "checkbox-group",
     "referenceToken": "spacing-4",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "classification-banner-color-background-confidential",
@@ -584,7 +584,7 @@
     "category": "color",
     "component": "container",
     "referenceToken": "color-palette-grey-600",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "gsb-color-background",
@@ -594,7 +594,7 @@
     "category": "color",
     "component": "gsb",
     "referenceToken": "color-palette-darkblue-900",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "gsb-color-text",
@@ -604,27 +604,27 @@
     "category": "color",
     "component": "gsb",
     "referenceToken": "color-palette-neutral-000",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "gsb-icon-color-fill-default",
     "value": "#4dacff",
     "description": "Primary color used for interactive elements in the Global Status Bar",
-    "property": "fill",
+    "property": "icon",
     "category": "color",
     "component": "gsb",
     "referenceToken": "color-palette-brightblue-500",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "gsb-icon-color-fill-hover",
     "value": "#92cbff",
     "description": "Hover color used for interactive elements in the Global Status Bar",
-    "property": "fill",
+    "property": "icon",
     "category": "color",
     "component": "gsb",
     "referenceToken": "color-palette-brightblue-400",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "indeterminate-progress-radius-inner",
@@ -650,7 +650,7 @@
     "category": "borderWidth",
     "component": "input",
     "referenceToken": "border-width-xs",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "input-color-background-default",
@@ -720,71 +720,71 @@
     "value": "20px",
     "property": "icon",
     "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "input",
+    "tokenLevel": "component"
   },
   {
     "name": "input-padding-x-large",
     "value": "0.75rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "input",
     "referenceToken": "spacing-3",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "input-padding-x-medium",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "input",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "input-padding-x-small",
     "value": "0.25rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "input",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "input-padding-y-large",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "input",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "input-padding-y-medium",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "input",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "input-padding-y-small",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "input",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "input-prefix-margin-right",
     "value": "0.25rem",
     "property": "prefix",
     "category": "spacing",
-    "component": null,
+    "component": "input",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "input-radius",
@@ -799,9 +799,9 @@
     "value": "0.25rem",
     "property": "suffix",
     "category": "spacing",
-    "component": null,
+    "component": "input",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "link-color-text-default",
@@ -831,7 +831,7 @@
     "category": "color",
     "component": "log",
     "referenceToken": "color-palette-grey-600",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "menu-divider-color-fill",
@@ -860,7 +860,7 @@
     "category": "color",
     "component": "notification-banner",
     "referenceToken": "color-status-caution",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "notification-banner-color-border-inner-critical",
@@ -870,7 +870,7 @@
     "category": "color",
     "component": "notification-banner",
     "referenceToken": "color-status-critical",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "notification-banner-color-border-inner-default",
@@ -880,7 +880,7 @@
     "category": "color",
     "component": "notification-banner",
     "referenceToken": "color-border-interactive-default",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "notification-banner-color-border-inner-normal",
@@ -890,7 +890,7 @@
     "category": "color",
     "component": "notification-banner",
     "referenceToken": "color-status-normal",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "notification-banner-color-border-inner-off",
@@ -900,7 +900,7 @@
     "category": "color",
     "component": "notification-banner",
     "referenceToken": "color-status-off",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "notification-banner-color-border-inner-serious",
@@ -910,7 +910,7 @@
     "category": "color",
     "component": "notification-banner",
     "referenceToken": "color-status-serious",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "notification-banner-color-border-inner-standby",
@@ -920,7 +920,7 @@
     "category": "color",
     "component": "notification-banner",
     "referenceToken": "color-status-standby",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "notification-banner-color-border-outer-caution",
@@ -930,7 +930,7 @@
     "category": "color",
     "component": "notification-banner",
     "referenceToken": "status-symbol-color-border-caution",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "notification-banner-color-border-outer-critical",
@@ -940,7 +940,7 @@
     "category": "color",
     "component": "notification-banner",
     "referenceToken": "status-symbol-color-border-critical",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "notification-banner-color-border-outer-default",
@@ -950,7 +950,7 @@
     "category": "color",
     "component": "notification-banner",
     "referenceToken": "color-border-interactive-default",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "notification-banner-color-border-outer-normal",
@@ -960,7 +960,7 @@
     "category": "color",
     "component": "notification-banner",
     "referenceToken": "status-symbol-color-border-normal",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "notification-banner-color-border-outer-off",
@@ -970,7 +970,7 @@
     "category": "color",
     "component": "notification-banner",
     "referenceToken": "status-symbol-color-border-off",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "notification-banner-color-border-outer-serious",
@@ -980,7 +980,7 @@
     "category": "color",
     "component": "notification-banner",
     "referenceToken": "status-symbol-color-border-serious",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "notification-banner-color-border-outer-standby",
@@ -990,7 +990,7 @@
     "category": "color",
     "component": "notification-banner",
     "referenceToken": "status-symbol-color-border-standby",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "notification-banner-color-text",
@@ -1034,61 +1034,61 @@
     "value": "32px",
     "property": "prefix",
     "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "notification-banner",
+    "tokenLevel": "component"
   },
   {
     "name": "notification-banner-prefix-margin-right",
     "value": "1rem",
     "property": "prefix",
     "category": "spacing",
-    "component": null,
+    "component": "notification-banner",
     "referenceToken": "spacing-4",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "notification-banner-status-symbol-margin-right",
     "value": "0.75rem",
     "property": "status-symbol",
     "category": "spacing",
-    "component": null,
+    "component": "notification-banner",
     "referenceToken": "spacing-3",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "notification-banner-padding-left",
     "value": "1rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "notification-banner",
     "referenceToken": "spacing-4",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "notification-banner-padding-right",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "notification-banner",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "notification-banner-padding-y-large",
     "value": "1.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "notification-banner",
     "referenceToken": "spacing-6",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "notification-banner-padding-y-small",
     "value": "0.875rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "notification-banner",
+    "tokenLevel": "component"
   },
   {
     "name": "progress-radius-inner",
@@ -1114,7 +1114,7 @@
     "category": "borderWidth",
     "component": "progress",
     "referenceToken": "border-width-xs",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "progress-color-border",
@@ -1148,17 +1148,17 @@
     "value": "0.0625rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "progress",
+    "tokenLevel": "component"
   },
   {
     "name": "progress-label-margin-left",
     "value": "0.5rem",
     "property": "label",
     "category": "spacing",
-    "component": null,
+    "component": "progress",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "radio-check-radius",
@@ -1201,25 +1201,25 @@
     "value": "24px",
     "property": "control",
     "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "radio",
+    "tokenLevel": "component"
   },
   {
     "name": "radio-control-margin-right",
     "value": "0.625rem",
     "property": "control",
     "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "radio",
+    "tokenLevel": "component"
   },
   {
     "name": "radio-control-padding",
     "value": "0.125rem",
     "property": "control",
     "category": "spacing",
-    "component": null,
+    "component": "radio",
     "referenceToken": "spacing-050",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "radio-control-radius",
@@ -1264,7 +1264,7 @@
     "category": "boxShadow",
     "component": "scrollbar",
     "referenceToken": "color-palette-neutral-1000",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "scrollbar-shadow-inner-vertical",
@@ -1274,7 +1274,7 @@
     "category": "boxShadow",
     "component": "scrollbar",
     "referenceToken": "color-palette-neutral-1000",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "select-border-width",
@@ -1282,7 +1282,7 @@
     "category": "borderWidth",
     "component": "select",
     "referenceToken": "border-width-xs",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "select-caret-color-fill",
@@ -1298,8 +1298,8 @@
     "value": "30px",
     "property": "caret",
     "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "select",
+    "tokenLevel": "component"
   },
   {
     "name": "select-caret-selector-color-background",
@@ -1315,8 +1315,8 @@
     "value": "32px",
     "property": "caret-selector",
     "category": "sizing",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "select",
+    "tokenLevel": "component"
   },
   {
     "name": "select-color-background",
@@ -1395,54 +1395,54 @@
     "value": "0.75rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "select",
     "referenceToken": "spacing-3",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "select-padding-x-medium",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "select",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "select-padding-x-small",
     "value": "0.25rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "select",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "select-padding-y-large",
     "value": "0.25rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "select",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "select-padding-y-medium",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "select",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "select-padding-y-small",
     "value": "1rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "select",
     "referenceToken": "spacing-4",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "select-radius",
@@ -1477,7 +1477,7 @@
     "category": "borderWidth",
     "component": "slider",
     "referenceToken": "border-width-sm",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "slider-thumb-color-background",
@@ -1511,8 +1511,8 @@
     "value": "20px",
     "property": "thumb",
     "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "slider",
+    "tokenLevel": "component"
   },
   {
     "name": "slider-thumb-radius",
@@ -1537,8 +1537,8 @@
     "value": "4px",
     "property": "tick",
     "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "slider",
+    "tokenLevel": "component"
   },
   {
     "name": "slider-tick-radius",
@@ -1554,16 +1554,16 @@
     "value": "4px",
     "property": "track",
     "category": "sizing",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "slider",
+    "tokenLevel": "component"
   },
   {
     "name": "slider-track-height-inactive",
     "value": "1px",
     "property": "track",
     "category": "sizing",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "slider",
+    "tokenLevel": "component"
   },
   {
     "name": "slider-track-radius",
@@ -1582,7 +1582,7 @@
     "category": "borderWidth",
     "component": "status-symbol",
     "referenceToken": "border-width-none",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "status-symbol-border-width-on-light",
@@ -1592,7 +1592,7 @@
     "category": "borderWidth",
     "component": "status-symbol",
     "referenceToken": "border-width-xs",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "status-symbol-color-border-caution",
@@ -1797,9 +1797,9 @@
     "value": "0.5rem",
     "property": "header",
     "category": "spacing",
-    "component": null,
+    "component": "table",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "table-header-shadow",
@@ -1861,7 +1861,7 @@
     "category": "borderWidth",
     "component": "table",
     "referenceToken": "border-width-xs",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "table-body-cell-padding-y",
@@ -1869,9 +1869,9 @@
     "description": "Body cell padding (top and bottom)",
     "property": "body",
     "category": "spacing",
-    "component": null,
+    "component": "table",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "table-body-cell-padding-x",
@@ -1879,9 +1879,9 @@
     "description": "Body cell padding (left and right)",
     "property": "body",
     "category": "spacing",
-    "component": null,
+    "component": "table",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "tag-shadow-inner-fail",
@@ -1891,7 +1891,7 @@
     "category": "boxShadow",
     "component": "tag",
     "referenceToken": "status-symbol-color-fill-critical-on-light",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "tag-shadow-inner-pass",
@@ -1901,7 +1901,7 @@
     "category": "boxShadow",
     "component": "tag",
     "referenceToken": "status-symbol-color-fill-normal-on-light",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "tag-shadow-inner-unknown",
@@ -1911,7 +1911,7 @@
     "category": "boxShadow",
     "component": "tag",
     "referenceToken": "status-symbol-color-fill-off-on-light",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "tag-color-border-unknown",
@@ -1988,18 +1988,18 @@
     "value": "0.75rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "tag",
     "referenceToken": "spacing-3",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "tag-padding-y",
     "value": "0.25rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "tag",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "textarea-border-width",
@@ -2007,7 +2007,7 @@
     "category": "borderWidth",
     "component": "textarea",
     "referenceToken": "border-width-xs",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "textarea-color-border-default",
@@ -2068,54 +2068,54 @@
     "value": "0.75rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "textarea",
     "referenceToken": "spacing-3",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "textarea-padding-x-medium",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "textarea",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "textarea-padding-x-small",
     "value": "0.25rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "textarea",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "textarea-padding-y-large",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "textarea",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "textarea-padding-y-medium",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "textarea",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "textarea-padding-y-small",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "textarea",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "textarea-radius",
@@ -2129,21 +2129,21 @@
     "name": "timeline-cell-color-background",
     "value": "#cbdee9",
     "description": "Color for timeline cell",
-    "property": "background",
+    "property": "cell",
     "category": "color",
     "component": "timeline",
     "referenceToken": "color-palette-darkblue-100",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "timeline-header-color-background",
     "value": "#f5f6f9",
     "description": "Color for timeline header",
-    "property": "background",
+    "property": "header",
     "category": "color",
     "component": "timeline",
     "referenceToken": "color-background-surface-header",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "tooltip-color-background",
@@ -2153,7 +2153,7 @@
     "category": "color",
     "component": "tooltip",
     "referenceToken": "color-palette-grey-400",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "tooltip-color-text",
@@ -2163,7 +2163,7 @@
     "category": "color",
     "component": "tooltip",
     "referenceToken": "color-text-black",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   },
   {
     "name": "tooltip-radius",
@@ -2178,52 +2178,52 @@
     "value": "0.75rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "tab",
     "referenceToken": "spacing-3",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "tab-padding-x-small",
     "value": "0.75rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "tab",
     "referenceToken": "spacing-3",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "tab-padding-top-large",
     "value": "1.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "tab",
     "referenceToken": "spacing-6",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "tab-padding-top-small",
     "value": "1rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "tab",
     "referenceToken": "spacing-4",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "tab-padding-bottom-large",
     "value": "1.75rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "tab",
+    "tokenLevel": "component"
   },
   {
     "name": "tab-padding-bottom-small",
     "value": "1.25rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "tab",
+    "tokenLevel": "component"
   },
   {
     "name": "tab-border-width-bottom",
@@ -2232,7 +2232,7 @@
     "category": "borderWidth",
     "component": "tab",
     "referenceToken": "border-width-lg",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "tab-color-text-default",
@@ -2374,108 +2374,108 @@
     "value": "1rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "push-button",
     "referenceToken": "spacing-4",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "push-button-padding-x-medium-icon-only",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "push-button",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "push-button-padding-x-small",
     "value": "1rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "push-button",
     "referenceToken": "spacing-4",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "push-button-padding-x-small-icon-only",
     "value": "0.25rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "push-button",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "push-button-padding-x-large",
     "value": "1rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "push-button",
     "referenceToken": "spacing-4",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "push-button-padding-x-large-icon-only",
     "value": "0.75rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "push-button",
     "referenceToken": "spacing-3",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "push-button-padding-y-medium",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "push-button",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "push-button-padding-y-medium-icon-only",
     "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "push-button",
     "referenceToken": "spacing-2",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "push-button-padding-y-small",
     "value": "1rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "push-button",
     "referenceToken": "spacing-4",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "push-button-padding-y-small-icon-only",
     "value": "0.25rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "push-button",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "push-button-padding-y-large-icon-only",
     "value": "0.75rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "push-button",
     "referenceToken": "spacing-3",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "push-button-padding-y-large",
     "value": "0.75rem",
     "property": "padding",
     "category": "spacing",
-    "component": null,
+    "component": "push-button",
     "referenceToken": "spacing-3",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "push-button-radius",
@@ -2517,17 +2517,17 @@
     "value": "20px",
     "property": "prefix",
     "category": "dimension",
-    "component": null,
-    "tokenLevel": "reference"
+    "component": "push-button",
+    "tokenLevel": "component"
   },
   {
     "name": "push-button-prefix-margin-right",
     "value": "0.25rem",
     "property": "prefix",
     "category": "spacing",
-    "component": null,
+    "component": "push-button",
     "referenceToken": "spacing-1",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "push-button-border-width",
@@ -2535,7 +2535,7 @@
     "category": "borderWidth",
     "component": "push-button",
     "referenceToken": "border-width-xs",
-    "tokenLevel": "system"
+    "tokenLevel": "component"
   },
   {
     "name": "opacity-25",
@@ -3414,7 +3414,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-grey-200",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-background-base-header",
@@ -3424,7 +3424,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-grey-100",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-background-base-hover",
@@ -3434,7 +3434,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-darkblue-200",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-background-base-selected",
@@ -3444,7 +3444,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-brightblue-200",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-background-surface-default",
@@ -3454,7 +3454,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-neutral-000",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-background-surface-header",
@@ -3464,7 +3464,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-grey-100",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-background-surface-hover",
@@ -3474,7 +3474,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-brightblue-100",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-background-surface-selected",
@@ -3484,7 +3484,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-brightblue-200",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-background-interactive-default",
@@ -3494,7 +3494,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-darkblue-500",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-background-interactive-hover",
@@ -3504,7 +3504,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-darkblue-700",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-background-interactive-muted",
@@ -3514,7 +3514,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-darkblue-400",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-text-primary",
@@ -3524,7 +3524,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-grey-900",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-text-secondary",
@@ -3534,7 +3534,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-grey-700",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-text-placeholder",
@@ -3544,7 +3544,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-grey-600",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-text-inverse",
@@ -3554,7 +3554,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-neutral-000",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-text-interactive-default",
@@ -3564,7 +3564,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-darkblue-500",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-text-interactive-hover",
@@ -3574,7 +3574,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-darkblue-700",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-text-white",
@@ -3604,7 +3604,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-red-700",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-border-interactive-default",
@@ -3614,7 +3614,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-darkblue-500",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-border-interactive-hover",
@@ -3624,7 +3624,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-darkblue-700",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-border-interactive-muted",
@@ -3634,7 +3634,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-darkblue-400",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-border-error",
@@ -3644,7 +3644,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-red-700",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-border-focus-default",
@@ -3654,7 +3654,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-pink-400",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-status-critical",
@@ -3664,7 +3664,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-red-600",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-status-serious",
@@ -3674,7 +3674,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-orange-600",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-status-caution",
@@ -3684,7 +3684,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-yellow-600",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-status-normal",
@@ -3694,7 +3694,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-green-600",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-status-standby",
@@ -3704,7 +3704,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-cyan-500",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-status-off",
@@ -3714,7 +3714,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-grey-600",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-classification-topsecretsci",
@@ -3783,7 +3783,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-teal-800",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-data-visualization-2",
@@ -3792,7 +3792,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-purple-600",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-data-visualization-3",
@@ -3801,7 +3801,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-brightblue-800",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-data-visualization-4",
@@ -3810,7 +3810,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-teal-700",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-data-visualization-5",
@@ -3819,7 +3819,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-purple-500",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-data-visualization-6",
@@ -3828,7 +3828,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-brightblue-700",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-data-visualization-7",
@@ -3837,7 +3837,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-teal-600",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "color-data-visualization-8",
@@ -3846,7 +3846,7 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-brightblue-600",
-    "tokenLevel": "system"
+    "tokenLevel": "theme"
   },
   {
     "name": "border-width-none",
@@ -4119,7 +4119,7 @@
     "property": "2xl",
     "category": "letterSpacing",
     "component": null,
-    "tokenLevel": "system"
+    "tokenLevel": "reference"
   },
   {
     "name": "letter-spacing-xl",
@@ -4127,7 +4127,7 @@
     "property": "xl",
     "category": "letterSpacing",
     "component": null,
-    "tokenLevel": "system"
+    "tokenLevel": "reference"
   },
   {
     "name": "letter-spacing-base",
@@ -4143,7 +4143,7 @@
     "property": "lg",
     "category": "letterSpacing",
     "component": null,
-    "tokenLevel": "system"
+    "tokenLevel": "reference"
   },
   {
     "name": "letter-spacing-sm",
@@ -4151,7 +4151,7 @@
     "property": "sm",
     "category": "letterSpacing",
     "component": null,
-    "tokenLevel": "system"
+    "tokenLevel": "reference"
   },
   {
     "name": "paragraph-spacing-0",
@@ -5448,8 +5448,8 @@
     "value": " 0px 4px 4px 1px rgba(0, 0, 0, 0.35)",
     "description": "Drop shadow for Dialogs",
     "category": "boxShadow",
-    "component": "shadow",
+    "component": null,
     "referenceToken": "color-palette-neutral-1000",
-    "tokenLevel": "component"
+    "tokenLevel": "theme"
   }
 ]
