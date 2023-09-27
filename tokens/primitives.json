@@ -129,15 +129,15 @@
     "type": "spacing",
     "rawValue": "{base-spacing-unit} * 40px"
   },
-  "spacing-44": {
-    "value": "176px",
-    "type": "spacing",
-    "rawValue": "{base-spacing-unit} * 44px"
-  },
   "spacing-48": {
     "value": "192px",
     "type": "spacing",
     "rawValue": "{base-spacing-unit} * 48px"
+  },
+  "spacing-44": {
+    "value": "176px",
+    "type": "spacing",
+    "rawValue": "{base-spacing-unit} * 44px"
   },
   "spacing-52": {
     "value": "208px",
@@ -238,5 +238,30 @@
     "value": 4,
     "type": "other",
     "rawValue": "4"
+  },
+  "line-height-normal": {
+    "value": 1.5,
+    "type": "lineHeights",
+    "rawValue": "1.5"
+  },
+  "line-height-tight": {
+    "value": 1.25,
+    "type": "lineHeights",
+    "rawValue": "1.25"
+  },
+  "line-height-relaxed": {
+    "value": 1.625,
+    "type": "lineHeights",
+    "rawValue": "1.625"
+  },
+  "line-height-loose": {
+    "value": 2,
+    "type": "lineHeights",
+    "rawValue": "2"
+  },
+  "line-height-none": {
+    "value": 1,
+    "type": "lineHeights",
+    "rawValue": "1"
   }
 }

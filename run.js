@@ -1,6 +1,6 @@
 const { exec } = require('child_process');
 
-exec('node_modules/.bin/token-transformer data/tokens.json tokens/primitive.json primitives --expandTypography --preserveRawValue')
+exec('node_modules/.bin/token-transformer data/tokens.json tokens/primitives.json primitives --expandTypography --preserveRawValue')
 // Core
 // exec('node_modules/.bin/token-transformer data/tokens.json tokens/base.reference.json primitives --expandTypography --preserveRawValue')
 // exec('node_modules/.bin/token-transformer data/tokens.json tokens/base.system.json reference,system reference --expandTypography --preserveRawValue')

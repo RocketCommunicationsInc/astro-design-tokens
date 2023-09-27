@@ -193,12 +193,12 @@ StyleDictionary.registerFormat({
 StyleDictionary.registerTransformGroup({
   name: "custom/css",
   transforms: StyleDictionary.transformGroup["css"].concat([
-    "size/pxToUnitless",
+    // "size/pxToUnitless",
     "size/pxToRem",
-    "letterSpacing/percentToEm",
-    "fontFamily/fallback",
-    "fontWeight/css",
-    "shadow/css"
+    // "letterSpacing/percentToEm",
+    // "fontFamily/fallback",
+    // "fontWeight/css",
+    // "shadow/css"
   ]),
 });
 
