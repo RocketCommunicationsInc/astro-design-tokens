@@ -83,9 +83,9 @@ StyleDictionary.registerFormat({
         type = token.attributes.item
       }
 
-       const props = {
+      const props = {
         color: ['text', 'border', 'fill', 'background'],
-       }
+      }
 
       let component = null
 
@@ -262,221 +262,22 @@ const iosColors = {
 console.log(`\n\n🌙 Building dark mode...`);
 
 styleDictionary.extend({
-  source: [`tokens/base.*.json`],
+  source: [`tokens/primitives.json`],
   platforms: {
-    "js": {
-      "transformGroup": "custom/js",
-      buildPath: "dist/js/",
-      options: {
-        showFileHeader: false,
-      },
-      "files": [
-        {
-          "format": "javascript/module-flat",
-          "destination": "tokens.common.js",
-        },
-        {
-          "format": "javascript/module-flat",
-          "destination": "reference.common.js",
-          filter: (token) => token.filePath.includes('base.reference')
-        },
-        {
-          "format": "javascript/module-flat",
-          "destination": "system.common.js",
-          filter: (token) => token.filePath.includes('base.system')
-        },
-        {
-          "format": "javascript/module-flat",
-          "destination": "component.common.js",
-          filter: (token) => token.filePath.includes('base.component')
-        },
-        {
-          "format": "javascript/es6",
-          "destination": "tokens.module.js",
-        },
-        {
-          "format": "typescript/es6-declarations",
-          "destination": "tokens.module.d.ts"
-        },
-        {
-          "format": "javascript/es6",
-          "destination": "reference.module.js",
-          filter: (token) => token.filePath.includes('base.reference')
-        },
-        {
-          "format": "javascript/es6",
-          "destination": "system.module.js",
-          filter: (token) => token.filePath.includes('base.system')
-        },
-        {
-          "format": "javascript/es6",
-          "destination": "component.common.js",
-          filter: (token) => token.filePath.includes('base.component')
-        },
-      ]
-    },
-    scssFlatMap: {
-      transformGroup: "custom/scss",
-      buildPath: "dist/scss-map-flat/",
-      files: [
-        {
-          destination: "base.reference.scss",
-          format: "scss/map-flat",
-          filter: (token) => token.filePath.includes('base.reference'),
-          mapName: 'reference',
-          options: {
-            showFileHeader: false,
-          }
-        },
-        {
-          destination: "base.system.scss",
-          format: "scss/map-flat",
-          filter: (token) => token.filePath.includes('base.system'),
-          mapName: 'system',
-          options: {
-            showFileHeader: false,
-          }
-        },
-        {
-          destination: "base.component.scss",
-          format: "scss/map-flat",
-          filter: (token) => token.filePath.includes('base.component'),
-          mapName: 'component',
-          options: {
-            showFileHeader: false,
-          }
-        },
-      ],
-    },
-    scss: {
-      transformGroup: "custom/scss",
-      buildPath: "dist/scss/",
-      files: [
-        {
-          destination: "base.reference.scss",
-          format: "scss/variables",
-          filter: (token) => token.filePath.includes('base.reference'),
-          mapName: 'reference',
-          options: {
-            showFileHeader: false,
-          }
-        },
-        {
-          destination: "base.system.scss",
-          format: "scss/variables",
-          filter: (token) => token.filePath.includes('base.system'),
-          mapName: 'system',
-          options: {
-            showFileHeader: false,
-          }
-        },
-        {
-          destination: "base.component.scss",
-          format: "scss/variables",
-          filter: (token) => token.filePath.includes('base.component'),
-          mapName: 'component',
-          options: {
-            showFileHeader: false,
-          }
-        },
-      ],
-    },
     css: {
-      actions: ['createIndex'],
       transformGroup: "custom/css",
       buildPath: "dist/css/",
       files: [
         {
-          destination: "base.reference.css",
+          destination: "primitives.css",
           format: "css/variables",
-          filter: (token) => token.filePath.includes('base.reference'),
           options: {
             selector: ':where(:root)',
             showFileHeader: false,
             outputReferences: true,
           },
         },
-        {
-          destination: "base.system.css",
-          format: "css/variables",
-          filter: (token) => token.filePath.includes('base.system'),
-          options: {
-            selector: ':where(:root)',
-            showFileHeader: false,
-            outputReferences: true,
-          },
-        },
-        {
-          destination: "base.component.css",
-          format: "css/variables",
-          filter: (token) => token.filePath.includes('base.component'),
-          options: {
-            selector: ':where(:root)',
-            showFileHeader: false,
-            outputReferences: true,
-          },
-        }
       ]
-    },
-    "json-flat": {
-      transformGroup: "custom/json",
-      buildPath: "dist/json/",
-      files: [
-        {
-          destination: "base.reference.json",
-          format: "json/flat",
-          filter: (token) => token.filePath.includes('base.reference'),
-          options: {
-            showFileHeader: false,
-          }
-        },
-        {
-          destination: "base.system.json",
-          format: "json/flat",
-          filter: (token) => token.filePath.includes('base.system'),
-          options: {
-            showFileHeader: false,
-          }
-        },
-        {
-          destination: "base.component.json",
-          format: "json/flat",
-          filter: (token) => token.filePath.includes('base.component'),
-          options: {
-            showFileHeader: false,
-          }
-        }
-      ],
-    },
-    "json-nested": {
-      transformGroup: "custom/json",
-      buildPath: "dist/json-nested/",
-      files: [
-        {
-          destination: "base.reference.json",
-          format: "json/nested",
-          filter: (token) => token.filePath.includes('base.reference'),
-          options: {
-            showFileHeader: false,
-          }
-        },
-        {
-          destination: "base.system.json",
-          format: "json/nested",
-          filter: (token) => token.filePath.includes('base.system'),
-          options: {
-            showFileHeader: false,
-          }
-        },
-        {
-          destination: "base.component.json",
-          format: "json/nested",
-          filter: (token) => token.filePath.includes('base.component'),
-          options: {
-            showFileHeader: false,
-          }
-        }
-      ],
     },
     "docs": {
       transformGroup: "custom/json",
@@ -494,184 +295,11 @@ styleDictionary.extend({
   }
 }).buildAllPlatforms()
 
-console.log(`\n\n🌙 Building classes...`);
-
-styleDictionary.extend({
-  source: [
-    `tokens/extra.typography.json`,
-  ],
-
-  platforms: {
-
-    scss: {
-      buildPath: "dist/css/",
-      transforms: [
-        "size/pxToRem",
-        "size/pxToUnitless",
-        "letterSpacing/percentToEm",
-        "fontFamily/fallback",
-        "fontWeight/css",
-        "shadow/css"
-      ],
-      files: [
-        {
-          destination: `classes/typography.css`,
-          format: "css/typographyClasses",
-          filter: (token) => token.type === "typography",
-          options: {
-            showFileHeader: false,
-          },
-        },
-      ],
-    },
-  }
-}).buildAllPlatforms()
 
 
-console.log(`☀️ Building light mode...`);
-
-styleDictionary.extend({
-  include: ['tokens/base.*.json'],
-  source: ['tokens/theme/light.json'],
-  platforms: {
-    "js": {
-      "transformGroup": "custom/js",
-      buildPath: "dist/js/",
-      options: {
-        showFileHeader: false,
-      },
-      "files": [
-        {
-          "format": "javascript/module-flat",
-          "destination": "theme.light.common.js",
-          filter: (token) => token.filePath.includes('light')
-        },
-        {
-          "format": "javascript/es6",
-          "destination": "theme.light.module.js",
-          filter: (token) => token.filePath.includes('light')
-        },
-        {
-          "format": "typescript/es6-declarations",
-          "destination": "theme.light.module.d.ts",
-          filter: (token) => token.filePath.includes('light')
-        },
-   
-      ]
-    },
-    css: {
-      transformGroup: "custom/css",
-      buildPath: "dist/css/",
-      files: [
-        {
-          destination: "theme.light.css",
-          format: "css/variables",
-          filter: (token) => token.filePath.includes('light'),
-          options: {
-            selector: '.light-theme',
-            showFileHeader: false,
-            outputReferences: true,
-          },
-        }
-      ]
-    },
-    scss: {
-      transformGroup: "custom/scss",
-      buildPath: "dist/scss/",
-      files: [
-        {
-          destination: "theme.light.scss",
-          format: "scss/variables",
-          filter: (token) => token.filePath.includes('light'),
-          options: {
-            showFileHeader: false,
-          }
-        }
-      ],
-    },
-    "json-flat": {
-      transformGroup: "custom/json",
-      buildPath: "dist/json/",
-      files: [
-        {
-          destination: "theme.light.json",
-          format: "json/flat",
-          filter: (token) => token.filePath.includes('light'),
-          options: {
-            showFileHeader: false,
-          }
-        }
-      ],
-    },
-    "json-nested": {
-      transformGroup: "custom/json",
-      buildPath: "dist/json-nested/",
-      files: [
-        {
-          destination: "theme.light.json",
-          format: "json/nested",
-          filter: (token) => token.filePath.includes('light'),
-          options: {
-            showFileHeader: false,
-          }
-        }
-      ],
-    },
-    "docs": {
-      transformGroup: "custom/json",
-      buildPath: "dist/json/",
-      files: [
-        {
-          destination: "docs-light.json",
-          format: "docs",
-          options: {
-            showFileHeader: false,
-          }
-        }
-      ]
-    }
-  },
-})
-  .buildAllPlatforms();
 
 
-console.log(`☀️ Building ios light mode...`);
-styleDictionary.extend({
-  source: [`tokens/ios/base.json`],
-  platforms: {
-    iosColors: Object.assign({}, {
-      ...iosColors,
-      mode: `dark`,
-      library: 'core'
-    }),
-    iosColorsFoundation: Object.assign({}, {
-      ...iosColors,
-      actions: ['generateFoundationColorsets'],
-      mode: `dark`,
-      library: 'foundation'
-    }),
-  }
-}).buildAllPlatforms()
 
 
-console.log(`☀️ Building ios dark mode...`);
 
-styleDictionary.extend({
-  include: [`tokens/ios/base.json`],
-  source: ['tokens/ios/light.json'],
-  platforms: {
-    iosColors: Object.assign({}, {
-      ...iosColors,
-      mode: `light`,
-      library: 'core'
-    }),
-    iosColorsFoundation: Object.assign({}, {
-      ...iosColors,
-      actions: ['generateFoundationColorsets'],
-      mode: `light`,
-      library: 'foundation'
-    }),
 
-  }
-})
-  .buildAllPlatforms();
