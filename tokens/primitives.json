@@ -264,8 +264,8 @@
     "type": "lineHeights",
     "rawValue": "1"
   },
-  "dimension": {
-    "icon": {
+  "icon": {
+    "size": {
       "xs": {
         "value": 13,
         "type": "dimension",
