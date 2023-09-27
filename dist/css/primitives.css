@@ -1,4 +1,13 @@
 :where(:root) {
+  --dimension-icon-5xl: 2rem;
+  --dimension-icon-4xl: 1.8125rem;
+  --dimension-icon-3xl: 1.625rem;
+  --dimension-icon-2xl: 1.4375rem;
+  --dimension-icon-xl: 1.25rem;
+  --dimension-icon-lg: 1.125rem;
+  --dimension-icon-base: 1rem;
+  --dimension-icon-sm: 0.875rem;
+  --dimension-icon-xs: 0.8125rem;
   --line-height-none: 1;
   --line-height-loose: 2;
   --line-height-relaxed: 1.625;

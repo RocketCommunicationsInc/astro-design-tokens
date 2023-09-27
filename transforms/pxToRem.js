@@ -7,7 +7,7 @@ module.exports = {
 	type: "value",
 	transitive: true,
 	matcher: (token) => {
-		return ['spacing', 'fontSize', 'fontSizes'].includes(token.type)
+		return ['spacing', 'dimension', 'fontSizes'].includes(token.type)
 	},
 	transformer: (token) => {
 		if (token.value.toString().includes('px')) {

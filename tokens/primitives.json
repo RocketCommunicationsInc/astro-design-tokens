@@ -263,5 +263,63 @@
     "value": 1,
     "type": "lineHeights",
     "rawValue": "1"
+  },
+  "dimension": {
+    "icon": {
+      "xs": {
+        "value": 13,
+        "type": "dimension",
+        "description": "Pair with `font-size-xs`",
+        "rawValue": "{font-size-xs}"
+      },
+      "sm": {
+        "value": 14,
+        "type": "dimension",
+        "description": "Pair with `font-size-sm`",
+        "rawValue": "{font-size-sm}"
+      },
+      "base": {
+        "value": 16,
+        "type": "dimension",
+        "description": "Pair with `font-size-base`",
+        "rawValue": "{font-size-base}"
+      },
+      "lg": {
+        "value": 18,
+        "type": "dimension",
+        "description": "Pair with `font-size-lg`",
+        "rawValue": "{font-size-lg}"
+      },
+      "xl": {
+        "value": 20,
+        "type": "dimension",
+        "description": "Pair with `font-size-xl`",
+        "rawValue": "{font-size-xl}"
+      },
+      "2xl": {
+        "value": 23,
+        "type": "dimension",
+        "description": "Pair with `font-size-2xl`",
+        "rawValue": "{font-size-2xl}"
+      },
+      "3xl": {
+        "value": 26,
+        "type": "dimension",
+        "description": "Pair with `font-size-3xl`",
+        "rawValue": "{font-size-3xl}"
+      },
+      "4xl": {
+        "value": 29,
+        "type": "dimension",
+        "description": "Pair with `font-size-4xl`",
+        "rawValue": "{font-size-4xl}"
+      },
+      "5xl": {
+        "value": 32,
+        "type": "dimension",
+        "description": "Pair with `font-size-5xl`",
+        "rawValue": "{font-size-5xl}"
+      }
+    }
   }
 }
