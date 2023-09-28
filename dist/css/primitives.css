@@ -37,6 +37,11 @@
   --font-size-xs: 0.8125rem;
   --font-scale: 1.125;
   --base-font-unit: 16;
+  --spacing-035: 0.875rem;
+  --spacing-025: 0.625rem;
+  --spacing-015: 0.375rem;
+  --spacing-px: 0.0625rem;
+  --spacing-050: 0.125rem;
   --spacing-96: 24rem;
   --spacing-80: 20rem;
   --spacing-72: 18rem;
@@ -44,8 +49,8 @@
   --spacing-60: 15rem;
   --spacing-56: 14rem;
   --spacing-52: 13rem;
-  --spacing-44: 11rem;
   --spacing-48: 12rem;
+  --spacing-44: 11rem;
   --spacing-40: 10rem;
   --spacing-36: 9rem;
   --spacing-32: 8rem;
@@ -63,13 +68,8 @@
   --spacing-6: 1.5rem;
   --spacing-5: 1.25rem;
   --spacing-4: 1rem;
-  --spacing-035: 0.875rem;
   --spacing-3: 0.75rem;
-  --spacing-025: 0.625rem;
   --spacing-2: 0.5rem;
-  --spacing-015: 0.375rem;
   --spacing-1: 0.25rem;
-  --spacing-px: 0.0625rem;
-  --spacing-050: 0.125rem;
   --spacing-0: 0rem;
 }

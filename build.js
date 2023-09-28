@@ -67,6 +67,7 @@ const getTokenLevel = (token) => {
 }
 
 StyleDictionary.registerFormat(require('./formats/typographyClasses'))
+StyleDictionary.registerFormat(require('./formats/nestedJsonWithCSSVars.js'))
 
 StyleDictionary.registerFormat({
   name: `docs`,
@@ -278,6 +279,17 @@ styleDictionary.extend({
           },
         },
       ]
+    },
+    json: {
+      transformGroup: "web",
+      buildPath: "dist/json/",
+      files: [
+        {
+          format: "custom/nestedJsonWithCSSVars",
+          destination: "nested.json"
+        }
+      ]
+
     },
     "docs": {
       transformGroup: "custom/json",

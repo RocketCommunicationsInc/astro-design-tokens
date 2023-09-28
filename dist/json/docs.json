@@ -2,37 +2,16 @@
   {
     "name": "spacing-0",
     "value": "0rem",
+    "property": "0",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-050",
-    "value": "0.125rem",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "base-spacing-unit",
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-px",
-    "value": "0.0625rem",
-    "category": "spacing",
-    "component": null,
     "tokenLevel": "reference"
   },
   {
     "name": "spacing-1",
     "value": "0.25rem",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "base-spacing-unit",
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-015",
-    "value": "0.375rem",
+    "property": "1",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -41,14 +20,7 @@
   {
     "name": "spacing-2",
     "value": "0.5rem",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "base-spacing-unit",
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-025",
-    "value": "0.625rem",
+    "property": "2",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -57,14 +29,7 @@
   {
     "name": "spacing-3",
     "value": "0.75rem",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "base-spacing-unit",
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-035",
-    "value": "0.875rem",
+    "property": "3",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -73,6 +38,7 @@
   {
     "name": "spacing-4",
     "value": "1rem",
+    "property": "4",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -81,6 +47,7 @@
   {
     "name": "spacing-5",
     "value": "1.25rem",
+    "property": "5",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -89,6 +56,7 @@
   {
     "name": "spacing-6",
     "value": "1.5rem",
+    "property": "6",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -97,6 +65,7 @@
   {
     "name": "spacing-7",
     "value": "1.75rem",
+    "property": "7",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -105,6 +74,7 @@
   {
     "name": "spacing-8",
     "value": "2rem",
+    "property": "8",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -113,6 +83,7 @@
   {
     "name": "spacing-9",
     "value": "2.25rem",
+    "property": "9",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -121,6 +92,7 @@
   {
     "name": "spacing-10",
     "value": "2.5rem",
+    "property": "10",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -129,6 +101,7 @@
   {
     "name": "spacing-11",
     "value": "2.75rem",
+    "property": "11",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -137,6 +110,7 @@
   {
     "name": "spacing-12",
     "value": "3rem",
+    "property": "12",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -145,6 +119,7 @@
   {
     "name": "spacing-14",
     "value": "3.5rem",
+    "property": "14",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -153,6 +128,7 @@
   {
     "name": "spacing-16",
     "value": "4rem",
+    "property": "16",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -161,6 +137,7 @@
   {
     "name": "spacing-20",
     "value": "5rem",
+    "property": "20",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -169,6 +146,7 @@
   {
     "name": "spacing-24",
     "value": "6rem",
+    "property": "24",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -177,6 +155,7 @@
   {
     "name": "spacing-28",
     "value": "7rem",
+    "property": "28",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -185,6 +164,7 @@
   {
     "name": "spacing-32",
     "value": "8rem",
+    "property": "32",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -193,6 +173,7 @@
   {
     "name": "spacing-36",
     "value": "9rem",
+    "property": "36",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -201,14 +182,7 @@
   {
     "name": "spacing-40",
     "value": "10rem",
-    "category": "spacing",
-    "component": null,
-    "referenceToken": "base-spacing-unit",
-    "tokenLevel": "reference"
-  },
-  {
-    "name": "spacing-48",
-    "value": "12rem",
+    "property": "40",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -217,6 +191,16 @@
   {
     "name": "spacing-44",
     "value": "11rem",
+    "property": "44",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "base-spacing-unit",
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-48",
+    "value": "12rem",
+    "property": "48",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -225,6 +209,7 @@
   {
     "name": "spacing-52",
     "value": "13rem",
+    "property": "52",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -233,6 +218,7 @@
   {
     "name": "spacing-56",
     "value": "14rem",
+    "property": "56",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -241,6 +227,7 @@
   {
     "name": "spacing-60",
     "value": "15rem",
+    "property": "60",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -249,6 +236,7 @@
   {
     "name": "spacing-64",
     "value": "16rem",
+    "property": "64",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -257,6 +245,7 @@
   {
     "name": "spacing-72",
     "value": "18rem",
+    "property": "72",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -265,6 +254,7 @@
   {
     "name": "spacing-80",
     "value": "20rem",
+    "property": "80",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
@@ -273,6 +263,51 @@
   {
     "name": "spacing-96",
     "value": "24rem",
+    "property": "96",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "base-spacing-unit",
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-050",
+    "value": "0.125rem",
+    "property": "050",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "base-spacing-unit",
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-px",
+    "value": "0.0625rem",
+    "property": "px",
+    "category": "spacing",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-015",
+    "value": "0.375rem",
+    "property": "015",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "base-spacing-unit",
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-025",
+    "value": "0.625rem",
+    "property": "025",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "base-spacing-unit",
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "spacing-035",
+    "value": "0.875rem",
+    "property": "035",
     "category": "spacing",
     "component": null,
     "referenceToken": "base-spacing-unit",
