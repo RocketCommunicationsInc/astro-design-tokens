@@ -503,5 +503,15 @@
     "component": null,
     "referenceToken": "font-size-5xl",
     "tokenLevel": "reference"
+  },
+  {
+    "name": "icon-size-6xl",
+    "value": "2.25rem",
+    "description": "Pair with `font-size-6xl`",
+    "property": "size",
+    "category": "dimension",
+    "component": null,
+    "referenceToken": "font-size-6xl",
+    "tokenLevel": "reference"
   }
 ]

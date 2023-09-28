@@ -319,6 +319,12 @@
         "type": "dimension",
         "description": "Pair with `font-size-5xl`",
         "rawValue": "{font-size-5xl}"
+      },
+      "6xl": {
+        "value": 36,
+        "type": "dimension",
+        "description": "Pair with `font-size-6xl`",
+        "rawValue": "{font-size-6xl}"
       }
     }
   }

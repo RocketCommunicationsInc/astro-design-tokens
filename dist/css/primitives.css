@@ -1,4 +1,5 @@
 :where(:root) {
+  --icon-size-6xl: 2.25rem;
   --icon-size-5xl: 2rem;
   --icon-size-4xl: 1.8125rem;
   --icon-size-3xl: 1.625rem;
