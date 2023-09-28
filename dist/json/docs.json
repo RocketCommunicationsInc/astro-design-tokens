@@ -330,6 +330,7 @@
   {
     "name": "font-size-xs",
     "value": "0.8125rem",
+    "property": "xs",
     "category": "fontSizes",
     "component": null,
     "referenceToken": "base-font-unit",
@@ -338,6 +339,7 @@
   {
     "name": "font-size-sm",
     "value": "0.875rem",
+    "property": "sm",
     "category": "fontSizes",
     "component": null,
     "referenceToken": "base-font-unit",
@@ -346,6 +348,7 @@
   {
     "name": "font-size-base",
     "value": "1rem",
+    "property": "base",
     "category": "fontSizes",
     "component": null,
     "referenceToken": "base-font-unit",
@@ -354,6 +357,7 @@
   {
     "name": "font-size-lg",
     "value": "1.125rem",
+    "property": "lg",
     "category": "fontSizes",
     "component": null,
     "referenceToken": "base-font-unit",
@@ -362,6 +366,7 @@
   {
     "name": "font-size-xl",
     "value": "1.25rem",
+    "property": "xl",
     "category": "fontSizes",
     "component": null,
     "referenceToken": "base-font-unit",
@@ -370,6 +375,7 @@
   {
     "name": "font-size-2xl",
     "value": "1.4375rem",
+    "property": "2xl",
     "category": "fontSizes",
     "component": null,
     "referenceToken": "base-font-unit",
@@ -378,6 +384,7 @@
   {
     "name": "font-size-3xl",
     "value": "1.625rem",
+    "property": "3xl",
     "category": "fontSizes",
     "component": null,
     "referenceToken": "base-font-unit",
@@ -386,6 +393,7 @@
   {
     "name": "font-size-4xl",
     "value": "1.8125rem",
+    "property": "4xl",
     "category": "fontSizes",
     "component": null,
     "referenceToken": "base-font-unit",
@@ -394,6 +402,7 @@
   {
     "name": "font-size-5xl",
     "value": "2rem",
+    "property": "5xl",
     "category": "fontSizes",
     "component": null,
     "referenceToken": "base-font-unit",
@@ -402,6 +411,7 @@
   {
     "name": "font-size-6xl",
     "value": "2.25rem",
+    "property": "6xl",
     "category": "fontSizes",
     "component": null,
     "referenceToken": "base-font-unit",
@@ -417,6 +427,7 @@
   {
     "name": "line-height-normal",
     "value": 1.5,
+    "property": "normal",
     "category": "lineHeights",
     "component": null,
     "tokenLevel": "reference"
@@ -424,6 +435,7 @@
   {
     "name": "line-height-tight",
     "value": 1.25,
+    "property": "tight",
     "category": "lineHeights",
     "component": null,
     "tokenLevel": "reference"
@@ -431,6 +443,7 @@
   {
     "name": "line-height-relaxed",
     "value": 1.625,
+    "property": "relaxed",
     "category": "lineHeights",
     "component": null,
     "tokenLevel": "reference"
@@ -438,6 +451,7 @@
   {
     "name": "line-height-loose",
     "value": 2,
+    "property": "loose",
     "category": "lineHeights",
     "component": null,
     "tokenLevel": "reference"
@@ -445,6 +459,7 @@
   {
     "name": "line-height-none",
     "value": 1,
+    "property": "none",
     "category": "lineHeights",
     "component": null,
     "tokenLevel": "reference"
