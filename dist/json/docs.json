@@ -415,6 +415,106 @@
     "tokenLevel": "reference"
   },
   {
+    "name": "icon-gap-xs",
+    "value": "0.25rem",
+    "description": "Pair with `font-size-xs`",
+    "property": "gap",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "icon-gap-sm",
+    "value": "0.25rem",
+    "description": "Pair with `font-size-sm`",
+    "property": "gap",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-1",
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "icon-gap-base",
+    "value": "0.375rem",
+    "description": "Pair with `font-size-base`",
+    "property": "gap",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-015",
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "icon-gap-lg",
+    "value": "0.375rem",
+    "description": "Pair with `font-size-lg`",
+    "property": "gap",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-015",
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "icon-gap-xl",
+    "value": "0.5rem",
+    "description": "Pair with `font-size-xl`",
+    "property": "gap",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "icon-gap-2xl",
+    "value": "0.5rem",
+    "description": "Pair with `font-size-2xl`",
+    "property": "gap",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-2",
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "icon-gap-3xl",
+    "value": "0.625rem",
+    "description": "Pair with `font-size-3xl`",
+    "property": "gap",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-025",
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "icon-gap-4xl",
+    "value": "0.625rem",
+    "description": "Pair with `font-size-4xl`",
+    "property": "gap",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-025",
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "icon-gap-5xl",
+    "value": "0.75rem",
+    "description": "Pair with `font-size-5xl`",
+    "property": "gap",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "icon-gap-6xl",
+    "value": "0.75rem",
+    "description": "Pair with `font-size-6xl`",
+    "property": "gap",
+    "category": "spacing",
+    "component": null,
+    "referenceToken": "spacing-3",
+    "tokenLevel": "reference"
+  },
+  {
     "name": "icon-size-xs",
     "value": "0.8125rem",
     "description": "Pair with `font-size-xs`",

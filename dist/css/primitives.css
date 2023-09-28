@@ -9,6 +9,16 @@
   --icon-size-base: 1rem;
   --icon-size-sm: 0.875rem;
   --icon-size-xs: 0.8125rem;
+  --icon-gap-6xl: 0.75rem;
+  --icon-gap-5xl: 0.75rem;
+  --icon-gap-4xl: 0.625rem;
+  --icon-gap-3xl: 0.625rem;
+  --icon-gap-2xl: 0.5rem;
+  --icon-gap-xl: 0.5rem;
+  --icon-gap-lg: 0.375rem;
+  --icon-gap-base: 0.375rem;
+  --icon-gap-sm: 0.25rem;
+  --icon-gap-xs: 0.25rem;
   --line-height-none: 1;
   --line-height-loose: 2;
   --line-height-relaxed: 1.625;

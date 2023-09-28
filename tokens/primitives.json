@@ -265,6 +265,68 @@
     "rawValue": "1"
   },
   "icon": {
+    "gap": {
+      "xs": {
+        "value": "4px",
+        "type": "spacing",
+        "description": "Pair with `font-size-xs`",
+        "rawValue": "{spacing-1}"
+      },
+      "sm": {
+        "value": "4px",
+        "type": "spacing",
+        "description": "Pair with `font-size-sm`",
+        "rawValue": "{spacing-1}"
+      },
+      "base": {
+        "value": "6px",
+        "type": "spacing",
+        "description": "Pair with `font-size-base`",
+        "rawValue": "{spacing-015}"
+      },
+      "lg": {
+        "value": "6px",
+        "type": "spacing",
+        "description": "Pair with `font-size-lg`",
+        "rawValue": "{spacing-015}"
+      },
+      "xl": {
+        "value": "8px",
+        "type": "spacing",
+        "description": "Pair with `font-size-xl`",
+        "rawValue": "{spacing-2}"
+      },
+      "2xl": {
+        "value": "8px",
+        "type": "spacing",
+        "description": "Pair with `font-size-2xl`",
+        "rawValue": "{spacing-2}"
+      },
+      "3xl": {
+        "value": "10px",
+        "type": "spacing",
+        "description": "Pair with `font-size-3xl`",
+        "rawValue": "{spacing-025}"
+      },
+      "4xl": {
+        "value": "10px",
+        "type": "spacing",
+        "description": "Pair with `font-size-4xl`",
+        "rawValue": "{spacing-025}"
+      },
+      "5xl": {
+        "value": "12px",
+        "type": "spacing",
+        "description": "Pair with `font-size-5xl`",
+        "rawValue": "{spacing-3}"
+      },
+      "6xl": {
+        "value": "12px",
+        "type": "spacing",
+        "description": "Pair with `font-size-6xl`",
+        "rawValue": "{spacing-3}"
+      }
+    },
     "size": {
       "xs": {
         "value": 13,
