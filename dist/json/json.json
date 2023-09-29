@@ -1,4 +1,2217 @@
 {
+  "color": {
+    "interactive": {
+      "value": "#4dacff",
+      "type": "color",
+      "description": "Primary color used for the backgrounds of interactive elements",
+      "rawValue": "#4dacff",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "#4dacff",
+        "type": "color",
+        "description": "Primary color used for the backgrounds of interactive elements",
+        "rawValue": "{color.brightblue.500}"
+      },
+      "name": "color-interactive",
+      "attributes": {
+        "category": "color",
+        "type": "interactive"
+      },
+      "path": [
+        "color",
+        "interactive"
+      ]
+    },
+    "base": {
+      "value": "#101923",
+      "type": "color",
+      "description": "Background color of base elements, like the app or popup menus",
+      "rawValue": "#101923",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "#101923",
+        "type": "color",
+        "description": "Background color of base elements, like the app or popup menus",
+        "rawValue": "{color.brightblue.900}"
+      },
+      "name": "color-base",
+      "attributes": {
+        "category": "color",
+        "type": "base"
+      },
+      "path": [
+        "color",
+        "base"
+      ]
+    },
+    "header": {
+      "value": "#172635",
+      "type": "color",
+      "description": "Background color for the header of base elements",
+      "rawValue": "#172635",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "#172635",
+        "type": "color",
+        "description": "Background color for the header of base elements",
+        "rawValue": "{color.darkblue.900}"
+      },
+      "name": "color-header",
+      "attributes": {
+        "category": "color",
+        "type": "header"
+      },
+      "path": [
+        "color",
+        "header"
+      ]
+    },
+    "surface": {
+      "value": "#1b2d3e",
+      "type": "color",
+      "description": "Background color of surface elements, like panels or dialogs",
+      "rawValue": "#1b2d3e",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "#1b2d3e",
+        "type": "color",
+        "description": "Background color of surface elements, like panels or dialogs",
+        "rawValue": "{color.darkblue.800}"
+      },
+      "name": "color-surface",
+      "attributes": {
+        "category": "color",
+        "type": "surface"
+      },
+      "path": [
+        "color",
+        "surface"
+      ]
+    },
+    "muted": {
+      "value": "#2b659b",
+      "type": "color",
+      "description": "Muted version of the primary color used for the background of interactive elements that don't need to be as strong as the primary color",
+      "rawValue": "#2b659b",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "#2b659b",
+        "type": "color",
+        "description": "Muted version of the primary color used for the background of interactive elements that don't need to be as strong as the primary color",
+        "rawValue": "{color.brightblue.700}"
+      },
+      "name": "color-muted",
+      "attributes": {
+        "category": "color",
+        "type": "muted"
+      },
+      "path": [
+        "color",
+        "muted"
+      ]
+    },
+    "selected": {
+      "value": "#1c3f5e",
+      "type": "color",
+      "description": "Background color of surface elements, like cards or table rows, when they are selected",
+      "rawValue": "#1c3f5e",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "#1c3f5e",
+        "type": "color",
+        "description": "Background color of surface elements, like cards or table rows, when they are selected",
+        "rawValue": "{color.darkblue.700}"
+      },
+      "name": "color-selected",
+      "attributes": {
+        "category": "color",
+        "type": "selected"
+      },
+      "path": [
+        "color",
+        "selected"
+      ]
+    },
+    "darkblue": {
+      "100": {
+        "value": "#cbdee9",
+        "type": "color",
+        "rawValue": "#cbdee9",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#cbdee9",
+          "type": "color",
+          "rawValue": "#cbdee9"
+        },
+        "name": "color-darkblue-100",
+        "attributes": {
+          "category": "color",
+          "type": "darkblue",
+          "item": "100"
+        },
+        "path": [
+          "color",
+          "darkblue",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#98bdd3",
+        "type": "color",
+        "rawValue": "#98bdd3",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#98bdd3",
+          "type": "color",
+          "rawValue": "#98bdd3"
+        },
+        "name": "color-darkblue-200",
+        "attributes": {
+          "category": "color",
+          "type": "darkblue",
+          "item": "200"
+        },
+        "path": [
+          "color",
+          "darkblue",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#649cbd",
+        "type": "color",
+        "rawValue": "#649cbd",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#649cbd",
+          "type": "color",
+          "rawValue": "#649cbd"
+        },
+        "name": "color-darkblue-300",
+        "attributes": {
+          "category": "color",
+          "type": "darkblue",
+          "item": "300"
+        },
+        "path": [
+          "color",
+          "darkblue",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#2f7aa7",
+        "type": "color",
+        "rawValue": "#2f7aa7",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#2f7aa7",
+          "type": "color",
+          "rawValue": "#2f7aa7"
+        },
+        "name": "color-darkblue-400",
+        "attributes": {
+          "category": "color",
+          "type": "darkblue",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "darkblue",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#005a8f",
+        "type": "color",
+        "rawValue": "#005a8f",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#005a8f",
+          "type": "color",
+          "rawValue": "#005a8f"
+        },
+        "name": "color-darkblue-500",
+        "attributes": {
+          "category": "color",
+          "type": "darkblue",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "darkblue",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#004872",
+        "type": "color",
+        "rawValue": "#004872",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#004872",
+          "type": "color",
+          "rawValue": "#004872"
+        },
+        "name": "color-darkblue-600",
+        "attributes": {
+          "category": "color",
+          "type": "darkblue",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "darkblue",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#1c3f5e",
+        "type": "color",
+        "rawValue": "#1c3f5e",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#1c3f5e",
+          "type": "color",
+          "rawValue": "#1c3f5e"
+        },
+        "name": "color-darkblue-700",
+        "attributes": {
+          "category": "color",
+          "type": "darkblue",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "darkblue",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#1b2d3e",
+        "type": "color",
+        "rawValue": "#1b2d3e",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#1b2d3e",
+          "type": "color",
+          "rawValue": "#1b2d3e"
+        },
+        "name": "color-darkblue-800",
+        "attributes": {
+          "category": "color",
+          "type": "darkblue",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "darkblue",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#172635",
+        "type": "color",
+        "rawValue": "#172635",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#172635",
+          "type": "color",
+          "rawValue": "#172635"
+        },
+        "name": "color-darkblue-900",
+        "attributes": {
+          "category": "color",
+          "type": "darkblue",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "darkblue",
+          "900"
+        ]
+      },
+      "950": {
+        "value": "#080c11",
+        "type": "color",
+        "rawValue": "#080c11",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#080c11",
+          "type": "color",
+          "rawValue": "#080c11"
+        },
+        "name": "color-darkblue-950",
+        "attributes": {
+          "category": "color",
+          "type": "darkblue",
+          "item": "950"
+        },
+        "path": [
+          "color",
+          "darkblue",
+          "950"
+        ]
+      }
+    },
+    "brightblue": {
+      "100": {
+        "value": "#daeeff",
+        "type": "color",
+        "rawValue": "#daeeff",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#daeeff",
+          "type": "color",
+          "rawValue": "#daeeff"
+        },
+        "name": "color-brightblue-100",
+        "attributes": {
+          "category": "color",
+          "type": "brightblue",
+          "item": "100"
+        },
+        "path": [
+          "color",
+          "brightblue",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#cee9fc",
+        "type": "color",
+        "rawValue": "#cee9fc",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#cee9fc",
+          "type": "color",
+          "rawValue": "#cee9fc"
+        },
+        "name": "color-brightblue-200",
+        "attributes": {
+          "category": "color",
+          "type": "brightblue",
+          "item": "200"
+        },
+        "path": [
+          "color",
+          "brightblue",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#b7dcff",
+        "type": "color",
+        "rawValue": "#b7dcff",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#b7dcff",
+          "type": "color",
+          "rawValue": "#b7dcff"
+        },
+        "name": "color-brightblue-300",
+        "attributes": {
+          "category": "color",
+          "type": "brightblue",
+          "item": "300"
+        },
+        "path": [
+          "color",
+          "brightblue",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#92cbff",
+        "type": "color",
+        "rawValue": "#92cbff",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#92cbff",
+          "type": "color",
+          "rawValue": "#92cbff"
+        },
+        "name": "color-brightblue-400",
+        "attributes": {
+          "category": "color",
+          "type": "brightblue",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "brightblue",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#4dacff",
+        "type": "color",
+        "rawValue": "#4dacff",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#4dacff",
+          "type": "color",
+          "rawValue": "#4dacff"
+        },
+        "name": "color-brightblue-500",
+        "attributes": {
+          "category": "color",
+          "type": "brightblue",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "brightblue",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#3a87cf",
+        "type": "color",
+        "rawValue": "#3a87cf",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#3a87cf",
+          "type": "color",
+          "rawValue": "#3a87cf"
+        },
+        "name": "color-brightblue-600",
+        "attributes": {
+          "category": "color",
+          "type": "brightblue",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "brightblue",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#2b659b",
+        "type": "color",
+        "rawValue": "#2b659b",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#2b659b",
+          "type": "color",
+          "rawValue": "#2b659b"
+        },
+        "name": "color-brightblue-700",
+        "attributes": {
+          "category": "color",
+          "type": "brightblue",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "brightblue",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#1c3851",
+        "type": "color",
+        "rawValue": "#1c3851",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#1c3851",
+          "type": "color",
+          "rawValue": "#1c3851"
+        },
+        "name": "color-brightblue-800",
+        "attributes": {
+          "category": "color",
+          "type": "brightblue",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "brightblue",
+          "800"
+        ]
+      },
+      "850": {
+        "value": "#142435",
+        "type": "color",
+        "rawValue": "#142435",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#142435",
+          "type": "color",
+          "rawValue": "#142435"
+        },
+        "name": "color-brightblue-850",
+        "attributes": {
+          "category": "color",
+          "type": "brightblue",
+          "item": "850"
+        },
+        "path": [
+          "color",
+          "brightblue",
+          "850"
+        ]
+      },
+      "900": {
+        "value": "#101923",
+        "type": "color",
+        "rawValue": "#101923",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#101923",
+          "type": "color",
+          "rawValue": "#101923"
+        },
+        "name": "color-brightblue-900",
+        "attributes": {
+          "category": "color",
+          "type": "brightblue",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "brightblue",
+          "900"
+        ]
+      }
+    },
+    "grey": {
+      "100": {
+        "value": "#f5f6f9",
+        "type": "color",
+        "rawValue": "#f5f6f9",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#f5f6f9",
+          "type": "color",
+          "rawValue": "#f5f6f9"
+        },
+        "name": "color-grey-100",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "100"
+        },
+        "path": [
+          "color",
+          "grey",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#eaeef4",
+        "type": "color",
+        "rawValue": "#eaeef4",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#eaeef4",
+          "type": "color",
+          "rawValue": "#eaeef4"
+        },
+        "name": "color-grey-200",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "200"
+        },
+        "path": [
+          "color",
+          "grey",
+          "200"
+        ]
+      },
+      "250": {
+        "value": "#e0e5eb",
+        "type": "color",
+        "rawValue": "#e0e5eb",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#e0e5eb",
+          "type": "color",
+          "rawValue": "#e0e5eb"
+        },
+        "name": "color-grey-250",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "250"
+        },
+        "path": [
+          "color",
+          "grey",
+          "250"
+        ]
+      },
+      "300": {
+        "value": "#d4d8dd",
+        "type": "color",
+        "rawValue": "#d4d8dd",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#d4d8dd",
+          "type": "color",
+          "rawValue": "#d4d8dd"
+        },
+        "name": "color-grey-300",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "300"
+        },
+        "path": [
+          "color",
+          "grey",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#bbc1c9",
+        "type": "color",
+        "rawValue": "#bbc1c9",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#bbc1c9",
+          "type": "color",
+          "rawValue": "#bbc1c9"
+        },
+        "name": "color-grey-400",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "grey",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#a4abb6",
+        "type": "color",
+        "rawValue": "#a4abb6",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#a4abb6",
+          "type": "color",
+          "rawValue": "#a4abb6"
+        },
+        "name": "color-grey-500",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "grey",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#7b8089",
+        "type": "color",
+        "rawValue": "#7b8089",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#7b8089",
+          "type": "color",
+          "rawValue": "#7b8089"
+        },
+        "name": "color-grey-600",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "grey",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#51555b",
+        "type": "color",
+        "rawValue": "#51555b",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#51555b",
+          "type": "color",
+          "rawValue": "#51555b"
+        },
+        "name": "color-grey-700",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "grey",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#3c3e42",
+        "type": "color",
+        "rawValue": "#3c3e42",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#3c3e42",
+          "type": "color",
+          "rawValue": "#3c3e42"
+        },
+        "name": "color-grey-800",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "grey",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#292a2d",
+        "type": "color",
+        "rawValue": "#292a2d",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#292a2d",
+          "type": "color",
+          "rawValue": "#292a2d"
+        },
+        "name": "color-grey-900",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "grey",
+          "900"
+        ]
+      }
+    },
+    "red": {
+      "400": {
+        "value": "#ff5f60",
+        "type": "color",
+        "rawValue": "#ff5f60",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#ff5f60",
+          "type": "color",
+          "rawValue": "#ff5f60"
+        },
+        "name": "color-red-400",
+        "attributes": {
+          "category": "color",
+          "type": "red",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "red",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#ff3838",
+        "type": "color",
+        "rawValue": "#ff3838",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#ff3838",
+          "type": "color",
+          "rawValue": "#ff3838"
+        },
+        "name": "color-red-500",
+        "attributes": {
+          "category": "color",
+          "type": "red",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "red",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#ff2a04",
+        "type": "color",
+        "rawValue": "#ff2a04",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#ff2a04",
+          "type": "color",
+          "rawValue": "#ff2a04"
+        },
+        "name": "color-red-600",
+        "attributes": {
+          "category": "color",
+          "type": "red",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "red",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#c8102e",
+        "type": "color",
+        "rawValue": "#c8102e",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#c8102e",
+          "type": "color",
+          "rawValue": "#c8102e"
+        },
+        "name": "color-red-700",
+        "attributes": {
+          "category": "color",
+          "type": "red",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "red",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#8b1703",
+        "type": "color",
+        "rawValue": "#8b1703",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#8b1703",
+          "type": "color",
+          "rawValue": "#8b1703"
+        },
+        "name": "color-red-800",
+        "attributes": {
+          "category": "color",
+          "type": "red",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "red",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#661102",
+        "type": "color",
+        "rawValue": "#661102",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#661102",
+          "type": "color",
+          "rawValue": "#661102"
+        },
+        "name": "color-red-900",
+        "attributes": {
+          "category": "color",
+          "type": "red",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "red",
+          "900"
+        ]
+      }
+    },
+    "orange": {
+      "400": {
+        "value": "#ffcc57",
+        "type": "color",
+        "rawValue": "#ffcc57",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#ffcc57",
+          "type": "color",
+          "rawValue": "#ffcc57"
+        },
+        "name": "color-orange-400",
+        "attributes": {
+          "category": "color",
+          "type": "orange",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "orange",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#ffb302",
+        "type": "color",
+        "rawValue": "#ffb302",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#ffb302",
+          "type": "color",
+          "rawValue": "#ffb302"
+        },
+        "name": "color-orange-500",
+        "attributes": {
+          "category": "color",
+          "type": "orange",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "orange",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#ffaf3d",
+        "type": "color",
+        "rawValue": "#ffaf3d",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#ffaf3d",
+          "type": "color",
+          "rawValue": "#ffaf3d"
+        },
+        "name": "color-orange-600",
+        "attributes": {
+          "category": "color",
+          "type": "orange",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "orange",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#ff8c00",
+        "type": "color",
+        "rawValue": "#ff8c00",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#ff8c00",
+          "type": "color",
+          "rawValue": "#ff8c00"
+        },
+        "name": "color-orange-700",
+        "attributes": {
+          "category": "color",
+          "type": "orange",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "orange",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#975f0e",
+        "type": "color",
+        "rawValue": "#975f0e",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#975f0e",
+          "type": "color",
+          "rawValue": "#975f0e"
+        },
+        "name": "color-orange-800",
+        "attributes": {
+          "category": "color",
+          "type": "orange",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "orange",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#664618",
+        "type": "color",
+        "rawValue": "#664618",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#664618",
+          "type": "color",
+          "rawValue": "#664618"
+        },
+        "name": "color-orange-900",
+        "attributes": {
+          "category": "color",
+          "type": "orange",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "orange",
+          "900"
+        ]
+      }
+    },
+    "yellow": {
+      "400": {
+        "value": "#fded61",
+        "type": "color",
+        "rawValue": "#fded61",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#fded61",
+          "type": "color",
+          "rawValue": "#fded61"
+        },
+        "name": "color-yellow-400",
+        "attributes": {
+          "category": "color",
+          "type": "yellow",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "yellow",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#fce83a",
+        "type": "color",
+        "rawValue": "#fce83a",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#fce83a",
+          "type": "color",
+          "rawValue": "#fce83a"
+        },
+        "name": "color-yellow-500",
+        "attributes": {
+          "category": "color",
+          "type": "yellow",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "yellow",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#fad800",
+        "type": "color",
+        "rawValue": "#fad800",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#fad800",
+          "type": "color",
+          "rawValue": "#fad800"
+        },
+        "name": "color-yellow-600",
+        "attributes": {
+          "category": "color",
+          "type": "yellow",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "yellow",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#c7ab00",
+        "type": "color",
+        "rawValue": "#c7ab00",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#c7ab00",
+          "type": "color",
+          "rawValue": "#c7ab00"
+        },
+        "name": "color-yellow-700",
+        "attributes": {
+          "category": "color",
+          "type": "yellow",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "yellow",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#917d01",
+        "type": "color",
+        "rawValue": "#917d01",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#917d01",
+          "type": "color",
+          "rawValue": "#917d01"
+        },
+        "name": "color-yellow-800",
+        "attributes": {
+          "category": "color",
+          "type": "yellow",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "yellow",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#645600",
+        "type": "color",
+        "rawValue": "#645600",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#645600",
+          "type": "color",
+          "rawValue": "#645600"
+        },
+        "name": "color-yellow-900",
+        "attributes": {
+          "category": "color",
+          "type": "yellow",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "yellow",
+          "900"
+        ]
+      }
+    },
+    "green": {
+      "400": {
+        "value": "#99f666",
+        "type": "color",
+        "rawValue": "#99f666",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#99f666",
+          "type": "color",
+          "rawValue": "#99f666"
+        },
+        "name": "color-green-400",
+        "attributes": {
+          "category": "color",
+          "type": "green",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "green",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#56f000",
+        "type": "color",
+        "rawValue": "#56f000",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#56f000",
+          "type": "color",
+          "rawValue": "#56f000"
+        },
+        "name": "color-green-500",
+        "attributes": {
+          "category": "color",
+          "type": "green",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "green",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#00e200",
+        "type": "color",
+        "rawValue": "#00e200",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#00e200",
+          "type": "color",
+          "rawValue": "#00e200"
+        },
+        "name": "color-green-600",
+        "attributes": {
+          "category": "color",
+          "type": "green",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "green",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#00ad23",
+        "type": "color",
+        "rawValue": "#00ad23",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#00ad23",
+          "type": "color",
+          "rawValue": "#00ad23"
+        },
+        "name": "color-green-700",
+        "attributes": {
+          "category": "color",
+          "type": "green",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "green",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#007a33",
+        "type": "color",
+        "rawValue": "#007a33",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#007a33",
+          "type": "color",
+          "rawValue": "#007a33"
+        },
+        "name": "color-green-800",
+        "attributes": {
+          "category": "color",
+          "type": "green",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "green",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#005a00",
+        "type": "color",
+        "rawValue": "#005a00",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#005a00",
+          "type": "color",
+          "rawValue": "#005a00"
+        },
+        "name": "color-green-900",
+        "attributes": {
+          "category": "color",
+          "type": "green",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "green",
+          "900"
+        ]
+      }
+    },
+    "cyan": {
+      "400": {
+        "value": "#5ce2ff",
+        "type": "color",
+        "rawValue": "#5ce2ff",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#5ce2ff",
+          "type": "color",
+          "rawValue": "#5ce2ff"
+        },
+        "name": "color-cyan-400",
+        "attributes": {
+          "category": "color",
+          "type": "cyan",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "cyan",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#64d9ff",
+        "type": "color",
+        "rawValue": "#64d9ff",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#64d9ff",
+          "type": "color",
+          "rawValue": "#64d9ff"
+        },
+        "name": "color-cyan-500",
+        "attributes": {
+          "category": "color",
+          "type": "cyan",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "cyan",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#2dccff",
+        "type": "color",
+        "rawValue": "#2dccff",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#2dccff",
+          "type": "color",
+          "rawValue": "#2dccff"
+        },
+        "name": "color-cyan-600",
+        "attributes": {
+          "category": "color",
+          "type": "cyan",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "cyan",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#20a9d5",
+        "type": "color",
+        "rawValue": "#20a9d5",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#20a9d5",
+          "type": "color",
+          "rawValue": "#20a9d5"
+        },
+        "name": "color-cyan-700",
+        "attributes": {
+          "category": "color",
+          "type": "cyan",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "cyan",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#35798e",
+        "type": "color",
+        "rawValue": "#35798e",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#35798e",
+          "type": "color",
+          "rawValue": "#35798e"
+        },
+        "name": "color-cyan-800",
+        "attributes": {
+          "category": "color",
+          "type": "cyan",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "cyan",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#285766",
+        "type": "color",
+        "rawValue": "#285766",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#285766",
+          "type": "color",
+          "rawValue": "#285766"
+        },
+        "name": "color-cyan-900",
+        "attributes": {
+          "category": "color",
+          "type": "cyan",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "cyan",
+          "900"
+        ]
+      }
+    },
+    "violet": {
+      "800": {
+        "value": "#502b85",
+        "type": "color",
+        "rawValue": "#502b85",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#502b85",
+          "type": "color",
+          "rawValue": "#502b85"
+        },
+        "name": "color-violet-800",
+        "attributes": {
+          "category": "color",
+          "type": "violet",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "violet",
+          "800"
+        ]
+      }
+    },
+    "blue": {
+      "800": {
+        "value": "#0033a0",
+        "type": "color",
+        "rawValue": "#0033a0",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#0033a0",
+          "type": "color",
+          "rawValue": "#0033a0"
+        },
+        "name": "color-blue-800",
+        "attributes": {
+          "category": "color",
+          "type": "blue",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "blue",
+          "800"
+        ]
+      }
+    },
+    "teal": {
+      "100": {
+        "value": "#d0f4f4",
+        "type": "color",
+        "rawValue": "#d0f4f4",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#d0f4f4",
+          "type": "color",
+          "rawValue": "#d0f4f4"
+        },
+        "name": "color-teal-100",
+        "attributes": {
+          "category": "color",
+          "type": "teal",
+          "item": "100"
+        },
+        "path": [
+          "color",
+          "teal",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#a1e9eb",
+        "type": "color",
+        "rawValue": "#a1e9eb",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#a1e9eb",
+          "type": "color",
+          "rawValue": "#a1e9eb"
+        },
+        "name": "color-teal-200",
+        "attributes": {
+          "category": "color",
+          "type": "teal",
+          "item": "200"
+        },
+        "path": [
+          "color",
+          "teal",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#70dde0",
+        "type": "color",
+        "rawValue": "#70dde0",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#70dde0",
+          "type": "color",
+          "rawValue": "#70dde0"
+        },
+        "name": "color-teal-300",
+        "attributes": {
+          "category": "color",
+          "type": "teal",
+          "item": "300"
+        },
+        "path": [
+          "color",
+          "teal",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#3ed2d6",
+        "type": "color",
+        "rawValue": "#3ed2d6",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#3ed2d6",
+          "type": "color",
+          "rawValue": "#3ed2d6"
+        },
+        "name": "color-teal-400",
+        "attributes": {
+          "category": "color",
+          "type": "teal",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "teal",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#00c7cb",
+        "type": "color",
+        "rawValue": "#00c7cb",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#00c7cb",
+          "type": "color",
+          "rawValue": "#00c7cb"
+        },
+        "name": "color-teal-500",
+        "attributes": {
+          "category": "color",
+          "type": "teal",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "teal",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#009fa3",
+        "type": "color",
+        "rawValue": "#009fa3",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#009fa3",
+          "type": "color",
+          "rawValue": "#009fa3"
+        },
+        "name": "color-teal-600",
+        "attributes": {
+          "category": "color",
+          "type": "teal",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "teal",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#00777a",
+        "type": "color",
+        "rawValue": "#00777a",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#00777a",
+          "type": "color",
+          "rawValue": "#00777a"
+        },
+        "name": "color-teal-700",
+        "attributes": {
+          "category": "color",
+          "type": "teal",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "teal",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#035051",
+        "type": "color",
+        "rawValue": "#035051",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#035051",
+          "type": "color",
+          "rawValue": "#035051"
+        },
+        "name": "color-teal-800",
+        "attributes": {
+          "category": "color",
+          "type": "teal",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "teal",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#032828",
+        "type": "color",
+        "rawValue": "#032828",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#032828",
+          "type": "color",
+          "rawValue": "#032828"
+        },
+        "name": "color-teal-900",
+        "attributes": {
+          "category": "color",
+          "type": "teal",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "teal",
+          "900"
+        ]
+      }
+    },
+    "purple": {
+      "100": {
+        "value": "#e4e2f7",
+        "type": "color",
+        "rawValue": "#e4e2f7",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#e4e2f7",
+          "type": "color",
+          "rawValue": "#e4e2f7"
+        },
+        "name": "color-purple-100",
+        "attributes": {
+          "category": "color",
+          "type": "purple",
+          "item": "100"
+        },
+        "path": [
+          "color",
+          "purple",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#c9c5ed",
+        "type": "color",
+        "rawValue": "#c9c5ed",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#c9c5ed",
+          "type": "color",
+          "rawValue": "#c9c5ed"
+        },
+        "name": "color-purple-200",
+        "attributes": {
+          "category": "color",
+          "type": "purple",
+          "item": "200"
+        },
+        "path": [
+          "color",
+          "purple",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#aea8e5",
+        "type": "color",
+        "rawValue": "#aea8e5",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#aea8e5",
+          "type": "color",
+          "rawValue": "#aea8e5"
+        },
+        "name": "color-purple-300",
+        "attributes": {
+          "category": "color",
+          "type": "purple",
+          "item": "300"
+        },
+        "path": [
+          "color",
+          "purple",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#938bdb",
+        "type": "color",
+        "rawValue": "#938bdb",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#938bdb",
+          "type": "color",
+          "rawValue": "#938bdb"
+        },
+        "name": "color-purple-400",
+        "attributes": {
+          "category": "color",
+          "type": "purple",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "purple",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#786dd3",
+        "type": "color",
+        "rawValue": "#786dd3",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#786dd3",
+          "type": "color",
+          "rawValue": "#786dd3"
+        },
+        "name": "color-purple-500",
+        "attributes": {
+          "category": "color",
+          "type": "purple",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "purple",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#6058a8",
+        "type": "color",
+        "rawValue": "#6058a8",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#6058a8",
+          "type": "color",
+          "rawValue": "#6058a8"
+        },
+        "name": "color-purple-600",
+        "attributes": {
+          "category": "color",
+          "type": "purple",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "purple",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#48417f",
+        "type": "color",
+        "rawValue": "#48417f",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#48417f",
+          "type": "color",
+          "rawValue": "#48417f"
+        },
+        "name": "color-purple-700",
+        "attributes": {
+          "category": "color",
+          "type": "purple",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "purple",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#302c54",
+        "type": "color",
+        "rawValue": "#302c54",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#302c54",
+          "type": "color",
+          "rawValue": "#302c54"
+        },
+        "name": "color-purple-800",
+        "attributes": {
+          "category": "color",
+          "type": "purple",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "purple",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#18152b",
+        "type": "color",
+        "rawValue": "#18152b",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#18152b",
+          "type": "color",
+          "rawValue": "#18152b"
+        },
+        "name": "color-purple-900",
+        "attributes": {
+          "category": "color",
+          "type": "purple",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "purple",
+          "900"
+        ]
+      }
+    },
+    "pink": {
+      "100": {
+        "value": "#edcef3",
+        "type": "color",
+        "rawValue": "#edcef3",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#edcef3",
+          "type": "color",
+          "rawValue": "#edcef3"
+        },
+        "name": "color-pink-100",
+        "attributes": {
+          "category": "color",
+          "type": "pink",
+          "item": "100"
+        },
+        "path": [
+          "color",
+          "pink",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#da9ce7",
+        "type": "color",
+        "rawValue": "#da9ce7",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#da9ce7",
+          "type": "color",
+          "rawValue": "#da9ce7"
+        },
+        "name": "color-pink-200",
+        "attributes": {
+          "category": "color",
+          "type": "pink",
+          "item": "200"
+        },
+        "path": [
+          "color",
+          "pink",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#c76ada",
+        "type": "color",
+        "rawValue": "#c76ada",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#c76ada",
+          "type": "color",
+          "rawValue": "#c76ada"
+        },
+        "name": "color-pink-300",
+        "attributes": {
+          "category": "color",
+          "type": "pink",
+          "item": "300"
+        },
+        "path": [
+          "color",
+          "pink",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#b534ce",
+        "type": "color",
+        "rawValue": "#b534ce",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#b534ce",
+          "type": "color",
+          "rawValue": "#b534ce"
+        },
+        "name": "color-pink-400",
+        "attributes": {
+          "category": "color",
+          "type": "pink",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "pink",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#a200c1",
+        "type": "color",
+        "rawValue": "#a200c1",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#a200c1",
+          "type": "color",
+          "rawValue": "#a200c1"
+        },
+        "name": "color-pink-500",
+        "attributes": {
+          "category": "color",
+          "type": "pink",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "pink",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#81009a",
+        "type": "color",
+        "rawValue": "#81009a",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#81009a",
+          "type": "color",
+          "rawValue": "#81009a"
+        },
+        "name": "color-pink-600",
+        "attributes": {
+          "category": "color",
+          "type": "pink",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "pink",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#610074",
+        "type": "color",
+        "rawValue": "#610074",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#610074",
+          "type": "color",
+          "rawValue": "#610074"
+        },
+        "name": "color-pink-700",
+        "attributes": {
+          "category": "color",
+          "type": "pink",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "pink",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#41004d",
+        "type": "color",
+        "rawValue": "#41004d",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#41004d",
+          "type": "color",
+          "rawValue": "#41004d"
+        },
+        "name": "color-pink-800",
+        "attributes": {
+          "category": "color",
+          "type": "pink",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "pink",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#200227",
+        "type": "color",
+        "rawValue": "#200227",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "#200227",
+          "type": "color",
+          "rawValue": "#200227"
+        },
+        "name": "color-pink-900",
+        "attributes": {
+          "category": "color",
+          "type": "pink",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "pink",
+          "900"
+        ]
+      }
+    }
+  },
   "spacing": {
     "0": {
       "value": "0px",

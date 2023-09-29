@@ -1,5 +1,492 @@
 [
   {
+    "name": "color-interactive",
+    "value": "#4dacff",
+    "description": "Primary color used for the backgrounds of interactive elements",
+    "category": "color",
+    "alias": "color-brightblue-500"
+  },
+  {
+    "name": "color-base",
+    "value": "#101923",
+    "description": "Background color of base elements, like the app or popup menus",
+    "category": "color",
+    "alias": "color-brightblue-900"
+  },
+  {
+    "name": "color-header",
+    "value": "#172635",
+    "description": "Background color for the header of base elements",
+    "category": "color",
+    "alias": "color-darkblue-900"
+  },
+  {
+    "name": "color-surface",
+    "value": "#1b2d3e",
+    "description": "Background color of surface elements, like panels or dialogs",
+    "category": "color",
+    "alias": "color-darkblue-800"
+  },
+  {
+    "name": "color-muted",
+    "value": "#2b659b",
+    "description": "Muted version of the primary color used for the background of interactive elements that don't need to be as strong as the primary color",
+    "category": "color",
+    "alias": "color-brightblue-700"
+  },
+  {
+    "name": "color-selected",
+    "value": "#1c3f5e",
+    "description": "Background color of surface elements, like cards or table rows, when they are selected",
+    "category": "color",
+    "alias": "color-darkblue-700"
+  },
+  {
+    "name": "color-darkblue-100",
+    "value": "#cbdee9",
+    "category": "color"
+  },
+  {
+    "name": "color-darkblue-200",
+    "value": "#98bdd3",
+    "category": "color"
+  },
+  {
+    "name": "color-darkblue-300",
+    "value": "#649cbd",
+    "category": "color"
+  },
+  {
+    "name": "color-darkblue-400",
+    "value": "#2f7aa7",
+    "category": "color"
+  },
+  {
+    "name": "color-darkblue-500",
+    "value": "#005a8f",
+    "category": "color"
+  },
+  {
+    "name": "color-darkblue-600",
+    "value": "#004872",
+    "category": "color"
+  },
+  {
+    "name": "color-darkblue-700",
+    "value": "#1c3f5e",
+    "category": "color"
+  },
+  {
+    "name": "color-darkblue-800",
+    "value": "#1b2d3e",
+    "category": "color"
+  },
+  {
+    "name": "color-darkblue-900",
+    "value": "#172635",
+    "category": "color"
+  },
+  {
+    "name": "color-darkblue-950",
+    "value": "#080c11",
+    "category": "color"
+  },
+  {
+    "name": "color-brightblue-100",
+    "value": "#daeeff",
+    "category": "color"
+  },
+  {
+    "name": "color-brightblue-200",
+    "value": "#cee9fc",
+    "category": "color"
+  },
+  {
+    "name": "color-brightblue-300",
+    "value": "#b7dcff",
+    "category": "color"
+  },
+  {
+    "name": "color-brightblue-400",
+    "value": "#92cbff",
+    "category": "color"
+  },
+  {
+    "name": "color-brightblue-500",
+    "value": "#4dacff",
+    "category": "color"
+  },
+  {
+    "name": "color-brightblue-600",
+    "value": "#3a87cf",
+    "category": "color"
+  },
+  {
+    "name": "color-brightblue-700",
+    "value": "#2b659b",
+    "category": "color"
+  },
+  {
+    "name": "color-brightblue-800",
+    "value": "#1c3851",
+    "category": "color"
+  },
+  {
+    "name": "color-brightblue-850",
+    "value": "#142435",
+    "category": "color"
+  },
+  {
+    "name": "color-brightblue-900",
+    "value": "#101923",
+    "category": "color"
+  },
+  {
+    "name": "color-grey-100",
+    "value": "#f5f6f9",
+    "category": "color"
+  },
+  {
+    "name": "color-grey-200",
+    "value": "#eaeef4",
+    "category": "color"
+  },
+  {
+    "name": "color-grey-250",
+    "value": "#e0e5eb",
+    "category": "color"
+  },
+  {
+    "name": "color-grey-300",
+    "value": "#d4d8dd",
+    "category": "color"
+  },
+  {
+    "name": "color-grey-400",
+    "value": "#bbc1c9",
+    "category": "color"
+  },
+  {
+    "name": "color-grey-500",
+    "value": "#a4abb6",
+    "category": "color"
+  },
+  {
+    "name": "color-grey-600",
+    "value": "#7b8089",
+    "category": "color"
+  },
+  {
+    "name": "color-grey-700",
+    "value": "#51555b",
+    "category": "color"
+  },
+  {
+    "name": "color-grey-800",
+    "value": "#3c3e42",
+    "category": "color"
+  },
+  {
+    "name": "color-grey-900",
+    "value": "#292a2d",
+    "category": "color"
+  },
+  {
+    "name": "color-red-400",
+    "value": "#ff5f60",
+    "category": "color"
+  },
+  {
+    "name": "color-red-500",
+    "value": "#ff3838",
+    "category": "color"
+  },
+  {
+    "name": "color-red-600",
+    "value": "#ff2a04",
+    "category": "color"
+  },
+  {
+    "name": "color-red-700",
+    "value": "#c8102e",
+    "category": "color"
+  },
+  {
+    "name": "color-red-800",
+    "value": "#8b1703",
+    "category": "color"
+  },
+  {
+    "name": "color-red-900",
+    "value": "#661102",
+    "category": "color"
+  },
+  {
+    "name": "color-orange-400",
+    "value": "#ffcc57",
+    "category": "color"
+  },
+  {
+    "name": "color-orange-500",
+    "value": "#ffb302",
+    "category": "color"
+  },
+  {
+    "name": "color-orange-600",
+    "value": "#ffaf3d",
+    "category": "color"
+  },
+  {
+    "name": "color-orange-700",
+    "value": "#ff8c00",
+    "category": "color"
+  },
+  {
+    "name": "color-orange-800",
+    "value": "#975f0e",
+    "category": "color"
+  },
+  {
+    "name": "color-orange-900",
+    "value": "#664618",
+    "category": "color"
+  },
+  {
+    "name": "color-yellow-400",
+    "value": "#fded61",
+    "category": "color"
+  },
+  {
+    "name": "color-yellow-500",
+    "value": "#fce83a",
+    "category": "color"
+  },
+  {
+    "name": "color-yellow-600",
+    "value": "#fad800",
+    "category": "color"
+  },
+  {
+    "name": "color-yellow-700",
+    "value": "#c7ab00",
+    "category": "color"
+  },
+  {
+    "name": "color-yellow-800",
+    "value": "#917d01",
+    "category": "color"
+  },
+  {
+    "name": "color-yellow-900",
+    "value": "#645600",
+    "category": "color"
+  },
+  {
+    "name": "color-green-400",
+    "value": "#99f666",
+    "category": "color"
+  },
+  {
+    "name": "color-green-500",
+    "value": "#56f000",
+    "category": "color"
+  },
+  {
+    "name": "color-green-600",
+    "value": "#00e200",
+    "category": "color"
+  },
+  {
+    "name": "color-green-700",
+    "value": "#00ad23",
+    "category": "color"
+  },
+  {
+    "name": "color-green-800",
+    "value": "#007a33",
+    "category": "color"
+  },
+  {
+    "name": "color-green-900",
+    "value": "#005a00",
+    "category": "color"
+  },
+  {
+    "name": "color-cyan-400",
+    "value": "#5ce2ff",
+    "category": "color"
+  },
+  {
+    "name": "color-cyan-500",
+    "value": "#64d9ff",
+    "category": "color"
+  },
+  {
+    "name": "color-cyan-600",
+    "value": "#2dccff",
+    "category": "color"
+  },
+  {
+    "name": "color-cyan-700",
+    "value": "#20a9d5",
+    "category": "color"
+  },
+  {
+    "name": "color-cyan-800",
+    "value": "#35798e",
+    "category": "color"
+  },
+  {
+    "name": "color-cyan-900",
+    "value": "#285766",
+    "category": "color"
+  },
+  {
+    "name": "color-violet-800",
+    "value": "#502b85",
+    "category": "color"
+  },
+  {
+    "name": "color-blue-800",
+    "value": "#0033a0",
+    "category": "color"
+  },
+  {
+    "name": "color-teal-100",
+    "value": "#d0f4f4",
+    "category": "color"
+  },
+  {
+    "name": "color-teal-200",
+    "value": "#a1e9eb",
+    "category": "color"
+  },
+  {
+    "name": "color-teal-300",
+    "value": "#70dde0",
+    "category": "color"
+  },
+  {
+    "name": "color-teal-400",
+    "value": "#3ed2d6",
+    "category": "color"
+  },
+  {
+    "name": "color-teal-500",
+    "value": "#00c7cb",
+    "category": "color"
+  },
+  {
+    "name": "color-teal-600",
+    "value": "#009fa3",
+    "category": "color"
+  },
+  {
+    "name": "color-teal-700",
+    "value": "#00777a",
+    "category": "color"
+  },
+  {
+    "name": "color-teal-800",
+    "value": "#035051",
+    "category": "color"
+  },
+  {
+    "name": "color-teal-900",
+    "value": "#032828",
+    "category": "color"
+  },
+  {
+    "name": "color-purple-100",
+    "value": "#e4e2f7",
+    "category": "color"
+  },
+  {
+    "name": "color-purple-200",
+    "value": "#c9c5ed",
+    "category": "color"
+  },
+  {
+    "name": "color-purple-300",
+    "value": "#aea8e5",
+    "category": "color"
+  },
+  {
+    "name": "color-purple-400",
+    "value": "#938bdb",
+    "category": "color"
+  },
+  {
+    "name": "color-purple-500",
+    "value": "#786dd3",
+    "category": "color"
+  },
+  {
+    "name": "color-purple-600",
+    "value": "#6058a8",
+    "category": "color"
+  },
+  {
+    "name": "color-purple-700",
+    "value": "#48417f",
+    "category": "color"
+  },
+  {
+    "name": "color-purple-800",
+    "value": "#302c54",
+    "category": "color"
+  },
+  {
+    "name": "color-purple-900",
+    "value": "#18152b",
+    "category": "color"
+  },
+  {
+    "name": "color-pink-100",
+    "value": "#edcef3",
+    "category": "color"
+  },
+  {
+    "name": "color-pink-200",
+    "value": "#da9ce7",
+    "category": "color"
+  },
+  {
+    "name": "color-pink-300",
+    "value": "#c76ada",
+    "category": "color"
+  },
+  {
+    "name": "color-pink-400",
+    "value": "#b534ce",
+    "category": "color"
+  },
+  {
+    "name": "color-pink-500",
+    "value": "#a200c1",
+    "category": "color"
+  },
+  {
+    "name": "color-pink-600",
+    "value": "#81009a",
+    "category": "color"
+  },
+  {
+    "name": "color-pink-700",
+    "value": "#610074",
+    "category": "color"
+  },
+  {
+    "name": "color-pink-800",
+    "value": "#41004d",
+    "category": "color"
+  },
+  {
+    "name": "color-pink-900",
+    "value": "#200227",
+    "category": "color"
+  },
+  {
     "name": "spacing-0",
     "value": "0rem",
     "category": "spacing"

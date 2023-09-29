@@ -1,4 +1,127 @@
 {
+  "color": {
+    "interactive": "var(--color-interactive, #4dacff)",
+    "base": "var(--color-base, #101923)",
+    "header": "var(--color-header, #172635)",
+    "surface": "var(--color-surface, #1b2d3e)",
+    "muted": "var(--color-muted, #2b659b)",
+    "selected": "var(--color-selected, #1c3f5e)",
+    "darkblue": {
+      "100": "var(--color-darkblue-100, #cbdee9)",
+      "200": "var(--color-darkblue-200, #98bdd3)",
+      "300": "var(--color-darkblue-300, #649cbd)",
+      "400": "var(--color-darkblue-400, #2f7aa7)",
+      "500": "var(--color-darkblue-500, #005a8f)",
+      "600": "var(--color-darkblue-600, #004872)",
+      "700": "var(--color-darkblue-700, #1c3f5e)",
+      "800": "var(--color-darkblue-800, #1b2d3e)",
+      "900": "var(--color-darkblue-900, #172635)",
+      "950": "var(--color-darkblue-950, #080c11)"
+    },
+    "brightblue": {
+      "100": "var(--color-brightblue-100, #daeeff)",
+      "200": "var(--color-brightblue-200, #cee9fc)",
+      "300": "var(--color-brightblue-300, #b7dcff)",
+      "400": "var(--color-brightblue-400, #92cbff)",
+      "500": "var(--color-brightblue-500, #4dacff)",
+      "600": "var(--color-brightblue-600, #3a87cf)",
+      "700": "var(--color-brightblue-700, #2b659b)",
+      "800": "var(--color-brightblue-800, #1c3851)",
+      "850": "var(--color-brightblue-850, #142435)",
+      "900": "var(--color-brightblue-900, #101923)"
+    },
+    "grey": {
+      "100": "var(--color-grey-100, #f5f6f9)",
+      "200": "var(--color-grey-200, #eaeef4)",
+      "250": "var(--color-grey-250, #e0e5eb)",
+      "300": "var(--color-grey-300, #d4d8dd)",
+      "400": "var(--color-grey-400, #bbc1c9)",
+      "500": "var(--color-grey-500, #a4abb6)",
+      "600": "var(--color-grey-600, #7b8089)",
+      "700": "var(--color-grey-700, #51555b)",
+      "800": "var(--color-grey-800, #3c3e42)",
+      "900": "var(--color-grey-900, #292a2d)"
+    },
+    "red": {
+      "400": "var(--color-red-400, #ff5f60)",
+      "500": "var(--color-red-500, #ff3838)",
+      "600": "var(--color-red-600, #ff2a04)",
+      "700": "var(--color-red-700, #c8102e)",
+      "800": "var(--color-red-800, #8b1703)",
+      "900": "var(--color-red-900, #661102)"
+    },
+    "orange": {
+      "400": "var(--color-orange-400, #ffcc57)",
+      "500": "var(--color-orange-500, #ffb302)",
+      "600": "var(--color-orange-600, #ffaf3d)",
+      "700": "var(--color-orange-700, #ff8c00)",
+      "800": "var(--color-orange-800, #975f0e)",
+      "900": "var(--color-orange-900, #664618)"
+    },
+    "yellow": {
+      "400": "var(--color-yellow-400, #fded61)",
+      "500": "var(--color-yellow-500, #fce83a)",
+      "600": "var(--color-yellow-600, #fad800)",
+      "700": "var(--color-yellow-700, #c7ab00)",
+      "800": "var(--color-yellow-800, #917d01)",
+      "900": "var(--color-yellow-900, #645600)"
+    },
+    "green": {
+      "400": "var(--color-green-400, #99f666)",
+      "500": "var(--color-green-500, #56f000)",
+      "600": "var(--color-green-600, #00e200)",
+      "700": "var(--color-green-700, #00ad23)",
+      "800": "var(--color-green-800, #007a33)",
+      "900": "var(--color-green-900, #005a00)"
+    },
+    "cyan": {
+      "400": "var(--color-cyan-400, #5ce2ff)",
+      "500": "var(--color-cyan-500, #64d9ff)",
+      "600": "var(--color-cyan-600, #2dccff)",
+      "700": "var(--color-cyan-700, #20a9d5)",
+      "800": "var(--color-cyan-800, #35798e)",
+      "900": "var(--color-cyan-900, #285766)"
+    },
+    "violet": {
+      "800": "var(--color-violet-800, #502b85)"
+    },
+    "blue": {
+      "800": "var(--color-blue-800, #0033a0)"
+    },
+    "teal": {
+      "100": "var(--color-teal-100, #d0f4f4)",
+      "200": "var(--color-teal-200, #a1e9eb)",
+      "300": "var(--color-teal-300, #70dde0)",
+      "400": "var(--color-teal-400, #3ed2d6)",
+      "500": "var(--color-teal-500, #00c7cb)",
+      "600": "var(--color-teal-600, #009fa3)",
+      "700": "var(--color-teal-700, #00777a)",
+      "800": "var(--color-teal-800, #035051)",
+      "900": "var(--color-teal-900, #032828)"
+    },
+    "purple": {
+      "100": "var(--color-purple-100, #e4e2f7)",
+      "200": "var(--color-purple-200, #c9c5ed)",
+      "300": "var(--color-purple-300, #aea8e5)",
+      "400": "var(--color-purple-400, #938bdb)",
+      "500": "var(--color-purple-500, #786dd3)",
+      "600": "var(--color-purple-600, #6058a8)",
+      "700": "var(--color-purple-700, #48417f)",
+      "800": "var(--color-purple-800, #302c54)",
+      "900": "var(--color-purple-900, #18152b)"
+    },
+    "pink": {
+      "100": "var(--color-pink-100, #edcef3)",
+      "200": "var(--color-pink-200, #da9ce7)",
+      "300": "var(--color-pink-300, #c76ada)",
+      "400": "var(--color-pink-400, #b534ce)",
+      "500": "var(--color-pink-500, #a200c1)",
+      "600": "var(--color-pink-600, #81009a)",
+      "700": "var(--color-pink-700, #610074)",
+      "800": "var(--color-pink-800, #41004d)",
+      "900": "var(--color-pink-900, #200227)"
+    }
+  },
   "spacing": {
     "0": "var(--spacing-0, 0px)",
     "1": "var(--spacing-1, 4px)",
