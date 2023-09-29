@@ -1,6 +1,6 @@
 {
   "name": "@astrouxds/tokens",
-  "version": "2.0.0-beta.1",
+  "version": "2.0.0-beta.2",
   "description": "Astro UXDS Design Tokens",
   "main": "dist/js/tokens.common.js",
   "module": "dist/js/tokens.module.js",

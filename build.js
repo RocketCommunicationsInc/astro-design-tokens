@@ -80,64 +80,13 @@ StyleDictionary.registerFormat({
 
       let category = token.type
       let type = token.attributes.type
-      if (token.attributes.type === 'color') {
-        type = token.attributes.item
-      }
+  
 
-      const props = {
-        color: ['text', 'border', 'fill', 'background'],
-      }
-
-      let component = null
-
-      if (token.attributes.category === 'radius') {
-        type = token.attributes.type
-      }
-
-      if (token.attributes.category !== 'radius' && token.type === 'borderRadius') {
-        type = token.attributes.item
-      }
-
-      if (token.attributes.category !== 'borderWidth' && token.type === 'borderWidth') {
-        type = token.attributes.item
-      }
-
-      if (token.type === 'boxShadow') {
-        type = token.attributes.item
-      }
-
-      // account for component tokens with elements like button-icon-color-background
-      if (tokenLevel === 'component') {
-        if (props[token.type]) {
-          const property = token.path.find(part => props[token.type].includes(part))
-          if (property) {
-            type = property
-          }
-        }
-
-      }
-
-      if (componentNames.includes(token.path[0])) {
-        component = token.path[0]
-      }
-
-      const typographyCategories = [
-        'heading',
-        'body',
-        'monospace',
-        'display'
-      ]
-
-      if (token.type === 'fontWeight') {
-        if (typographyCategories.includes(token.attributes.category)) {
-          component = token.attributes.category
-        }
-      }
 
 
       let refValue
-      if (token.original.rawValue) {
-
+      // quick fix because tokens that alias other tokens and compute values were incorrectly marked as aliases
+      if (token.original.rawValue && (token.original.rawValue.startsWith('{') && token.original.rawValue.endsWith('}'))) {
         const refs = dictionary.getReferences(token.original.rawValue)[0]
         if (refs) {
           refValue = refs.name
@@ -149,25 +98,12 @@ StyleDictionary.registerFormat({
         name: token.name,
         value: token.value,
         description: token.description,
-        property: type,
-        category: category,
-        component: component,
-        referenceToken: refValue,
-        tokenLevel: getTokenLevel(token)
-      }
-      if (token.attributes.type === "dark") {
-        token.name = token.name.replace("dark-", "");
-        return token;
-      } else if (token.attributes.type === "light") {
-        token.name = token.name.replace("light-", "");
-        return token;
-      } else {
-        return token;
+        category: token.type,
+        alias: refValue,
       }
     })
     // .join(',\n') + '\n}';
     return JSON.stringify(dictionary.allProperties, null, 2);
-    console.log(dictionary);
 
     // Use the built-in format but with our customized dictionary object
     // so it will output the darkValue instead of the value
@@ -289,7 +225,17 @@ styleDictionary.extend({
           destination: "nested.json"
         }
       ]
-
+    },
+    flat: {
+      transformGroup: "web",
+      buildPath: "dist/json/",
+      files: [
+        {
+          format: "json",
+          destination: "json.json",
+            name: "astro"
+        }
+      ]
     },
     "docs": {
       transformGroup: "custom/json",

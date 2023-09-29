@@ -1,0 +1,1621 @@
+{
+  "spacing": {
+    "0": {
+      "value": "0px",
+      "type": "spacing",
+      "rawValue": "4 * 0px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "0px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 0px"
+      },
+      "name": "spacing-0",
+      "attributes": {
+        "category": "spacing",
+        "type": "0"
+      },
+      "path": [
+        "spacing",
+        "0"
+      ]
+    },
+    "1": {
+      "value": "4px",
+      "type": "spacing",
+      "rawValue": "4 * 1px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "4px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 1px"
+      },
+      "name": "spacing-1",
+      "attributes": {
+        "category": "spacing",
+        "type": "1"
+      },
+      "path": [
+        "spacing",
+        "1"
+      ]
+    },
+    "2": {
+      "value": "8px",
+      "type": "spacing",
+      "rawValue": "4 * 2px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "8px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 2px"
+      },
+      "name": "spacing-2",
+      "attributes": {
+        "category": "spacing",
+        "type": "2"
+      },
+      "path": [
+        "spacing",
+        "2"
+      ]
+    },
+    "3": {
+      "value": "12px",
+      "type": "spacing",
+      "rawValue": "4 * 3px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "12px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 3px"
+      },
+      "name": "spacing-3",
+      "attributes": {
+        "category": "spacing",
+        "type": "3"
+      },
+      "path": [
+        "spacing",
+        "3"
+      ]
+    },
+    "4": {
+      "value": "16px",
+      "type": "spacing",
+      "rawValue": "4 * 4px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "16px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 4px"
+      },
+      "name": "spacing-4",
+      "attributes": {
+        "category": "spacing",
+        "type": "4"
+      },
+      "path": [
+        "spacing",
+        "4"
+      ]
+    },
+    "5": {
+      "value": "20px",
+      "type": "spacing",
+      "rawValue": "4 * 5px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "20px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 5px"
+      },
+      "name": "spacing-5",
+      "attributes": {
+        "category": "spacing",
+        "type": "5"
+      },
+      "path": [
+        "spacing",
+        "5"
+      ]
+    },
+    "6": {
+      "value": "24px",
+      "type": "spacing",
+      "rawValue": "4 * 6px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "24px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 6px"
+      },
+      "name": "spacing-6",
+      "attributes": {
+        "category": "spacing",
+        "type": "6"
+      },
+      "path": [
+        "spacing",
+        "6"
+      ]
+    },
+    "7": {
+      "value": "28px",
+      "type": "spacing",
+      "rawValue": "4 * 7px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "28px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 7px"
+      },
+      "name": "spacing-7",
+      "attributes": {
+        "category": "spacing",
+        "type": "7"
+      },
+      "path": [
+        "spacing",
+        "7"
+      ]
+    },
+    "8": {
+      "value": "32px",
+      "type": "spacing",
+      "rawValue": "4 * 8px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "32px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 8px"
+      },
+      "name": "spacing-8",
+      "attributes": {
+        "category": "spacing",
+        "type": "8"
+      },
+      "path": [
+        "spacing",
+        "8"
+      ]
+    },
+    "9": {
+      "value": "36px",
+      "type": "spacing",
+      "rawValue": "4 * 9px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "36px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 9px"
+      },
+      "name": "spacing-9",
+      "attributes": {
+        "category": "spacing",
+        "type": "9"
+      },
+      "path": [
+        "spacing",
+        "9"
+      ]
+    },
+    "10": {
+      "value": "40px",
+      "type": "spacing",
+      "rawValue": "4 * 10px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "40px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 10px"
+      },
+      "name": "spacing-10",
+      "attributes": {
+        "category": "spacing",
+        "type": "10"
+      },
+      "path": [
+        "spacing",
+        "10"
+      ]
+    },
+    "11": {
+      "value": "44px",
+      "type": "spacing",
+      "rawValue": "4 * 11px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "44px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 11px"
+      },
+      "name": "spacing-11",
+      "attributes": {
+        "category": "spacing",
+        "type": "11"
+      },
+      "path": [
+        "spacing",
+        "11"
+      ]
+    },
+    "12": {
+      "value": "48px",
+      "type": "spacing",
+      "rawValue": "4 * 12px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "48px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 12px"
+      },
+      "name": "spacing-12",
+      "attributes": {
+        "category": "spacing",
+        "type": "12"
+      },
+      "path": [
+        "spacing",
+        "12"
+      ]
+    },
+    "14": {
+      "value": "56px",
+      "type": "spacing",
+      "rawValue": "4 * 14px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "56px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 14px"
+      },
+      "name": "spacing-14",
+      "attributes": {
+        "category": "spacing",
+        "type": "14"
+      },
+      "path": [
+        "spacing",
+        "14"
+      ]
+    },
+    "16": {
+      "value": "64px",
+      "type": "spacing",
+      "rawValue": "4 * 16px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "64px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 16px"
+      },
+      "name": "spacing-16",
+      "attributes": {
+        "category": "spacing",
+        "type": "16"
+      },
+      "path": [
+        "spacing",
+        "16"
+      ]
+    },
+    "20": {
+      "value": "80px",
+      "type": "spacing",
+      "rawValue": "4 * 20px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "80px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 20px"
+      },
+      "name": "spacing-20",
+      "attributes": {
+        "category": "spacing",
+        "type": "20"
+      },
+      "path": [
+        "spacing",
+        "20"
+      ]
+    },
+    "24": {
+      "value": "96px",
+      "type": "spacing",
+      "rawValue": "4 * 24px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "96px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 24px"
+      },
+      "name": "spacing-24",
+      "attributes": {
+        "category": "spacing",
+        "type": "24"
+      },
+      "path": [
+        "spacing",
+        "24"
+      ]
+    },
+    "28": {
+      "value": "112px",
+      "type": "spacing",
+      "rawValue": "4 * 28px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "112px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 28px"
+      },
+      "name": "spacing-28",
+      "attributes": {
+        "category": "spacing",
+        "type": "28"
+      },
+      "path": [
+        "spacing",
+        "28"
+      ]
+    },
+    "32": {
+      "value": "128px",
+      "type": "spacing",
+      "rawValue": "4 * 32px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "128px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 32px"
+      },
+      "name": "spacing-32",
+      "attributes": {
+        "category": "spacing",
+        "type": "32"
+      },
+      "path": [
+        "spacing",
+        "32"
+      ]
+    },
+    "36": {
+      "value": "144px",
+      "type": "spacing",
+      "rawValue": "4 * 36px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "144px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 36px"
+      },
+      "name": "spacing-36",
+      "attributes": {
+        "category": "spacing",
+        "type": "36"
+      },
+      "path": [
+        "spacing",
+        "36"
+      ]
+    },
+    "40": {
+      "value": "160px",
+      "type": "spacing",
+      "rawValue": "4 * 40px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "160px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 40px"
+      },
+      "name": "spacing-40",
+      "attributes": {
+        "category": "spacing",
+        "type": "40"
+      },
+      "path": [
+        "spacing",
+        "40"
+      ]
+    },
+    "44": {
+      "value": "176px",
+      "type": "spacing",
+      "rawValue": "4 * 44px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "176px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 44px"
+      },
+      "name": "spacing-44",
+      "attributes": {
+        "category": "spacing",
+        "type": "44"
+      },
+      "path": [
+        "spacing",
+        "44"
+      ]
+    },
+    "48": {
+      "value": "192px",
+      "type": "spacing",
+      "rawValue": "4 * 48px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "192px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 48px"
+      },
+      "name": "spacing-48",
+      "attributes": {
+        "category": "spacing",
+        "type": "48"
+      },
+      "path": [
+        "spacing",
+        "48"
+      ]
+    },
+    "52": {
+      "value": "208px",
+      "type": "spacing",
+      "rawValue": "4 * 52px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "208px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 52px"
+      },
+      "name": "spacing-52",
+      "attributes": {
+        "category": "spacing",
+        "type": "52"
+      },
+      "path": [
+        "spacing",
+        "52"
+      ]
+    },
+    "56": {
+      "value": "224px",
+      "type": "spacing",
+      "rawValue": "4 * 56px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "224px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 56px"
+      },
+      "name": "spacing-56",
+      "attributes": {
+        "category": "spacing",
+        "type": "56"
+      },
+      "path": [
+        "spacing",
+        "56"
+      ]
+    },
+    "60": {
+      "value": "240px",
+      "type": "spacing",
+      "rawValue": "4 * 60px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "240px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 60px"
+      },
+      "name": "spacing-60",
+      "attributes": {
+        "category": "spacing",
+        "type": "60"
+      },
+      "path": [
+        "spacing",
+        "60"
+      ]
+    },
+    "64": {
+      "value": "256px",
+      "type": "spacing",
+      "rawValue": "4 * 64px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "256px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 64px"
+      },
+      "name": "spacing-64",
+      "attributes": {
+        "category": "spacing",
+        "type": "64"
+      },
+      "path": [
+        "spacing",
+        "64"
+      ]
+    },
+    "72": {
+      "value": "288px",
+      "type": "spacing",
+      "rawValue": "4 * 72px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "288px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 72px"
+      },
+      "name": "spacing-72",
+      "attributes": {
+        "category": "spacing",
+        "type": "72"
+      },
+      "path": [
+        "spacing",
+        "72"
+      ]
+    },
+    "80": {
+      "value": "320px",
+      "type": "spacing",
+      "rawValue": "4 * 80px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "320px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 80px"
+      },
+      "name": "spacing-80",
+      "attributes": {
+        "category": "spacing",
+        "type": "80"
+      },
+      "path": [
+        "spacing",
+        "80"
+      ]
+    },
+    "96": {
+      "value": "384px",
+      "type": "spacing",
+      "rawValue": "4 * 96px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "384px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 96px"
+      },
+      "name": "spacing-96",
+      "attributes": {
+        "category": "spacing",
+        "type": "96"
+      },
+      "path": [
+        "spacing",
+        "96"
+      ]
+    },
+    "050": {
+      "value": "2px",
+      "type": "spacing",
+      "rawValue": "4 * 0.5px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "2px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 0.5px"
+      },
+      "name": "spacing-050",
+      "attributes": {
+        "category": "spacing",
+        "type": "050"
+      },
+      "path": [
+        "spacing",
+        "050"
+      ]
+    },
+    "px": {
+      "value": "1px",
+      "type": "spacing",
+      "rawValue": "1px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "1px",
+        "type": "spacing",
+        "rawValue": "1px"
+      },
+      "name": "spacing-px",
+      "attributes": {
+        "category": "spacing",
+        "type": "px"
+      },
+      "path": [
+        "spacing",
+        "px"
+      ]
+    },
+    "015": {
+      "value": "6px",
+      "type": "spacing",
+      "rawValue": "4 * 1.5px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "6px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 1.5px"
+      },
+      "name": "spacing-015",
+      "attributes": {
+        "category": "spacing",
+        "type": "015"
+      },
+      "path": [
+        "spacing",
+        "015"
+      ]
+    },
+    "025": {
+      "value": "10px",
+      "type": "spacing",
+      "rawValue": "4 * 2.5px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "10px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 2.5px"
+      },
+      "name": "spacing-025",
+      "attributes": {
+        "category": "spacing",
+        "type": "025"
+      },
+      "path": [
+        "spacing",
+        "025"
+      ]
+    },
+    "035": {
+      "value": "14px",
+      "type": "spacing",
+      "rawValue": "4 * 3.5px",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": "14px",
+        "type": "spacing",
+        "rawValue": "{base-spacing-unit} * 3.5px"
+      },
+      "name": "spacing-035",
+      "attributes": {
+        "category": "spacing",
+        "type": "035"
+      },
+      "path": [
+        "spacing",
+        "035"
+      ]
+    }
+  },
+  "base-font-unit": {
+    "value": 16,
+    "type": "other",
+    "rawValue": "16",
+    "filePath": "tokens/primitives.json",
+    "isSource": true,
+    "original": {
+      "value": 16,
+      "type": "other",
+      "rawValue": "16"
+    },
+    "name": "base-font-unit",
+    "attributes": {
+      "category": "base-font-unit"
+    },
+    "path": [
+      "base-font-unit"
+    ]
+  },
+  "font-scale": {
+    "value": 1.125,
+    "type": "other",
+    "rawValue": "1.125",
+    "filePath": "tokens/primitives.json",
+    "isSource": true,
+    "original": {
+      "value": 1.125,
+      "type": "other",
+      "rawValue": "1.125"
+    },
+    "name": "font-scale",
+    "attributes": {
+      "category": "font-scale"
+    },
+    "path": [
+      "font-scale"
+    ]
+  },
+  "font-size": {
+    "xs": {
+      "value": 13,
+      "type": "fontSizes",
+      "rawValue": "round(16 * pow(1.125, -2))",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 13,
+        "type": "fontSizes",
+        "rawValue": "round({base-font-unit} * pow({font-scale}, -2))"
+      },
+      "name": "font-size-xs",
+      "attributes": {
+        "category": "font-size",
+        "type": "xs"
+      },
+      "path": [
+        "font-size",
+        "xs"
+      ]
+    },
+    "sm": {
+      "value": 14,
+      "type": "fontSizes",
+      "rawValue": "round(16 * pow(1.125, -1))",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 14,
+        "type": "fontSizes",
+        "rawValue": "round({base-font-unit} * pow({font-scale}, -1))"
+      },
+      "name": "font-size-sm",
+      "attributes": {
+        "category": "font-size",
+        "type": "sm"
+      },
+      "path": [
+        "font-size",
+        "sm"
+      ]
+    },
+    "base": {
+      "value": 16,
+      "type": "fontSizes",
+      "rawValue": "round(16 * pow(1.125, 0))",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 16,
+        "type": "fontSizes",
+        "rawValue": "round({base-font-unit} * pow({font-scale}, 0))"
+      },
+      "name": "font-size-base",
+      "attributes": {
+        "category": "font-size",
+        "type": "base"
+      },
+      "path": [
+        "font-size",
+        "base"
+      ]
+    },
+    "lg": {
+      "value": 18,
+      "type": "fontSizes",
+      "rawValue": "round(16 * pow(1.125, 1))",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 18,
+        "type": "fontSizes",
+        "rawValue": "round({base-font-unit} * pow({font-scale}, 1))"
+      },
+      "name": "font-size-lg",
+      "attributes": {
+        "category": "font-size",
+        "type": "lg"
+      },
+      "path": [
+        "font-size",
+        "lg"
+      ]
+    },
+    "xl": {
+      "value": 20,
+      "type": "fontSizes",
+      "rawValue": "round(16 * pow(1.125, 2))",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 20,
+        "type": "fontSizes",
+        "rawValue": "round({base-font-unit} * pow({font-scale}, 2))"
+      },
+      "name": "font-size-xl",
+      "attributes": {
+        "category": "font-size",
+        "type": "xl"
+      },
+      "path": [
+        "font-size",
+        "xl"
+      ]
+    },
+    "2xl": {
+      "value": 23,
+      "type": "fontSizes",
+      "rawValue": "round(16 * pow(1.125, 3))",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 23,
+        "type": "fontSizes",
+        "rawValue": "round({base-font-unit} * pow({font-scale}, 3))"
+      },
+      "name": "font-size-2xl",
+      "attributes": {
+        "category": "font-size",
+        "type": "2xl"
+      },
+      "path": [
+        "font-size",
+        "2xl"
+      ]
+    },
+    "3xl": {
+      "value": 26,
+      "type": "fontSizes",
+      "rawValue": "round(16 * pow(1.125, 4))",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 26,
+        "type": "fontSizes",
+        "rawValue": "round({base-font-unit} * pow({font-scale}, 4))"
+      },
+      "name": "font-size-3xl",
+      "attributes": {
+        "category": "font-size",
+        "type": "3xl"
+      },
+      "path": [
+        "font-size",
+        "3xl"
+      ]
+    },
+    "4xl": {
+      "value": 29,
+      "type": "fontSizes",
+      "rawValue": "round(16 * pow(1.125, 5))",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 29,
+        "type": "fontSizes",
+        "rawValue": "round({base-font-unit} * pow({font-scale}, 5))"
+      },
+      "name": "font-size-4xl",
+      "attributes": {
+        "category": "font-size",
+        "type": "4xl"
+      },
+      "path": [
+        "font-size",
+        "4xl"
+      ]
+    },
+    "5xl": {
+      "value": 32,
+      "type": "fontSizes",
+      "rawValue": "round(16 * pow(1.125, 6))",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 32,
+        "type": "fontSizes",
+        "rawValue": "round({base-font-unit} * pow({font-scale}, 6))"
+      },
+      "name": "font-size-5xl",
+      "attributes": {
+        "category": "font-size",
+        "type": "5xl"
+      },
+      "path": [
+        "font-size",
+        "5xl"
+      ]
+    },
+    "6xl": {
+      "value": 36,
+      "type": "fontSizes",
+      "rawValue": "round(16 * pow(1.125, 7))",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 36,
+        "type": "fontSizes",
+        "rawValue": "round({base-font-unit} * pow({font-scale}, 7))"
+      },
+      "name": "font-size-6xl",
+      "attributes": {
+        "category": "font-size",
+        "type": "6xl"
+      },
+      "path": [
+        "font-size",
+        "6xl"
+      ]
+    }
+  },
+  "base-spacing-unit": {
+    "value": 4,
+    "type": "other",
+    "rawValue": "4",
+    "filePath": "tokens/primitives.json",
+    "isSource": true,
+    "original": {
+      "value": 4,
+      "type": "other",
+      "rawValue": "4"
+    },
+    "name": "base-spacing-unit",
+    "attributes": {
+      "category": "base-spacing-unit"
+    },
+    "path": [
+      "base-spacing-unit"
+    ]
+  },
+  "line-height": {
+    "normal": {
+      "value": 1.5,
+      "type": "lineHeights",
+      "rawValue": "1.5",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 1.5,
+        "type": "lineHeights",
+        "rawValue": "1.5"
+      },
+      "name": "line-height-normal",
+      "attributes": {
+        "category": "line-height",
+        "type": "normal"
+      },
+      "path": [
+        "line-height",
+        "normal"
+      ]
+    },
+    "tight": {
+      "value": 1.25,
+      "type": "lineHeights",
+      "rawValue": "1.25",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 1.25,
+        "type": "lineHeights",
+        "rawValue": "1.25"
+      },
+      "name": "line-height-tight",
+      "attributes": {
+        "category": "line-height",
+        "type": "tight"
+      },
+      "path": [
+        "line-height",
+        "tight"
+      ]
+    },
+    "relaxed": {
+      "value": 1.625,
+      "type": "lineHeights",
+      "rawValue": "1.625",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 1.625,
+        "type": "lineHeights",
+        "rawValue": "1.625"
+      },
+      "name": "line-height-relaxed",
+      "attributes": {
+        "category": "line-height",
+        "type": "relaxed"
+      },
+      "path": [
+        "line-height",
+        "relaxed"
+      ]
+    },
+    "loose": {
+      "value": 2,
+      "type": "lineHeights",
+      "rawValue": "2",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 2,
+        "type": "lineHeights",
+        "rawValue": "2"
+      },
+      "name": "line-height-loose",
+      "attributes": {
+        "category": "line-height",
+        "type": "loose"
+      },
+      "path": [
+        "line-height",
+        "loose"
+      ]
+    },
+    "none": {
+      "value": 1,
+      "type": "lineHeights",
+      "rawValue": "1",
+      "filePath": "tokens/primitives.json",
+      "isSource": true,
+      "original": {
+        "value": 1,
+        "type": "lineHeights",
+        "rawValue": "1"
+      },
+      "name": "line-height-none",
+      "attributes": {
+        "category": "line-height",
+        "type": "none"
+      },
+      "path": [
+        "line-height",
+        "none"
+      ]
+    }
+  },
+  "icon": {
+    "gap": {
+      "xs": {
+        "value": "4px",
+        "type": "spacing",
+        "description": "Pair with `font-size-xs`",
+        "rawValue": "4px",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "4px",
+          "type": "spacing",
+          "description": "Pair with `font-size-xs`",
+          "rawValue": "{spacing.1}"
+        },
+        "name": "icon-gap-xs",
+        "attributes": {
+          "category": "icon",
+          "type": "gap",
+          "item": "xs"
+        },
+        "path": [
+          "icon",
+          "gap",
+          "xs"
+        ]
+      },
+      "sm": {
+        "value": "4px",
+        "type": "spacing",
+        "description": "Pair with `font-size-sm`",
+        "rawValue": "4px",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "4px",
+          "type": "spacing",
+          "description": "Pair with `font-size-sm`",
+          "rawValue": "{spacing.1}"
+        },
+        "name": "icon-gap-sm",
+        "attributes": {
+          "category": "icon",
+          "type": "gap",
+          "item": "sm"
+        },
+        "path": [
+          "icon",
+          "gap",
+          "sm"
+        ]
+      },
+      "base": {
+        "value": "6px",
+        "type": "spacing",
+        "description": "Pair with `font-size-base`",
+        "rawValue": "6px",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "6px",
+          "type": "spacing",
+          "description": "Pair with `font-size-base`",
+          "rawValue": "{spacing.015}"
+        },
+        "name": "icon-gap-base",
+        "attributes": {
+          "category": "icon",
+          "type": "gap",
+          "item": "base"
+        },
+        "path": [
+          "icon",
+          "gap",
+          "base"
+        ]
+      },
+      "lg": {
+        "value": "6px",
+        "type": "spacing",
+        "description": "Pair with `font-size-lg`",
+        "rawValue": "6px",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "6px",
+          "type": "spacing",
+          "description": "Pair with `font-size-lg`",
+          "rawValue": "{spacing.015}"
+        },
+        "name": "icon-gap-lg",
+        "attributes": {
+          "category": "icon",
+          "type": "gap",
+          "item": "lg"
+        },
+        "path": [
+          "icon",
+          "gap",
+          "lg"
+        ]
+      },
+      "xl": {
+        "value": "8px",
+        "type": "spacing",
+        "description": "Pair with `font-size-xl`",
+        "rawValue": "8px",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "8px",
+          "type": "spacing",
+          "description": "Pair with `font-size-xl`",
+          "rawValue": "{spacing.2}"
+        },
+        "name": "icon-gap-xl",
+        "attributes": {
+          "category": "icon",
+          "type": "gap",
+          "item": "xl"
+        },
+        "path": [
+          "icon",
+          "gap",
+          "xl"
+        ]
+      },
+      "2xl": {
+        "value": "8px",
+        "type": "spacing",
+        "description": "Pair with `font-size-2xl`",
+        "rawValue": "8px",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "8px",
+          "type": "spacing",
+          "description": "Pair with `font-size-2xl`",
+          "rawValue": "{spacing.2}"
+        },
+        "name": "icon-gap-2xl",
+        "attributes": {
+          "category": "icon",
+          "type": "gap",
+          "item": "2xl"
+        },
+        "path": [
+          "icon",
+          "gap",
+          "2xl"
+        ]
+      },
+      "3xl": {
+        "value": "10px",
+        "type": "spacing",
+        "description": "Pair with `font-size-3xl`",
+        "rawValue": "10px",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "10px",
+          "type": "spacing",
+          "description": "Pair with `font-size-3xl`",
+          "rawValue": "{spacing.025}"
+        },
+        "name": "icon-gap-3xl",
+        "attributes": {
+          "category": "icon",
+          "type": "gap",
+          "item": "3xl"
+        },
+        "path": [
+          "icon",
+          "gap",
+          "3xl"
+        ]
+      },
+      "4xl": {
+        "value": "10px",
+        "type": "spacing",
+        "description": "Pair with `font-size-4xl`",
+        "rawValue": "10px",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "10px",
+          "type": "spacing",
+          "description": "Pair with `font-size-4xl`",
+          "rawValue": "{spacing.025}"
+        },
+        "name": "icon-gap-4xl",
+        "attributes": {
+          "category": "icon",
+          "type": "gap",
+          "item": "4xl"
+        },
+        "path": [
+          "icon",
+          "gap",
+          "4xl"
+        ]
+      },
+      "5xl": {
+        "value": "12px",
+        "type": "spacing",
+        "description": "Pair with `font-size-5xl`",
+        "rawValue": "12px",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "12px",
+          "type": "spacing",
+          "description": "Pair with `font-size-5xl`",
+          "rawValue": "{spacing.3}"
+        },
+        "name": "icon-gap-5xl",
+        "attributes": {
+          "category": "icon",
+          "type": "gap",
+          "item": "5xl"
+        },
+        "path": [
+          "icon",
+          "gap",
+          "5xl"
+        ]
+      },
+      "6xl": {
+        "value": "12px",
+        "type": "spacing",
+        "description": "Pair with `font-size-6xl`",
+        "rawValue": "12px",
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": "12px",
+          "type": "spacing",
+          "description": "Pair with `font-size-6xl`",
+          "rawValue": "{spacing.3}"
+        },
+        "name": "icon-gap-6xl",
+        "attributes": {
+          "category": "icon",
+          "type": "gap",
+          "item": "6xl"
+        },
+        "path": [
+          "icon",
+          "gap",
+          "6xl"
+        ]
+      }
+    },
+    "size": {
+      "xs": {
+        "value": 13,
+        "type": "dimension",
+        "description": "Pair with `font-size-xs`",
+        "rawValue": 13,
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": 13,
+          "type": "dimension",
+          "description": "Pair with `font-size-xs`",
+          "rawValue": "{font-size.xs}"
+        },
+        "name": "icon-size-xs",
+        "attributes": {
+          "category": "icon",
+          "type": "size",
+          "item": "xs"
+        },
+        "path": [
+          "icon",
+          "size",
+          "xs"
+        ]
+      },
+      "sm": {
+        "value": 14,
+        "type": "dimension",
+        "description": "Pair with `font-size-sm`",
+        "rawValue": 14,
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": 14,
+          "type": "dimension",
+          "description": "Pair with `font-size-sm`",
+          "rawValue": "{font-size.sm}"
+        },
+        "name": "icon-size-sm",
+        "attributes": {
+          "category": "icon",
+          "type": "size",
+          "item": "sm"
+        },
+        "path": [
+          "icon",
+          "size",
+          "sm"
+        ]
+      },
+      "base": {
+        "value": 16,
+        "type": "dimension",
+        "description": "Pair with `font-size-base`",
+        "rawValue": 16,
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "dimension",
+          "description": "Pair with `font-size-base`",
+          "rawValue": "{font-size.base}"
+        },
+        "name": "icon-size-base",
+        "attributes": {
+          "category": "icon",
+          "type": "size",
+          "item": "base"
+        },
+        "path": [
+          "icon",
+          "size",
+          "base"
+        ]
+      },
+      "lg": {
+        "value": 18,
+        "type": "dimension",
+        "description": "Pair with `font-size-lg`",
+        "rawValue": 18,
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": 18,
+          "type": "dimension",
+          "description": "Pair with `font-size-lg`",
+          "rawValue": "{font-size.lg}"
+        },
+        "name": "icon-size-lg",
+        "attributes": {
+          "category": "icon",
+          "type": "size",
+          "item": "lg"
+        },
+        "path": [
+          "icon",
+          "size",
+          "lg"
+        ]
+      },
+      "xl": {
+        "value": 20,
+        "type": "dimension",
+        "description": "Pair with `font-size-xl`",
+        "rawValue": 20,
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": 20,
+          "type": "dimension",
+          "description": "Pair with `font-size-xl`",
+          "rawValue": "{font-size.xl}"
+        },
+        "name": "icon-size-xl",
+        "attributes": {
+          "category": "icon",
+          "type": "size",
+          "item": "xl"
+        },
+        "path": [
+          "icon",
+          "size",
+          "xl"
+        ]
+      },
+      "2xl": {
+        "value": 23,
+        "type": "dimension",
+        "description": "Pair with `font-size-2xl`",
+        "rawValue": 23,
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": 23,
+          "type": "dimension",
+          "description": "Pair with `font-size-2xl`",
+          "rawValue": "{font-size.2xl}"
+        },
+        "name": "icon-size-2xl",
+        "attributes": {
+          "category": "icon",
+          "type": "size",
+          "item": "2xl"
+        },
+        "path": [
+          "icon",
+          "size",
+          "2xl"
+        ]
+      },
+      "3xl": {
+        "value": 26,
+        "type": "dimension",
+        "description": "Pair with `font-size-3xl`",
+        "rawValue": 26,
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": 26,
+          "type": "dimension",
+          "description": "Pair with `font-size-3xl`",
+          "rawValue": "{font-size.3xl}"
+        },
+        "name": "icon-size-3xl",
+        "attributes": {
+          "category": "icon",
+          "type": "size",
+          "item": "3xl"
+        },
+        "path": [
+          "icon",
+          "size",
+          "3xl"
+        ]
+      },
+      "4xl": {
+        "value": 29,
+        "type": "dimension",
+        "description": "Pair with `font-size-4xl`",
+        "rawValue": 29,
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": 29,
+          "type": "dimension",
+          "description": "Pair with `font-size-4xl`",
+          "rawValue": "{font-size.4xl}"
+        },
+        "name": "icon-size-4xl",
+        "attributes": {
+          "category": "icon",
+          "type": "size",
+          "item": "4xl"
+        },
+        "path": [
+          "icon",
+          "size",
+          "4xl"
+        ]
+      },
+      "5xl": {
+        "value": 32,
+        "type": "dimension",
+        "description": "Pair with `font-size-5xl`",
+        "rawValue": 32,
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": 32,
+          "type": "dimension",
+          "description": "Pair with `font-size-5xl`",
+          "rawValue": "{font-size.5xl}"
+        },
+        "name": "icon-size-5xl",
+        "attributes": {
+          "category": "icon",
+          "type": "size",
+          "item": "5xl"
+        },
+        "path": [
+          "icon",
+          "size",
+          "5xl"
+        ]
+      },
+      "6xl": {
+        "value": 36,
+        "type": "dimension",
+        "description": "Pair with `font-size-6xl`",
+        "rawValue": 36,
+        "filePath": "tokens/primitives.json",
+        "isSource": true,
+        "original": {
+          "value": 36,
+          "type": "dimension",
+          "description": "Pair with `font-size-6xl`",
+          "rawValue": "{font-size.6xl}"
+        },
+        "name": "icon-size-6xl",
+        "attributes": {
+          "category": "icon",
+          "type": "size",
+          "item": "6xl"
+        },
+        "path": [
+          "icon",
+          "size",
+          "6xl"
+        ]
+      }
+    }
+  }
+}
