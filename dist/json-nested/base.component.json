@@ -199,12 +199,12 @@
       "x": {
         "large": "0.75rem",
         "medium": "0.5rem",
-        "small": "0.25rem"
+        "small": "0.5rem"
       },
       "y": {
         "large": "0.5rem",
         "medium": "0.5rem",
-        "small": "0.5rem"
+        "small": "0.25rem"
       }
     },
     "prefix": {

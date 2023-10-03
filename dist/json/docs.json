@@ -743,11 +743,11 @@
   },
   {
     "name": "input-padding-x-small",
-    "value": "0.25rem",
+    "value": "0.5rem",
     "property": "padding",
     "category": "spacing",
     "component": "input",
-    "referenceToken": "spacing-1",
+    "referenceToken": "spacing-2",
     "tokenLevel": "component"
   },
   {
@@ -770,11 +770,11 @@
   },
   {
     "name": "input-padding-y-small",
-    "value": "0.5rem",
+    "value": "0.25rem",
     "property": "padding",
     "category": "spacing",
     "component": "input",
-    "referenceToken": "spacing-2",
+    "referenceToken": "spacing-1",
     "tokenLevel": "component"
   },
   {

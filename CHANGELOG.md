@@ -1,5 +1,11 @@
 # @astrouxds/tokens
 
+## 1.12.0
+
+### Minor Changes
+
+- Fixed small padding value for inputs
+
 ## 1.11.1
 
 ### Patch Changes

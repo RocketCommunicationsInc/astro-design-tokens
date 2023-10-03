@@ -714,8 +714,8 @@
         },
         "small": {
           "type": "spacing",
-          "value": "4px",
-          "rawValue": "{spacing.1}"
+          "value": "8px",
+          "rawValue": "{spacing.2}"
         }
       },
       "y": {
@@ -731,8 +731,8 @@
         },
         "small": {
           "type": "spacing",
-          "value": "8px",
-          "rawValue": "{spacing.2}"
+          "value": "4px",
+          "rawValue": "{spacing.1}"
         }
       }
     },
