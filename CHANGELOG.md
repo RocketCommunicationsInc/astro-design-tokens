@@ -1,5 +1,11 @@
 # @astrouxds/tokens
 
+## 1.13.0
+
+### Minor Changes
+
+- fa8c39b: Adding an additional token for font-weight to match design while leaving font-weights for backwards compatibility
+
 ## 1.12.0
 
 ### Minor Changes
