@@ -704,6 +704,28 @@
             "rawValue": "Bold"
         }
     },
+    "fontWeight": {
+        "light": {
+            "value": "Light",
+            "type": "fontWeight",
+            "rawValue": "Light"
+        },
+        "regular": {
+            "value": "Regular",
+            "type": "fontWeight",
+            "rawValue": "Regular"
+        },
+        "medium": {
+            "value": "Medium",
+            "type": "fontWeight",
+            "rawValue": "Medium"
+        },
+        "bold": {
+            "value": "Bold",
+            "type": "fontWeight",
+            "rawValue": "Bold"
+        }
+    },
     "fontSize": {
         "xs": {
             "value": "12px",

@@ -172,19 +172,19 @@
       "critical": {
         "value": "#ff3838",
         "type": "color",
-        "description": "Color used to indicate items with a Critical status. Critical, form error, alert, emergency, urgent",
+        "description": "Color used to indicate items with a Critical status. Critical, severe, alert, form error, emergency, urgent",
         "rawValue": "{color.palette.red.500}"
       },
       "serious": {
         "value": "#ffb302",
         "type": "color",
-        "description": "Color used to indicate items with a Serious status. Serious, warning, error, needs attention",
+        "description": "Color used to indicate items with a Serious status. Serious, distress, error, needs attention",
         "rawValue": "{color.palette.orange.500}"
       },
       "caution": {
         "value": "#fce83a",
         "type": "color",
-        "description": "Color used to indicate items with a Caution status. Caution, unstable, unsatisfactory",
+        "description": "Color used to indicate items with a Caution status. Caution, warning, unstable, unsatisfactory, watch",
         "rawValue": "{color.palette.yellow.500}"
       },
       "normal": {

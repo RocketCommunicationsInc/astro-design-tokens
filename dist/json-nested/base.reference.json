@@ -170,6 +170,12 @@
     "medium": "500",
     "bold": "700"
   },
+  "fontWeight": {
+    "light": "300",
+    "regular": "400",
+    "medium": "500",
+    "bold": "700"
+  },
   "fontSize": {
     "xs": "0.75rem",
     "sm": "0.875rem",
