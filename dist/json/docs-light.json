@@ -4034,6 +4034,38 @@
     "tokenLevel": "reference"
   },
   {
+    "name": "font-weight-light",
+    "value": "300",
+    "property": "light",
+    "category": "fontWeight",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-weight-regular",
+    "value": "400",
+    "property": "regular",
+    "category": "fontWeight",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-weight-medium",
+    "value": "500",
+    "property": "medium",
+    "category": "fontWeight",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "font-weight-bold",
+    "value": "700",
+    "property": "bold",
+    "category": "fontWeight",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
     "name": "font-size-xs",
     "value": "0.75rem",
     "property": "xs",
