@@ -1,5 +1,10 @@
 {
     "opacity": {
+        "0": {
+            "value": "0%",
+            "type": "opacity",
+            "rawValue": "0%"
+        },
         "25": {
             "value": "25%",
             "type": "opacity",

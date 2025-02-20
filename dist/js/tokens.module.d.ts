@@ -278,6 +278,7 @@ export const PushButtonPrefixColorFillSelected : string;
 export const PushButtonPrefixDimension : string;
 export const PushButtonPrefixMarginRight : string;
 export const PushButtonBorderWidth : string;
+export const Opacity0 : string;
 export const Opacity25 : string;
 export const Opacity35 : string;
 export const Opacity40 : string;

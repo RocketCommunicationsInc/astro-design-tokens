@@ -1,3 +1,4 @@
+export const Opacity0 = "0%";
 export const Opacity25 = "25%";
 export const Opacity35 = "35%";
 export const Opacity40 = "40%";

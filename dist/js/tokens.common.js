@@ -279,6 +279,7 @@ module.exports = {
   "PushButtonPrefixDimension": "20px",
   "PushButtonPrefixMarginRight": "0.25rem",
   "PushButtonBorderWidth": "1px",
+  "Opacity0": "0%",
   "Opacity25": "25%",
   "Opacity35": "35%",
   "Opacity40": "40%",
