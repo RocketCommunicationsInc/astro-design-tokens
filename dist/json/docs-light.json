@@ -390,6 +390,7 @@
   {
     "name": "card-shadow",
     "value": " 0px 4px 4px 1px rgba(0, 0, 0, 0.45)",
+    "property": "shadow",
     "category": "boxShadow",
     "component": "card",
     "referenceToken": "shadow-overlay",
@@ -5479,6 +5480,7 @@
     "name": "shadow-overlay",
     "value": " 0px 4px 4px 1px rgba(0, 0, 0, 0.35)",
     "description": "Drop shadow for Dialogs",
+    "property": "overlay",
     "category": "boxShadow",
     "component": null,
     "referenceToken": "color-palette-neutral-1000",

@@ -102,7 +102,8 @@ StyleDictionary.registerFormat({
       }
 
       if (token.type === 'boxShadow') {
-        type = token.attributes.item
+        // acounts for card-shadow and shadow-overlay tokens that were not generating properties
+        type = !token.attributes.item ? token.attributes.type : token.attributes.item
       }
 
       // account for component tokens with elements like button-icon-color-background
