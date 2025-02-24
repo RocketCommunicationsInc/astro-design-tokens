@@ -6,6 +6,7 @@ export const Opacity45 = "45%";
 export const Opacity50 = "50%";
 export const ColorPaletteNeutral1000 = "#000000";
 export const ColorPaletteNeutral000 = "#ffffff";
+export const ColorPaletteNeutral1000a00 = "#00000000";
 export const ColorPaletteDarkblue100 = "#cbdee9";
 export const ColorPaletteDarkblue200 = "#98bdd3";
 export const ColorPaletteDarkblue300 = "#649cbd";

@@ -1,6 +1,7 @@
 module.exports = {
 	attributeCTI: require('./attributeCTI'),
 	colorRGB: require('./colorRGB'),
+	colorPreserveHex: require('./colorPreserveHex'),
 	percentToEm: require('./percentToEm'),
 	pxToUnitless: require('./pxToUnitless'),
 	pxToRem: require('./pxToRem'),

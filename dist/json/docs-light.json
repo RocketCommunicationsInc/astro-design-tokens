@@ -2618,6 +2618,14 @@
     "tokenLevel": "reference"
   },
   {
+    "name": "color-palette-neutral-1000a00",
+    "value": "#00000000",
+    "property": "palette",
+    "category": "color",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
     "name": "color-palette-darkblue-100",
     "value": "#cbdee9",
     "property": "palette",
@@ -3524,6 +3532,16 @@
     "component": null,
     "referenceToken": "color-palette-darkblue-400",
     "tokenLevel": "theme"
+  },
+  {
+    "name": "color-background-transparent",
+    "value": "#00000000",
+    "description": "Transparent color used for backgrounds.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-neutral-1000a00",
+    "tokenLevel": "system"
   },
   {
     "name": "color-text-primary",

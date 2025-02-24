@@ -11,6 +11,7 @@
   "color-background-interactive-default": "#4dacff",
   "color-background-interactive-hover": "#92cbff",
   "color-background-interactive-muted": "#2b659b",
+  "color-background-transparent": "#00000000",
   "color-text-primary": "#ffffff",
   "color-text-secondary": "#d4d8dd",
   "color-text-placeholder": "#a4abb6",

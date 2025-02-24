@@ -72,6 +72,12 @@
           "description": "Muted version of the primary color used for the background of interactive elements that don't need to be as strong as the primary color",
           "rawValue": "{color.palette.brightblue.700}"
         }
+      },
+      "transparent": {
+        "value": "#00000000",
+        "type": "color",
+        "description": "Transparent color used for backgrounds.",
+        "rawValue": "{color.palette.neutral.1000a00}"
       }
     },
     "text": {

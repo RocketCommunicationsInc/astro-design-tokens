@@ -20,7 +20,8 @@
         "default": "#4dacff",
         "hover": "#92cbff",
         "muted": "#2b659b"
-      }
+      },
+      "transparent": "#00000000"
     },
     "text": {
       "primary": "#ffffff",

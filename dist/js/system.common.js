@@ -11,6 +11,7 @@ module.exports = {
   "ColorBackgroundInteractiveDefault": "#4dacff",
   "ColorBackgroundInteractiveHover": "#92cbff",
   "ColorBackgroundInteractiveMuted": "#2b659b",
+  "ColorBackgroundTransparent": "#00000000",
   "ColorTextPrimary": "#ffffff",
   "ColorTextSecondary": "#d4d8dd",
   "ColorTextPlaceholder": "#a4abb6",

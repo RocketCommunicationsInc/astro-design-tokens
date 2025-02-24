@@ -7,6 +7,7 @@ module.exports = {
   "Opacity50": "50%",
   "ColorPaletteNeutral1000": "#000000",
   "ColorPaletteNeutral000": "#ffffff",
+  "ColorPaletteNeutral1000a00": "#00000000",
   "ColorPaletteDarkblue100": "#cbdee9",
   "ColorPaletteDarkblue200": "#98bdd3",
   "ColorPaletteDarkblue300": "#649cbd",

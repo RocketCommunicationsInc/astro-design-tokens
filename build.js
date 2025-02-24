@@ -194,6 +194,7 @@ StyleDictionary.registerFormat({
 StyleDictionary.registerTransformGroup({
   name: "custom/css",
   transforms: StyleDictionary.transformGroup["css"].concat([
+    "colorPreserveHex",
     "size/pxToUnitless",
     "size/pxToRem",
     "letterSpacing/percentToEm",
@@ -206,6 +207,7 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/scss",
   transforms: StyleDictionary.transformGroup["less"].concat([
+    "colorPreserveHex",
     "size/pxToUnitless",
     "size/pxToRem",
     "letterSpacing/percentToEm",
@@ -218,6 +220,7 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/json",
   transforms: StyleDictionary.transformGroup["web"].concat([
+    "colorPreserveHex",
     "size/pxToUnitless",
     "size/pxToRem",
     "letterSpacing/percentToEm",
@@ -230,6 +233,7 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/js",
   transforms: StyleDictionary.transformGroup["js"].concat([
+    "colorPreserveHex",
     "size/pxToUnitless",
     "size/pxToRem",
     "letterSpacing/percentToEm",
