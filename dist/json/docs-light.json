@@ -9,10 +9,11 @@
   },
   {
     "name": "button-color-background-borderless",
-    "value": "#ffffff00",
+    "value": "#00000000",
     "property": "background",
     "category": "color",
     "component": "button",
+    "referenceToken": "color-background-transparent",
     "tokenLevel": "component"
   },
   {
@@ -35,15 +36,16 @@
   },
   {
     "name": "button-color-background-secondary",
-    "value": "#ffffff00",
+    "value": "#00000000",
     "property": "background",
     "category": "color",
     "component": "button",
+    "referenceToken": "color-background-transparent",
     "tokenLevel": "component"
   },
   {
     "name": "button-color-border-borderless",
-    "value": "#ffffff00",
+    "value": "#00000000",
     "property": "border",
     "category": "color",
     "component": "button",
@@ -1330,11 +1332,11 @@
   },
   {
     "name": "select-color-background-inline",
-    "value": "#10192300",
+    "value": "#00000000",
     "property": "background-inline",
     "category": "color",
     "component": "select",
-    "referenceToken": "color-background-base-default",
+    "referenceToken": "color-background-transparent",
     "tokenLevel": "component"
   },
   {
@@ -1348,11 +1350,11 @@
   },
   {
     "name": "select-color-border-inline-default",
-    "value": "#2b659b00",
+    "value": "#00000000",
     "property": "border",
     "category": "color",
     "component": "select",
-    "referenceToken": "color-border-interactive-muted",
+    "referenceToken": "color-background-transparent",
     "tokenLevel": "component"
   },
   {
@@ -2354,20 +2356,20 @@
   },
   {
     "name": "push-button-color-background-unselected-default",
-    "value": "#99f66600",
+    "value": "#00000000",
     "property": "background",
     "category": "color",
     "component": "push-button",
-    "referenceToken": "color-palette-green-400",
+    "referenceToken": "color-background-transparent",
     "tokenLevel": "component"
   },
   {
     "name": "push-button-color-background-unselected-hover",
-    "value": "#99f66600",
+    "value": "#00000000",
     "property": "background",
     "category": "color",
     "component": "push-button",
-    "referenceToken": "color-palette-green-400",
+    "referenceToken": "color-background-transparent",
     "tokenLevel": "component"
   },
   {

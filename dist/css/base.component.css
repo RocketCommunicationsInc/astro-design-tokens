@@ -18,8 +18,8 @@
   --push-button-padding-x-small: 1rem;
   --push-button-padding-x-medium-icon-only: 0.5rem;
   --push-button-padding-x-medium: 1rem;
-  --push-button-color-background-unselected-hover: #99f66600;
-  --push-button-color-background-unselected-default: #99f66600;
+  --push-button-color-background-unselected-hover: #00000000;
+  --push-button-color-background-unselected-default: #00000000;
   --push-button-color-background-selected-hover: #99f666;
   --push-button-color-background-selected-default: #56f000;
   --push-button-color-border-selected-hover: #99f666;
@@ -129,9 +129,9 @@
   --select-color-text: #4dacff;
   --select-color-border-invalid: #ff3838;
   --select-color-border-hover: #92cbff;
-  --select-color-border-inline-default: #2b659b00;
+  --select-color-border-inline-default: #00000000;
   --select-color-border-default: #2b659b;
-  --select-color-background-inline: #10192300;
+  --select-color-background-inline: #00000000;
   --select-color-background: #101923;
   --select-caret-selector-width: 32px;
   --select-caret-selector-color-background: #1c3f5e;
@@ -273,10 +273,10 @@
   --button-color-border-secondary-default: #4dacff;
   --button-color-border-primary-hover: #92cbff;
   --button-color-border-primary-default: #4dacff;
-  --button-color-border-borderless: #ffffff00;
-  --button-color-background-secondary: #ffffff00;
+  --button-color-border-borderless: #00000000;
+  --button-color-background-secondary: #00000000;
   --button-color-background-primary-hover: #92cbff;
   --button-color-background-primary-default: #4dacff;
-  --button-color-background-borderless: #ffffff00;
+  --button-color-background-borderless: #00000000;
   --button-border-width: 1px;
 }
