@@ -10,6 +10,7 @@ export const ColorBackgroundSurfaceSelected = "#1c3f5e";
 export const ColorBackgroundInteractiveDefault = "#4dacff";
 export const ColorBackgroundInteractiveHover = "#92cbff";
 export const ColorBackgroundInteractiveMuted = "#2b659b";
+export const ColorBackgroundTransparent = "#00000000";
 export const ColorTextPrimary = "#ffffff";
 export const ColorTextSecondary = "#d4d8dd";
 export const ColorTextPlaceholder = "#a4abb6";

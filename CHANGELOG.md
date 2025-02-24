@@ -1,5 +1,11 @@
 # @astrouxds/tokens
 
+## 1.14.0
+
+### Minor Changes
+
+- New tokens for opacity and transparent backgrounds and updates to the references and internal token build processes.
+
 ## 1.13.0
 
 ### Minor Changes

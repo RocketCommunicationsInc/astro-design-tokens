@@ -296,6 +296,7 @@
   --color-palette-darkblue-300: #649cbd;
   --color-palette-darkblue-200: #98bdd3;
   --color-palette-darkblue-100: #cbdee9;
+  --color-palette-neutral-1000a00: #00000000;
   --color-palette-neutral-000: #ffffff;
   --color-palette-neutral-1000: #000000;
   --opacity-50: 50%;
@@ -303,4 +304,5 @@
   --opacity-40: 40%;
   --opacity-35: 35%;
   --opacity-25: 25%;
+  --opacity-0: 0%;
 }

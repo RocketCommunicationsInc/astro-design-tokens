@@ -102,7 +102,8 @@ StyleDictionary.registerFormat({
       }
 
       if (token.type === 'boxShadow') {
-        type = token.attributes.item
+        // acounts for card-shadow and shadow-overlay tokens that were not generating properties
+        type = !token.attributes.item ? token.attributes.type : token.attributes.item
       }
 
       // account for component tokens with elements like button-icon-color-background
@@ -193,6 +194,7 @@ StyleDictionary.registerFormat({
 StyleDictionary.registerTransformGroup({
   name: "custom/css",
   transforms: StyleDictionary.transformGroup["css"].concat([
+    "colorPreserveHex",
     "size/pxToUnitless",
     "size/pxToRem",
     "letterSpacing/percentToEm",
@@ -205,6 +207,7 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/scss",
   transforms: StyleDictionary.transformGroup["less"].concat([
+    "colorPreserveHex",
     "size/pxToUnitless",
     "size/pxToRem",
     "letterSpacing/percentToEm",
@@ -217,6 +220,7 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/json",
   transforms: StyleDictionary.transformGroup["web"].concat([
+    "colorPreserveHex",
     "size/pxToUnitless",
     "size/pxToRem",
     "letterSpacing/percentToEm",
@@ -229,6 +233,7 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: "custom/js",
   transforms: StyleDictionary.transformGroup["js"].concat([
+    "colorPreserveHex",
     "size/pxToUnitless",
     "size/pxToRem",
     "letterSpacing/percentToEm",

@@ -3,15 +3,15 @@
     "borderWidth": "1px",
     "color": {
       "background": {
-        "borderless": "#ffffff00",
+        "borderless": "#00000000",
         "primary": {
           "default": "#4dacff",
           "hover": "#92cbff"
         },
-        "secondary": "#ffffff00"
+        "secondary": "#00000000"
       },
       "border": {
-        "borderless": "#ffffff00",
+        "borderless": "#00000000",
         "primary": {
           "default": "#4dacff",
           "hover": "#92cbff"
@@ -370,11 +370,11 @@
     },
     "color": {
       "background": "#101923",
-      "background-inline": "#10192300",
+      "background-inline": "#00000000",
       "border": {
         "default": "#2b659b",
         "inline": {
-          "default": "#2b659b00"
+          "default": "#00000000"
         },
         "hover": "#92cbff",
         "invalid": "#ff3838"
@@ -642,8 +642,8 @@
           "hover": "#99f666"
         },
         "unselected": {
-          "default": "#99f66600",
-          "hover": "#99f66600"
+          "default": "#00000000",
+          "hover": "#00000000"
         }
       }
     },

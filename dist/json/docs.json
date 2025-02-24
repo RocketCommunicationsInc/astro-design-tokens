@@ -9,10 +9,11 @@
   },
   {
     "name": "button-color-background-borderless",
-    "value": "#ffffff00",
+    "value": "#00000000",
     "property": "background",
     "category": "color",
     "component": "button",
+    "referenceToken": "color-background-transparent",
     "tokenLevel": "component"
   },
   {
@@ -35,15 +36,16 @@
   },
   {
     "name": "button-color-background-secondary",
-    "value": "#ffffff00",
+    "value": "#00000000",
     "property": "background",
     "category": "color",
     "component": "button",
+    "referenceToken": "color-background-transparent",
     "tokenLevel": "component"
   },
   {
     "name": "button-color-border-borderless",
-    "value": "#ffffff00",
+    "value": "#00000000",
     "property": "border",
     "category": "color",
     "component": "button",
@@ -390,6 +392,7 @@
   {
     "name": "card-shadow",
     "value": " 0px 4px 4px 1px rgba(0, 0, 0, 0.45)",
+    "property": "shadow",
     "category": "boxShadow",
     "component": "card",
     "referenceToken": "shadow-overlay",
@@ -1328,11 +1331,11 @@
   },
   {
     "name": "select-color-background-inline",
-    "value": "#10192300",
+    "value": "#00000000",
     "property": "background-inline",
     "category": "color",
     "component": "select",
-    "referenceToken": "color-background-base-default",
+    "referenceToken": "color-background-transparent",
     "tokenLevel": "component"
   },
   {
@@ -1346,11 +1349,11 @@
   },
   {
     "name": "select-color-border-inline-default",
-    "value": "#2b659b00",
+    "value": "#00000000",
     "property": "border",
     "category": "color",
     "component": "select",
-    "referenceToken": "color-border-interactive-muted",
+    "referenceToken": "color-background-transparent",
     "tokenLevel": "component"
   },
   {
@@ -2350,20 +2353,20 @@
   },
   {
     "name": "push-button-color-background-unselected-default",
-    "value": "#99f66600",
+    "value": "#00000000",
     "property": "background",
     "category": "color",
     "component": "push-button",
-    "referenceToken": "color-palette-green-400",
+    "referenceToken": "color-background-transparent",
     "tokenLevel": "component"
   },
   {
     "name": "push-button-color-background-unselected-hover",
-    "value": "#99f66600",
+    "value": "#00000000",
     "property": "background",
     "category": "color",
     "component": "push-button",
-    "referenceToken": "color-palette-green-400",
+    "referenceToken": "color-background-transparent",
     "tokenLevel": "component"
   },
   {
@@ -2535,6 +2538,14 @@
     "tokenLevel": "component"
   },
   {
+    "name": "opacity-0",
+    "value": "0%",
+    "property": "0",
+    "category": "opacity",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
     "name": "opacity-25",
     "value": "25%",
     "description": "Opacity used in drop shadow for scrollbars in light theme",
@@ -2600,6 +2611,14 @@
     "name": "color-palette-neutral-000",
     "value": "#ffffff",
     "description": "Protected",
+    "property": "palette",
+    "category": "color",
+    "component": null,
+    "tokenLevel": "reference"
+  },
+  {
+    "name": "color-palette-neutral-1000a00",
+    "value": "#00000000",
     "property": "palette",
     "category": "color",
     "component": null,
@@ -3511,6 +3530,16 @@
     "category": "color",
     "component": null,
     "referenceToken": "color-palette-brightblue-700",
+    "tokenLevel": "system"
+  },
+  {
+    "name": "color-background-transparent",
+    "value": "#00000000",
+    "description": "Transparent color used for backgrounds.",
+    "property": "background",
+    "category": "color",
+    "component": null,
+    "referenceToken": "color-palette-neutral-1000a00",
     "tokenLevel": "system"
   },
   {
@@ -5476,6 +5505,7 @@
     "name": "shadow-overlay",
     "value": " 0px 4px 4px 1px rgba(0, 0, 0, 0.45)",
     "description": "Drop shadow for overlays like Dialogs and overlay panels",
+    "property": "overlay",
     "category": "boxShadow",
     "component": null,
     "referenceToken": "color-palette-neutral-1000",

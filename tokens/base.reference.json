@@ -1,5 +1,10 @@
 {
     "opacity": {
+        "0": {
+            "value": "0%",
+            "type": "opacity",
+            "rawValue": "0%"
+        },
         "25": {
             "value": "25%",
             "type": "opacity",
@@ -43,6 +48,11 @@
                     "type": "color",
                     "description": "Protected",
                     "rawValue": "#ffffff"
+                },
+                "1000a00": {
+                    "value": "#00000000",
+                    "type": "color",
+                    "rawValue": "#00000000"
                 }
             },
             "darkblue": {
