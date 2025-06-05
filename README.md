@@ -1,4 +1,5 @@
 # Astro UXDS Design Tokens
+[![NPM version](https://img.shields.io/npm/v/@astrouxds/tokens.svg?style=flat)](https://www.npmjs.com/package/npm-install-global) [![NPM monthly downloads](https://img.shields.io/npm/dm/@astrouxds/tokens.svg?style=flat)](https://npmjs.org/package/@astrouxds/tokens) [![NPM total downloads](https://img.shields.io/npm/dt/@astrouxds/tokens.svg?style=flat)](https://npmjs.org/package/@astrouxds/tokens) [![](https://data.jsdelivr.com/v1/package/npm/@astrouxds/tokens/badge)](https://www.jsdelivr.com/package/npm/@astrouxds/tokens)
 
 This package includes all of [AstroUXDS's](https://www.astrouxds.com/) design tokens in various different formats for you to consume in your applications.
 
